@@ -1,0 +1,319 @@
+{
+ "compat_features": [
+  "css.selectors.active",
+  "css.selectors.active.non_a_elements",
+  "css.selectors.focus",
+  "css.selectors.hover",
+  "css.selectors.hover.a_elements",
+  "css.selectors.hover.all_elements"
+ ],
+ "description": "The :active, :focus, and :hover CSS pseudo-classes match elements based on how users are interacting with them.",
+ "description_html": "The <code>:active</code>, <code>:focus</code>, and <code>:hover</code> CSS pseudo-classes match elements based on how users are interacting with them.",
+ "group": [
+  "selectors"
+ ],
+ "kind": "feature",
+ "name": "User action pseudo-classes",
+ "spec": [
+  "https://drafts.csswg.org/selectors-4/#the-hover-pseudo",
+  "https://drafts.csswg.org/selectors-4/#the-active-pseudo",
+  "https://drafts.csswg.org/selectors-4/#the-focus-pseudo"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "css.selectors.active": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "css.selectors.active.non_a_elements": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "css.selectors.focus": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "css.selectors.hover": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "css.selectors.hover.a_elements": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "css.selectors.hover.all_elements": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   }
+  },
+  "support": {
+   "chrome": "1",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "1",
+   "firefox_android": "4",
+   "safari": "2",
+   "safari_ios": "1"
+  }
+ },
+ "id": "user-action-pseudos",
+ "groups": [
+  "selectors"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/selectors-4/#the-hover-pseudo",
+   "seriesComposition": "full",
+   "shortname": "selectors-4",
+   "series": {
+    "shortname": "selectors",
+    "currentSpecification": "selectors-4",
+    "title": "Selectors",
+    "shortTitle": "Selectors",
+    "releaseUrl": "https://www.w3.org/TR/selectors/",
+    "nightlyUrl": "https://drafts.csswg.org/selectors/"
+   },
+   "seriesVersion": "4",
+   "seriesPrevious": "selectors-3",
+   "seriesNext": "selectors-5",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/selectors-4/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/selectors-4/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/selectors-4/",
+     "https://w3c.github.io/csswg-drafts/selectors/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "selectors-4/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "Selectors Level 4",
+   "source": "w3c",
+   "shortTitle": "Selectors 4",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/selectors"
+    ]
+   },
+   "fragment": "the-hover-pseudo"
+  },
+  {
+   "url": "https://drafts.csswg.org/selectors-4/#the-active-pseudo",
+   "seriesComposition": "full",
+   "shortname": "selectors-4",
+   "series": {
+    "shortname": "selectors",
+    "currentSpecification": "selectors-4",
+    "title": "Selectors",
+    "shortTitle": "Selectors",
+    "releaseUrl": "https://www.w3.org/TR/selectors/",
+    "nightlyUrl": "https://drafts.csswg.org/selectors/"
+   },
+   "seriesVersion": "4",
+   "seriesPrevious": "selectors-3",
+   "seriesNext": "selectors-5",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/selectors-4/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/selectors-4/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/selectors-4/",
+     "https://w3c.github.io/csswg-drafts/selectors/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "selectors-4/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "Selectors Level 4",
+   "source": "w3c",
+   "shortTitle": "Selectors 4",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/selectors"
+    ]
+   },
+   "fragment": "the-active-pseudo"
+  },
+  {
+   "url": "https://drafts.csswg.org/selectors-4/#the-focus-pseudo",
+   "seriesComposition": "full",
+   "shortname": "selectors-4",
+   "series": {
+    "shortname": "selectors",
+    "currentSpecification": "selectors-4",
+    "title": "Selectors",
+    "shortTitle": "Selectors",
+    "releaseUrl": "https://www.w3.org/TR/selectors/",
+    "nightlyUrl": "https://drafts.csswg.org/selectors/"
+   },
+   "seriesVersion": "4",
+   "seriesPrevious": "selectors-3",
+   "seriesNext": "selectors-5",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/selectors-4/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/selectors-4/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/selectors-4/",
+     "https://w3c.github.io/csswg-drafts/selectors/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "selectors-4/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "Selectors Level 4",
+   "source": "w3c",
+   "shortTitle": "Selectors 4",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/selectors"
+    ]
+   },
+   "fragment": "the-focus-pseudo"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Selectors/:active",
+   "title": ":active",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:active"
+  },
+  {
+   "slug": "Web/CSS/Reference/Selectors/:focus",
+   "title": ":focus",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:focus"
+  },
+  {
+   "slug": "Web/CSS/Reference/Selectors/:hover",
+   "title": ":hover",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:hover"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:user-action-pseudos"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

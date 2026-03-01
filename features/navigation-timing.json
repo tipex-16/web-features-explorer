@@ -1,0 +1,293 @@
+{
+ "compat_features": [
+  "api.PerformanceNavigationTiming",
+  "api.PerformanceNavigationTiming.criticalCHRestart",
+  "api.PerformanceNavigationTiming.domComplete",
+  "api.PerformanceNavigationTiming.domContentLoadedEventEnd",
+  "api.PerformanceNavigationTiming.domContentLoadedEventStart",
+  "api.PerformanceNavigationTiming.domInteractive",
+  "api.PerformanceNavigationTiming.loadEventEnd",
+  "api.PerformanceNavigationTiming.loadEventStart",
+  "api.PerformanceNavigationTiming.redirectCount",
+  "api.PerformanceNavigationTiming.toJSON",
+  "api.PerformanceNavigationTiming.type",
+  "api.PerformanceNavigationTiming.unloadEventEnd",
+  "api.PerformanceNavigationTiming.unloadEventStart"
+ ],
+ "description": "The navigation performance entry and the PerformanceNavigationTiming API measures navigation events, such as loading time or the number of redirects.",
+ "description_html": "The <code>navigation</code> performance entry and the <code>PerformanceNavigationTiming</code> API measures navigation events, such as loading time or the number of redirects.",
+ "group": [
+  "performance"
+ ],
+ "kind": "feature",
+ "name": "Navigation timing",
+ "spec": [
+  "https://w3c.github.io/navigation-timing/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2024-04-25",
+  "baseline_low_date": "2021-10-25",
+  "by_compat_key": {
+   "api.PerformanceNavigationTiming": {
+    "baseline": "high",
+    "baseline_high_date": "2024-04-25",
+    "baseline_low_date": "2021-10-25",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "12",
+     "firefox": "58",
+     "firefox_android": "58",
+     "safari": "15",
+     "safari_ios": "15.1"
+    }
+   },
+   "api.PerformanceNavigationTiming.criticalCHRestart": {
+    "baseline": false,
+    "support": {
+     "chrome": "116",
+     "chrome_android": "116",
+     "edge": "116"
+    }
+   },
+   "api.PerformanceNavigationTiming.domComplete": {
+    "baseline": "high",
+    "baseline_high_date": "2024-04-25",
+    "baseline_low_date": "2021-10-25",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "12",
+     "firefox": "58",
+     "firefox_android": "58",
+     "safari": "15",
+     "safari_ios": "15.1"
+    }
+   },
+   "api.PerformanceNavigationTiming.domContentLoadedEventEnd": {
+    "baseline": "high",
+    "baseline_high_date": "2024-04-25",
+    "baseline_low_date": "2021-10-25",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "12",
+     "firefox": "58",
+     "firefox_android": "58",
+     "safari": "15",
+     "safari_ios": "15.1"
+    }
+   },
+   "api.PerformanceNavigationTiming.domContentLoadedEventStart": {
+    "baseline": "high",
+    "baseline_high_date": "2024-04-25",
+    "baseline_low_date": "2021-10-25",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "12",
+     "firefox": "58",
+     "firefox_android": "58",
+     "safari": "15",
+     "safari_ios": "15.1"
+    }
+   },
+   "api.PerformanceNavigationTiming.domInteractive": {
+    "baseline": "high",
+    "baseline_high_date": "2024-04-25",
+    "baseline_low_date": "2021-10-25",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "12",
+     "firefox": "58",
+     "firefox_android": "58",
+     "safari": "15",
+     "safari_ios": "15.1"
+    }
+   },
+   "api.PerformanceNavigationTiming.loadEventEnd": {
+    "baseline": "high",
+    "baseline_high_date": "2024-04-25",
+    "baseline_low_date": "2021-10-25",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "12",
+     "firefox": "58",
+     "firefox_android": "58",
+     "safari": "15",
+     "safari_ios": "15.1"
+    }
+   },
+   "api.PerformanceNavigationTiming.loadEventStart": {
+    "baseline": "high",
+    "baseline_high_date": "2024-04-25",
+    "baseline_low_date": "2021-10-25",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "12",
+     "firefox": "58",
+     "firefox_android": "58",
+     "safari": "15",
+     "safari_ios": "15.1"
+    }
+   },
+   "api.PerformanceNavigationTiming.redirectCount": {
+    "baseline": "high",
+    "baseline_high_date": "2024-04-25",
+    "baseline_low_date": "2021-10-25",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "12",
+     "firefox": "58",
+     "firefox_android": "58",
+     "safari": "15",
+     "safari_ios": "15.1"
+    }
+   },
+   "api.PerformanceNavigationTiming.toJSON": {
+    "baseline": "high",
+    "baseline_high_date": "2024-04-25",
+    "baseline_low_date": "2021-10-25",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "16",
+     "firefox": "58",
+     "firefox_android": "58",
+     "safari": "15",
+     "safari_ios": "15.1"
+    }
+   },
+   "api.PerformanceNavigationTiming.type": {
+    "baseline": "high",
+    "baseline_high_date": "2024-04-25",
+    "baseline_low_date": "2021-10-25",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "12",
+     "firefox": "58",
+     "firefox_android": "58",
+     "safari": "15",
+     "safari_ios": "15.1"
+    }
+   },
+   "api.PerformanceNavigationTiming.unloadEventEnd": {
+    "baseline": "high",
+    "baseline_high_date": "2024-04-25",
+    "baseline_low_date": "2021-10-25",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "12",
+     "firefox": "58",
+     "firefox_android": "58",
+     "safari": "15",
+     "safari_ios": "15.1"
+    }
+   },
+   "api.PerformanceNavigationTiming.unloadEventStart": {
+    "baseline": "high",
+    "baseline_high_date": "2024-04-25",
+    "baseline_low_date": "2021-10-25",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "12",
+     "firefox": "58",
+     "firefox_android": "58",
+     "safari": "15",
+     "safari_ios": "15.1"
+    }
+   }
+  },
+  "support": {
+   "chrome": "57",
+   "chrome_android": "57",
+   "edge": "12",
+   "firefox": "58",
+   "firefox_android": "58",
+   "safari": "15",
+   "safari_ios": "15.1"
+  }
+ },
+ "id": "navigation-timing",
+ "groups": [
+  "performance"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/navigation-timing/",
+   "seriesComposition": "full",
+   "shortname": "navigation-timing-2",
+   "series": {
+    "shortname": "navigation-timing",
+    "currentSpecification": "navigation-timing-2",
+    "title": "Navigation Timing",
+    "shortTitle": "Navigation Timing",
+    "releaseUrl": "https://www.w3.org/TR/navigation-timing/",
+    "nightlyUrl": "https://w3c.github.io/navigation-timing/"
+   },
+   "seriesVersion": "2",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Performance Working Group",
+     "url": "https://www.w3.org/groups/wg/webperf/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/navigation-timing-2/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/navigation-timing/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/navigation-timing",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Navigation Timing Level 2",
+   "source": "w3c",
+   "shortTitle": "Navigation Timing 2",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "navigation-timing"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Performance_API/Navigation_timing",
+   "title": "Navigation timing",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Performance_API/Navigation_timing"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:navigation-timing"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2021-10-25T00:00:00.000Z",
+ "baselineHighDateAsObject": "2024-04-25T00:00:00.000Z"
+}

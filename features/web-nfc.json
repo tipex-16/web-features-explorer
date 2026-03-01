@@ -1,0 +1,316 @@
+{
+ "caniuse": [
+  "webnfc"
+ ],
+ "compat_features": [
+  "api.NDEFMessage",
+  "api.NDEFMessage.NDEFMessage",
+  "api.NDEFMessage.records",
+  "api.NDEFMessage.secure_context_required",
+  "api.NDEFReader",
+  "api.NDEFReader.NDEFReader",
+  "api.NDEFReader.makeReadOnly",
+  "api.NDEFReader.reading_event",
+  "api.NDEFReader.readingerror_event",
+  "api.NDEFReader.scan",
+  "api.NDEFReader.secure_context_required",
+  "api.NDEFReader.write",
+  "api.NDEFReadingEvent",
+  "api.NDEFReadingEvent.NDEFReadingEvent",
+  "api.NDEFReadingEvent.message",
+  "api.NDEFReadingEvent.secure_context_required",
+  "api.NDEFReadingEvent.serialNumber",
+  "api.NDEFRecord",
+  "api.NDEFRecord.NDEFRecord",
+  "api.NDEFRecord.data",
+  "api.NDEFRecord.encoding",
+  "api.NDEFRecord.id",
+  "api.NDEFRecord.lang",
+  "api.NDEFRecord.mediaType",
+  "api.NDEFRecord.recordType",
+  "api.NDEFRecord.secure_context_required",
+  "api.NDEFRecord.toRecords"
+ ],
+ "description": "The NDEFReader API reads and writes messages to near-field communication (NFC) tags.",
+ "description_html": "The <code>NDEFReader</code> API reads and writes messages to near-field communication (NFC) tags.",
+ "kind": "feature",
+ "name": "Web NFC",
+ "spec": [
+  "https://w3c.github.io/web-nfc/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.NDEFMessage": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "89"
+    }
+   },
+   "api.NDEFMessage.NDEFMessage": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "89"
+    }
+   },
+   "api.NDEFMessage.records": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "89"
+    }
+   },
+   "api.NDEFMessage.secure_context_required": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "89"
+    }
+   },
+   "api.NDEFReader": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "89"
+    }
+   },
+   "api.NDEFReader.NDEFReader": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "89"
+    }
+   },
+   "api.NDEFReader.makeReadOnly": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "100"
+    }
+   },
+   "api.NDEFReader.reading_event": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "89"
+    }
+   },
+   "api.NDEFReader.readingerror_event": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "89"
+    }
+   },
+   "api.NDEFReader.scan": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "89"
+    }
+   },
+   "api.NDEFReader.secure_context_required": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "89"
+    }
+   },
+   "api.NDEFReader.write": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "89"
+    }
+   },
+   "api.NDEFReadingEvent": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "89"
+    }
+   },
+   "api.NDEFReadingEvent.NDEFReadingEvent": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "89"
+    }
+   },
+   "api.NDEFReadingEvent.message": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "89"
+    }
+   },
+   "api.NDEFReadingEvent.secure_context_required": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "89"
+    }
+   },
+   "api.NDEFReadingEvent.serialNumber": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "89"
+    }
+   },
+   "api.NDEFRecord": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "89"
+    }
+   },
+   "api.NDEFRecord.NDEFRecord": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "89"
+    }
+   },
+   "api.NDEFRecord.data": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "89"
+    }
+   },
+   "api.NDEFRecord.encoding": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "89"
+    }
+   },
+   "api.NDEFRecord.id": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "89"
+    }
+   },
+   "api.NDEFRecord.lang": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "89"
+    }
+   },
+   "api.NDEFRecord.mediaType": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "89"
+    }
+   },
+   "api.NDEFRecord.recordType": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "89"
+    }
+   },
+   "api.NDEFRecord.secure_context_required": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "89"
+    }
+   },
+   "api.NDEFRecord.toRecords": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "89"
+    }
+   }
+  },
+  "support": {
+   "chrome_android": "100"
+  }
+ },
+ "id": "web-nfc",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/web-nfc/",
+   "seriesComposition": "full",
+   "shortname": "web-nfc",
+   "series": {
+    "shortname": "web-nfc",
+    "currentSpecification": "web-nfc",
+    "title": "Web NFC",
+    "shortTitle": "Web NFC",
+    "nightlyUrl": "https://w3c.github.io/web-nfc/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web NFC Community Group",
+     "url": "https://www.w3.org/community/web-nfc/"
+    }
+   ],
+   "nightly": {
+    "url": "https://w3c.github.io/web-nfc/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/web-nfc",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Web NFC",
+   "source": "spec",
+   "shortTitle": "Web NFC",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "web-nfc"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Web_NFC_API",
+   "title": "Web NFC API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Web_NFC_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/238",
+   "position": "negative",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": true,
+ "stateOfSurveys": [
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/system_capabilities/#system_capabilities_features",
+   "question": "system_capabilities",
+   "subQuestion": "system_capabilities_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.system_capabilities.system_capabilities_features.9.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.66.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+   "question": "_all_features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.66.entity"
+  }
+ ],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00001462,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/106"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:web-nfc"
+ },
+ "developerSignals": null,
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1308614"
+  ],
+  "chrome": [
+   "https://bugs.chromium.org/p/chromium/issues/detail?id=1275576",
+   "https://code.google.com/p/chromium/issues/detail?id=520391"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

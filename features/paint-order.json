@@ -1,0 +1,195 @@
+{
+ "compat_features": [
+  "css.properties.paint-order",
+  "svg.global_attributes.paint-order"
+ ],
+ "description": "The paint-order CSS property sets the z-order of strokes, fills, and (in SVG content) markers. For example, paint-order: markers stroke fill; draws the markers, then stroke on top of markers, then fill on top of both markers and stroke.",
+ "description_html": "The <code>paint-order</code> CSS property sets the z-order of strokes, fills, and (in SVG content) markers. For example, <code>paint-order: markers stroke fill;</code> draws the markers, then stroke on top of markers, then fill on top of both markers and stroke.",
+ "group": [
+  "css"
+ ],
+ "kind": "feature",
+ "name": "paint-order",
+ "spec": [
+  "https://svgwg.org/svg2-draft/painting.html#PaintOrder"
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2024-03-22",
+  "by_compat_key": {
+   "css.properties.paint-order": {
+    "baseline": "low",
+    "baseline_low_date": "2024-03-22",
+    "support": {
+     "chrome": "123",
+     "chrome_android": "123",
+     "edge": "123",
+     "firefox": "60",
+     "firefox_android": "60",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "svg.global_attributes.paint-order": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "≤73",
+     "chrome_android": "≤73",
+     "edge": "79",
+     "firefox": "≤66",
+     "firefox_android": "≤66",
+     "safari": "≤12",
+     "safari_ios": "≤12"
+    }
+   }
+  },
+  "support": {
+   "chrome": "123",
+   "chrome_android": "123",
+   "edge": "123",
+   "firefox": "≤66",
+   "firefox_android": "≤66",
+   "safari": "≤12",
+   "safari_ios": "≤12"
+  }
+ },
+ "id": "paint-order",
+ "groups": [
+  "css"
+ ],
+ "specs": [
+  {
+   "url": "https://svgwg.org/svg2-draft/painting.html#PaintOrder",
+   "seriesComposition": "full",
+   "shortname": "SVG2",
+   "series": {
+    "shortname": "SVG",
+    "currentSpecification": "SVG2",
+    "title": "Scalable Vector Graphics (SVG)",
+    "shortTitle": "SVG",
+    "releaseUrl": "https://www.w3.org/TR/SVG/",
+    "nightlyUrl": "https://svgwg.org/svg2-draft/"
+   },
+   "seriesVersion": "2",
+   "seriesPrevious": "SVG11",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "SVG Working Group",
+     "url": "https://www.w3.org/groups/wg/svg/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/SVG2/",
+    "status": "Candidate Recommendation Snapshot",
+    "pages": [
+     "https://www.w3.org/TR/SVG2/intro.html",
+     "https://www.w3.org/TR/SVG2/conform.html",
+     "https://www.w3.org/TR/SVG2/render.html",
+     "https://www.w3.org/TR/SVG2/types.html",
+     "https://www.w3.org/TR/SVG2/struct.html",
+     "https://www.w3.org/TR/SVG2/styling.html",
+     "https://www.w3.org/TR/SVG2/geometry.html",
+     "https://www.w3.org/TR/SVG2/coords.html",
+     "https://www.w3.org/TR/SVG2/paths.html",
+     "https://www.w3.org/TR/SVG2/shapes.html",
+     "https://www.w3.org/TR/SVG2/text.html",
+     "https://www.w3.org/TR/SVG2/embedded.html",
+     "https://www.w3.org/TR/SVG2/painting.html",
+     "https://www.w3.org/TR/SVG2/pservers.html",
+     "https://www.w3.org/TR/SVG2/interact.html",
+     "https://www.w3.org/TR/SVG2/linking.html",
+     "https://www.w3.org/TR/SVG2/idl.html",
+     "https://www.w3.org/TR/SVG2/implnote.html",
+     "https://www.w3.org/TR/SVG2/access.html",
+     "https://www.w3.org/TR/SVG2/animate.html",
+     "https://www.w3.org/TR/SVG2/refs.html",
+     "https://www.w3.org/TR/SVG2/eltindex.html",
+     "https://www.w3.org/TR/SVG2/attindex.html",
+     "https://www.w3.org/TR/SVG2/propidx.html",
+     "https://www.w3.org/TR/SVG2/idlindex.html",
+     "https://www.w3.org/TR/SVG2/mimereg.html",
+     "https://www.w3.org/TR/SVG2/changes.html"
+    ],
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://svgwg.org/svg2-draft/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/svgwg",
+    "sourcePath": "master/Overview.html",
+    "pages": [
+     "https://svgwg.org/svg2-draft/intro.html",
+     "https://svgwg.org/svg2-draft/conform.html",
+     "https://svgwg.org/svg2-draft/render.html",
+     "https://svgwg.org/svg2-draft/types.html",
+     "https://svgwg.org/svg2-draft/struct.html",
+     "https://svgwg.org/svg2-draft/styling.html",
+     "https://svgwg.org/svg2-draft/geometry.html",
+     "https://svgwg.org/svg2-draft/coords.html",
+     "https://svgwg.org/svg2-draft/paths.html",
+     "https://svgwg.org/svg2-draft/shapes.html",
+     "https://svgwg.org/svg2-draft/text.html",
+     "https://svgwg.org/svg2-draft/embedded.html",
+     "https://svgwg.org/svg2-draft/painting.html",
+     "https://svgwg.org/svg2-draft/pservers.html",
+     "https://svgwg.org/svg2-draft/interact.html",
+     "https://svgwg.org/svg2-draft/linking.html",
+     "https://svgwg.org/svg2-draft/idl.html",
+     "https://svgwg.org/svg2-draft/implnote.html",
+     "https://svgwg.org/svg2-draft/access.html",
+     "https://svgwg.org/svg2-draft/animate.html",
+     "https://svgwg.org/svg2-draft/refs.html",
+     "https://svgwg.org/svg2-draft/eltindex.html",
+     "https://svgwg.org/svg2-draft/attindex.html",
+     "https://svgwg.org/svg2-draft/propidx.html",
+     "https://svgwg.org/svg2-draft/idlindex.html",
+     "https://svgwg.org/svg2-draft/mimereg.html",
+     "https://svgwg.org/svg2-draft/changes.html"
+    ],
+    "filename": "Overview.html"
+   },
+   "title": "Scalable Vector Graphics (SVG) 2",
+   "source": "w3c",
+   "shortTitle": "SVG 2",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "svg"
+    ]
+   },
+   "fragment": "PaintOrder"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/paint-order",
+   "title": "paint-order",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/paint-order"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.0150637,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/126"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:paint-order"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2024-03-22T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2026-09-22"
+}

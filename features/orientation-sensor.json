@@ -1,0 +1,346 @@
+{
+ "compat_features": [
+  "api.AbsoluteOrientationSensor",
+  "api.AbsoluteOrientationSensor.AbsoluteOrientationSensor",
+  "api.OrientationSensor",
+  "api.OrientationSensor.populateMatrix",
+  "api.OrientationSensor.quaternion",
+  "api.RelativeOrientationSensor",
+  "api.RelativeOrientationSensor.RelativeOrientationSensor",
+  "api.Sensor",
+  "api.Sensor.activate_event",
+  "api.Sensor.activated",
+  "api.Sensor.error_event",
+  "api.Sensor.hasReading",
+  "api.Sensor.reading_event",
+  "api.Sensor.start",
+  "api.Sensor.stop",
+  "api.Sensor.timestamp",
+  "api.SensorErrorEvent",
+  "api.SensorErrorEvent.SensorErrorEvent",
+  "api.SensorErrorEvent.error"
+ ],
+ "description": "The AbsoluteOrientationSensor and RelativeOrientationSensor APIs describe the physical orientation of a device in three-dimensional space, either in relation to the Earth's coordinate system or in relation to the device's own orientation, respectively.",
+ "description_html": "The <code>AbsoluteOrientationSensor</code> and <code>RelativeOrientationSensor</code> APIs describe the physical orientation of a device in three-dimensional space, either in relation to the Earth's coordinate system or in relation to the device's own orientation, respectively.",
+ "group": [
+  "sensors"
+ ],
+ "kind": "feature",
+ "name": "Orientation Sensor",
+ "spec": [
+  "https://w3c.github.io/orientation-sensor/#absoluteorientationsensor-interface",
+  "https://w3c.github.io/orientation-sensor/#relativeorientationsensor-interface"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.AbsoluteOrientationSensor": {
+    "baseline": false,
+    "support": {
+     "chrome": "67",
+     "chrome_android": "67",
+     "edge": "79"
+    }
+   },
+   "api.AbsoluteOrientationSensor.AbsoluteOrientationSensor": {
+    "baseline": false,
+    "support": {
+     "chrome": "67",
+     "chrome_android": "67",
+     "edge": "79"
+    }
+   },
+   "api.OrientationSensor": {
+    "baseline": false,
+    "support": {
+     "chrome": "67",
+     "chrome_android": "67",
+     "edge": "79"
+    }
+   },
+   "api.OrientationSensor.populateMatrix": {
+    "baseline": false,
+    "support": {
+     "chrome": "67",
+     "chrome_android": "67",
+     "edge": "79"
+    }
+   },
+   "api.OrientationSensor.quaternion": {
+    "baseline": false,
+    "support": {
+     "chrome": "67",
+     "chrome_android": "67",
+     "edge": "79"
+    }
+   },
+   "api.RelativeOrientationSensor": {
+    "baseline": false,
+    "support": {
+     "chrome": "67",
+     "chrome_android": "67",
+     "edge": "79"
+    }
+   },
+   "api.RelativeOrientationSensor.RelativeOrientationSensor": {
+    "baseline": false,
+    "support": {
+     "chrome": "67",
+     "chrome_android": "67",
+     "edge": "79"
+    }
+   },
+   "api.Sensor": {
+    "baseline": false,
+    "support": {
+     "chrome": "67",
+     "chrome_android": "67",
+     "edge": "79"
+    }
+   },
+   "api.Sensor.activate_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "67",
+     "chrome_android": "67",
+     "edge": "79"
+    }
+   },
+   "api.Sensor.activated": {
+    "baseline": false,
+    "support": {
+     "chrome": "67",
+     "chrome_android": "67",
+     "edge": "79"
+    }
+   },
+   "api.Sensor.error_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "67",
+     "chrome_android": "67",
+     "edge": "79"
+    }
+   },
+   "api.Sensor.hasReading": {
+    "baseline": false,
+    "support": {
+     "chrome": "67",
+     "chrome_android": "67",
+     "edge": "79"
+    }
+   },
+   "api.Sensor.reading_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "67",
+     "chrome_android": "67",
+     "edge": "79"
+    }
+   },
+   "api.Sensor.start": {
+    "baseline": false,
+    "support": {
+     "chrome": "67",
+     "chrome_android": "67",
+     "edge": "79"
+    }
+   },
+   "api.Sensor.stop": {
+    "baseline": false,
+    "support": {
+     "chrome": "67",
+     "chrome_android": "67",
+     "edge": "79"
+    }
+   },
+   "api.Sensor.timestamp": {
+    "baseline": false,
+    "support": {
+     "chrome": "67",
+     "chrome_android": "67",
+     "edge": "79"
+    }
+   },
+   "api.SensorErrorEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "67",
+     "chrome_android": "67",
+     "edge": "79"
+    }
+   },
+   "api.SensorErrorEvent.SensorErrorEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "67",
+     "chrome_android": "67",
+     "edge": "79"
+    }
+   },
+   "api.SensorErrorEvent.error": {
+    "baseline": false,
+    "support": {
+     "chrome": "67",
+     "chrome_android": "67",
+     "edge": "79"
+    }
+   }
+  },
+  "support": {
+   "chrome": "67",
+   "chrome_android": "67",
+   "edge": "79"
+  }
+ },
+ "id": "orientation-sensor",
+ "groups": [
+  "sensors"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/orientation-sensor/#absoluteorientationsensor-interface",
+   "seriesComposition": "full",
+   "shortname": "orientation-sensor",
+   "series": {
+    "shortname": "orientation-sensor",
+    "currentSpecification": "orientation-sensor",
+    "title": "Orientation Sensor",
+    "shortTitle": "Orientation Sensor",
+    "releaseUrl": "https://www.w3.org/TR/orientation-sensor/",
+    "nightlyUrl": "https://w3c.github.io/orientation-sensor/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Devices and Sensors Working Group",
+     "url": "https://www.w3.org/das/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/orientation-sensor/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/orientation-sensor/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/orientation-sensor",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Orientation Sensor",
+   "source": "w3c",
+   "shortTitle": "Orientation Sensor",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "orientation-sensor"
+    ]
+   },
+   "fragment": "absoluteorientationsensor-interface"
+  },
+  {
+   "url": "https://w3c.github.io/orientation-sensor/#relativeorientationsensor-interface",
+   "seriesComposition": "full",
+   "shortname": "orientation-sensor",
+   "series": {
+    "shortname": "orientation-sensor",
+    "currentSpecification": "orientation-sensor",
+    "title": "Orientation Sensor",
+    "shortTitle": "Orientation Sensor",
+    "releaseUrl": "https://www.w3.org/TR/orientation-sensor/",
+    "nightlyUrl": "https://w3c.github.io/orientation-sensor/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Devices and Sensors Working Group",
+     "url": "https://www.w3.org/das/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/orientation-sensor/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/orientation-sensor/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/orientation-sensor",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Orientation Sensor",
+   "source": "w3c",
+   "shortTitle": "Orientation Sensor",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "orientation-sensor"
+    ]
+   },
+   "fragment": "relativeorientationsensor-interface"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/OrientationSensor",
+   "title": "OrientationSensor",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/OrientationSensor"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/347",
+   "position": "oppose",
+   "concerns": [
+    "duplication",
+    "privacy",
+    "venue",
+    "use cases",
+    "power",
+    "device independence"
+   ]
+  }
+ ],
+ "hasNegativeStandardPosition": true,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:orientation-sensor"
+ },
+ "developerSignals": null,
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1432631"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/1432631"
+  ],
+  "safari": [
+   "https://webkit.org/b/81352"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/81352"
+  ],
+  "webview_ios": [
+   "https://webkit.org/b/81352"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

@@ -1,0 +1,246 @@
+{
+ "compat_features": [
+  "css.properties.bottom",
+  "css.properties.bottom.auto",
+  "css.properties.left",
+  "css.properties.left.auto",
+  "css.properties.right",
+  "css.properties.right.auto",
+  "css.properties.top",
+  "css.properties.top.auto"
+ ],
+ "description": "The physical CSS properties, top, right, bottom, and left, set the inset position of an element relative to the corresponding side of a container determined by the element's position property.",
+ "description_html": "The physical CSS properties, <code>top</code>, <code>right</code>, <code>bottom</code>, and <code>left</code>, set the inset position of an element relative to the corresponding side of a container determined by the element's <code>position</code> property.",
+ "group": [
+  "css"
+ ],
+ "kind": "feature",
+ "name": "Physical properties",
+ "spec": [
+  "https://drafts.csswg.org/css-position-3/#insets"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "css.properties.bottom": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.bottom.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.left": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.left.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.right": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.right.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.top": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.top.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   }
+  },
+  "support": {
+   "chrome": "1",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "1",
+   "firefox_android": "4",
+   "safari": "1",
+   "safari_ios": "1"
+  }
+ },
+ "id": "physical-properties",
+ "groups": [
+  "css"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-position-3/#insets",
+   "seriesComposition": "full",
+   "shortname": "css-position-3",
+   "series": {
+    "shortname": "css-position",
+    "currentSpecification": "css-position-3",
+    "title": "CSS Positioned Layout",
+    "shortTitle": "CSS Positioned Layout",
+    "releaseUrl": "https://www.w3.org/TR/css-position/",
+    "nightlyUrl": "https://drafts.csswg.org/css-position/"
+   },
+   "seriesVersion": "3",
+   "seriesNext": "css-position-4",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-position-3/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-position-3/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-position-3/",
+     "https://w3c.github.io/csswg-drafts/css-position/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-position-3/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Positioned Layout Module Level 3",
+   "source": "w3c",
+   "shortTitle": "CSS Positioned Layout 3",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-position"
+    ]
+   },
+   "fragment": "insets"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/top",
+   "title": "top",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/top"
+  },
+  {
+   "slug": "Web/CSS/Reference/Properties/right",
+   "title": "right",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/right"
+  },
+  {
+   "slug": "Web/CSS/Reference/Properties/bottom",
+   "title": "bottom",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/bottom"
+  },
+  {
+   "slug": "Web/CSS/Reference/Properties/left",
+   "title": "left",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/left"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:physical-properties"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

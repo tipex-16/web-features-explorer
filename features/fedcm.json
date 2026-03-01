@@ -1,0 +1,159 @@
+{
+ "compat_features": [
+  "api.CredentialsContainer.get.identity_option",
+  "api.CredentialsContainer.get.identity_option.context_option",
+  "api.CredentialsContainer.get.identity_option.providers_option_loginHint",
+  "api.IdentityCredential",
+  "api.IdentityCredential.token"
+ ],
+ "description": "The IdentityCredential API delegates authentication to a third-party identity provider, instead of using third-party cookies. Also known as FedCM.",
+ "description_html": "The <code>IdentityCredential</code> API delegates authentication to a third-party identity provider, instead of using third-party cookies. Also known as FedCM.",
+ "group": [
+  "credential-management"
+ ],
+ "kind": "feature",
+ "name": "Federated credential management",
+ "spec": [
+  "https://w3c-fedid.github.io/FedCM/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.CredentialsContainer.get.identity_option": {
+    "baseline": false,
+    "support": {
+     "chrome": "108",
+     "chrome_android": "108",
+     "edge": "108"
+    }
+   },
+   "api.CredentialsContainer.get.identity_option.context_option": {
+    "baseline": false,
+    "support": {
+     "chrome": "116",
+     "chrome_android": "116",
+     "edge": "116"
+    }
+   },
+   "api.CredentialsContainer.get.identity_option.providers_option_loginHint": {
+    "baseline": false,
+    "support": {
+     "chrome": "116",
+     "chrome_android": "116",
+     "edge": "116"
+    }
+   },
+   "api.IdentityCredential": {
+    "baseline": false,
+    "support": {
+     "chrome": "108",
+     "chrome_android": "108",
+     "edge": "108"
+    }
+   },
+   "api.IdentityCredential.token": {
+    "baseline": false,
+    "support": {
+     "chrome": "108",
+     "chrome_android": "108",
+     "edge": "108"
+    }
+   }
+  },
+  "support": {
+   "chrome": "116",
+   "chrome_android": "116",
+   "edge": "116"
+  }
+ },
+ "id": "fedcm",
+ "groups": [
+  "credential-management"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c-fedid.github.io/FedCM/",
+   "seriesComposition": "full",
+   "shortname": "fedcm-1",
+   "series": {
+    "shortname": "fedcm",
+    "currentSpecification": "fedcm-1",
+    "title": "Federated Credential Management API",
+    "shortTitle": "Federated Credential Management API",
+    "releaseUrl": "https://www.w3.org/TR/fedcm/",
+    "nightlyUrl": "https://w3c-fedid.github.io/FedCM/"
+   },
+   "seriesVersion": "1",
+   "formerNames": [
+    "fedCM"
+   ],
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Federated Identity Working Group",
+     "url": "https://www.w3.org/groups/wg/fedid/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/fedcm-1/",
+    "status": "First Public Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c-fedid.github.io/FedCM/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c-fedid/FedCM",
+    "sourcePath": "spec/index.bs",
+    "filename": "index.html"
+   },
+   "title": "Federated Credential Management API",
+   "source": "w3c",
+   "shortTitle": "Federated Credential Management API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/IdentityCredential",
+   "title": "IdentityCredential",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/IdentityCredential"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/618",
+   "position": "neutral",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/309",
+   "position": "",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.02051545,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/247"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:fedcm"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/208",
+  "votes": 36
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

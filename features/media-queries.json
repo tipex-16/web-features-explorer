@@ -1,0 +1,341 @@
+{
+ "caniuse": [
+  "css-mediaqueries"
+ ],
+ "compat_features": [
+  "css.at-rules.media",
+  "css.at-rules.media.aspect-ratio",
+  "css.at-rules.media.calc",
+  "css.at-rules.media.color",
+  "css.at-rules.media.color-index",
+  "css.at-rules.media.grid",
+  "css.at-rules.media.height",
+  "css.at-rules.media.media_features",
+  "css.at-rules.media.media_query_values",
+  "css.at-rules.media.monochrome",
+  "css.at-rules.media.nested-queries",
+  "css.at-rules.media.or_syntax",
+  "css.at-rules.media.orientation",
+  "css.at-rules.media.width",
+  "css.types.ratio",
+  "css.types.ratio.number_value"
+ ],
+ "description": "The @media CSS rule conditionally applies styles based on the output device type, its capabilities, and the user's preferences. Media queries are composed of an optional media type such as screen or print, and one or more mandatory media features, such as prefers-reduced-animations.",
+ "description_html": "The <code>@media</code> CSS rule conditionally applies styles based on the output device type, its capabilities, and the user's preferences. Media queries are composed of an optional media type such as <code>screen</code> or <code>print</code>, and one or more mandatory media features, such as <code>prefers-reduced-animations</code>.",
+ "group": [
+  "media-queries"
+ ],
+ "kind": "feature",
+ "name": "Media queries",
+ "spec": [
+  "https://drafts.csswg.org/mediaqueries-5/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "css.at-rules.media": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "css.at-rules.media.aspect-ratio": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "3",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   },
+   "css.at-rules.media.calc": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "firefox": "59",
+     "firefox_android": "59",
+     "safari": "12",
+     "safari_ios": "12"
+    }
+   },
+   "css.at-rules.media.color": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "2",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "css.at-rules.media.color-index": {
+    "baseline": false,
+    "support": {
+     "chrome": "29",
+     "chrome_android": "29",
+     "edge": "79",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "css.at-rules.media.grid": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "2",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "css.at-rules.media.height": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "2",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "css.at-rules.media.media_features": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "css.at-rules.media.media_query_values": {
+    "baseline": false,
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "firefox": "59",
+     "firefox_android": "59"
+    }
+   },
+   "css.at-rules.media.monochrome": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "79",
+     "firefox": "2",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "css.at-rules.media.nested-queries": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "11",
+     "firefox_android": "14",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "css.at-rules.media.or_syntax": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "104",
+     "chrome_android": "104",
+     "edge": "104",
+     "firefox": "64",
+     "firefox_android": "64",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "css.at-rules.media.orientation": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "3",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "2",
+     "firefox_android": "4",
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   },
+   "css.at-rules.media.width": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "2",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "css.types.ratio": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "3",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   },
+   "css.types.ratio.number_value": {
+    "baseline": false,
+    "support": {
+     "firefox": "78",
+     "firefox_android": "79"
+    }
+   }
+  },
+  "support": {
+   "chrome": "1",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "1",
+   "firefox_android": "4",
+   "safari": "3",
+   "safari_ios": "1"
+  }
+ },
+ "id": "media-queries",
+ "groups": [
+  "media-queries"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/mediaqueries-5/",
+   "seriesComposition": "delta",
+   "shortname": "mediaqueries-5",
+   "series": {
+    "shortname": "mediaqueries",
+    "currentSpecification": "mediaqueries-4",
+    "title": "Media Queries",
+    "shortTitle": "Media Queries",
+    "releaseUrl": "https://www.w3.org/TR/mediaqueries/",
+    "nightlyUrl": "https://drafts.csswg.org/mediaqueries/"
+   },
+   "seriesVersion": "5",
+   "seriesPrevious": "mediaqueries-4",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/mediaqueries-5/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/mediaqueries-5/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/mediaqueries-5/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "mediaqueries-5/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "Media Queries Level 5",
+   "source": "w3c",
+   "shortTitle": "Media Queries 5",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/mediaqueries"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/At-rules/@media",
+   "title": "@media",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [
+  {
+   "year": 2023,
+   "label": "interop-2023-mediaqueries",
+   "url": "https://wpt.fyi/interop-2023?feature=interop-2023-mediaqueries"
+  }
+ ],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:media-queries"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

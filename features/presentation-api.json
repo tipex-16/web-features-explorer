@@ -1,0 +1,468 @@
+{
+ "compat_features": [
+  "api.Navigator.presentation",
+  "api.Presentation",
+  "api.Presentation.defaultRequest",
+  "api.Presentation.receiver",
+  "api.PresentationAvailability",
+  "api.PresentationAvailability.change_event",
+  "api.PresentationAvailability.value",
+  "api.PresentationConnection",
+  "api.PresentationConnection.binaryType",
+  "api.PresentationConnection.close",
+  "api.PresentationConnection.close_event",
+  "api.PresentationConnection.connect_event",
+  "api.PresentationConnection.id",
+  "api.PresentationConnection.message_event",
+  "api.PresentationConnection.send",
+  "api.PresentationConnection.state",
+  "api.PresentationConnection.terminate",
+  "api.PresentationConnection.terminate_event",
+  "api.PresentationConnection.url",
+  "api.PresentationConnectionAvailableEvent",
+  "api.PresentationConnectionAvailableEvent.PresentationConnectionAvailableEvent",
+  "api.PresentationConnectionAvailableEvent.connection",
+  "api.PresentationConnectionCloseEvent",
+  "api.PresentationConnectionCloseEvent.PresentationConnectionCloseEvent",
+  "api.PresentationConnectionCloseEvent.message",
+  "api.PresentationConnectionCloseEvent.reason",
+  "api.PresentationConnectionList",
+  "api.PresentationConnectionList.connectionavailable_event",
+  "api.PresentationConnectionList.connections",
+  "api.PresentationReceiver",
+  "api.PresentationReceiver.connectionList",
+  "api.PresentationRequest",
+  "api.PresentationRequest.PresentationRequest",
+  "api.PresentationRequest.connectionavailable_event",
+  "api.PresentationRequest.getAvailability",
+  "api.PresentationRequest.reconnect",
+  "api.PresentationRequest.secure_context_required",
+  "api.PresentationRequest.start",
+  "html.elements.iframe.sandbox.allow-presentation"
+ ],
+ "description": "The Presentation API shows or controls content on another display, such as a network-connected TV or projector.",
+ "description_html": "The Presentation API shows or controls content on another display, such as a network-connected TV or projector.",
+ "kind": "feature",
+ "name": "Presentation API",
+ "spec": [
+  "https://w3c.github.io/presentation-api/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Navigator.presentation": {
+    "baseline": false,
+    "support": {
+     "chrome": "47",
+     "chrome_android": "47",
+     "edge": "79"
+    }
+   },
+   "api.Presentation": {
+    "baseline": false,
+    "support": {
+     "chrome": "47",
+     "chrome_android": "47",
+     "edge": "79"
+    }
+   },
+   "api.Presentation.defaultRequest": {
+    "baseline": false,
+    "support": {
+     "chrome": "47",
+     "chrome_android": "47",
+     "edge": "79"
+    }
+   },
+   "api.Presentation.receiver": {
+    "baseline": false,
+    "support": {
+     "chrome": "59",
+     "chrome_android": "59",
+     "edge": "79"
+    }
+   },
+   "api.PresentationAvailability": {
+    "baseline": false,
+    "support": {
+     "chrome": "47",
+     "chrome_android": "47",
+     "edge": "79"
+    }
+   },
+   "api.PresentationAvailability.change_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "47",
+     "chrome_android": "47",
+     "edge": "79"
+    }
+   },
+   "api.PresentationAvailability.value": {
+    "baseline": false,
+    "support": {
+     "chrome": "47",
+     "chrome_android": "47",
+     "edge": "79"
+    }
+   },
+   "api.PresentationConnection": {
+    "baseline": false,
+    "support": {
+     "chrome": "47",
+     "chrome_android": "47",
+     "edge": "79"
+    }
+   },
+   "api.PresentationConnection.binaryType": {
+    "baseline": false,
+    "support": {
+     "chrome": "47",
+     "chrome_android": "47",
+     "edge": "79"
+    }
+   },
+   "api.PresentationConnection.close": {
+    "baseline": false,
+    "support": {
+     "chrome": "49",
+     "chrome_android": "49",
+     "edge": "79"
+    }
+   },
+   "api.PresentationConnection.close_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "50",
+     "chrome_android": "50",
+     "edge": "79"
+    }
+   },
+   "api.PresentationConnection.connect_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "50",
+     "chrome_android": "50",
+     "edge": "79"
+    }
+   },
+   "api.PresentationConnection.id": {
+    "baseline": false,
+    "support": {
+     "chrome": "47",
+     "chrome_android": "47",
+     "edge": "79"
+    }
+   },
+   "api.PresentationConnection.message_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "47",
+     "chrome_android": "47",
+     "edge": "79"
+    }
+   },
+   "api.PresentationConnection.send": {
+    "baseline": false,
+    "support": {
+     "chrome": "47",
+     "chrome_android": "47",
+     "edge": "79"
+    }
+   },
+   "api.PresentationConnection.state": {
+    "baseline": false,
+    "support": {
+     "chrome": "47",
+     "chrome_android": "47",
+     "edge": "79"
+    }
+   },
+   "api.PresentationConnection.terminate": {
+    "baseline": false,
+    "support": {
+     "chrome": "48",
+     "chrome_android": "48",
+     "edge": "79"
+    }
+   },
+   "api.PresentationConnection.terminate_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "50",
+     "chrome_android": "50",
+     "edge": "79"
+    }
+   },
+   "api.PresentationConnection.url": {
+    "baseline": false,
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79"
+    }
+   },
+   "api.PresentationConnectionAvailableEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "47",
+     "chrome_android": "47",
+     "edge": "79"
+    }
+   },
+   "api.PresentationConnectionAvailableEvent.PresentationConnectionAvailableEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "47",
+     "chrome_android": "47",
+     "edge": "79"
+    }
+   },
+   "api.PresentationConnectionAvailableEvent.connection": {
+    "baseline": false,
+    "support": {
+     "chrome": "47",
+     "chrome_android": "47",
+     "edge": "79"
+    }
+   },
+   "api.PresentationConnectionCloseEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "50",
+     "chrome_android": "50",
+     "edge": "79"
+    }
+   },
+   "api.PresentationConnectionCloseEvent.PresentationConnectionCloseEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "50",
+     "chrome_android": "50",
+     "edge": "79"
+    }
+   },
+   "api.PresentationConnectionCloseEvent.message": {
+    "baseline": false,
+    "support": {
+     "chrome": "50",
+     "chrome_android": "50",
+     "edge": "79"
+    }
+   },
+   "api.PresentationConnectionCloseEvent.reason": {
+    "baseline": false,
+    "support": {
+     "chrome": "50",
+     "chrome_android": "50",
+     "edge": "79"
+    }
+   },
+   "api.PresentationConnectionList": {
+    "baseline": false,
+    "support": {
+     "chrome": "59",
+     "chrome_android": "59",
+     "edge": "79"
+    }
+   },
+   "api.PresentationConnectionList.connectionavailable_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "59",
+     "chrome_android": "59",
+     "edge": "79"
+    }
+   },
+   "api.PresentationConnectionList.connections": {
+    "baseline": false,
+    "support": {
+     "chrome": "59",
+     "chrome_android": "59",
+     "edge": "79"
+    }
+   },
+   "api.PresentationReceiver": {
+    "baseline": false,
+    "support": {
+     "chrome": "59",
+     "chrome_android": "59",
+     "edge": "79"
+    }
+   },
+   "api.PresentationReceiver.connectionList": {
+    "baseline": false,
+    "support": {
+     "chrome": "59",
+     "chrome_android": "59",
+     "edge": "79"
+    }
+   },
+   "api.PresentationRequest": {
+    "baseline": false,
+    "support": {
+     "chrome": "47",
+     "chrome_android": "47",
+     "edge": "79"
+    }
+   },
+   "api.PresentationRequest.PresentationRequest": {
+    "baseline": false,
+    "support": {
+     "chrome": "47",
+     "chrome_android": "47",
+     "edge": "79"
+    }
+   },
+   "api.PresentationRequest.connectionavailable_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "47",
+     "chrome_android": "47",
+     "edge": "79"
+    }
+   },
+   "api.PresentationRequest.getAvailability": {
+    "baseline": false,
+    "support": {
+     "chrome": "47",
+     "chrome_android": "47",
+     "edge": "79"
+    }
+   },
+   "api.PresentationRequest.reconnect": {
+    "baseline": false,
+    "support": {
+     "chrome": "47",
+     "chrome_android": "47",
+     "edge": "79"
+    }
+   },
+   "api.PresentationRequest.secure_context_required": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.PresentationRequest.start": {
+    "baseline": false,
+    "support": {
+     "chrome": "47",
+     "chrome_android": "47",
+     "edge": "79"
+    }
+   },
+   "html.elements.iframe.sandbox.allow-presentation": {
+    "baseline": false,
+    "support": {
+     "chrome": "53",
+     "chrome_android": "53",
+     "edge": "79",
+     "firefox": "50",
+     "firefox_android": "50"
+    }
+   }
+  },
+  "support": {
+   "chrome": "47",
+   "chrome_android": "47",
+   "edge": "79"
+  }
+ },
+ "id": "presentation-api",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/presentation-api/",
+   "seriesComposition": "full",
+   "shortname": "presentation-api",
+   "series": {
+    "shortname": "presentation-api",
+    "currentSpecification": "presentation-api",
+    "title": "Presentation API",
+    "shortTitle": "Presentation API",
+    "releaseUrl": "https://www.w3.org/TR/presentation-api/",
+    "nightlyUrl": "https://w3c.github.io/presentation-api/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Second Screen Working Group",
+     "url": "https://www.w3.org/2014/secondscreen/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/presentation-api/",
+    "status": "Candidate Recommendation Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/presentation-api/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/presentation-api",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Presentation API",
+   "source": "w3c",
+   "shortTitle": "Presentation API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "presentation-api"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Presentation_API",
+   "title": "Presentation API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Presentation_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/180",
+   "position": "",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:presentation-api"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/53",
+  "votes": 5
+ },
+ "bugs": {
+  "safari": [
+   "https://webkit.org/b/149168"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/149168"
+  ],
+  "webview_android": [
+   "https://crbug.com/234081017"
+  ],
+  "webview_ios": [
+   "https://webkit.org/b/149168"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

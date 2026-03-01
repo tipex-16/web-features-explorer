@@ -1,0 +1,383 @@
+{
+ "compat_features": [
+  "http.headers.Authorization",
+  "http.headers.Authorization.Basic",
+  "http.headers.Authorization.Digest",
+  "http.headers.Authorization.Digest.SHA-256",
+  "http.headers.Authorization.Digest.md5",
+  "http.headers.Authorization.NTLM",
+  "http.headers.Authorization.Negotiate",
+  "http.headers.Authorization.authorization_removed_cross_origin",
+  "http.headers.WWW-Authenticate",
+  "http.headers.WWW-Authenticate.Basic",
+  "http.headers.WWW-Authenticate.Digest",
+  "http.headers.WWW-Authenticate.Digest.SHA-256",
+  "http.headers.WWW-Authenticate.Digest.md5",
+  "http.headers.WWW-Authenticate.NTLM",
+  "http.headers.WWW-Authenticate.Negotiate"
+ ],
+ "description": "The Authorization and WWW-Authenticate headers authenticate a user with a server.",
+ "description_html": "The <code>Authorization</code> and <code>WWW-Authenticate</code> headers authenticate a user with a server.",
+ "kind": "feature",
+ "name": "HTTP authentication",
+ "spec": [
+  "https://httpwg.org/specs/rfc9110.html#authentication",
+  "https://httpwg.org/specs/rfc7616.html",
+  "https://www.rfc-editor.org/rfc/rfc4120"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "http.headers.Authorization": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "http.headers.Authorization.Basic": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "http.headers.Authorization.Digest": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "79",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "http.headers.Authorization.Digest.SHA-256": {
+    "baseline": false,
+    "support": {
+     "chrome": "117",
+     "chrome_android": "117",
+     "edge": "117",
+     "firefox": "93",
+     "firefox_android": "93"
+    }
+   },
+   "http.headers.Authorization.Digest.md5": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "79",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "http.headers.Authorization.NTLM": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "79",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "≤7",
+     "safari_ios": "≤7"
+    }
+   },
+   "http.headers.Authorization.Negotiate": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "79",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "≤7",
+     "safari_ios": "≤7"
+    }
+   },
+   "http.headers.Authorization.authorization_removed_cross_origin": {
+    "baseline": false,
+    "support": {
+     "firefox": "111",
+     "firefox_android": "111",
+     "safari": "16.1",
+     "safari_ios": "16.1"
+    }
+   },
+   "http.headers.WWW-Authenticate": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "http.headers.WWW-Authenticate.Basic": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "http.headers.WWW-Authenticate.Digest": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "http.headers.WWW-Authenticate.Digest.SHA-256": {
+    "baseline": false,
+    "support": {
+     "chrome": "117",
+     "chrome_android": "117",
+     "edge": "117",
+     "firefox": "93",
+     "firefox_android": "93"
+    }
+   },
+   "http.headers.WWW-Authenticate.Digest.md5": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "http.headers.WWW-Authenticate.NTLM": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "79",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "≤7",
+     "safari_ios": "≤7"
+    }
+   },
+   "http.headers.WWW-Authenticate.Negotiate": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "79",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "≤7",
+     "safari_ios": "≤7"
+    }
+   }
+  },
+  "support": {
+   "chrome": "1",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "1",
+   "firefox_android": "4",
+   "safari": "1",
+   "safari_ios": "1"
+  }
+ },
+ "id": "http-authentication",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://httpwg.org/specs/rfc9110.html#authentication",
+   "seriesComposition": "full",
+   "shortname": "rfc9110",
+   "series": {
+    "shortname": "rfc9110",
+    "currentSpecification": "rfc9110",
+    "title": "HTTP Semantics",
+    "shortTitle": "HTTP Semantics",
+    "nightlyUrl": "https://httpwg.org/specs/rfc9110.html"
+   },
+   "organization": "IETF",
+   "groups": [
+    {
+     "name": "HTTP Working Group",
+     "url": "https://datatracker.ietf.org/wg/httpbis/"
+    }
+   ],
+   "nightly": {
+    "url": "https://httpwg.org/specs/rfc9110.html",
+    "status": "Internet Standard",
+    "alternateUrls": [
+     "https://datatracker.ietf.org/doc/html/rfc9110",
+     "https://tools.ietf.org/html/rfc9110"
+    ],
+    "repository": "https://github.com/httpwg/httpwg.github.io",
+    "sourcePath": "specs/rfc9110.xml",
+    "filename": "rfc9110.html"
+   },
+   "title": "HTTP Semantics",
+   "source": "ietf",
+   "shortTitle": "HTTP Semantics",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": "authentication"
+  },
+  {
+   "url": "https://httpwg.org/specs/rfc7616.html",
+   "seriesComposition": "full",
+   "shortname": "rfc7616",
+   "series": {
+    "shortname": "rfc7616",
+    "currentSpecification": "rfc7616",
+    "title": "HTTP Digest Access Authentication",
+    "shortTitle": "HTTP Digest Access Authentication",
+    "nightlyUrl": "https://httpwg.org/specs/rfc7616.html"
+   },
+   "organization": "IETF",
+   "groups": [
+    {
+     "name": "Hypertext Transfer Protocol Authentication Working Group",
+     "url": "https://datatracker.ietf.org/wg/httpauth/"
+    }
+   ],
+   "nightly": {
+    "url": "https://httpwg.org/specs/rfc7616.html",
+    "status": "Proposed Standard",
+    "alternateUrls": [
+     "https://datatracker.ietf.org/doc/html/rfc7616",
+     "https://tools.ietf.org/html/rfc7616"
+    ],
+    "repository": "https://github.com/httpwg/httpwg.github.io",
+    "sourcePath": "specs/rfc7616.xml",
+    "filename": "rfc7616.html"
+   },
+   "title": "HTTP Digest Access Authentication",
+   "source": "ietf",
+   "shortTitle": "HTTP Digest Access Authentication",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  },
+  {
+   "url": "https://www.rfc-editor.org/rfc/rfc4120",
+   "seriesComposition": "full",
+   "shortname": "rfc4120",
+   "series": {
+    "shortname": "rfc4120",
+    "currentSpecification": "rfc4120",
+    "title": "The Kerberos Network Authentication Service (V5)",
+    "shortTitle": "Kerberos",
+    "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc4120"
+   },
+   "shortTitle": "Kerberos",
+   "organization": "IETF",
+   "groups": [
+    {
+     "name": "Kerberos Working Group",
+     "url": "https://datatracker.ietf.org/wg/krb-wg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://www.rfc-editor.org/rfc/rfc4120",
+    "status": "Proposed Standard",
+    "alternateUrls": [
+     "https://datatracker.ietf.org/doc/html/rfc4120",
+     "https://tools.ietf.org/html/rfc4120"
+    ],
+    "filename": "rfc4120.html"
+   },
+   "title": "The Kerberos Network Authentication Service (V5)",
+   "source": "ietf",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/HTTP/Reference/Headers/Authorization",
+   "title": "Authorization header",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Authorization"
+  },
+  {
+   "slug": "Web/HTTP/Reference/Headers/WWW-Authenticate",
+   "title": "WWW-Authenticate header",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/WWW-Authenticate"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:http-authentication"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

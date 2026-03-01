@@ -1,0 +1,1543 @@
+{
+ "caniuse": [
+  "mathml"
+ ],
+ "compat_features": [
+  "api.MathMLElement",
+  "api.MathMLElement.attributeStyleMap",
+  "api.MathMLElement.blur",
+  "api.MathMLElement.focus",
+  "api.MathMLElement.nonce",
+  "api.MathMLElement.style",
+  "api.MathMLElement.tabIndex",
+  "css.properties.display.math",
+  "css.properties.font-size.math",
+  "css.properties.math-depth",
+  "css.properties.math-shift",
+  "css.properties.math-style",
+  "css.properties.text-transform.math-auto",
+  "mathml.attribute_values.named_space",
+  "mathml.attribute_values.nonzero_unitless_values",
+  "mathml.elements.annotation",
+  "mathml.elements.annotation-xml",
+  "mathml.elements.math",
+  "mathml.elements.math.display",
+  "mathml.elements.menclose",
+  "mathml.elements.menclose.notation",
+  "mathml.elements.menclose.notation.actuarial",
+  "mathml.elements.menclose.notation.bottom",
+  "mathml.elements.menclose.notation.box",
+  "mathml.elements.menclose.notation.circle",
+  "mathml.elements.menclose.notation.downdiagonalstrike",
+  "mathml.elements.menclose.notation.horizontalstrike",
+  "mathml.elements.menclose.notation.left",
+  "mathml.elements.menclose.notation.longdiv",
+  "mathml.elements.menclose.notation.madruwb",
+  "mathml.elements.menclose.notation.phasorangle",
+  "mathml.elements.menclose.notation.right",
+  "mathml.elements.menclose.notation.roundedbox",
+  "mathml.elements.menclose.notation.top",
+  "mathml.elements.menclose.notation.updiagonalarrow",
+  "mathml.elements.menclose.notation.updiagonalstrike",
+  "mathml.elements.menclose.notation.verticalstrike",
+  "mathml.elements.merror",
+  "mathml.elements.mfrac",
+  "mathml.elements.mfrac.linethickness",
+  "mathml.elements.mi",
+  "mathml.elements.mi.mathvariant",
+  "mathml.elements.mmultiscripts",
+  "mathml.elements.mn",
+  "mathml.elements.mo",
+  "mathml.elements.mo.accent",
+  "mathml.elements.mo.form",
+  "mathml.elements.mo.largeop",
+  "mathml.elements.mo.lspace",
+  "mathml.elements.mo.maxsize",
+  "mathml.elements.mo.minsize",
+  "mathml.elements.mo.movablelimits",
+  "mathml.elements.mo.rspace",
+  "mathml.elements.mo.stretchy",
+  "mathml.elements.mo.symmetric",
+  "mathml.elements.mover",
+  "mathml.elements.mover.accent",
+  "mathml.elements.mpadded",
+  "mathml.elements.mpadded.depth",
+  "mathml.elements.mpadded.height",
+  "mathml.elements.mpadded.lspace",
+  "mathml.elements.mpadded.relative_values",
+  "mathml.elements.mpadded.voffset",
+  "mathml.elements.mpadded.width",
+  "mathml.elements.mphantom",
+  "mathml.elements.mprescripts",
+  "mathml.elements.mroot",
+  "mathml.elements.mrow",
+  "mathml.elements.ms",
+  "mathml.elements.mspace",
+  "mathml.elements.mspace.depth",
+  "mathml.elements.mspace.height",
+  "mathml.elements.mspace.width",
+  "mathml.elements.msqrt",
+  "mathml.elements.mstyle",
+  "mathml.elements.msub",
+  "mathml.elements.msubsup",
+  "mathml.elements.msup",
+  "mathml.elements.mtable",
+  "mathml.elements.mtable.align",
+  "mathml.elements.mtable.columnalign",
+  "mathml.elements.mtable.columnlines",
+  "mathml.elements.mtable.columnspacing",
+  "mathml.elements.mtable.frame",
+  "mathml.elements.mtable.framespacing",
+  "mathml.elements.mtable.rowalign",
+  "mathml.elements.mtable.rowlines",
+  "mathml.elements.mtable.rowspacing",
+  "mathml.elements.mtable.width",
+  "mathml.elements.mtd",
+  "mathml.elements.mtd.columnalign",
+  "mathml.elements.mtd.columnspan",
+  "mathml.elements.mtd.rowalign",
+  "mathml.elements.mtd.rowspan",
+  "mathml.elements.mtext",
+  "mathml.elements.mtr",
+  "mathml.elements.mtr.columnalign",
+  "mathml.elements.mtr.rowalign",
+  "mathml.elements.munder",
+  "mathml.elements.munder.accentunder",
+  "mathml.elements.munderover",
+  "mathml.elements.munderover.accent",
+  "mathml.elements.munderover.accentunder",
+  "mathml.elements.semantics",
+  "mathml.global_attributes.dir",
+  "mathml.global_attributes.displaystyle",
+  "mathml.global_attributes.href",
+  "mathml.global_attributes.scriptlevel"
+ ],
+ "description": "MathML, or the Mathematical Markup Language, describes mathematical notation, such as expressions and formulas. Also known as MathML Core.",
+ "description_html": "MathML, or the Mathematical Markup Language, describes mathematical notation, such as expressions and formulas. Also known as MathML Core.",
+ "kind": "feature",
+ "name": "MathML",
+ "spec": [
+  "https://w3c.github.io/mathml-core/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2025-07-12",
+  "baseline_low_date": "2023-01-12",
+  "by_compat_key": {
+   "api.MathMLElement": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "71",
+     "firefox_android": "79",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.MathMLElement.attributeStyleMap": {
+    "baseline": false,
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.MathMLElement.blur": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "71",
+     "firefox_android": "79",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.MathMLElement.focus": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "71",
+     "firefox_android": "79",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.MathMLElement.nonce": {
+    "baseline": false,
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "api.MathMLElement.style": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "71",
+     "firefox_android": "79",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.MathMLElement.tabIndex": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "71",
+     "firefox_android": "79",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "css.properties.display.math": {
+    "baseline": false,
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109"
+    }
+   },
+   "css.properties.font-size.math": {
+    "baseline": false,
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "117",
+     "firefox_android": "117"
+    }
+   },
+   "css.properties.math-depth": {
+    "baseline": false,
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "117",
+     "firefox_android": "117"
+    }
+   },
+   "css.properties.math-shift": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "146",
+     "firefox_android": "146",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "css.properties.math-style": {
+    "baseline": "low",
+    "baseline_low_date": "2023-08-29",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "117",
+     "firefox_android": "117",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.text-transform.math-auto": {
+    "baseline": false,
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "117",
+     "firefox_android": "117"
+    }
+   },
+   "mathml.attribute_values.named_space": {
+    "baseline": false,
+    "support": {
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "mathml.attribute_values.nonzero_unitless_values": {
+    "baseline": false,
+    "support": {
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "mathml.elements.annotation": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   },
+   "mathml.elements.annotation-xml": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   },
+   "mathml.elements.math": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "5.1",
+     "safari_ios": "5"
+    }
+   },
+   "mathml.elements.math.display": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "5.1",
+     "safari_ios": "5"
+    }
+   },
+   "mathml.elements.menclose": {
+    "baseline": false,
+    "support": {
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "mathml.elements.menclose.notation": {
+    "baseline": false,
+    "support": {
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "mathml.elements.menclose.notation.actuarial": {
+    "baseline": false,
+    "support": {
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "mathml.elements.menclose.notation.bottom": {
+    "baseline": false,
+    "support": {
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "mathml.elements.menclose.notation.box": {
+    "baseline": false,
+    "support": {
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "mathml.elements.menclose.notation.circle": {
+    "baseline": false,
+    "support": {
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "mathml.elements.menclose.notation.downdiagonalstrike": {
+    "baseline": false,
+    "support": {
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "mathml.elements.menclose.notation.horizontalstrike": {
+    "baseline": false,
+    "support": {
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "mathml.elements.menclose.notation.left": {
+    "baseline": false,
+    "support": {
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "mathml.elements.menclose.notation.longdiv": {
+    "baseline": false,
+    "support": {
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "mathml.elements.menclose.notation.madruwb": {
+    "baseline": false,
+    "support": {
+     "firefox": "2",
+     "firefox_android": "4",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "mathml.elements.menclose.notation.phasorangle": {
+    "baseline": false,
+    "support": {
+     "firefox": "32",
+     "firefox_android": "32"
+    }
+   },
+   "mathml.elements.menclose.notation.right": {
+    "baseline": false,
+    "support": {
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "mathml.elements.menclose.notation.roundedbox": {
+    "baseline": false,
+    "support": {
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "mathml.elements.menclose.notation.top": {
+    "baseline": false,
+    "support": {
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "mathml.elements.menclose.notation.updiagonalarrow": {
+    "baseline": false,
+    "support": {
+     "firefox": "24",
+     "firefox_android": "24"
+    }
+   },
+   "mathml.elements.menclose.notation.updiagonalstrike": {
+    "baseline": false,
+    "support": {
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "mathml.elements.menclose.notation.verticalstrike": {
+    "baseline": false,
+    "support": {
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "mathml.elements.merror": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "mathml.elements.mfrac": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "5.1",
+     "safari_ios": "5"
+    }
+   },
+   "mathml.elements.mfrac.linethickness": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "mathml.elements.mi": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "mathml.elements.mi.mathvariant": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "70",
+     "firefox_android": "79",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "mathml.elements.mmultiscripts": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "mathml.elements.mn": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "mathml.elements.mo": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   },
+   "mathml.elements.mo.accent": {
+    "baseline": false,
+    "support": {
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "mathml.elements.mo.form": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "mathml.elements.mo.largeop": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "mathml.elements.mo.lspace": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "mathml.elements.mo.maxsize": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "mathml.elements.mo.minsize": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "mathml.elements.mo.movablelimits": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "mathml.elements.mo.rspace": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "mathml.elements.mo.stretchy": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   },
+   "mathml.elements.mo.symmetric": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "mathml.elements.mover": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "mathml.elements.mover.accent": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "mathml.elements.mpadded": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "mathml.elements.mpadded.depth": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "mathml.elements.mpadded.height": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "mathml.elements.mpadded.lspace": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "mathml.elements.mpadded.relative_values": {
+    "baseline": false,
+    "support": {
+     "firefox": "1",
+     "firefox_android": "4"
+    }
+   },
+   "mathml.elements.mpadded.voffset": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "7",
+     "firefox_android": "7",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "mathml.elements.mpadded.width": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "mathml.elements.mphantom": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "mathml.elements.mprescripts": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "mathml.elements.mroot": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "mathml.elements.mrow": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "mathml.elements.ms": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "mathml.elements.mspace": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "mathml.elements.mspace.depth": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "mathml.elements.mspace.height": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "mathml.elements.mspace.width": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "mathml.elements.msqrt": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "5.1",
+     "safari_ios": "5"
+    }
+   },
+   "mathml.elements.mstyle": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "6",
+     "firefox_android": "6",
+     "safari": "5.1",
+     "safari_ios": "5"
+    }
+   },
+   "mathml.elements.msub": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "mathml.elements.msubsup": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "mathml.elements.msup": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "mathml.elements.mtable": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "5.1",
+     "safari_ios": "5"
+    }
+   },
+   "mathml.elements.mtable.align": {
+    "baseline": false,
+    "support": {
+     "firefox": "1",
+     "firefox_android": "4"
+    }
+   },
+   "mathml.elements.mtable.columnalign": {
+    "baseline": false,
+    "support": {
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "5.1",
+     "safari_ios": "5"
+    }
+   },
+   "mathml.elements.mtable.columnlines": {
+    "baseline": false,
+    "support": {
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "5.1",
+     "safari_ios": "5"
+    }
+   },
+   "mathml.elements.mtable.columnspacing": {
+    "baseline": false,
+    "support": {
+     "firefox": "33",
+     "firefox_android": "33"
+    }
+   },
+   "mathml.elements.mtable.frame": {
+    "baseline": false,
+    "support": {
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "5.1",
+     "safari_ios": "5"
+    }
+   },
+   "mathml.elements.mtable.framespacing": {
+    "baseline": false,
+    "support": {
+     "firefox": "33",
+     "firefox_android": "33"
+    }
+   },
+   "mathml.elements.mtable.rowalign": {
+    "baseline": false,
+    "support": {
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "5.1",
+     "safari_ios": "5"
+    }
+   },
+   "mathml.elements.mtable.rowlines": {
+    "baseline": false,
+    "support": {
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "5.1",
+     "safari_ios": "5"
+    }
+   },
+   "mathml.elements.mtable.rowspacing": {
+    "baseline": false,
+    "support": {
+     "firefox": "33",
+     "firefox_android": "33"
+    }
+   },
+   "mathml.elements.mtable.width": {
+    "baseline": false,
+    "support": {
+     "firefox": "13",
+     "firefox_android": "14"
+    }
+   },
+   "mathml.elements.mtd": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "5.1",
+     "safari_ios": "5"
+    }
+   },
+   "mathml.elements.mtd.columnalign": {
+    "baseline": false,
+    "support": {
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "5.1",
+     "safari_ios": "5"
+    }
+   },
+   "mathml.elements.mtd.columnspan": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-15",
+    "support": {
+     "chrome": "117",
+     "chrome_android": "117",
+     "edge": "117",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "5.1",
+     "safari_ios": "5"
+    }
+   },
+   "mathml.elements.mtd.rowalign": {
+    "baseline": false,
+    "support": {
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "5.1",
+     "safari_ios": "5"
+    }
+   },
+   "mathml.elements.mtd.rowspan": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-15",
+    "support": {
+     "chrome": "117",
+     "chrome_android": "117",
+     "edge": "117",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "5.1",
+     "safari_ios": "5"
+    }
+   },
+   "mathml.elements.mtext": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "mathml.elements.mtr": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "5.1",
+     "safari_ios": "5"
+    }
+   },
+   "mathml.elements.mtr.columnalign": {
+    "baseline": false,
+    "support": {
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "5.1",
+     "safari_ios": "5"
+    }
+   },
+   "mathml.elements.mtr.rowalign": {
+    "baseline": false,
+    "support": {
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "5.1",
+     "safari_ios": "5"
+    }
+   },
+   "mathml.elements.munder": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "5.1",
+     "safari_ios": "5"
+    }
+   },
+   "mathml.elements.munder.accentunder": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "mathml.elements.munderover": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "mathml.elements.munderover.accent": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "mathml.elements.munderover.accentunder": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "mathml.elements.semantics": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   },
+   "mathml.global_attributes.dir": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "70",
+     "firefox_android": "79",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "mathml.global_attributes.displaystyle": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "83",
+     "firefox_android": "83",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "mathml.global_attributes.href": {
+    "baseline": false,
+    "support": {
+     "firefox": "7",
+     "firefox_android": "7",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "mathml.global_attributes.scriptlevel": {
+    "baseline": false,
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "70",
+     "firefox_android": "79"
+    }
+   }
+  },
+  "support": {
+   "chrome": "109",
+   "chrome_android": "109",
+   "edge": "109",
+   "firefox": "4",
+   "firefox_android": "4",
+   "safari": "5.1",
+   "safari_ios": "5"
+  }
+ },
+ "id": "mathml",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/mathml-core/",
+   "seriesComposition": "full",
+   "shortname": "mathml-core",
+   "series": {
+    "shortname": "mathml-core",
+    "currentSpecification": "mathml-core",
+    "title": "MathML Core",
+    "shortTitle": "MathML Core",
+    "releaseUrl": "https://www.w3.org/TR/mathml-core/",
+    "nightlyUrl": "https://w3c.github.io/mathml-core/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Math Working Group",
+     "url": "https://www.w3.org/Math/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/mathml-core/",
+    "status": "Candidate Recommendation Snapshot",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/mathml-core/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/mathml-core",
+    "sourcePath": "spec.html",
+    "filename": "index.html"
+   },
+   "title": "MathML Core",
+   "source": "w3c",
+   "shortTitle": "MathML Core",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "mathml"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/MathML",
+   "title": "MathML",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/MathML"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.26.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/content/#content_features",
+   "question": "content",
+   "subQuestion": "content_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.content.content_features.0.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+   "question": "_all_features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.26.entity"
+  }
+ ],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.01514492,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/90"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:mathml"
+ },
+ "developerSignals": null,
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1278697",
+   "https://hg.mozilla.org/mozilla-central/rev/3b30c8db537c",
+   "https://hg.mozilla.org/mozilla-central/rev/60a72a6c7c1d",
+   "https://hg.mozilla.org/mozilla-central/rev/12294b20e4d9"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/1278697",
+   "https://hg.mozilla.org/mozilla-central/rev/3b30c8db537c",
+   "https://hg.mozilla.org/mozilla-central/rev/60a72a6c7c1d",
+   "https://hg.mozilla.org/mozilla-central/rev/12294b20e4d9"
+  ],
+  "chrome": [
+   "https://crbug.com/40289400"
+  ],
+  "safari": [
+   "https://trac.webkit.org/changeset/203679",
+   "https://trac.webkit.org/changeset/159504",
+   "https://trac.webkit.org/changeset/267578",
+   "https://trac.webkit.org/changeset/203104"
+  ],
+  "safari_ios": [
+   "https://trac.webkit.org/changeset/203679",
+   "https://trac.webkit.org/changeset/159504",
+   "https://trac.webkit.org/changeset/267578",
+   "https://trac.webkit.org/changeset/203104"
+  ],
+  "webview_ios": [
+   "https://trac.webkit.org/changeset/203679",
+   "https://trac.webkit.org/changeset/159504",
+   "https://trac.webkit.org/changeset/267578",
+   "https://trac.webkit.org/changeset/203104"
+  ]
+ },
+ "baselineLowDateAsObject": "2023-01-12T00:00:00.000Z",
+ "baselineHighDateAsObject": "2025-07-12T00:00:00.000Z"
+}

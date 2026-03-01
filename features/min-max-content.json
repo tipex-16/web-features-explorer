@@ -1,0 +1,418 @@
+{
+ "compat_features": [
+  "css.properties.height.max-content",
+  "css.properties.height.min-content",
+  "css.properties.max-height.max-content",
+  "css.properties.max-height.min-content",
+  "css.properties.max-width.max-content",
+  "css.properties.max-width.min-content",
+  "css.properties.min-height.max-content",
+  "css.properties.min-height.min-content",
+  "css.properties.min-width.max-content",
+  "css.properties.min-width.min-content",
+  "css.properties.width.max-content",
+  "css.properties.width.min-content"
+ ],
+ "description": "The min-content and max-content CSS keywords represent the smallest and largest intrinsic sizes of an element.",
+ "description_html": "The <code>min-content</code> and <code>max-content</code> CSS keywords represent the smallest and largest intrinsic sizes of an element.",
+ "group": [
+  "layout"
+ ],
+ "kind": "feature",
+ "name": "min-content and max-content",
+ "spec": [
+  "https://drafts.csswg.org/css-sizing-3/#valdef-width-max-content",
+  "https://drafts.csswg.org/css-sizing-3/#valdef-width-min-content"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2022-07-15",
+  "baseline_low_date": "2020-01-15",
+  "by_compat_key": {
+   "css.properties.height.max-content": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "46",
+     "chrome_android": "46",
+     "edge": "79",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "css.properties.height.min-content": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "46",
+     "chrome_android": "46",
+     "edge": "79",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "css.properties.max-height.max-content": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "46",
+     "chrome_android": "46",
+     "edge": "79",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "css.properties.max-height.min-content": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "46",
+     "chrome_android": "46",
+     "edge": "79",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "css.properties.max-width.max-content": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "46",
+     "chrome_android": "46",
+     "edge": "79",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "css.properties.max-width.min-content": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "46",
+     "chrome_android": "46",
+     "edge": "79",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "css.properties.min-height.max-content": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "46",
+     "chrome_android": "46",
+     "edge": "79",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "css.properties.min-height.min-content": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "46",
+     "chrome_android": "46",
+     "edge": "79",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "css.properties.min-width.max-content": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "46",
+     "chrome_android": "46",
+     "edge": "79",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "css.properties.min-width.min-content": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "46",
+     "chrome_android": "46",
+     "edge": "79",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "css.properties.width.max-content": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "46",
+     "chrome_android": "46",
+     "edge": "79",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "css.properties.width.min-content": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "46",
+     "chrome_android": "46",
+     "edge": "79",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   }
+  },
+  "support": {
+   "chrome": "46",
+   "chrome_android": "46",
+   "edge": "79",
+   "firefox": "66",
+   "firefox_android": "66",
+   "safari": "11",
+   "safari_ios": "11"
+  }
+ },
+ "id": "min-max-content",
+ "groups": [
+  "layout"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-sizing-3/#valdef-width-max-content",
+   "seriesComposition": "full",
+   "shortname": "css-sizing-3",
+   "series": {
+    "shortname": "css-sizing",
+    "currentSpecification": "css-sizing-3",
+    "title": "CSS Box Sizing",
+    "shortTitle": "CSS Sizing",
+    "releaseUrl": "https://www.w3.org/TR/css-sizing/",
+    "nightlyUrl": "https://drafts.csswg.org/css-sizing/"
+   },
+   "seriesVersion": "3",
+   "shortTitle": "CSS Sizing 3",
+   "seriesNext": "css-sizing-4",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-sizing-3/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-sizing-3/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-sizing-3/",
+     "https://w3c.github.io/csswg-drafts/css-sizing/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-sizing-3/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Box Sizing Module Level 3",
+   "source": "w3c",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-sizing"
+    ]
+   },
+   "fragment": "valdef-width-max-content"
+  },
+  {
+   "url": "https://drafts.csswg.org/css-sizing-3/#valdef-width-min-content",
+   "seriesComposition": "full",
+   "shortname": "css-sizing-3",
+   "series": {
+    "shortname": "css-sizing",
+    "currentSpecification": "css-sizing-3",
+    "title": "CSS Box Sizing",
+    "shortTitle": "CSS Sizing",
+    "releaseUrl": "https://www.w3.org/TR/css-sizing/",
+    "nightlyUrl": "https://drafts.csswg.org/css-sizing/"
+   },
+   "seriesVersion": "3",
+   "shortTitle": "CSS Sizing 3",
+   "seriesNext": "css-sizing-4",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-sizing-3/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-sizing-3/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-sizing-3/",
+     "https://w3c.github.io/csswg-drafts/css-sizing/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-sizing-3/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Box Sizing Module Level 3",
+   "source": "w3c",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-sizing"
+    ]
+   },
+   "fragment": "valdef-width-min-content"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Values/min-content",
+   "title": "min-content",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/min-content"
+  },
+  {
+   "slug": "Web/CSS/Reference/Values/max-content",
+   "title": "max-content",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/max-content"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#gamechanger_feature",
+   "question": "usage",
+   "subQuestion": "gamechanger_feature",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.gamechanger_feature.freeform.allEditions.0.buckets.15.groupedBuckets.0.groupedBuckets.37.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#favorite_new_features",
+   "question": "usage",
+   "subQuestion": "favorite_new_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.favorite_new_features.freeform.allEditions.0.buckets.21.groupedBuckets.0.groupedBuckets.20.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_missing_features",
+   "question": "usage",
+   "subQuestion": "css_missing_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_missing_features.freeform.allEditions.0.buckets.21.groupedBuckets.1.groupedBuckets.57.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_interoperability_features",
+   "question": "usage",
+   "subQuestion": "css_interoperability_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_interoperability_features.freeform.allEditions.0.buckets.21.groupedBuckets.1.groupedBuckets.34.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/typography/#typography_pain_points",
+   "question": "typography",
+   "subQuestion": "typography_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.typography.typography_pain_points.freeform.allEditions.0.buckets.7.groupedBuckets.0.groupedBuckets.0.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/shapes_graphics/#shapes_graphics_pain_points",
+   "question": "shapes_graphics",
+   "subQuestion": "shapes_graphics_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.shapes_graphics.shapes_graphics_pain_points.freeform.allEditions.0.buckets.8.groupedBuckets.0.groupedBuckets.32.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/math_features/#math_features_pain_points",
+   "question": "math_features",
+   "subQuestion": "math_features_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.math_features.math_features_pain_points.freeform.allEditions.0.buckets.4.groupedBuckets.0.groupedBuckets.12.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/layout/#layout_pain_points",
+   "question": "layout",
+   "subQuestion": "layout_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.layout.layout_pain_points.freeform.allEditions.0.buckets.21.groupedBuckets.1.groupedBuckets.23.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.13.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2024.features.all_features.13.entity"
+  }
+ ],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:min-max-content"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2020-01-15T00:00:00.000Z",
+ "baselineHighDateAsObject": "2022-07-15T00:00:00.000Z"
+}

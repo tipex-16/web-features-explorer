@@ -1,0 +1,464 @@
+{
+ "caniuse": [
+  "css-overscroll-behavior"
+ ],
+ "compat_features": [
+  "css.properties.overscroll-behavior",
+  "css.properties.overscroll-behavior-block",
+  "css.properties.overscroll-behavior-block.auto",
+  "css.properties.overscroll-behavior-block.contain",
+  "css.properties.overscroll-behavior-block.none",
+  "css.properties.overscroll-behavior-inline",
+  "css.properties.overscroll-behavior-inline.auto",
+  "css.properties.overscroll-behavior-inline.contain",
+  "css.properties.overscroll-behavior-inline.none",
+  "css.properties.overscroll-behavior-x",
+  "css.properties.overscroll-behavior-x.auto",
+  "css.properties.overscroll-behavior-x.contain",
+  "css.properties.overscroll-behavior-x.none",
+  "css.properties.overscroll-behavior-y",
+  "css.properties.overscroll-behavior-y.auto",
+  "css.properties.overscroll-behavior-y.contain",
+  "css.properties.overscroll-behavior-y.none",
+  "css.properties.overscroll-behavior.auto",
+  "css.properties.overscroll-behavior.contain",
+  "css.properties.overscroll-behavior.none"
+ ],
+ "description": "The overscroll-behavior CSS property disables default scrolling behaviors when the edges of a scrolling area are reached.",
+ "description_html": "The <code>overscroll-behavior</code> CSS property disables default scrolling behaviors when the edges of a scrolling area are reached.",
+ "group": [
+  "scrolling"
+ ],
+ "kind": "feature",
+ "name": "overscroll-behavior",
+ "spec": [
+  "https://drafts.csswg.org/css-overscroll-1/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2025-03-12",
+  "baseline_low_date": "2022-09-12",
+  "by_compat_key": {
+   "css.properties.overscroll-behavior": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-12",
+    "baseline_low_date": "2022-09-12",
+    "support": {
+     "chrome": "63",
+     "chrome_android": "63",
+     "edge": "18",
+     "firefox": "59",
+     "firefox_android": "59",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.overscroll-behavior-block": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-12",
+    "baseline_low_date": "2022-09-12",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "73",
+     "firefox_android": "79",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.overscroll-behavior-block.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-12",
+    "baseline_low_date": "2022-09-12",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "73",
+     "firefox_android": "79",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.overscroll-behavior-block.contain": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-12",
+    "baseline_low_date": "2022-09-12",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "73",
+     "firefox_android": "79",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.overscroll-behavior-block.none": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-12",
+    "baseline_low_date": "2022-09-12",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "73",
+     "firefox_android": "79",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.overscroll-behavior-inline": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-12",
+    "baseline_low_date": "2022-09-12",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "73",
+     "firefox_android": "79",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.overscroll-behavior-inline.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-12",
+    "baseline_low_date": "2022-09-12",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "73",
+     "firefox_android": "79",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.overscroll-behavior-inline.contain": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-12",
+    "baseline_low_date": "2022-09-12",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "73",
+     "firefox_android": "79",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.overscroll-behavior-inline.none": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-12",
+    "baseline_low_date": "2022-09-12",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "73",
+     "firefox_android": "79",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.overscroll-behavior-x": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-12",
+    "baseline_low_date": "2022-09-12",
+    "support": {
+     "chrome": "63",
+     "chrome_android": "63",
+     "edge": "18",
+     "firefox": "59",
+     "firefox_android": "59",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.overscroll-behavior-x.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-12",
+    "baseline_low_date": "2022-09-12",
+    "support": {
+     "chrome": "63",
+     "chrome_android": "63",
+     "edge": "18",
+     "firefox": "59",
+     "firefox_android": "59",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.overscroll-behavior-x.contain": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-12",
+    "baseline_low_date": "2022-09-12",
+    "support": {
+     "chrome": "63",
+     "chrome_android": "63",
+     "edge": "18",
+     "firefox": "59",
+     "firefox_android": "59",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.overscroll-behavior-x.none": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-12",
+    "baseline_low_date": "2022-09-12",
+    "support": {
+     "chrome": "63",
+     "chrome_android": "63",
+     "edge": "79",
+     "firefox": "59",
+     "firefox_android": "59",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.overscroll-behavior-y": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-12",
+    "baseline_low_date": "2022-09-12",
+    "support": {
+     "chrome": "63",
+     "chrome_android": "63",
+     "edge": "18",
+     "firefox": "59",
+     "firefox_android": "59",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.overscroll-behavior-y.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-12",
+    "baseline_low_date": "2022-09-12",
+    "support": {
+     "chrome": "63",
+     "chrome_android": "63",
+     "edge": "18",
+     "firefox": "59",
+     "firefox_android": "59",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.overscroll-behavior-y.contain": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-12",
+    "baseline_low_date": "2022-09-12",
+    "support": {
+     "chrome": "63",
+     "chrome_android": "63",
+     "edge": "18",
+     "firefox": "59",
+     "firefox_android": "59",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.overscroll-behavior-y.none": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-12",
+    "baseline_low_date": "2022-09-12",
+    "support": {
+     "chrome": "63",
+     "chrome_android": "63",
+     "edge": "79",
+     "firefox": "59",
+     "firefox_android": "59",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.overscroll-behavior.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-12",
+    "baseline_low_date": "2022-09-12",
+    "support": {
+     "chrome": "63",
+     "chrome_android": "63",
+     "edge": "79",
+     "firefox": "59",
+     "firefox_android": "59",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.overscroll-behavior.contain": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-12",
+    "baseline_low_date": "2022-09-12",
+    "support": {
+     "chrome": "63",
+     "chrome_android": "63",
+     "edge": "79",
+     "firefox": "59",
+     "firefox_android": "59",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.overscroll-behavior.none": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-12",
+    "baseline_low_date": "2022-09-12",
+    "support": {
+     "chrome": "63",
+     "chrome_android": "63",
+     "edge": "79",
+     "firefox": "59",
+     "firefox_android": "59",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   }
+  },
+  "support": {
+   "chrome": "63",
+   "chrome_android": "63",
+   "edge": "18",
+   "firefox": "59",
+   "firefox_android": "59",
+   "safari": "16",
+   "safari_ios": "16"
+  }
+ },
+ "id": "overscroll-behavior",
+ "groups": [
+  "scrolling"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-overscroll-1/",
+   "seriesComposition": "full",
+   "shortname": "css-overscroll-1",
+   "series": {
+    "shortname": "css-overscroll",
+    "currentSpecification": "css-overscroll-1",
+    "title": "CSS Overscroll Behavior",
+    "shortTitle": "CSS Overscroll Behavior",
+    "releaseUrl": "https://www.w3.org/TR/css-overscroll/",
+    "nightlyUrl": "https://drafts.csswg.org/css-overscroll/"
+   },
+   "seriesVersion": "1",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-overscroll-1/",
+    "status": "First Public Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-overscroll-1/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-overscroll-1/",
+     "https://w3c.github.io/csswg-drafts/css-overscroll/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-overscroll-1/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Overscroll Behavior Module Level 1",
+   "source": "w3c",
+   "shortTitle": "CSS Overscroll Behavior 1",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-overscroll-behavior"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/overscroll-behavior",
+   "title": "overscroll-behavior",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overscroll-behavior"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#favorite_new_features",
+   "question": "usage",
+   "subQuestion": "favorite_new_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.favorite_new_features.freeform.allEditions.0.buckets.21.groupedBuckets.1.groupedBuckets.16.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_interoperability_features",
+   "question": "usage",
+   "subQuestion": "css_interoperability_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_interoperability_features.freeform.allEditions.0.buckets.21.groupedBuckets.1.groupedBuckets.38.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/features/#reading_list",
+   "question": "reading_list",
+   "subQuestion": "reading_list",
+   "path": "dataAPI.surveys.state_of_css.css2025.reading_list.reading_list.combined.allEditions.0.buckets.15.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.26.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/features/#reading_list",
+   "question": "reading_list",
+   "subQuestion": "reading_list",
+   "path": "dataAPI.surveys.state_of_css.css2024.reading_list.reading_list.responses.currentEdition.buckets.15.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2024.features.all_features.23.entity"
+  }
+ ],
+ "chromeUseCounters": {},
+ "interop": [
+  {
+   "year": 2022,
+   "label": "interop-2022-scrolling",
+   "url": "https://wpt.fyi/interop-2022?feature=interop-2022-scrolling"
+  },
+  {
+   "year": 2023,
+   "label": "interop-2022-scrolling",
+   "url": "https://wpt.fyi/interop-2023?feature=interop-2022-scrolling"
+  }
+ ],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:overscroll-behavior"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2022-09-12T00:00:00.000Z",
+ "baselineHighDateAsObject": "2025-03-12T00:00:00.000Z"
+}

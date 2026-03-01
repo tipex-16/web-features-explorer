@@ -1,0 +1,310 @@
+{
+ "compat_features": [
+  "api.DedicatedWorkerGlobalScope.messageerror_event",
+  "api.MessagePort.messageerror_event",
+  "api.ServiceWorkerContainer.messageerror_event",
+  "api.ServiceWorkerGlobalScope.messageerror_event",
+  "api.Window.messageerror_event",
+  "api.Worker.messageerror_event"
+ ],
+ "description": "The messageerror event fires on a target, such as a window or worker, when an incoming message cannot be deserialized. This event can fire for many types of messages, such as cross-document messages or broadcast channel messages.",
+ "description_html": "The <code>messageerror</code> event fires on a target, such as a window or worker, when an incoming message cannot be deserialized. This event can fire for many types of messages, such as cross-document messages or broadcast channel messages.",
+ "group": [
+  "messaging"
+ ],
+ "kind": "feature",
+ "name": "messageerror",
+ "spec": [
+  "https://html.spec.whatwg.org/multipage/indices.html#event-messageerror",
+  "https://w3c.github.io/ServiceWorker/#eventdef-serviceworkerglobalscope-messageerror"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2025-09-27",
+  "baseline_low_date": "2023-03-27",
+  "by_compat_key": {
+   "api.DedicatedWorkerGlobalScope.messageerror_event": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "60",
+     "chrome_android": "60",
+     "edge": "18",
+     "firefox": "57",
+     "firefox_android": "57",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.MessagePort.messageerror_event": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "60",
+     "chrome_android": "60",
+     "edge": "18",
+     "firefox": "57",
+     "firefox_android": "57",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ServiceWorkerContainer.messageerror_event": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "80",
+     "chrome_android": "80",
+     "edge": "80",
+     "firefox": "65",
+     "firefox_android": "65",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ServiceWorkerGlobalScope.messageerror_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "65",
+     "firefox_android": "65"
+    }
+   },
+   "api.Window.messageerror_event": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "60",
+     "chrome_android": "60",
+     "edge": "18",
+     "firefox": "57",
+     "firefox_android": "57",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.Worker.messageerror_event": {
+    "baseline": false,
+    "support": {
+     "firefox": "57",
+     "firefox_android": "57",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   }
+  },
+  "support": {
+   "chrome": "60",
+   "chrome_android": "60",
+   "edge": "18",
+   "firefox": "57",
+   "firefox_android": "57",
+   "safari": "16.4",
+   "safari_ios": "16.4"
+  }
+ },
+ "id": "messageerror",
+ "groups": [
+  "messaging"
+ ],
+ "specs": [
+  {
+   "url": "https://html.spec.whatwg.org/multipage/indices.html#event-messageerror",
+   "seriesComposition": "full",
+   "shortname": "html",
+   "series": {
+    "shortname": "html",
+    "currentSpecification": "html",
+    "title": "HTML",
+    "shortTitle": "HTML",
+    "nightlyUrl": "https://html.spec.whatwg.org/multipage/"
+   },
+   "nightly": {
+    "url": "https://html.spec.whatwg.org/multipage/",
+    "status": "Living Standard",
+    "sourcePath": "source",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/html",
+    "pages": [
+     "https://html.spec.whatwg.org/multipage/introduction.html",
+     "https://html.spec.whatwg.org/multipage/infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/common-microsyntaxes.html",
+     "https://html.spec.whatwg.org/multipage/urls-and-fetching.html",
+     "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html",
+     "https://html.spec.whatwg.org/multipage/structured-data.html",
+     "https://html.spec.whatwg.org/multipage/dom.html",
+     "https://html.spec.whatwg.org/multipage/semantics.html",
+     "https://html.spec.whatwg.org/multipage/sections.html",
+     "https://html.spec.whatwg.org/multipage/grouping-content.html",
+     "https://html.spec.whatwg.org/multipage/text-level-semantics.html",
+     "https://html.spec.whatwg.org/multipage/links.html",
+     "https://html.spec.whatwg.org/multipage/edits.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content.html",
+     "https://html.spec.whatwg.org/multipage/images.html",
+     "https://html.spec.whatwg.org/multipage/iframe-embed-object.html",
+     "https://html.spec.whatwg.org/multipage/media.html",
+     "https://html.spec.whatwg.org/multipage/image-maps.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content-other.html",
+     "https://html.spec.whatwg.org/multipage/tables.html",
+     "https://html.spec.whatwg.org/multipage/forms.html",
+     "https://html.spec.whatwg.org/multipage/input.html",
+     "https://html.spec.whatwg.org/multipage/form-elements.html",
+     "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/interactive-elements.html",
+     "https://html.spec.whatwg.org/multipage/scripting.html",
+     "https://html.spec.whatwg.org/multipage/canvas.html",
+     "https://html.spec.whatwg.org/multipage/custom-elements.html",
+     "https://html.spec.whatwg.org/multipage/semantics-other.html",
+     "https://html.spec.whatwg.org/multipage/microdata.html",
+     "https://html.spec.whatwg.org/multipage/interaction.html",
+     "https://html.spec.whatwg.org/multipage/dnd.html",
+     "https://html.spec.whatwg.org/multipage/popover.html",
+     "https://html.spec.whatwg.org/multipage/browsers.html",
+     "https://html.spec.whatwg.org/multipage/nav-history-apis.html",
+     "https://html.spec.whatwg.org/multipage/document-sequences.html",
+     "https://html.spec.whatwg.org/multipage/browsing-the-web.html",
+     "https://html.spec.whatwg.org/multipage/document-lifecycle.html",
+     "https://html.spec.whatwg.org/multipage/speculative-loading.html",
+     "https://html.spec.whatwg.org/multipage/webappapis.html",
+     "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html",
+     "https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html",
+     "https://html.spec.whatwg.org/multipage/system-state.html",
+     "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html",
+     "https://html.spec.whatwg.org/multipage/comms.html",
+     "https://html.spec.whatwg.org/multipage/server-sent-events.html",
+     "https://html.spec.whatwg.org/multipage/web-messaging.html",
+     "https://html.spec.whatwg.org/multipage/workers.html",
+     "https://html.spec.whatwg.org/multipage/worklets.html",
+     "https://html.spec.whatwg.org/multipage/webstorage.html",
+     "https://html.spec.whatwg.org/multipage/syntax.html",
+     "https://html.spec.whatwg.org/multipage/parsing.html",
+     "https://html.spec.whatwg.org/multipage/named-characters.html",
+     "https://html.spec.whatwg.org/multipage/xhtml.html",
+     "https://html.spec.whatwg.org/multipage/rendering.html",
+     "https://html.spec.whatwg.org/multipage/obsolete.html",
+     "https://html.spec.whatwg.org/multipage/iana.html",
+     "https://html.spec.whatwg.org/multipage/indices.html",
+     "https://html.spec.whatwg.org/multipage/references.html",
+     "https://html.spec.whatwg.org/multipage/acknowledgements.html"
+    ],
+    "filename": "index.html"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "HTML Workstream",
+     "url": "https://html.spec.whatwg.org/multipage/"
+    }
+   ],
+   "title": "HTML",
+   "source": "whatwg",
+   "shortTitle": "HTML",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "close-watcher",
+     "custom-elements",
+     "eventsource",
+     "html",
+     "imagebitmap-renderingcontext",
+     "import-maps",
+     "navigation-api",
+     "webmessaging",
+     "webstorage",
+     "workers",
+     "worklets",
+     "x-frame-options"
+    ],
+    "excludePaths": [
+     "html/cross-origin-embedder-policy/credentialless",
+     "html/dom/partial-updates/tentative",
+     "html/cross-origin-embedder-policy/credentialless"
+    ]
+   },
+   "fragment": "event-messageerror"
+  },
+  {
+   "url": "https://w3c.github.io/ServiceWorker/#eventdef-serviceworkerglobalscope-messageerror",
+   "seriesComposition": "full",
+   "shortname": "service-workers",
+   "series": {
+    "shortname": "service-workers",
+    "currentSpecification": "service-workers",
+    "title": "Service Workers",
+    "shortTitle": "Service Workers",
+    "releaseUrl": "https://www.w3.org/TR/service-workers/",
+    "nightlyUrl": "https://w3c.github.io/ServiceWorker/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Applications Working Group",
+     "url": "https://www.w3.org/groups/wg/webapps/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/service-workers/",
+    "status": "Candidate Recommendation Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/ServiceWorker/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/ServiceWorker",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Service Workers Nightly",
+   "source": "w3c",
+   "shortTitle": "Service Workers Nightly",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "service-workers"
+    ]
+   },
+   "fragment": "eventdef-serviceworkerglobalscope-messageerror"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Window/messageerror_event",
+   "title": "Window: messageerror event",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Window/messageerror_event"
+  },
+  {
+   "slug": "Web/API/Worker/messageerror_event",
+   "title": "Worker: messageerror event",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Worker/messageerror_event"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:messageerror"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2023-03-27T00:00:00.000Z",
+ "baselineHighDateAsObject": "2025-09-27T00:00:00.000Z"
+}

@@ -1,0 +1,244 @@
+{
+ "compat_features": [
+  "api.XRFrame.fillJointRadii",
+  "api.XRFrame.fillPoses",
+  "api.XRFrame.getJointPose",
+  "api.XRHand",
+  "api.XRHand.@@iterator",
+  "api.XRHand.entries",
+  "api.XRHand.forEach",
+  "api.XRHand.get",
+  "api.XRHand.keys",
+  "api.XRHand.size",
+  "api.XRHand.values",
+  "api.XRInputSource.hand",
+  "api.XRJointPose",
+  "api.XRJointPose.radius",
+  "api.XRJointSpace",
+  "api.XRJointSpace.jointName"
+ ],
+ "description": "An XRHand object, from the hand attribute of an XRInputSource object, represents a WebXR session's fully-articulated hand tracking model.",
+ "description_html": "An <code>XRHand</code> object, from the <code>hand</code> attribute of an <code>XRInputSource</code> object, represents a WebXR session's fully-articulated hand tracking model.",
+ "group": [
+  "webxr"
+ ],
+ "kind": "feature",
+ "name": "Hand input",
+ "spec": [
+  "https://immersive-web.github.io/webxr-hand-input/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.XRFrame.fillJointRadii": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131"
+    }
+   },
+   "api.XRFrame.fillPoses": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131"
+    }
+   },
+   "api.XRFrame.getJointPose": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131"
+    }
+   },
+   "api.XRHand": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131"
+    }
+   },
+   "api.XRHand.@@iterator": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131"
+    }
+   },
+   "api.XRHand.entries": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131"
+    }
+   },
+   "api.XRHand.forEach": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131"
+    }
+   },
+   "api.XRHand.get": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131"
+    }
+   },
+   "api.XRHand.keys": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131"
+    }
+   },
+   "api.XRHand.size": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131"
+    }
+   },
+   "api.XRHand.values": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131"
+    }
+   },
+   "api.XRInputSource.hand": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131"
+    }
+   },
+   "api.XRJointPose": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131"
+    }
+   },
+   "api.XRJointPose.radius": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131"
+    }
+   },
+   "api.XRJointSpace": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131"
+    }
+   },
+   "api.XRJointSpace.jointName": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131"
+    }
+   }
+  },
+  "support": {
+   "chrome": "131",
+   "chrome_android": "131"
+  }
+ },
+ "id": "webxr-hand-input",
+ "groups": [
+  "webxr"
+ ],
+ "specs": [
+  {
+   "url": "https://immersive-web.github.io/webxr-hand-input/",
+   "seriesComposition": "full",
+   "shortname": "webxr-hand-input-1",
+   "series": {
+    "shortname": "webxr-hand-input",
+    "currentSpecification": "webxr-hand-input-1",
+    "title": "WebXR Hand Input",
+    "shortTitle": "WebXR Hand Input",
+    "releaseUrl": "https://www.w3.org/TR/webxr-hand-input/",
+    "nightlyUrl": "https://immersive-web.github.io/webxr-hand-input/"
+   },
+   "seriesVersion": "1",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Immersive Web Working Group",
+     "url": "https://www.w3.org/immersive-web/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/webxr-hand-input-1/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://immersive-web.github.io/webxr-hand-input/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/immersive-web/webxr-hand-input",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "WebXR Hand Input Module - Level 1",
+   "source": "w3c",
+   "shortTitle": "WebXR Hand Input 1",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "webxr/hand-input"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/XRHand",
+   "title": "XRHand",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/XRHand"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/1070",
+   "position": "defer",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/395",
+   "position": "support",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 7e-8,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/407"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:webxr-hand-input"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/263",
+  "votes": 0
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

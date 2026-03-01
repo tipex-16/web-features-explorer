@@ -1,0 +1,254 @@
+{
+ "compat_features": [
+  "api.Navigator.storageBuckets",
+  "api.StorageBucket",
+  "api.StorageBucket.caches",
+  "api.StorageBucket.estimate",
+  "api.StorageBucket.expires",
+  "api.StorageBucket.getDirectory",
+  "api.StorageBucket.indexedDB",
+  "api.StorageBucket.name",
+  "api.StorageBucket.persist",
+  "api.StorageBucket.persisted",
+  "api.StorageBucket.setExpires",
+  "api.StorageBucketManager",
+  "api.StorageBucketManager.delete",
+  "api.StorageBucketManager.keys",
+  "api.StorageBucketManager.open",
+  "api.WorkerNavigator.storageBuckets"
+ ],
+ "description": "The navigator.storageBuckets API allows you to organize locally stored data into groups called storage buckets. Each bucket can have different settings, allowing the browser to manage and delete buckets independently rather than applying the same treatment to all.",
+ "description_html": "The <code>navigator.storageBuckets</code> API allows you to organize locally stored data into groups called storage buckets. Each bucket can have different settings, allowing the browser to manage and delete buckets independently rather than applying the same treatment to all.",
+ "group": [
+  "storage"
+ ],
+ "kind": "feature",
+ "name": "Storage buckets",
+ "spec": [
+  "https://wicg.github.io/storage-buckets/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Navigator.storageBuckets": {
+    "baseline": false,
+    "support": {
+     "chrome": "122",
+     "chrome_android": "122",
+     "edge": "122"
+    }
+   },
+   "api.StorageBucket": {
+    "baseline": false,
+    "support": {
+     "chrome": "122",
+     "chrome_android": "122",
+     "edge": "122"
+    }
+   },
+   "api.StorageBucket.caches": {
+    "baseline": false,
+    "support": {
+     "chrome": "122",
+     "chrome_android": "122",
+     "edge": "122"
+    }
+   },
+   "api.StorageBucket.estimate": {
+    "baseline": false,
+    "support": {
+     "chrome": "122",
+     "chrome_android": "122",
+     "edge": "122"
+    }
+   },
+   "api.StorageBucket.expires": {
+    "baseline": false,
+    "support": {
+     "chrome": "122",
+     "chrome_android": "122",
+     "edge": "122"
+    }
+   },
+   "api.StorageBucket.getDirectory": {
+    "baseline": false,
+    "support": {
+     "chrome": "122",
+     "chrome_android": "122",
+     "edge": "122"
+    }
+   },
+   "api.StorageBucket.indexedDB": {
+    "baseline": false,
+    "support": {
+     "chrome": "122",
+     "chrome_android": "122",
+     "edge": "122"
+    }
+   },
+   "api.StorageBucket.name": {
+    "baseline": false,
+    "support": {
+     "chrome": "122",
+     "chrome_android": "122",
+     "edge": "122"
+    }
+   },
+   "api.StorageBucket.persist": {
+    "baseline": false,
+    "support": {
+     "chrome": "122",
+     "chrome_android": "122",
+     "edge": "122"
+    }
+   },
+   "api.StorageBucket.persisted": {
+    "baseline": false,
+    "support": {
+     "chrome": "122",
+     "chrome_android": "122",
+     "edge": "122"
+    }
+   },
+   "api.StorageBucket.setExpires": {
+    "baseline": false,
+    "support": {
+     "chrome": "122",
+     "chrome_android": "122",
+     "edge": "122"
+    }
+   },
+   "api.StorageBucketManager": {
+    "baseline": false,
+    "support": {
+     "chrome": "122",
+     "chrome_android": "122",
+     "edge": "122"
+    }
+   },
+   "api.StorageBucketManager.delete": {
+    "baseline": false,
+    "support": {
+     "chrome": "122",
+     "chrome_android": "122",
+     "edge": "122"
+    }
+   },
+   "api.StorageBucketManager.keys": {
+    "baseline": false,
+    "support": {
+     "chrome": "122",
+     "chrome_android": "122",
+     "edge": "122"
+    }
+   },
+   "api.StorageBucketManager.open": {
+    "baseline": false,
+    "support": {
+     "chrome": "122",
+     "chrome_android": "122",
+     "edge": "122"
+    }
+   },
+   "api.WorkerNavigator.storageBuckets": {
+    "baseline": false,
+    "support": {
+     "chrome": "122",
+     "chrome_android": "122",
+     "edge": "122"
+    }
+   }
+  },
+  "support": {
+   "chrome": "122",
+   "chrome_android": "122",
+   "edge": "122"
+  }
+ },
+ "id": "storage-buckets",
+ "groups": [
+  "storage"
+ ],
+ "specs": [
+  {
+   "url": "https://wicg.github.io/storage-buckets/",
+   "seriesComposition": "full",
+   "shortname": "storage-buckets",
+   "series": {
+    "shortname": "storage-buckets",
+    "currentSpecification": "storage-buckets",
+    "title": "Storage Buckets API",
+    "shortTitle": "Storage Buckets API",
+    "nightlyUrl": "https://wicg.github.io/storage-buckets/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://wicg.github.io/storage-buckets/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/WICG/storage-buckets",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Storage Buckets API",
+   "source": "spec",
+   "shortTitle": "Storage Buckets API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "storage/buckets"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/475",
+   "position": "positive",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/181",
+   "position": "",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00144921,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/66"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:storage-buckets"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/231",
+  "votes": 0
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1594740"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/1594740"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

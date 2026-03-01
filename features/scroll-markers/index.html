@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Web platform features explorer - Scroll markers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
+    <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
+  </head>
+  <body>
+
+    
+      <header>
+        <a href="/web-features-explorer/">Web platform features explorer</a>
+
+        <nav>
+          <ul>
+            <li><a href="/web-features-explorer/release-notes/february-2026">Release notes</a></li>
+            <li><a href="/web-features-explorer/newly-available">Explore features</a></li>
+            <li><a href="/web-features-explorer/about">About</a></li>
+          </ul>
+          <search>
+            <form>
+              <input type="search" id="search" placeholder="Search">
+            </form>
+          </search>
+        </nav>
+
+        <output for="search"></output>
+      </header>
+    
+
+    
+<main class="feature-page">
+  <div id="scroll-markers" class="feature full baseline-false">
+  <div class="header">
+    <h1 data-pagefind-body="">Scroll markers</h1>
+    <span class="feature-copyable-id"><input id="feature-id" type="text" value="scroll-markers" data-len="14"><button id="copy-feature-id">Copy ID</button></span>
+    <script>
+      (function() {
+        const button = document.querySelector("#copy-feature-id");
+        const field = document.querySelector("#feature-id");
+        button.addEventListener("click", async () => {
+          await navigator.clipboard.writeText(field.value);
+          button.textContent = "Copied!";
+        });
+      })();
+    </script>
+  </div>
+
+  
+
+  <p class="description" data-pagefind-body="">
+    A scroll marker scrolls a container to a scroll target. The <code>::scroll-marker</code> CSS pseudo-element selects a scroll marker in a <code>::scroll-marker-group</code> pseudo-element, generated before or after the scroll container. You can use them to navigate and style tables of contents, tab panels, and carousels.
+  </p>
+
+  <div class="baseline feature-box">
+    <h3>Status</h3>
+    <div class="availability">
+  
+    Limited availability
+    
+    
+  
+</div>
+    
+    
+  </div>
+
+  <div class="docs feature-box">
+  <h3>MDN documentation</h3>
+  
+    <ul data-pagefind-body="">
+      
+        <li>
+          <a href="https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-marker-group">
+            
+              scroll-marker-group
+            
+          </a>
+        </li>
+      
+        <li>
+          <a href="https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::scroll-marker">
+            
+              ::scroll-marker
+            
+          </a>
+        </li>
+      
+        <li>
+          <a href="https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::scroll-marker-group">
+            
+              ::scroll-marker-group
+            
+          </a>
+        </li>
+      
+    </ul>
+  
+</div>
+
+
+  
+  <div class="specs feature-box" data-pagefind-body="">
+    <h3>Specifications</h3>
+    <ul data-pagefind-body="">
+      
+        <li>
+          
+            <a href="https://drafts.csswg.org/css-overflow-5/#scroll-markers">CSS Overflow Module Level 5 (#scroll-markers)</a>,
+            from <a href="https://www.w3.org/groups/wg/css/">Cascading Style Sheets (CSS) Working Group</a> (W3C).
+          
+        </li>
+      
+    </ul>
+  </div>
+
+  
+  <div class="compat-table feature-box">
+    <h3>Browser support</h3>
+    <ul class="compat compat-full">
+  
+    <li class="browser browser-chrome supported">
+      <span class="name">Chrome</span>
+      
+      
+        <span class="version">135</span>
+        <span class="date">Released on 2025-04-01</span>
+      
+    </li>
+  
+    <li class="browser browser-chrome_android supported">
+      <span class="name">Chrome Android</span>
+      
+      
+        <span class="version">135</span>
+        <span class="date">Released on 2025-04-01</span>
+      
+    </li>
+  
+    <li class="browser browser-edge supported">
+      <span class="name">Edge</span>
+      
+      
+        <span class="version">135</span>
+        <span class="date">Released on 2025-04-04</span>
+      
+    </li>
+  
+    <li class="browser browser-firefox">
+      <span class="name">Firefox</span>
+      
+      
+        <span class="version">❌</span>
+        
+        
+
+      
+    </li>
+  
+    <li class="browser browser-firefox_android">
+      <span class="name">Firefox for Android</span>
+      
+      
+        <span class="version">❌</span>
+        
+        
+
+      
+    </li>
+  
+    <li class="browser browser-safari">
+      <span class="name">Safari</span>
+      
+      
+        <span class="version">❌</span>
+        
+        
+
+      
+    </li>
+  
+    <li class="browser browser-safari_ios">
+      <span class="name">Safari on iOS</span>
+      
+      
+        <span class="version">❌</span>
+        
+        
+
+      
+    </li>
+  
+</ul>
+  </div>
+
+  
+  <div class="surveys feature-box">
+    <h3>Surveys</h3>
+    <ul>
+      
+        <li>
+          <a href="https://2025.stateofcss.com/en-US/usage/#favorite_new_features">
+            State of CSS 2025
+            &gt;
+            usage
+            &gt;
+            favorite new features
+          </a>
+        </li>
+      
+        <li>
+          <a href="https://2025.stateofcss.com/en-US/usage/#css_missing_features">
+            State of CSS 2025
+            &gt;
+            usage
+            &gt;
+            css missing features
+          </a>
+        </li>
+      
+        <li>
+          <a href="https://2025.stateofcss.com/en-US/usage/#css_interoperability_features">
+            State of CSS 2025
+            &gt;
+            usage
+            &gt;
+            css interoperability features
+          </a>
+        </li>
+      
+        <li>
+          <a href="https://2025.stateofcss.com/en-US/features/#reading_list">
+            State of CSS 2025
+            &gt;
+            reading list
+            &gt;
+            reading list
+          </a>
+        </li>
+      
+        <li>
+          <a href="https://2025.stateofcss.com/en-US/interactions/#interactions_pain_points">
+            State of CSS 2025
+            &gt;
+            interactions
+            &gt;
+            interactions pain points
+          </a>
+        </li>
+      
+        <li>
+          <a href="https://2025.stateofcss.com/en-US/features/#all_features">
+            State of CSS 2025
+            &gt;
+            features
+            &gt;
+            all features
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+
+
+  
+  <div class="use-counters feature-box">
+    <h3>Usage <span class="subtext">(according to <a href="https://chromestatus.com/metrics/webfeature/popularity">Chrome Platform Status</a>)</span></h3>
+    ~0.047% of page loads. <a href="https://chromestatus.com/metrics/webfeature/timeline/popularity/295">More data at chromestatus.com</a>.
+  </div>
+
+
+  
+
+  
+  <div class="wpt feature-box">
+    <h3>Web Platform Tests (WPT)</h3>
+    <a href="https://wpt.fyi/results?q=feature:scroll-markers">View the latest WPT test results for this feature</a>
+  </div>
+
+
+  
+  <div class="developer-signals feature-box">
+    <h3>Developer votes</h3>
+    <div class="votes">
+      <a href="https://github.com/web-platform-dx/developer-signals/issues/289">
+        <strong>
+          👍
+          <br>
+          15
+        </strong>
+      </a>
+    </div>
+    <p>Do you need this feature?<br>
+       Let us know by leaving a 👍 reaction on <a href="https://github.com/web-platform-dx/developer-signals/issues/289">the feedback issue</a>. Don't forget to also leave a comment explaining your specific use case.</p>
+  </div>
+
+
+  <p class="edit-links">
+    <a href="../scroll-markers.json">View as JSON</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/scroll-markers.yml">Edit this feature</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[scroll-markers] Issue title&body=Please describe the issue here...">Report an issue</a>
+    |    
+    Web-features entry:
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/scroll-markers.yml">source</a>,
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/scroll-markers.yml.dist">dist</a>
+  </p>
+</div>
+
+</main>
+
+        
+      <script src="/web-features-explorer/assets/search.js" defer=""></script>
+    
+  </body>
+</html>

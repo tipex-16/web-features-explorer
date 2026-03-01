@@ -1,0 +1,140 @@
+{
+ "compat_features": [
+  "api.EyeDropper",
+  "api.EyeDropper.EyeDropper",
+  "api.EyeDropper.open",
+  "api.EyeDropper.secure_context_required"
+ ],
+ "description": "The EyeDropper API opens an eyedropper tool, a color picker that allows users to select a color from their screen.",
+ "description_html": "The <code>EyeDropper</code> API opens an eyedropper tool, a color picker that allows users to select a color from their screen.",
+ "kind": "feature",
+ "name": "Eyedropper",
+ "spec": [
+  "https://wicg.github.io/eyedropper-api/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.EyeDropper": {
+    "baseline": false,
+    "support": {
+     "chrome": "95",
+     "edge": "95"
+    }
+   },
+   "api.EyeDropper.EyeDropper": {
+    "baseline": false,
+    "support": {
+     "chrome": "95",
+     "edge": "95"
+    }
+   },
+   "api.EyeDropper.open": {
+    "baseline": false,
+    "support": {
+     "chrome": "95",
+     "edge": "95"
+    }
+   },
+   "api.EyeDropper.secure_context_required": {
+    "baseline": false,
+    "support": {
+     "chrome": "96",
+     "edge": "96"
+    }
+   }
+  },
+  "support": {
+   "chrome": "96",
+   "edge": "96"
+  }
+ },
+ "id": "eyedropper",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://wicg.github.io/eyedropper-api/",
+   "seriesComposition": "full",
+   "shortname": "eyedropper-api",
+   "series": {
+    "shortname": "eyedropper-api",
+    "currentSpecification": "eyedropper-api",
+    "title": "EyeDropper API",
+    "shortTitle": "EyeDropper API",
+    "nightlyUrl": "https://wicg.github.io/eyedropper-api/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://wicg.github.io/eyedropper-api/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/WICG/eyedropper-api",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "EyeDropper API",
+   "source": "spec",
+   "shortTitle": "EyeDropper API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/EyeDropper_API",
+   "title": "EyeDropper API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/EyeDropper_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/557",
+   "concerns": [
+    "integration",
+    "API design"
+   ],
+   "position": ""
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/29",
+   "concerns": [
+    "API design",
+    "maintenance"
+   ],
+   "position": ""
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00003206,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/130"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:eyedropper"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/158",
+  "votes": 4
+ },
+ "bugs": {
+  "webview_android": [
+   "https://crbug.com/40791573"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

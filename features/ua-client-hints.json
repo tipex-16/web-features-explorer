@@ -1,0 +1,352 @@
+{
+ "compat_features": [
+  "api.Navigator.userAgentData",
+  "api.Navigator.userAgentData.secure_context_required",
+  "api.NavigatorUAData",
+  "api.NavigatorUAData.brands",
+  "api.NavigatorUAData.getHighEntropyValues",
+  "api.NavigatorUAData.mobile",
+  "api.NavigatorUAData.platform",
+  "api.NavigatorUAData.toJSON",
+  "api.WorkerNavigator.userAgentData",
+  "http.headers.Accept-CH.Sec-CH-UA",
+  "http.headers.Accept-CH.Sec-CH-UA-Arch",
+  "http.headers.Accept-CH.Sec-CH-UA-Full-Version",
+  "http.headers.Accept-CH.Sec-CH-UA-Mobile",
+  "http.headers.Accept-CH.Sec-CH-UA-Model",
+  "http.headers.Accept-CH.Sec-CH-UA-Platform",
+  "http.headers.Accept-CH.Sec-CH-UA-Platform-Version",
+  "http.headers.Sec-CH-UA",
+  "http.headers.Sec-CH-UA-Arch",
+  "http.headers.Sec-CH-UA-Bitness",
+  "http.headers.Sec-CH-UA-Form-Factors",
+  "http.headers.Sec-CH-UA-Full-Version-List",
+  "http.headers.Sec-CH-UA-Mobile",
+  "http.headers.Sec-CH-UA-Model",
+  "http.headers.Sec-CH-UA-Platform",
+  "http.headers.Sec-CH-UA-Platform-Version",
+  "http.headers.Sec-CH-UA-WoW64"
+ ],
+ "description": "The Sec-CH-UA HTTP request header and the navigator.userAgentData API expose browser and platform information used to vary responses and application logic. User agent client hints are similar to user agent strings but more privacy-preserving and safer to parse.",
+ "description_html": "The <code>Sec-CH-UA</code> HTTP request header and the <code>navigator.userAgentData</code> API expose browser and platform information used to vary responses and application logic. User agent client hints are similar to user agent strings but more privacy-preserving and safer to parse.",
+ "kind": "feature",
+ "name": "User agent client hints",
+ "spec": [
+  "https://wicg.github.io/ua-client-hints/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Navigator.userAgentData": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90"
+    }
+   },
+   "api.Navigator.userAgentData.secure_context_required": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90"
+    }
+   },
+   "api.NavigatorUAData": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90"
+    }
+   },
+   "api.NavigatorUAData.brands": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90"
+    }
+   },
+   "api.NavigatorUAData.getHighEntropyValues": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90"
+    }
+   },
+   "api.NavigatorUAData.mobile": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90"
+    }
+   },
+   "api.NavigatorUAData.platform": {
+    "baseline": false,
+    "support": {
+     "chrome": "93",
+     "chrome_android": "93",
+     "edge": "93"
+    }
+   },
+   "api.NavigatorUAData.toJSON": {
+    "baseline": false,
+    "support": {
+     "chrome": "93",
+     "chrome_android": "93",
+     "edge": "93"
+    }
+   },
+   "api.WorkerNavigator.userAgentData": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90"
+    }
+   },
+   "http.headers.Accept-CH.Sec-CH-UA": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "chrome_android": "89",
+     "edge": "89"
+    }
+   },
+   "http.headers.Accept-CH.Sec-CH-UA-Arch": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "chrome_android": "89",
+     "edge": "89"
+    }
+   },
+   "http.headers.Accept-CH.Sec-CH-UA-Full-Version": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "chrome_android": "89",
+     "edge": "89"
+    }
+   },
+   "http.headers.Accept-CH.Sec-CH-UA-Mobile": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "chrome_android": "89",
+     "edge": "89"
+    }
+   },
+   "http.headers.Accept-CH.Sec-CH-UA-Model": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "chrome_android": "89",
+     "edge": "89"
+    }
+   },
+   "http.headers.Accept-CH.Sec-CH-UA-Platform": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "chrome_android": "89",
+     "edge": "89"
+    }
+   },
+   "http.headers.Accept-CH.Sec-CH-UA-Platform-Version": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "chrome_android": "89",
+     "edge": "89"
+    }
+   },
+   "http.headers.Sec-CH-UA": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "chrome_android": "89",
+     "edge": "89"
+    }
+   },
+   "http.headers.Sec-CH-UA-Arch": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "chrome_android": "89",
+     "edge": "89"
+    }
+   },
+   "http.headers.Sec-CH-UA-Bitness": {
+    "baseline": false,
+    "support": {
+     "chrome": "93",
+     "chrome_android": "93",
+     "edge": "93"
+    }
+   },
+   "http.headers.Sec-CH-UA-Form-Factors": {
+    "baseline": false,
+    "support": {
+     "chrome": "124",
+     "chrome_android": "124",
+     "edge": "124"
+    }
+   },
+   "http.headers.Sec-CH-UA-Full-Version-List": {
+    "baseline": false,
+    "support": {
+     "chrome": "98",
+     "chrome_android": "98",
+     "edge": "98"
+    }
+   },
+   "http.headers.Sec-CH-UA-Mobile": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "chrome_android": "89",
+     "edge": "89"
+    }
+   },
+   "http.headers.Sec-CH-UA-Model": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "chrome_android": "89",
+     "edge": "89"
+    }
+   },
+   "http.headers.Sec-CH-UA-Platform": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "chrome_android": "89",
+     "edge": "89"
+    }
+   },
+   "http.headers.Sec-CH-UA-Platform-Version": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "chrome_android": "89",
+     "edge": "89"
+    }
+   },
+   "http.headers.Sec-CH-UA-WoW64": {
+    "baseline": false,
+    "support": {
+     "chrome": "100",
+     "chrome_android": "100",
+     "edge": "100"
+    }
+   }
+  },
+  "support": {
+   "chrome": "90",
+   "chrome_android": "90",
+   "edge": "90"
+  }
+ },
+ "id": "ua-client-hints",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://wicg.github.io/ua-client-hints/",
+   "seriesComposition": "full",
+   "shortname": "ua-client-hints",
+   "series": {
+    "shortname": "ua-client-hints",
+    "currentSpecification": "ua-client-hints",
+    "title": "User-Agent Client Hints",
+    "shortTitle": "User-Agent Client Hints",
+    "nightlyUrl": "https://wicg.github.io/ua-client-hints/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://wicg.github.io/ua-client-hints/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/WICG/ua-client-hints",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "User-Agent Client Hints",
+   "source": "spec",
+   "shortTitle": "User-Agent Client Hints",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "ua-client-hints"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/User-Agent_Client_Hints_API",
+   "title": "User-Agent Client Hints API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/User-Agent_Client_Hints_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/202",
+   "position": "neutral",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/70",
+   "position": "blocked",
+   "concerns": [
+    "interoperability",
+    "privacy"
+   ]
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.73521915,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/341"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:ua-client-hints"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/242",
+  "votes": 1
+ },
+ "bugs": {
+  "webview_android": [
+   "https://crbug.com/40609350"
+  ],
+  "firefox": [
+   "https://bugzil.la/935216"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/935216"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

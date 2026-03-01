@@ -1,0 +1,149 @@
+{
+ "compat_features": [
+  "manifests.webapp.share_target"
+ ],
+ "description": "The share_target web app manifest member registers an installed web app as a handler for shared content. When a user shares content by using the device share dialog, the installed app can be listed as an option for handling the shared content.",
+ "description_html": "The <code>share_target</code> web app manifest member registers an installed web app as a handler for shared content. When a user shares content by using the device share dialog, the installed app can be listed as an option for handling the shared content.",
+ "group": [
+  "progressive-web-app"
+ ],
+ "kind": "feature",
+ "name": "Share targets",
+ "spec": [
+  "https://w3c.github.io/web-share-target/#share_target-member"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "manifests.webapp.share_target": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "chrome_android": "76",
+     "edge": "89"
+    }
+   }
+  },
+  "support": {
+   "chrome": "89",
+   "chrome_android": "76",
+   "edge": "89"
+  }
+ },
+ "id": "app-share-targets",
+ "groups": [
+  "progressive-web-app"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/web-share-target/#share_target-member",
+   "seriesComposition": "full",
+   "shortname": "web-share-target",
+   "series": {
+    "shortname": "web-share-target",
+    "currentSpecification": "web-share-target",
+    "title": "Web Share Target API",
+    "shortTitle": "Web Share Target API",
+    "nightlyUrl": "https://w3c.github.io/web-share-target/"
+   },
+   "standing": "good",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://w3c.github.io/web-share-target/",
+    "status": "Unofficial Proposal Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/web-share-target",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Web Share Target API",
+   "source": "spec",
+   "shortTitle": "Web Share Target API",
+   "categories": [
+    "browser"
+   ],
+   "fragment": "share_target-member"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/Progressive_web_apps/Manifest/Reference/share_target",
+   "title": "share_target",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/Progressive_web_apps/Manifest/Reference/share_target"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/176",
+   "position": "positive",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/11",
+   "position": "neutral",
+   "concerns": [
+    "security",
+    "integration"
+   ]
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/system_capabilities/#system_capabilities_features",
+   "question": "system_capabilities",
+   "subQuestion": "system_capabilities_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.system_capabilities.system_capabilities_features.2.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.59.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+   "question": "_all_features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.59.entity"
+  }
+ ],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00263491,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/304"
+ },
+ "interop": [],
+ "wpt": null,
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/107",
+  "votes": 3
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1476515"
+  ],
+  "safari": [
+   "https://webkit.org/b/194593"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/194593"
+  ],
+  "webview_ios": [
+   "https://webkit.org/b/194593"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

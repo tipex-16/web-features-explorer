@@ -1,0 +1,1018 @@
+{
+ "compat_features": [
+  "api.NavigateEvent",
+  "api.NavigateEvent.NavigateEvent",
+  "api.NavigateEvent.canIntercept",
+  "api.NavigateEvent.destination",
+  "api.NavigateEvent.downloadRequest",
+  "api.NavigateEvent.formData",
+  "api.NavigateEvent.hasUAVisualTransition",
+  "api.NavigateEvent.hashChange",
+  "api.NavigateEvent.info",
+  "api.NavigateEvent.intercept",
+  "api.NavigateEvent.navigationType",
+  "api.NavigateEvent.scroll",
+  "api.NavigateEvent.signal",
+  "api.NavigateEvent.userInitiated",
+  "api.Navigation",
+  "api.Navigation.activation",
+  "api.Navigation.back",
+  "api.Navigation.canGoBack",
+  "api.Navigation.canGoForward",
+  "api.Navigation.currentEntry",
+  "api.Navigation.currententrychange_event",
+  "api.Navigation.entries",
+  "api.Navigation.forward",
+  "api.Navigation.navigate",
+  "api.Navigation.navigate_event",
+  "api.Navigation.navigateerror_event",
+  "api.Navigation.navigatesuccess_event",
+  "api.Navigation.reload",
+  "api.Navigation.transition",
+  "api.Navigation.traverseTo",
+  "api.Navigation.updateCurrentEntry",
+  "api.NavigationActivation",
+  "api.NavigationActivation.entry",
+  "api.NavigationActivation.from",
+  "api.NavigationActivation.navigationType",
+  "api.NavigationCurrentEntryChangeEvent",
+  "api.NavigationCurrentEntryChangeEvent.NavigationCurrentEntryChangeEvent",
+  "api.NavigationCurrentEntryChangeEvent.from",
+  "api.NavigationCurrentEntryChangeEvent.navigationType",
+  "api.NavigationDestination",
+  "api.NavigationDestination.getState",
+  "api.NavigationDestination.id",
+  "api.NavigationDestination.index",
+  "api.NavigationDestination.key",
+  "api.NavigationDestination.sameDocument",
+  "api.NavigationDestination.url",
+  "api.NavigationHistoryEntry",
+  "api.NavigationHistoryEntry.dispose_event",
+  "api.NavigationHistoryEntry.getState",
+  "api.NavigationHistoryEntry.id",
+  "api.NavigationHistoryEntry.index",
+  "api.NavigationHistoryEntry.key",
+  "api.NavigationHistoryEntry.sameDocument",
+  "api.NavigationHistoryEntry.url",
+  "api.NavigationTransition",
+  "api.NavigationTransition.finished",
+  "api.NavigationTransition.from",
+  "api.NavigationTransition.navigationType",
+  "api.Window.navigation"
+ ],
+ "description": "The navigation API initiates, intercepts, or modifies browser navigation actions. Not to be confused with the navigator API.",
+ "description_html": "The <code>navigation</code> API initiates, intercepts, or modifies browser navigation actions. Not to be confused with the <code>navigator</code> API.",
+ "kind": "feature",
+ "name": "Navigation API",
+ "spec": [
+  "https://html.spec.whatwg.org/multipage/nav-history-apis.html#navigation-api"
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2026-01-13",
+  "by_compat_key": {
+   "api.NavigateEvent": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigateEvent.NavigateEvent": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigateEvent.canIntercept": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "105",
+     "chrome_android": "105",
+     "edge": "105",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigateEvent.destination": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigateEvent.downloadRequest": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigateEvent.formData": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigateEvent.hasUAVisualTransition": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "118",
+     "chrome_android": "118",
+     "edge": "118",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigateEvent.hashChange": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigateEvent.info": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigateEvent.intercept": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "105",
+     "chrome_android": "105",
+     "edge": "105",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigateEvent.navigationType": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigateEvent.scroll": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "105",
+     "chrome_android": "105",
+     "edge": "105",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigateEvent.signal": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigateEvent.userInitiated": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.Navigation": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.Navigation.activation": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "123",
+     "chrome_android": "123",
+     "edge": "123",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.Navigation.back": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.Navigation.canGoBack": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.Navigation.canGoForward": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.Navigation.currentEntry": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.Navigation.currententrychange_event": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.Navigation.entries": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.Navigation.forward": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.Navigation.navigate": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.Navigation.navigate_event": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.Navigation.navigateerror_event": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.Navigation.navigatesuccess_event": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.Navigation.reload": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.Navigation.transition": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.Navigation.traverseTo": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.Navigation.updateCurrentEntry": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigationActivation": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "123",
+     "chrome_android": "123",
+     "edge": "123",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigationActivation.entry": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "123",
+     "chrome_android": "123",
+     "edge": "123",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigationActivation.from": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "123",
+     "chrome_android": "123",
+     "edge": "123",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigationActivation.navigationType": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "123",
+     "chrome_android": "123",
+     "edge": "123",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigationCurrentEntryChangeEvent": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigationCurrentEntryChangeEvent.NavigationCurrentEntryChangeEvent": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigationCurrentEntryChangeEvent.from": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigationCurrentEntryChangeEvent.navigationType": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigationDestination": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigationDestination.getState": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigationDestination.id": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigationDestination.index": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigationDestination.key": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigationDestination.sameDocument": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigationDestination.url": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigationHistoryEntry": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigationHistoryEntry.dispose_event": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigationHistoryEntry.getState": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigationHistoryEntry.id": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigationHistoryEntry.index": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigationHistoryEntry.key": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigationHistoryEntry.sameDocument": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigationHistoryEntry.url": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigationTransition": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigationTransition.finished": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigationTransition.from": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.NavigationTransition.navigationType": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.Window.navigation": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   }
+  },
+  "support": {
+   "chrome": "102",
+   "chrome_android": "102",
+   "edge": "102",
+   "firefox": "147",
+   "firefox_android": "147",
+   "safari": "26.2",
+   "safari_ios": "26.2"
+  }
+ },
+ "id": "navigation",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#navigation-api",
+   "seriesComposition": "full",
+   "shortname": "html",
+   "series": {
+    "shortname": "html",
+    "currentSpecification": "html",
+    "title": "HTML",
+    "shortTitle": "HTML",
+    "nightlyUrl": "https://html.spec.whatwg.org/multipage/"
+   },
+   "nightly": {
+    "url": "https://html.spec.whatwg.org/multipage/",
+    "status": "Living Standard",
+    "sourcePath": "source",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/html",
+    "pages": [
+     "https://html.spec.whatwg.org/multipage/introduction.html",
+     "https://html.spec.whatwg.org/multipage/infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/common-microsyntaxes.html",
+     "https://html.spec.whatwg.org/multipage/urls-and-fetching.html",
+     "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html",
+     "https://html.spec.whatwg.org/multipage/structured-data.html",
+     "https://html.spec.whatwg.org/multipage/dom.html",
+     "https://html.spec.whatwg.org/multipage/semantics.html",
+     "https://html.spec.whatwg.org/multipage/sections.html",
+     "https://html.spec.whatwg.org/multipage/grouping-content.html",
+     "https://html.spec.whatwg.org/multipage/text-level-semantics.html",
+     "https://html.spec.whatwg.org/multipage/links.html",
+     "https://html.spec.whatwg.org/multipage/edits.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content.html",
+     "https://html.spec.whatwg.org/multipage/images.html",
+     "https://html.spec.whatwg.org/multipage/iframe-embed-object.html",
+     "https://html.spec.whatwg.org/multipage/media.html",
+     "https://html.spec.whatwg.org/multipage/image-maps.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content-other.html",
+     "https://html.spec.whatwg.org/multipage/tables.html",
+     "https://html.spec.whatwg.org/multipage/forms.html",
+     "https://html.spec.whatwg.org/multipage/input.html",
+     "https://html.spec.whatwg.org/multipage/form-elements.html",
+     "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/interactive-elements.html",
+     "https://html.spec.whatwg.org/multipage/scripting.html",
+     "https://html.spec.whatwg.org/multipage/canvas.html",
+     "https://html.spec.whatwg.org/multipage/custom-elements.html",
+     "https://html.spec.whatwg.org/multipage/semantics-other.html",
+     "https://html.spec.whatwg.org/multipage/microdata.html",
+     "https://html.spec.whatwg.org/multipage/interaction.html",
+     "https://html.spec.whatwg.org/multipage/dnd.html",
+     "https://html.spec.whatwg.org/multipage/popover.html",
+     "https://html.spec.whatwg.org/multipage/browsers.html",
+     "https://html.spec.whatwg.org/multipage/nav-history-apis.html",
+     "https://html.spec.whatwg.org/multipage/document-sequences.html",
+     "https://html.spec.whatwg.org/multipage/browsing-the-web.html",
+     "https://html.spec.whatwg.org/multipage/document-lifecycle.html",
+     "https://html.spec.whatwg.org/multipage/speculative-loading.html",
+     "https://html.spec.whatwg.org/multipage/webappapis.html",
+     "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html",
+     "https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html",
+     "https://html.spec.whatwg.org/multipage/system-state.html",
+     "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html",
+     "https://html.spec.whatwg.org/multipage/comms.html",
+     "https://html.spec.whatwg.org/multipage/server-sent-events.html",
+     "https://html.spec.whatwg.org/multipage/web-messaging.html",
+     "https://html.spec.whatwg.org/multipage/workers.html",
+     "https://html.spec.whatwg.org/multipage/worklets.html",
+     "https://html.spec.whatwg.org/multipage/webstorage.html",
+     "https://html.spec.whatwg.org/multipage/syntax.html",
+     "https://html.spec.whatwg.org/multipage/parsing.html",
+     "https://html.spec.whatwg.org/multipage/named-characters.html",
+     "https://html.spec.whatwg.org/multipage/xhtml.html",
+     "https://html.spec.whatwg.org/multipage/rendering.html",
+     "https://html.spec.whatwg.org/multipage/obsolete.html",
+     "https://html.spec.whatwg.org/multipage/iana.html",
+     "https://html.spec.whatwg.org/multipage/indices.html",
+     "https://html.spec.whatwg.org/multipage/references.html",
+     "https://html.spec.whatwg.org/multipage/acknowledgements.html"
+    ],
+    "filename": "index.html"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "HTML Workstream",
+     "url": "https://html.spec.whatwg.org/multipage/"
+    }
+   ],
+   "title": "HTML",
+   "source": "whatwg",
+   "shortTitle": "HTML",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "close-watcher",
+     "custom-elements",
+     "eventsource",
+     "html",
+     "imagebitmap-renderingcontext",
+     "import-maps",
+     "navigation-api",
+     "webmessaging",
+     "webstorage",
+     "workers",
+     "worklets",
+     "x-frame-options"
+    ],
+    "excludePaths": [
+     "html/cross-origin-embedder-policy/credentialless",
+     "html/dom/partial-updates/tentative",
+     "html/cross-origin-embedder-policy/credentialless"
+    ]
+   },
+   "fragment": "navigation-api"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Navigation_API",
+   "title": "Navigation API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Navigation_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/543",
+   "position": "positive",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/34",
+   "position": "support",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00187767,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/89"
+ },
+ "interop": [
+  {
+   "year": 2025,
+   "label": "interop-2025-navigation",
+   "url": "https://wpt.fyi/interop-2025?feature=interop-2025-navigation"
+  }
+ ],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:navigation"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2026-01-13T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2028-07-13"
+}

@@ -1,0 +1,467 @@
+{
+ "caniuse": [
+  "touch"
+ ],
+ "compat_features": [
+  "api.Element.touchcancel_event",
+  "api.Element.touchend_event",
+  "api.Element.touchmove_event",
+  "api.Element.touchstart_event",
+  "api.Touch",
+  "api.Touch.Touch",
+  "api.Touch.altitudeAngle",
+  "api.Touch.azimuthAngle",
+  "api.Touch.clientX",
+  "api.Touch.clientY",
+  "api.Touch.force",
+  "api.Touch.identifier",
+  "api.Touch.pageX",
+  "api.Touch.pageY",
+  "api.Touch.radiusX",
+  "api.Touch.radiusY",
+  "api.Touch.rotationAngle",
+  "api.Touch.screenX",
+  "api.Touch.screenY",
+  "api.Touch.target",
+  "api.Touch.touchType",
+  "api.TouchEvent",
+  "api.TouchEvent.TouchEvent",
+  "api.TouchEvent.altKey",
+  "api.TouchEvent.changedTouches",
+  "api.TouchEvent.ctrlKey",
+  "api.TouchEvent.metaKey",
+  "api.TouchEvent.shiftKey",
+  "api.TouchEvent.targetTouches",
+  "api.TouchEvent.touches",
+  "api.TouchList",
+  "api.TouchList.item",
+  "api.TouchList.length"
+ ],
+ "description": "Touch events touchstart, touchmove, touchend, and touchcancel fire when users interact with a touch-sensitive surface, such as a screen or drawing tablet. These events are similar to mouse events.",
+ "description_html": "Touch events <code>touchstart</code>, <code>touchmove</code>, <code>touchend</code>, and <code>touchcancel</code> fire when users interact with a touch-sensitive surface, such as a screen or drawing tablet. These events are similar to mouse events.",
+ "kind": "feature",
+ "name": "Touch events",
+ "spec": [
+  "https://w3c.github.io/touch-events/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Element.touchcancel_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "22",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "52",
+     "firefox_android": "6",
+     "safari_ios": "≤3"
+    }
+   },
+   "api.Element.touchend_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "22",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "52",
+     "firefox_android": "6",
+     "safari_ios": "≤3"
+    }
+   },
+   "api.Element.touchmove_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "22",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "52",
+     "firefox_android": "6",
+     "safari_ios": "≤3"
+    }
+   },
+   "api.Element.touchstart_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "22",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "52",
+     "firefox_android": "6",
+     "safari_ios": "≤3"
+    }
+   },
+   "api.Touch": {
+    "baseline": false,
+    "support": {
+     "chrome": "22",
+     "chrome_android": "25",
+     "edge": "≤18",
+     "firefox_android": "6",
+     "safari_ios": "≤3"
+    }
+   },
+   "api.Touch.Touch": {
+    "baseline": false,
+    "support": {
+     "chrome": "48",
+     "chrome_android": "48",
+     "edge": "79",
+     "firefox_android": "6",
+     "safari_ios": "≤3"
+    }
+   },
+   "api.Touch.altitudeAngle": {
+    "baseline": false,
+    "support": {
+     "safari_ios": "10"
+    }
+   },
+   "api.Touch.azimuthAngle": {
+    "baseline": false,
+    "support": {
+     "safari_ios": "10"
+    }
+   },
+   "api.Touch.clientX": {
+    "baseline": false,
+    "support": {
+     "chrome": "22",
+     "chrome_android": "25",
+     "edge": "≤18",
+     "firefox_android": "6",
+     "safari_ios": "10"
+    }
+   },
+   "api.Touch.clientY": {
+    "baseline": false,
+    "support": {
+     "chrome": "22",
+     "chrome_android": "25",
+     "edge": "≤18",
+     "firefox_android": "6",
+     "safari_ios": "10"
+    }
+   },
+   "api.Touch.force": {
+    "baseline": false,
+    "support": {
+     "chrome": "38",
+     "chrome_android": "38",
+     "edge": "79",
+     "firefox_android": "6",
+     "safari_ios": "10"
+    }
+   },
+   "api.Touch.identifier": {
+    "baseline": false,
+    "support": {
+     "chrome": "22",
+     "chrome_android": "25",
+     "edge": "≤18",
+     "firefox_android": "6",
+     "safari_ios": "10"
+    }
+   },
+   "api.Touch.pageX": {
+    "baseline": false,
+    "support": {
+     "chrome": "22",
+     "chrome_android": "25",
+     "edge": "≤18",
+     "firefox_android": "6",
+     "safari_ios": "10"
+    }
+   },
+   "api.Touch.pageY": {
+    "baseline": false,
+    "support": {
+     "chrome": "22",
+     "chrome_android": "25",
+     "edge": "≤18",
+     "firefox_android": "6",
+     "safari_ios": "10"
+    }
+   },
+   "api.Touch.radiusX": {
+    "baseline": false,
+    "support": {
+     "chrome": "38",
+     "chrome_android": "38",
+     "edge": "79",
+     "firefox_android": "6",
+     "safari_ios": "10"
+    }
+   },
+   "api.Touch.radiusY": {
+    "baseline": false,
+    "support": {
+     "chrome": "38",
+     "chrome_android": "38",
+     "edge": "79",
+     "firefox_android": "6",
+     "safari_ios": "10"
+    }
+   },
+   "api.Touch.rotationAngle": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox_android": "6",
+     "safari_ios": "10"
+    }
+   },
+   "api.Touch.screenX": {
+    "baseline": false,
+    "support": {
+     "chrome": "22",
+     "chrome_android": "25",
+     "edge": "≤18",
+     "firefox_android": "6",
+     "safari_ios": "10"
+    }
+   },
+   "api.Touch.screenY": {
+    "baseline": false,
+    "support": {
+     "chrome": "22",
+     "chrome_android": "25",
+     "edge": "≤18",
+     "firefox_android": "6",
+     "safari_ios": "10"
+    }
+   },
+   "api.Touch.target": {
+    "baseline": false,
+    "support": {
+     "chrome": "22",
+     "chrome_android": "25",
+     "edge": "≤18",
+     "firefox_android": "6",
+     "safari_ios": "10"
+    }
+   },
+   "api.Touch.touchType": {
+    "baseline": false,
+    "support": {
+     "safari_ios": "10"
+    }
+   },
+   "api.TouchEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "22",
+     "chrome_android": "25",
+     "edge": "79",
+     "firefox": "52",
+     "firefox_android": "6",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.TouchEvent.TouchEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "48",
+     "chrome_android": "48",
+     "edge": "79",
+     "firefox_android": "46",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.TouchEvent.altKey": {
+    "baseline": false,
+    "support": {
+     "chrome": "22",
+     "chrome_android": "25",
+     "edge": "79",
+     "firefox": "52",
+     "firefox_android": "6",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.TouchEvent.changedTouches": {
+    "baseline": false,
+    "support": {
+     "chrome": "22",
+     "chrome_android": "25",
+     "edge": "79",
+     "firefox": "52",
+     "firefox_android": "6",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.TouchEvent.ctrlKey": {
+    "baseline": false,
+    "support": {
+     "chrome": "22",
+     "chrome_android": "25",
+     "edge": "79",
+     "firefox": "52",
+     "firefox_android": "6",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.TouchEvent.metaKey": {
+    "baseline": false,
+    "support": {
+     "chrome": "22",
+     "chrome_android": "25",
+     "edge": "79",
+     "firefox": "52",
+     "firefox_android": "6",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.TouchEvent.shiftKey": {
+    "baseline": false,
+    "support": {
+     "chrome": "22",
+     "chrome_android": "25",
+     "edge": "79",
+     "firefox": "52",
+     "firefox_android": "6",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.TouchEvent.targetTouches": {
+    "baseline": false,
+    "support": {
+     "chrome": "22",
+     "chrome_android": "25",
+     "edge": "79",
+     "firefox": "52",
+     "firefox_android": "6",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.TouchEvent.touches": {
+    "baseline": false,
+    "support": {
+     "chrome": "22",
+     "chrome_android": "25",
+     "edge": "79",
+     "firefox": "52",
+     "firefox_android": "6",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.TouchList": {
+    "baseline": false,
+    "support": {
+     "chrome": "18",
+     "chrome_android": "18",
+     "edge": "≤18",
+     "firefox_android": "6",
+     "safari_ios": "2"
+    }
+   },
+   "api.TouchList.item": {
+    "baseline": false,
+    "support": {
+     "chrome": "18",
+     "chrome_android": "18",
+     "edge": "≤18",
+     "firefox_android": "6",
+     "safari_ios": "2"
+    }
+   },
+   "api.TouchList.length": {
+    "baseline": false,
+    "support": {
+     "chrome": "18",
+     "chrome_android": "18",
+     "edge": "≤18",
+     "firefox_android": "6",
+     "safari_ios": "2"
+    }
+   }
+  },
+  "support": {
+   "chrome": "22",
+   "chrome_android": "25",
+   "edge": "12",
+   "firefox": "52",
+   "firefox_android": "6",
+   "safari_ios": "≤3"
+  }
+ },
+ "id": "touch-events",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/touch-events/",
+   "seriesComposition": "full",
+   "shortname": "touch-events",
+   "series": {
+    "shortname": "touch-events",
+    "currentSpecification": "touch-events",
+    "title": "Touch Events",
+    "shortTitle": "Touch Events",
+    "releaseUrl": "https://www.w3.org/TR/touch-events/",
+    "nightlyUrl": "https://w3c.github.io/touch-events/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Events Working Group",
+     "url": "https://www.w3.org/2010/webevents/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/touch-events/",
+    "status": "Recommendation",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/touch-events/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/touch-events",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Touch Events",
+   "source": "w3c",
+   "shortTitle": "Touch Events",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "touch-events"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Touch_events",
+   "title": "Touch events",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Touch_events"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:touch-events"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/18",
+  "votes": 0
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Safari",
+ "monthsBlocked": 108,
+ "blockedSince": "March 2017"
+}

@@ -1,0 +1,127 @@
+{
+ "compat_features": [
+  "css.selectors.host-context"
+ ],
+ "description": "The :host-context() CSS pseudo-class selects the containing element of the shadow tree in which it is used if that element or an ancestor matches the provided selector.",
+ "description_html": "The <code>:host-context()</code> CSS pseudo-class selects the containing element of the shadow tree in which it is used if that element or an ancestor matches the provided selector.",
+ "discouraged": {
+  "according_to": [
+   "https://github.com/w3c/csswg-drafts/issues/1914#issuecomment-2737310093"
+  ],
+  "alternatives": [
+   "container-style-queries"
+  ],
+  "reason": "The CSS Working Group removed :host-context() from the specification, due to opposition from vendors, performance considerations, and interest in alternatives.",
+  "reason_html": "The CSS Working Group removed <code>:host-context()</code> from the specification, due to opposition from vendors, performance considerations, and interest in alternatives."
+ },
+ "group": [
+  "selectors",
+  "web-components"
+ ],
+ "kind": "feature",
+ "name": ":host-context()",
+ "spec": [
+  "https://drafts.csswg.org/css-shadow-1/#host-selector"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "css.selectors.host-context": {
+    "baseline": false,
+    "support": {
+     "chrome": "54",
+     "chrome_android": "54",
+     "edge": "79"
+    }
+   }
+  },
+  "support": {
+   "chrome": "54",
+   "chrome_android": "54",
+   "edge": "79"
+  }
+ },
+ "id": "host-context",
+ "groups": [
+  "selectors",
+  "web-components"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-shadow-1/#host-selector",
+   "seriesComposition": "full",
+   "shortname": "css-shadow-1",
+   "series": {
+    "shortname": "css-shadow",
+    "currentSpecification": "css-shadow-1",
+    "title": "CSS Shadow",
+    "shortTitle": "CSS Shadow",
+    "nightlyUrl": "https://drafts.csswg.org/css-shadow/"
+   },
+   "seriesVersion": "1",
+   "formerNames": [
+    "css-scoping-1",
+    "css-shadow-parts-1"
+   ],
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-shadow-1/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-shadow-1/",
+     "https://w3c.github.io/csswg-drafts/css-shadow/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-shadow-1/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Shadow Module Level 1",
+   "source": "spec",
+   "shortTitle": "CSS Shadow 1",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-shadow"
+    ]
+   },
+   "fragment": "host-selector"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Selectors/:host-context",
+   "title": ":host-context()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:host-context"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:host-context"
+ },
+ "developerSignals": null,
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1082060"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/1082060"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

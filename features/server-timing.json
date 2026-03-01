@@ -1,0 +1,244 @@
+{
+ "caniuse": [
+  "server-timing"
+ ],
+ "compat_features": [
+  "api.PerformanceResourceTiming.serverTiming",
+  "api.PerformanceServerTiming",
+  "api.PerformanceServerTiming.description",
+  "api.PerformanceServerTiming.duration",
+  "api.PerformanceServerTiming.name",
+  "api.PerformanceServerTiming.toJSON",
+  "http.headers.Server-Timing",
+  "http.headers.Server-Timing.trailer"
+ ],
+ "description": "The serverTiming property of the PerformanceResourceTiming API contains server timing information about network requests.",
+ "description_html": "The <code>serverTiming</code> property of the <code>PerformanceResourceTiming</code> API contains server timing information about network requests.",
+ "group": [
+  "performance"
+ ],
+ "kind": "feature",
+ "name": "Server timing",
+ "spec": [
+  "https://w3c.github.io/server-timing/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2025-09-27",
+  "baseline_low_date": "2023-03-27",
+  "by_compat_key": {
+   "api.PerformanceResourceTiming.serverTiming": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "65",
+     "chrome_android": "65",
+     "edge": "79",
+     "firefox": "61",
+     "firefox_android": "61",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.PerformanceServerTiming": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "65",
+     "chrome_android": "65",
+     "edge": "79",
+     "firefox": "61",
+     "firefox_android": "61",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.PerformanceServerTiming.description": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "65",
+     "chrome_android": "65",
+     "edge": "79",
+     "firefox": "61",
+     "firefox_android": "61",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.PerformanceServerTiming.duration": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "65",
+     "chrome_android": "65",
+     "edge": "79",
+     "firefox": "61",
+     "firefox_android": "61",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.PerformanceServerTiming.name": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "65",
+     "chrome_android": "65",
+     "edge": "79",
+     "firefox": "61",
+     "firefox_android": "61",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.PerformanceServerTiming.toJSON": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "65",
+     "chrome_android": "65",
+     "edge": "79",
+     "firefox": "61",
+     "firefox_android": "61",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "http.headers.Server-Timing": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "65",
+     "chrome_android": "65",
+     "edge": "79",
+     "firefox": "61",
+     "firefox_android": "61",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "http.headers.Server-Timing.trailer": {
+    "baseline": false,
+    "support": {
+     "firefox": "71",
+     "firefox_android": "79"
+    }
+   }
+  },
+  "support": {
+   "chrome": "65",
+   "chrome_android": "65",
+   "edge": "79",
+   "firefox": "61",
+   "firefox_android": "61",
+   "safari": "16.4",
+   "safari_ios": "16.4"
+  }
+ },
+ "id": "server-timing",
+ "groups": [
+  "performance"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/server-timing/",
+   "seriesComposition": "full",
+   "shortname": "server-timing",
+   "series": {
+    "shortname": "server-timing",
+    "currentSpecification": "server-timing",
+    "title": "Server Timing",
+    "shortTitle": "Server Timing",
+    "releaseUrl": "https://www.w3.org/TR/server-timing/",
+    "nightlyUrl": "https://w3c.github.io/server-timing/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Performance Working Group",
+     "url": "https://www.w3.org/groups/wg/webperf/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/server-timing/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/server-timing/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/server-timing",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Server Timing",
+   "source": "w3c",
+   "shortTitle": "Server Timing",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "server-timing"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/PerformanceResourceTiming/serverTiming",
+   "title": "PerformanceResourceTiming: serverTiming property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/serverTiming"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:server-timing"
+ },
+ "developerSignals": null,
+ "bugs": {
+  "chrome": [
+   "https://crbug.com/40811358"
+  ],
+  "chrome_android": [
+   "https://crbug.com/40811358"
+  ],
+  "edge": [
+   "https://crbug.com/40811358"
+  ],
+  "oculus": [
+   "https://crbug.com/40811358"
+  ],
+  "opera": [
+   "https://crbug.com/40811358"
+  ],
+  "opera_android": [
+   "https://crbug.com/40811358"
+  ],
+  "samsunginternet_android": [
+   "https://crbug.com/40811358"
+  ],
+  "webview_android": [
+   "https://crbug.com/40811358"
+  ]
+ },
+ "baselineLowDateAsObject": "2023-03-27T00:00:00.000Z",
+ "baselineHighDateAsObject": "2025-09-27T00:00:00.000Z"
+}

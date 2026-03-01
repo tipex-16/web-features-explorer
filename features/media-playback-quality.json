@@ -1,0 +1,170 @@
+{
+ "compat_features": [
+  "api.HTMLVideoElement.getVideoPlaybackQuality",
+  "api.VideoPlaybackQuality",
+  "api.VideoPlaybackQuality.creationTime",
+  "api.VideoPlaybackQuality.droppedVideoFrames",
+  "api.VideoPlaybackQuality.totalVideoFrames"
+ ],
+ "description": "The getVideoPlaybackQuality() method of HTMLVideoElement returns metrics that can be used to determine the playback quality of a video, such as how many frames were dropped.",
+ "description_html": "The <code>getVideoPlaybackQuality()</code> method of <code>HTMLVideoElement</code> returns metrics that can be used to determine the playback quality of a video, such as how many frames were dropped.",
+ "kind": "feature",
+ "name": "Media playback quality",
+ "spec": [
+  "https://w3c.github.io/media-playback-quality/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2022-08-04",
+  "baseline_low_date": "2020-02-04",
+  "by_compat_key": {
+   "api.HTMLVideoElement.getVideoPlaybackQuality": {
+    "baseline": "high",
+    "baseline_high_date": "2022-08-04",
+    "baseline_low_date": "2020-02-04",
+    "support": {
+     "chrome": "80",
+     "chrome_android": "80",
+     "edge": "12",
+     "firefox": "42",
+     "firefox_android": "42",
+     "safari": "8",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.VideoPlaybackQuality": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "23",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "42",
+     "firefox_android": "42",
+     "safari": "8",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.VideoPlaybackQuality.creationTime": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "23",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "42",
+     "firefox_android": "42",
+     "safari": "8",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.VideoPlaybackQuality.droppedVideoFrames": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "23",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "42",
+     "firefox_android": "42",
+     "safari": "8",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.VideoPlaybackQuality.totalVideoFrames": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "23",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "42",
+     "firefox_android": "42",
+     "safari": "8",
+     "safari_ios": "12.2"
+    }
+   }
+  },
+  "support": {
+   "chrome": "80",
+   "chrome_android": "80",
+   "edge": "12",
+   "firefox": "42",
+   "firefox_android": "42",
+   "safari": "8",
+   "safari_ios": "12.2"
+  }
+ },
+ "id": "media-playback-quality",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/media-playback-quality/",
+   "seriesComposition": "full",
+   "shortname": "media-playback-quality",
+   "series": {
+    "shortname": "media-playback-quality",
+    "currentSpecification": "media-playback-quality",
+    "title": "Media Playback Quality",
+    "shortTitle": "Media Playback Quality",
+    "nightlyUrl": "https://w3c.github.io/media-playback-quality/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Media Working Group",
+     "url": "https://www.w3.org/media-wg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://w3c.github.io/media-playback-quality/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/media-playback-quality",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Media Playback Quality",
+   "source": "spec",
+   "shortTitle": "Media Playback Quality",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "media-playback-quality"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/HTMLVideoElement/getVideoPlaybackQuality",
+   "title": "HTMLVideoElement: getVideoPlaybackQuality() method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLVideoElement/getVideoPlaybackQuality"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.0603613,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/289"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:media-playback-quality"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2020-02-04T00:00:00.000Z",
+ "baselineHighDateAsObject": "2022-08-04T00:00:00.000Z"
+}

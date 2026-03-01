@@ -1,0 +1,131 @@
+{
+ "compat_features": [
+  "api.BrowserCaptureMediaStreamTrack",
+  "api.BrowserCaptureMediaStreamTrack.clone",
+  "api.BrowserCaptureMediaStreamTrack.cropTo",
+  "api.CropTarget",
+  "api.CropTarget.fromElement_static"
+ ],
+ "description": "When using navigator.mediaDevices.getDisplayMedia() to capture a browser tab as a video stream, the region capture API allows you to crop the video to the bounding box of a given element. In contrast to the element capture API, any content that overlays that element is also captured.",
+ "description_html": "When using <code>navigator.mediaDevices.getDisplayMedia()</code> to capture a browser tab as a video stream, the region capture API allows you to crop the video to the bounding box of a given element. In contrast to the element capture API, any content that overlays that element is also captured.",
+ "kind": "feature",
+ "name": "Region capture",
+ "spec": [
+  "https://w3c.github.io/mediacapture-region/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.BrowserCaptureMediaStreamTrack": {
+    "baseline": false,
+    "support": {
+     "chrome": "104",
+     "edge": "104"
+    }
+   },
+   "api.BrowserCaptureMediaStreamTrack.clone": {
+    "baseline": false,
+    "support": {
+     "chrome": "104",
+     "edge": "104"
+    }
+   },
+   "api.BrowserCaptureMediaStreamTrack.cropTo": {
+    "baseline": false,
+    "support": {
+     "chrome": "104",
+     "edge": "104"
+    }
+   },
+   "api.CropTarget": {
+    "baseline": false,
+    "support": {
+     "chrome": "104",
+     "edge": "104"
+    }
+   },
+   "api.CropTarget.fromElement_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "104",
+     "edge": "104"
+    }
+   }
+  },
+  "support": {
+   "chrome": "104",
+   "edge": "104"
+  }
+ },
+ "id": "region-capture",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/mediacapture-region/",
+   "seriesComposition": "full",
+   "shortname": "mediacapture-region",
+   "series": {
+    "shortname": "mediacapture-region",
+    "currentSpecification": "mediacapture-region",
+    "title": "Region Capture",
+    "shortTitle": "Region Capture",
+    "releaseUrl": "https://www.w3.org/TR/mediacapture-region/",
+    "nightlyUrl": "https://w3c.github.io/mediacapture-region/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Real-Time Communications Working Group",
+     "url": "https://www.w3.org/groups/wg/webrtc/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/mediacapture-region/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/mediacapture-region/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/mediacapture-region",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Region Capture",
+   "source": "w3c",
+   "shortTitle": "Region Capture",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Screen_Capture_API/Element_Region_Capture#the_region_capture_api",
+   "title": "Using the Element Capture and Region Capture APIs",
+   "anchor": "the_region_capture_api",
+   "url": "https://developer.mozilla.org/docs/Web/API/Screen_Capture_API/Element_Region_Capture#the_region_capture_api"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.0009763,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/322"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:region-capture"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/178",
+  "votes": 1
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

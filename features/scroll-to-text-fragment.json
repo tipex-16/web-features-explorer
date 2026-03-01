@@ -1,0 +1,154 @@
+{
+ "caniuse": [
+  "url-scroll-to-text-fragment"
+ ],
+ "compat_features": [
+  "api.Document.fragmentDirective",
+  "api.FragmentDirective",
+  "html.elements.a.text_fragments"
+ ],
+ "description": "Text fragments are URL fragments on the form #:~:text=snippet and link to a snippet of text within a page. The browser may scroll, highlight, or otherwise bring that text to the reader's attention.",
+ "description_html": "Text fragments are URL fragments on the form <code>#:~:text=snippet</code> and link to a snippet of text within a page. The browser may scroll, highlight, or otherwise bring that text to the reader's attention.",
+ "group": [
+  "text-fragments",
+  "scrolling"
+ ],
+ "kind": "feature",
+ "name": "Scroll to text fragment",
+ "spec": [
+  "https://wicg.github.io/scroll-to-text-fragment/"
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2024-10-01",
+  "by_compat_key": {
+   "api.Document.fragmentDirective": {
+    "baseline": "low",
+    "baseline_low_date": "2025-03-31",
+    "support": {
+     "chrome": "86",
+     "chrome_android": "86",
+     "edge": "86",
+     "firefox": "131",
+     "firefox_android": "131",
+     "safari": "18.4",
+     "safari_ios": "18.4"
+    }
+   },
+   "api.FragmentDirective": {
+    "baseline": "low",
+    "baseline_low_date": "2025-03-31",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "83",
+     "firefox": "131",
+     "firefox_android": "131",
+     "safari": "18.4",
+     "safari_ios": "18.4"
+    }
+   },
+   "html.elements.a.text_fragments": {
+    "baseline": "low",
+    "baseline_low_date": "2024-10-01",
+    "support": {
+     "chrome": "80",
+     "chrome_android": "80",
+     "edge": "80",
+     "firefox": "131",
+     "firefox_android": "131",
+     "safari": "16.1",
+     "safari_ios": "16.1"
+    }
+   }
+  },
+  "support": {
+   "chrome": "80",
+   "chrome_android": "80",
+   "edge": "80",
+   "firefox": "131",
+   "firefox_android": "131",
+   "safari": "16.1",
+   "safari_ios": "16.1"
+  }
+ },
+ "id": "scroll-to-text-fragment",
+ "groups": [
+  "text-fragments",
+  "scrolling"
+ ],
+ "specs": [
+  {
+   "url": "https://wicg.github.io/scroll-to-text-fragment/",
+   "seriesComposition": "full",
+   "shortname": "scroll-to-text-fragment",
+   "series": {
+    "shortname": "scroll-to-text-fragment",
+    "currentSpecification": "scroll-to-text-fragment",
+    "title": "URL Fragment Text Directives",
+    "shortTitle": "URL Fragment Text Directives",
+    "nightlyUrl": "https://wicg.github.io/scroll-to-text-fragment/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://wicg.github.io/scroll-to-text-fragment/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/WICG/scroll-to-text-fragment",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "URL Fragment Text Directives",
+   "source": "spec",
+   "shortTitle": "URL Fragment Text Directives",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "scroll-to-text-fragment"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/URI/Reference/Fragment/Text_fragments",
+   "title": "Text fragments",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/URI/Reference/Fragment/Text_fragments"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/194",
+   "position": "positive",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00102451,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/60"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:scroll-to-text-fragment"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2024-10-01T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2027-04-01"
+}

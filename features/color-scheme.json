@@ -1,0 +1,250 @@
+{
+ "compat_features": [
+  "css.properties.color-scheme",
+  "css.properties.color-scheme.dark",
+  "css.properties.color-scheme.light",
+  "css.properties.color-scheme.normal",
+  "css.properties.color-scheme.only",
+  "html.elements.meta.name.color-scheme"
+ ],
+ "description": "The color-scheme CSS property sets which color schemes (light or dark) an element uses and may prevent automatic dark mode adjustments by the browser.",
+ "description_html": "The <code>color-scheme</code> CSS property sets which color schemes (light or dark) an element uses and may prevent automatic dark mode adjustments by the browser.",
+ "group": [
+  "css"
+ ],
+ "kind": "feature",
+ "name": "color-scheme",
+ "spec": [
+  "https://drafts.csswg.org/css-color-adjust-1/#color-scheme-prop"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2024-08-03",
+  "baseline_low_date": "2022-02-03",
+  "by_compat_key": {
+   "css.properties.color-scheme": {
+    "baseline": "high",
+    "baseline_high_date": "2024-07-11",
+    "baseline_low_date": "2022-01-11",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "96",
+     "firefox_android": "96",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "css.properties.color-scheme.dark": {
+    "baseline": "high",
+    "baseline_high_date": "2024-07-11",
+    "baseline_low_date": "2022-01-11",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "96",
+     "firefox_android": "96",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "css.properties.color-scheme.light": {
+    "baseline": "high",
+    "baseline_high_date": "2024-07-11",
+    "baseline_low_date": "2022-01-11",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "96",
+     "firefox_android": "96",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "css.properties.color-scheme.normal": {
+    "baseline": "high",
+    "baseline_high_date": "2024-07-11",
+    "baseline_low_date": "2022-01-11",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "96",
+     "firefox_android": "96",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "css.properties.color-scheme.only": {
+    "baseline": "high",
+    "baseline_high_date": "2024-08-03",
+    "baseline_low_date": "2022-02-03",
+    "support": {
+     "chrome": "98",
+     "chrome_android": "98",
+     "edge": "98",
+     "firefox": "96",
+     "firefox_android": "96",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "html.elements.meta.name.color-scheme": {
+    "baseline": "high",
+    "baseline_high_date": "2024-07-11",
+    "baseline_low_date": "2022-01-11",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "96",
+     "firefox_android": "96",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   }
+  },
+  "support": {
+   "chrome": "98",
+   "chrome_android": "98",
+   "edge": "98",
+   "firefox": "96",
+   "firefox_android": "96",
+   "safari": "13",
+   "safari_ios": "13"
+  }
+ },
+ "id": "color-scheme",
+ "groups": [
+  "css"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-color-adjust-1/#color-scheme-prop",
+   "seriesComposition": "full",
+   "shortname": "css-color-adjust-1",
+   "series": {
+    "shortname": "css-color-adjust",
+    "currentSpecification": "css-color-adjust-1",
+    "title": "CSS Color Adjustment",
+    "shortTitle": "CSS Color Adjustment",
+    "releaseUrl": "https://www.w3.org/TR/css-color-adjust/",
+    "nightlyUrl": "https://drafts.csswg.org/css-color-adjust/"
+   },
+   "seriesVersion": "1",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-color-adjust-1/",
+    "status": "Candidate Recommendation Snapshot",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-color-adjust-1/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-color-adjust-1/",
+     "https://w3c.github.io/csswg-drafts/css-color-adjust/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-color-adjust-1/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Color Adjustment Module Level 1",
+   "source": "w3c",
+   "shortTitle": "CSS Color Adjustment 1",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-color-adjust"
+    ]
+   },
+   "fragment": "color-scheme-prop"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/color-scheme",
+   "title": "color-scheme",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/color-scheme"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#gamechanger_feature",
+   "question": "usage",
+   "subQuestion": "gamechanger_feature",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.gamechanger_feature.freeform.allEditions.0.buckets.15.groupedBuckets.0.groupedBuckets.19.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#favorite_new_features",
+   "question": "usage",
+   "subQuestion": "favorite_new_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.favorite_new_features.freeform.allEditions.0.buckets.21.groupedBuckets.0.groupedBuckets.13.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_missing_features",
+   "question": "usage",
+   "subQuestion": "css_missing_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_missing_features.freeform.allEditions.0.buckets.21.groupedBuckets.1.groupedBuckets.0.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_interoperability_features",
+   "question": "usage",
+   "subQuestion": "css_interoperability_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_interoperability_features.freeform.allEditions.0.buckets.21.groupedBuckets.1.groupedBuckets.41.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.23.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/colors/#colors_pain_points",
+   "question": "colors",
+   "subQuestion": "colors_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.colors.colors_pain_points.freeform.allEditions.0.buckets.18.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2024.features.all_features.40.entity"
+  }
+ ],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.17074957,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/16"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:color-scheme"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2022-02-03T00:00:00.000Z",
+ "baselineHighDateAsObject": "2024-08-03T00:00:00.000Z"
+}

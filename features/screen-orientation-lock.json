@@ -1,0 +1,119 @@
+{
+ "compat_features": [
+  "api.ScreenOrientation.lock",
+  "api.ScreenOrientation.unlock"
+ ],
+ "description": "The screen.orientation.lock() method prevents changes to the screen orientation, typically in fullscreen applications such as games. For example, while locked, rotating a phone to the side won't change the screen orientation from landscape to portrait.",
+ "description_html": "The <code>screen.orientation.lock()</code> method prevents changes to the screen orientation, typically in fullscreen applications such as games. For example, while locked, rotating a phone to the side won't change the screen orientation from landscape to portrait.",
+ "kind": "feature",
+ "name": "Screen orientation lock",
+ "spec": [
+  "https://w3c.github.io/screen-orientation/#lock-method"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.ScreenOrientation.lock": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "38",
+     "firefox": "144",
+     "firefox_android": "144"
+    }
+   },
+   "api.ScreenOrientation.unlock": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "38",
+     "firefox": "144",
+     "firefox_android": "144"
+    }
+   }
+  },
+  "support": {
+   "chrome_android": "38",
+   "firefox": "144",
+   "firefox_android": "144"
+  }
+ },
+ "id": "screen-orientation-lock",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/screen-orientation/#lock-method",
+   "seriesComposition": "full",
+   "shortname": "screen-orientation",
+   "series": {
+    "shortname": "screen-orientation",
+    "currentSpecification": "screen-orientation",
+    "title": "Screen Orientation",
+    "shortTitle": "Screen Orientation",
+    "releaseUrl": "https://www.w3.org/TR/screen-orientation/",
+    "nightlyUrl": "https://w3c.github.io/screen-orientation/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Applications Working Group",
+     "url": "https://www.w3.org/groups/wg/webapps/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/screen-orientation/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/screen-orientation/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/screen-orientation",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Screen Orientation",
+   "source": "w3c",
+   "shortTitle": "Screen Orientation",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "screen-orientation"
+    ]
+   },
+   "fragment": "lock-method"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/ScreenOrientation/lock",
+   "title": "ScreenOrientation: lock() method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/ScreenOrientation/lock"
+  },
+  {
+   "slug": "Web/API/ScreenOrientation/unlock",
+   "title": "ScreenOrientation: unlock() method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/ScreenOrientation/unlock"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:screen-orientation-lock"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/46",
+  "votes": 1
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

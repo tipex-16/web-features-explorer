@@ -1,0 +1,119 @@
+{
+ "compat_features": [
+  "api.Navigator.globalPrivacyControl",
+  "api.WorkerNavigator.globalPrivacyControl",
+  "http.headers.Sec-GPC"
+ ],
+ "description": "The Sec-GPC request header indicates that the user does not consent to a website or service selling or sharing their personal information with third parties.",
+ "description_html": "The <code>Sec-GPC</code> request header indicates that the user does not consent to a website or service selling or sharing their personal information with third parties.",
+ "kind": "feature",
+ "name": "Global privacy control",
+ "spec": [
+  "https://w3c.github.io/gpc/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Navigator.globalPrivacyControl": {
+    "baseline": false,
+    "support": {
+     "firefox": "120",
+     "firefox_android": "122"
+    }
+   },
+   "api.WorkerNavigator.globalPrivacyControl": {
+    "baseline": false,
+    "support": {
+     "firefox": "120",
+     "firefox_android": "122"
+    }
+   },
+   "http.headers.Sec-GPC": {
+    "baseline": false,
+    "support": {
+     "firefox": "120",
+     "firefox_android": "122"
+    }
+   }
+  },
+  "support": {
+   "firefox": "120",
+   "firefox_android": "122"
+  }
+ },
+ "id": "gpc",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/gpc/",
+   "seriesComposition": "full",
+   "shortname": "gpc",
+   "series": {
+    "shortname": "gpc",
+    "currentSpecification": "gpc",
+    "title": "Global Privacy Control (GPC)",
+    "shortTitle": "GPC",
+    "releaseUrl": "https://www.w3.org/TR/gpc/",
+    "nightlyUrl": "https://w3c.github.io/gpc/"
+   },
+   "formerNames": [
+    "gpc-spec"
+   ],
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Privacy Working Group",
+     "url": "https://www.w3.org/groups/wg/privacy/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/gpc/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/gpc/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/gpc",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Global Privacy Control (GPC)",
+   "source": "w3c",
+   "shortTitle": "GPC",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/HTTP/Reference/Headers/Sec-GPC",
+   "title": "Sec-GPC header",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Sec-GPC"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:gpc"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/222",
+  "votes": 2
+ },
+ "bugs": {
+  "chrome": [
+   "https://issues.chromium.org/issues/40745270"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

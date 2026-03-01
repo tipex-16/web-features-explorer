@@ -1,0 +1,486 @@
+{
+ "compat_features": [
+  "api.Element.keydown_event",
+  "api.Element.keyup_event",
+  "api.KeyboardEvent",
+  "api.KeyboardEvent.KeyboardEvent",
+  "api.KeyboardEvent.altKey",
+  "api.KeyboardEvent.code",
+  "api.KeyboardEvent.ctrlKey",
+  "api.KeyboardEvent.getModifierState",
+  "api.KeyboardEvent.getModifierState.key_parameter_alt",
+  "api.KeyboardEvent.getModifierState.key_parameter_altgraph",
+  "api.KeyboardEvent.getModifierState.key_parameter_capslock",
+  "api.KeyboardEvent.getModifierState.key_parameter_control",
+  "api.KeyboardEvent.getModifierState.key_parameter_fn",
+  "api.KeyboardEvent.getModifierState.key_parameter_meta",
+  "api.KeyboardEvent.getModifierState.key_parameter_numlock",
+  "api.KeyboardEvent.getModifierState.key_parameter_scrolllock",
+  "api.KeyboardEvent.getModifierState.key_parameter_shift",
+  "api.KeyboardEvent.getModifierState.key_parameter_symbol",
+  "api.KeyboardEvent.isComposing",
+  "api.KeyboardEvent.key",
+  "api.KeyboardEvent.key.dead_key",
+  "api.KeyboardEvent.key.non_printable_keys",
+  "api.KeyboardEvent.key.printable_key",
+  "api.KeyboardEvent.location",
+  "api.KeyboardEvent.metaKey",
+  "api.KeyboardEvent.repeat",
+  "api.KeyboardEvent.shiftKey"
+ ],
+ "description": "The keydown and keyup events fire for each key press (or, with modifier keys, a combination of key presses) on a keyboard.",
+ "description_html": "The <code>keydown</code> and <code>keyup</code> events fire for each key press (or, with modifier keys, a combination of key presses) on a keyboard.",
+ "kind": "feature",
+ "name": "Keyboard events",
+ "spec": [
+  "https://w3c.github.io/uievents/#events-keyboardevents"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "api.Element.keydown_event": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "6",
+     "firefox_android": "6",
+     "safari": "1.2",
+     "safari_ios": "1"
+    }
+   },
+   "api.Element.keyup_event": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "6",
+     "firefox_android": "6",
+     "safari": "1.2",
+     "safari_ios": "1"
+    }
+   },
+   "api.KeyboardEvent": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "1.2",
+     "safari_ios": "1"
+    }
+   },
+   "api.KeyboardEvent.KeyboardEvent": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "31",
+     "firefox_android": "31",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.KeyboardEvent.altKey": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "1.2",
+     "safari_ios": "1"
+    }
+   },
+   "api.KeyboardEvent.code": {
+    "baseline": false,
+    "support": {
+     "chrome": "48",
+     "edge": "79",
+     "firefox": "38",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.KeyboardEvent.ctrlKey": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "1.2",
+     "safari_ios": "1"
+    }
+   },
+   "api.KeyboardEvent.getModifierState": {
+    "baseline": "high",
+    "baseline_high_date": "2019-09-27",
+    "baseline_low_date": "2017-03-27",
+    "support": {
+     "chrome": "30",
+     "chrome_android": "30",
+     "edge": "12",
+     "firefox": "15",
+     "firefox_android": "15",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.KeyboardEvent.getModifierState.key_parameter_alt": {
+    "baseline": "high",
+    "baseline_high_date": "2019-09-27",
+    "baseline_low_date": "2017-03-27",
+    "support": {
+     "chrome": "30",
+     "chrome_android": "30",
+     "edge": "12",
+     "firefox": "15",
+     "firefox_android": "15",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.KeyboardEvent.getModifierState.key_parameter_altgraph": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "48",
+     "chrome_android": "48",
+     "edge": "79",
+     "firefox": "15",
+     "firefox_android": "15",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.KeyboardEvent.getModifierState.key_parameter_capslock": {
+    "baseline": "high",
+    "baseline_high_date": "2019-09-27",
+    "baseline_low_date": "2017-03-27",
+    "support": {
+     "chrome": "48",
+     "chrome_android": "48",
+     "edge": "12",
+     "firefox": "15",
+     "firefox_android": "15",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.KeyboardEvent.getModifierState.key_parameter_control": {
+    "baseline": "high",
+    "baseline_high_date": "2019-09-27",
+    "baseline_low_date": "2017-03-27",
+    "support": {
+     "chrome": "30",
+     "chrome_android": "30",
+     "edge": "12",
+     "firefox": "15",
+     "firefox_android": "15",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.KeyboardEvent.getModifierState.key_parameter_fn": {
+    "baseline": false,
+    "support": {
+     "chrome": "48",
+     "chrome_android": "48",
+     "edge": "79",
+     "firefox": "15",
+     "firefox_android": "15"
+    }
+   },
+   "api.KeyboardEvent.getModifierState.key_parameter_meta": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "30",
+     "chrome_android": "30",
+     "edge": "79",
+     "firefox": "15",
+     "firefox_android": "15",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.KeyboardEvent.getModifierState.key_parameter_numlock": {
+    "baseline": false,
+    "support": {
+     "chrome": "48",
+     "chrome_android": "48",
+     "edge": "79",
+     "firefox": "15",
+     "firefox_android": "15"
+    }
+   },
+   "api.KeyboardEvent.getModifierState.key_parameter_scrolllock": {
+    "baseline": false,
+    "support": {
+     "chrome": "48",
+     "chrome_android": "48",
+     "edge": "79",
+     "firefox": "15",
+     "firefox_android": "15"
+    }
+   },
+   "api.KeyboardEvent.getModifierState.key_parameter_shift": {
+    "baseline": "high",
+    "baseline_high_date": "2019-09-27",
+    "baseline_low_date": "2017-03-27",
+    "support": {
+     "chrome": "30",
+     "chrome_android": "30",
+     "edge": "12",
+     "firefox": "15",
+     "firefox_android": "15",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.KeyboardEvent.getModifierState.key_parameter_symbol": {
+    "baseline": false,
+    "support": {
+     "chrome": "48",
+     "chrome_android": "48",
+     "edge": "79"
+    }
+   },
+   "api.KeyboardEvent.isComposing": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "56",
+     "chrome_android": "56",
+     "edge": "79",
+     "firefox": "31",
+     "firefox_android": "31",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.KeyboardEvent.key": {
+    "baseline": "high",
+    "baseline_high_date": "2019-09-27",
+    "baseline_low_date": "2017-03-27",
+    "support": {
+     "chrome": "51",
+     "chrome_android": "51",
+     "edge": "12",
+     "firefox": "23",
+     "firefox_android": "23",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.KeyboardEvent.key.dead_key": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "51",
+     "chrome_android": "51",
+     "edge": "79",
+     "firefox": "37",
+     "firefox_android": "37",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.KeyboardEvent.key.non_printable_keys": {
+    "baseline": "high",
+    "baseline_high_date": "2019-09-27",
+    "baseline_low_date": "2017-03-27",
+    "support": {
+     "chrome": "51",
+     "chrome_android": "51",
+     "edge": "12",
+     "firefox": "23",
+     "firefox_android": "23",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.KeyboardEvent.key.printable_key": {
+    "baseline": "high",
+    "baseline_high_date": "2019-09-27",
+    "baseline_low_date": "2017-03-27",
+    "support": {
+     "chrome": "51",
+     "chrome_android": "51",
+     "edge": "12",
+     "firefox": "29",
+     "firefox_android": "29",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.KeyboardEvent.location": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "30",
+     "chrome_android": "30",
+     "edge": "12",
+     "firefox": "15",
+     "firefox_android": "15",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "api.KeyboardEvent.metaKey": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "1.2",
+     "safari_ios": "1"
+    }
+   },
+   "api.KeyboardEvent.repeat": {
+    "baseline": "low",
+    "baseline_low_date": "2025-05-27",
+    "support": {
+     "chrome": "137",
+     "chrome_android": "137",
+     "edge": "12",
+     "firefox": "28",
+     "firefox_android": "28",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.KeyboardEvent.shiftKey": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "1.2",
+     "safari_ios": "1"
+    }
+   }
+  },
+  "support": {
+   "chrome": "1",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "6",
+   "firefox_android": "6",
+   "safari": "1.2",
+   "safari_ios": "1"
+  }
+ },
+ "id": "keyboard-events",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/uievents/#events-keyboardevents",
+   "seriesComposition": "full",
+   "shortname": "uievents",
+   "series": {
+    "shortname": "uievents",
+    "currentSpecification": "uievents",
+    "title": "UI Events",
+    "shortTitle": "UI Events",
+    "releaseUrl": "https://www.w3.org/TR/uievents/",
+    "nightlyUrl": "https://w3c.github.io/uievents/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Applications Working Group",
+     "url": "https://www.w3.org/groups/wg/webapps/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/uievents/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/uievents/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/uievents",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "UI Events",
+   "source": "w3c",
+   "shortTitle": "UI Events",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "uievents"
+    ]
+   },
+   "fragment": "events-keyboardevents"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Element/keydown_event",
+   "title": "Element: keydown event",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Element/keydown_event"
+  },
+  {
+   "slug": "Web/API/Element/keyup_event",
+   "title": "Element: keyup event",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Element/keyup_event"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:keyboard-events"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

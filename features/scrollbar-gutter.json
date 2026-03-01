@@ -1,0 +1,222 @@
+{
+ "compat_features": [
+  "css.properties.scrollbar-gutter",
+  "css.properties.scrollbar-gutter.auto",
+  "css.properties.scrollbar-gutter.stable"
+ ],
+ "description": "The scrollbar-gutter CSS property reserves space for the scrollbar, preventing unwanted layout changes as the scrollbar appears and disappears.",
+ "description_html": "The <code>scrollbar-gutter</code> CSS property reserves space for the scrollbar, preventing unwanted layout changes as the scrollbar appears and disappears.",
+ "group": [
+  "scrolling"
+ ],
+ "kind": "feature",
+ "name": "scrollbar-gutter",
+ "spec": [
+  "https://drafts.csswg.org/css-overflow-3/#scrollbar-gutter-property"
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2024-12-11",
+  "by_compat_key": {
+   "css.properties.scrollbar-gutter": {
+    "baseline": "low",
+    "baseline_low_date": "2024-12-11",
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "94",
+     "firefox": "97",
+     "firefox_android": "97",
+     "safari": "18.2",
+     "safari_ios": "18.2"
+    }
+   },
+   "css.properties.scrollbar-gutter.auto": {
+    "baseline": "low",
+    "baseline_low_date": "2024-12-11",
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "94",
+     "firefox": "97",
+     "firefox_android": "97",
+     "safari": "18.2",
+     "safari_ios": "18.2"
+    }
+   },
+   "css.properties.scrollbar-gutter.stable": {
+    "baseline": "low",
+    "baseline_low_date": "2024-12-11",
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "94",
+     "firefox": "97",
+     "firefox_android": "97",
+     "safari": "18.2",
+     "safari_ios": "18.2"
+    }
+   }
+  },
+  "support": {
+   "chrome": "94",
+   "chrome_android": "94",
+   "edge": "94",
+   "firefox": "97",
+   "firefox_android": "97",
+   "safari": "18.2",
+   "safari_ios": "18.2"
+  }
+ },
+ "id": "scrollbar-gutter",
+ "groups": [
+  "scrolling"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-overflow-3/#scrollbar-gutter-property",
+   "seriesComposition": "full",
+   "shortname": "css-overflow-3",
+   "series": {
+    "shortname": "css-overflow",
+    "currentSpecification": "css-overflow-3",
+    "title": "CSS Overflow",
+    "shortTitle": "CSS Overflow",
+    "releaseUrl": "https://www.w3.org/TR/css-overflow/",
+    "nightlyUrl": "https://drafts.csswg.org/css-overflow/"
+   },
+   "seriesVersion": "3",
+   "seriesNext": "css-overflow-4",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-overflow-3/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-overflow-3/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-overflow-3/",
+     "https://w3c.github.io/csswg-drafts/css-overflow/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-overflow-3/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Overflow Module Level 3",
+   "source": "w3c",
+   "shortTitle": "CSS Overflow 3",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-overflow"
+    ]
+   },
+   "fragment": "scrollbar-gutter-property"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/scrollbar-gutter",
+   "title": "scrollbar-gutter",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scrollbar-gutter"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/488",
+   "position": "",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/135",
+   "position": "neutral",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#favorite_new_features",
+   "question": "usage",
+   "subQuestion": "favorite_new_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.favorite_new_features.freeform.allEditions.0.buckets.21.groupedBuckets.1.groupedBuckets.28.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_interoperability_features",
+   "question": "usage",
+   "subQuestion": "css_interoperability_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_interoperability_features.freeform.allEditions.0.buckets.21.groupedBuckets.1.groupedBuckets.20.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/features/#reading_list",
+   "question": "reading_list",
+   "subQuestion": "reading_list",
+   "path": "dataAPI.surveys.state_of_css.css2025.reading_list.reading_list.combined.allEditions.0.buckets.12.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/interactions/#interactions_pain_points",
+   "question": "interactions",
+   "subQuestion": "interactions_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.interactions.interactions_pain_points.freeform.allEditions.0.buckets.11.groupedBuckets.0.groupedBuckets.8.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.28.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/features/#reading_list",
+   "question": "reading_list",
+   "subQuestion": "reading_list",
+   "path": "dataAPI.surveys.state_of_css.css2024.reading_list.reading_list.responses.currentEdition.buckets.12.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2024.features.all_features.25.entity"
+  }
+ ],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.13355635,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/56"
+ },
+ "interop": [
+  {
+   "year": 2024,
+   "label": "interop-2024-scrollbar",
+   "url": "https://wpt.fyi/interop-2024?feature=interop-2024-scrollbar"
+  }
+ ],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:scrollbar-gutter"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2024-12-11T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2027-06-11"
+}

@@ -1,0 +1,277 @@
+{
+ "compat_features": [
+  "api.XRFrame.getHitTestResults",
+  "api.XRFrame.getHitTestResultsForTransientInput",
+  "api.XRHitTestResult",
+  "api.XRHitTestResult.getPose",
+  "api.XRHitTestSource",
+  "api.XRHitTestSource.cancel",
+  "api.XRRay",
+  "api.XRRay.XRRay",
+  "api.XRRay.direction",
+  "api.XRRay.matrix",
+  "api.XRRay.origin",
+  "api.XRSession.requestHitTestSource",
+  "api.XRSession.requestHitTestSourceForTransientInput",
+  "api.XRTransientInputHitTestResult",
+  "api.XRTransientInputHitTestResult.inputSource",
+  "api.XRTransientInputHitTestResult.results",
+  "api.XRTransientInputHitTestSource",
+  "api.XRTransientInputHitTestSource.cancel"
+ ],
+ "description": "The getHitTestResults() method of an XRFrame object helps place objects in an augmented reality session by finding where cast rays intersect with real-world geometry.",
+ "description_html": "The <code>getHitTestResults()</code> method of an <code>XRFrame</code> object helps place objects in an augmented reality session by finding where cast rays intersect with real-world geometry.",
+ "group": [
+  "webxr"
+ ],
+ "kind": "feature",
+ "name": "Hit test",
+ "spec": [
+  "https://immersive-web.github.io/hit-test/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.XRFrame.getHitTestResults": {
+    "baseline": false,
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81"
+    }
+   },
+   "api.XRFrame.getHitTestResultsForTransientInput": {
+    "baseline": false,
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81"
+    }
+   },
+   "api.XRHitTestResult": {
+    "baseline": false,
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81"
+    }
+   },
+   "api.XRHitTestResult.getPose": {
+    "baseline": false,
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81"
+    }
+   },
+   "api.XRHitTestSource": {
+    "baseline": false,
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81"
+    }
+   },
+   "api.XRHitTestSource.cancel": {
+    "baseline": false,
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81"
+    }
+   },
+   "api.XRRay": {
+    "baseline": false,
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81"
+    }
+   },
+   "api.XRRay.XRRay": {
+    "baseline": false,
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81"
+    }
+   },
+   "api.XRRay.direction": {
+    "baseline": false,
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81"
+    }
+   },
+   "api.XRRay.matrix": {
+    "baseline": false,
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81"
+    }
+   },
+   "api.XRRay.origin": {
+    "baseline": false,
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81"
+    }
+   },
+   "api.XRSession.requestHitTestSource": {
+    "baseline": false,
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81"
+    }
+   },
+   "api.XRSession.requestHitTestSourceForTransientInput": {
+    "baseline": false,
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81"
+    }
+   },
+   "api.XRTransientInputHitTestResult": {
+    "baseline": false,
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81"
+    }
+   },
+   "api.XRTransientInputHitTestResult.inputSource": {
+    "baseline": false,
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81"
+    }
+   },
+   "api.XRTransientInputHitTestResult.results": {
+    "baseline": false,
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81"
+    }
+   },
+   "api.XRTransientInputHitTestSource": {
+    "baseline": false,
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81"
+    }
+   },
+   "api.XRTransientInputHitTestSource.cancel": {
+    "baseline": false,
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81"
+    }
+   }
+  },
+  "support": {
+   "chrome": "81",
+   "chrome_android": "81",
+   "edge": "81"
+  }
+ },
+ "id": "webxr-hit-test",
+ "groups": [
+  "webxr"
+ ],
+ "specs": [
+  {
+   "url": "https://immersive-web.github.io/hit-test/",
+   "seriesComposition": "full",
+   "shortname": "webxr-hit-test-1",
+   "series": {
+    "shortname": "webxr-hit-test",
+    "currentSpecification": "webxr-hit-test-1",
+    "title": "WebXR Hit Test Module",
+    "shortTitle": "WebXR Hit Test",
+    "releaseUrl": "https://www.w3.org/TR/webxr-hit-test/",
+    "nightlyUrl": "https://immersive-web.github.io/hit-test/"
+   },
+   "seriesVersion": "1",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Immersive Web Working Group",
+     "url": "https://www.w3.org/immersive-web/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/webxr-hit-test-1/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://immersive-web.github.io/hit-test/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/immersive-web/hit-test",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "WebXR Hit Test Module",
+   "source": "w3c",
+   "shortTitle": "WebXR Hit Test",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "webxr/hit-test"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/XRFrame/getHitTestResults",
+   "title": "XRFrame: getHitTestResults() method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/XRFrame/getHitTestResults"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/259",
+   "position": "defer",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 1.1e-7,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/408"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:webxr-hit-test"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/116",
+  "votes": 0
+ },
+ "bugs": {
+  "webview_android": [
+   "https://crbug.com/40652382"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

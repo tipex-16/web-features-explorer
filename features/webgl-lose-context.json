@@ -1,0 +1,140 @@
+{
+ "compat_features": [
+  "api.WEBGL_lose_context",
+  "api.WEBGL_lose_context.loseContext",
+  "api.WEBGL_lose_context.restoreContext"
+ ],
+ "description": "The WEBGL_lose_context extension for WebGL 1.0 and 2.0 contexts simulates losing and restoring a WebGLRenderingContext or WebGL2RenderingContext.",
+ "description_html": "The <code>WEBGL_lose_context</code> extension for WebGL 1.0 and 2.0 contexts simulates losing and restoring a <code>WebGLRenderingContext</code> or <code>WebGL2RenderingContext</code>.",
+ "group": [
+  "webgl-extensions"
+ ],
+ "kind": "feature",
+ "name": "WEBGL_lose_context WebGL extension",
+ "spec": [
+  "https://registry.khronos.org/webgl/extensions/WEBGL_lose_context/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2020-10-30",
+  "baseline_low_date": "2018-04-30",
+  "by_compat_key": {
+   "api.WEBGL_lose_context": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-30",
+    "baseline_low_date": "2018-04-30",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "17",
+     "firefox": "22",
+     "firefox_android": "22",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "api.WEBGL_lose_context.loseContext": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-30",
+    "baseline_low_date": "2018-04-30",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "17",
+     "firefox": "22",
+     "firefox_android": "22",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "api.WEBGL_lose_context.restoreContext": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-30",
+    "baseline_low_date": "2018-04-30",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "17",
+     "firefox": "22",
+     "firefox_android": "22",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   }
+  },
+  "support": {
+   "chrome": "26",
+   "chrome_android": "26",
+   "edge": "17",
+   "firefox": "22",
+   "firefox_android": "22",
+   "safari": "8",
+   "safari_ios": "8"
+  }
+ },
+ "id": "webgl-lose-context",
+ "groups": [
+  "webgl-extensions"
+ ],
+ "specs": [
+  {
+   "url": "https://registry.khronos.org/webgl/extensions/WEBGL_lose_context/",
+   "seriesComposition": "full",
+   "shortname": "WEBGL_lose_context",
+   "series": {
+    "shortname": "WEBGL_lose_context",
+    "currentSpecification": "WEBGL_lose_context",
+    "title": "WebGL WEBGL_lose_context Khronos Ratified Extension Specification",
+    "shortTitle": "WebGL WEBGL_lose_context Khronos Ratified Extension",
+    "nightlyUrl": "https://registry.khronos.org/webgl/extensions/WEBGL_lose_context/"
+   },
+   "organization": "Khronos Group",
+   "groups": [
+    {
+     "name": "WebGL Working Group",
+     "url": "https://www.khronos.org/webgl/"
+    }
+   ],
+   "nightly": {
+    "url": "https://registry.khronos.org/webgl/extensions/WEBGL_lose_context/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "sourcePath": "extensions/WEBGL_lose_context/extension.xml",
+    "filename": "index.html"
+   },
+   "title": "WebGL WEBGL_lose_context Khronos Ratified Extension Specification",
+   "source": "spec",
+   "shortTitle": "WebGL WEBGL_lose_context Khronos Ratified Extension",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "testPaths": [
+     "conformance-suites"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/WEBGL_lose_context",
+   "title": "WEBGL_lose_context extension",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/WEBGL_lose_context"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2018-04-30T00:00:00.000Z",
+ "baselineHighDateAsObject": "2020-10-30T00:00:00.000Z"
+}

@@ -1,0 +1,195 @@
+{
+ "compat_features": [
+  "api.HTMLMediaElement.controller",
+  "api.MediaController",
+  "api.MediaController.MediaController",
+  "api.MediaController.buffered",
+  "api.MediaController.currentTime",
+  "api.MediaController.defaultPlaybackRate",
+  "api.MediaController.duration",
+  "api.MediaController.muted",
+  "api.MediaController.pause",
+  "api.MediaController.paused",
+  "api.MediaController.play",
+  "api.MediaController.playbackRate",
+  "api.MediaController.playbackState",
+  "api.MediaController.played",
+  "api.MediaController.seekable",
+  "api.MediaController.unpause",
+  "api.MediaController.volume"
+ ],
+ "description": "The playback of multiple <video> or <audio> elements can be coordinated by a MediaController instance, for example to synchronize a sign-language interpreter track with the main video track.",
+ "description_html": "The playback of multiple <code>&#x3C;video></code> or <code>&#x3C;audio></code> elements can be coordinated by a <code>MediaController</code> instance, for example to synchronize a sign-language interpreter track with the main video track.",
+ "discouraged": {
+  "according_to": [
+   "https://github.com/w3c/html/issues/246"
+  ],
+  "reason": "The MediaController API was dropped from the specification due to lack of implementations.",
+  "reason_html": "The <code>MediaController</code> API was dropped from the specification due to lack of implementations."
+ },
+ "kind": "feature",
+ "name": "MediaController",
+ "spec": [
+  "https://www.w3.org/TR/2018/SPSD-html5-20180327/embedded-content-0.html#synchronising-multiple-media-elements"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.HTMLMediaElement.controller": {
+    "baseline": false,
+    "support": {
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.MediaController": {
+    "baseline": false,
+    "support": {
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.MediaController.MediaController": {
+    "baseline": false,
+    "support": {
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.MediaController.buffered": {
+    "baseline": false,
+    "support": {
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.MediaController.currentTime": {
+    "baseline": false,
+    "support": {
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.MediaController.defaultPlaybackRate": {
+    "baseline": false,
+    "support": {
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.MediaController.duration": {
+    "baseline": false,
+    "support": {
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.MediaController.muted": {
+    "baseline": false,
+    "support": {
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.MediaController.pause": {
+    "baseline": false,
+    "support": {
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.MediaController.paused": {
+    "baseline": false,
+    "support": {
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.MediaController.play": {
+    "baseline": false,
+    "support": {
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.MediaController.playbackRate": {
+    "baseline": false,
+    "support": {
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.MediaController.playbackState": {
+    "baseline": false,
+    "support": {
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.MediaController.played": {
+    "baseline": false,
+    "support": {
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.MediaController.seekable": {
+    "baseline": false,
+    "support": {
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.MediaController.unpause": {
+    "baseline": false,
+    "support": {
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.MediaController.volume": {
+    "baseline": false,
+    "support": {
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   }
+  },
+  "support": {
+   "safari": "7",
+   "safari_ios": "7"
+  }
+ },
+ "id": "mediacontroller",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://www.w3.org/TR/2018/SPSD-html5-20180327/embedded-content-0.html#synchronising-multiple-media-elements"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/HTMLMediaElement/controller",
+   "title": "HTMLMediaElement: controller property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/controller"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/847377"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/847377"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

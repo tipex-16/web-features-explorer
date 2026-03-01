@@ -1,0 +1,206 @@
+{
+ "compat_features": [
+  "api.Summarizer",
+  "api.Summarizer.availability_static",
+  "api.Summarizer.create_static",
+  "api.Summarizer.destroy",
+  "api.Summarizer.expectedContextLanguages",
+  "api.Summarizer.expectedInputLanguages",
+  "api.Summarizer.format",
+  "api.Summarizer.inputQuota",
+  "api.Summarizer.length",
+  "api.Summarizer.measureInputUsage",
+  "api.Summarizer.outputLanguage",
+  "api.Summarizer.sharedContext",
+  "api.Summarizer.summarize",
+  "api.Summarizer.summarizeStreaming",
+  "api.Summarizer.type",
+  "http.headers.Permissions-Policy.summarizer"
+ ],
+ "description": "The Summarizer API uses an on-device language model to summarize text.",
+ "description_html": "The <code>Summarizer</code> API uses an on-device language model to summarize text.",
+ "kind": "feature",
+ "name": "Summarizer",
+ "spec": [
+  "https://webmachinelearning.github.io/writing-assistance-apis/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Summarizer": {
+    "baseline": false,
+    "support": {
+     "chrome": "138"
+    }
+   },
+   "api.Summarizer.availability_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "138"
+    }
+   },
+   "api.Summarizer.create_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "138"
+    }
+   },
+   "api.Summarizer.destroy": {
+    "baseline": false,
+    "support": {
+     "chrome": "138"
+    }
+   },
+   "api.Summarizer.expectedContextLanguages": {
+    "baseline": false,
+    "support": {
+     "chrome": "138"
+    }
+   },
+   "api.Summarizer.expectedInputLanguages": {
+    "baseline": false,
+    "support": {
+     "chrome": "138"
+    }
+   },
+   "api.Summarizer.format": {
+    "baseline": false,
+    "support": {
+     "chrome": "138"
+    }
+   },
+   "api.Summarizer.inputQuota": {
+    "baseline": false,
+    "support": {
+     "chrome": "138"
+    }
+   },
+   "api.Summarizer.length": {
+    "baseline": false,
+    "support": {
+     "chrome": "138"
+    }
+   },
+   "api.Summarizer.measureInputUsage": {
+    "baseline": false,
+    "support": {
+     "chrome": "138"
+    }
+   },
+   "api.Summarizer.outputLanguage": {
+    "baseline": false,
+    "support": {
+     "chrome": "138"
+    }
+   },
+   "api.Summarizer.sharedContext": {
+    "baseline": false,
+    "support": {
+     "chrome": "138"
+    }
+   },
+   "api.Summarizer.summarize": {
+    "baseline": false,
+    "support": {
+     "chrome": "138"
+    }
+   },
+   "api.Summarizer.summarizeStreaming": {
+    "baseline": false,
+    "support": {
+     "chrome": "138"
+    }
+   },
+   "api.Summarizer.type": {
+    "baseline": false,
+    "support": {
+     "chrome": "138"
+    }
+   },
+   "http.headers.Permissions-Policy.summarizer": {
+    "baseline": false,
+    "support": {
+     "chrome": "138"
+    }
+   }
+  },
+  "support": {
+   "chrome": "138"
+  }
+ },
+ "id": "summarizer",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://webmachinelearning.github.io/writing-assistance-apis/",
+   "seriesComposition": "full",
+   "shortname": "writing-assistance-apis",
+   "series": {
+    "shortname": "writing-assistance-apis",
+    "currentSpecification": "writing-assistance-apis",
+    "title": "Writing Assistance APIs",
+    "shortTitle": "Writing Assistance APIs",
+    "nightlyUrl": "https://webmachinelearning.github.io/writing-assistance-apis/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Machine Learning Community Group",
+     "url": "https://www.w3.org/community/webmachinelearning/"
+    }
+   ],
+   "nightly": {
+    "url": "https://webmachinelearning.github.io/writing-assistance-apis/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/webmachinelearning/writing-assistance-apis",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Writing Assistance APIs",
+   "source": "spec",
+   "shortTitle": "Writing Assistance APIs",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Summarizer_API",
+   "title": "Summarizer API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Summarizer_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/1067",
+   "position": "negative",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/393",
+   "position": "",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": true,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 3e-8,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/415"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:summarizer"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

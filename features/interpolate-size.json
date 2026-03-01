@@ -1,0 +1,165 @@
+{
+ "compat_features": [
+  "css.properties.interpolate-size",
+  "css.properties.interpolate-size.allow-keywords",
+  "css.properties.interpolate-size.numeric-only"
+ ],
+ "description": "The interpolate-size CSS property sets whether animations and transitions interpolate between a numeric value and a keyword value, such as from a fixed length to auto or fit-content.",
+ "description_html": "The <code>interpolate-size</code> CSS property sets whether animations and transitions interpolate between a numeric value and a keyword value, such as from a fixed length to <code>auto</code> or <code>fit-content</code>.",
+ "group": [
+  "transitions",
+  "animation"
+ ],
+ "kind": "feature",
+ "name": "interpolate-size",
+ "spec": [
+  "https://drafts.csswg.org/css-values-5/#interpolate-size"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "css.properties.interpolate-size": {
+    "baseline": false,
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129"
+    }
+   },
+   "css.properties.interpolate-size.allow-keywords": {
+    "baseline": false,
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129"
+    }
+   },
+   "css.properties.interpolate-size.numeric-only": {
+    "baseline": false,
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129"
+    }
+   }
+  },
+  "support": {
+   "chrome": "129",
+   "chrome_android": "129",
+   "edge": "129"
+  }
+ },
+ "id": "interpolate-size",
+ "groups": [
+  "transitions",
+  "animation"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-values-5/#interpolate-size",
+   "seriesComposition": "delta",
+   "shortname": "css-values-5",
+   "series": {
+    "shortname": "css-values",
+    "currentSpecification": "css-values-4",
+    "title": "CSS Values and Units",
+    "shortTitle": "CSS Values",
+    "releaseUrl": "https://www.w3.org/TR/css-values/",
+    "nightlyUrl": "https://drafts.csswg.org/css-values/"
+   },
+   "seriesVersion": "5",
+   "shortTitle": "CSS Values 5",
+   "seriesPrevious": "css-values-4",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-values-5/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-values-5/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-values-5/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-values-5/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Values and Units Module Level 5",
+   "source": "w3c",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-values"
+    ]
+   },
+   "fragment": "interpolate-size"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/interpolate-size",
+   "title": "interpolate-size",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/interpolate-size"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/1022",
+   "position": "positive",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/348",
+   "position": "",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.03425505,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/235"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:interpolate-size"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/253",
+  "votes": 39
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1945962"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/1945962"
+  ],
+  "safari": [
+   "https://webkit.org/b/295132"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/295132"
+  ],
+  "webview_ios": [
+   "https://webkit.org/b/295132"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

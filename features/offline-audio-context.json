@@ -1,0 +1,290 @@
+{
+ "compat_features": [
+  "api.OfflineAudioCompletionEvent",
+  "api.OfflineAudioCompletionEvent.OfflineAudioCompletionEvent",
+  "api.OfflineAudioCompletionEvent.renderedBuffer",
+  "api.OfflineAudioContext",
+  "api.OfflineAudioContext.OfflineAudioContext",
+  "api.OfflineAudioContext.OfflineAudioContext.options_parameter",
+  "api.OfflineAudioContext.complete_event",
+  "api.OfflineAudioContext.length",
+  "api.OfflineAudioContext.resume",
+  "api.OfflineAudioContext.startRendering",
+  "api.OfflineAudioContext.startRendering.returns_promise",
+  "api.OfflineAudioContext.suspend"
+ ],
+ "description": "The OfflineAudioContext API represents an audio processing graph that writes to an AudioBuffer instead of an output device.",
+ "description_html": "The <code>OfflineAudioContext</code> API represents an audio processing graph that writes to an <code>AudioBuffer</code> instead of an output device.",
+ "group": [
+  "web-audio"
+ ],
+ "kind": "feature",
+ "name": "OfflineAudioContext",
+ "spec": [
+  "https://webaudio.github.io/web-audio-api/#OfflineAudioContext"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2023-10-26",
+  "baseline_low_date": "2021-04-26",
+  "by_compat_key": {
+   "api.OfflineAudioCompletionEvent": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "14",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "25",
+     "firefox_android": "25",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.OfflineAudioCompletionEvent.OfflineAudioCompletionEvent": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "53",
+     "firefox_android": "53",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "api.OfflineAudioCompletionEvent.renderedBuffer": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "14",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "25",
+     "firefox_android": "25",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.OfflineAudioContext": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "35",
+     "chrome_android": "35",
+     "edge": "12",
+     "firefox": "25",
+     "firefox_android": "25",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.OfflineAudioContext.OfflineAudioContext": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "35",
+     "chrome_android": "35",
+     "edge": "12",
+     "firefox": "25",
+     "firefox_android": "25",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.OfflineAudioContext.OfflineAudioContext.options_parameter": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "62",
+     "chrome_android": "62",
+     "edge": "79",
+     "firefox": "57",
+     "firefox_android": "57",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.OfflineAudioContext.complete_event": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "35",
+     "chrome_android": "35",
+     "edge": "12",
+     "firefox": "25",
+     "firefox_android": "25",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.OfflineAudioContext.length": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "51",
+     "chrome_android": "51",
+     "edge": "14",
+     "firefox": "49",
+     "firefox_android": "49",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.OfflineAudioContext.resume": {
+    "baseline": false,
+    "support": {
+     "chrome": "41",
+     "chrome_android": "41",
+     "edge": "14",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.OfflineAudioContext.startRendering": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "35",
+     "chrome_android": "35",
+     "edge": "12",
+     "firefox": "25",
+     "firefox_android": "25",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.OfflineAudioContext.startRendering.returns_promise": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "≤18",
+     "firefox": "37",
+     "firefox_android": "37",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.OfflineAudioContext.suspend": {
+    "baseline": false,
+    "support": {
+     "chrome": "41",
+     "chrome_android": "41",
+     "edge": "14",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   }
+  },
+  "support": {
+   "chrome": "35",
+   "chrome_android": "35",
+   "edge": "12",
+   "firefox": "25",
+   "firefox_android": "25",
+   "safari": "14.1",
+   "safari_ios": "14.5"
+  }
+ },
+ "id": "offline-audio-context",
+ "groups": [
+  "web-audio"
+ ],
+ "specs": [
+  {
+   "url": "https://webaudio.github.io/web-audio-api/#OfflineAudioContext",
+   "seriesComposition": "full",
+   "shortname": "webaudio-1.0",
+   "series": {
+    "shortname": "webaudio",
+    "currentSpecification": "webaudio-1.1",
+    "title": "Web Audio API",
+    "shortTitle": "Web Audio API",
+    "releaseUrl": "https://www.w3.org/TR/webaudio/",
+    "nightlyUrl": "https://webaudio.github.io/web-audio-api/"
+   },
+   "seriesVersion": "1.0",
+   "formerNames": [
+    "webaudio"
+   ],
+   "seriesNext": "webaudio-1.1",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Audio Working Group",
+     "url": "https://www.w3.org/groups/wg/audio/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/webaudio-1.0/",
+    "status": "Recommendation",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://webaudio.github.io/web-audio-api/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/WebAudio/web-audio-api",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Web Audio API",
+   "source": "w3c",
+   "shortTitle": "Web Audio API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "webaudio"
+    ]
+   },
+   "fragment": "OfflineAudioContext"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/OfflineAudioContext",
+   "title": "OfflineAudioContext",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/OfflineAudioContext"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.0592045,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/151"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:offline-audio-context"
+ },
+ "developerSignals": null,
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1265406"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/1265406"
+  ]
+ },
+ "baselineLowDateAsObject": "2021-04-26T00:00:00.000Z",
+ "baselineHighDateAsObject": "2023-10-26T00:00:00.000Z"
+}

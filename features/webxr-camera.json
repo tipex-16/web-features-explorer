@@ -1,0 +1,152 @@
+{
+ "compat_features": [
+  "api.XRCamera",
+  "api.XRCamera.height",
+  "api.XRCamera.width",
+  "api.XRView.camera",
+  "api.XRWebGLBinding.getCameraImage"
+ ],
+ "description": "The XRView.camera property provides direct access to pose-synchronized camera images within a WebXR session.",
+ "description_html": "The <code>XRView.camera</code> property provides direct access to pose-synchronized camera images within a WebXR session.",
+ "group": [
+  "webxr"
+ ],
+ "kind": "feature",
+ "name": "Raw camera access for WebXR",
+ "spec": [
+  "https://immersive-web.github.io/raw-camera-access/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.XRCamera": {
+    "baseline": false,
+    "support": {
+     "chrome": "107",
+     "chrome_android": "107",
+     "edge": "107"
+    }
+   },
+   "api.XRCamera.height": {
+    "baseline": false,
+    "support": {
+     "chrome": "107",
+     "chrome_android": "107",
+     "edge": "107"
+    }
+   },
+   "api.XRCamera.width": {
+    "baseline": false,
+    "support": {
+     "chrome": "107",
+     "chrome_android": "107",
+     "edge": "107"
+    }
+   },
+   "api.XRView.camera": {
+    "baseline": false,
+    "support": {
+     "chrome": "107",
+     "chrome_android": "107",
+     "edge": "107"
+    }
+   },
+   "api.XRWebGLBinding.getCameraImage": {
+    "baseline": false,
+    "support": {
+     "chrome": "107",
+     "chrome_android": "107",
+     "edge": "107"
+    }
+   }
+  },
+  "support": {
+   "chrome": "107",
+   "chrome_android": "107",
+   "edge": "107"
+  }
+ },
+ "id": "webxr-camera",
+ "groups": [
+  "webxr"
+ ],
+ "specs": [
+  {
+   "url": "https://immersive-web.github.io/raw-camera-access/",
+   "seriesComposition": "full",
+   "shortname": "raw-camera-access",
+   "series": {
+    "shortname": "raw-camera-access",
+    "currentSpecification": "raw-camera-access",
+    "title": "WebXR Raw Camera Access",
+    "shortTitle": "WebXR Raw Camera Access",
+    "nightlyUrl": "https://immersive-web.github.io/raw-camera-access/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Immersive Web Community Group",
+     "url": "https://www.w3.org/community/immersive-web/"
+    }
+   ],
+   "nightly": {
+    "url": "https://immersive-web.github.io/raw-camera-access/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/immersive-web/raw-camera-access",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "WebXR Raw Camera Access Module",
+   "source": "spec",
+   "shortTitle": "WebXR Raw Camera Access",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/XRView",
+   "title": "XRView",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/XRView"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/667",
+   "position": "defer",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/37",
+   "position": "oppose",
+   "concerns": [
+    "privacy"
+   ]
+  }
+ ],
+ "hasNegativeStandardPosition": true,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 1e-8,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/404"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:webxr-camera"
+ },
+ "developerSignals": null,
+ "bugs": {
+  "webview_android": [
+   "https://crbug.com/40652382"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

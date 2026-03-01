@@ -1,0 +1,136 @@
+{
+ "compat_features": [
+  "css.properties.display.list-item",
+  "css.properties.display.list-item.legend-support"
+ ],
+ "description": "The display: list-item CSS declaration renders an element with the box layout of a <li> HTML element.",
+ "description_html": "The <code>display: list-item</code> CSS declaration renders an element with the box layout of a <code>&#x3C;li></code> HTML element.",
+ "group": [
+  "css",
+  "lists"
+ ],
+ "kind": "feature",
+ "name": "display: list-item",
+ "spec": [
+  "https://drafts.csswg.org/css-display-3/#list-items"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "css.properties.display.list-item": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.display.list-item.legend-support": {
+    "baseline": false,
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "firefox": "64",
+     "firefox_android": "64"
+    }
+   }
+  },
+  "support": {
+   "chrome": "1",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "1",
+   "firefox_android": "4",
+   "safari": "1",
+   "safari_ios": "1"
+  }
+ },
+ "id": "display-list-item",
+ "groups": [
+  "css",
+  "lists"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-display-3/#list-items",
+   "seriesComposition": "full",
+   "shortname": "css-display-3",
+   "series": {
+    "shortname": "css-display",
+    "currentSpecification": "css-display-3",
+    "title": "CSS Display",
+    "shortTitle": "CSS Display",
+    "releaseUrl": "https://www.w3.org/TR/css-display/",
+    "nightlyUrl": "https://drafts.csswg.org/css-display/"
+   },
+   "seriesVersion": "3",
+   "seriesNext": "css-display-4",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-display-3/",
+    "status": "Candidate Recommendation Snapshot",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-display-3/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-display-3/",
+     "https://w3c.github.io/csswg-drafts/css-display/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-display-3/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Display Module Level 3",
+   "source": "w3c",
+   "shortTitle": "CSS Display 3",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-display"
+    ]
+   },
+   "fragment": "list-items"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Values/display-listitem",
+   "title": "<display-listitem>",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/display-listitem"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:display-list-item"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

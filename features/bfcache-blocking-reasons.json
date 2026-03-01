@@ -1,0 +1,289 @@
+{
+ "compat_features": [
+  "api.NotRestoredReasonDetails",
+  "api.NotRestoredReasonDetails.reason",
+  "api.NotRestoredReasonDetails.toJSON",
+  "api.NotRestoredReasons",
+  "api.NotRestoredReasons.children",
+  "api.NotRestoredReasons.id",
+  "api.NotRestoredReasons.name",
+  "api.NotRestoredReasons.reasons",
+  "api.NotRestoredReasons.src",
+  "api.NotRestoredReasons.toJSON",
+  "api.NotRestoredReasons.url",
+  "api.PerformanceNavigationTiming.notRestoredReasons"
+ ],
+ "description": "The notRestoredReasons property of a PerformanceNavigationTiming object explains why the current document was blocked from using the back/forward cache (also known as the bfcache) on navigation.",
+ "description_html": "The <code>notRestoredReasons</code> property of a <code>PerformanceNavigationTiming</code> object explains why the current document was blocked from using the back/forward cache (also known as the bfcache) on navigation.",
+ "group": [
+  "performance"
+ ],
+ "kind": "feature",
+ "name": "Back/forward cache blocking reasons",
+ "spec": [
+  "https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-notrestoredreasons-interface"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.NotRestoredReasonDetails": {
+    "baseline": false,
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125"
+    }
+   },
+   "api.NotRestoredReasonDetails.reason": {
+    "baseline": false,
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125"
+    }
+   },
+   "api.NotRestoredReasonDetails.toJSON": {
+    "baseline": false,
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125"
+    }
+   },
+   "api.NotRestoredReasons": {
+    "baseline": false,
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125"
+    }
+   },
+   "api.NotRestoredReasons.children": {
+    "baseline": false,
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125"
+    }
+   },
+   "api.NotRestoredReasons.id": {
+    "baseline": false,
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125"
+    }
+   },
+   "api.NotRestoredReasons.name": {
+    "baseline": false,
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125"
+    }
+   },
+   "api.NotRestoredReasons.reasons": {
+    "baseline": false,
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125"
+    }
+   },
+   "api.NotRestoredReasons.src": {
+    "baseline": false,
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125"
+    }
+   },
+   "api.NotRestoredReasons.toJSON": {
+    "baseline": false,
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125"
+    }
+   },
+   "api.NotRestoredReasons.url": {
+    "baseline": false,
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125"
+    }
+   },
+   "api.PerformanceNavigationTiming.notRestoredReasons": {
+    "baseline": false,
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125"
+    }
+   }
+  },
+  "support": {
+   "chrome": "125",
+   "chrome_android": "125",
+   "edge": "125"
+  }
+ },
+ "id": "bfcache-blocking-reasons",
+ "groups": [
+  "performance"
+ ],
+ "specs": [
+  {
+   "url": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-notrestoredreasons-interface",
+   "seriesComposition": "full",
+   "shortname": "html",
+   "series": {
+    "shortname": "html",
+    "currentSpecification": "html",
+    "title": "HTML",
+    "shortTitle": "HTML",
+    "nightlyUrl": "https://html.spec.whatwg.org/multipage/"
+   },
+   "nightly": {
+    "url": "https://html.spec.whatwg.org/multipage/",
+    "status": "Living Standard",
+    "sourcePath": "source",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/html",
+    "pages": [
+     "https://html.spec.whatwg.org/multipage/introduction.html",
+     "https://html.spec.whatwg.org/multipage/infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/common-microsyntaxes.html",
+     "https://html.spec.whatwg.org/multipage/urls-and-fetching.html",
+     "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html",
+     "https://html.spec.whatwg.org/multipage/structured-data.html",
+     "https://html.spec.whatwg.org/multipage/dom.html",
+     "https://html.spec.whatwg.org/multipage/semantics.html",
+     "https://html.spec.whatwg.org/multipage/sections.html",
+     "https://html.spec.whatwg.org/multipage/grouping-content.html",
+     "https://html.spec.whatwg.org/multipage/text-level-semantics.html",
+     "https://html.spec.whatwg.org/multipage/links.html",
+     "https://html.spec.whatwg.org/multipage/edits.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content.html",
+     "https://html.spec.whatwg.org/multipage/images.html",
+     "https://html.spec.whatwg.org/multipage/iframe-embed-object.html",
+     "https://html.spec.whatwg.org/multipage/media.html",
+     "https://html.spec.whatwg.org/multipage/image-maps.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content-other.html",
+     "https://html.spec.whatwg.org/multipage/tables.html",
+     "https://html.spec.whatwg.org/multipage/forms.html",
+     "https://html.spec.whatwg.org/multipage/input.html",
+     "https://html.spec.whatwg.org/multipage/form-elements.html",
+     "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/interactive-elements.html",
+     "https://html.spec.whatwg.org/multipage/scripting.html",
+     "https://html.spec.whatwg.org/multipage/canvas.html",
+     "https://html.spec.whatwg.org/multipage/custom-elements.html",
+     "https://html.spec.whatwg.org/multipage/semantics-other.html",
+     "https://html.spec.whatwg.org/multipage/microdata.html",
+     "https://html.spec.whatwg.org/multipage/interaction.html",
+     "https://html.spec.whatwg.org/multipage/dnd.html",
+     "https://html.spec.whatwg.org/multipage/popover.html",
+     "https://html.spec.whatwg.org/multipage/browsers.html",
+     "https://html.spec.whatwg.org/multipage/nav-history-apis.html",
+     "https://html.spec.whatwg.org/multipage/document-sequences.html",
+     "https://html.spec.whatwg.org/multipage/browsing-the-web.html",
+     "https://html.spec.whatwg.org/multipage/document-lifecycle.html",
+     "https://html.spec.whatwg.org/multipage/speculative-loading.html",
+     "https://html.spec.whatwg.org/multipage/webappapis.html",
+     "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html",
+     "https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html",
+     "https://html.spec.whatwg.org/multipage/system-state.html",
+     "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html",
+     "https://html.spec.whatwg.org/multipage/comms.html",
+     "https://html.spec.whatwg.org/multipage/server-sent-events.html",
+     "https://html.spec.whatwg.org/multipage/web-messaging.html",
+     "https://html.spec.whatwg.org/multipage/workers.html",
+     "https://html.spec.whatwg.org/multipage/worklets.html",
+     "https://html.spec.whatwg.org/multipage/webstorage.html",
+     "https://html.spec.whatwg.org/multipage/syntax.html",
+     "https://html.spec.whatwg.org/multipage/parsing.html",
+     "https://html.spec.whatwg.org/multipage/named-characters.html",
+     "https://html.spec.whatwg.org/multipage/xhtml.html",
+     "https://html.spec.whatwg.org/multipage/rendering.html",
+     "https://html.spec.whatwg.org/multipage/obsolete.html",
+     "https://html.spec.whatwg.org/multipage/iana.html",
+     "https://html.spec.whatwg.org/multipage/indices.html",
+     "https://html.spec.whatwg.org/multipage/references.html",
+     "https://html.spec.whatwg.org/multipage/acknowledgements.html"
+    ],
+    "filename": "index.html"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "HTML Workstream",
+     "url": "https://html.spec.whatwg.org/multipage/"
+    }
+   ],
+   "title": "HTML",
+   "source": "whatwg",
+   "shortTitle": "HTML",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "close-watcher",
+     "custom-elements",
+     "eventsource",
+     "html",
+     "imagebitmap-renderingcontext",
+     "import-maps",
+     "navigation-api",
+     "webmessaging",
+     "webstorage",
+     "workers",
+     "worklets",
+     "x-frame-options"
+    ],
+    "excludePaths": [
+     "html/cross-origin-embedder-policy/credentialless",
+     "html/dom/partial-updates/tentative",
+     "html/cross-origin-embedder-policy/credentialless"
+    ]
+   },
+   "fragment": "the-notrestoredreasons-interface"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Glossary/bfcache",
+   "title": "bfcache",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Glossary/bfcache"
+  },
+  {
+   "slug": "Web/API/PerformanceNavigationTiming/notRestoredReasons",
+   "title": "PerformanceNavigationTiming: notRestoredReasons property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/PerformanceNavigationTiming/notRestoredReasons"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.14911723,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/276"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:bfcache-blocking-reasons"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/246",
+  "votes": 0
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

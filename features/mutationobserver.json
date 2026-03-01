@@ -1,0 +1,323 @@
+{
+ "compat_features": [
+  "api.MutationObserver",
+  "api.MutationObserver.MutationObserver",
+  "api.MutationObserver.disconnect",
+  "api.MutationObserver.observe",
+  "api.MutationObserver.takeRecords",
+  "api.MutationRecord",
+  "api.MutationRecord.addedNodes",
+  "api.MutationRecord.attributeName",
+  "api.MutationRecord.attributeNamespace",
+  "api.MutationRecord.nextSibling",
+  "api.MutationRecord.oldValue",
+  "api.MutationRecord.previousSibling",
+  "api.MutationRecord.removedNodes",
+  "api.MutationRecord.target",
+  "api.MutationRecord.type"
+ ],
+ "description": "The MutationObserver API watches for changes to the DOM tree and calls a callback function when DOM changes occur.",
+ "description_html": "The <code>MutationObserver</code> API watches for changes to the DOM tree and calls a callback function when DOM changes occur.",
+ "group": [
+  "dom"
+ ],
+ "kind": "feature",
+ "name": "MutationObserver",
+ "spec": [
+  "https://dom.spec.whatwg.org/#interface-mutationobserver"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "api.MutationObserver": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "14",
+     "firefox_android": "14",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.MutationObserver.MutationObserver": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "14",
+     "firefox_android": "14",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.MutationObserver.disconnect": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "14",
+     "firefox_android": "14",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.MutationObserver.observe": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "14",
+     "firefox_android": "14",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.MutationObserver.takeRecords": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "14",
+     "firefox_android": "14",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.MutationRecord": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "16",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "14",
+     "firefox_android": "14",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.MutationRecord.addedNodes": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "16",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "14",
+     "firefox_android": "14",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.MutationRecord.attributeName": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "16",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "14",
+     "firefox_android": "14",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.MutationRecord.attributeNamespace": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "16",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "14",
+     "firefox_android": "14",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.MutationRecord.nextSibling": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "16",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "14",
+     "firefox_android": "14",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.MutationRecord.oldValue": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "16",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "14",
+     "firefox_android": "14",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.MutationRecord.previousSibling": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "16",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "14",
+     "firefox_android": "14",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.MutationRecord.removedNodes": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "16",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "14",
+     "firefox_android": "14",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.MutationRecord.target": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "16",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "14",
+     "firefox_android": "14",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.MutationRecord.type": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "16",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "14",
+     "firefox_android": "14",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   }
+  },
+  "support": {
+   "chrome": "26",
+   "chrome_android": "26",
+   "edge": "12",
+   "firefox": "14",
+   "firefox_android": "14",
+   "safari": "7",
+   "safari_ios": "7"
+  }
+ },
+ "id": "mutationobserver",
+ "groups": [
+  "dom"
+ ],
+ "specs": [
+  {
+   "url": "https://dom.spec.whatwg.org/#interface-mutationobserver",
+   "seriesComposition": "full",
+   "shortname": "dom",
+   "series": {
+    "shortname": "dom",
+    "currentSpecification": "dom",
+    "title": "DOM",
+    "shortTitle": "DOM",
+    "nightlyUrl": "https://dom.spec.whatwg.org/"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "DOM Workstream",
+     "url": "https://dom.spec.whatwg.org/"
+    }
+   ],
+   "nightly": {
+    "url": "https://dom.spec.whatwg.org/",
+    "status": "Living Standard",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/dom",
+    "sourcePath": "dom.bs",
+    "filename": "index.html"
+   },
+   "title": "DOM",
+   "source": "whatwg",
+   "shortTitle": "DOM",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "dom",
+     "shadow-dom"
+    ]
+   },
+   "fragment": "interface-mutationobserver"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/MutationObserver",
+   "title": "MutationObserver",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/MutationObserver"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:mutationobserver"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

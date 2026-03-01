@@ -1,0 +1,131 @@
+{
+ "compat_features": [
+  "css.properties.text-decoration-line.blink"
+ ],
+ "description": "The text-decoration: blink CSS declaration flashes text between visible and invisible.",
+ "description_html": "The <code>text-decoration: blink</code> CSS declaration flashes text between visible and invisible.",
+ "discouraged": {
+  "according_to": [
+   "https://drafts.csswg.org/css-text-decor-3/#valdef-text-decoration-line-blink"
+  ],
+  "alternatives": [
+   "animations-css"
+  ],
+  "reason": "Browsers may ignore the blink value.",
+  "reason_html": "Browsers may ignore the <code>blink</code> value."
+ },
+ "group": [
+  "animation",
+  "css"
+ ],
+ "kind": "feature",
+ "name": "text-decoration-line: blink",
+ "spec": [
+  "https://drafts.csswg.org/css-text-decor-3/#valdef-text-decoration-line-blink"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "css.properties.text-decoration-line.blink": {
+    "baseline": false,
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "36",
+     "firefox_android": "36",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   }
+  },
+  "support": {
+   "chrome": "57",
+   "chrome_android": "57",
+   "edge": "79",
+   "firefox": "36",
+   "firefox_android": "36",
+   "safari": "12.1",
+   "safari_ios": "12.2"
+  }
+ },
+ "id": "text-decoration-line-blink",
+ "groups": [
+  "animation",
+  "css"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-text-decor-3/#valdef-text-decoration-line-blink",
+   "seriesComposition": "full",
+   "shortname": "css-text-decor-3",
+   "series": {
+    "shortname": "css-text-decor",
+    "currentSpecification": "css-text-decor-3",
+    "title": "CSS Text Decoration",
+    "shortTitle": "CSS Text Decoration",
+    "releaseUrl": "https://www.w3.org/TR/css-text-decor/",
+    "nightlyUrl": "https://drafts.csswg.org/css-text-decor/"
+   },
+   "seriesVersion": "3",
+   "seriesNext": "css-text-decor-4",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-text-decor-3/",
+    "status": "Candidate Recommendation Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-text-decor-3/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-text-decor-3/",
+     "https://w3c.github.io/csswg-drafts/css-text-decor/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-text-decor-3/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Text Decoration Module Level 3",
+   "source": "w3c",
+   "shortTitle": "CSS Text Decoration 3",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-text-decor"
+    ]
+   },
+   "fragment": "valdef-text-decoration-line-blink"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/text-decoration",
+   "title": "text-decoration",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-decoration"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:text-decoration-line-blink"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

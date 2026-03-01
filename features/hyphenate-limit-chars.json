@@ -1,0 +1,134 @@
+{
+ "compat_features": [
+  "css.properties.hyphenate-limit-chars",
+  "css.properties.hyphenate-limit-chars.auto"
+ ],
+ "description": "The hyphenate-limit-chars CSS property sets the number of characters in a word before it is hyphenated and the minimum number of characters on either side of the hyphen.",
+ "description_html": "The <code>hyphenate-limit-chars</code> CSS property sets the number of characters in a word before it is hyphenated and the minimum number of characters on either side of the hyphen.",
+ "group": [
+  "text-wrap"
+ ],
+ "kind": "feature",
+ "name": "Hyphenate limit chars",
+ "spec": [
+  "https://drafts.csswg.org/css-text-4/#hyphenate-char-limits"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "css.properties.hyphenate-limit-chars": {
+    "baseline": false,
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "137",
+     "firefox_android": "137"
+    }
+   },
+   "css.properties.hyphenate-limit-chars.auto": {
+    "baseline": false,
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "137",
+     "firefox_android": "137"
+    }
+   }
+  },
+  "support": {
+   "chrome": "109",
+   "chrome_android": "109",
+   "edge": "109",
+   "firefox": "137",
+   "firefox_android": "137"
+  }
+ },
+ "id": "hyphenate-limit-chars",
+ "groups": [
+  "text-wrap"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-text-4/#hyphenate-char-limits",
+   "seriesComposition": "delta",
+   "shortname": "css-text-4",
+   "series": {
+    "shortname": "css-text",
+    "currentSpecification": "css-text-3",
+    "title": "CSS Text",
+    "shortTitle": "CSS Text",
+    "releaseUrl": "https://www.w3.org/TR/css-text/",
+    "nightlyUrl": "https://drafts.csswg.org/css-text/"
+   },
+   "seriesVersion": "4",
+   "seriesPrevious": "css-text-3",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-text-4/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-text-4/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-text-4/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-text-4/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Text Module Level 4",
+   "source": "w3c",
+   "shortTitle": "CSS Text 4",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-text"
+    ]
+   },
+   "fragment": "hyphenate-char-limits"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/hyphenate-limit-chars",
+   "title": "hyphenate-limit-chars",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/hyphenate-limit-chars"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00123871,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/212"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:hyphenate-limit-chars"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/184",
+  "votes": 0
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Safari",
+ "monthsBlocked": 11,
+ "blockedSince": "April 2025"
+}

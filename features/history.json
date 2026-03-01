@@ -1,0 +1,394 @@
+{
+ "caniuse": [
+  "history"
+ ],
+ "compat_features": [
+  "api.History",
+  "api.History.back",
+  "api.History.forward",
+  "api.History.go",
+  "api.History.length",
+  "api.History.pushState",
+  "api.History.replaceState",
+  "api.History.scrollRestoration",
+  "api.History.state",
+  "api.PopStateEvent",
+  "api.PopStateEvent.PopStateEvent",
+  "api.PopStateEvent.hasUAVisualTransition",
+  "api.PopStateEvent.state",
+  "api.Window.history",
+  "api.Window.popstate_event"
+ ],
+ "description": "The window.history API manipulates the browser session history, from navigations to state management, in the tab or frame that the current page is loaded in.",
+ "description_html": "The <code>window.history</code> API manipulates the browser session history, from navigations to state management, in the tab or frame that the current page is loaded in.",
+ "kind": "feature",
+ "name": "History",
+ "spec": [
+  "https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-history-interface"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "api.History": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.History.back": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.History.forward": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.History.go": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.History.length": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.History.pushState": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "5",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "5",
+     "safari_ios": "4"
+    }
+   },
+   "api.History.replaceState": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "5",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "5",
+     "safari_ios": "4"
+    }
+   },
+   "api.History.scrollRestoration": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "46",
+     "chrome_android": "46",
+     "edge": "79",
+     "firefox": "46",
+     "firefox_android": "46",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.History.state": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "19",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.PopStateEvent": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.PopStateEvent.PopStateEvent": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "16",
+     "chrome_android": "18",
+     "edge": "14",
+     "firefox": "11",
+     "firefox_android": "14",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.PopStateEvent.hasUAVisualTransition": {
+    "baseline": false,
+    "support": {
+     "chrome": "118",
+     "chrome_android": "118",
+     "edge": "118",
+     "safari": "18",
+     "safari_ios": "18"
+    }
+   },
+   "api.PopStateEvent.state": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.Window.history": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.Window.popstate_event": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "5",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   }
+  },
+  "support": {
+   "chrome": "5",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "4",
+   "firefox_android": "4",
+   "safari": "5",
+   "safari_ios": "4"
+  }
+ },
+ "id": "history",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-history-interface",
+   "seriesComposition": "full",
+   "shortname": "html",
+   "series": {
+    "shortname": "html",
+    "currentSpecification": "html",
+    "title": "HTML",
+    "shortTitle": "HTML",
+    "nightlyUrl": "https://html.spec.whatwg.org/multipage/"
+   },
+   "nightly": {
+    "url": "https://html.spec.whatwg.org/multipage/",
+    "status": "Living Standard",
+    "sourcePath": "source",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/html",
+    "pages": [
+     "https://html.spec.whatwg.org/multipage/introduction.html",
+     "https://html.spec.whatwg.org/multipage/infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/common-microsyntaxes.html",
+     "https://html.spec.whatwg.org/multipage/urls-and-fetching.html",
+     "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html",
+     "https://html.spec.whatwg.org/multipage/structured-data.html",
+     "https://html.spec.whatwg.org/multipage/dom.html",
+     "https://html.spec.whatwg.org/multipage/semantics.html",
+     "https://html.spec.whatwg.org/multipage/sections.html",
+     "https://html.spec.whatwg.org/multipage/grouping-content.html",
+     "https://html.spec.whatwg.org/multipage/text-level-semantics.html",
+     "https://html.spec.whatwg.org/multipage/links.html",
+     "https://html.spec.whatwg.org/multipage/edits.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content.html",
+     "https://html.spec.whatwg.org/multipage/images.html",
+     "https://html.spec.whatwg.org/multipage/iframe-embed-object.html",
+     "https://html.spec.whatwg.org/multipage/media.html",
+     "https://html.spec.whatwg.org/multipage/image-maps.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content-other.html",
+     "https://html.spec.whatwg.org/multipage/tables.html",
+     "https://html.spec.whatwg.org/multipage/forms.html",
+     "https://html.spec.whatwg.org/multipage/input.html",
+     "https://html.spec.whatwg.org/multipage/form-elements.html",
+     "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/interactive-elements.html",
+     "https://html.spec.whatwg.org/multipage/scripting.html",
+     "https://html.spec.whatwg.org/multipage/canvas.html",
+     "https://html.spec.whatwg.org/multipage/custom-elements.html",
+     "https://html.spec.whatwg.org/multipage/semantics-other.html",
+     "https://html.spec.whatwg.org/multipage/microdata.html",
+     "https://html.spec.whatwg.org/multipage/interaction.html",
+     "https://html.spec.whatwg.org/multipage/dnd.html",
+     "https://html.spec.whatwg.org/multipage/popover.html",
+     "https://html.spec.whatwg.org/multipage/browsers.html",
+     "https://html.spec.whatwg.org/multipage/nav-history-apis.html",
+     "https://html.spec.whatwg.org/multipage/document-sequences.html",
+     "https://html.spec.whatwg.org/multipage/browsing-the-web.html",
+     "https://html.spec.whatwg.org/multipage/document-lifecycle.html",
+     "https://html.spec.whatwg.org/multipage/speculative-loading.html",
+     "https://html.spec.whatwg.org/multipage/webappapis.html",
+     "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html",
+     "https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html",
+     "https://html.spec.whatwg.org/multipage/system-state.html",
+     "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html",
+     "https://html.spec.whatwg.org/multipage/comms.html",
+     "https://html.spec.whatwg.org/multipage/server-sent-events.html",
+     "https://html.spec.whatwg.org/multipage/web-messaging.html",
+     "https://html.spec.whatwg.org/multipage/workers.html",
+     "https://html.spec.whatwg.org/multipage/worklets.html",
+     "https://html.spec.whatwg.org/multipage/webstorage.html",
+     "https://html.spec.whatwg.org/multipage/syntax.html",
+     "https://html.spec.whatwg.org/multipage/parsing.html",
+     "https://html.spec.whatwg.org/multipage/named-characters.html",
+     "https://html.spec.whatwg.org/multipage/xhtml.html",
+     "https://html.spec.whatwg.org/multipage/rendering.html",
+     "https://html.spec.whatwg.org/multipage/obsolete.html",
+     "https://html.spec.whatwg.org/multipage/iana.html",
+     "https://html.spec.whatwg.org/multipage/indices.html",
+     "https://html.spec.whatwg.org/multipage/references.html",
+     "https://html.spec.whatwg.org/multipage/acknowledgements.html"
+    ],
+    "filename": "index.html"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "HTML Workstream",
+     "url": "https://html.spec.whatwg.org/multipage/"
+    }
+   ],
+   "title": "HTML",
+   "source": "whatwg",
+   "shortTitle": "HTML",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "close-watcher",
+     "custom-elements",
+     "eventsource",
+     "html",
+     "imagebitmap-renderingcontext",
+     "import-maps",
+     "navigation-api",
+     "webmessaging",
+     "webstorage",
+     "workers",
+     "worklets",
+     "x-frame-options"
+    ],
+    "excludePaths": [
+     "html/cross-origin-embedder-policy/credentialless",
+     "html/dom/partial-updates/tentative",
+     "html/cross-origin-embedder-policy/credentialless"
+    ]
+   },
+   "fragment": "the-history-interface"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/History_API",
+   "title": "History API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/History_API"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:history"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

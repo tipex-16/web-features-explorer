@@ -1,0 +1,746 @@
+{
+ "caniuse": [
+  "referrer-policy"
+ ],
+ "compat_features": [
+  "api.HTMLAnchorElement.referrerPolicy",
+  "api.HTMLAnchorElement.referrerPolicy.no-referrer-when-downgrade",
+  "api.HTMLAnchorElement.referrerPolicy.origin-when-cross-origin",
+  "api.HTMLAnchorElement.referrerPolicy.unsafe-url",
+  "api.HTMLAreaElement.referrerPolicy",
+  "api.HTMLAreaElement.referrerPolicy.no-referrer-when-downgrade",
+  "api.HTMLAreaElement.referrerPolicy.origin-when-cross-origin",
+  "api.HTMLAreaElement.referrerPolicy.unsafe-url",
+  "api.HTMLIFrameElement.referrerPolicy",
+  "api.HTMLIFrameElement.referrerPolicy.no-referrer-when-downgrade",
+  "api.HTMLIFrameElement.referrerPolicy.origin-when-cross-origin",
+  "api.HTMLIFrameElement.referrerPolicy.unsafe-url",
+  "api.HTMLImageElement.referrerPolicy",
+  "api.HTMLImageElement.referrerPolicy.no-referrer-when-downgrade",
+  "api.HTMLImageElement.referrerPolicy.origin-when-cross-origin",
+  "api.HTMLImageElement.referrerPolicy.unsafe-url",
+  "api.HTMLLinkElement.referrerPolicy",
+  "api.HTMLLinkElement.referrerPolicy.no-referrer-when-downgrade",
+  "api.HTMLLinkElement.referrerPolicy.origin-when-cross-origin",
+  "api.HTMLLinkElement.referrerPolicy.unsafe-url",
+  "api.HTMLScriptElement.referrerPolicy",
+  "api.HTMLScriptElement.referrerPolicy.no-referrer-when-downgrade",
+  "api.HTMLScriptElement.referrerPolicy.origin-when-cross-origin",
+  "api.HTMLScriptElement.referrerPolicy.unsafe-url",
+  "html.elements.a.referrerpolicy",
+  "html.elements.a.referrerpolicy.no-referrer-when-downgrade",
+  "html.elements.a.referrerpolicy.origin-when-cross-origin",
+  "html.elements.a.referrerpolicy.unsafe-url",
+  "html.elements.area.referrerpolicy",
+  "html.elements.area.referrerpolicy.no-referrer-when-downgrade",
+  "html.elements.area.referrerpolicy.origin-when-cross-origin",
+  "html.elements.area.referrerpolicy.unsafe-url",
+  "html.elements.iframe.referrerpolicy",
+  "html.elements.iframe.referrerpolicy.no-referrer-when-downgrade",
+  "html.elements.iframe.referrerpolicy.origin-when-cross-origin",
+  "html.elements.iframe.referrerpolicy.unsafe-url",
+  "html.elements.img.referrerpolicy",
+  "html.elements.img.referrerpolicy.no-referrer-when-downgrade",
+  "html.elements.img.referrerpolicy.origin-when-cross-origin",
+  "html.elements.img.referrerpolicy.unsafe-url",
+  "html.elements.link.referrerpolicy",
+  "html.elements.link.referrerpolicy.no-referrer-when-downgrade",
+  "html.elements.link.referrerpolicy.origin-when-cross-origin",
+  "html.elements.link.referrerpolicy.unsafe-url",
+  "html.elements.script.referrerpolicy",
+  "html.elements.script.referrerpolicy.no-referrer-when-downgrade",
+  "html.elements.script.referrerpolicy.origin-when-cross-origin",
+  "html.elements.script.referrerpolicy.unsafe-url",
+  "http.headers.Referrer-Policy",
+  "http.headers.Referrer-Policy.default_strict-origin-when-cross-origin",
+  "http.headers.Referrer-Policy.no-referrer-when-downgrade",
+  "http.headers.Referrer-Policy.origin-when-cross-origin",
+  "http.headers.Referrer-Policy.same-origin",
+  "http.headers.Referrer-Policy.strict-origin",
+  "http.headers.Referrer-Policy.strict-origin-when-cross-origin",
+  "http.headers.Referrer-Policy.unsafe-url"
+ ],
+ "description": "The Referrer-Policy HTTP header and referrerpolicy HTML attributes control whether requests have the Referer header and what information the header contains.",
+ "description_html": "The <code>Referrer-Policy</code> HTTP header and <code>referrerpolicy</code> HTML attributes control whether requests have the <code>Referer</code> header and what information the header contains.",
+ "kind": "feature",
+ "name": "Referrer policy",
+ "spec": [
+  "https://w3c.github.io/webappsec-referrer-policy/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2024-03-20",
+  "baseline_low_date": "2021-09-20",
+  "by_compat_key": {
+   "api.HTMLAnchorElement.referrerPolicy": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "52",
+     "chrome_android": "52",
+     "edge": "79",
+     "firefox": "50",
+     "firefox_android": "50",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "api.HTMLAnchorElement.referrerPolicy.no-referrer-when-downgrade": {
+    "baseline": false,
+    "support": {
+     "chrome": "52",
+     "chrome_android": "52",
+     "edge": "79",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "api.HTMLAnchorElement.referrerPolicy.origin-when-cross-origin": {
+    "baseline": false,
+    "support": {
+     "chrome": "52",
+     "chrome_android": "52",
+     "edge": "79",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "api.HTMLAnchorElement.referrerPolicy.unsafe-url": {
+    "baseline": false,
+    "support": {
+     "chrome": "52",
+     "chrome_android": "52",
+     "edge": "79",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "api.HTMLAreaElement.referrerPolicy": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "52",
+     "chrome_android": "52",
+     "edge": "79",
+     "firefox": "50",
+     "firefox_android": "50",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.HTMLAreaElement.referrerPolicy.no-referrer-when-downgrade": {
+    "baseline": false,
+    "support": {
+     "chrome": "52",
+     "chrome_android": "52",
+     "edge": "79",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.HTMLAreaElement.referrerPolicy.origin-when-cross-origin": {
+    "baseline": false,
+    "support": {
+     "chrome": "52",
+     "chrome_android": "52",
+     "edge": "79",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.HTMLAreaElement.referrerPolicy.unsafe-url": {
+    "baseline": false,
+    "support": {
+     "chrome": "52",
+     "chrome_android": "52",
+     "edge": "79",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.HTMLIFrameElement.referrerPolicy": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "52",
+     "chrome_android": "52",
+     "edge": "79",
+     "firefox": "50",
+     "firefox_android": "50",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "api.HTMLIFrameElement.referrerPolicy.no-referrer-when-downgrade": {
+    "baseline": false,
+    "support": {
+     "chrome": "52",
+     "chrome_android": "52",
+     "edge": "79",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "api.HTMLIFrameElement.referrerPolicy.origin-when-cross-origin": {
+    "baseline": false,
+    "support": {
+     "chrome": "52",
+     "chrome_android": "52",
+     "edge": "79",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "api.HTMLIFrameElement.referrerPolicy.unsafe-url": {
+    "baseline": false,
+    "support": {
+     "chrome": "52",
+     "chrome_android": "52",
+     "edge": "79",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "api.HTMLImageElement.referrerPolicy": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "52",
+     "chrome_android": "52",
+     "edge": "79",
+     "firefox": "50",
+     "firefox_android": "50",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "api.HTMLImageElement.referrerPolicy.no-referrer-when-downgrade": {
+    "baseline": false,
+    "support": {
+     "chrome": "52",
+     "chrome_android": "52",
+     "edge": "79",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "api.HTMLImageElement.referrerPolicy.origin-when-cross-origin": {
+    "baseline": false,
+    "support": {
+     "chrome": "52",
+     "chrome_android": "52",
+     "edge": "79",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "api.HTMLImageElement.referrerPolicy.unsafe-url": {
+    "baseline": false,
+    "support": {
+     "chrome": "52",
+     "chrome_android": "52",
+     "edge": "79",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "api.HTMLLinkElement.referrerPolicy": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "58",
+     "chrome_android": "58",
+     "edge": "79",
+     "firefox": "50",
+     "firefox_android": "50",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.HTMLLinkElement.referrerPolicy.no-referrer-when-downgrade": {
+    "baseline": false,
+    "support": {
+     "chrome": "58",
+     "chrome_android": "58",
+     "edge": "79",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.HTMLLinkElement.referrerPolicy.origin-when-cross-origin": {
+    "baseline": false,
+    "support": {
+     "chrome": "58",
+     "chrome_android": "58",
+     "edge": "79",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.HTMLLinkElement.referrerPolicy.unsafe-url": {
+    "baseline": false,
+    "support": {
+     "chrome": "58",
+     "chrome_android": "58",
+     "edge": "79",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.HTMLScriptElement.referrerPolicy": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "70",
+     "chrome_android": "70",
+     "edge": "79",
+     "firefox": "65",
+     "firefox_android": "65",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "api.HTMLScriptElement.referrerPolicy.no-referrer-when-downgrade": {
+    "baseline": false,
+    "support": {
+     "chrome": "70",
+     "chrome_android": "70",
+     "edge": "79",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "api.HTMLScriptElement.referrerPolicy.origin-when-cross-origin": {
+    "baseline": false,
+    "support": {
+     "chrome": "70",
+     "chrome_android": "70",
+     "edge": "79",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "api.HTMLScriptElement.referrerPolicy.unsafe-url": {
+    "baseline": false,
+    "support": {
+     "chrome": "70",
+     "chrome_android": "70",
+     "edge": "79",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "html.elements.a.referrerpolicy": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "51",
+     "chrome_android": "51",
+     "edge": "79",
+     "firefox": "50",
+     "firefox_android": "50",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "html.elements.a.referrerpolicy.no-referrer-when-downgrade": {
+    "baseline": false,
+    "support": {
+     "chrome": "51",
+     "chrome_android": "51",
+     "edge": "79"
+    }
+   },
+   "html.elements.a.referrerpolicy.origin-when-cross-origin": {
+    "baseline": false,
+    "support": {
+     "chrome": "51",
+     "chrome_android": "51",
+     "edge": "79"
+    }
+   },
+   "html.elements.a.referrerpolicy.unsafe-url": {
+    "baseline": false,
+    "support": {
+     "chrome": "51",
+     "chrome_android": "51",
+     "edge": "79"
+    }
+   },
+   "html.elements.area.referrerpolicy": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "51",
+     "chrome_android": "51",
+     "edge": "79",
+     "firefox": "50",
+     "firefox_android": "50",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "html.elements.area.referrerpolicy.no-referrer-when-downgrade": {
+    "baseline": false,
+    "support": {
+     "chrome": "51",
+     "chrome_android": "51",
+     "edge": "79"
+    }
+   },
+   "html.elements.area.referrerpolicy.origin-when-cross-origin": {
+    "baseline": false,
+    "support": {
+     "chrome": "51",
+     "chrome_android": "51",
+     "edge": "79"
+    }
+   },
+   "html.elements.area.referrerpolicy.unsafe-url": {
+    "baseline": false,
+    "support": {
+     "chrome": "51",
+     "chrome_android": "51",
+     "edge": "79"
+    }
+   },
+   "html.elements.iframe.referrerpolicy": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "51",
+     "chrome_android": "51",
+     "edge": "79",
+     "firefox": "50",
+     "firefox_android": "50",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "html.elements.iframe.referrerpolicy.no-referrer-when-downgrade": {
+    "baseline": false,
+    "support": {
+     "chrome": "51",
+     "chrome_android": "51",
+     "edge": "79"
+    }
+   },
+   "html.elements.iframe.referrerpolicy.origin-when-cross-origin": {
+    "baseline": false,
+    "support": {
+     "chrome": "51",
+     "chrome_android": "51",
+     "edge": "79"
+    }
+   },
+   "html.elements.iframe.referrerpolicy.unsafe-url": {
+    "baseline": false,
+    "support": {
+     "chrome": "51",
+     "chrome_android": "51",
+     "edge": "79"
+    }
+   },
+   "html.elements.img.referrerpolicy": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "51",
+     "chrome_android": "51",
+     "edge": "79",
+     "firefox": "50",
+     "firefox_android": "50",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "html.elements.img.referrerpolicy.no-referrer-when-downgrade": {
+    "baseline": false,
+    "support": {
+     "chrome": "51",
+     "chrome_android": "51",
+     "edge": "79"
+    }
+   },
+   "html.elements.img.referrerpolicy.origin-when-cross-origin": {
+    "baseline": false,
+    "support": {
+     "chrome": "51",
+     "chrome_android": "51",
+     "edge": "79"
+    }
+   },
+   "html.elements.img.referrerpolicy.unsafe-url": {
+    "baseline": false,
+    "support": {
+     "chrome": "51",
+     "chrome_android": "51",
+     "edge": "79"
+    }
+   },
+   "html.elements.link.referrerpolicy": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "51",
+     "chrome_android": "51",
+     "edge": "79",
+     "firefox": "50",
+     "firefox_android": "50",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "html.elements.link.referrerpolicy.no-referrer-when-downgrade": {
+    "baseline": false,
+    "support": {
+     "chrome": "51",
+     "chrome_android": "51",
+     "edge": "79"
+    }
+   },
+   "html.elements.link.referrerpolicy.origin-when-cross-origin": {
+    "baseline": false,
+    "support": {
+     "chrome": "51",
+     "chrome_android": "51",
+     "edge": "79"
+    }
+   },
+   "html.elements.link.referrerpolicy.unsafe-url": {
+    "baseline": false,
+    "support": {
+     "chrome": "51",
+     "chrome_android": "51",
+     "edge": "79"
+    }
+   },
+   "html.elements.script.referrerpolicy": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "70",
+     "chrome_android": "70",
+     "edge": "79",
+     "firefox": "65",
+     "firefox_android": "65",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "html.elements.script.referrerpolicy.no-referrer-when-downgrade": {
+    "baseline": false,
+    "support": {
+     "chrome": "70",
+     "chrome_android": "70",
+     "edge": "79"
+    }
+   },
+   "html.elements.script.referrerpolicy.origin-when-cross-origin": {
+    "baseline": false,
+    "support": {
+     "chrome": "70",
+     "chrome_android": "70",
+     "edge": "79"
+    }
+   },
+   "html.elements.script.referrerpolicy.unsafe-url": {
+    "baseline": false,
+    "support": {
+     "chrome": "70",
+     "chrome_android": "70",
+     "edge": "79"
+    }
+   },
+   "http.headers.Referrer-Policy": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "56",
+     "chrome_android": "56",
+     "edge": "79",
+     "firefox": "50",
+     "firefox_android": "50",
+     "safari": "11.1",
+     "safari_ios": "12"
+    }
+   },
+   "http.headers.Referrer-Policy.default_strict-origin-when-cross-origin": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85",
+     "firefox": "87",
+     "firefox_android": "87",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "http.headers.Referrer-Policy.no-referrer-when-downgrade": {
+    "baseline": false,
+    "support": {
+     "chrome": "56",
+     "chrome_android": "56",
+     "edge": "79"
+    }
+   },
+   "http.headers.Referrer-Policy.origin-when-cross-origin": {
+    "baseline": false,
+    "support": {
+     "chrome": "56",
+     "chrome_android": "56",
+     "edge": "79"
+    }
+   },
+   "http.headers.Referrer-Policy.same-origin": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "11.1",
+     "safari_ios": "12"
+    }
+   },
+   "http.headers.Referrer-Policy.strict-origin": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "11.1",
+     "safari_ios": "12"
+    }
+   },
+   "http.headers.Referrer-Policy.strict-origin-when-cross-origin": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "11.1",
+     "safari_ios": "12"
+    }
+   },
+   "http.headers.Referrer-Policy.unsafe-url": {
+    "baseline": false,
+    "support": {
+     "chrome": "56",
+     "chrome_android": "56",
+     "edge": "79"
+    }
+   }
+  },
+  "support": {
+   "chrome": "85",
+   "chrome_android": "85",
+   "edge": "85",
+   "firefox": "87",
+   "firefox_android": "87",
+   "safari": "15",
+   "safari_ios": "15"
+  }
+ },
+ "id": "referrer-policy",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/webappsec-referrer-policy/",
+   "seriesComposition": "full",
+   "shortname": "referrer-policy",
+   "series": {
+    "shortname": "referrer-policy",
+    "currentSpecification": "referrer-policy",
+    "title": "Referrer Policy",
+    "shortTitle": "Referrer Policy",
+    "releaseUrl": "https://www.w3.org/TR/referrer-policy/",
+    "nightlyUrl": "https://w3c.github.io/webappsec-referrer-policy/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Application Security Working Group",
+     "url": "https://www.w3.org/groups/wg/webappsec/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/referrer-policy/",
+    "status": "Candidate Recommendation Snapshot",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/webappsec-referrer-policy/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/webappsec-referrer-policy",
+    "sourcePath": "index.src.html",
+    "filename": "index.html"
+   },
+   "title": "Referrer Policy",
+   "source": "w3c",
+   "shortTitle": "Referrer Policy",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "referrer-policy"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/HTTP/Reference/Headers/Referrer-Policy",
+   "title": "Referrer-Policy header",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Referrer-Policy"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.34215225,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/260"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:referrer-policy"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2021-09-20T00:00:00.000Z",
+ "baselineHighDateAsObject": "2024-03-20T00:00:00.000Z"
+}

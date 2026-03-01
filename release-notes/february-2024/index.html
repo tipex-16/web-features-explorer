@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Web platform features explorer - February 2024 release notes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
+    <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
+  </head>
+  <body>
+
+    
+      <header>
+        <a href="/web-features-explorer/">Web platform features explorer</a>
+
+        <nav>
+          <ul>
+            <li><a href="/web-features-explorer/release-notes/february-2026">Release notes</a></li>
+            <li><a href="/web-features-explorer/newly-available">Explore features</a></li>
+            <li><a href="/web-features-explorer/about">About</a></li>
+          </ul>
+          <search>
+            <form>
+              <input type="search" id="search" placeholder="Search">
+            </form>
+          </search>
+        </nav>
+
+        <output for="search"></output>
+      </header>
+    
+
+    
+<main class="release-notes">
+  <h1>📃 February 2024 release notes</h1>
+
+  <div>
+    
+      <section class="baseline-low">
+        <h2>Newly available</h2>
+        <p>The following features are newly available:</p>
+        <ul>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/declarative-shadow-dom/">Declarative shadow DOM</a></strong>:
+              The <code>shadowrootmode</code> attribute on <code>&#x3C;template></code> creates a shadow root without the use of JavaScript. It is a declarative alternative to the <code>attachShadow()</code> method.
+            </li>
+          
+        </ul>
+      </section>
+    
+
+    
+      <section class="baseline-high">
+        <h2>Widely available</h2>
+        <p>The following features are now widely available:</p>
+        <ul>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/tab-size/">tab-size</a></strong>:
+              The <code>tab-size</code> CSS property sets the width of the tab character.
+            </li>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/visual-viewport/">Visual viewport API</a></strong>:
+              The <code>visualViewport</code> API provides a way to query and modify the user-visible viewport of a web page.
+            </li>
+          
+        </ul>
+      </section>
+    
+
+    
+      
+        <section class="baseline-false chrome">
+          <h2>New in Chrome</h2>
+          <p>The following features are now available in Chrome:</p>
+          <ul>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/clipboard-unsanitized-formats/">Read unsanitized clipboard data</a></strong>:
+                The optional <code>formats.unsanitized</code> parameter of the <code>navigator.clipboard.read()</code> method reads unsanitized <code>text/html</code> data from the system clipboard.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/iterator-methods/">Iterator methods</a></strong>:
+                The <code>Iterator</code> object is an abstract base for objects that implement the iterator protocol. It provides methods common to built-in iterators, such as <code>filter()</code>, <code>find()</code>, <code>map()</code>, and <code>reduce()</code>. You can also use the static method <code>Iterator.from()</code> to convert an existing iterable into an <code>Iterator</code>.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/set-methods/">Set methods</a></strong>:
+                The <code>difference()</code>, <code>intersection()</code>, <code>isDisjointFrom()</code>, <code>isSubsetOf()</code>, <code>isSupersetOf()</code>, <code>symmetricDifference()</code>, and <code>union()</code> methods of the JavaScript <code>Set</code> object performs operations between two sets.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/storage-buckets/">Storage buckets</a></strong>:
+                The <code>navigator.storageBuckets</code> API allows you to organize locally stored data into groups called storage buckets. Each bucket can have different settings, allowing the browser to manage and delete buckets independently rather than applying the same treatment to all.
+              </li>
+            
+          </ul>
+        </section>
+      
+    
+      
+        <section class="baseline-false chrome_android">
+          <h2>New in Chrome Android</h2>
+          <p>The following features are now available in Chrome Android:</p>
+          <ul>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/clipboard-unsanitized-formats/">Read unsanitized clipboard data</a></strong>:
+                The optional <code>formats.unsanitized</code> parameter of the <code>navigator.clipboard.read()</code> method reads unsanitized <code>text/html</code> data from the system clipboard.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/iterator-methods/">Iterator methods</a></strong>:
+                The <code>Iterator</code> object is an abstract base for objects that implement the iterator protocol. It provides methods common to built-in iterators, such as <code>filter()</code>, <code>find()</code>, <code>map()</code>, and <code>reduce()</code>. You can also use the static method <code>Iterator.from()</code> to convert an existing iterable into an <code>Iterator</code>.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/set-methods/">Set methods</a></strong>:
+                The <code>difference()</code>, <code>intersection()</code>, <code>isDisjointFrom()</code>, <code>isSubsetOf()</code>, <code>isSupersetOf()</code>, <code>symmetricDifference()</code>, and <code>union()</code> methods of the JavaScript <code>Set</code> object performs operations between two sets.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/storage-buckets/">Storage buckets</a></strong>:
+                The <code>navigator.storageBuckets</code> API allows you to organize locally stored data into groups called storage buckets. Each bucket can have different settings, allowing the browser to manage and delete buckets independently rather than applying the same treatment to all.
+              </li>
+            
+          </ul>
+        </section>
+      
+    
+      
+        <section class="baseline-false edge">
+          <h2>New in Edge</h2>
+          <p>The following features are now available in Edge:</p>
+          <ul>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/clipboard-unsanitized-formats/">Read unsanitized clipboard data</a></strong>:
+                The optional <code>formats.unsanitized</code> parameter of the <code>navigator.clipboard.read()</code> method reads unsanitized <code>text/html</code> data from the system clipboard.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/iterator-methods/">Iterator methods</a></strong>:
+                The <code>Iterator</code> object is an abstract base for objects that implement the iterator protocol. It provides methods common to built-in iterators, such as <code>filter()</code>, <code>find()</code>, <code>map()</code>, and <code>reduce()</code>. You can also use the static method <code>Iterator.from()</code> to convert an existing iterable into an <code>Iterator</code>.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/set-methods/">Set methods</a></strong>:
+                The <code>difference()</code>, <code>intersection()</code>, <code>isDisjointFrom()</code>, <code>isSubsetOf()</code>, <code>isSupersetOf()</code>, <code>symmetricDifference()</code>, and <code>union()</code> methods of the JavaScript <code>Set</code> object performs operations between two sets.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/storage-buckets/">Storage buckets</a></strong>:
+                The <code>navigator.storageBuckets</code> API allows you to organize locally stored data into groups called storage buckets. Each bucket can have different settings, allowing the browser to manage and delete buckets independently rather than applying the same treatment to all.
+              </li>
+            
+          </ul>
+        </section>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+
+  <aside>
+    <h2>Other release notes</h2>
+    <ul>
+      
+        
+          <li class="month-entry">
+            <a href="../february-2026">February 2026</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../january-2026">January 2026</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../december-2025">December 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../november-2025">November 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../october-2025">October 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../september-2025">September 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../august-2025">August 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../july-2025">July 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../june-2025">June 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../may-2025">May 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../april-2025">April 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../march-2025">March 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../february-2025">February 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../january-2025">January 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../december-2024">December 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../november-2024">November 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../october-2024">October 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../september-2024">September 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../august-2024">August 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../july-2024">July 2024</a>
+          </li>
+        
+      
+        
+          <li><a href="../">See all</a></li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </ul>
+  </aside>
+</main>
+
+
+        
+      <script src="/web-features-explorer/assets/search.js" defer=""></script>
+    
+  </body>
+</html>

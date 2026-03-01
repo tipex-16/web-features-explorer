@@ -1,0 +1,98 @@
+{
+ "compat_features": [
+  "api.HTMLAnchorElement.attributionSourceId",
+  "html.elements.a.attributionsourceid"
+ ],
+ "description": "The attributionsourceid and attributiondestination attributes for <a> elements measure clicks across websites without associating a click to a specific session. Not to be confused with attribution reporting. Also known as PCM.",
+ "description_html": "The <code>attributionsourceid</code> and <code>attributiondestination</code> attributes for <code>&#x3C;a></code> elements measure clicks across websites without associating a click to a specific session. Not to be confused with attribution reporting. Also known as PCM.",
+ "kind": "feature",
+ "name": "Private click measurement",
+ "spec": [
+  "https://privacycg.github.io/private-click-measurement/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.HTMLAnchorElement.attributionSourceId": {
+    "baseline": false,
+    "support": {
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "html.elements.a.attributionsourceid": {
+    "baseline": false,
+    "support": {
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   }
+  },
+  "support": {
+   "safari": "15.4",
+   "safari_ios": "15.4"
+  }
+ },
+ "id": "private-click-measurement",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://privacycg.github.io/private-click-measurement/",
+   "seriesComposition": "full",
+   "shortname": "private-click-measurement",
+   "series": {
+    "shortname": "private-click-measurement",
+    "currentSpecification": "private-click-measurement",
+    "title": "Private Click Measurement",
+    "shortTitle": "Private Click Measurement",
+    "nightlyUrl": "https://privacycg.github.io/private-click-measurement/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Privacy Community Group",
+     "url": "https://www.w3.org/community/privacycg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://privacycg.github.io/private-click-measurement/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/privacycg/private-click-measurement",
+    "sourcePath": "private-click-measurement.bs",
+    "filename": "index.html"
+   },
+   "title": "Private Click Measurement",
+   "source": "spec",
+   "shortTitle": "Private Click Measurement",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/161",
+   "position": "defer",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:private-click-measurement"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/167",
+  "votes": 0
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

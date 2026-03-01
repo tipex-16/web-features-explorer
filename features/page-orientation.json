@@ -1,0 +1,133 @@
+{
+ "compat_features": [
+  "css.at-rules.page.page-orientation"
+ ],
+ "description": "The page-orientation CSS property sets the rotation of a page after pagination. This allows pages with the same size declaration to display with different orientations.",
+ "description_html": "The <code>page-orientation</code> CSS property sets the rotation of a page after pagination. This allows pages with the same <code>size</code> declaration to display with different orientations.",
+ "group": [
+  "layout",
+  "print"
+ ],
+ "kind": "feature",
+ "name": "page-orientation",
+ "spec": [
+  "https://drafts.csswg.org/css-page-3/#page-orientation-prop"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "css.at-rules.page.page-orientation": {
+    "baseline": false,
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85",
+     "firefox": "122",
+     "firefox_android": "122"
+    }
+   }
+  },
+  "support": {
+   "chrome": "85",
+   "chrome_android": "85",
+   "edge": "85",
+   "firefox": "122",
+   "firefox_android": "122"
+  }
+ },
+ "id": "page-orientation",
+ "groups": [
+  "layout",
+  "print"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-page-3/#page-orientation-prop",
+   "seriesComposition": "full",
+   "shortname": "css-page-3",
+   "series": {
+    "shortname": "css-page",
+    "currentSpecification": "css-page-3",
+    "title": "CSS Paged Media",
+    "shortTitle": "CSS Paged Media",
+    "releaseUrl": "https://www.w3.org/TR/css-page/",
+    "nightlyUrl": "https://drafts.csswg.org/css-page/"
+   },
+   "seriesVersion": "3",
+   "seriesNext": "css-page-4",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-page-3/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-page-3/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-page-3/",
+     "https://w3c.github.io/csswg-drafts/css-page/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-page-3/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Paged Media Module Level 3",
+   "source": "w3c",
+   "shortTitle": "CSS Paged Media 3",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-page"
+    ]
+   },
+   "fragment": "page-orientation-prop"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/At-rules/@page/page-orientation",
+   "title": "page-orientation",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@page/page-orientation"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/346",
+   "position": "positive",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.01739532,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/219"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:page-orientation"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/126",
+  "votes": 0
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Safari",
+ "monthsBlocked": 26,
+ "blockedSince": "January 2024"
+}

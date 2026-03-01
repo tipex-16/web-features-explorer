@@ -1,0 +1,915 @@
+{
+ "compat_features": [
+  "javascript.builtins.RegExp",
+  "javascript.builtins.RegExp.@@match",
+  "javascript.builtins.RegExp.@@matchAll",
+  "javascript.builtins.RegExp.@@replace",
+  "javascript.builtins.RegExp.@@search",
+  "javascript.builtins.RegExp.@@species",
+  "javascript.builtins.RegExp.@@split",
+  "javascript.builtins.RegExp.RegExp",
+  "javascript.builtins.RegExp.dotAll",
+  "javascript.builtins.RegExp.exec",
+  "javascript.builtins.RegExp.flags",
+  "javascript.builtins.RegExp.global",
+  "javascript.builtins.RegExp.global.prototype_accessor",
+  "javascript.builtins.RegExp.hasIndices",
+  "javascript.builtins.RegExp.ignoreCase",
+  "javascript.builtins.RegExp.ignoreCase.prototype_accessor",
+  "javascript.builtins.RegExp.lastIndex",
+  "javascript.builtins.RegExp.multiline",
+  "javascript.builtins.RegExp.multiline.prototype_accessor",
+  "javascript.builtins.RegExp.source",
+  "javascript.builtins.RegExp.source.empty_regex_string",
+  "javascript.builtins.RegExp.source.escaping",
+  "javascript.builtins.RegExp.source.prototype_accessor",
+  "javascript.builtins.RegExp.sticky",
+  "javascript.builtins.RegExp.sticky.anchored_sticky_flag",
+  "javascript.builtins.RegExp.sticky.prototype_accessor",
+  "javascript.builtins.RegExp.test",
+  "javascript.builtins.RegExp.toString",
+  "javascript.builtins.RegExp.toString.escaping",
+  "javascript.builtins.RegExp.unicode",
+  "javascript.builtins.RegExp.unicodeSets",
+  "javascript.grammar.regular_expression_literals",
+  "javascript.regular_expressions.backreference",
+  "javascript.regular_expressions.capturing_group",
+  "javascript.regular_expressions.character_class",
+  "javascript.regular_expressions.character_class_escape",
+  "javascript.regular_expressions.character_escape",
+  "javascript.regular_expressions.character_escape.unicode",
+  "javascript.regular_expressions.disjunction",
+  "javascript.regular_expressions.input_boundary_assertion",
+  "javascript.regular_expressions.literal_character",
+  "javascript.regular_expressions.lookahead_assertion",
+  "javascript.regular_expressions.lookbehind_assertion",
+  "javascript.regular_expressions.modifier",
+  "javascript.regular_expressions.named_backreference",
+  "javascript.regular_expressions.named_capturing_group",
+  "javascript.regular_expressions.named_capturing_group.duplicate_named_capturing_groups",
+  "javascript.regular_expressions.non_capturing_group",
+  "javascript.regular_expressions.quantifier",
+  "javascript.regular_expressions.unicode_character_class_escape",
+  "javascript.regular_expressions.wildcard",
+  "javascript.regular_expressions.word_boundary_assertion"
+ ],
+ "description": "The RegExp object represents a regular expression, a notation for matching text patterns.",
+ "description_html": "The <code>RegExp</code> object represents a regular expression, a notation for matching text patterns.",
+ "group": [
+  "regexps"
+ ],
+ "kind": "feature",
+ "name": "Regular expressions",
+ "spec": [
+  "https://tc39.es/ecma262/multipage/text-processing.html#sec-regexp-regular-expression-objects"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "javascript.builtins.RegExp": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.RegExp.@@match": {
+    "baseline": "high",
+    "baseline_high_date": "2019-03-20",
+    "baseline_low_date": "2016-09-20",
+    "support": {
+     "chrome": "50",
+     "chrome_android": "50",
+     "edge": "13",
+     "firefox": "49",
+     "firefox_android": "49",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "javascript.builtins.RegExp.@@matchAll": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "73",
+     "chrome_android": "73",
+     "edge": "79",
+     "firefox": "67",
+     "firefox_android": "67",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "javascript.builtins.RegExp.@@replace": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "50",
+     "chrome_android": "50",
+     "edge": "79",
+     "firefox": "49",
+     "firefox_android": "49",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "javascript.builtins.RegExp.@@search": {
+    "baseline": "high",
+    "baseline_high_date": "2019-03-20",
+    "baseline_low_date": "2016-09-20",
+    "support": {
+     "chrome": "50",
+     "chrome_android": "50",
+     "edge": "13",
+     "firefox": "49",
+     "firefox_android": "49",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "javascript.builtins.RegExp.@@species": {
+    "baseline": "high",
+    "baseline_high_date": "2019-03-20",
+    "baseline_low_date": "2016-09-20",
+    "support": {
+     "chrome": "51",
+     "chrome_android": "51",
+     "edge": "13",
+     "firefox": "49",
+     "firefox_android": "49",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "javascript.builtins.RegExp.@@split": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "50",
+     "chrome_android": "50",
+     "edge": "79",
+     "firefox": "49",
+     "firefox_android": "49",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "javascript.builtins.RegExp.RegExp": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.RegExp.dotAll": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "62",
+     "chrome_android": "62",
+     "edge": "79",
+     "firefox": "78",
+     "firefox_android": "79",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "javascript.builtins.RegExp.exec": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.RegExp.flags": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "49",
+     "chrome_android": "49",
+     "edge": "79",
+     "firefox": "37",
+     "firefox_android": "37",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "javascript.builtins.RegExp.global": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.RegExp.global.prototype_accessor": {
+    "baseline": "high",
+    "baseline_high_date": "2018-07-26",
+    "baseline_low_date": "2016-01-26",
+    "support": {
+     "chrome": "48",
+     "chrome_android": "48",
+     "edge": "12",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "1.3",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.RegExp.hasIndices": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90",
+     "firefox": "88",
+     "firefox_android": "88",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "javascript.builtins.RegExp.ignoreCase": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.RegExp.ignoreCase.prototype_accessor": {
+    "baseline": "high",
+    "baseline_high_date": "2018-07-26",
+    "baseline_low_date": "2016-01-26",
+    "support": {
+     "chrome": "48",
+     "chrome_android": "48",
+     "edge": "12",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "1.3",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.RegExp.lastIndex": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.RegExp.multiline": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.RegExp.multiline.prototype_accessor": {
+    "baseline": "high",
+    "baseline_high_date": "2018-07-26",
+    "baseline_low_date": "2016-01-26",
+    "support": {
+     "chrome": "48",
+     "chrome_android": "48",
+     "edge": "12",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "1.3",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.RegExp.source": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.RegExp.source.empty_regex_string": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   },
+   "javascript.builtins.RegExp.source.escaping": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-12",
+    "baseline_low_date": "2019-03-12",
+    "support": {
+     "chrome": "73",
+     "chrome_android": "73",
+     "edge": "12",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "javascript.builtins.RegExp.source.prototype_accessor": {
+    "baseline": "high",
+    "baseline_high_date": "2018-07-26",
+    "baseline_low_date": "2016-01-26",
+    "support": {
+     "chrome": "48",
+     "chrome_android": "48",
+     "edge": "12",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "1.3",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.RegExp.sticky": {
+    "baseline": "high",
+    "baseline_high_date": "2019-03-20",
+    "baseline_low_date": "2016-09-20",
+    "support": {
+     "chrome": "49",
+     "chrome_android": "49",
+     "edge": "13",
+     "firefox": "3",
+     "firefox_android": "4",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "javascript.builtins.RegExp.sticky.anchored_sticky_flag": {
+    "baseline": "high",
+    "baseline_high_date": "2019-03-20",
+    "baseline_low_date": "2016-09-20",
+    "support": {
+     "chrome": "49",
+     "chrome_android": "49",
+     "edge": "13",
+     "firefox": "44",
+     "firefox_android": "44",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "javascript.builtins.RegExp.sticky.prototype_accessor": {
+    "baseline": "high",
+    "baseline_high_date": "2019-03-20",
+    "baseline_low_date": "2016-09-20",
+    "support": {
+     "chrome": "49",
+     "chrome_android": "49",
+     "edge": "13",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "javascript.builtins.RegExp.test": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.RegExp.toString": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.RegExp.toString.escaping": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-12",
+    "baseline_low_date": "2019-03-12",
+    "support": {
+     "chrome": "73",
+     "chrome_android": "73",
+     "edge": "12",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "javascript.builtins.RegExp.unicode": {
+    "baseline": "high",
+    "baseline_high_date": "2019-03-20",
+    "baseline_low_date": "2016-09-20",
+    "support": {
+     "chrome": "50",
+     "chrome_android": "50",
+     "edge": "12",
+     "firefox": "46",
+     "firefox_android": "46",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "javascript.builtins.RegExp.unicodeSets": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "112",
+     "chrome_android": "112",
+     "edge": "112",
+     "firefox": "116",
+     "firefox_android": "116",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "javascript.grammar.regular_expression_literals": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.regular_expressions.backreference": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.regular_expressions.capturing_group": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.regular_expressions.character_class": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.regular_expressions.character_class_escape": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.regular_expressions.character_escape": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.regular_expressions.character_escape.unicode": {
+    "baseline": "high",
+    "baseline_high_date": "2019-03-20",
+    "baseline_low_date": "2016-09-20",
+    "support": {
+     "chrome": "50",
+     "chrome_android": "50",
+     "edge": "12",
+     "firefox": "46",
+     "firefox_android": "46",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "javascript.regular_expressions.disjunction": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.regular_expressions.input_boundary_assertion": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.regular_expressions.literal_character": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.regular_expressions.lookahead_assertion": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.regular_expressions.lookbehind_assertion": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "62",
+     "chrome_android": "62",
+     "edge": "79",
+     "firefox": "78",
+     "firefox_android": "79",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "javascript.regular_expressions.modifier": {
+    "baseline": "low",
+    "baseline_low_date": "2025-09-15",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "132",
+     "firefox_android": "132",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "javascript.regular_expressions.named_backreference": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "64",
+     "chrome_android": "64",
+     "edge": "79",
+     "firefox": "78",
+     "firefox_android": "79",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "javascript.regular_expressions.named_capturing_group": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "64",
+     "chrome_android": "64",
+     "edge": "79",
+     "firefox": "78",
+     "firefox_android": "79",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "javascript.regular_expressions.named_capturing_group.duplicate_named_capturing_groups": {
+    "baseline": "low",
+    "baseline_low_date": "2024-08-06",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "129",
+     "firefox_android": "129",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "javascript.regular_expressions.non_capturing_group": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.regular_expressions.quantifier": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.regular_expressions.unicode_character_class_escape": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "64",
+     "chrome_android": "64",
+     "edge": "79",
+     "firefox": "78",
+     "firefox_android": "79",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "javascript.regular_expressions.wildcard": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.regular_expressions.word_boundary_assertion": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   }
+  },
+  "support": {
+   "chrome": "1",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "1",
+   "firefox_android": "4",
+   "safari": "1",
+   "safari_ios": "1"
+  }
+ },
+ "id": "regexp",
+ "groups": [
+  "regexps"
+ ],
+ "specs": [
+  {
+   "url": "https://tc39.es/ecma262/multipage/text-processing.html#sec-regexp-regular-expression-objects",
+   "seriesComposition": "full",
+   "shortname": "ecmascript",
+   "series": {
+    "shortname": "ecmascript",
+    "currentSpecification": "ecmascript",
+    "title": "ECMAScript® 2026 Language Specification",
+    "shortTitle": "ECMAScript",
+    "nightlyUrl": "https://tc39.es/ecma262/multipage/"
+   },
+   "shortTitle": "ECMAScript",
+   "tests": {
+    "repository": "https://github.com/tc39/test262",
+    "testPaths": [
+     "test"
+    ],
+    "excludePaths": [
+     "test/intl402"
+    ]
+   },
+   "organization": "Ecma International",
+   "groups": [
+    {
+     "name": "TC39",
+     "url": "https://tc39.es/"
+    }
+   ],
+   "nightly": {
+    "url": "https://tc39.es/ecma262/multipage/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/tc39/ecma262",
+    "sourcePath": "spec.html",
+    "pages": [
+     "https://tc39.es/ecma262/multipage/scope.html",
+     "https://tc39.es/ecma262/multipage/conformance.html",
+     "https://tc39.es/ecma262/multipage/normative-references.html",
+     "https://tc39.es/ecma262/multipage/overview.html",
+     "https://tc39.es/ecma262/multipage/notational-conventions.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html",
+     "https://tc39.es/ecma262/multipage/abstract-operations.html",
+     "https://tc39.es/ecma262/multipage/syntax-directed-operations.html",
+     "https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html",
+     "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-language-source-code.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-language-lexical-grammar.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html",
+     "https://tc39.es/ecma262/multipage/error-handling-and-language-extensions.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-standard-built-in-objects.html",
+     "https://tc39.es/ecma262/multipage/global-object.html",
+     "https://tc39.es/ecma262/multipage/fundamental-objects.html",
+     "https://tc39.es/ecma262/multipage/numbers-and-dates.html",
+     "https://tc39.es/ecma262/multipage/text-processing.html",
+     "https://tc39.es/ecma262/multipage/indexed-collections.html",
+     "https://tc39.es/ecma262/multipage/keyed-collections.html",
+     "https://tc39.es/ecma262/multipage/structured-data.html",
+     "https://tc39.es/ecma262/multipage/managing-memory.html",
+     "https://tc39.es/ecma262/multipage/control-abstraction-objects.html",
+     "https://tc39.es/ecma262/multipage/reflection.html",
+     "https://tc39.es/ecma262/multipage/memory-model.html",
+     "https://tc39.es/ecma262/multipage/grammar-summary.html",
+     "https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html",
+     "https://tc39.es/ecma262/multipage/strict-mode-of-ecmascript.html",
+     "https://tc39.es/ecma262/multipage/host-layering-points.html",
+     "https://tc39.es/ecma262/multipage/corrections-and-clarifications-in-ecmascript-2015-with-possible-compatibility-impact.html",
+     "https://tc39.es/ecma262/multipage/additions-and-changes-that-introduce-incompatibilities-with-prior-editions.html",
+     "https://tc39.es/ecma262/multipage/bibliography.html",
+     "https://tc39.es/ecma262/multipage/colophon.html",
+     "https://tc39.es/ecma262/multipage/copyright-and-software-license.html"
+    ],
+    "filename": "index.html"
+   },
+   "title": "ECMAScript® 2026 Language Specification",
+   "source": "spec",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": "sec-regexp-regular-expression-objects"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/JavaScript/Reference/Global_Objects/RegExp",
+   "title": "RegExp",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

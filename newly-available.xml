@@ -1,0 +1,1466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://web-platform-dx.github.io/web-features-explorer/">
+  <title>Baseline Newly Available Features</title>
+  <subtitle>Features of the web platform which became Baseline Newly Available.</subtitle>
+  <link href="https://web-platform-dx.github.io/web-features-explorer/newly-available.xml" rel="self"/>
+  <link href="https://web-platform-dx.github.io/web-features-explorer/"/>
+  <updated>2026-02-14T00:00:00Z</updated>
+  <id>https://web-platform-dx.github.io/web-features-explorer/</id>
+  <author>
+    <name>WebDX Community Group</name>
+  </author>
+
+  
+    <entry>
+      <title>Map getOrInsert()</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/getorinsert"/>
+      <updated>2026-02-14T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/getorinsert</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/getorinsert">Map getOrInsert()</a></h1>
+        <p>The <code>getOrInsert()</code> and <code>getOrInsertComputed()</code> methods of <code>Map</code> objects get a value, setting and getting a default value if needed.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Zstandard compression</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/zstd"/>
+      <updated>2026-02-11T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/zstd</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/zstd">Zstandard compression</a></h1>
+        <p>Zstandard or <code>zstd</code> is a fast lossless compression algorithm. When used as a content encoding, it is often faster and offers better compression than brotli.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Active view transition</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/active-view-transition"/>
+      <updated>2026-01-13T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/active-view-transition</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/active-view-transition">Active view transition</a></h1>
+        <p>The <code>:active-view-transition</code> CSS pseudo-class matches the root element when a view transition is active. The <code>:active-view-transition-type()</code> CSS pseudo-class matches only when the active view transition was started with the specified type.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>JavaScript modules in service workers</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/js-modules-service-workers"/>
+      <updated>2026-01-13T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/js-modules-service-workers</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/js-modules-service-workers">JavaScript modules in service workers</a></h1>
+        <p>The <code>navigator.serviceWorker.register()</code> method accepts <code>{ type: "module" }</code> to load scripts that use <code>import</code> and <code>export</code>. Also known as ECMAScript modules or ESM in service workers.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Navigation API</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/navigation"/>
+      <updated>2026-01-13T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/navigation</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/navigation">Navigation API</a></h1>
+        <p>The <code>navigation</code> API initiates, intercepts, or modifies browser navigation actions. Not to be confused with the <code>navigator</code> API.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>rcap unit</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/rcap"/>
+      <updated>2026-01-13T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/rcap</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/rcap">rcap unit</a></h1>
+        <p>The <code>rcap</code> CSS length unit is a font-relative length equal to the value of the <code>cap</code> unit on the root element. Cap-height is approximately equal to the height of a capital Latin letter.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>rch unit</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/rch"/>
+      <updated>2026-01-13T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/rch</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/rch">rch unit</a></h1>
+        <p>The <code>rch</code> CSS length unit is a font-relative length equal to the value of the <code>ch</code> unit on the root element. <code>ch</code> length is based on the width of the zero (0) character.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>rex unit</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/rex"/>
+      <updated>2026-01-13T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/rex</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/rex">rex unit</a></h1>
+        <p>The <code>rex</code> CSS length unit is a font-relative length that is equal to the x-height of the root element.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>ric unit</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/ric"/>
+      <updated>2026-01-13T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/ric</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/ric">ric unit</a></h1>
+        <p>The <code>ric</code> CSS length unit, or root international character, is a font-relative length equal to the width of CJK character relative to the root element.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>document.caretPositionFromPoint()</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/document-caretpositionfrompoint"/>
+      <updated>2025-12-12T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/document-caretpositionfrompoint</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/document-caretpositionfrompoint">document.caretPositionFromPoint()</a></h1>
+        <p>The <code>document.caretPositionFromPoint()</code> method finds an insertion point, represented by a DOM node and an offset within that node, for given coordinates in the viewport.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Event timing</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/event-timing"/>
+      <updated>2025-12-12T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/event-timing</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/event-timing">Event timing</a></h1>
+        <p>The <code>event</code> and <code>first-input</code> performance entries and the <code>PerformanceEventTiming</code> API measures the latency of user input events, such as mouse clicks or keypresses. They're used to calculate Interaction to Next Paint (INP), a common metric for perceived responsiveness.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Math font family</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/font-family-math"/>
+      <updated>2025-12-12T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/font-family-math</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/font-family-math">Math font family</a></h1>
+        <p>The <code>font-family: math</code> CSS declaration uses the browser default font face for displaying mathematical expressions.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Invoker commands</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/invoker-commands"/>
+      <updated>2025-12-12T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/invoker-commands</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/invoker-commands">Invoker commands</a></h1>
+        <p>The <code>command</code> and <code>commandfor</code> attributes for the <code>&#x3C;button></code> HTML element dispatch an action to an element when the button is invoked (by click or keystroke), as a declarative alternative to <code>addEventListener()</code> calls or <code>onclick</code> attribute handlers.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Largest contentful paint (LCP)</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/largest-contentful-paint"/>
+      <updated>2025-12-12T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/largest-contentful-paint</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/largest-contentful-paint">Largest contentful paint (LCP)</a></h1>
+        <p>The <code>largest-contentful-paint</code> performance entry and the <code>LargestContentfulPaint</code> API measures  the time it takes for the largest image or text to appear. Largest contentful paint (LCP) is a common metric for perceived loading times.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>@scope</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/scope"/>
+      <updated>2025-12-12T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/scope</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/scope">@scope</a></h1>
+        <p>The <code>@scope</code> CSS at-rule sets the scope for a group of rules.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>scrollbar-color</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/scrollbar-color"/>
+      <updated>2025-12-12T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/scrollbar-color</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/scrollbar-color">scrollbar-color</a></h1>
+        <p>The <code>scrollbar-color</code> CSS property sets the color of the scrollbar track and thumb.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>scrollend</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/scrollend"/>
+      <updated>2025-12-12T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/scrollend</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/scrollend">scrollend</a></h1>
+        <p>The <code>scrollend</code> event fires when an element or document has finished scrolling.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Atomics.waitAsync()</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/atomics-wait-async"/>
+      <updated>2025-11-11T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/atomics-wait-async</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/atomics-wait-async">Atomics.waitAsync()</a></h1>
+        <p>The <code>Atomics.waitAsync()</code> static method waits for a value in a shared memory location, providing a promise when the expected value is not yet in memory. The <code>waitAsync()</code> method is a non-blocking alternative to <code>Atomics.wait()</code>.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>view-transition-class</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/view-transition-class"/>
+      <updated>2025-10-14T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/view-transition-class</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/view-transition-class">view-transition-class</a></h1>
+        <p>The <code>view-transition-class</code> CSS property sets a name that can be used to apply styles to multiple named view transition pseudo-elements.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>View transitions</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/view-transitions"/>
+      <updated>2025-10-14T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/view-transitions</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/view-transitions">View transitions</a></h1>
+        <p>View transitions allow you to create animated visual transitions between different states of a document.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>WebRTC encoded transform</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/webrtc-encoded-transform"/>
+      <updated>2025-10-03T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/webrtc-encoded-transform</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/webrtc-encoded-transform">WebRTC encoded transform</a></h1>
+        <p>The WebRTC encoded transform API allows you to modify audio and video streams in WebRTC connections. For example, it can be used for visual effects or custom codecs.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>::details-content</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/details-content"/>
+      <updated>2025-09-16T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/details-content</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/details-content">::details-content</a></h1>
+        <p>The <code>::details-content</code> pseudo-element selects the expandable content of a <code>&#x3C;details></code> element, excluding the <code>&#x3C;summary></code>.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>content-visibility</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/content-visibility"/>
+      <updated>2025-09-15T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/content-visibility</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/content-visibility">content-visibility</a></h1>
+        <p>The <code>content-visibility</code> CSS property delays rendering an element, including layout and painting, until it is needed.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>&lt;link rel="dns-prefetch"&gt;</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/link-rel-dns-prefetch"/>
+      <updated>2025-09-15T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/link-rel-dns-prefetch</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/link-rel-dns-prefetch">&lt;link rel="dns-prefetch"&gt;</a></h1>
+        <p>The <code>rel="dns-prefetch"</code> attribute for the <code>&#x3C;link></code> HTML element is a hint to the browser that the page or user is likely to request resources from another domain, so the browser should preemptively resolve DNS for the <code>href</code> value's domain.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Unsanitized HTML parsing methods</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/parse-html-unsafe"/>
+      <updated>2025-09-15T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/parse-html-unsafe</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/parse-html-unsafe">Unsanitized HTML parsing methods</a></h1>
+        <p>The <code>Document.parseHTMLUnsafe()</code> static method parses HTML into a DOM tree, while the <code>setHTMLUnsafe()</code> method of <code>Element</code> and <code>ShadowRoot</code> parses and inserts HTML into an existing tree. No sanitization applies to these methods, so never call them with user-provided HTML strings.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>URLPattern</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/urlpattern"/>
+      <updated>2025-09-15T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/urlpattern</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/urlpattern">URLPattern</a></h1>
+        <p>The <code>URLPattern</code> API creates patterns that can be matched against URLs or URL components.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Uint8Array base64 and hex conversion</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/uint8array-base64-hex"/>
+      <updated>2025-09-05T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/uint8array-base64-hex</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/uint8array-base64-hex">Uint8Array base64 and hex conversion</a></h1>
+        <p>The <code>Uint8Array</code> object methods <code>fromBase64()</code>, <code>toBase64()</code>, and <code>setFromBase64()</code> convert to and from base64 strings. The <code>fromHex()</code>, <code>toHex()</code>, and <code>setFromHex()</code> methods convert to and from hex strings.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Selection composed ranges</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/composed-ranges"/>
+      <updated>2025-08-19T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/composed-ranges</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/composed-ranges">Selection composed ranges</a></h1>
+        <p>The <code>window.getSelection().getComposedRanges()</code> method returns ranges that represent the current user selection, even if the selection spans across shadow tree boundaries.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>&lt;input type="file" webkitdirectory&gt;</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/input-file-webkitdirectory"/>
+      <updated>2025-08-19T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/input-file-webkitdirectory</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/input-file-webkitdirectory">&lt;input type="file" webkitdirectory&gt;</a></h1>
+        <p>The <code>&#x3C;input type="file" webkitdirectory></code> HTML element shows a file picker from which users can choose a folder to upload with the form.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>abs() and sign()</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/abs-sign"/>
+      <updated>2025-06-26T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/abs-sign</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/abs-sign">abs() and sign()</a></h1>
+        <p>The <code>abs()</code> and <code>sign()</code> CSS functions compute the absolute value or the sign of the input.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>dialog.requestClose()</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/requestclose"/>
+      <updated>2025-05-27T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/requestclose</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/requestclose">dialog.requestClose()</a></h1>
+        <p>The <code>requestClose()</code> method of a <code>&#x3C;dialog></code> HTML element closes the dialog, firing a <code>cancel</code> event first, which listeners can use to prevent the dialog from closing. This differs from the <code>close()</code> method, which only fires the non-cancelable <code>close</code> event.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>print-color-adjust</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/print-color-adjust"/>
+      <updated>2025-05-01T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/print-color-adjust</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/print-color-adjust">print-color-adjust</a></h1>
+        <p>The <code>print-color-adjust</code> CSS property sets whether styles of printed pages should be adjusted to use less ink, in cases such as light text on a dark background.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>RegExp.escape()</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/regexp-escape"/>
+      <updated>2025-05-01T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/regexp-escape</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/regexp-escape">RegExp.escape()</a></h1>
+        <p>The <code>RegExp.escape()</code> static method takes a string and replaces any characters that are potentially special characters of a regular expression with equivalent escape sequences. For example, <code>RegExp.escape("[abc]")</code> returns <code>"\\[abc\\]"</code>.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>JSON import attributes</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/json-modules"/>
+      <updated>2025-04-29T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/json-modules</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/json-modules">JSON import attributes</a></h1>
+        <p>Module <code>import … with { type: "json" }</code> statements load JSON data. Also known as JSON module scripts.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Float16Array</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/float16array"/>
+      <updated>2025-04-04T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/float16array</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/float16array">Float16Array</a></h1>
+        <p>Float16Array is a typed array of 16-bit floating point numbers.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Atomics.pause()</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/atomics-pause"/>
+      <updated>2025-04-01T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/atomics-pause</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/atomics-pause">Atomics.pause()</a></h1>
+        <p>The <code>Atomics.pause()</code> static method gives a hint to the CPU that the code calling the method is in a short-duration wait for shared memory, known as spinning or a spinlock.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>ClipboardItem.supports()</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/clipboard-supports"/>
+      <updated>2025-03-31T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/clipboard-supports</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/clipboard-supports">ClipboardItem.supports()</a></h1>
+        <p>The <code>ClipboardItem.supports()</code> static method checks if the browser supports writing data types such as "image/svg+xml" or other custom formats to the system clipboard.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Iterator methods</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/iterator-methods"/>
+      <updated>2025-03-31T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/iterator-methods</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/iterator-methods">Iterator methods</a></h1>
+        <p>The <code>Iterator</code> object is an abstract base for objects that implement the iterator protocol. It provides methods common to built-in iterators, such as <code>filter()</code>, <code>find()</code>, <code>map()</code>, and <code>reduce()</code>. You can also use the static method <code>Iterator.from()</code> to convert an existing iterable into an <code>Iterator</code>.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Screen wake lock</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/screen-wake-lock"/>
+      <updated>2025-03-31T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/screen-wake-lock</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/screen-wake-lock">Screen wake lock</a></h1>
+        <p>The <code>navigator.wakeLock.request("screen")</code> API prevents the device's screen from dimming or being turned off.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>contenteditable="plaintext-only"</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/contenteditable-plaintextonly"/>
+      <updated>2025-03-04T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/contenteditable-plaintextonly</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/contenteditable-plaintextonly">contenteditable="plaintext-only"</a></h1>
+        <p>The <code>contenteditable="plaintext-only"</code> global HTML attribute allows the user to edit the content of an element, but prevents rich-text formatting.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Intl.DurationFormat</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/intl-duration-format"/>
+      <updated>2025-03-04T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/intl-duration-format</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/intl-duration-format">Intl.DurationFormat</a></h1>
+        <p>The <code>Intl.DurationFormat</code> API creates a locale-aware formatter that turns an object representing a duration (such as days, hours, and minutes) into a string.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Popover</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/popover"/>
+      <updated>2025-01-27T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/popover</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/popover">Popover</a></h1>
+        <p>The <code>popover</code> HTML attribute creates an overlay to display content on top of other page content. Popovers can be shown declaratively using HTML, or using the <code>showPopover()</code> method.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Promise.try()</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/promise-try"/>
+      <updated>2025-01-07T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/promise-try</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/promise-try">Promise.try()</a></h1>
+        <p>The <code>Promise.try()</code> static method returns a promise that takes a callback of any kind (returns or throws, synchronously or asynchronously) and wraps its result in a <code>Promise</code>.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Page setup</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/page-setup"/>
+      <updated>2024-12-11T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/page-setup</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/page-setup">Page setup</a></h1>
+        <p>The <code>@page</code> CSS at-rule sets the page-specific dimensions and margins for content such as printed documents, ebooks, or slides.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>ruby-align</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/ruby-align"/>
+      <updated>2024-12-11T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/ruby-align</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/ruby-align">ruby-align</a></h1>
+        <p>The <code>ruby-align</code> CSS property sets the spacing and alignment of ruby annotation text when it does not fill its available space.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>ruby-position</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/ruby-position"/>
+      <updated>2024-12-11T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/ruby-position</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/ruby-position">ruby-position</a></h1>
+        <p>The <code>ruby-position</code> CSS property sets the position of a ruby annotation in relation to its base text. Annotations can display over, under, or interleaved with the base text.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>scrollbar-gutter</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/scrollbar-gutter"/>
+      <updated>2024-12-11T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/scrollbar-gutter</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/scrollbar-gutter">scrollbar-gutter</a></h1>
+        <p>The <code>scrollbar-gutter</code> CSS property reserves space for the scrollbar, preventing unwanted layout changes as the scrollbar appears and disappears.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>scrollbar-width</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/scrollbar-width"/>
+      <updated>2024-12-11T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/scrollbar-width</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/scrollbar-width">scrollbar-width</a></h1>
+        <p>The <code>scrollbar-width</code> CSS property sets the width of the scrollbar.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>::target-text</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/target-text"/>
+      <updated>2024-12-11T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/target-text</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/target-text">::target-text</a></h1>
+        <p>The <code>::target-text</code> pseudo-element allows you to style text highlighted by a URL text fragment such as <code>#:~:text=snippet</code>.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Garbage collection (WebAssembly)</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/wasm-garbage-collection"/>
+      <updated>2024-12-11T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/wasm-garbage-collection</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/wasm-garbage-collection">Garbage collection (WebAssembly)</a></h1>
+        <p>Garbage collection tracks references for better memory management with garbage-collected languages running in WebAssmbly.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Tail call optimization (WebAssembly)</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/wasm-tail-call-optimization"/>
+      <updated>2024-12-11T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/wasm-tail-call-optimization</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/wasm-tail-call-optimization">Tail call optimization (WebAssembly)</a></h1>
+        <p>Tail call optimization discards a caller frame and replaces the call with a jump instruction.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Fetch priority</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/fetch-priority"/>
+      <updated>2024-10-29T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/fetch-priority</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/fetch-priority">Fetch priority</a></h1>
+        <p>The <code>fetch()</code> <code>priority</code> option and the <code>fetchpriority</code> HTML attribute give hints to the browser about which requests to do before other requests of the same type.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>requestVideoFrameCallback()</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/request-video-frame-callback"/>
+      <updated>2024-10-29T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/request-video-frame-callback</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/request-video-frame-callback">requestVideoFrameCallback()</a></h1>
+        <p>The <code>requestVideoFrameCallback()</code> method for <code>&#x3C;video></code> schedules a function that runs with the next video frame. It is similar to <code>requestAnimationFrame()</code>, but for video.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Color management for WebGL</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/webgl-color-management"/>
+      <updated>2024-10-29T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/webgl-color-management</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/webgl-color-management">Color management for WebGL</a></h1>
+        <p>The <code>drawingBufferColorSpace</code> and <code>unpackColorSpace</code> properties of <code>WebGLRenderingContext</code> sets the color representation for the buffer and imported textures, such as <code>"srgb"</code> or <code>"display-p3"</code>.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Color management for WebGL2</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/webgl2-color-management"/>
+      <updated>2024-10-29T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/webgl2-color-management</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/webgl2-color-management">Color management for WebGL2</a></h1>
+        <p>The <code>drawingBufferColorSpace</code> and <code>unpackColorSpace</code> properties of <code>WebGL2RenderingContext</code> sets the color representation for the buffer and imported textures, such as <code>"srgb"</code> or <code>"display-p3"</code>.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>text-wrap</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/text-wrap"/>
+      <updated>2024-10-17T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/text-wrap</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/text-wrap">text-wrap</a></h1>
+        <p>The <code>text-wrap</code> CSS property sets how lines break in text that overflows the container. It is a shorthand for <code>text-wrap-style</code> and <code>text-wrap-mode</code>.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Scroll to text fragment</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/scroll-to-text-fragment"/>
+      <updated>2024-10-01T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/scroll-to-text-fragment</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/scroll-to-text-fragment">Scroll to text fragment</a></h1>
+        <p>Text fragments are URL fragments on the form <code>#:~:text=snippet</code> and link to a snippet of text within a page. The browser may scroll, highlight, or otherwise bring that text to the reader's attention.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>backdrop-filter</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/backdrop-filter"/>
+      <updated>2024-09-16T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/backdrop-filter</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/backdrop-filter">backdrop-filter</a></h1>
+        <p>The <code>backdrop-filter</code> CSS property applies graphical effects such as blurring or color shifting to the area behind an element.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>willReadFrequently</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/canvas-2d-willreadfrequently"/>
+      <updated>2024-09-16T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/canvas-2d-willreadfrequently</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/canvas-2d-willreadfrequently">willReadFrequently</a></h1>
+        <p>The optional <code>willReadFrequently</code> parameter of a canvas's <code>getContext()</code> method permits the browser to optimize for frequent <code>getImageData()</code> calls by avoiding hardware acceleration. Also known as multiple readback.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>cookieEnabled</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/cookie-enabled"/>
+      <updated>2024-09-16T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/cookie-enabled</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/cookie-enabled">cookieEnabled</a></h1>
+        <p>The <code>navigator.cookieEnabled</code> property is a boolean for whether the browser accepts or ignores attempts to write cookie data.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>getHTML()</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/gethtml"/>
+      <updated>2024-09-16T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/gethtml</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/gethtml">getHTML()</a></h1>
+        <p>The <code>getHTML()</code> method of <code>Element</code> and <code>ShadowRoot</code> objects serializes an element's DOM to an HTML string.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>HTTP/3</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/http3"/>
+      <updated>2024-09-16T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/http3</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/http3">HTTP/3</a></h1>
+        <p>HTTP/3 is a major revision of the HTTP network protocol, providing improved performance and efficiency by using QUIC as the underlying transport protocol.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Relative colors</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/relative-color"/>
+      <updated>2024-09-16T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/relative-color</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/relative-color">Relative colors</a></h1>
+        <p>The <code>from</code> keyword for color functions (<code>color()</code>, <code>hsl()</code>, <code>oklch()</code>, etc.) creates a new color based on a given color by modifying the values of the input color. Also known as relative color syntax (RCS).</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Typed function references (WebAssembly)</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/wasm-typed-fun-refs"/>
+      <updated>2024-09-16T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/wasm-typed-fun-refs</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/wasm-typed-fun-refs">Typed function references (WebAssembly)</a></h1>
+        <p>A typed function reference can be called directly.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Mutually exclusive &lt;details&gt; elements</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/details-name"/>
+      <updated>2024-09-03T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/details-name</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/details-name">Mutually exclusive &lt;details&gt; elements</a></h1>
+        <p>Multiple <code>&#x3C;details></code> elements which use the same <code>name</code> attribute are mutually exclusive. When one member of the group is opened, all other members are closed.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>@starting-style</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/starting-style"/>
+      <updated>2024-08-06T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/starting-style</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/starting-style">@starting-style</a></h1>
+        <p>The <code>@starting-style</code> CSS at-rule sets the starting values for properties that are transitioning when the target element's style is first updated.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>transition-behavior</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/transition-behavior"/>
+      <updated>2024-08-06T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/transition-behavior</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/transition-behavior">transition-behavior</a></h1>
+        <p>The <code>transition-behavior: allow-discrete</code> CSS declaration allows transitions for properties whose animation behavior is discrete. Such properties can't be interpolated and swap from their start value to the end value at 50%.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>font-size-adjust</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/font-size-adjust"/>
+      <updated>2024-07-25T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/font-size-adjust</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/font-size-adjust">font-size-adjust</a></h1>
+        <p>The <code>font-size-adjust</code> CSS property preserves apparent text size, regardless of the font used, by scaling fonts to the same size with respect to a specific metric, such as x-height. This can help make fallback fonts look the same size.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Alt text for generated content</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/alt-text-generated-content"/>
+      <updated>2024-07-09T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/alt-text-generated-content</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/alt-text-generated-content">Alt text for generated content</a></h1>
+        <p>The <code>/</code> notation in <code>content</code> CSS property values adds alternative text to generated content. For example, the <code>content: url('upvote-icon.svg') / 'Upvote'</code> declaration adds accessible 'Upvote' text to the SVG icon. Also known as alternate text.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Registered custom properties</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/registered-custom-properties"/>
+      <updated>2024-07-09T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/registered-custom-properties</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/registered-custom-properties">Registered custom properties</a></h1>
+        <p>The <code>CSS.registerProperty()</code> static method and the <code>@property</code> CSS at-rule register custom properties for which types and behaviors can be defined.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Resizable buffers</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/resizable-buffers"/>
+      <updated>2024-07-09T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/resizable-buffers</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/resizable-buffers">Resizable buffers</a></h1>
+        <p>The <code>resize()</code> method of an <code>ArrayBuffer</code> and the <code>grow()</code> method of a <code>SharedArrayBuffer</code>, constructed with the <code>maxByteLength</code> option, changes the size of the buffer in place.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Async clipboard</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/async-clipboard"/>
+      <updated>2024-06-11T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/async-clipboard</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/async-clipboard">Async clipboard</a></h1>
+        <p>The <code>navigator.clipboard</code> API asynchronously reads and writes to the system clipboard.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Gradient interpolation</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/gradient-interpolation"/>
+      <updated>2024-06-11T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/gradient-interpolation</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/gradient-interpolation">Gradient interpolation</a></h1>
+        <p>Gradient interpolation controls how the colors between gradient stops are calculated in CSS. For example, <code>linear-gradient(to right in oklch longer hue, red, red);</code> calculates in the <code>oklch</code> color space, with the hue going all the way around the hue circle from red back to red.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Set methods</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/set-methods"/>
+      <updated>2024-06-11T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/set-methods</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/set-methods">Set methods</a></h1>
+        <p>The <code>difference()</code>, <code>intersection()</code>, <code>isDisjointFrom()</code>, <code>isSubsetOf()</code>, <code>isSupersetOf()</code>, <code>symmetricDifference()</code>, and <code>union()</code> methods of the JavaScript <code>Set</code> object performs operations between two sets.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>round(), mod(), and rem()</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/round-mod-rem"/>
+      <updated>2024-05-17T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/round-mod-rem</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/round-mod-rem">round(), mod(), and rem()</a></h1>
+        <p>The <code>round()</code>, <code>mod()</code>, and <code>rem()</code> CSS functions compute rounded values and the remainder after division.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>:state()</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/state"/>
+      <updated>2024-05-17T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/state</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/state">:state()</a></h1>
+        <p>The <code>:state()</code> CSS pseudo-class matches custom elements based on their custom state, set through the <code>ElementInternals.states</code> API.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>zoom</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/zoom"/>
+      <updated>2024-05-14T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/zoom</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/zoom">zoom</a></h1>
+        <p>The <code>zoom</code> CSS property scales the size of an element. Unlike the <code>transform</code> property, a zoomed element affects page layout.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>light-dark()</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/light-dark"/>
+      <updated>2024-05-13T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/light-dark</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/light-dark">light-dark()</a></h1>
+        <p>The <code>light-dark()</code> CSS function accepts two colors and uses one depending on the current color scheme.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>text-wrap: balance</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/text-wrap-balance"/>
+      <updated>2024-05-13T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/text-wrap-balance</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/text-wrap-balance">text-wrap: balance</a></h1>
+        <p>The <code>text-wrap: balance</code> CSS declaration balances the length of each line when text is broken into multiple lines. Also known as headline balancing.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Vertical form controls</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/vertical-form-controls"/>
+      <updated>2024-04-18T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/vertical-form-controls</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/vertical-form-controls">Vertical form controls</a></h1>
+        <p>The <code>writing-mode</code> CSS property orients form elements (such as radio buttons, progress bars, or select menus) vertically when the writing mode is <code>vertical-lr</code> or <code>vertical-rl</code>. The <code>direction</code> CSS property sets whether inputs flow from top to bottom or bottom to top.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>align-content in block layouts</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/align-content-block"/>
+      <updated>2024-04-16T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/align-content-block</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/align-content-block">align-content in block layouts</a></h1>
+        <p>The <code>align-content</code> property vertically aligns content in block layouts, like it does in flex or grid layouts.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Intl.Segmenter</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/intl-segmenter"/>
+      <updated>2024-04-16T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/intl-segmenter</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/intl-segmenter">Intl.Segmenter</a></h1>
+        <p>The <code>Intl.Segmenter</code> API creates a locale-aware text splitter that can separate a string into meaningful graphemes, words, or sentences.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>transform-box</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/transform-box"/>
+      <updated>2024-04-16T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/transform-box</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/transform-box">transform-box</a></h1>
+        <p>The <code>transform-box</code> CSS property sets the position and dimensions of the reference box relative to which an element's transformations are calculated.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>paint-order</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/paint-order"/>
+      <updated>2024-03-22T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/paint-order</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/paint-order">paint-order</a></h1>
+        <p>The <code>paint-order</code> CSS property sets the z-order of strokes, fills, and (in SVG content) markers. For example, <code>paint-order: markers stroke fill;</code> draws the markers, then stroke on top of markers, then fill on top of both markers and stroke.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>AbortSignal.any()</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/abortsignal-any"/>
+      <updated>2024-03-19T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/abortsignal-any</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/abortsignal-any">AbortSignal.any()</a></h1>
+        <p>The <code>AbortSignal.any()</code> static method combines an iterable of abort signals into a single signal, with the abort reason taken from the first signal to abort.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>white-space-collapse</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/white-space-collapse"/>
+      <updated>2024-03-19T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/white-space-collapse</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/white-space-collapse">white-space-collapse</a></h1>
+        <p>The <code>white-space-collapse</code> CSS property sets whether new line characters are shown as line breaks, and whether multiple consecutive spaces are all displayed or combined.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Array grouping</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/array-group"/>
+      <updated>2024-03-05T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/array-group</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/array-group">Array grouping</a></h1>
+        <p>The <code>Object.groupBy()</code> and <code>Map.groupBy()</code> static methods group values of arrays and iterables based on a function that returns a key for each value.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>checkVisibility()</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/check-visibility"/>
+      <updated>2024-03-05T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/check-visibility</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/check-visibility">checkVisibility()</a></h1>
+        <p>The <code>checkVisibility()</code> method checks if an element is potentially visible, with optional parameters for the kinds of visibility to check. For example, it checks whether the element has the style <code>display: none</code>, but can also check for <code>visibility: hidden</code>.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Promise.withResolvers()</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/promise-withresolvers"/>
+      <updated>2024-03-05T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/promise-withresolvers</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/promise-withresolvers">Promise.withResolvers()</a></h1>
+        <p>The <code>Promise.withResolvers()</code> static method is an alternative to the <code>Promise()</code> constructor that returns both the promise and resolution functions. You can use this to access <code>resolve</code> and <code>reject</code> outside the scope of the executor function.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Transferable ArrayBuffer</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/transferable-arraybuffer"/>
+      <updated>2024-03-05T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/transferable-arraybuffer</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/transferable-arraybuffer">Transferable ArrayBuffer</a></h1>
+        <p>The <code>transfer()</code> and <code>transferToFixedLength()</code> methods of <code>ArrayBuffer</code> move a buffer from one context to another (for example, to a worker).</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Extended constant expressions (WebAssembly)</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/wasm-extended-constant-expressions"/>
+      <updated>2024-03-05T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/wasm-extended-constant-expressions</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/wasm-extended-constant-expressions">Extended constant expressions (WebAssembly)</a></h1>
+        <p>The <code>i32.add</code>, <code>i32.sub</code>, <code>i32.mul</code>, <code>i64.add</code>, <code>i64.sub</code>, and <code>i64.mul</code> operations extend constant expressions to include arithmetic.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Declarative shadow DOM</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/declarative-shadow-dom"/>
+      <updated>2024-02-20T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/declarative-shadow-dom</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/declarative-shadow-dom">Declarative shadow DOM</a></h1>
+        <p>The <code>shadowrootmode</code> attribute on <code>&#x3C;template></code> creates a shadow root without the use of JavaScript. It is a declarative alternative to the <code>attachShadow()</code> method.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Array.fromAsync()</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/array-fromasync"/>
+      <updated>2024-01-25T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/array-fromasync</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/array-fromasync">Array.fromAsync()</a></h1>
+        <p>The <code>Array.fromAsync()</code> static method copies items from an async iterable object to make a new array.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>AVIF</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/avif"/>
+      <updated>2024-01-25T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/avif</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/avif">AVIF</a></h1>
+        <p>AVIF (AV1 Image File Format) is an image format based on the AV1 video format.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>rect() and xywh()</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/rect-xywx"/>
+      <updated>2024-01-23T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/rect-xywx</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/rect-xywx">rect() and xywh()</a></h1>
+        <p>The <code>rect()</code> CSS function creates a rectangle shape with insets from the edges of an element. The <code>xywh()</code> CSS function creates a rectangle shifted by an <code>x</code> and <code>y</code> distance. They can be used with <code>clip-path</code> and <code>shape-outside</code>.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>:has()</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/has"/>
+      <updated>2023-12-19T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/has</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/has">:has()</a></h1>
+        <p>The <code>:has()</code> CSS functional pseudo-class matches an element if any of the selectors passed as parameters would match at least one element.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Lazy-loading images and iframes</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/loading-lazy"/>
+      <updated>2023-12-19T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/loading-lazy</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/loading-lazy">Lazy-loading images and iframes</a></h1>
+        <p>The <code>loading="lazy"</code> attribute for <code>&#x3C;img></code> and <code>&#x3C;iframe></code> elements blocks loading the external resource until the user scrolls to that element's part of the page.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Canvas reset()</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/canvas-reset"/>
+      <updated>2023-12-11T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/canvas-reset</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/canvas-reset">Canvas reset()</a></h1>
+        <p>The <code>reset()</code> method clears a canvas to its initial state.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>cap unit</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/cap"/>
+      <updated>2023-12-11T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/cap</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/cap">cap unit</a></h1>
+        <p>The <code>cap</code> CSS length unit corresponds to the height of Latin capital letters.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>counter-set</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/counter-set"/>
+      <updated>2023-12-11T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/counter-set</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/counter-set">counter-set</a></h1>
+        <p>The <code>counter-set</code> CSS property creates (and optionally sets a value for) a counter, the numbers for a series of headings or ordered list items.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>createImageBitmap</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/createimagebitmap"/>
+      <updated>2023-12-11T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/createimagebitmap</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/createimagebitmap">createImageBitmap</a></h1>
+        <p>The <code>createImageBitmap()</code> global method creates an <code>ImageBitmap</code> object from a source such as an image, SVG, blob, or canvas. An <code>ImageBitmap</code> object represents pixel data that can be drawn to a canvas with lower latency than other types, such as <code>ImageData</code>.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>linear() easing</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/linear-easing"/>
+      <updated>2023-12-11T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/linear-easing</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/linear-easing">linear() easing</a></h1>
+        <p>The <code>linear()</code> easing function for animations and transitions interpolates linearly between the control points, and can be used to approximate complex easing functions, such as a bounce effect.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Nesting</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/nesting"/>
+      <updated>2023-12-11T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/nesting</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/nesting">Nesting</a></h1>
+        <p>CSS nesting allows for shorter selectors, easier reading, and more modularity by nesting rules inside others.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Preloading responsive images</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/preloading-responsive-images"/>
+      <updated>2023-12-11T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/preloading-responsive-images</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/preloading-responsive-images">Preloading responsive images</a></h1>
+        <p>The <code>imagesrcset</code> and <code>imagesizes</code> attributes with the <code>rel="preload"</code> attribute for the <code>&#x3C;link></code> HTML element starts fetching responsive images before they're found in the body of the document.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>preservesPitch</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/preserves-pitch"/>
+      <updated>2023-12-11T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/preserves-pitch</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/preserves-pitch">preservesPitch</a></h1>
+        <p>The <code>preservesPitch</code> property for <code>&#x3C;audio></code> or <code>&#x3C;video></code> adjusts the pitch of audio to sound more natural when the playback rate is faster or slower than the default.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>:dir()</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/dir-pseudo"/>
+      <updated>2023-12-07T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/dir-pseudo</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/dir-pseudo">:dir()</a></h1>
+        <p>The <code>:dir()</code> CSS functional pseudo-class matches elements by text direction, either right to left (<code>rtl</code>) or left to right (<code>ltr</code>).</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>pow(), sqrt(), hypot(), log(), and exp()</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/exp-functions"/>
+      <updated>2023-12-07T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/exp-functions</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/exp-functions">pow(), sqrt(), hypot(), log(), and exp()</a></h1>
+        <p>The <code>pow()</code>, <code>sqrt()</code>, <code>hypot()</code>, <code>log()</code>, and <code>exp()</code> CSS functions compute various exponential functions.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Masks</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/masks"/>
+      <updated>2023-12-07T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/masks</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/masks">Masks</a></h1>
+        <p>The <code>mask</code> CSS property (and several longhand properties) partially or completely hides an element according to the shape and depth of an image.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>scripting media query</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/scripting"/>
+      <updated>2023-12-07T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/scripting</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/scripting">scripting media query</a></h1>
+        <p>The <code>scripting</code> CSS media query sets styles based on whether scripting such as JavaScript is available. Values are <code>enabled</code> if scripting is available, <code>initial-only</code> if scripting is only available on page load (for example, printed content), or <code>none</code>.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>URL.canParse()</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/url-canparse"/>
+      <updated>2023-12-07T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/url-canparse</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/url-canparse">URL.canParse()</a></h1>
+        <p>The <code>URL.canParse()</code> static method checks whether a URL can be parsed into a valid <code>URL</code> object. It's an alternative to calling <code>new URL()</code> in a <code>try … catch</code> statement.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Storage access</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/storage-access"/>
+      <updated>2023-12-05T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/storage-access</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/storage-access">Storage access</a></h1>
+        <p>The <code>document.requestStorageAccess()</code> method allows content in iframes to request storing and reading cookies and other site data, while the <code>document.hasStorageAccess()</code> method checks if such access is granted.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>lh unit</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/lh"/>
+      <updated>2023-11-21T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/lh</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/lh">lh unit</a></h1>
+        <p>The <code>lh</code> CSS length unit corresponds to the requested line height, the computed value of the <code>line-height</code> property. Some lines may be higher than this based on their content.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>rlh unit</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/rlh"/>
+      <updated>2023-11-21T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/rlh</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/rlh">rlh unit</a></h1>
+        <p>The <code>rlh</code> CSS length unit is a font-relative length relative to the line height of root element.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>User activation</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/user-activation"/>
+      <updated>2023-11-21T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/user-activation</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/user-activation">User activation</a></h1>
+        <p>The <code>navigator.userActivation</code> API reveals whether the user has interacted with the page through an "activation" gesture such as a click, tap, or key press. User activation gated APIs (such as the fullscreen API) fail without user interaction, and this API allows you to predict such a failure.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Clip path boxes</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/clip-path-boxes"/>
+      <updated>2023-11-02T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/clip-path-boxes</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/clip-path-boxes">Clip path boxes</a></h1>
+        <p>The <code>fill-box</code>, <code>stroke-box</code>, and <code>view-box</code> values for <code>clip-path</code> set an edge of the element's box to use as the clipping shape.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>:user-valid and :user-invalid</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/user-pseudos"/>
+      <updated>2023-11-02T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/user-pseudos</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/user-pseudos">:user-valid and :user-invalid</a></h1>
+        <p>The <code>:user-valid</code> and <code>:user-invalid</code> pseudo-classes match form controls that have been marked as valid or invalid based on their validation constraints.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>ARIA attribute reflection</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/aria-attribute-reflection"/>
+      <updated>2023-10-24T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/aria-attribute-reflection</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/aria-attribute-reflection">ARIA attribute reflection</a></h1>
+        <p>WAI-ARIA attributes have corresponding properties on <code>Element</code> and <code>ElementInternals</code> objects.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>String isWellFormed() and toWellFormed()</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/string-wellformed"/>
+      <updated>2023-10-24T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/string-wellformed</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/string-wellformed">String isWellFormed() and toWellFormed()</a></h1>
+        <p>The <code>isWellFormed()</code> method of strings returns a boolean indicating if the string contains any Unicode lone surrogates. The <code>toWellFormed()</code> method returns a new string where all lone surrogates are replaced by the Unicode replacement character.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Web authentication easy public key access</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/webauthn-public-key-easy"/>
+      <updated>2023-10-24T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/webauthn-public-key-easy</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/webauthn-public-key-easy">Web authentication easy public key access</a></h1>
+        <p>The <code>getAuthenticatorData()</code>, <code>getPublicKey()</code>, and <code>getPublicKeyAlgorithm()</code> methods of <code>AuthenticatorAttestationResponse</code> access credential data inside <code>attestationObject</code> without the need to parse it.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>&lt;search&gt;</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/search"/>
+      <updated>2023-10-13T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/search</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/search">&lt;search&gt;</a></h1>
+        <p>The <code>&#x3C;search></code> HTML element is a container that represents the parts of the web page with search functionality.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Clearing site data</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/clear-site-data"/>
+      <updated>2023-09-18T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/clear-site-data</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/clear-site-data">Clearing site data</a></h1>
+        <p>The <code>Clear-Site-Data</code> header deletes browsing data (such as cookies, storage, or cache) associated with the requesting website.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>contain-intrinsic-size</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/contain-intrinsic-size"/>
+      <updated>2023-09-18T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/contain-intrinsic-size</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/contain-intrinsic-size">contain-intrinsic-size</a></h1>
+        <p>The <code>contain-intrinsic-size</code> CSS property sets the intrinsic size of an element. When using size containment, the browser will lay out the element as if it had a single child of this size.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>@counter-style</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/counter-style"/>
+      <updated>2023-09-18T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/counter-style</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/counter-style">@counter-style</a></h1>
+        <p>The <code>@counter-style</code> CSS at-rule sets custom counter styles for list items. For example, you can use a sequence of specific symbols instead of numbers for an ordered list.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Device orientation events</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/device-orientation-events"/>
+      <updated>2023-09-18T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/device-orientation-events</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/device-orientation-events">Device orientation events</a></h1>
+        <p>The <code>DeviceMotion</code> and <code>DeviceOrientation</code> events report the movement and orientation of the browser's device in physical space. Note that coordinates can differ noticeably between platforms and devices.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Hyphenate character</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/hyphenate-character"/>
+      <updated>2023-09-18T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/hyphenate-character</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/hyphenate-character">Hyphenate character</a></h1>
+        <p>The <code>hyphenate-character</code> CSS property sets the character or string to use at the end of a line before a line break.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Hyphenation</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/hyphens"/>
+      <updated>2023-09-18T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/hyphens</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/hyphens">Hyphenation</a></h1>
+        <p>The <code>hyphens</code> CSS property controls when long words are broken by line wrapping. Although called <code>hyphens</code>, the property applies to word-splitting behavior across languages, such as customary spelling changes or the use of other characters. Support for non-English languages varies significantly.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>image-set()</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/image-set"/>
+      <updated>2023-09-18T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/image-set</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/image-set">image-set()</a></h1>
+        <p>The <code>image-set()</code> CSS function provides a set of images at different resolutions or pixel densities, which the browser can pick from, depending on the device capabilities.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>&lt;link rel="modulepreload"&gt;</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/modulepreload"/>
+      <updated>2023-09-18T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/modulepreload</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/modulepreload">&lt;link rel="modulepreload"&gt;</a></h1>
+        <p>The <code>rel="modulepreload"</code> attribute for the <code>&#x3C;link></code> HTML element indicates that a module script should be fetched, parsed, and compiled preemptively, and stored for later execution.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Overflow media queries</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/overflow"/>
+      <updated>2023-09-18T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/overflow</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/overflow">Overflow media queries</a></h1>
+        <p>The <code>overflow-block</code> and <code>overflow-inline</code> CSS media queries set styles based on the way a device displays content that's larger than the viewport or page area. For example, a laptop lets users scroll to reveal content, while a printer displays overflowing content on additional pages.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Storage manager</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/storage-manager"/>
+      <updated>2023-09-18T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/storage-manager</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/storage-manager">Storage manager</a></h1>
+        <p>The <code>navigator.storage</code> API provides information about the availability and persistence of the data that a site stores on the device, by using APIs such as the Cache API or the IndexedDB API.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Update frequency media query</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/update"/>
+      <updated>2023-09-18T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/update</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/update">Update frequency media query</a></h1>
+        <p>The <code>update</code> CSS media query sets styles based on whether and how fast the user's device can modify display after it has been rendered. For example, you can avoid animations on devices that aren't fast enough to display them smoothly.</p>
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <title>Subgrid</title>
+      <link href="https://web-platform-dx.github.io/web-features-explorer/features/subgrid"/>
+      <updated>2023-09-15T00:00:00Z</updated>
+      <id>https://web-platform-dx.github.io/web-features-explorer/features/subgrid</id>
+      <content xml:lang="en" type="html"><![CDATA[
+        <h1><a href="https://web-platform-dx.github.io/web-features-explorer/features/subgrid">Subgrid</a></h1>
+        <p>The <code>subgrid</code> value for the <code>grid-template-columns</code> and <code>grid-template-rows</code> properties allows a grid item to inherit the grid definition of its parent grid container.</p>
+      ]]></content>
+    </entry>
+  
+</feed>

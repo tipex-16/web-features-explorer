@@ -1,0 +1,281 @@
+{
+ "compat_features": [
+  "api.Element.blur_event",
+  "api.Element.focus_event",
+  "api.Element.focusin_event",
+  "api.Element.focusout_event",
+  "api.FocusEvent",
+  "api.FocusEvent.FocusEvent",
+  "api.FocusEvent.relatedTarget",
+  "api.HTMLElement.blur",
+  "api.HTMLElement.focus",
+  "api.HTMLElement.focus.options_focusVisible_parameter",
+  "api.HTMLElement.focus.options_preventScroll_parameter"
+ ],
+ "description": "Focus events, such as focus and blur, fire when an element gets or loses focus.",
+ "description_html": "Focus events, such as <code>focus</code> and <code>blur</code>, fire when an element gets or loses focus.",
+ "kind": "feature",
+ "name": "Focus events",
+ "spec": [
+  "https://w3c.github.io/uievents/#events-focusevent"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "api.Element.blur_event": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "6",
+     "firefox_android": "6",
+     "safari": "3.1",
+     "safari_ios": "2"
+    }
+   },
+   "api.Element.focus_event": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "24",
+     "firefox_android": "24",
+     "safari": "3.1",
+     "safari_ios": "2"
+    }
+   },
+   "api.Element.focusin_event": {
+    "baseline": false,
+    "support": {
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   },
+   "api.Element.focusout_event": {
+    "baseline": false,
+    "support": {
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   },
+   "api.FocusEvent": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "24",
+     "firefox_android": "24",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.FocusEvent.FocusEvent": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "24",
+     "firefox_android": "24",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.FocusEvent.relatedTarget": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "24",
+     "firefox_android": "24",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.HTMLElement.blur": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLElement.focus": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLElement.focus.options_focusVisible_parameter": {
+    "baseline": "low",
+    "baseline_low_date": "2026-02-14",
+    "support": {
+     "chrome": "145",
+     "chrome_android": "145",
+     "edge": "145",
+     "firefox": "104",
+     "firefox_android": "104",
+     "safari": "18.4",
+     "safari_ios": "18.4"
+    }
+   },
+   "api.HTMLElement.focus.options_preventScroll_parameter": {
+    "baseline": false,
+    "support": {
+     "chrome": "64",
+     "edge": "17",
+     "firefox": "68",
+     "safari": "15",
+     "safari_ios": "15.5"
+    }
+   }
+  },
+  "support": {
+   "chrome": "1",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "24",
+   "firefox_android": "24",
+   "safari": "3.1",
+   "safari_ios": "2"
+  }
+ },
+ "id": "focus-events",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/uievents/#events-focusevent",
+   "seriesComposition": "full",
+   "shortname": "uievents",
+   "series": {
+    "shortname": "uievents",
+    "currentSpecification": "uievents",
+    "title": "UI Events",
+    "shortTitle": "UI Events",
+    "releaseUrl": "https://www.w3.org/TR/uievents/",
+    "nightlyUrl": "https://w3c.github.io/uievents/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Applications Working Group",
+     "url": "https://www.w3.org/groups/wg/webapps/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/uievents/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/uievents/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/uievents",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "UI Events",
+   "source": "w3c",
+   "shortTitle": "UI Events",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "uievents"
+    ]
+   },
+   "fragment": "events-focusevent"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Element/focus_event",
+   "title": "Element: focus event",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Element/focus_event"
+  },
+  {
+   "slug": "Web/API/Element/blur_event",
+   "title": "Element: blur event",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Element/blur_event"
+  },
+  {
+   "slug": "Web/API/Element/focusin_event",
+   "title": "Element: focusin event",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Element/focusin_event"
+  },
+  {
+   "slug": "Web/API/Element/focusout_event",
+   "title": "Element: focusout event",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Element/focusout_event"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:focus-events"
+ },
+ "developerSignals": null,
+ "bugs": {
+  "chrome_android": [
+   "https://crbug.com/41453122"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/1544660"
+  ],
+  "oculus": [
+   "https://crbug.com/41453122"
+  ],
+  "opera_android": [
+   "https://crbug.com/41453122"
+  ],
+  "samsunginternet_android": [
+   "https://crbug.com/41453122"
+  ],
+  "webview_android": [
+   "https://crbug.com/41453122"
+  ]
+ },
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

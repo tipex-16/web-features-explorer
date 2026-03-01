@@ -1,0 +1,202 @@
+{
+ "compat_features": [
+  "api.PerformanceLongTaskTiming",
+  "api.PerformanceLongTaskTiming.attribution",
+  "api.PerformanceLongTaskTiming.toJSON",
+  "api.TaskAttributionTiming",
+  "api.TaskAttributionTiming.containerId",
+  "api.TaskAttributionTiming.containerName",
+  "api.TaskAttributionTiming.containerSrc",
+  "api.TaskAttributionTiming.containerType",
+  "api.TaskAttributionTiming.toJSON"
+ ],
+ "description": "The longtask performance event type and the PerformanceLongTaskTiming API provides information about tasks that occupy the UI thread for 50 milliseconds or more, a metric for input latency, delayed animations, and other sources of \"jank.\"",
+ "description_html": "The <code>longtask</code> performance event type and the <code>PerformanceLongTaskTiming</code> API provides information about tasks that occupy the UI thread for 50 milliseconds or more, a metric for input latency, delayed animations, and other sources of \"jank.\"",
+ "group": [
+  "performance"
+ ],
+ "kind": "feature",
+ "name": "Long tasks",
+ "spec": [
+  "https://w3c.github.io/longtasks/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.PerformanceLongTaskTiming": {
+    "baseline": false,
+    "support": {
+     "chrome": "58",
+     "chrome_android": "58",
+     "edge": "79"
+    }
+   },
+   "api.PerformanceLongTaskTiming.attribution": {
+    "baseline": false,
+    "support": {
+     "chrome": "58",
+     "chrome_android": "58",
+     "edge": "79"
+    }
+   },
+   "api.PerformanceLongTaskTiming.toJSON": {
+    "baseline": false,
+    "support": {
+     "chrome": "58",
+     "chrome_android": "58",
+     "edge": "79"
+    }
+   },
+   "api.TaskAttributionTiming": {
+    "baseline": false,
+    "support": {
+     "chrome": "58",
+     "chrome_android": "58",
+     "edge": "79"
+    }
+   },
+   "api.TaskAttributionTiming.containerId": {
+    "baseline": false,
+    "support": {
+     "chrome": "58",
+     "chrome_android": "58",
+     "edge": "79"
+    }
+   },
+   "api.TaskAttributionTiming.containerName": {
+    "baseline": false,
+    "support": {
+     "chrome": "58",
+     "chrome_android": "58",
+     "edge": "79"
+    }
+   },
+   "api.TaskAttributionTiming.containerSrc": {
+    "baseline": false,
+    "support": {
+     "chrome": "58",
+     "chrome_android": "58",
+     "edge": "79"
+    }
+   },
+   "api.TaskAttributionTiming.containerType": {
+    "baseline": false,
+    "support": {
+     "chrome": "58",
+     "chrome_android": "58",
+     "edge": "79"
+    }
+   },
+   "api.TaskAttributionTiming.toJSON": {
+    "baseline": false,
+    "support": {
+     "chrome": "58",
+     "chrome_android": "58",
+     "edge": "79"
+    }
+   }
+  },
+  "support": {
+   "chrome": "58",
+   "chrome_android": "58",
+   "edge": "79"
+  }
+ },
+ "id": "longtasks",
+ "groups": [
+  "performance"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/longtasks/",
+   "seriesComposition": "full",
+   "shortname": "longtasks-1",
+   "series": {
+    "shortname": "longtasks",
+    "currentSpecification": "longtasks-1",
+    "title": "Long Tasks API",
+    "shortTitle": "Long Tasks API",
+    "releaseUrl": "https://www.w3.org/TR/longtasks/",
+    "nightlyUrl": "https://w3c.github.io/longtasks/"
+   },
+   "seriesVersion": "1",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Performance Working Group",
+     "url": "https://www.w3.org/groups/wg/webperf/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/longtasks-1/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/longtasks/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/longtasks",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Long Tasks API",
+   "source": "w3c",
+   "shortTitle": "Long Tasks API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "longtask-timing"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/PerformanceLongTaskTiming",
+   "title": "PerformanceLongTaskTiming",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/PerformanceLongTaskTiming"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/171",
+   "position": "",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/52",
+   "position": "",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:longtasks"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/69",
+  "votes": 2
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1348405"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/1348405"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

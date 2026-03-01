@@ -1,0 +1,160 @@
+{
+ "compat_features": [
+  "css.selectors.has-slotted"
+ ],
+ "description": "The :has-slotted CSS pseudo-class matches <slot> elements where the fallback content is not shown. The pseudo-class matches any slotted content, including white space, text nodes, or elements.",
+ "description_html": "The <code>:has-slotted</code> CSS pseudo-class matches <code>&#x3C;slot></code> elements where the fallback content is not shown. The pseudo-class matches any slotted content, including white space, text nodes, or elements.",
+ "group": [
+  "selectors",
+  "web-components"
+ ],
+ "kind": "feature",
+ "name": ":has-slotted",
+ "spec": [
+  "https://drafts.csswg.org/css-shadow-1/#the-has-slotted-pseudo"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "css.selectors.has-slotted": {
+    "baseline": false,
+    "support": {
+     "firefox": "136",
+     "firefox_android": "136"
+    }
+   }
+  },
+  "support": {
+   "firefox": "136",
+   "firefox_android": "136"
+  }
+ },
+ "id": "has-slotted",
+ "groups": [
+  "selectors",
+  "web-components"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-shadow-1/#the-has-slotted-pseudo",
+   "seriesComposition": "full",
+   "shortname": "css-shadow-1",
+   "series": {
+    "shortname": "css-shadow",
+    "currentSpecification": "css-shadow-1",
+    "title": "CSS Shadow",
+    "shortTitle": "CSS Shadow",
+    "nightlyUrl": "https://drafts.csswg.org/css-shadow/"
+   },
+   "seriesVersion": "1",
+   "formerNames": [
+    "css-scoping-1",
+    "css-shadow-parts-1"
+   ],
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-shadow-1/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-shadow-1/",
+     "https://w3c.github.io/csswg-drafts/css-shadow/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-shadow-1/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Shadow Module Level 1",
+   "source": "spec",
+   "shortTitle": "CSS Shadow 1",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-shadow"
+    ]
+   },
+   "fragment": "the-has-slotted-pseudo"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Selectors/:has-slotted",
+   "title": ":has-slotted",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:has-slotted"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/1079",
+   "position": "positive",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/404",
+   "position": "support",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/features/web_components/#web_components_features",
+   "question": "web_components",
+   "subQuestion": "web_components_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.web_components.web_components_features.10.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.52.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+   "question": "_all_features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.52.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_missing_features",
+   "question": "usage",
+   "subQuestion": "css_missing_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_missing_features.freeform.allEditions.1.buckets.16.groupedBuckets.0.groupedBuckets.34.entity"
+  }
+ ],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 2e-8,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/320"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:has-slotted"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/276",
+  "votes": 39
+ },
+ "bugs": {
+  "chrome": [
+   "https://issues.chromium.org/issues/369883705"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

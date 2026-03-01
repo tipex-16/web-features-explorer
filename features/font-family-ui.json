@@ -1,0 +1,170 @@
+{
+ "caniuse": [
+  "extended-system-fonts"
+ ],
+ "compat_features": [
+  "css.properties.font-family.ui-monospace",
+  "css.properties.font-family.ui-rounded",
+  "css.properties.font-family.ui-sans-serif",
+  "css.properties.font-family.ui-serif"
+ ],
+ "description": "The ui-serif, ui-sans-serif, ui-monospace and ui-rounded values for the font-family CSS property use device-default user interface fonts for text.",
+ "description_html": "The <code>ui-serif</code>, <code>ui-sans-serif</code>, <code>ui-monospace</code> and <code>ui-rounded</code> values for the <code>font-family</code> CSS property use device-default user interface fonts for text.",
+ "group": [
+  "fonts"
+ ],
+ "kind": "feature",
+ "name": "UI fonts",
+ "spec": [
+  "https://drafts.csswg.org/css-fonts-4/#ui-serif-def"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "css.properties.font-family.ui-monospace": {
+    "baseline": false,
+    "support": {
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "css.properties.font-family.ui-rounded": {
+    "baseline": false,
+    "support": {
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "css.properties.font-family.ui-sans-serif": {
+    "baseline": false,
+    "support": {
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "css.properties.font-family.ui-serif": {
+    "baseline": false,
+    "support": {
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   }
+  },
+  "support": {
+   "safari": "13.1",
+   "safari_ios": "13.4"
+  }
+ },
+ "id": "font-family-ui",
+ "groups": [
+  "fonts"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-fonts-4/#ui-serif-def",
+   "seriesComposition": "full",
+   "shortname": "css-fonts-4",
+   "series": {
+    "shortname": "css-fonts",
+    "currentSpecification": "css-fonts-4",
+    "title": "CSS Fonts",
+    "shortTitle": "CSS Fonts",
+    "releaseUrl": "https://www.w3.org/TR/css-fonts/",
+    "nightlyUrl": "https://drafts.csswg.org/css-fonts/"
+   },
+   "seriesVersion": "4",
+   "seriesNext": "css-fonts-5",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-fonts-4/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-fonts-4/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-fonts-4/",
+     "https://w3c.github.io/csswg-drafts/css-fonts/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-fonts-4/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Fonts Module Level 4",
+   "source": "w3c",
+   "shortTitle": "CSS Fonts 4",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-fonts"
+    ]
+   },
+   "fragment": "ui-serif-def"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/font-family",
+   "title": "font-family",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-family"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:font-family-ui"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/115",
+  "votes": 6
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1461302"
+  ],
+  "chrome": [
+   "https://crbug.com/40194142"
+  ],
+  "chrome_android": [
+   "https://crbug.com/40194142"
+  ],
+  "edge": [
+   "https://crbug.com/40194142"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/1461302"
+  ],
+  "oculus": [
+   "https://crbug.com/40194142"
+  ],
+  "opera": [
+   "https://crbug.com/40194142"
+  ],
+  "opera_android": [
+   "https://crbug.com/40194142"
+  ],
+  "samsunginternet_android": [
+   "https://crbug.com/40194142"
+  ],
+  "webview_android": [
+   "https://crbug.com/40194142"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

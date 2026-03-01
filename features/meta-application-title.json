@@ -1,0 +1,66 @@
+{
+ "compat_features": [
+  "html.elements.meta.name.application-title"
+ ],
+ "description": "The name=\"application-title\" attribute for the <meta> HTML element sets an installed web application's title bar text.",
+ "description_html": "The <code>name=\"application-title\"</code> attribute for the <code>&#x3C;meta></code> HTML element sets an installed web application's title bar text.",
+ "group": [
+  "progressive-web-app"
+ ],
+ "kind": "feature",
+ "name": "<meta name=\"application-title\">",
+ "spec": [
+  "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/DocumentSubtitle/explainer.md"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "html.elements.meta.name.application-title": {
+    "baseline": false,
+    "support": {
+     "chrome": "134",
+     "chrome_android": "134",
+     "edge": "134"
+    }
+   }
+  },
+  "support": {
+   "chrome": "134",
+   "chrome_android": "134",
+   "edge": "134"
+  }
+ },
+ "id": "meta-application-title",
+ "groups": [
+  "progressive-web-app"
+ ],
+ "specs": [
+  {
+   "url": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/DocumentSubtitle/explainer.md"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/HTML/Reference/Elements/meta/name#other_names",
+   "title": "<meta> name attribute",
+   "anchor": "other_names",
+   "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/meta/name#other_names"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00000194,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/349"
+ },
+ "interop": [],
+ "wpt": null,
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/280",
+  "votes": 1
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

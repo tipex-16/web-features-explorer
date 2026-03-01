@@ -1,0 +1,570 @@
+{
+ "compat_features": [
+  "api.Notification",
+  "api.Notification.Notification",
+  "api.Notification.actions",
+  "api.Notification.badge",
+  "api.Notification.body",
+  "api.Notification.click_event",
+  "api.Notification.close",
+  "api.Notification.close_event",
+  "api.Notification.data",
+  "api.Notification.dir",
+  "api.Notification.error_event",
+  "api.Notification.icon",
+  "api.Notification.image",
+  "api.Notification.lang",
+  "api.Notification.maxActions_static",
+  "api.Notification.permission_static",
+  "api.Notification.renotify",
+  "api.Notification.requestPermission_static",
+  "api.Notification.requestPermission_static.returns_promise",
+  "api.Notification.requireInteraction",
+  "api.Notification.secure_context_required",
+  "api.Notification.show_event",
+  "api.Notification.silent",
+  "api.Notification.tag",
+  "api.Notification.timestamp",
+  "api.Notification.title",
+  "api.Notification.vibrate",
+  "api.Notification.worker_support",
+  "api.NotificationEvent",
+  "api.NotificationEvent.NotificationEvent",
+  "api.NotificationEvent.action",
+  "api.NotificationEvent.notification",
+  "api.Permissions.permission_notifications",
+  "api.ServiceWorkerGlobalScope.notificationclick_event",
+  "api.ServiceWorkerGlobalScope.notificationclose_event",
+  "api.ServiceWorkerRegistration.getNotifications",
+  "api.ServiceWorkerRegistration.showNotification",
+  "api.ServiceWorkerRegistration.showNotification.options_actions_parameter",
+  "api.ServiceWorkerRegistration.showNotification.options_badge_parameter",
+  "api.ServiceWorkerRegistration.showNotification.options_data_parameter",
+  "api.ServiceWorkerRegistration.showNotification.options_image_parameter",
+  "api.ServiceWorkerRegistration.showNotification.options_renotify_parameter",
+  "api.ServiceWorkerRegistration.showNotification.options_requireInteraction_parameter",
+  "api.ServiceWorkerRegistration.showNotification.options_vibrate_parameter"
+ ],
+ "description": "The Notification() constructor shows a message to the user, typically using the notification system of the host operating system.",
+ "description_html": "The <code>Notification()</code> constructor shows a message to the user, typically using the notification system of the host operating system.",
+ "kind": "feature",
+ "name": "Notifications",
+ "spec": [
+  "https://notifications.spec.whatwg.org/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Notification": {
+    "baseline": false,
+    "support": {
+     "chrome": "20",
+     "edge": "14",
+     "firefox": "22",
+     "firefox_android": "22",
+     "safari": "7"
+    }
+   },
+   "api.Notification.Notification": {
+    "baseline": false,
+    "support": {
+     "chrome": "20",
+     "edge": "14",
+     "firefox": "22",
+     "firefox_android": "22",
+     "safari": "7"
+    }
+   },
+   "api.Notification.actions": {
+    "baseline": false,
+    "support": {
+     "chrome": "53",
+     "edge": "18"
+    }
+   },
+   "api.Notification.badge": {
+    "baseline": false,
+    "support": {
+     "chrome": "53",
+     "edge": "18"
+    }
+   },
+   "api.Notification.body": {
+    "baseline": false,
+    "support": {
+     "chrome": "33",
+     "edge": "14",
+     "firefox": "26",
+     "firefox_android": "26",
+     "safari": "11"
+    }
+   },
+   "api.Notification.click_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "20",
+     "edge": "14",
+     "firefox": "22",
+     "firefox_android": "22",
+     "safari": "7"
+    }
+   },
+   "api.Notification.close": {
+    "baseline": false,
+    "support": {
+     "chrome": "20",
+     "edge": "14",
+     "firefox": "22",
+     "firefox_android": "22",
+     "safari": "7"
+    }
+   },
+   "api.Notification.close_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "20",
+     "edge": "14",
+     "firefox": "22",
+     "firefox_android": "22",
+     "safari": "7"
+    }
+   },
+   "api.Notification.data": {
+    "baseline": false,
+    "support": {
+     "chrome": "44",
+     "edge": "16",
+     "firefox": "34",
+     "firefox_android": "34",
+     "safari": "16"
+    }
+   },
+   "api.Notification.dir": {
+    "baseline": false,
+    "support": {
+     "chrome": "20",
+     "edge": "14",
+     "firefox": "26",
+     "firefox_android": "26",
+     "safari": "7"
+    }
+   },
+   "api.Notification.error_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "20",
+     "edge": "14",
+     "firefox": "22",
+     "firefox_android": "22",
+     "safari": "7"
+    }
+   },
+   "api.Notification.icon": {
+    "baseline": false,
+    "support": {
+     "chrome": "33",
+     "edge": "14",
+     "firefox": "26",
+     "firefox_android": "26"
+    }
+   },
+   "api.Notification.image": {
+    "baseline": false,
+    "support": {
+     "chrome": "56",
+     "edge": "18"
+    }
+   },
+   "api.Notification.lang": {
+    "baseline": false,
+    "support": {
+     "chrome": "33",
+     "edge": "14",
+     "firefox": "26",
+     "firefox_android": "26",
+     "safari": "11"
+    }
+   },
+   "api.Notification.maxActions_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "48",
+     "edge": "18"
+    }
+   },
+   "api.Notification.permission_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "32",
+     "edge": "14",
+     "firefox": "22",
+     "firefox_android": "22",
+     "safari": "7"
+    }
+   },
+   "api.Notification.renotify": {
+    "baseline": false,
+    "support": {
+     "chrome": "50",
+     "edge": "79"
+    }
+   },
+   "api.Notification.requestPermission_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "20",
+     "edge": "14",
+     "firefox": "22",
+     "firefox_android": "22",
+     "safari": "15"
+    }
+   },
+   "api.Notification.requestPermission_static.returns_promise": {
+    "baseline": false,
+    "support": {
+     "chrome": "47",
+     "edge": "79",
+     "firefox": "46",
+     "firefox_android": "46",
+     "safari": "15"
+    }
+   },
+   "api.Notification.requireInteraction": {
+    "baseline": false,
+    "support": {
+     "chrome": "47",
+     "edge": "17"
+    }
+   },
+   "api.Notification.secure_context_required": {
+    "baseline": false,
+    "support": {
+     "chrome": "62",
+     "edge": "79",
+     "firefox": "67",
+     "firefox_android": "67"
+    }
+   },
+   "api.Notification.show_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "20",
+     "edge": "14",
+     "firefox": "22",
+     "firefox_android": "22",
+     "safari": "7"
+    }
+   },
+   "api.Notification.silent": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "edge": "17",
+     "firefox": "132",
+     "firefox_android": "132",
+     "safari": "16.6"
+    }
+   },
+   "api.Notification.tag": {
+    "baseline": false,
+    "support": {
+     "chrome": "20",
+     "edge": "14",
+     "firefox": "26",
+     "firefox_android": "26"
+    }
+   },
+   "api.Notification.timestamp": {
+    "baseline": false,
+    "support": {
+     "chrome": "50",
+     "edge": "17"
+    }
+   },
+   "api.Notification.title": {
+    "baseline": false,
+    "support": {
+     "chrome": "33",
+     "edge": "14",
+     "firefox": "26",
+     "firefox_android": "26",
+     "safari": "11"
+    }
+   },
+   "api.Notification.vibrate": {
+    "baseline": false,
+    "support": {
+     "chrome": "53",
+     "edge": "79"
+    }
+   },
+   "api.Notification.worker_support": {
+    "baseline": false,
+    "support": {
+     "chrome": "42",
+     "edge": "15",
+     "firefox": "41",
+     "firefox_android": "41"
+    }
+   },
+   "api.NotificationEvent": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "17",
+     "firefox": "44",
+     "firefox_android": "44",
+     "safari": "16",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.NotificationEvent.NotificationEvent": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "17",
+     "firefox": "44",
+     "firefox_android": "44",
+     "safari": "16",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.NotificationEvent.action": {
+    "baseline": false,
+    "support": {
+     "chrome": "48",
+     "chrome_android": "48",
+     "edge": "17",
+     "firefox": "44",
+     "firefox_android": "44"
+    }
+   },
+   "api.NotificationEvent.notification": {
+    "baseline": false,
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "17",
+     "firefox": "44",
+     "firefox_android": "44"
+    }
+   },
+   "api.Permissions.permission_notifications": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "46",
+     "firefox_android": "46",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ServiceWorkerGlobalScope.notificationclick_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "40",
+     "chrome_android": "40",
+     "edge": "17",
+     "firefox": "44",
+     "firefox_android": "44",
+     "safari": "16"
+    }
+   },
+   "api.ServiceWorkerGlobalScope.notificationclose_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "50",
+     "chrome_android": "50",
+     "edge": "17",
+     "firefox": "44",
+     "firefox_android": "44",
+     "safari": "16"
+    }
+   },
+   "api.ServiceWorkerRegistration.getNotifications": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "40",
+     "chrome_android": "40",
+     "edge": "17",
+     "firefox": "44",
+     "firefox_android": "44",
+     "safari": "16",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ServiceWorkerRegistration.showNotification": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "17",
+     "firefox": "44",
+     "firefox_android": "44",
+     "safari": "16",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ServiceWorkerRegistration.showNotification.options_actions_parameter": {
+    "baseline": false,
+    "support": {
+     "chrome": "48",
+     "chrome_android": "48",
+     "edge": "18"
+    }
+   },
+   "api.ServiceWorkerRegistration.showNotification.options_badge_parameter": {
+    "baseline": false,
+    "support": {
+     "chrome": "53",
+     "chrome_android": "53",
+     "edge": "79"
+    }
+   },
+   "api.ServiceWorkerRegistration.showNotification.options_data_parameter": {
+    "baseline": false,
+    "support": {
+     "chrome": "44",
+     "chrome_android": "44",
+     "edge": "79"
+    }
+   },
+   "api.ServiceWorkerRegistration.showNotification.options_image_parameter": {
+    "baseline": false,
+    "support": {
+     "chrome": "56",
+     "chrome_android": "56",
+     "edge": "79"
+    }
+   },
+   "api.ServiceWorkerRegistration.showNotification.options_renotify_parameter": {
+    "baseline": false,
+    "support": {
+     "chrome": "50",
+     "chrome_android": "50",
+     "edge": "79"
+    }
+   },
+   "api.ServiceWorkerRegistration.showNotification.options_requireInteraction_parameter": {
+    "baseline": false,
+    "support": {
+     "chrome": "47",
+     "chrome_android": "47",
+     "edge": "79"
+    }
+   },
+   "api.ServiceWorkerRegistration.showNotification.options_vibrate_parameter": {
+    "baseline": false,
+    "support": {
+     "chrome": "45",
+     "edge": "79"
+    }
+   }
+  },
+  "support": {
+   "chrome": "20",
+   "edge": "14",
+   "firefox": "22",
+   "firefox_android": "22",
+   "safari": "7"
+  }
+ },
+ "id": "notifications",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://notifications.spec.whatwg.org/",
+   "seriesComposition": "full",
+   "shortname": "notifications",
+   "series": {
+    "shortname": "notifications",
+    "currentSpecification": "notifications",
+    "title": "Notifications API",
+    "shortTitle": "Notifications API",
+    "nightlyUrl": "https://notifications.spec.whatwg.org/"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "Notifications API Workstream",
+     "url": "https://notifications.spec.whatwg.org/"
+    }
+   ],
+   "nightly": {
+    "url": "https://notifications.spec.whatwg.org/",
+    "status": "Living Standard",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/notifications",
+    "sourcePath": "notifications.bs",
+    "filename": "index.html"
+   },
+   "title": "Notifications API",
+   "source": "whatwg",
+   "shortTitle": "Notifications API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "notifications"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Notifications_API",
+   "title": "Notifications API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Notifications_API"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:notifications"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/23",
+  "votes": 7
+ },
+ "bugs": {
+  "webview_android": [
+   "https://crbug.com/40443309"
+  ],
+  "safari": [
+   "https://webkit.org/b/280160",
+   "https://webkit.org/b/280162",
+   "https://webkit.org/b/258922"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/280160",
+   "https://webkit.org/b/280162"
+  ],
+  "webview_ios": [
+   "https://webkit.org/b/280160"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

@@ -1,0 +1,317 @@
+{
+ "compat_features": [
+  "css.properties.direction",
+  "css.properties.direction.ltr",
+  "css.properties.direction.rtl",
+  "css.properties.unicode-bidi",
+  "css.properties.unicode-bidi.bidi-override",
+  "css.properties.unicode-bidi.embed",
+  "css.properties.unicode-bidi.isolate",
+  "css.properties.unicode-bidi.isolate-override",
+  "css.properties.unicode-bidi.normal",
+  "css.properties.unicode-bidi.plaintext"
+ ],
+ "description": "The unicode-bidi and direction CSS properties override the Unicode layout algorithm. They are intended for Document Type Definition (DTD) designers. For HTML documents, you should use the dir global HTML attribute and <bdo> HTML element instead.",
+ "description_html": "The <code>unicode-bidi</code> and <code>direction</code> CSS properties override the Unicode layout algorithm. They are intended for Document Type Definition (DTD) designers. For HTML documents, you should use the <code>dir</code> global HTML attribute and <code>&#x3C;bdo></code> HTML element instead.",
+ "group": [
+  "css"
+ ],
+ "kind": "feature",
+ "name": "Layout direction override",
+ "spec": [
+  "https://drafts.csswg.org/css-writing-modes-4/#direction",
+  "https://drafts.csswg.org/css-writing-modes-4/#unicode-bidi"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2022-07-15",
+  "baseline_low_date": "2020-01-15",
+  "by_compat_key": {
+   "css.properties.direction": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.direction.ltr": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.direction.rtl": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.unicode-bidi": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1.3",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.unicode-bidi.bidi-override": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1.3",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.unicode-bidi.embed": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1.3",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.unicode-bidi.isolate": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "48",
+     "chrome_android": "48",
+     "edge": "79",
+     "firefox": "50",
+     "firefox_android": "50",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "css.properties.unicode-bidi.isolate-override": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "48",
+     "chrome_android": "48",
+     "edge": "79",
+     "firefox": "50",
+     "firefox_android": "50",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "css.properties.unicode-bidi.normal": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1.3",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.unicode-bidi.plaintext": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "48",
+     "chrome_android": "48",
+     "edge": "79",
+     "firefox": "50",
+     "firefox_android": "50",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   }
+  },
+  "support": {
+   "chrome": "48",
+   "chrome_android": "48",
+   "edge": "79",
+   "firefox": "50",
+   "firefox_android": "50",
+   "safari": "11",
+   "safari_ios": "11"
+  }
+ },
+ "id": "layout-direction-override",
+ "groups": [
+  "css"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-writing-modes-4/#direction",
+   "seriesComposition": "full",
+   "shortname": "css-writing-modes-4",
+   "series": {
+    "shortname": "css-writing-modes",
+    "currentSpecification": "css-writing-modes-4",
+    "title": "CSS Writing Modes",
+    "shortTitle": "CSS Writing Modes",
+    "releaseUrl": "https://www.w3.org/TR/css-writing-modes/",
+    "nightlyUrl": "https://drafts.csswg.org/css-writing-modes/"
+   },
+   "seriesVersion": "4",
+   "seriesPrevious": "css-writing-modes-3",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-writing-modes-4/",
+    "status": "Candidate Recommendation Snapshot",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-writing-modes-4/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-writing-modes-4/",
+     "https://w3c.github.io/csswg-drafts/css-writing-modes/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-writing-modes-4/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Writing Modes Level 4",
+   "source": "w3c",
+   "shortTitle": "CSS Writing Modes 4",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-writing-modes"
+    ]
+   },
+   "fragment": "direction"
+  },
+  {
+   "url": "https://drafts.csswg.org/css-writing-modes-4/#unicode-bidi",
+   "seriesComposition": "full",
+   "shortname": "css-writing-modes-4",
+   "series": {
+    "shortname": "css-writing-modes",
+    "currentSpecification": "css-writing-modes-4",
+    "title": "CSS Writing Modes",
+    "shortTitle": "CSS Writing Modes",
+    "releaseUrl": "https://www.w3.org/TR/css-writing-modes/",
+    "nightlyUrl": "https://drafts.csswg.org/css-writing-modes/"
+   },
+   "seriesVersion": "4",
+   "seriesPrevious": "css-writing-modes-3",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-writing-modes-4/",
+    "status": "Candidate Recommendation Snapshot",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-writing-modes-4/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-writing-modes-4/",
+     "https://w3c.github.io/csswg-drafts/css-writing-modes/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-writing-modes-4/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Writing Modes Level 4",
+   "source": "w3c",
+   "shortTitle": "CSS Writing Modes 4",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-writing-modes"
+    ]
+   },
+   "fragment": "unicode-bidi"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/unicode-bidi",
+   "title": "unicode-bidi",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/unicode-bidi"
+  },
+  {
+   "slug": "Web/CSS/Reference/Properties/direction",
+   "title": "direction",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/direction"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:layout-direction-override"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2020-01-15T00:00:00.000Z",
+ "baselineHighDateAsObject": "2022-07-15T00:00:00.000Z"
+}

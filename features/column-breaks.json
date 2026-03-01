@@ -1,0 +1,278 @@
+{
+ "compat_features": [
+  "css.properties.break-after.avoid-column",
+  "css.properties.break-after.column",
+  "css.properties.break-after.multicol_context",
+  "css.properties.break-after.multicol_context.avoid",
+  "css.properties.break-after.multicol_context.avoid-column",
+  "css.properties.break-after.multicol_context.column",
+  "css.properties.break-before.avoid-column",
+  "css.properties.break-before.column",
+  "css.properties.break-before.multicol_context",
+  "css.properties.break-before.multicol_context.avoid",
+  "css.properties.break-before.multicol_context.avoid-column",
+  "css.properties.break-before.multicol_context.column",
+  "css.properties.break-inside.avoid-column",
+  "css.properties.break-inside.multicol_context",
+  "css.properties.break-inside.multicol_context.avoid-column"
+ ],
+ "description": "In columnar layouts (created by the columns or column-count CSS properties), the break-after, break-before, break-inside properties control where columns start or end.",
+ "description_html": "In columnar layouts (created by the <code>columns</code> or <code>column-count</code> CSS properties), the <code>break-after</code>, <code>break-before</code>, <code>break-inside</code> properties control where columns start or end.",
+ "group": [
+  "layout"
+ ],
+ "kind": "feature",
+ "name": "Column breaks",
+ "spec": [
+  "https://drafts.csswg.org/css-break-3/#breaking-controls"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "css.properties.break-after.avoid-column": {
+    "baseline": false,
+    "support": {
+     "chrome": "50",
+     "chrome_android": "50",
+     "edge": "79",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "css.properties.break-after.column": {
+    "baseline": false,
+    "support": {
+     "chrome": "50",
+     "chrome_android": "50",
+     "edge": "79",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "css.properties.break-after.multicol_context": {
+    "baseline": false,
+    "support": {
+     "chrome": "50",
+     "chrome_android": "50",
+     "edge": "12"
+    }
+   },
+   "css.properties.break-after.multicol_context.avoid": {
+    "baseline": false,
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102"
+    }
+   },
+   "css.properties.break-after.multicol_context.avoid-column": {
+    "baseline": false,
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102"
+    }
+   },
+   "css.properties.break-after.multicol_context.column": {
+    "baseline": false,
+    "support": {
+     "chrome": "50",
+     "chrome_android": "50",
+     "edge": "12"
+    }
+   },
+   "css.properties.break-before.avoid-column": {
+    "baseline": false,
+    "support": {
+     "chrome": "50",
+     "chrome_android": "50",
+     "edge": "79",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "css.properties.break-before.column": {
+    "baseline": false,
+    "support": {
+     "chrome": "50",
+     "chrome_android": "50",
+     "edge": "79",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "css.properties.break-before.multicol_context": {
+    "baseline": false,
+    "support": {
+     "chrome": "50",
+     "chrome_android": "50",
+     "edge": "12"
+    }
+   },
+   "css.properties.break-before.multicol_context.avoid": {
+    "baseline": false,
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102"
+    }
+   },
+   "css.properties.break-before.multicol_context.avoid-column": {
+    "baseline": false,
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102"
+    }
+   },
+   "css.properties.break-before.multicol_context.column": {
+    "baseline": false,
+    "support": {
+     "chrome": "51",
+     "chrome_android": "51",
+     "edge": "12"
+    }
+   },
+   "css.properties.break-inside.avoid-column": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-07",
+    "baseline_low_date": "2021-09-07",
+    "support": {
+     "chrome": "50",
+     "chrome_android": "50",
+     "edge": "79",
+     "firefox": "92",
+     "firefox_android": "92",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "css.properties.break-inside.multicol_context": {
+    "baseline": "high",
+    "baseline_high_date": "2021-07-29",
+    "baseline_low_date": "2019-01-29",
+    "support": {
+     "chrome": "50",
+     "chrome_android": "50",
+     "edge": "12",
+     "firefox": "65",
+     "firefox_android": "65",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "css.properties.break-inside.multicol_context.avoid-column": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-07",
+    "baseline_low_date": "2021-09-07",
+    "support": {
+     "chrome": "50",
+     "chrome_android": "50",
+     "edge": "12",
+     "firefox": "92",
+     "firefox_android": "92",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   }
+  },
+  "support": {
+   "chrome": "102",
+   "chrome_android": "102",
+   "edge": "102"
+  }
+ },
+ "id": "column-breaks",
+ "groups": [
+  "layout"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-break-3/#breaking-controls",
+   "seriesComposition": "full",
+   "shortname": "css-break-3",
+   "series": {
+    "shortname": "css-break",
+    "currentSpecification": "css-break-3",
+    "title": "CSS Fragmentation",
+    "shortTitle": "CSS Fragmentation",
+    "releaseUrl": "https://www.w3.org/TR/css-break/",
+    "nightlyUrl": "https://drafts.csswg.org/css-break/"
+   },
+   "seriesVersion": "3",
+   "seriesNext": "css-break-4",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-break-3/",
+    "status": "Candidate Recommendation Snapshot",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-break-3/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-break-3/",
+     "https://w3c.github.io/csswg-drafts/css-break/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-break-3/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Fragmentation Module Level 3",
+   "source": "w3c",
+   "shortTitle": "CSS Fragmentation 3",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-break"
+    ]
+   },
+   "fragment": "breaking-controls"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/break-after",
+   "title": "break-after",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/break-after"
+  },
+  {
+   "slug": "Web/CSS/Reference/Properties/break-before",
+   "title": "break-before",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/break-before"
+  },
+  {
+   "slug": "Web/CSS/Reference/Properties/break-inside",
+   "title": "break-inside",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/break-inside"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:column-breaks"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/171",
+  "votes": 1
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

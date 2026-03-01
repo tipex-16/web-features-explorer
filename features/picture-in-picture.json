@@ -1,0 +1,334 @@
+{
+ "caniuse": [
+  "picture-in-picture"
+ ],
+ "compat_features": [
+  "api.Document.exitPictureInPicture",
+  "api.Document.pictureInPictureElement",
+  "api.Document.pictureInPictureEnabled",
+  "api.HTMLVideoElement.disablePictureInPicture",
+  "api.HTMLVideoElement.enterpictureinpicture_event",
+  "api.HTMLVideoElement.leavepictureinpicture_event",
+  "api.HTMLVideoElement.requestPictureInPicture",
+  "api.PictureInPictureEvent",
+  "api.PictureInPictureEvent.PictureInPictureEvent",
+  "api.PictureInPictureEvent.pictureInPictureWindow",
+  "api.PictureInPictureWindow",
+  "api.PictureInPictureWindow.height",
+  "api.PictureInPictureWindow.resize_event",
+  "api.PictureInPictureWindow.width",
+  "api.ShadowRoot.pictureInPictureElement",
+  "css.at-rules.media.display-mode.picture-in-picture",
+  "css.selectors.picture-in-picture",
+  "html.elements.iframe.allow.picture-in-picture",
+  "html.elements.video.disablepictureinpicture",
+  "http.headers.Permissions-Policy.picture-in-picture"
+ ],
+ "description": "The picture-in-picture API allow websites to create a floating, always-on-top video window. Also known as PiP or pop-out video.",
+ "description_html": "The picture-in-picture API allow websites to create a floating, always-on-top video window. Also known as PiP or pop-out video.",
+ "kind": "feature",
+ "name": "Picture-in-picture (video)",
+ "spec": [
+  "https://w3c.github.io/picture-in-picture/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Document.exitPictureInPicture": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "105",
+     "edge": "79",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.Document.pictureInPictureElement": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "105",
+     "edge": "79",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.Document.pictureInPictureEnabled": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "105",
+     "edge": "79",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.HTMLVideoElement.disablePictureInPicture": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "105",
+     "edge": "79",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.HTMLVideoElement.enterpictureinpicture_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "105",
+     "edge": "79",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.HTMLVideoElement.leavepictureinpicture_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "105",
+     "edge": "79",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.HTMLVideoElement.requestPictureInPicture": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "105",
+     "edge": "79",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.PictureInPictureEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "85",
+     "chrome_android": "105",
+     "edge": "85",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "api.PictureInPictureEvent.PictureInPictureEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "85",
+     "chrome_android": "105",
+     "edge": "85",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "api.PictureInPictureEvent.pictureInPictureWindow": {
+    "baseline": false,
+    "support": {
+     "chrome": "85",
+     "chrome_android": "105",
+     "edge": "85",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "api.PictureInPictureWindow": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "105",
+     "edge": "79",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.PictureInPictureWindow.height": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "105",
+     "edge": "79",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.PictureInPictureWindow.resize_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "105",
+     "edge": "79",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.PictureInPictureWindow.width": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "105",
+     "edge": "79",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.ShadowRoot.pictureInPictureElement": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "105",
+     "edge": "79",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "css.at-rules.media.display-mode.picture-in-picture": {
+    "baseline": false,
+    "support": {
+     "chrome": "123",
+     "edge": "123"
+    }
+   },
+   "css.selectors.picture-in-picture": {
+    "baseline": false,
+    "support": {
+     "chrome": "110",
+     "chrome_android": "110",
+     "edge": "110",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "html.elements.iframe.allow.picture-in-picture": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "105",
+     "edge": "79"
+    }
+   },
+   "html.elements.video.disablepictureinpicture": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "105",
+     "edge": "79",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "http.headers.Permissions-Policy.picture-in-picture": {
+    "baseline": false,
+    "support": {
+     "chrome": "88",
+     "chrome_android": "105",
+     "edge": "88"
+    }
+   }
+  },
+  "support": {
+   "chrome": "69",
+   "chrome_android": "105",
+   "edge": "79",
+   "safari": "13.1",
+   "safari_ios": "13.4"
+  }
+ },
+ "id": "picture-in-picture",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/picture-in-picture/",
+   "seriesComposition": "full",
+   "shortname": "picture-in-picture",
+   "series": {
+    "shortname": "picture-in-picture",
+    "currentSpecification": "picture-in-picture",
+    "title": "Picture-in-Picture",
+    "shortTitle": "Picture-in-Picture",
+    "releaseUrl": "https://www.w3.org/TR/picture-in-picture/",
+    "nightlyUrl": "https://w3c.github.io/picture-in-picture/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Media Working Group",
+     "url": "https://www.w3.org/media-wg/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/picture-in-picture/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/picture-in-picture/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/picture-in-picture",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Picture-in-Picture",
+   "source": "w3c",
+   "shortTitle": "Picture-in-Picture",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "picture-in-picture"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Picture-in-Picture_API",
+   "title": "Picture-in-Picture API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Picture-in-Picture_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/187",
+   "position": "",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00013364,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/51"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:picture-in-picture"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/90",
+  "votes": 7
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1463402",
+   "https://bugzil.la/1858562"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/1463402"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Firefox",
+ "monthsBlocked": 42,
+ "blockedSince": "September 2022"
+}

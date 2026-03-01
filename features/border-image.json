@@ -1,0 +1,405 @@
+{
+ "caniuse": [
+  "border-image"
+ ],
+ "compat_features": [
+  "css.properties.border-image",
+  "css.properties.border-image-outset",
+  "css.properties.border-image-repeat",
+  "css.properties.border-image-repeat.repeat",
+  "css.properties.border-image-repeat.round",
+  "css.properties.border-image-repeat.space",
+  "css.properties.border-image-repeat.stretch",
+  "css.properties.border-image-slice",
+  "css.properties.border-image-source",
+  "css.properties.border-image-width",
+  "css.properties.border-image-width.auto",
+  "css.properties.border-image.fill",
+  "css.properties.border-image.gradient",
+  "css.properties.border-image.none",
+  "css.properties.border-image.optional_border_image_slice",
+  "css.properties.border-image.repeat",
+  "css.properties.border-image.round",
+  "css.properties.border-image.space",
+  "css.properties.border-image.stretch"
+ ],
+ "description": "The border-image CSS property draws an image around an element.",
+ "description_html": "The <code>border-image</code> CSS property draws an image around an element.",
+ "group": [
+  "borders-outlines"
+ ],
+ "kind": "feature",
+ "name": "Border images",
+ "spec": [
+  "https://drafts.csswg.org/css-backgrounds-3/#border-images"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2019-08-01",
+  "baseline_low_date": "2017-02-01",
+  "by_compat_key": {
+   "css.properties.border-image": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "16",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "15",
+     "firefox_android": "15",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "css.properties.border-image-outset": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "15",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "15",
+     "firefox_android": "15",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "css.properties.border-image-repeat": {
+    "baseline": "high",
+    "baseline_high_date": "2018-09-21",
+    "baseline_low_date": "2016-03-21",
+    "support": {
+     "chrome": "15",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "15",
+     "firefox_android": "15",
+     "safari": "6",
+     "safari_ios": "9.3"
+    }
+   },
+   "css.properties.border-image-repeat.repeat": {
+    "baseline": "high",
+    "baseline_high_date": "2018-09-21",
+    "baseline_low_date": "2016-03-21",
+    "support": {
+     "chrome": "15",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "15",
+     "firefox_android": "15",
+     "safari": "6",
+     "safari_ios": "9.3"
+    }
+   },
+   "css.properties.border-image-repeat.round": {
+    "baseline": "high",
+    "baseline_high_date": "2018-09-21",
+    "baseline_low_date": "2016-03-21",
+    "support": {
+     "chrome": "30",
+     "chrome_android": "30",
+     "edge": "12",
+     "firefox": "15",
+     "firefox_android": "15",
+     "safari": "9.1",
+     "safari_ios": "9.3"
+    }
+   },
+   "css.properties.border-image-repeat.space": {
+    "baseline": "high",
+    "baseline_high_date": "2019-08-01",
+    "baseline_low_date": "2017-02-01",
+    "support": {
+     "chrome": "56",
+     "chrome_android": "56",
+     "edge": "12",
+     "firefox": "50",
+     "firefox_android": "50",
+     "safari": "9.1",
+     "safari_ios": "9.3"
+    }
+   },
+   "css.properties.border-image-repeat.stretch": {
+    "baseline": "high",
+    "baseline_high_date": "2018-09-21",
+    "baseline_low_date": "2016-03-21",
+    "support": {
+     "chrome": "15",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "15",
+     "firefox_android": "15",
+     "safari": "6",
+     "safari_ios": "9.3"
+    }
+   },
+   "css.properties.border-image-slice": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "15",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "15",
+     "firefox_android": "15",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "css.properties.border-image-source": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "15",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "15",
+     "firefox_android": "15",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "css.properties.border-image-width": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "16",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "13",
+     "firefox_android": "14",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "css.properties.border-image-width.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "16",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "15",
+     "firefox_android": "15",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "css.properties.border-image.fill": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "16",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "15",
+     "firefox_android": "15",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "css.properties.border-image.gradient": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "16",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "29",
+     "firefox_android": "29",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "css.properties.border-image.none": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "16",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "15",
+     "firefox_android": "15",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "css.properties.border-image.optional_border_image_slice": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "16",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "15",
+     "firefox_android": "15",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "css.properties.border-image.repeat": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "16",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "15",
+     "firefox_android": "15",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "css.properties.border-image.round": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "16",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "15",
+     "firefox_android": "15",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "css.properties.border-image.space": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "16",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "15",
+     "firefox_android": "15",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "css.properties.border-image.stretch": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "16",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "15",
+     "firefox_android": "15",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   }
+  },
+  "support": {
+   "chrome": "56",
+   "chrome_android": "56",
+   "edge": "12",
+   "firefox": "50",
+   "firefox_android": "50",
+   "safari": "9.1",
+   "safari_ios": "9.3"
+  }
+ },
+ "id": "border-image",
+ "groups": [
+  "borders-outlines"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-backgrounds-3/#border-images",
+   "seriesComposition": "full",
+   "shortname": "css-backgrounds-3",
+   "series": {
+    "shortname": "css-backgrounds",
+    "currentSpecification": "css-backgrounds-3",
+    "title": "CSS Backgrounds and Borders",
+    "shortTitle": "CSS Backgrounds",
+    "releaseUrl": "https://www.w3.org/TR/css-backgrounds/",
+    "nightlyUrl": "https://drafts.csswg.org/css-backgrounds/"
+   },
+   "seriesVersion": "3",
+   "shortTitle": "CSS Backgrounds 3",
+   "seriesNext": "css-backgrounds-4",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-backgrounds-3/",
+    "status": "Candidate Recommendation Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-backgrounds-3/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-backgrounds-3/",
+     "https://w3c.github.io/csswg-drafts/css-backgrounds/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-backgrounds-3/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Backgrounds and Borders Module Level 3",
+   "source": "w3c",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-backgrounds"
+    ]
+   },
+   "fragment": "border-images"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/border-image",
+   "title": "border-image",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-image"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.05750362,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/13"
+ },
+ "interop": [
+  {
+   "year": 2023,
+   "label": "interop-2023-cssborderimage",
+   "url": "https://wpt.fyi/interop-2023?feature=interop-2023-cssborderimage"
+  }
+ ],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:border-image"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2017-02-01T00:00:00.000Z",
+ "baselineHighDateAsObject": "2019-08-01T00:00:00.000Z"
+}

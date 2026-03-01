@@ -1,0 +1,1061 @@
+{
+ "caniuse": [
+  "webusb"
+ ],
+ "compat_features": [
+  "api.Navigator.usb",
+  "api.USB",
+  "api.USB.connect_event",
+  "api.USB.disconnect_event",
+  "api.USB.getDevices",
+  "api.USB.requestDevice",
+  "api.USB.worker_support",
+  "api.USBAlternateInterface",
+  "api.USBAlternateInterface.USBAlternateInterface",
+  "api.USBAlternateInterface.alternateSetting",
+  "api.USBAlternateInterface.endpoints",
+  "api.USBAlternateInterface.interfaceClass",
+  "api.USBAlternateInterface.interfaceName",
+  "api.USBAlternateInterface.interfaceProtocol",
+  "api.USBAlternateInterface.interfaceSubclass",
+  "api.USBAlternateInterface.worker_support",
+  "api.USBConfiguration",
+  "api.USBConfiguration.USBConfiguration",
+  "api.USBConfiguration.configurationName",
+  "api.USBConfiguration.configurationValue",
+  "api.USBConfiguration.interfaces",
+  "api.USBConfiguration.worker_support",
+  "api.USBConnectionEvent",
+  "api.USBConnectionEvent.USBConnectionEvent",
+  "api.USBConnectionEvent.device",
+  "api.USBConnectionEvent.worker_support",
+  "api.USBDevice",
+  "api.USBDevice.claimInterface",
+  "api.USBDevice.clearHalt",
+  "api.USBDevice.close",
+  "api.USBDevice.configuration",
+  "api.USBDevice.configurations",
+  "api.USBDevice.controlTransferIn",
+  "api.USBDevice.controlTransferOut",
+  "api.USBDevice.deviceClass",
+  "api.USBDevice.deviceProtocol",
+  "api.USBDevice.deviceSubclass",
+  "api.USBDevice.deviceVersionMajor",
+  "api.USBDevice.deviceVersionMinor",
+  "api.USBDevice.deviceVersionSubminor",
+  "api.USBDevice.forget",
+  "api.USBDevice.isochronousTransferIn",
+  "api.USBDevice.isochronousTransferOut",
+  "api.USBDevice.manufacturerName",
+  "api.USBDevice.open",
+  "api.USBDevice.opened",
+  "api.USBDevice.productId",
+  "api.USBDevice.productName",
+  "api.USBDevice.releaseInterface",
+  "api.USBDevice.reset",
+  "api.USBDevice.selectAlternateInterface",
+  "api.USBDevice.selectConfiguration",
+  "api.USBDevice.serialNumber",
+  "api.USBDevice.transferIn",
+  "api.USBDevice.transferOut",
+  "api.USBDevice.usbVersionMajor",
+  "api.USBDevice.usbVersionMinor",
+  "api.USBDevice.usbVersionSubminor",
+  "api.USBDevice.vendorId",
+  "api.USBDevice.worker_support",
+  "api.USBEndpoint",
+  "api.USBEndpoint.USBEndpoint",
+  "api.USBEndpoint.direction",
+  "api.USBEndpoint.endpointNumber",
+  "api.USBEndpoint.packetSize",
+  "api.USBEndpoint.type",
+  "api.USBEndpoint.worker_support",
+  "api.USBInTransferResult",
+  "api.USBInTransferResult.USBInTransferResult",
+  "api.USBInTransferResult.data",
+  "api.USBInTransferResult.status",
+  "api.USBInTransferResult.worker_support",
+  "api.USBInterface",
+  "api.USBInterface.USBInterface",
+  "api.USBInterface.alternate",
+  "api.USBInterface.alternates",
+  "api.USBInterface.claimed",
+  "api.USBInterface.interfaceNumber",
+  "api.USBInterface.worker_support",
+  "api.USBIsochronousInTransferPacket",
+  "api.USBIsochronousInTransferPacket.USBIsochronousInTransferPacket",
+  "api.USBIsochronousInTransferPacket.data",
+  "api.USBIsochronousInTransferPacket.status",
+  "api.USBIsochronousInTransferPacket.worker_support",
+  "api.USBIsochronousInTransferResult",
+  "api.USBIsochronousInTransferResult.USBIsochronousInTransferResult",
+  "api.USBIsochronousInTransferResult.data",
+  "api.USBIsochronousInTransferResult.packets",
+  "api.USBIsochronousInTransferResult.worker_support",
+  "api.USBIsochronousOutTransferPacket",
+  "api.USBIsochronousOutTransferPacket.USBIsochronousOutTransferPacket",
+  "api.USBIsochronousOutTransferPacket.bytesWritten",
+  "api.USBIsochronousOutTransferPacket.status",
+  "api.USBIsochronousOutTransferPacket.worker_support",
+  "api.USBIsochronousOutTransferResult",
+  "api.USBIsochronousOutTransferResult.USBIsochronousOutTransferResult",
+  "api.USBIsochronousOutTransferResult.packets",
+  "api.USBIsochronousOutTransferResult.worker_support",
+  "api.USBOutTransferResult",
+  "api.USBOutTransferResult.USBOutTransferResult",
+  "api.USBOutTransferResult.bytesWritten",
+  "api.USBOutTransferResult.status",
+  "api.USBOutTransferResult.worker_support",
+  "api.WorkerNavigator.usb",
+  "html.elements.iframe.allow.usb",
+  "http.headers.Permissions-Policy.usb"
+ ],
+ "description": "The WebUSB API exposes USB compatible devices to web pages.",
+ "description_html": "The WebUSB API exposes USB compatible devices to web pages.",
+ "kind": "feature",
+ "name": "WebUSB",
+ "spec": [
+  "https://wicg.github.io/webusb/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Navigator.usb": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USB": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USB.connect_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USB.disconnect_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USB.getDevices": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USB.requestDevice": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USB.worker_support": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.USBAlternateInterface": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBAlternateInterface.USBAlternateInterface": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBAlternateInterface.alternateSetting": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBAlternateInterface.endpoints": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBAlternateInterface.interfaceClass": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBAlternateInterface.interfaceName": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBAlternateInterface.interfaceProtocol": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBAlternateInterface.interfaceSubclass": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBAlternateInterface.worker_support": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.USBConfiguration": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBConfiguration.USBConfiguration": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBConfiguration.configurationName": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBConfiguration.configurationValue": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBConfiguration.interfaces": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBConfiguration.worker_support": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.USBConnectionEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBConnectionEvent.USBConnectionEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBConnectionEvent.device": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBConnectionEvent.worker_support": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.USBDevice": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBDevice.claimInterface": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBDevice.clearHalt": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBDevice.close": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBDevice.configuration": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBDevice.configurations": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBDevice.controlTransferIn": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBDevice.controlTransferOut": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBDevice.deviceClass": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBDevice.deviceProtocol": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBDevice.deviceSubclass": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBDevice.deviceVersionMajor": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBDevice.deviceVersionMinor": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBDevice.deviceVersionSubminor": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBDevice.forget": {
+    "baseline": false,
+    "support": {
+     "chrome": "101",
+     "chrome_android": "101",
+     "edge": "101"
+    }
+   },
+   "api.USBDevice.isochronousTransferIn": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBDevice.isochronousTransferOut": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBDevice.manufacturerName": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBDevice.open": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBDevice.opened": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBDevice.productId": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBDevice.productName": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBDevice.releaseInterface": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBDevice.reset": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBDevice.selectAlternateInterface": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBDevice.selectConfiguration": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBDevice.serialNumber": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBDevice.transferIn": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBDevice.transferOut": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBDevice.usbVersionMajor": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBDevice.usbVersionMinor": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBDevice.usbVersionSubminor": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBDevice.vendorId": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBDevice.worker_support": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.USBEndpoint": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBEndpoint.USBEndpoint": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBEndpoint.direction": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBEndpoint.endpointNumber": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBEndpoint.packetSize": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBEndpoint.type": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBEndpoint.worker_support": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.USBInTransferResult": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBInTransferResult.USBInTransferResult": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBInTransferResult.data": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBInTransferResult.status": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBInTransferResult.worker_support": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.USBInterface": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBInterface.USBInterface": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBInterface.alternate": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBInterface.alternates": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBInterface.claimed": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBInterface.interfaceNumber": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBInterface.worker_support": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.USBIsochronousInTransferPacket": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBIsochronousInTransferPacket.USBIsochronousInTransferPacket": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBIsochronousInTransferPacket.data": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBIsochronousInTransferPacket.status": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBIsochronousInTransferPacket.worker_support": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.USBIsochronousInTransferResult": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBIsochronousInTransferResult.USBIsochronousInTransferResult": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBIsochronousInTransferResult.data": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBIsochronousInTransferResult.packets": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBIsochronousInTransferResult.worker_support": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.USBIsochronousOutTransferPacket": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBIsochronousOutTransferPacket.USBIsochronousOutTransferPacket": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBIsochronousOutTransferPacket.bytesWritten": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBIsochronousOutTransferPacket.status": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBIsochronousOutTransferPacket.worker_support": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.USBIsochronousOutTransferResult": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBIsochronousOutTransferResult.USBIsochronousOutTransferResult": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBIsochronousOutTransferResult.packets": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBIsochronousOutTransferResult.worker_support": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.USBOutTransferResult": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBOutTransferResult.USBOutTransferResult": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBOutTransferResult.bytesWritten": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBOutTransferResult.status": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   },
+   "api.USBOutTransferResult.worker_support": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.WorkerNavigator.usb": {
+    "baseline": false,
+    "support": {}
+   },
+   "html.elements.iframe.allow.usb": {
+    "baseline": false,
+    "support": {
+     "chrome": "60",
+     "chrome_android": "60",
+     "edge": "79"
+    }
+   },
+   "http.headers.Permissions-Policy.usb": {
+    "baseline": false,
+    "support": {
+     "chrome": "88",
+     "chrome_android": "88",
+     "edge": "88"
+    }
+   }
+  },
+  "support": {
+   "chrome": "61",
+   "chrome_android": "61",
+   "edge": "79"
+  }
+ },
+ "id": "webusb",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://wicg.github.io/webusb/",
+   "seriesComposition": "full",
+   "shortname": "webusb",
+   "series": {
+    "shortname": "webusb",
+    "currentSpecification": "webusb",
+    "title": "WebUSB API",
+    "shortTitle": "WebUSB API",
+    "nightlyUrl": "https://wicg.github.io/webusb/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://wicg.github.io/webusb/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/WICG/webusb",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "WebUSB API",
+   "source": "spec",
+   "shortTitle": "WebUSB API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "webusb"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/WebUSB_API",
+   "title": "WebUSB API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/WebUSB_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/100",
+   "position": "negative",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/68",
+   "concerns": [
+    "privacy",
+    "security",
+    "device independence"
+   ],
+   "position": "oppose"
+  }
+ ],
+ "hasNegativeStandardPosition": true,
+ "stateOfSurveys": [
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features_features_only",
+   "question": "usage",
+   "subQuestion": "html_interoperability_features_features_only",
+   "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features_features_only.freeform.allEditions.1.buckets.11.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/system_capabilities/#system_capabilities_pain_points_interop_issues_1",
+   "question": "system_capabilities",
+   "subQuestion": "system_capabilities_pain_points_interop_issues_1",
+   "path": "dataAPI.surveys.state_of_html.html2025.system_capabilities.system_capabilities_pain_points_interop_issues_1.freeform.allEditions.0.buckets.1.nestedBuckets.1.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/system_capabilities/#system_capabilities_pain_points_features",
+   "question": "system_capabilities",
+   "subQuestion": "system_capabilities_pain_points_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.system_capabilities.system_capabilities_pain_points_features.freeform.allEditions.0.buckets.1.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/system_capabilities/#system_capabilities_pain_points",
+   "question": "system_capabilities",
+   "subQuestion": "system_capabilities_pain_points",
+   "path": "dataAPI.surveys.state_of_html.html2025.system_capabilities.system_capabilities_pain_points.freeform.allEditions.0.buckets.1.nestedBuckets.1.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/system_capabilities/#system_capabilities_features",
+   "question": "system_capabilities",
+   "subQuestion": "system_capabilities_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.system_capabilities.system_capabilities_features.6.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.63.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+   "question": "_all_features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.63.entity"
+  }
+ ],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00001951,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/81"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:webusb"
+ },
+ "developerSignals": null,
+ "bugs": {
+  "webview_android": [
+   "https://crbug.com/41441927"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

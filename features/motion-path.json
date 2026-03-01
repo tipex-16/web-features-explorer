@@ -1,0 +1,681 @@
+{
+ "caniuse": [
+  "css-motion-paths"
+ ],
+ "compat_features": [
+  "css.properties.offset",
+  "css.properties.offset-anchor",
+  "css.properties.offset-anchor.auto",
+  "css.properties.offset-anchor.bottom",
+  "css.properties.offset-anchor.center",
+  "css.properties.offset-anchor.left",
+  "css.properties.offset-anchor.right",
+  "css.properties.offset-anchor.top",
+  "css.properties.offset-distance",
+  "css.properties.offset-path",
+  "css.properties.offset-path.basic_shape",
+  "css.properties.offset-path.border-box",
+  "css.properties.offset-path.content-box",
+  "css.properties.offset-path.fill-box",
+  "css.properties.offset-path.margin-box",
+  "css.properties.offset-path.none",
+  "css.properties.offset-path.padding-box",
+  "css.properties.offset-path.path",
+  "css.properties.offset-path.ray",
+  "css.properties.offset-path.stroke-box",
+  "css.properties.offset-path.url",
+  "css.properties.offset-path.view-box",
+  "css.properties.offset-position",
+  "css.properties.offset-position.auto",
+  "css.properties.offset-position.bottom",
+  "css.properties.offset-position.center",
+  "css.properties.offset-position.left",
+  "css.properties.offset-position.normal",
+  "css.properties.offset-position.right",
+  "css.properties.offset-position.top",
+  "css.properties.offset-rotate",
+  "css.properties.offset-rotate.auto",
+  "css.properties.offset-rotate.reverse",
+  "css.types.ray",
+  "css.types.ray.position",
+  "css.types.ray.size"
+ ],
+ "description": "The offset CSS property animates an element along a defined motion path.",
+ "description_html": "The <code>offset</code> CSS property animates an element along a defined motion path.",
+ "group": [
+  "css"
+ ],
+ "kind": "feature",
+ "name": "Motion path",
+ "spec": [
+  "https://drafts.csswg.org/motion-1/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2025-03-12",
+  "baseline_low_date": "2022-09-12",
+  "by_compat_key": {
+   "css.properties.offset": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-12",
+    "baseline_low_date": "2022-09-12",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "79",
+     "firefox": "72",
+     "firefox_android": "79",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.offset-anchor": {
+    "baseline": "low",
+    "baseline_low_date": "2023-08-21",
+    "support": {
+     "chrome": "116",
+     "chrome_android": "116",
+     "edge": "116",
+     "firefox": "72",
+     "firefox_android": "79",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.offset-anchor.auto": {
+    "baseline": "low",
+    "baseline_low_date": "2023-08-21",
+    "support": {
+     "chrome": "116",
+     "chrome_android": "116",
+     "edge": "116",
+     "firefox": "72",
+     "firefox_android": "79",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.offset-anchor.bottom": {
+    "baseline": "low",
+    "baseline_low_date": "2023-08-21",
+    "support": {
+     "chrome": "116",
+     "chrome_android": "116",
+     "edge": "116",
+     "firefox": "72",
+     "firefox_android": "79",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.offset-anchor.center": {
+    "baseline": "low",
+    "baseline_low_date": "2023-08-21",
+    "support": {
+     "chrome": "116",
+     "chrome_android": "116",
+     "edge": "116",
+     "firefox": "72",
+     "firefox_android": "79",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.offset-anchor.left": {
+    "baseline": "low",
+    "baseline_low_date": "2023-08-21",
+    "support": {
+     "chrome": "116",
+     "chrome_android": "116",
+     "edge": "116",
+     "firefox": "72",
+     "firefox_android": "79",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.offset-anchor.right": {
+    "baseline": "low",
+    "baseline_low_date": "2023-08-21",
+    "support": {
+     "chrome": "116",
+     "chrome_android": "116",
+     "edge": "116",
+     "firefox": "72",
+     "firefox_android": "79",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.offset-anchor.top": {
+    "baseline": "low",
+    "baseline_low_date": "2023-08-21",
+    "support": {
+     "chrome": "116",
+     "chrome_android": "116",
+     "edge": "116",
+     "firefox": "72",
+     "firefox_android": "79",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.offset-distance": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-12",
+    "baseline_low_date": "2022-09-12",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "79",
+     "firefox": "72",
+     "firefox_android": "79",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.offset-path": {
+    "baseline": "high",
+    "baseline_high_date": "2024-09-14",
+    "baseline_low_date": "2022-03-14",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "79",
+     "firefox": "72",
+     "firefox_android": "79",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.properties.offset-path.basic_shape": {
+    "baseline": "low",
+    "baseline_low_date": "2024-09-16",
+    "support": {
+     "chrome": "116",
+     "chrome_android": "116",
+     "edge": "116",
+     "firefox": "122",
+     "firefox_android": "122",
+     "safari": "18",
+     "safari_ios": "18"
+    }
+   },
+   "css.properties.offset-path.border-box": {
+    "baseline": "low",
+    "baseline_low_date": "2024-09-16",
+    "support": {
+     "chrome": "116",
+     "chrome_android": "116",
+     "edge": "116",
+     "firefox": "122",
+     "firefox_android": "122",
+     "safari": "18",
+     "safari_ios": "18"
+    }
+   },
+   "css.properties.offset-path.content-box": {
+    "baseline": "low",
+    "baseline_low_date": "2024-09-16",
+    "support": {
+     "chrome": "116",
+     "chrome_android": "116",
+     "edge": "116",
+     "firefox": "122",
+     "firefox_android": "122",
+     "safari": "18",
+     "safari_ios": "18"
+    }
+   },
+   "css.properties.offset-path.fill-box": {
+    "baseline": "low",
+    "baseline_low_date": "2024-09-16",
+    "support": {
+     "chrome": "116",
+     "chrome_android": "116",
+     "edge": "116",
+     "firefox": "122",
+     "firefox_android": "122",
+     "safari": "18",
+     "safari_ios": "18"
+    }
+   },
+   "css.properties.offset-path.margin-box": {
+    "baseline": false,
+    "support": {
+     "safari": "18",
+     "safari_ios": "18"
+    }
+   },
+   "css.properties.offset-path.none": {
+    "baseline": "low",
+    "baseline_low_date": "2024-09-16",
+    "support": {
+     "chrome": "80",
+     "chrome_android": "80",
+     "edge": "80",
+     "firefox": "72",
+     "firefox_android": "79",
+     "safari": "18",
+     "safari_ios": "18"
+    }
+   },
+   "css.properties.offset-path.padding-box": {
+    "baseline": "low",
+    "baseline_low_date": "2024-09-16",
+    "support": {
+     "chrome": "116",
+     "chrome_android": "116",
+     "edge": "116",
+     "firefox": "122",
+     "firefox_android": "122",
+     "safari": "18",
+     "safari_ios": "18"
+    }
+   },
+   "css.properties.offset-path.path": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-12",
+    "baseline_low_date": "2022-09-12",
+    "support": {
+     "chrome": "64",
+     "chrome_android": "64",
+     "edge": "79",
+     "firefox": "72",
+     "firefox_android": "79",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.offset-path.ray": {
+    "baseline": "low",
+    "baseline_low_date": "2024-01-23",
+    "support": {
+     "chrome": "116",
+     "chrome_android": "116",
+     "edge": "116",
+     "firefox": "122",
+     "firefox_android": "122",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.offset-path.stroke-box": {
+    "baseline": "low",
+    "baseline_low_date": "2024-09-16",
+    "support": {
+     "chrome": "116",
+     "chrome_android": "116",
+     "edge": "116",
+     "firefox": "122",
+     "firefox_android": "122",
+     "safari": "18",
+     "safari_ios": "18"
+    }
+   },
+   "css.properties.offset-path.url": {
+    "baseline": "low",
+    "baseline_low_date": "2024-01-23",
+    "support": {
+     "chrome": "116",
+     "chrome_android": "116",
+     "edge": "116",
+     "firefox": "122",
+     "firefox_android": "122",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "css.properties.offset-path.view-box": {
+    "baseline": "low",
+    "baseline_low_date": "2024-09-16",
+    "support": {
+     "chrome": "116",
+     "chrome_android": "116",
+     "edge": "116",
+     "firefox": "122",
+     "firefox_android": "122",
+     "safari": "18",
+     "safari_ios": "18"
+    }
+   },
+   "css.properties.offset-position": {
+    "baseline": "low",
+    "baseline_low_date": "2024-01-23",
+    "support": {
+     "chrome": "116",
+     "chrome_android": "116",
+     "edge": "116",
+     "firefox": "122",
+     "firefox_android": "122",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.offset-position.auto": {
+    "baseline": "low",
+    "baseline_low_date": "2024-01-23",
+    "support": {
+     "chrome": "116",
+     "chrome_android": "116",
+     "edge": "116",
+     "firefox": "122",
+     "firefox_android": "122",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.offset-position.bottom": {
+    "baseline": "low",
+    "baseline_low_date": "2024-01-23",
+    "support": {
+     "chrome": "116",
+     "chrome_android": "116",
+     "edge": "116",
+     "firefox": "122",
+     "firefox_android": "122",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.offset-position.center": {
+    "baseline": "low",
+    "baseline_low_date": "2024-01-23",
+    "support": {
+     "chrome": "116",
+     "chrome_android": "116",
+     "edge": "116",
+     "firefox": "122",
+     "firefox_android": "122",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.offset-position.left": {
+    "baseline": "low",
+    "baseline_low_date": "2024-01-23",
+    "support": {
+     "chrome": "116",
+     "chrome_android": "116",
+     "edge": "116",
+     "firefox": "122",
+     "firefox_android": "122",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.offset-position.normal": {
+    "baseline": "low",
+    "baseline_low_date": "2024-01-23",
+    "support": {
+     "chrome": "116",
+     "chrome_android": "116",
+     "edge": "116",
+     "firefox": "122",
+     "firefox_android": "122",
+     "safari": "17.2",
+     "safari_ios": "17.2"
+    }
+   },
+   "css.properties.offset-position.right": {
+    "baseline": "low",
+    "baseline_low_date": "2024-01-23",
+    "support": {
+     "chrome": "116",
+     "chrome_android": "116",
+     "edge": "116",
+     "firefox": "122",
+     "firefox_android": "122",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.offset-position.top": {
+    "baseline": "low",
+    "baseline_low_date": "2024-01-23",
+    "support": {
+     "chrome": "116",
+     "chrome_android": "116",
+     "edge": "116",
+     "firefox": "122",
+     "firefox_android": "122",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.offset-rotate": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-12",
+    "baseline_low_date": "2022-09-12",
+    "support": {
+     "chrome": "56",
+     "chrome_android": "56",
+     "edge": "79",
+     "firefox": "72",
+     "firefox_android": "79",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.offset-rotate.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-12",
+    "baseline_low_date": "2022-09-12",
+    "support": {
+     "chrome": "56",
+     "chrome_android": "56",
+     "edge": "79",
+     "firefox": "72",
+     "firefox_android": "79",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.offset-rotate.reverse": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-12",
+    "baseline_low_date": "2022-09-12",
+    "support": {
+     "chrome": "56",
+     "chrome_android": "56",
+     "edge": "79",
+     "firefox": "72",
+     "firefox_android": "79",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.types.ray": {
+    "baseline": "low",
+    "baseline_low_date": "2024-01-23",
+    "support": {
+     "chrome": "116",
+     "chrome_android": "116",
+     "edge": "116",
+     "firefox": "122",
+     "firefox_android": "122",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.types.ray.position": {
+    "baseline": "low",
+    "baseline_low_date": "2024-01-23",
+    "support": {
+     "chrome": "116",
+     "chrome_android": "116",
+     "edge": "116",
+     "firefox": "122",
+     "firefox_android": "122",
+     "safari": "17.2",
+     "safari_ios": "17.2"
+    }
+   },
+   "css.types.ray.size": {
+    "baseline": "low",
+    "baseline_low_date": "2024-01-23",
+    "support": {
+     "chrome": "116",
+     "chrome_android": "116",
+     "edge": "116",
+     "firefox": "122",
+     "firefox_android": "122",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   }
+  },
+  "support": {
+   "chrome": "55",
+   "chrome_android": "55",
+   "edge": "79",
+   "firefox": "72",
+   "firefox_android": "79",
+   "safari": "16",
+   "safari_ios": "16"
+  }
+ },
+ "id": "motion-path",
+ "groups": [
+  "css"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/motion-1/",
+   "seriesComposition": "full",
+   "shortname": "motion-1",
+   "series": {
+    "shortname": "motion",
+    "currentSpecification": "motion-1",
+    "title": "Motion Path",
+    "shortTitle": "Motion Path",
+    "releaseUrl": "https://www.w3.org/TR/motion/",
+    "nightlyUrl": "https://drafts.csswg.org/motion/"
+   },
+   "seriesVersion": "1",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/motion-1/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/motion-1/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/motion-1/",
+     "https://w3c.github.io/csswg-drafts/motion/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "motion-1/Overview.bs",
+    "filename": "Overview.html"
+   },
+   "title": "Motion Path Module Level 1",
+   "source": "w3c",
+   "shortTitle": "Motion Path 1",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/offset",
+   "title": "offset",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/802",
+   "position": "positive",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/187",
+   "position": "support",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#favorite_new_features",
+   "question": "usage",
+   "subQuestion": "favorite_new_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.favorite_new_features.freeform.allEditions.0.buckets.21.groupedBuckets.1.groupedBuckets.9.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_interoperability_features",
+   "question": "usage",
+   "subQuestion": "css_interoperability_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_interoperability_features.freeform.allEditions.0.buckets.21.groupedBuckets.1.groupedBuckets.47.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/shapes_graphics/#shapes_graphics_pain_points",
+   "question": "shapes_graphics",
+   "subQuestion": "shapes_graphics_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.shapes_graphics.shapes_graphics_pain_points.freeform.allEditions.0.buckets.8.groupedBuckets.0.groupedBuckets.34.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/features/#reading_list",
+   "question": "reading_list",
+   "subQuestion": "reading_list",
+   "path": "dataAPI.surveys.state_of_css.css2025.reading_list.reading_list.combined.allEditions.0.buckets.1.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.15.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/features/#reading_list",
+   "question": "reading_list",
+   "subQuestion": "reading_list",
+   "path": "dataAPI.surveys.state_of_css.css2024.reading_list.reading_list.responses.currentEdition.buckets.1.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2024.features.all_features.15.entity"
+  }
+ ],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00401835,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/188"
+ },
+ "interop": [
+  {
+   "year": 2023,
+   "label": "interop-2023-motion",
+   "url": "https://wpt.fyi/interop-2023?feature=interop-2023-motion"
+  }
+ ],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:motion-path"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2022-09-12T00:00:00.000Z",
+ "baselineHighDateAsObject": "2025-03-12T00:00:00.000Z"
+}

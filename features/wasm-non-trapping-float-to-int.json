@@ -1,0 +1,71 @@
+{
+ "caniuse": [
+  "wasm-nontrapping-fptoint"
+ ],
+ "compat_features": [
+  "webassembly.non-trapping-float-to-int-conversions"
+ ],
+ "description": "Saturating floating-point to integer conversion operators return the maximum or minimum integer value on overflow instead of trapping.",
+ "description_html": "Saturating floating-point to integer conversion operators return the maximum or minimum integer value on overflow instead of trapping.",
+ "group": [
+  "webassembly"
+ ],
+ "kind": "feature",
+ "name": "Non-trapping float-to-int conversion (WebAssembly)",
+ "spec": [
+  "https://github.com/WebAssembly/spec/blob/main/proposals/nontrapping-float-to-int-conversion/Overview.md"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2024-04-25",
+  "baseline_low_date": "2021-10-25",
+  "by_compat_key": {
+   "webassembly.non-trapping-float-to-int-conversions": {
+    "baseline": "high",
+    "baseline_high_date": "2024-04-25",
+    "baseline_low_date": "2021-10-25",
+    "support": {
+     "chrome": "75",
+     "chrome_android": "75",
+     "edge": "18",
+     "firefox": "64",
+     "firefox_android": "64",
+     "safari": "15.1",
+     "safari_ios": "15.1"
+    }
+   }
+  },
+  "support": {
+   "chrome": "75",
+   "chrome_android": "75",
+   "edge": "18",
+   "firefox": "64",
+   "firefox_android": "64",
+   "safari": "15.1",
+   "safari_ios": "15.1"
+  }
+ },
+ "id": "wasm-non-trapping-float-to-int",
+ "groups": [
+  "webassembly"
+ ],
+ "specs": [
+  {
+   "url": "https://github.com/WebAssembly/spec/blob/main/proposals/nontrapping-float-to-int-conversion/Overview.md"
+  }
+ ],
+ "mdnUrls": [],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.01045527,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/371"
+ },
+ "interop": [],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2021-10-25T00:00:00.000Z",
+ "baselineHighDateAsObject": "2024-04-25T00:00:00.000Z"
+}

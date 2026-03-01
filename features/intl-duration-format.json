@@ -1,0 +1,176 @@
+{
+ "compat_features": [
+  "javascript.builtins.Intl.DurationFormat",
+  "javascript.builtins.Intl.DurationFormat.DurationFormat",
+  "javascript.builtins.Intl.DurationFormat.format",
+  "javascript.builtins.Intl.DurationFormat.formatToParts",
+  "javascript.builtins.Intl.DurationFormat.resolvedOptions",
+  "javascript.builtins.Intl.DurationFormat.supportedLocalesOf"
+ ],
+ "description": "The Intl.DurationFormat API creates a locale-aware formatter that turns an object representing a duration (such as days, hours, and minutes) into a string.",
+ "description_html": "The <code>Intl.DurationFormat</code> API creates a locale-aware formatter that turns an object representing a duration (such as days, hours, and minutes) into a string.",
+ "group": [
+  "intl"
+ ],
+ "kind": "feature",
+ "name": "Intl.DurationFormat",
+ "spec": [
+  "https://tc39.es/proposal-intl-duration-format/"
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2025-03-04",
+  "by_compat_key": {
+   "javascript.builtins.Intl.DurationFormat": {
+    "baseline": "low",
+    "baseline_low_date": "2025-03-04",
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129",
+     "firefox": "136",
+     "firefox_android": "136",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "javascript.builtins.Intl.DurationFormat.DurationFormat": {
+    "baseline": "low",
+    "baseline_low_date": "2025-03-04",
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129",
+     "firefox": "136",
+     "firefox_android": "136",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "javascript.builtins.Intl.DurationFormat.format": {
+    "baseline": "low",
+    "baseline_low_date": "2025-03-04",
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129",
+     "firefox": "136",
+     "firefox_android": "136",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "javascript.builtins.Intl.DurationFormat.formatToParts": {
+    "baseline": "low",
+    "baseline_low_date": "2025-03-04",
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129",
+     "firefox": "136",
+     "firefox_android": "136",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "javascript.builtins.Intl.DurationFormat.resolvedOptions": {
+    "baseline": "low",
+    "baseline_low_date": "2025-03-04",
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129",
+     "firefox": "136",
+     "firefox_android": "136",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "javascript.builtins.Intl.DurationFormat.supportedLocalesOf": {
+    "baseline": "low",
+    "baseline_low_date": "2025-03-04",
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129",
+     "firefox": "136",
+     "firefox_android": "136",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   }
+  },
+  "support": {
+   "chrome": "129",
+   "chrome_android": "129",
+   "edge": "129",
+   "firefox": "136",
+   "firefox_android": "136",
+   "safari": "16.4",
+   "safari_ios": "16.4"
+  }
+ },
+ "id": "intl-duration-format",
+ "groups": [
+  "intl"
+ ],
+ "specs": [
+  {
+   "url": "https://tc39.es/proposal-intl-duration-format/",
+   "seriesComposition": "full",
+   "shortname": "tc39-intl-duration-format",
+   "series": {
+    "shortname": "tc39-intl-duration-format",
+    "currentSpecification": "tc39-intl-duration-format",
+    "title": "Intl.DurationFormat",
+    "shortTitle": "Intl.DurationFormat",
+    "nightlyUrl": "https://tc39.es/proposal-intl-duration-format/"
+   },
+   "organization": "Ecma International",
+   "groups": [
+    {
+     "name": "TC39",
+     "url": "https://tc39.es/"
+    }
+   ],
+   "nightly": {
+    "url": "https://tc39.es/proposal-intl-duration-format/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/tc39/proposal-intl-duration-format",
+    "sourcePath": "spec.emu",
+    "filename": "index.html"
+   },
+   "title": "Intl.DurationFormat",
+   "source": "spec",
+   "shortTitle": "Intl.DurationFormat",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/JavaScript/Reference/Global_Objects/Intl/DurationFormat",
+   "title": "Intl.DurationFormat",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DurationFormat"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00008299,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/266"
+ },
+ "interop": [],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2025-03-04T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2027-09-04"
+}

@@ -1,0 +1,173 @@
+{
+ "compat_features": [
+  "javascript.builtins.Intl.DisplayNames",
+  "javascript.builtins.Intl.DisplayNames.DisplayNames",
+  "javascript.builtins.Intl.DisplayNames.of",
+  "javascript.builtins.Intl.DisplayNames.resolvedOptions",
+  "javascript.builtins.Intl.DisplayNames.supportedLocalesOf"
+ ],
+ "description": "The Intl.DisplayNames API provides localized names of language, region, script, and currency codes.",
+ "description_html": "The <code>Intl.DisplayNames</code> API provides localized names of language, region, script, and currency codes.",
+ "group": [
+  "intl"
+ ],
+ "kind": "feature",
+ "name": "Intl.DisplayNames",
+ "spec": [
+  "https://tc39.es/ecma402/#intl-displaynames-objects"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2023-10-26",
+  "baseline_low_date": "2021-04-26",
+  "by_compat_key": {
+   "javascript.builtins.Intl.DisplayNames": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "86",
+     "firefox_android": "86",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "javascript.builtins.Intl.DisplayNames.DisplayNames": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "86",
+     "firefox_android": "86",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "javascript.builtins.Intl.DisplayNames.of": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "86",
+     "firefox_android": "86",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "javascript.builtins.Intl.DisplayNames.resolvedOptions": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "86",
+     "firefox_android": "86",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "javascript.builtins.Intl.DisplayNames.supportedLocalesOf": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "86",
+     "firefox_android": "86",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   }
+  },
+  "support": {
+   "chrome": "81",
+   "chrome_android": "81",
+   "edge": "81",
+   "firefox": "86",
+   "firefox_android": "86",
+   "safari": "14.1",
+   "safari_ios": "14.5"
+  }
+ },
+ "id": "intl-display-names",
+ "groups": [
+  "intl"
+ ],
+ "specs": [
+  {
+   "url": "https://tc39.es/ecma402/#intl-displaynames-objects",
+   "seriesComposition": "full",
+   "shortname": "ecma-402",
+   "series": {
+    "shortname": "ecma-402",
+    "currentSpecification": "ecma-402",
+    "title": "ECMAScript® 2026 Internationalization API Specification",
+    "shortTitle": "ECMAScript® 2026 Internationalization API",
+    "nightlyUrl": "https://tc39.es/ecma402/"
+   },
+   "tests": {
+    "repository": "https://github.com/tc39/test262",
+    "testPaths": [
+     "test/intl402"
+    ]
+   },
+   "organization": "Ecma International",
+   "groups": [
+    {
+     "name": "TC39",
+     "url": "https://tc39.es/"
+    }
+   ],
+   "nightly": {
+    "url": "https://tc39.es/ecma402/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/tc39/ecma402",
+    "sourcePath": "spec/index.html",
+    "filename": "index.html"
+   },
+   "title": "ECMAScript® 2026 Internationalization API Specification",
+   "source": "spec",
+   "shortTitle": "ECMAScript® 2026 Internationalization API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": "intl-displaynames-objects"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/JavaScript/Reference/Global_Objects/Intl/DisplayNames",
+   "title": "Intl.DisplayNames",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DisplayNames"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.01898548,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/328"
+ },
+ "interop": [],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2021-04-26T00:00:00.000Z",
+ "baselineHighDateAsObject": "2023-10-26T00:00:00.000Z"
+}

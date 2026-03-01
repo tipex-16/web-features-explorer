@@ -1,0 +1,222 @@
+{
+ "compat_features": [
+  "api.Gamepad.hapticActuators",
+  "api.Gamepad.vibrationActuator",
+  "api.GamepadHapticActuator",
+  "api.GamepadHapticActuator.effects",
+  "api.GamepadHapticActuator.effects.type_trigger-rumble",
+  "api.GamepadHapticActuator.playEffect",
+  "api.GamepadHapticActuator.playEffect.params_leftTrigger_parameter",
+  "api.GamepadHapticActuator.playEffect.params_rightTrigger_parameter",
+  "api.GamepadHapticActuator.playEffect.type_trigger-rumble",
+  "api.GamepadHapticActuator.pulse",
+  "api.GamepadHapticActuator.reset",
+  "api.GamepadHapticActuator.secure_context_required"
+ ],
+ "description": "The gamepad.vibrationActuator property represents a gamepad's haptics hardware, which allows you to control the vibration motors in a gamepad.",
+ "description_html": "The <code>gamepad.vibrationActuator</code> property represents a gamepad's haptics hardware, which allows you to control the vibration motors in a gamepad.",
+ "group": [
+  "gamepad"
+ ],
+ "kind": "feature",
+ "name": "Gamepad haptic feedback",
+ "spec": [
+  "https://w3c.github.io/gamepad/#gamepadhapticactuator-interface"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Gamepad.hapticActuators": {
+    "baseline": false,
+    "support": {
+     "firefox": "55",
+     "firefox_android": "55"
+    }
+   },
+   "api.Gamepad.vibrationActuator": {
+    "baseline": false,
+    "support": {
+     "chrome": "68",
+     "chrome_android": "68",
+     "edge": "79",
+     "safari": "16.4"
+    }
+   },
+   "api.GamepadHapticActuator": {
+    "baseline": false,
+    "support": {
+     "chrome": "68",
+     "chrome_android": "68",
+     "edge": "15",
+     "firefox": "55",
+     "firefox_android": "55",
+     "safari": "16.4"
+    }
+   },
+   "api.GamepadHapticActuator.effects": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126"
+    }
+   },
+   "api.GamepadHapticActuator.effects.type_trigger-rumble": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126"
+    }
+   },
+   "api.GamepadHapticActuator.playEffect": {
+    "baseline": false,
+    "support": {
+     "chrome": "68",
+     "chrome_android": "68",
+     "edge": "15",
+     "safari": "16.4"
+    }
+   },
+   "api.GamepadHapticActuator.playEffect.params_leftTrigger_parameter": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126"
+    }
+   },
+   "api.GamepadHapticActuator.playEffect.params_rightTrigger_parameter": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126"
+    }
+   },
+   "api.GamepadHapticActuator.playEffect.type_trigger-rumble": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126"
+    }
+   },
+   "api.GamepadHapticActuator.pulse": {
+    "baseline": false,
+    "support": {
+     "firefox": "55",
+     "firefox_android": "55"
+    }
+   },
+   "api.GamepadHapticActuator.reset": {
+    "baseline": false,
+    "support": {
+     "chrome": "68",
+     "chrome_android": "68",
+     "edge": "15",
+     "safari": "16.4"
+    }
+   },
+   "api.GamepadHapticActuator.secure_context_required": {
+    "baseline": false,
+    "support": {
+     "firefox": "91",
+     "firefox_android": "91"
+    }
+   }
+  },
+  "support": {
+   "chrome": "68",
+   "chrome_android": "68",
+   "edge": "79",
+   "safari": "16.4"
+  }
+ },
+ "id": "gamepad-haptics",
+ "groups": [
+  "gamepad"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/gamepad/#gamepadhapticactuator-interface",
+   "seriesComposition": "full",
+   "shortname": "gamepad",
+   "series": {
+    "shortname": "gamepad",
+    "currentSpecification": "gamepad",
+    "title": "Gamepad",
+    "shortTitle": "Gamepad",
+    "releaseUrl": "https://www.w3.org/TR/gamepad/",
+    "nightlyUrl": "https://w3c.github.io/gamepad/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Applications Working Group",
+     "url": "https://www.w3.org/groups/wg/webapps/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/gamepad/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/gamepad/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/gamepad",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Gamepad",
+   "source": "w3c",
+   "shortTitle": "Gamepad",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "gamepad"
+    ]
+   },
+   "fragment": "gamepadhapticactuator-interface"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Gamepad/hapticActuators",
+   "title": "Gamepad: hapticActuators property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Gamepad/hapticActuators"
+  },
+  {
+   "slug": "Web/API/Gamepad/vibrationActuator",
+   "title": "Gamepad: vibrationActuator property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Gamepad/vibrationActuator"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:gamepad-haptics"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/87",
+  "votes": 7
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1658083"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

@@ -1,0 +1,245 @@
+{
+ "compat_features": [
+  "http.headers.Clear-Site-Data",
+  "http.headers.Clear-Site-Data.cache",
+  "http.headers.Clear-Site-Data.clientHints",
+  "http.headers.Clear-Site-Data.cookies",
+  "http.headers.Clear-Site-Data.executionContexts",
+  "http.headers.Clear-Site-Data.secure_context_required",
+  "http.headers.Clear-Site-Data.storage",
+  "http.headers.Clear-Site-Data.wildcard"
+ ],
+ "description": "The Clear-Site-Data header deletes browsing data (such as cookies, storage, or cache) associated with the requesting website.",
+ "description_html": "The <code>Clear-Site-Data</code> header deletes browsing data (such as cookies, storage, or cache) associated with the requesting website.",
+ "kind": "feature",
+ "name": "Clearing site data",
+ "spec": [
+  "https://w3c.github.io/webappsec-clear-site-data/"
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2023-09-18",
+  "by_compat_key": {
+   "http.headers.Clear-Site-Data": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79",
+     "firefox": "63",
+     "firefox_android": "63",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "http.headers.Clear-Site-Data.cache": {
+    "baseline": "low",
+    "baseline_low_date": "2025-04-29",
+    "support": {
+     "chrome": "65",
+     "chrome_android": "65",
+     "edge": "79",
+     "firefox": "138",
+     "firefox_android": "138",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "http.headers.Clear-Site-Data.clientHints": {
+    "baseline": false,
+    "support": {
+     "chrome": "117",
+     "chrome_android": "117",
+     "edge": "117"
+    }
+   },
+   "http.headers.Clear-Site-Data.cookies": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79",
+     "firefox": "63",
+     "firefox_android": "63",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "http.headers.Clear-Site-Data.executionContexts": {
+    "baseline": false,
+    "support": {}
+   },
+   "http.headers.Clear-Site-Data.secure_context_required": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79",
+     "firefox": "63",
+     "firefox_android": "63",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "http.headers.Clear-Site-Data.storage": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79",
+     "firefox": "63",
+     "firefox_android": "63",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "http.headers.Clear-Site-Data.wildcard": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "117",
+     "chrome_android": "117",
+     "edge": "117",
+     "firefox": "63",
+     "firefox_android": "63",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   }
+  },
+  "support": {
+   "chrome": "117",
+   "chrome_android": "117",
+   "edge": "117",
+   "firefox": "63",
+   "firefox_android": "63",
+   "safari": "17",
+   "safari_ios": "17"
+  }
+ },
+ "id": "clear-site-data",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/webappsec-clear-site-data/",
+   "seriesComposition": "full",
+   "shortname": "clear-site-data",
+   "series": {
+    "shortname": "clear-site-data",
+    "currentSpecification": "clear-site-data",
+    "title": "Clear Site Data",
+    "shortTitle": "Clear Site Data",
+    "releaseUrl": "https://www.w3.org/TR/clear-site-data/",
+    "nightlyUrl": "https://w3c.github.io/webappsec-clear-site-data/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Application Security Working Group",
+     "url": "https://www.w3.org/groups/wg/webappsec/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/clear-site-data/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/webappsec-clear-site-data/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/webappsec-clear-site-data",
+    "sourcePath": "index.src.html",
+    "filename": "index.html"
+   },
+   "title": "Clear Site Data",
+   "source": "w3c",
+   "shortTitle": "Clear Site Data",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "clear-site-data"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/HTTP/Reference/Headers/Clear-Site-Data",
+   "title": "Clear-Site-Data header",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Clear-Site-Data"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/90",
+   "position": "positive",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/230",
+   "position": "blocked",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00280162,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/339"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:clear-site-data"
+ },
+ "developerSignals": null,
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1838506",
+   "https://bugzil.la/1635189"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/1838506",
+   "https://bugzil.la/1635189"
+  ],
+  "chrome": [
+   "https://crbug.com/40599527"
+  ],
+  "chrome_android": [
+   "https://crbug.com/40599527"
+  ],
+  "edge": [
+   "https://crbug.com/40599527"
+  ],
+  "oculus": [
+   "https://crbug.com/40599527"
+  ],
+  "opera": [
+   "https://crbug.com/40599527"
+  ],
+  "opera_android": [
+   "https://crbug.com/40599527"
+  ],
+  "samsunginternet_android": [
+   "https://crbug.com/40599527"
+  ],
+  "webview_android": [
+   "https://crbug.com/40599527"
+  ]
+ },
+ "baselineLowDateAsObject": "2023-09-18T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2026-03-18"
+}

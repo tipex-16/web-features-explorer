@@ -1,0 +1,761 @@
+{
+ "caniuse": [
+  "eme"
+ ],
+ "compat_features": [
+  "api.HTMLMediaElement.encrypted_event",
+  "api.HTMLMediaElement.mediaKeys",
+  "api.HTMLMediaElement.setMediaKeys",
+  "api.HTMLMediaElement.waitingforkey_event",
+  "api.MediaCapabilities.decodingInfo.configuration_keySystemConfiguration_parameter",
+  "api.MediaEncryptedEvent",
+  "api.MediaEncryptedEvent.MediaEncryptedEvent",
+  "api.MediaEncryptedEvent.initData",
+  "api.MediaEncryptedEvent.initDataType",
+  "api.MediaKeyMessageEvent",
+  "api.MediaKeyMessageEvent.MediaKeyMessageEvent",
+  "api.MediaKeyMessageEvent.message",
+  "api.MediaKeyMessageEvent.messageType",
+  "api.MediaKeySession",
+  "api.MediaKeySession.close",
+  "api.MediaKeySession.closed",
+  "api.MediaKeySession.expiration",
+  "api.MediaKeySession.generateRequest",
+  "api.MediaKeySession.keyStatuses",
+  "api.MediaKeySession.keystatuseschange_event",
+  "api.MediaKeySession.load",
+  "api.MediaKeySession.message_event",
+  "api.MediaKeySession.remove",
+  "api.MediaKeySession.sessionId",
+  "api.MediaKeySession.update",
+  "api.MediaKeyStatusMap",
+  "api.MediaKeyStatusMap.@@iterator",
+  "api.MediaKeyStatusMap.entries",
+  "api.MediaKeyStatusMap.forEach",
+  "api.MediaKeyStatusMap.get",
+  "api.MediaKeyStatusMap.has",
+  "api.MediaKeyStatusMap.keys",
+  "api.MediaKeyStatusMap.size",
+  "api.MediaKeyStatusMap.values",
+  "api.MediaKeySystemAccess",
+  "api.MediaKeySystemAccess.createMediaKeys",
+  "api.MediaKeySystemAccess.getConfiguration",
+  "api.MediaKeySystemAccess.keySystem",
+  "api.MediaKeys",
+  "api.MediaKeys.createSession",
+  "api.MediaKeys.getStatusForPolicy",
+  "api.MediaKeys.setServerCertificate",
+  "api.Navigator.requestMediaKeySystemAccess",
+  "html.elements.iframe.allow.encrypted-media",
+  "http.headers.Permissions-Policy.encrypted-media"
+ ],
+ "description": "The mediaKeys property of HTMLMediaElement and the navigator.requestMediaKeySystemAccess() method control the playback of content subject to digital rights management. Also known as EME.",
+ "description_html": "The <code>mediaKeys</code> property of <code>HTMLMediaElement</code> and the <code>navigator.requestMediaKeySystemAccess()</code> method control the playback of content subject to digital rights management. Also known as EME.",
+ "kind": "feature",
+ "name": "Encrypted media extensions",
+ "spec": [
+  "https://w3c.github.io/encrypted-media/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2021-09-25",
+  "baseline_low_date": "2019-03-25",
+  "by_compat_key": {
+   "api.HTMLMediaElement.encrypted_event": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "13",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.HTMLMediaElement.mediaKeys": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "13",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.HTMLMediaElement.setMediaKeys": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "13",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.HTMLMediaElement.waitingforkey_event": {
+    "baseline": "low",
+    "baseline_low_date": "2024-11-26",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "79",
+     "firefox": "133",
+     "firefox_android": "133",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaCapabilities.decodingInfo.configuration_keySystemConfiguration_parameter": {
+    "baseline": false,
+    "support": {
+     "chrome": "80",
+     "chrome_android": "80",
+     "edge": "80",
+     "firefox": "129",
+     "firefox_android": "129"
+    }
+   },
+   "api.MediaEncryptedEvent": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "13",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaEncryptedEvent.MediaEncryptedEvent": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "13",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaEncryptedEvent.initData": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "13",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaEncryptedEvent.initDataType": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "13",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaKeyMessageEvent": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "13",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaKeyMessageEvent.MediaKeyMessageEvent": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "13",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaKeyMessageEvent.message": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "13",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaKeyMessageEvent.messageType": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "13",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaKeySession": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "13",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaKeySession.close": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "13",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaKeySession.closed": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "13",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaKeySession.expiration": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "13",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaKeySession.generateRequest": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "13",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaKeySession.keyStatuses": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "13",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaKeySession.keystatuseschange_event": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "79",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaKeySession.load": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "13",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaKeySession.message_event": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "79",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaKeySession.remove": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "13",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaKeySession.sessionId": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "13",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaKeySession.update": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "13",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaKeyStatusMap": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "13",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaKeyStatusMap.@@iterator": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "16",
+     "firefox": "45",
+     "firefox_android": "45",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaKeyStatusMap.entries": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "16",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaKeyStatusMap.forEach": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "13",
+     "firefox": "47",
+     "firefox_android": "47",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaKeyStatusMap.get": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "13",
+     "firefox": "45",
+     "firefox_android": "45",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaKeyStatusMap.has": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "13",
+     "firefox": "45",
+     "firefox_android": "45",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaKeyStatusMap.keys": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "16",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaKeyStatusMap.size": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "13",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaKeyStatusMap.values": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "16",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaKeySystemAccess": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "13",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaKeySystemAccess.createMediaKeys": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "13",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaKeySystemAccess.getConfiguration": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "13",
+     "firefox": "43",
+     "firefox_android": "43",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaKeySystemAccess.keySystem": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "13",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaKeys": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "13",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaKeys.createSession": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "13",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.MediaKeys.getStatusForPolicy": {
+    "baseline": false,
+    "support": {
+     "chrome": "73",
+     "chrome_android": "73",
+     "edge": "79",
+     "firefox": "128",
+     "firefox_android": "128"
+    }
+   },
+   "api.MediaKeys.setServerCertificate": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "13",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Navigator.requestMediaKeySystemAccess": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "13",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "html.elements.iframe.allow.encrypted-media": {
+    "baseline": false,
+    "support": {
+     "chrome": "64",
+     "chrome_android": "64",
+     "edge": "79",
+     "firefox": "74",
+     "firefox_android": "79"
+    }
+   },
+   "http.headers.Permissions-Policy.encrypted-media": {
+    "baseline": false,
+    "support": {
+     "chrome": "88",
+     "chrome_android": "88",
+     "edge": "88"
+    }
+   }
+  },
+  "support": {
+   "chrome": "42",
+   "chrome_android": "42",
+   "edge": "13",
+   "firefox": "38",
+   "firefox_android": "38",
+   "safari": "12.1",
+   "safari_ios": "12.2"
+  }
+ },
+ "id": "encrypted-media-extensions",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/encrypted-media/",
+   "seriesComposition": "full",
+   "shortname": "encrypted-media-2",
+   "series": {
+    "shortname": "encrypted-media",
+    "currentSpecification": "encrypted-media-2",
+    "title": "Encrypted Media Extensions",
+    "shortTitle": "Encrypted Media Extensions",
+    "releaseUrl": "https://www.w3.org/TR/encrypted-media/",
+    "nightlyUrl": "https://w3c.github.io/encrypted-media/"
+   },
+   "seriesVersion": "2",
+   "nightly": {
+    "url": "https://w3c.github.io/encrypted-media/",
+    "status": "Editor's Draft",
+    "sourcePath": "encrypted-media-respec.html",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/encrypted-media",
+    "filename": "index.html"
+   },
+   "formerNames": [
+    "encrypted-media"
+   ],
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Media Working Group",
+     "url": "https://www.w3.org/media-wg/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/encrypted-media-2/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "title": "Encrypted Media Extensions",
+   "source": "w3c",
+   "shortTitle": "Encrypted Media Extensions",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "encrypted-media"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Encrypted_Media_Extensions_API",
+   "title": "Encrypted Media Extensions API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Encrypted_Media_Extensions_API"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:encrypted-media-extensions"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2019-03-25T00:00:00.000Z",
+ "baselineHighDateAsObject": "2021-09-25T00:00:00.000Z"
+}

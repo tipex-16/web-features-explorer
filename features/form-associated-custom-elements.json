@@ -1,0 +1,428 @@
+{
+ "compat_features": [
+  "api.ElementInternals",
+  "api.ElementInternals.checkValidity",
+  "api.ElementInternals.form",
+  "api.ElementInternals.labels",
+  "api.ElementInternals.reportValidity",
+  "api.ElementInternals.setFormValue",
+  "api.ElementInternals.setValidity",
+  "api.ElementInternals.validationMessage",
+  "api.ElementInternals.validity",
+  "api.ElementInternals.willValidate",
+  "api.HTMLElement.attachInternals"
+ ],
+ "description": "Custom elements may act like built-in form elements, via the the attachInternals() method of HTMLElement and the ElementInternals API.",
+ "description_html": "Custom elements may act like built-in form elements, via the the <code>attachInternals()</code> method of <code>HTMLElement</code> and the <code>ElementInternals</code> API.",
+ "group": [
+  "custom-elements",
+  "forms"
+ ],
+ "kind": "feature",
+ "name": "Form-associated custom elements",
+ "spec": [
+  "https://html.spec.whatwg.org/multipage/custom-elements.html#form-associated-custom-elements"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2025-09-27",
+  "baseline_low_date": "2023-03-27",
+  "by_compat_key": {
+   "api.ElementInternals": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "93",
+     "firefox_android": "93",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.checkValidity": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "98",
+     "firefox_android": "98",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.form": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "98",
+     "firefox_android": "98",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.labels": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "98",
+     "firefox_android": "98",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.reportValidity": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "98",
+     "firefox_android": "98",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.setFormValue": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "98",
+     "firefox_android": "98",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.setValidity": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "98",
+     "firefox_android": "98",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.validationMessage": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "98",
+     "firefox_android": "98",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.validity": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "98",
+     "firefox_android": "98",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.willValidate": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "98",
+     "firefox_android": "98",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.HTMLElement.attachInternals": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "93",
+     "firefox_android": "93",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   }
+  },
+  "support": {
+   "chrome": "77",
+   "chrome_android": "77",
+   "edge": "79",
+   "firefox": "98",
+   "firefox_android": "98",
+   "safari": "16.4",
+   "safari_ios": "16.4"
+  }
+ },
+ "id": "form-associated-custom-elements",
+ "groups": [
+  "custom-elements",
+  "forms"
+ ],
+ "specs": [
+  {
+   "url": "https://html.spec.whatwg.org/multipage/custom-elements.html#form-associated-custom-elements",
+   "seriesComposition": "full",
+   "shortname": "html",
+   "series": {
+    "shortname": "html",
+    "currentSpecification": "html",
+    "title": "HTML",
+    "shortTitle": "HTML",
+    "nightlyUrl": "https://html.spec.whatwg.org/multipage/"
+   },
+   "nightly": {
+    "url": "https://html.spec.whatwg.org/multipage/",
+    "status": "Living Standard",
+    "sourcePath": "source",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/html",
+    "pages": [
+     "https://html.spec.whatwg.org/multipage/introduction.html",
+     "https://html.spec.whatwg.org/multipage/infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/common-microsyntaxes.html",
+     "https://html.spec.whatwg.org/multipage/urls-and-fetching.html",
+     "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html",
+     "https://html.spec.whatwg.org/multipage/structured-data.html",
+     "https://html.spec.whatwg.org/multipage/dom.html",
+     "https://html.spec.whatwg.org/multipage/semantics.html",
+     "https://html.spec.whatwg.org/multipage/sections.html",
+     "https://html.spec.whatwg.org/multipage/grouping-content.html",
+     "https://html.spec.whatwg.org/multipage/text-level-semantics.html",
+     "https://html.spec.whatwg.org/multipage/links.html",
+     "https://html.spec.whatwg.org/multipage/edits.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content.html",
+     "https://html.spec.whatwg.org/multipage/images.html",
+     "https://html.spec.whatwg.org/multipage/iframe-embed-object.html",
+     "https://html.spec.whatwg.org/multipage/media.html",
+     "https://html.spec.whatwg.org/multipage/image-maps.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content-other.html",
+     "https://html.spec.whatwg.org/multipage/tables.html",
+     "https://html.spec.whatwg.org/multipage/forms.html",
+     "https://html.spec.whatwg.org/multipage/input.html",
+     "https://html.spec.whatwg.org/multipage/form-elements.html",
+     "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/interactive-elements.html",
+     "https://html.spec.whatwg.org/multipage/scripting.html",
+     "https://html.spec.whatwg.org/multipage/canvas.html",
+     "https://html.spec.whatwg.org/multipage/custom-elements.html",
+     "https://html.spec.whatwg.org/multipage/semantics-other.html",
+     "https://html.spec.whatwg.org/multipage/microdata.html",
+     "https://html.spec.whatwg.org/multipage/interaction.html",
+     "https://html.spec.whatwg.org/multipage/dnd.html",
+     "https://html.spec.whatwg.org/multipage/popover.html",
+     "https://html.spec.whatwg.org/multipage/browsers.html",
+     "https://html.spec.whatwg.org/multipage/nav-history-apis.html",
+     "https://html.spec.whatwg.org/multipage/document-sequences.html",
+     "https://html.spec.whatwg.org/multipage/browsing-the-web.html",
+     "https://html.spec.whatwg.org/multipage/document-lifecycle.html",
+     "https://html.spec.whatwg.org/multipage/speculative-loading.html",
+     "https://html.spec.whatwg.org/multipage/webappapis.html",
+     "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html",
+     "https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html",
+     "https://html.spec.whatwg.org/multipage/system-state.html",
+     "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html",
+     "https://html.spec.whatwg.org/multipage/comms.html",
+     "https://html.spec.whatwg.org/multipage/server-sent-events.html",
+     "https://html.spec.whatwg.org/multipage/web-messaging.html",
+     "https://html.spec.whatwg.org/multipage/workers.html",
+     "https://html.spec.whatwg.org/multipage/worklets.html",
+     "https://html.spec.whatwg.org/multipage/webstorage.html",
+     "https://html.spec.whatwg.org/multipage/syntax.html",
+     "https://html.spec.whatwg.org/multipage/parsing.html",
+     "https://html.spec.whatwg.org/multipage/named-characters.html",
+     "https://html.spec.whatwg.org/multipage/xhtml.html",
+     "https://html.spec.whatwg.org/multipage/rendering.html",
+     "https://html.spec.whatwg.org/multipage/obsolete.html",
+     "https://html.spec.whatwg.org/multipage/iana.html",
+     "https://html.spec.whatwg.org/multipage/indices.html",
+     "https://html.spec.whatwg.org/multipage/references.html",
+     "https://html.spec.whatwg.org/multipage/acknowledgements.html"
+    ],
+    "filename": "index.html"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "HTML Workstream",
+     "url": "https://html.spec.whatwg.org/multipage/"
+    }
+   ],
+   "title": "HTML",
+   "source": "whatwg",
+   "shortTitle": "HTML",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "close-watcher",
+     "custom-elements",
+     "eventsource",
+     "html",
+     "imagebitmap-renderingcontext",
+     "import-maps",
+     "navigation-api",
+     "webmessaging",
+     "webstorage",
+     "workers",
+     "worklets",
+     "x-frame-options"
+    ],
+    "excludePaths": [
+     "html/cross-origin-embedder-policy/credentialless",
+     "html/dom/partial-updates/tentative",
+     "html/cross-origin-embedder-policy/credentialless"
+    ]
+   },
+   "fragment": "form-associated-custom-elements"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/HTMLElement/attachInternals",
+   "title": "HTMLElement: attachInternals() method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLElement/attachInternals"
+  },
+  {
+   "slug": "Web/API/ElementInternals",
+   "title": "ElementInternals",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/ElementInternals"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/47",
+   "position": "support",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/features/web_components/#web_components_features",
+   "question": "web_components",
+   "subQuestion": "web_components_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.web_components.web_components_features.8.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.50.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+   "question": "_all_features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.50.entity"
+  },
+  {
+   "name": "State of HTML 2024",
+   "url": "https://2024.stateofhtml.com/en-US/features/web_components/#web_components_features",
+   "question": "web_components",
+   "subQuestion": "web_components_features",
+   "path": "dataAPI.surveys.state_of_html.html2024.web_components.web_components_features.8.entity"
+  },
+  {
+   "name": "State of HTML 2024",
+   "url": "https://2024.stateofhtml.com/en-US/features/web_components/#web_component_features",
+   "question": "web_components",
+   "subQuestion": "web_component_features",
+   "path": "dataAPI.surveys.state_of_html.html2024.web_components.web_component_features.8.entity"
+  },
+  {
+   "name": "State of HTML 2024",
+   "url": "https://2024.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2024.features.all_features.35.entity"
+  },
+  {
+   "name": "State of HTML 2023",
+   "url": "https://2023.stateofhtml.com/en-US/features/web_components/#web_components_main_features",
+   "question": "web_components",
+   "subQuestion": "web_components_main_features",
+   "path": "dataAPI.surveys.state_of_html.html2023.web_components.web_components_main_features.8.entity"
+  },
+  {
+   "name": "State of HTML 2023",
+   "url": "https://2023.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2023.features.all_features.28.entity"
+  }
+ ],
+ "chromeUseCounters": {},
+ "interop": [
+  {
+   "year": 2023,
+   "label": "interop-2023-webcomponents",
+   "url": "https://wpt.fyi/interop-2023?feature=interop-2023-webcomponents"
+  }
+ ],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:form-associated-custom-elements"
+ },
+ "developerSignals": null,
+ "bugs": {
+  "safari": [
+   "https://webkit.org/b/197960"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/197960"
+  ],
+  "webview_ios": [
+   "https://webkit.org/b/197960"
+  ]
+ },
+ "baselineLowDateAsObject": "2023-03-27T00:00:00.000Z",
+ "baselineHighDateAsObject": "2025-09-27T00:00:00.000Z"
+}

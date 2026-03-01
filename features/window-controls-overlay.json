@@ -1,0 +1,261 @@
+{
+ "compat_features": [
+  "api.Navigator.windowControlsOverlay",
+  "api.WindowControlsOverlay",
+  "api.WindowControlsOverlay.geometrychange_event",
+  "api.WindowControlsOverlay.getTitlebarAreaRect",
+  "api.WindowControlsOverlay.visible",
+  "api.WindowControlsOverlayGeometryChangeEvent",
+  "api.WindowControlsOverlayGeometryChangeEvent.WindowControlsOverlayGeometryChangeEvent",
+  "api.WindowControlsOverlayGeometryChangeEvent.titlebarAreaRect",
+  "api.WindowControlsOverlayGeometryChangeEvent.visible",
+  "css.at-rules.media.display-mode.window-controls-overlay",
+  "css.types.env.titlebar-area-height",
+  "css.types.env.titlebar-area-width",
+  "css.types.env.titlebar-area-x",
+  "css.types.env.titlebar-area-y",
+  "manifests.webapp.display_override.window-controls-overlay"
+ ],
+ "description": "The display_override: [\"window-controls-overlay\"] web application manifest member shows content in the title bar area of a progressive web app that is installed on a desktop device.",
+ "description_html": "The <code>display_override: [\"window-controls-overlay\"]</code> web application manifest member shows content in the title bar area of a progressive web app that is installed on a desktop device.",
+ "group": [
+  "progressive-web-app"
+ ],
+ "kind": "feature",
+ "name": "Window Controls Overlay",
+ "spec": [
+  "https://wicg.github.io/window-controls-overlay/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Navigator.windowControlsOverlay": {
+    "baseline": false,
+    "support": {
+     "chrome": "105",
+     "edge": "105"
+    }
+   },
+   "api.WindowControlsOverlay": {
+    "baseline": false,
+    "support": {
+     "chrome": "105",
+     "edge": "105"
+    }
+   },
+   "api.WindowControlsOverlay.geometrychange_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "105",
+     "edge": "105"
+    }
+   },
+   "api.WindowControlsOverlay.getTitlebarAreaRect": {
+    "baseline": false,
+    "support": {
+     "chrome": "105",
+     "edge": "105"
+    }
+   },
+   "api.WindowControlsOverlay.visible": {
+    "baseline": false,
+    "support": {
+     "chrome": "105",
+     "edge": "105"
+    }
+   },
+   "api.WindowControlsOverlayGeometryChangeEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "105",
+     "edge": "105"
+    }
+   },
+   "api.WindowControlsOverlayGeometryChangeEvent.WindowControlsOverlayGeometryChangeEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "105",
+     "edge": "105"
+    }
+   },
+   "api.WindowControlsOverlayGeometryChangeEvent.titlebarAreaRect": {
+    "baseline": false,
+    "support": {
+     "chrome": "105",
+     "edge": "105"
+    }
+   },
+   "api.WindowControlsOverlayGeometryChangeEvent.visible": {
+    "baseline": false,
+    "support": {
+     "chrome": "105",
+     "edge": "105"
+    }
+   },
+   "css.at-rules.media.display-mode.window-controls-overlay": {
+    "baseline": false,
+    "support": {
+     "chrome": "105",
+     "edge": "105"
+    }
+   },
+   "css.types.env.titlebar-area-height": {
+    "baseline": false,
+    "support": {
+     "chrome": "93",
+     "chrome_android": "93",
+     "edge": "93"
+    }
+   },
+   "css.types.env.titlebar-area-width": {
+    "baseline": false,
+    "support": {
+     "chrome": "93",
+     "chrome_android": "93",
+     "edge": "93"
+    }
+   },
+   "css.types.env.titlebar-area-x": {
+    "baseline": false,
+    "support": {
+     "chrome": "93",
+     "chrome_android": "93",
+     "edge": "93"
+    }
+   },
+   "css.types.env.titlebar-area-y": {
+    "baseline": false,
+    "support": {
+     "chrome": "93",
+     "chrome_android": "93",
+     "edge": "93"
+    }
+   },
+   "manifests.webapp.display_override.window-controls-overlay": {
+    "baseline": false,
+    "support": {
+     "chrome": "105",
+     "chrome_android": "105",
+     "edge": "105"
+    }
+   }
+  },
+  "support": {
+   "chrome": "105",
+   "edge": "105"
+  }
+ },
+ "id": "window-controls-overlay",
+ "groups": [
+  "progressive-web-app"
+ ],
+ "specs": [
+  {
+   "url": "https://wicg.github.io/window-controls-overlay/",
+   "seriesComposition": "full",
+   "shortname": "window-controls-overlay",
+   "series": {
+    "shortname": "window-controls-overlay",
+    "currentSpecification": "window-controls-overlay",
+    "title": "Window Controls Overlay",
+    "shortTitle": "Window Controls Overlay",
+    "nightlyUrl": "https://wicg.github.io/window-controls-overlay/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://wicg.github.io/window-controls-overlay/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/WICG/window-controls-overlay",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Window Controls Overlay",
+   "source": "spec",
+   "shortTitle": "Window Controls Overlay",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Window_Controls_Overlay_API",
+   "title": "Window Controls Overlay API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Window_Controls_Overlay_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/529",
+   "position": "defer",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of HTML 2024",
+   "url": "https://2024.stateofhtml.com/en-US/features/mobile-web-apps/#mobile_web_apps_features",
+   "question": "mobile_web_apps",
+   "subQuestion": "mobile_web_apps_features",
+   "path": "dataAPI.surveys.state_of_html.html2024.mobile_web_apps.mobile_web_apps_features.5.entity"
+  },
+  {
+   "name": "State of HTML 2024",
+   "url": "https://2024.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2024.features.all_features.47.entity"
+  },
+  {
+   "name": "State of HTML 2023",
+   "url": "https://2023.stateofhtml.com/en-US/features/mobile-web-apps/#mobile_web_apps_features",
+   "question": "mobile_web_apps",
+   "subQuestion": "mobile_web_apps_features",
+   "path": "dataAPI.surveys.state_of_html.html2023.mobile_web_apps.mobile_web_apps_features.5.entity"
+  },
+  {
+   "name": "State of HTML 2023",
+   "url": "https://2023.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2023.features.all_features.40.entity"
+  }
+ ],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00135381,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/267"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:window-controls-overlay"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/182",
+  "votes": 3
+ },
+ "bugs": {
+  "safari": [
+   "https://webkit.org/b/257782"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/257782"
+  ],
+  "webview_ios": [
+   "https://webkit.org/b/257782"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

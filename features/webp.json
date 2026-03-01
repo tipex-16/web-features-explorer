@@ -1,0 +1,169 @@
+{
+ "caniuse": [
+  "webp"
+ ],
+ "compat_features": [
+  "mediatypes.image.webp",
+  "mediatypes.image.webp.alpha",
+  "mediatypes.image.webp.animation",
+  "mediatypes.image.webp.lossless",
+  "mediatypes.image.webp.lossy"
+ ],
+ "description": "The WebP image format is a raster graphics file format that supports animation, alpha transparency, and lossy as well as lossless compression.",
+ "description_html": "The WebP image format is a raster graphics file format that supports animation, alpha transparency, and lossy as well as lossless compression.",
+ "kind": "feature",
+ "name": "WebP",
+ "spec": [
+  "https://www.rfc-editor.org/rfc/rfc9649"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2023-03-16",
+  "baseline_low_date": "2020-09-16",
+  "by_compat_key": {
+   "mediatypes.image.webp": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "17",
+     "chrome_android": "18",
+     "edge": "18",
+     "firefox": "65",
+     "firefox_android": "65",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "mediatypes.image.webp.alpha": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "23",
+     "chrome_android": "25",
+     "edge": "18",
+     "firefox": "65",
+     "firefox_android": "65",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "mediatypes.image.webp.animation": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "32",
+     "chrome_android": "32",
+     "edge": "18",
+     "firefox": "65",
+     "firefox_android": "65",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "mediatypes.image.webp.lossless": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "23",
+     "chrome_android": "25",
+     "edge": "18",
+     "firefox": "65",
+     "firefox_android": "65",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "mediatypes.image.webp.lossy": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "17",
+     "chrome_android": "18",
+     "edge": "18",
+     "firefox": "65",
+     "firefox_android": "65",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   }
+  },
+  "support": {
+   "chrome": "32",
+   "chrome_android": "32",
+   "edge": "18",
+   "firefox": "65",
+   "firefox_android": "65",
+   "safari": "14",
+   "safari_ios": "14"
+  }
+ },
+ "id": "webp",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://www.rfc-editor.org/rfc/rfc9649",
+   "seriesComposition": "full",
+   "shortname": "rfc9649",
+   "series": {
+    "shortname": "rfc9649",
+    "currentSpecification": "rfc9649",
+    "title": "WebP Image Format",
+    "shortTitle": "WebP Image Format",
+    "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc9649"
+   },
+   "formerNames": [
+    "webp"
+   ],
+   "organization": "IETF",
+   "groups": [
+    {
+     "name": "Applications and Real-Time Area",
+     "url": "https://datatracker.ietf.org/wg/art/"
+    }
+   ],
+   "nightly": {
+    "url": "https://www.rfc-editor.org/rfc/rfc9649",
+    "status": "Informational",
+    "alternateUrls": [
+     "https://datatracker.ietf.org/doc/html/rfc9649",
+     "https://tools.ietf.org/html/rfc9649"
+    ],
+    "filename": "rfc9649.html"
+   },
+   "title": "WebP Image Format",
+   "source": "ietf",
+   "shortTitle": "WebP Image Format",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Glossary/WebP",
+   "title": "WebP",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Glossary/WebP"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.40624475,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/79"
+ },
+ "interop": [],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2020-09-16T00:00:00.000Z",
+ "baselineHighDateAsObject": "2023-03-16T00:00:00.000Z"
+}

@@ -1,0 +1,139 @@
+{
+ "compat_features": [
+  "css.properties.font-palette.animation_computed",
+  "css.properties.font-palette.palette-mix_function"
+ ],
+ "description": "You can animate color fonts between two font-palette values.",
+ "description_html": "You can animate color fonts between two <code>font-palette</code> values.",
+ "group": [
+  "fonts"
+ ],
+ "kind": "feature",
+ "name": "font-palette animation",
+ "spec": [
+  "https://drafts.csswg.org/css-fonts-4/#font-palette-prop"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "css.properties.font-palette.animation_computed": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "css.properties.font-palette.palette-mix_function": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   }
+  },
+  "support": {
+   "chrome": "121",
+   "chrome_android": "121",
+   "edge": "121"
+  }
+ },
+ "id": "font-palette-animation",
+ "groups": [
+  "fonts"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-fonts-4/#font-palette-prop",
+   "seriesComposition": "full",
+   "shortname": "css-fonts-4",
+   "series": {
+    "shortname": "css-fonts",
+    "currentSpecification": "css-fonts-4",
+    "title": "CSS Fonts",
+    "shortTitle": "CSS Fonts",
+    "releaseUrl": "https://www.w3.org/TR/css-fonts/",
+    "nightlyUrl": "https://drafts.csswg.org/css-fonts/"
+   },
+   "seriesVersion": "4",
+   "seriesNext": "css-fonts-5",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-fonts-4/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-fonts-4/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-fonts-4/",
+     "https://w3c.github.io/csswg-drafts/css-fonts/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-fonts-4/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Fonts Module Level 4",
+   "source": "w3c",
+   "shortTitle": "CSS Fonts 4",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-fonts"
+    ]
+   },
+   "fragment": "font-palette-prop"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/font-palette/palette-mix",
+   "title": "palette-mix()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-palette/palette-mix"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/925",
+   "position": "",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/276",
+   "position": "",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 9.4e-7,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/31"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:font-palette-animation"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/229",
+  "votes": 0
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

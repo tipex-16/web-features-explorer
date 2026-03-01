@@ -1,0 +1,372 @@
+{
+ "caniuse": [
+  "createimagebitmap"
+ ],
+ "compat_features": [
+  "api.ImageBitmap",
+  "api.ImageBitmap.close",
+  "api.ImageBitmap.height",
+  "api.ImageBitmap.width",
+  "api.createImageBitmap",
+  "api.createImageBitmap.options_colorSpaceConversion_parameter",
+  "api.createImageBitmap.options_imageOrientation_parameter",
+  "api.createImageBitmap.options_imageOrientation_parameter.from-image",
+  "api.createImageBitmap.options_premultiplyAlpha_parameter",
+  "api.createImageBitmap.options_resizeHeight_parameter",
+  "api.createImageBitmap.options_resizeQuality_parameter",
+  "api.createImageBitmap.options_resizeWidth_parameter",
+  "api.createImageBitmap.svgimageelement_as_source_image"
+ ],
+ "description": "The createImageBitmap() global method creates an ImageBitmap object from a source such as an image, SVG, blob, or canvas. An ImageBitmap object represents pixel data that can be drawn to a canvas with lower latency than other types, such as ImageData.",
+ "description_html": "The <code>createImageBitmap()</code> global method creates an <code>ImageBitmap</code> object from a source such as an image, SVG, blob, or canvas. An <code>ImageBitmap</code> object represents pixel data that can be drawn to a canvas with lower latency than other types, such as <code>ImageData</code>.",
+ "kind": "feature",
+ "name": "createImageBitmap",
+ "spec": [
+  "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#imagebitmap"
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2023-12-11",
+  "by_compat_key": {
+   "api.ImageBitmap": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "50",
+     "chrome_android": "50",
+     "edge": "79",
+     "firefox": "42",
+     "firefox_android": "42",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "api.ImageBitmap.close": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "52",
+     "chrome_android": "52",
+     "edge": "79",
+     "firefox": "46",
+     "firefox_android": "46",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "api.ImageBitmap.height": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "50",
+     "chrome_android": "50",
+     "edge": "79",
+     "firefox": "42",
+     "firefox_android": "42",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "api.ImageBitmap.width": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "50",
+     "chrome_android": "50",
+     "edge": "79",
+     "firefox": "42",
+     "firefox_android": "42",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "api.createImageBitmap": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "50",
+     "chrome_android": "50",
+     "edge": "79",
+     "firefox": "42",
+     "firefox_android": "42",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "api.createImageBitmap.options_colorSpaceConversion_parameter": {
+    "baseline": "high",
+    "baseline_high_date": "2024-09-08",
+    "baseline_low_date": "2022-03-08",
+    "support": {
+     "chrome": "58",
+     "chrome_android": "58",
+     "edge": "79",
+     "firefox": "98",
+     "firefox_android": "98",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "api.createImageBitmap.options_imageOrientation_parameter": {
+    "baseline": "high",
+    "baseline_high_date": "2024-04-05",
+    "baseline_low_date": "2021-10-05",
+    "support": {
+     "chrome": "52",
+     "chrome_android": "52",
+     "edge": "79",
+     "firefox": "93",
+     "firefox_android": "93",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "api.createImageBitmap.options_imageOrientation_parameter.from-image": {
+    "baseline": "high",
+    "baseline_high_date": "2025-10-06",
+    "baseline_low_date": "2023-04-06",
+    "support": {
+     "chrome": "112",
+     "chrome_android": "112",
+     "edge": "112",
+     "firefox": "111",
+     "firefox_android": "111",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "api.createImageBitmap.options_premultiplyAlpha_parameter": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "52",
+     "chrome_android": "52",
+     "edge": "79",
+     "firefox": "93",
+     "firefox_android": "93",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "api.createImageBitmap.options_resizeHeight_parameter": {
+    "baseline": "high",
+    "baseline_high_date": "2024-09-08",
+    "baseline_low_date": "2022-03-08",
+    "support": {
+     "chrome": "54",
+     "chrome_android": "54",
+     "edge": "79",
+     "firefox": "98",
+     "firefox_android": "98",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "api.createImageBitmap.options_resizeQuality_parameter": {
+    "baseline": false,
+    "support": {
+     "chrome": "54",
+     "chrome_android": "54",
+     "edge": "79",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "api.createImageBitmap.options_resizeWidth_parameter": {
+    "baseline": "high",
+    "baseline_high_date": "2024-09-08",
+    "baseline_low_date": "2022-03-08",
+    "support": {
+     "chrome": "54",
+     "chrome_android": "54",
+     "edge": "79",
+     "firefox": "98",
+     "firefox_android": "98",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "api.createImageBitmap.svgimageelement_as_source_image": {
+    "baseline": "low",
+    "baseline_low_date": "2023-12-11",
+    "support": {
+     "chrome": "59",
+     "chrome_android": "59",
+     "edge": "79",
+     "firefox": "65",
+     "firefox_android": "65",
+     "safari": "17.2",
+     "safari_ios": "17.2"
+    }
+   }
+  },
+  "support": {
+   "chrome": "59",
+   "chrome_android": "59",
+   "edge": "79",
+   "firefox": "98",
+   "firefox_android": "98",
+   "safari": "17.2",
+   "safari_ios": "17.2"
+  }
+ },
+ "id": "createimagebitmap",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#imagebitmap",
+   "seriesComposition": "full",
+   "shortname": "html",
+   "series": {
+    "shortname": "html",
+    "currentSpecification": "html",
+    "title": "HTML",
+    "shortTitle": "HTML",
+    "nightlyUrl": "https://html.spec.whatwg.org/multipage/"
+   },
+   "nightly": {
+    "url": "https://html.spec.whatwg.org/multipage/",
+    "status": "Living Standard",
+    "sourcePath": "source",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/html",
+    "pages": [
+     "https://html.spec.whatwg.org/multipage/introduction.html",
+     "https://html.spec.whatwg.org/multipage/infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/common-microsyntaxes.html",
+     "https://html.spec.whatwg.org/multipage/urls-and-fetching.html",
+     "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html",
+     "https://html.spec.whatwg.org/multipage/structured-data.html",
+     "https://html.spec.whatwg.org/multipage/dom.html",
+     "https://html.spec.whatwg.org/multipage/semantics.html",
+     "https://html.spec.whatwg.org/multipage/sections.html",
+     "https://html.spec.whatwg.org/multipage/grouping-content.html",
+     "https://html.spec.whatwg.org/multipage/text-level-semantics.html",
+     "https://html.spec.whatwg.org/multipage/links.html",
+     "https://html.spec.whatwg.org/multipage/edits.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content.html",
+     "https://html.spec.whatwg.org/multipage/images.html",
+     "https://html.spec.whatwg.org/multipage/iframe-embed-object.html",
+     "https://html.spec.whatwg.org/multipage/media.html",
+     "https://html.spec.whatwg.org/multipage/image-maps.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content-other.html",
+     "https://html.spec.whatwg.org/multipage/tables.html",
+     "https://html.spec.whatwg.org/multipage/forms.html",
+     "https://html.spec.whatwg.org/multipage/input.html",
+     "https://html.spec.whatwg.org/multipage/form-elements.html",
+     "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/interactive-elements.html",
+     "https://html.spec.whatwg.org/multipage/scripting.html",
+     "https://html.spec.whatwg.org/multipage/canvas.html",
+     "https://html.spec.whatwg.org/multipage/custom-elements.html",
+     "https://html.spec.whatwg.org/multipage/semantics-other.html",
+     "https://html.spec.whatwg.org/multipage/microdata.html",
+     "https://html.spec.whatwg.org/multipage/interaction.html",
+     "https://html.spec.whatwg.org/multipage/dnd.html",
+     "https://html.spec.whatwg.org/multipage/popover.html",
+     "https://html.spec.whatwg.org/multipage/browsers.html",
+     "https://html.spec.whatwg.org/multipage/nav-history-apis.html",
+     "https://html.spec.whatwg.org/multipage/document-sequences.html",
+     "https://html.spec.whatwg.org/multipage/browsing-the-web.html",
+     "https://html.spec.whatwg.org/multipage/document-lifecycle.html",
+     "https://html.spec.whatwg.org/multipage/speculative-loading.html",
+     "https://html.spec.whatwg.org/multipage/webappapis.html",
+     "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html",
+     "https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html",
+     "https://html.spec.whatwg.org/multipage/system-state.html",
+     "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html",
+     "https://html.spec.whatwg.org/multipage/comms.html",
+     "https://html.spec.whatwg.org/multipage/server-sent-events.html",
+     "https://html.spec.whatwg.org/multipage/web-messaging.html",
+     "https://html.spec.whatwg.org/multipage/workers.html",
+     "https://html.spec.whatwg.org/multipage/worklets.html",
+     "https://html.spec.whatwg.org/multipage/webstorage.html",
+     "https://html.spec.whatwg.org/multipage/syntax.html",
+     "https://html.spec.whatwg.org/multipage/parsing.html",
+     "https://html.spec.whatwg.org/multipage/named-characters.html",
+     "https://html.spec.whatwg.org/multipage/xhtml.html",
+     "https://html.spec.whatwg.org/multipage/rendering.html",
+     "https://html.spec.whatwg.org/multipage/obsolete.html",
+     "https://html.spec.whatwg.org/multipage/iana.html",
+     "https://html.spec.whatwg.org/multipage/indices.html",
+     "https://html.spec.whatwg.org/multipage/references.html",
+     "https://html.spec.whatwg.org/multipage/acknowledgements.html"
+    ],
+    "filename": "index.html"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "HTML Workstream",
+     "url": "https://html.spec.whatwg.org/multipage/"
+    }
+   ],
+   "title": "HTML",
+   "source": "whatwg",
+   "shortTitle": "HTML",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "close-watcher",
+     "custom-elements",
+     "eventsource",
+     "html",
+     "imagebitmap-renderingcontext",
+     "import-maps",
+     "navigation-api",
+     "webmessaging",
+     "webstorage",
+     "workers",
+     "worklets",
+     "x-frame-options"
+    ],
+    "excludePaths": [
+     "html/cross-origin-embedder-policy/credentialless",
+     "html/dom/partial-updates/tentative",
+     "html/cross-origin-embedder-policy/credentialless"
+    ]
+   },
+   "fragment": "imagebitmap"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Window/createImageBitmap",
+   "title": "Window: createImageBitmap() method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Window/createImageBitmap"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:createimagebitmap"
+ },
+ "developerSignals": null,
+ "bugs": {
+  "safari": [
+   "https://webkit.org/b/182424"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/182424"
+  ],
+  "webview_ios": [
+   "https://webkit.org/b/182424"
+  ]
+ },
+ "baselineLowDateAsObject": "2023-12-11T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2026-06-11"
+}

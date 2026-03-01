@@ -1,0 +1,640 @@
+{
+ "caniuse": [
+  "midi"
+ ],
+ "compat_features": [
+  "api.MIDIAccess",
+  "api.MIDIAccess.inputs",
+  "api.MIDIAccess.outputs",
+  "api.MIDIAccess.statechange_event",
+  "api.MIDIAccess.sysexEnabled",
+  "api.MIDIConnectionEvent",
+  "api.MIDIConnectionEvent.MIDIConnectionEvent",
+  "api.MIDIConnectionEvent.port",
+  "api.MIDIInput",
+  "api.MIDIInput.midimessage_event",
+  "api.MIDIInputMap",
+  "api.MIDIInputMap.@@iterator",
+  "api.MIDIInputMap.entries",
+  "api.MIDIInputMap.forEach",
+  "api.MIDIInputMap.get",
+  "api.MIDIInputMap.has",
+  "api.MIDIInputMap.keys",
+  "api.MIDIInputMap.size",
+  "api.MIDIInputMap.values",
+  "api.MIDIMessageEvent",
+  "api.MIDIMessageEvent.MIDIMessageEvent",
+  "api.MIDIMessageEvent.data",
+  "api.MIDIOutput",
+  "api.MIDIOutput.clear",
+  "api.MIDIOutput.send",
+  "api.MIDIOutputMap",
+  "api.MIDIOutputMap.@@iterator",
+  "api.MIDIOutputMap.entries",
+  "api.MIDIOutputMap.forEach",
+  "api.MIDIOutputMap.get",
+  "api.MIDIOutputMap.has",
+  "api.MIDIOutputMap.keys",
+  "api.MIDIOutputMap.size",
+  "api.MIDIOutputMap.values",
+  "api.MIDIPort",
+  "api.MIDIPort.close",
+  "api.MIDIPort.connection",
+  "api.MIDIPort.id",
+  "api.MIDIPort.manufacturer",
+  "api.MIDIPort.name",
+  "api.MIDIPort.open",
+  "api.MIDIPort.state",
+  "api.MIDIPort.statechange_event",
+  "api.MIDIPort.type",
+  "api.MIDIPort.version",
+  "api.Navigator.requestMIDIAccess",
+  "api.Navigator.requestMIDIAccess.secure_context_required",
+  "api.Permissions.permission_midi",
+  "html.elements.iframe.allow.midi",
+  "http.headers.Permissions-Policy.midi"
+ ],
+ "description": "The Web MIDI API enables selecting MIDI input and output devices and sending and receiving MIDI messages.",
+ "description_html": "The Web MIDI API enables selecting MIDI input and output devices and sending and receiving MIDI messages.",
+ "kind": "feature",
+ "name": "Web MIDI",
+ "spec": [
+  "https://webaudio.github.io/web-midi-api/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.MIDIAccess": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIAccess.inputs": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIAccess.outputs": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIAccess.statechange_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79"
+    }
+   },
+   "api.MIDIAccess.sysexEnabled": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIConnectionEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIConnectionEvent.MIDIConnectionEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIConnectionEvent.port": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIInput": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIInput.midimessage_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIInputMap": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIInputMap.@@iterator": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIInputMap.entries": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIInputMap.forEach": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIInputMap.get": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIInputMap.has": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIInputMap.keys": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIInputMap.size": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIInputMap.values": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIMessageEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIMessageEvent.MIDIMessageEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIMessageEvent.data": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIOutput": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIOutput.clear": {
+    "baseline": false,
+    "support": {
+     "firefox": "108"
+    }
+   },
+   "api.MIDIOutput.send": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIOutputMap": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIOutputMap.@@iterator": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIOutputMap.entries": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIOutputMap.forEach": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIOutputMap.get": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIOutputMap.has": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIOutputMap.keys": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIOutputMap.size": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIOutputMap.values": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIPort": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIPort.close": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIPort.connection": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIPort.id": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIPort.manufacturer": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIPort.name": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIPort.open": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIPort.state": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIPort.statechange_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIPort.type": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.MIDIPort.version": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.Navigator.requestMIDIAccess": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.Navigator.requestMIDIAccess.secure_context_required": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "108"
+    }
+   },
+   "api.Permissions.permission_midi": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "79",
+     "firefox": "110",
+     "firefox_android": "110"
+    }
+   },
+   "html.elements.iframe.allow.midi": {
+    "baseline": false,
+    "support": {
+     "chrome": "64",
+     "chrome_android": "64",
+     "edge": "79",
+     "firefox": "74",
+     "firefox_android": "79"
+    }
+   },
+   "http.headers.Permissions-Policy.midi": {
+    "baseline": false,
+    "support": {
+     "chrome": "88",
+     "chrome_android": "88",
+     "edge": "88"
+    }
+   }
+  },
+  "support": {
+   "chrome": "43",
+   "chrome_android": "43",
+   "edge": "79",
+   "firefox": "108"
+  }
+ },
+ "id": "web-midi",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://webaudio.github.io/web-midi-api/",
+   "seriesComposition": "full",
+   "shortname": "webmidi",
+   "series": {
+    "shortname": "webmidi",
+    "currentSpecification": "webmidi",
+    "title": "Web MIDI API",
+    "shortTitle": "Web MIDI API",
+    "releaseUrl": "https://www.w3.org/TR/webmidi/",
+    "nightlyUrl": "https://webaudio.github.io/web-midi-api/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Audio Working Group",
+     "url": "https://www.w3.org/groups/wg/audio/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/webmidi/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://webaudio.github.io/web-midi-api/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/WebAudio/web-midi-api",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Web MIDI API",
+   "source": "w3c",
+   "shortTitle": "Web MIDI API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "webmidi"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Web_Locks_API",
+   "title": "Web Locks API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Web_Locks_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/58",
+   "position": "positive",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00009053,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/153"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:web-midi"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/50",
+  "votes": 3
+ },
+ "bugs": {
+  "safari": [
+   "https://webkit.org/b/107250"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/107250"
+  ],
+  "webview_ios": [
+   "https://webkit.org/b/107250"
+  ],
+  "chrome": [
+   "https://crbug.com/40411677"
+  ],
+  "chrome_android": [
+   "https://crbug.com/40411677"
+  ],
+  "edge": [
+   "https://crbug.com/40411677"
+  ],
+  "oculus": [
+   "https://crbug.com/40411677"
+  ],
+  "opera": [
+   "https://crbug.com/40411677"
+  ],
+  "opera_android": [
+   "https://crbug.com/40411677"
+  ],
+  "samsunginternet_android": [
+   "https://crbug.com/40411677"
+  ],
+  "webview_android": [
+   "https://crbug.com/40411677"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

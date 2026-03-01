@@ -1,0 +1,260 @@
+{
+ "compat_features": [
+  "javascript.builtins.Intl.Segmenter",
+  "javascript.builtins.Intl.Segmenter.Segmenter",
+  "javascript.builtins.Intl.Segmenter.resolvedOptions",
+  "javascript.builtins.Intl.Segmenter.segment",
+  "javascript.builtins.Intl.Segmenter.supportedLocalesOf",
+  "javascript.builtins.Intl.Segments",
+  "javascript.builtins.Intl.Segments.@@iterator",
+  "javascript.builtins.Intl.Segments.containing"
+ ],
+ "description": "The Intl.Segmenter API creates a locale-aware text splitter that can separate a string into meaningful graphemes, words, or sentences.",
+ "description_html": "The <code>Intl.Segmenter</code> API creates a locale-aware text splitter that can separate a string into meaningful graphemes, words, or sentences.",
+ "group": [
+  "intl"
+ ],
+ "kind": "feature",
+ "name": "Intl.Segmenter",
+ "spec": [
+  "https://tc39.es/ecma402/#segmenter-objects"
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2024-04-16",
+  "by_compat_key": {
+   "javascript.builtins.Intl.Segmenter": {
+    "baseline": "low",
+    "baseline_low_date": "2024-04-16",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "125",
+     "firefox_android": "125",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "javascript.builtins.Intl.Segmenter.Segmenter": {
+    "baseline": "low",
+    "baseline_low_date": "2024-04-16",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "125",
+     "firefox_android": "125",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "javascript.builtins.Intl.Segmenter.resolvedOptions": {
+    "baseline": "low",
+    "baseline_low_date": "2024-04-16",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "125",
+     "firefox_android": "125",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "javascript.builtins.Intl.Segmenter.segment": {
+    "baseline": "low",
+    "baseline_low_date": "2024-04-16",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "125",
+     "firefox_android": "125",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "javascript.builtins.Intl.Segmenter.supportedLocalesOf": {
+    "baseline": "low",
+    "baseline_low_date": "2024-04-16",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "125",
+     "firefox_android": "125",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "javascript.builtins.Intl.Segments": {
+    "baseline": "low",
+    "baseline_low_date": "2024-04-16",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "125",
+     "firefox_android": "125",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "javascript.builtins.Intl.Segments.@@iterator": {
+    "baseline": "low",
+    "baseline_low_date": "2024-04-16",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "125",
+     "firefox_android": "125",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "javascript.builtins.Intl.Segments.containing": {
+    "baseline": "low",
+    "baseline_low_date": "2024-04-16",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "125",
+     "firefox_android": "125",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   }
+  },
+  "support": {
+   "chrome": "87",
+   "chrome_android": "87",
+   "edge": "87",
+   "firefox": "125",
+   "firefox_android": "125",
+   "safari": "14.1",
+   "safari_ios": "14.5"
+  }
+ },
+ "id": "intl-segmenter",
+ "groups": [
+  "intl"
+ ],
+ "specs": [
+  {
+   "url": "https://tc39.es/ecma402/#segmenter-objects",
+   "seriesComposition": "full",
+   "shortname": "ecma-402",
+   "series": {
+    "shortname": "ecma-402",
+    "currentSpecification": "ecma-402",
+    "title": "ECMAScript® 2026 Internationalization API Specification",
+    "shortTitle": "ECMAScript® 2026 Internationalization API",
+    "nightlyUrl": "https://tc39.es/ecma402/"
+   },
+   "tests": {
+    "repository": "https://github.com/tc39/test262",
+    "testPaths": [
+     "test/intl402"
+    ]
+   },
+   "organization": "Ecma International",
+   "groups": [
+    {
+     "name": "TC39",
+     "url": "https://tc39.es/"
+    }
+   ],
+   "nightly": {
+    "url": "https://tc39.es/ecma402/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/tc39/ecma402",
+    "sourcePath": "spec/index.html",
+    "filename": "index.html"
+   },
+   "title": "ECMAScript® 2026 Internationalization API Specification",
+   "source": "spec",
+   "shortTitle": "ECMAScript® 2026 Internationalization API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": "segmenter-objects"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/JavaScript/Reference/Global_Objects/Intl/Segmenter",
+   "title": "Intl.Segmenter",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.31.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/content/#content_features",
+   "question": "content",
+   "subQuestion": "content_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.content.content_features.5.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+   "question": "_all_features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.31.entity"
+  },
+  {
+   "name": "State of HTML 2024",
+   "url": "https://2024.stateofhtml.com/en-US/features/#reading_list",
+   "question": "reading_list",
+   "subQuestion": "reading_list",
+   "path": "dataAPI.surveys.state_of_html.html2024.reading_list.reading_list.combined.allEditions.1.buckets.11.entity"
+  },
+  {
+   "name": "State of HTML 2024",
+   "url": "https://2024.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2024.features.all_features.26.entity"
+  },
+  {
+   "name": "State of HTML 2024",
+   "url": "https://2024.stateofhtml.com/en-US/content/#content_features",
+   "question": "content",
+   "subQuestion": "content_features",
+   "path": "dataAPI.surveys.state_of_html.html2024.content.content_features.11.entity"
+  },
+  {
+   "name": "State of HTML 2023",
+   "url": "https://2023.stateofhtml.com/en-US/content/#i18n_features",
+   "question": "content",
+   "subQuestion": "i18n_features",
+   "path": "dataAPI.surveys.state_of_html.html2023.content.i18n_features.responses.currentEdition.buckets.10.entity"
+  }
+ ],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.0220126,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/129"
+ },
+ "interop": [],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2024-04-16T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2026-10-16"
+}

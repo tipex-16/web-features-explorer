@@ -1,0 +1,295 @@
+{
+ "compat_features": [
+  "css.selectors.first-child",
+  "css.selectors.first-child.no_parent_required",
+  "css.selectors.last-child",
+  "css.selectors.last-child.no_parent_required",
+  "css.selectors.nth-child",
+  "css.selectors.nth-child.no_parent_required",
+  "css.selectors.nth-last-child",
+  "css.selectors.nth-last-child.no_parent_required",
+  "css.selectors.only-child",
+  "css.selectors.only-child.no_parent_required"
+ ],
+ "description": "The :nth-child() and :nth-last-child() CSS functional pseudo-classes match elements based on their index within a list of elements. The :first-child and :last-child pseudo-classes match the first and last element in a list, and the :only-child pseudo-class matches an element with no siblings.",
+ "description_html": "The <code>:nth-child()</code> and <code>:nth-last-child()</code> CSS functional pseudo-classes match elements based on their index within a list of elements. The <code>:first-child</code> and <code>:last-child</code> pseudo-classes match the first and last element in a list, and the <code>:only-child</code> pseudo-class matches an element with no siblings.",
+ "group": [
+  "selectors"
+ ],
+ "kind": "feature",
+ "name": ":nth-child()",
+ "spec": [
+  "https://drafts.csswg.org/selectors-3/#nth-child-pseudo",
+  "https://drafts.csswg.org/selectors-3/#nth-last-child-pseudo"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "css.selectors.first-child": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3",
+     "firefox_android": "4",
+     "safari": "3.1",
+     "safari_ios": "4"
+    }
+   },
+   "css.selectors.first-child.no_parent_required": {
+    "baseline": false,
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "52",
+     "firefox_android": "52"
+    }
+   },
+   "css.selectors.last-child": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3.1",
+     "safari_ios": "2"
+    }
+   },
+   "css.selectors.last-child.no_parent_required": {
+    "baseline": false,
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "52",
+     "firefox_android": "52"
+    }
+   },
+   "css.selectors.nth-child": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "3.1",
+     "safari_ios": "2"
+    }
+   },
+   "css.selectors.nth-child.no_parent_required": {
+    "baseline": false,
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "52",
+     "firefox_android": "52"
+    }
+   },
+   "css.selectors.nth-last-child": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "3.1",
+     "safari_ios": "2"
+    }
+   },
+   "css.selectors.nth-last-child.no_parent_required": {
+    "baseline": false,
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "52",
+     "firefox_android": "52"
+    }
+   },
+   "css.selectors.only-child": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3.1",
+     "safari_ios": "2"
+    }
+   },
+   "css.selectors.only-child.no_parent_required": {
+    "baseline": false,
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "52",
+     "firefox_android": "52"
+    }
+   }
+  },
+  "support": {
+   "chrome": "1",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "3.5",
+   "firefox_android": "4",
+   "safari": "3.1",
+   "safari_ios": "2"
+  }
+ },
+ "id": "nth-child",
+ "groups": [
+  "selectors"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/selectors-3/#nth-child-pseudo",
+   "seriesComposition": "full",
+   "shortname": "selectors-3",
+   "series": {
+    "shortname": "selectors",
+    "currentSpecification": "selectors-4",
+    "title": "Selectors",
+    "shortTitle": "Selectors",
+    "releaseUrl": "https://www.w3.org/TR/selectors/",
+    "nightlyUrl": "https://drafts.csswg.org/selectors/"
+   },
+   "seriesVersion": "3",
+   "seriesNext": "selectors-4",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/selectors-3/",
+    "status": "Recommendation",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/selectors-3/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/selectors-3/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "selectors-3/Overview.src.html",
+    "filename": "index.html"
+   },
+   "title": "Selectors Level 3",
+   "source": "w3c",
+   "shortTitle": "Selectors 3",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/selectors"
+    ]
+   },
+   "fragment": "nth-child-pseudo"
+  },
+  {
+   "url": "https://drafts.csswg.org/selectors-3/#nth-last-child-pseudo",
+   "seriesComposition": "full",
+   "shortname": "selectors-3",
+   "series": {
+    "shortname": "selectors",
+    "currentSpecification": "selectors-4",
+    "title": "Selectors",
+    "shortTitle": "Selectors",
+    "releaseUrl": "https://www.w3.org/TR/selectors/",
+    "nightlyUrl": "https://drafts.csswg.org/selectors/"
+   },
+   "seriesVersion": "3",
+   "seriesNext": "selectors-4",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/selectors-3/",
+    "status": "Recommendation",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/selectors-3/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/selectors-3/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "selectors-3/Overview.src.html",
+    "filename": "index.html"
+   },
+   "title": "Selectors Level 3",
+   "source": "w3c",
+   "shortTitle": "Selectors 3",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/selectors"
+    ]
+   },
+   "fragment": "nth-last-child-pseudo"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Selectors/:nth-child",
+   "title": ":nth-child()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:nth-child"
+  },
+  {
+   "slug": "Web/CSS/Reference/Selectors/:nth-last-child",
+   "title": ":nth-last-child()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:nth-last-child"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:nth-child"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

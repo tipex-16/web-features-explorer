@@ -1,0 +1,106 @@
+{
+ "compat_features": [
+  "api.Performance.measureUserAgentSpecificMemory"
+ ],
+ "description": "The measureUserAgentSpecificMemory() method estimates the memory usage of a web application including all its iframes and workers.",
+ "description_html": "The <code>measureUserAgentSpecificMemory()</code> method estimates the memory usage of a web application including all its iframes and workers.",
+ "group": [
+  "performance"
+ ],
+ "kind": "feature",
+ "name": "Memory measurement",
+ "spec": [
+  "https://wicg.github.io/performance-measure-memory/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Performance.measureUserAgentSpecificMemory": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "chrome_android": "89",
+     "edge": "89"
+    }
+   }
+  },
+  "support": {
+   "chrome": "89",
+   "chrome_android": "89",
+   "edge": "89"
+  }
+ },
+ "id": "measure-memory",
+ "groups": [
+  "performance"
+ ],
+ "specs": [
+  {
+   "url": "https://wicg.github.io/performance-measure-memory/",
+   "seriesComposition": "full",
+   "shortname": "performance-measure-memory",
+   "series": {
+    "shortname": "performance-measure-memory",
+    "currentSpecification": "performance-measure-memory",
+    "title": "Measure Memory API",
+    "shortTitle": "Measure Memory API",
+    "nightlyUrl": "https://wicg.github.io/performance-measure-memory/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://wicg.github.io/performance-measure-memory/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/WICG/performance-measure-memory",
+    "sourcePath": "index.src.html",
+    "filename": "index.html"
+   },
+   "title": "Measure Memory API",
+   "source": "spec",
+   "shortTitle": "Measure Memory API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "measure-memory"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Performance/measureUserAgentSpecificMemory",
+   "title": "Performance: measureUserAgentSpecificMemory() method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Performance/measureUserAgentSpecificMemory"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00019804,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/288"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:measure-memory"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/138",
+  "votes": 1
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

@@ -1,0 +1,187 @@
+{
+ "compat_features": [
+  "css.types.calc-keyword",
+  "css.types.calc-keyword.NaN",
+  "css.types.calc-keyword.e",
+  "css.types.calc-keyword.infinity",
+  "css.types.calc-keyword.pi"
+ ],
+ "description": "The e, pi, infinity, and NaN keywords represent well-defined constants accepted in CSS math functions such as calc().",
+ "description_html": "The <code>e</code>, <code>pi</code>, <code>infinity</code>, and <code>NaN</code> keywords represent well-defined constants accepted in CSS math functions such as <code>calc()</code>.",
+ "group": [
+  "css"
+ ],
+ "kind": "feature",
+ "name": "calc() keywords",
+ "spec": [
+  "https://drafts.csswg.org/css-values-4/#calc-keywords"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2025-12-06",
+  "baseline_low_date": "2023-06-06",
+  "by_compat_key": {
+   "css.types.calc-keyword": {
+    "baseline": "high",
+    "baseline_high_date": "2025-06-13",
+    "baseline_low_date": "2022-12-13",
+    "support": {
+     "chrome": "99",
+     "chrome_android": "99",
+     "edge": "99",
+     "firefox": "108",
+     "firefox_android": "108",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.types.calc-keyword.NaN": {
+    "baseline": "high",
+    "baseline_high_date": "2025-12-06",
+    "baseline_low_date": "2023-06-06",
+    "support": {
+     "chrome": "99",
+     "chrome_android": "99",
+     "edge": "99",
+     "firefox": "114",
+     "firefox_android": "114",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.types.calc-keyword.e": {
+    "baseline": "high",
+    "baseline_high_date": "2025-08-09",
+    "baseline_low_date": "2023-02-09",
+    "support": {
+     "chrome": "110",
+     "chrome_android": "110",
+     "edge": "110",
+     "firefox": "108",
+     "firefox_android": "108",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.types.calc-keyword.infinity": {
+    "baseline": "high",
+    "baseline_high_date": "2025-12-06",
+    "baseline_low_date": "2023-06-06",
+    "support": {
+     "chrome": "99",
+     "chrome_android": "99",
+     "edge": "99",
+     "firefox": "114",
+     "firefox_android": "114",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.types.calc-keyword.pi": {
+    "baseline": "high",
+    "baseline_high_date": "2025-07-12",
+    "baseline_low_date": "2023-01-12",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "108",
+     "firefox_android": "108",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   }
+  },
+  "support": {
+   "chrome": "110",
+   "chrome_android": "110",
+   "edge": "110",
+   "firefox": "114",
+   "firefox_android": "114",
+   "safari": "16",
+   "safari_ios": "16"
+  }
+ },
+ "id": "calc-constants",
+ "groups": [
+  "css"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-values-4/#calc-keywords",
+   "seriesComposition": "full",
+   "shortname": "css-values-4",
+   "series": {
+    "shortname": "css-values",
+    "currentSpecification": "css-values-4",
+    "title": "CSS Values and Units",
+    "shortTitle": "CSS Values",
+    "releaseUrl": "https://www.w3.org/TR/css-values/",
+    "nightlyUrl": "https://drafts.csswg.org/css-values/"
+   },
+   "seriesVersion": "4",
+   "shortTitle": "CSS Values 4",
+   "seriesPrevious": "css-values-3",
+   "seriesNext": "css-values-5",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-values-4/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-values-4/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-values-4/",
+     "https://w3c.github.io/csswg-drafts/css-values/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-values-4/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Values and Units Module Level 4",
+   "source": "w3c",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-values"
+    ]
+   },
+   "fragment": "calc-keywords"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Values/calc-keyword",
+   "title": "<calc-keyword>",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/calc-keyword"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00486775,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/183"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:calc-constants"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2023-06-06T00:00:00.000Z",
+ "baselineHighDateAsObject": "2025-12-06T00:00:00.000Z"
+}

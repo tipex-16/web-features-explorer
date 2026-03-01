@@ -1,0 +1,46 @@
+{
+ "description": "The referenceTarget property of a ShadowRoot object forwards attributes such as for and aria-labelledby to elements inside a shadow DOM. You can use this to, for example, link a <label> to its <input> even if the <input> is in the shadow DOM of a web component.",
+ "description_html": "The <code>referenceTarget</code> property of a <code>ShadowRoot</code> object forwards attributes such as <code>for</code> and <code>aria-labelledby</code> to elements inside a shadow DOM. You can use this to, for example, link a <code>&#x3C;label></code> to its <code>&#x3C;input></code> even if the <code>&#x3C;input></code> is in the shadow DOM of a web component.",
+ "group": [
+  "web-components"
+ ],
+ "kind": "feature",
+ "name": "Reference target",
+ "spec": [
+  "https://github.com/whatwg/dom/pull/1353",
+  "https://github.com/whatwg/html/pull/10995"
+ ],
+ "status": {
+  "baseline": false,
+  "support": {}
+ },
+ "id": "referencetarget",
+ "groups": [
+  "web-components"
+ ],
+ "specs": [
+  {
+   "url": "https://github.com/whatwg/dom/pull/1353"
+  },
+  {
+   "url": "https://github.com/whatwg/html/pull/10995"
+  }
+ ],
+ "mdnUrls": [],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00009666,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/246"
+ },
+ "interop": [],
+ "wpt": null,
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/446",
+  "votes": 12
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

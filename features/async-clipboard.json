@@ -1,0 +1,335 @@
+{
+ "caniuse": [
+  "async-clipboard"
+ ],
+ "compat_features": [
+  "api.Clipboard",
+  "api.Clipboard.read",
+  "api.Clipboard.readText",
+  "api.Clipboard.type_image-png",
+  "api.Clipboard.type_text-html",
+  "api.Clipboard.type_text-plain",
+  "api.Clipboard.write",
+  "api.Clipboard.writeText",
+  "api.ClipboardItem",
+  "api.ClipboardItem.ClipboardItem",
+  "api.ClipboardItem.getType",
+  "api.ClipboardItem.presentationStyle",
+  "api.ClipboardItem.types",
+  "api.Navigator.clipboard",
+  "api.Permissions.permission_clipboard-write"
+ ],
+ "description": "The navigator.clipboard API asynchronously reads and writes to the system clipboard.",
+ "description_html": "The <code>navigator.clipboard</code> API asynchronously reads and writes to the system clipboard.",
+ "group": [
+  "clipboard"
+ ],
+ "kind": "feature",
+ "name": "Async clipboard",
+ "spec": [
+  "https://w3c.github.io/clipboard-apis/#async-clipboard-api"
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2024-06-11",
+  "by_compat_key": {
+   "api.Clipboard": {
+    "baseline": "high",
+    "baseline_high_date": "2022-09-24",
+    "baseline_low_date": "2020-03-24",
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "firefox": "63",
+     "firefox_android": "63",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.Clipboard.read": {
+    "baseline": "low",
+    "baseline_low_date": "2024-06-11",
+    "support": {
+     "chrome": "76",
+     "chrome_android": "76",
+     "edge": "79",
+     "firefox": "127",
+     "firefox_android": "127",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.Clipboard.readText": {
+    "baseline": "low",
+    "baseline_low_date": "2024-04-16",
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "firefox": "125",
+     "firefox_android": "125",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.Clipboard.type_image-png": {
+    "baseline": "low",
+    "baseline_low_date": "2024-06-11",
+    "support": {
+     "chrome": "76",
+     "chrome_android": "76",
+     "edge": "79",
+     "firefox": "127",
+     "firefox_android": "127",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.Clipboard.type_text-html": {
+    "baseline": "low",
+    "baseline_low_date": "2024-06-11",
+    "support": {
+     "chrome": "86",
+     "chrome_android": "86",
+     "edge": "86",
+     "firefox": "127",
+     "firefox_android": "127",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.Clipboard.type_text-plain": {
+    "baseline": "low",
+    "baseline_low_date": "2024-06-11",
+    "support": {
+     "chrome": "76",
+     "chrome_android": "76",
+     "edge": "79",
+     "firefox": "127",
+     "firefox_android": "127",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.Clipboard.write": {
+    "baseline": "low",
+    "baseline_low_date": "2024-06-11",
+    "support": {
+     "chrome": "76",
+     "chrome_android": "76",
+     "edge": "79",
+     "firefox": "127",
+     "firefox_android": "127",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.Clipboard.writeText": {
+    "baseline": "high",
+    "baseline_high_date": "2022-09-24",
+    "baseline_low_date": "2020-03-24",
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "firefox": "63",
+     "firefox_android": "63",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.ClipboardItem": {
+    "baseline": "low",
+    "baseline_low_date": "2024-06-11",
+    "support": {
+     "chrome": "76",
+     "chrome_android": "84",
+     "edge": "79",
+     "firefox": "127",
+     "firefox_android": "127",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.ClipboardItem.ClipboardItem": {
+    "baseline": "low",
+    "baseline_low_date": "2025-02-06",
+    "support": {
+     "chrome": "133",
+     "chrome_android": "98",
+     "edge": "133",
+     "firefox": "127",
+     "firefox_android": "127",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.ClipboardItem.getType": {
+    "baseline": "low",
+    "baseline_low_date": "2024-06-11",
+    "support": {
+     "chrome": "76",
+     "chrome_android": "84",
+     "edge": "79",
+     "firefox": "127",
+     "firefox_android": "127",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.ClipboardItem.presentationStyle": {
+    "baseline": false,
+    "support": {
+     "firefox": "127",
+     "firefox_android": "127",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.ClipboardItem.types": {
+    "baseline": "low",
+    "baseline_low_date": "2024-06-11",
+    "support": {
+     "chrome": "76",
+     "chrome_android": "84",
+     "edge": "79",
+     "firefox": "127",
+     "firefox_android": "127",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.Navigator.clipboard": {
+    "baseline": "high",
+    "baseline_high_date": "2022-09-24",
+    "baseline_low_date": "2020-03-24",
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "firefox": "63",
+     "firefox_android": "63",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.Permissions.permission_clipboard-write": {
+    "baseline": false,
+    "support": {
+     "chrome": "64",
+     "chrome_android": "64",
+     "edge": "79"
+    }
+   }
+  },
+  "support": {
+   "chrome": "76",
+   "chrome_android": "76",
+   "edge": "79",
+   "firefox": "127",
+   "firefox_android": "127",
+   "safari": "13.1",
+   "safari_ios": "13.4"
+  }
+ },
+ "id": "async-clipboard",
+ "groups": [
+  "clipboard"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/clipboard-apis/#async-clipboard-api",
+   "seriesComposition": "full",
+   "shortname": "clipboard-apis",
+   "series": {
+    "shortname": "clipboard-apis",
+    "currentSpecification": "clipboard-apis",
+    "title": "Clipboard API and events",
+    "shortTitle": "Clipboard API and events",
+    "releaseUrl": "https://www.w3.org/TR/clipboard-apis/",
+    "nightlyUrl": "https://w3c.github.io/clipboard-apis/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Editing Working Group",
+     "url": "https://www.w3.org/groups/wg/webediting/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/clipboard-apis/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/clipboard-apis/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/clipboard-apis",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Clipboard API and events",
+   "source": "w3c",
+   "shortTitle": "Clipboard API and events",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "clipboard-apis"
+    ]
+   },
+   "fragment": "async-clipboard-api"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Clipboard_API",
+   "title": "Clipboard API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Clipboard_API"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features_features_only",
+   "question": "usage",
+   "subQuestion": "html_interoperability_features_features_only",
+   "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features_features_only.freeform.allEditions.0.buckets.14.entity"
+  },
+  {
+   "name": "State of HTML 2024",
+   "url": "https://2024.stateofhtml.com/en-US/features/interactivity/#interactivity_features",
+   "question": "interactivity",
+   "subQuestion": "interactivity_features",
+   "path": "dataAPI.surveys.state_of_html.html2024.interactivity.interactivity_features.5.entity"
+  },
+  {
+   "name": "State of HTML 2024",
+   "url": "https://2024.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2024.features.all_features.14.entity"
+  }
+ ],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.0042507,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/121"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:async-clipboard"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2024-06-11T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2026-12-11"
+}

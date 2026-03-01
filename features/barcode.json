@@ -1,0 +1,125 @@
+{
+ "compat_features": [
+  "api.BarcodeDetector",
+  "api.BarcodeDetector.BarcodeDetector",
+  "api.BarcodeDetector.detect",
+  "api.BarcodeDetector.getSupportedFormats_static"
+ ],
+ "description": "The BarcodeDetector API recognizes various barcode formats in images.",
+ "description_html": "The <code>BarcodeDetector</code> API recognizes various barcode formats in images.",
+ "kind": "feature",
+ "name": "Barcode detector",
+ "spec": [
+  "https://wicg.github.io/shape-detection-api/#barcode-detection-api"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.BarcodeDetector": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "83"
+    }
+   },
+   "api.BarcodeDetector.BarcodeDetector": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "83"
+    }
+   },
+   "api.BarcodeDetector.detect": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "83"
+    }
+   },
+   "api.BarcodeDetector.getSupportedFormats_static": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "83"
+    }
+   }
+  },
+  "support": {
+   "chrome_android": "83"
+  }
+ },
+ "id": "barcode",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://wicg.github.io/shape-detection-api/#barcode-detection-api",
+   "seriesComposition": "full",
+   "shortname": "shape-detection-api",
+   "series": {
+    "shortname": "shape-detection-api",
+    "currentSpecification": "shape-detection-api",
+    "title": "Accelerated Shape Detection in Images",
+    "shortTitle": "Accelerated Shape Detection in Images",
+    "nightlyUrl": "https://wicg.github.io/shape-detection-api/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://wicg.github.io/shape-detection-api/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/WICG/shape-detection-api",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Accelerated Shape Detection in Images",
+   "source": "spec",
+   "shortTitle": "Accelerated Shape Detection in Images",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "shape-detection"
+    ]
+   },
+   "fragment": "barcode-detection-api"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Barcode_Detection_API",
+   "title": "Barcode Detection API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Barcode_Detection_API"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:barcode"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/121",
+  "votes": 2
+ },
+ "bugs": {
+  "chrome": [
+   "https://bugs.chromium.org/p/chromium/issues/detail?id=659138"
+  ],
+  "firefox": [
+   "https://bugzil.la/1553738"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/1553738"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

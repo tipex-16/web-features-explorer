@@ -1,0 +1,152 @@
+{
+ "compat_features": [
+  "api.BeforeInstallPromptEvent",
+  "api.BeforeInstallPromptEvent.BeforeInstallPromptEvent",
+  "api.BeforeInstallPromptEvent.platforms",
+  "api.BeforeInstallPromptEvent.prompt",
+  "api.BeforeInstallPromptEvent.userChoice",
+  "api.Window.appinstalled_event",
+  "api.Window.beforeinstallprompt_event"
+ ],
+ "description": "The beforeinstallprompt event fires when a Progressive Web App (PWA) is installable. You can cancel the event and later call event.prompt() to control when the installation prompt is shown. The appinstalled event fires when the PWA is successfully installed.",
+ "description_html": "The <code>beforeinstallprompt</code> event fires when a Progressive Web App (PWA) is installable. You can cancel the event and later call <code>event.prompt()</code> to control when the installation prompt is shown. The <code>appinstalled</code> event fires when the PWA is successfully installed.",
+ "group": [
+  "progressive-web-app"
+ ],
+ "kind": "feature",
+ "name": "beforeinstallprompt",
+ "spec": [
+  "https://wicg.github.io/manifest-incubations/#installation-events"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.BeforeInstallPromptEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "44",
+     "chrome_android": "44",
+     "edge": "79"
+    }
+   },
+   "api.BeforeInstallPromptEvent.BeforeInstallPromptEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "44",
+     "chrome_android": "44",
+     "edge": "79"
+    }
+   },
+   "api.BeforeInstallPromptEvent.platforms": {
+    "baseline": false,
+    "support": {
+     "chrome": "44",
+     "chrome_android": "44",
+     "edge": "79"
+    }
+   },
+   "api.BeforeInstallPromptEvent.prompt": {
+    "baseline": false,
+    "support": {
+     "chrome": "76",
+     "chrome_android": "76",
+     "edge": "79"
+    }
+   },
+   "api.BeforeInstallPromptEvent.userChoice": {
+    "baseline": false,
+    "support": {
+     "chrome": "44",
+     "chrome_android": "44",
+     "edge": "79"
+    }
+   },
+   "api.Window.appinstalled_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "64",
+     "chrome_android": "57",
+     "edge": "79"
+    }
+   },
+   "api.Window.beforeinstallprompt_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79"
+    }
+   }
+  },
+  "support": {
+   "chrome": "76",
+   "chrome_android": "76",
+   "edge": "79"
+  }
+ },
+ "id": "beforeinstallprompt",
+ "groups": [
+  "progressive-web-app"
+ ],
+ "specs": [
+  {
+   "url": "https://wicg.github.io/manifest-incubations/#installation-events",
+   "seriesComposition": "full",
+   "shortname": "manifest-incubations",
+   "series": {
+    "shortname": "manifest-incubations",
+    "currentSpecification": "manifest-incubations",
+    "title": "Manifest Incubations",
+    "shortTitle": "Manifest Incubations",
+    "nightlyUrl": "https://wicg.github.io/manifest-incubations/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://wicg.github.io/manifest-incubations/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/WICG/manifest-incubations",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Manifest Incubations",
+   "source": "spec",
+   "shortTitle": "Manifest Incubations",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": "installation-events"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Window/beforeinstallprompt_event",
+   "title": "Window: beforeinstallprompt event",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Window/beforeinstallprompt_event"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.13064917,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/303"
+ },
+ "interop": [],
+ "wpt": null,
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/106",
+  "votes": 6
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

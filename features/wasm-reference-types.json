@@ -1,0 +1,73 @@
+{
+ "caniuse": [
+  "wasm-reference-types"
+ ],
+ "compat_features": [
+  "webassembly.reference-types"
+ ],
+ "description": "The externref type can be both a value type and a table element type, while funcref can be a value type.",
+ "description_html": "The <code>externref</code> type can be both a value type and a table element type, while <code>funcref</code> can be a value type.",
+ "group": [
+  "webassembly"
+ ],
+ "kind": "feature",
+ "name": "Reference types (WebAssembly)",
+ "spec": [
+  "https://github.com/WebAssembly/spec/blob/main/proposals/reference-types/Overview.md"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2024-05-19",
+  "baseline_low_date": "2021-11-19",
+  "by_compat_key": {
+   "webassembly.reference-types": {
+    "baseline": "high",
+    "baseline_high_date": "2024-05-19",
+    "baseline_low_date": "2021-11-19",
+    "support": {
+     "chrome": "96",
+     "chrome_android": "96",
+     "edge": "96",
+     "firefox": "79",
+     "firefox_android": "79",
+     "safari": "15.1",
+     "safari_ios": "15.1"
+    }
+   }
+  },
+  "support": {
+   "chrome": "96",
+   "chrome_android": "96",
+   "edge": "96",
+   "firefox": "79",
+   "firefox_android": "79",
+   "safari": "15.1",
+   "safari_ios": "15.1"
+  }
+ },
+ "id": "wasm-reference-types",
+ "groups": [
+  "webassembly"
+ ],
+ "specs": [
+  {
+   "url": "https://github.com/WebAssembly/spec/blob/main/proposals/reference-types/Overview.md"
+  }
+ ],
+ "mdnUrls": [],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00737936,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/360"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:wasm-reference-types"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2021-11-19T00:00:00.000Z",
+ "baselineHighDateAsObject": "2024-05-19T00:00:00.000Z"
+}

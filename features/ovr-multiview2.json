@@ -1,0 +1,104 @@
+{
+ "compat_features": [
+  "api.OVR_multiview2",
+  "api.OVR_multiview2.framebufferTextureMultiviewOVR"
+ ],
+ "description": "The OVR_multiview2 extension for WebGL 2.0 contexts renders into multiple views simultaneously. This especially useful for virtual reality (VR) and WebXR.",
+ "description_html": "The <code>OVR_multiview2</code> extension for WebGL 2.0 contexts renders into multiple views simultaneously. This especially useful for virtual reality (VR) and WebXR.",
+ "group": [
+  "webgl-extensions"
+ ],
+ "kind": "feature",
+ "name": "OVR_multiview2 WebGL extension",
+ "spec": [
+  "https://registry.khronos.org/webgl/extensions/OVR_multiview2/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.OVR_multiview2": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "93"
+    }
+   },
+   "api.OVR_multiview2.framebufferTextureMultiviewOVR": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "93"
+    }
+   }
+  },
+  "support": {
+   "chrome_android": "93"
+  }
+ },
+ "id": "ovr-multiview2",
+ "groups": [
+  "webgl-extensions"
+ ],
+ "specs": [
+  {
+   "url": "https://registry.khronos.org/webgl/extensions/OVR_multiview2/",
+   "seriesComposition": "full",
+   "shortname": "OVR_multiview2",
+   "series": {
+    "shortname": "OVR_multiview2",
+    "currentSpecification": "OVR_multiview2",
+    "title": "WebGL OVR_multiview2 Extension Specification",
+    "shortTitle": "WebGL OVR_multiview2 Extension",
+    "nightlyUrl": "https://registry.khronos.org/webgl/extensions/OVR_multiview2/"
+   },
+   "organization": "Khronos Group",
+   "groups": [
+    {
+     "name": "WebGL Working Group",
+     "url": "https://www.khronos.org/webgl/"
+    }
+   ],
+   "nightly": {
+    "url": "https://registry.khronos.org/webgl/extensions/OVR_multiview2/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "sourcePath": "extensions/OVR_multiview2/extension.xml",
+    "filename": "index.html"
+   },
+   "title": "WebGL OVR_multiview2 Extension Specification",
+   "source": "spec",
+   "shortTitle": "WebGL OVR_multiview2 Extension",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "testPaths": [
+     "conformance-suites"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/OVR_multiview2",
+   "title": "OVR_multiview2 extension",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/OVR_multiview2"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/147",
+  "votes": 0
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

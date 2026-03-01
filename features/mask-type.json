@@ -1,0 +1,146 @@
+{
+ "compat_features": [
+  "css.properties.mask-type",
+  "css.properties.mask-type.alpha",
+  "css.properties.mask-type.luminance"
+ ],
+ "description": "The mask-type CSS property on an SVG <mask> element sets whether the mask is a luminance or alpha mask.",
+ "description_html": "The <code>mask-type</code> CSS property on an SVG <code>&#x3C;mask></code> element sets whether the mask is a <code>luminance</code> or <code>alpha</code> mask.",
+ "group": [
+  "clipping-shapes-masking"
+ ],
+ "kind": "feature",
+ "name": "mask-type",
+ "spec": [
+  "https://drafts.csswg.org/css-masking-1/#the-mask-type"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2022-07-15",
+  "baseline_low_date": "2020-01-15",
+  "by_compat_key": {
+   "css.properties.mask-type": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "24",
+     "chrome_android": "25",
+     "edge": "79",
+     "firefox": "35",
+     "firefox_android": "35",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "css.properties.mask-type.alpha": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "24",
+     "chrome_android": "25",
+     "edge": "79",
+     "firefox": "35",
+     "firefox_android": "35",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "css.properties.mask-type.luminance": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "24",
+     "chrome_android": "25",
+     "edge": "79",
+     "firefox": "35",
+     "firefox_android": "35",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   }
+  },
+  "support": {
+   "chrome": "24",
+   "chrome_android": "25",
+   "edge": "79",
+   "firefox": "35",
+   "firefox_android": "35",
+   "safari": "7",
+   "safari_ios": "7"
+  }
+ },
+ "id": "mask-type",
+ "groups": [
+  "clipping-shapes-masking"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-masking-1/#the-mask-type",
+   "seriesComposition": "full",
+   "shortname": "css-masking-1",
+   "series": {
+    "shortname": "css-masking",
+    "currentSpecification": "css-masking-1",
+    "title": "CSS Masking",
+    "shortTitle": "CSS Masking",
+    "releaseUrl": "https://www.w3.org/TR/css-masking/",
+    "nightlyUrl": "https://drafts.csswg.org/css-masking/"
+   },
+   "seriesVersion": "1",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-masking-1/",
+    "status": "Candidate Recommendation Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-masking-1/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-masking-1/",
+     "https://w3c.github.io/csswg-drafts/css-masking/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-masking-1/Overview.bs",
+    "filename": "Overview.html"
+   },
+   "title": "CSS Masking Module Level 1",
+   "source": "w3c",
+   "shortTitle": "CSS Masking 1",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": "the-mask-type"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/mask-type",
+   "title": "mask-type",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-type"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:mask-type"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2020-01-15T00:00:00.000Z",
+ "baselineHighDateAsObject": "2022-07-15T00:00:00.000Z"
+}

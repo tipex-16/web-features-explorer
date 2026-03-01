@@ -1,0 +1,133 @@
+{
+ "compat_features": [
+  "http.headers.Early-Data",
+  "http.status.425"
+ ],
+ "description": "TLS 1.3 sessions may be resumed more quickly by sending so-called early data to servers before the TLS handshake has finished. Also known as zero round-trip time resumption or 0-RTT.",
+ "description_html": "TLS 1.3 sessions may be resumed more quickly by sending so-called early data to servers before the TLS handshake has finished. Also known as zero round-trip time resumption or 0-RTT.",
+ "kind": "feature",
+ "name": "Early data",
+ "spec": [
+  "https://httpwg.org/specs/rfc8470.html"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "http.headers.Early-Data": {
+    "baseline": false,
+    "support": {
+     "firefox": "58",
+     "firefox_android": "58"
+    }
+   },
+   "http.status.425": {
+    "baseline": false,
+    "support": {
+     "firefox": "58",
+     "firefox_android": "58"
+    }
+   }
+  },
+  "support": {
+   "firefox": "58",
+   "firefox_android": "58"
+  }
+ },
+ "id": "early-data",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://httpwg.org/specs/rfc8470.html",
+   "seriesComposition": "full",
+   "shortname": "rfc8470",
+   "series": {
+    "shortname": "rfc8470",
+    "currentSpecification": "rfc8470",
+    "title": "Using Early Data in HTTP",
+    "shortTitle": "Using Early Data in HTTP",
+    "nightlyUrl": "https://httpwg.org/specs/rfc8470.html"
+   },
+   "organization": "IETF",
+   "groups": [
+    {
+     "name": "HTTP Working Group",
+     "url": "https://datatracker.ietf.org/wg/httpbis/"
+    }
+   ],
+   "nightly": {
+    "url": "https://httpwg.org/specs/rfc8470.html",
+    "status": "Proposed Standard",
+    "alternateUrls": [
+     "https://datatracker.ietf.org/doc/html/rfc8470",
+     "https://tools.ietf.org/html/rfc8470"
+    ],
+    "repository": "https://github.com/httpwg/httpwg.github.io",
+    "sourcePath": "specs/rfc8470.xml",
+    "filename": "rfc8470.html"
+   },
+   "title": "Using Early Data in HTTP",
+   "source": "ietf",
+   "shortTitle": "Using Early Data in HTTP",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/HTTP/Reference/Headers/Early-Data",
+   "title": "Early-Data header",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Early-Data"
+  },
+  {
+   "slug": "Web/HTTP/Reference/Status/425",
+   "title": "425 Too Early",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Status/425"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:early-data"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/78",
+  "votes": 0
+ },
+ "bugs": {
+  "chrome": [
+   "https://crbug.com/789599",
+   "https://crbug.com/41272059"
+  ],
+  "chrome_android": [
+   "https://crbug.com/41272059"
+  ],
+  "edge": [
+   "https://crbug.com/41272059"
+  ],
+  "oculus": [
+   "https://crbug.com/41272059"
+  ],
+  "opera": [
+   "https://crbug.com/41272059"
+  ],
+  "opera_android": [
+   "https://crbug.com/41272059"
+  ],
+  "samsunginternet_android": [
+   "https://crbug.com/41272059"
+  ],
+  "webview_android": [
+   "https://crbug.com/41272059"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

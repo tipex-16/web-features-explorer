@@ -1,0 +1,177 @@
+{
+ "caniuse": [
+  "requestidlecallback"
+ ],
+ "compat_features": [
+  "api.IdleDeadline",
+  "api.IdleDeadline.didTimeout",
+  "api.IdleDeadline.timeRemaining",
+  "api.Window.cancelIdleCallback",
+  "api.Window.requestIdleCallback"
+ ],
+ "description": "The requestIdleCallback() API queues a function that runs in idle browser time, either at the end of a frame or when the user is inactive. Also known as the background tasks API.",
+ "description_html": "The <code>requestIdleCallback()</code> API queues a function that runs in idle browser time, either at the end of a frame or when the user is inactive. Also known as the background tasks API.",
+ "kind": "feature",
+ "name": "requestIdleCallback()",
+ "spec": [
+  "https://w3c.github.io/requestidlecallback/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.IdleDeadline": {
+    "baseline": false,
+    "support": {
+     "chrome": "47",
+     "chrome_android": "47",
+     "edge": "79",
+     "firefox": "55",
+     "firefox_android": "55"
+    }
+   },
+   "api.IdleDeadline.didTimeout": {
+    "baseline": false,
+    "support": {
+     "chrome": "47",
+     "chrome_android": "47",
+     "edge": "79",
+     "firefox": "55",
+     "firefox_android": "55"
+    }
+   },
+   "api.IdleDeadline.timeRemaining": {
+    "baseline": false,
+    "support": {
+     "chrome": "47",
+     "chrome_android": "47",
+     "edge": "79",
+     "firefox": "55",
+     "firefox_android": "55"
+    }
+   },
+   "api.Window.cancelIdleCallback": {
+    "baseline": false,
+    "support": {
+     "chrome": "47",
+     "chrome_android": "47",
+     "edge": "79",
+     "firefox": "55",
+     "firefox_android": "55"
+    }
+   },
+   "api.Window.requestIdleCallback": {
+    "baseline": false,
+    "support": {
+     "chrome": "47",
+     "chrome_android": "47",
+     "edge": "79",
+     "firefox": "55",
+     "firefox_android": "55"
+    }
+   }
+  },
+  "support": {
+   "chrome": "47",
+   "chrome_android": "47",
+   "edge": "79",
+   "firefox": "55",
+   "firefox_android": "55"
+  }
+ },
+ "id": "requestidlecallback",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/requestidlecallback/",
+   "seriesComposition": "full",
+   "shortname": "requestidlecallback",
+   "series": {
+    "shortname": "requestidlecallback",
+    "currentSpecification": "requestidlecallback",
+    "title": "requestIdleCallback()",
+    "shortTitle": "requestIdleCallback()",
+    "releaseUrl": "https://www.w3.org/TR/requestidlecallback/",
+    "nightlyUrl": "https://w3c.github.io/requestidlecallback/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Performance Working Group",
+     "url": "https://www.w3.org/groups/wg/webperf/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/requestidlecallback/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/requestidlecallback/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/requestidlecallback",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "requestIdleCallback()",
+   "source": "w3c",
+   "shortTitle": "requestIdleCallback()",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "requestidlecallback"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Window/requestIdleCallback",
+   "title": "Window: requestIdleCallback() method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Window/requestIdleCallback"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.45167381,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/338"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:requestidlecallback"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/52",
+  "votes": 3
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1198381"
+  ],
+  "safari": [
+   "https://webkit.org/b/164193",
+   "https://webkit.org/b/285049"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/164193",
+   "https://webkit.org/b/285049"
+  ],
+  "webview_ios": [
+   "https://webkit.org/b/164193",
+   "https://webkit.org/b/285049"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Safari",
+ "monthsBlocked": 74,
+ "blockedSince": "January 2020"
+}

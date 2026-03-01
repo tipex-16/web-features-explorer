@@ -1,0 +1,101 @@
+{
+ "caniuse": [
+  "intersectionobserver-v2"
+ ],
+ "description": "The trackVisibility parameter for the IntersectionObserver constructor enables tracking the visibility of an element, to detect if it may be obscured by other content or visual effects. Also known as IntersectionObserver v2.",
+ "description_html": "The <code>trackVisibility</code> parameter for the <code>IntersectionObserver</code> constructor enables tracking the visibility of an element, to detect if it may be obscured by other content or visual effects. Also known as IntersectionObserver v2.",
+ "kind": "feature",
+ "name": "Intersection observer visibility tracking",
+ "spec": [
+  "https://w3c.github.io/IntersectionObserver/#calculate-visibility-algo"
+ ],
+ "status": {
+  "baseline": false,
+  "support": {
+   "chrome": "74",
+   "chrome_android": "74",
+   "edge": "79"
+  }
+ },
+ "id": "intersection-observer-v2",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/IntersectionObserver/#calculate-visibility-algo",
+   "seriesComposition": "full",
+   "shortname": "intersection-observer",
+   "series": {
+    "shortname": "intersection-observer",
+    "currentSpecification": "intersection-observer",
+    "title": "Intersection Observer",
+    "shortTitle": "Intersection Observer",
+    "releaseUrl": "https://www.w3.org/TR/intersection-observer/",
+    "nightlyUrl": "https://w3c.github.io/IntersectionObserver/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Applications Working Group",
+     "url": "https://www.w3.org/groups/wg/webapps/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/intersection-observer/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/IntersectionObserver/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/IntersectionObserver",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Intersection Observer",
+   "source": "w3c",
+   "shortTitle": "Intersection Observer",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "intersection-observer"
+    ]
+   },
+   "fragment": "calculate-visibility-algo"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Intersection_Observer_API",
+   "title": "Intersection Observer API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Intersection_Observer_API"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.09268901,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/44"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:intersection-observer-v2"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/98",
+  "votes": 0
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1896900"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

@@ -1,0 +1,121 @@
+{
+ "compat_features": [
+  "manifests.webapp.protocol_handlers",
+  "manifests.webapp.protocol_handlers.protocol",
+  "manifests.webapp.protocol_handlers.url"
+ ],
+ "description": "The protocol_handlers web app manifest member registers an installed web app as a handler for a specific protocol. When a user follows a link with the specified protocol, the installed app opens the link.",
+ "description_html": "The <code>protocol_handlers</code> web app manifest member registers an installed web app as a handler for a specific protocol. When a user follows a link with the specified protocol, the installed app opens the link.",
+ "group": [
+  "progressive-web-app"
+ ],
+ "kind": "feature",
+ "name": "Protocol handlers",
+ "spec": [
+  "https://wicg.github.io/manifest-incubations/#protocol_handlers-member"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "manifests.webapp.protocol_handlers": {
+    "baseline": false,
+    "support": {
+     "chrome": "96",
+     "edge": "96"
+    }
+   },
+   "manifests.webapp.protocol_handlers.protocol": {
+    "baseline": false,
+    "support": {
+     "chrome": "96",
+     "edge": "96"
+    }
+   },
+   "manifests.webapp.protocol_handlers.url": {
+    "baseline": false,
+    "support": {
+     "chrome": "96",
+     "edge": "96"
+    }
+   }
+  },
+  "support": {
+   "chrome": "96",
+   "edge": "96"
+  }
+ },
+ "id": "app-protocol-handlers",
+ "groups": [
+  "progressive-web-app"
+ ],
+ "specs": [
+  {
+   "url": "https://wicg.github.io/manifest-incubations/#protocol_handlers-member",
+   "seriesComposition": "full",
+   "shortname": "manifest-incubations",
+   "series": {
+    "shortname": "manifest-incubations",
+    "currentSpecification": "manifest-incubations",
+    "title": "Manifest Incubations",
+    "shortTitle": "Manifest Incubations",
+    "nightlyUrl": "https://wicg.github.io/manifest-incubations/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://wicg.github.io/manifest-incubations/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/WICG/manifest-incubations",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Manifest Incubations",
+   "source": "spec",
+   "shortTitle": "Manifest Incubations",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": "protocol_handlers-member"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/Progressive_web_apps/Manifest/Reference/protocol_handlers",
+   "title": "protocol_handlers",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/Progressive_web_apps/Manifest/Reference/protocol_handlers"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/340",
+   "position": "defer",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00417461,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/300"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:app-protocol-handlers"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/157",
+  "votes": 4
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

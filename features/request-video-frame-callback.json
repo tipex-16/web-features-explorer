@@ -1,0 +1,156 @@
+{
+ "compat_features": [
+  "api.HTMLVideoElement.cancelVideoFrameCallback",
+  "api.HTMLVideoElement.requestVideoFrameCallback"
+ ],
+ "description": "The requestVideoFrameCallback() method for <video> schedules a function that runs with the next video frame. It is similar to requestAnimationFrame(), but for video.",
+ "description_html": "The <code>requestVideoFrameCallback()</code> method for <code>&#x3C;video></code> schedules a function that runs with the next video frame. It is similar to <code>requestAnimationFrame()</code>, but for video.",
+ "group": [
+  "media-elements"
+ ],
+ "kind": "feature",
+ "name": "requestVideoFrameCallback()",
+ "spec": [
+  "https://wicg.github.io/video-rvfc/"
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2024-10-29",
+  "by_compat_key": {
+   "api.HTMLVideoElement.cancelVideoFrameCallback": {
+    "baseline": "low",
+    "baseline_low_date": "2024-10-29",
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "firefox": "132",
+     "firefox_android": "132",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "api.HTMLVideoElement.requestVideoFrameCallback": {
+    "baseline": "low",
+    "baseline_low_date": "2024-10-29",
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "firefox": "132",
+     "firefox_android": "132",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   }
+  },
+  "support": {
+   "chrome": "83",
+   "chrome_android": "83",
+   "edge": "83",
+   "firefox": "132",
+   "firefox_android": "132",
+   "safari": "15.4",
+   "safari_ios": "15.4"
+  }
+ },
+ "id": "request-video-frame-callback",
+ "groups": [
+  "media-elements"
+ ],
+ "specs": [
+  {
+   "url": "https://wicg.github.io/video-rvfc/",
+   "seriesComposition": "full",
+   "shortname": "video-rvfc",
+   "series": {
+    "shortname": "video-rvfc",
+    "currentSpecification": "video-rvfc",
+    "title": "HTMLVideoElement.requestVideoFrameCallback()",
+    "shortTitle": "HTMLVideoElement.requestVideoFrameCallback()",
+    "nightlyUrl": "https://wicg.github.io/video-rvfc/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://wicg.github.io/video-rvfc/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/WICG/video-rvfc",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "HTMLVideoElement.requestVideoFrameCallback()",
+   "source": "spec",
+   "shortTitle": "HTMLVideoElement.requestVideoFrameCallback()",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "video-rvfc"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/HTMLVideoElement/cancelVideoFrameCallback",
+   "title": "HTMLVideoElement: cancelVideoFrameCallback() method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLVideoElement/cancelVideoFrameCallback"
+  },
+  {
+   "slug": "Web/API/HTMLVideoElement/requestVideoFrameCallback",
+   "title": "HTMLVideoElement: requestVideoFrameCallback() method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLVideoElement/requestVideoFrameCallback"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/250",
+   "position": "positive",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00684889,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/154"
+ },
+ "interop": [
+  {
+   "year": 2024,
+   "label": "interop-2024-video-rvfc",
+   "url": "https://wpt.fyi/interop-2024?feature=interop-2024-video-rvfc"
+  }
+ ],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:request-video-frame-callback"
+ },
+ "developerSignals": null,
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1800882",
+   "https://bugzil.la/1908245"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/1800882",
+   "https://bugzil.la/1908245"
+  ]
+ },
+ "baselineLowDateAsObject": "2024-10-29T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2027-04-29"
+}

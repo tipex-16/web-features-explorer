@@ -1,0 +1,371 @@
+{
+ "compat_features": [
+  "api.EventTarget.when",
+  "api.Observable",
+  "api.Observable.Observable",
+  "api.Observable.catch",
+  "api.Observable.drop",
+  "api.Observable.every",
+  "api.Observable.filter",
+  "api.Observable.finally",
+  "api.Observable.find",
+  "api.Observable.first",
+  "api.Observable.flatMap",
+  "api.Observable.forEach",
+  "api.Observable.from_static",
+  "api.Observable.inspect",
+  "api.Observable.last",
+  "api.Observable.map",
+  "api.Observable.reduce",
+  "api.Observable.some",
+  "api.Observable.subscribe",
+  "api.Observable.switchMap",
+  "api.Observable.take",
+  "api.Observable.takeUntil",
+  "api.Observable.toArray",
+  "api.Subscriber",
+  "api.Subscriber.active",
+  "api.Subscriber.addTeardown",
+  "api.Subscriber.complete",
+  "api.Subscriber.error",
+  "api.Subscriber.next",
+  "api.Subscriber.signal"
+ ],
+ "description": "The when() method on a event target returns an Observable object, which provides a declarative API for subscribing to and operating on events. It's an alternative to addEventListener() callbacks.",
+ "description_html": "The <code>when()</code> method on a event target returns an <code>Observable</code> object, which provides a declarative API for subscribing to and operating on events. It's an alternative to <code>addEventListener()</code> callbacks.",
+ "kind": "feature",
+ "name": "Observable",
+ "spec": [
+  "https://wicg.github.io/observable/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.EventTarget.when": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "api.Observable": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "api.Observable.Observable": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "api.Observable.catch": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "api.Observable.drop": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "api.Observable.every": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "api.Observable.filter": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "api.Observable.finally": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "api.Observable.find": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "api.Observable.first": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "api.Observable.flatMap": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "api.Observable.forEach": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "api.Observable.from_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "api.Observable.inspect": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "api.Observable.last": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "api.Observable.map": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "api.Observable.reduce": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "api.Observable.some": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "api.Observable.subscribe": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "api.Observable.switchMap": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "api.Observable.take": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "api.Observable.takeUntil": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "api.Observable.toArray": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "api.Subscriber": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "api.Subscriber.active": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "api.Subscriber.addTeardown": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "api.Subscriber.complete": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "api.Subscriber.error": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "api.Subscriber.next": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "api.Subscriber.signal": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   }
+  },
+  "support": {
+   "chrome": "135",
+   "chrome_android": "135",
+   "edge": "135"
+  }
+ },
+ "id": "observable",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://wicg.github.io/observable/",
+   "seriesComposition": "full",
+   "shortname": "observable",
+   "series": {
+    "shortname": "observable",
+    "currentSpecification": "observable",
+    "title": "Observable",
+    "shortTitle": "Observable",
+    "nightlyUrl": "https://wicg.github.io/observable/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://wicg.github.io/observable/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/WICG/observable",
+    "sourcePath": "spec.bs",
+    "filename": "index.html"
+   },
+   "title": "Observable",
+   "source": "spec",
+   "shortTitle": "Observable",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/945",
+   "concerns": [
+    "complexity",
+    "venue"
+   ],
+   "position": ""
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/292",
+   "position": "support",
+   "concerns": [
+    "venue"
+   ]
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00000193,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/348"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:observable"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/288",
+  "votes": 14
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1871732"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

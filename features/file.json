@@ -1,0 +1,712 @@
+{
+ "caniuse": [
+  "fileapi"
+ ],
+ "compat_features": [
+  "api.Blob",
+  "api.Blob.Blob",
+  "api.Blob.arrayBuffer",
+  "api.Blob.bytes",
+  "api.Blob.size",
+  "api.Blob.slice",
+  "api.Blob.stream",
+  "api.Blob.text",
+  "api.Blob.type",
+  "api.File",
+  "api.File.File",
+  "api.File.lastModified",
+  "api.File.name",
+  "api.FileList",
+  "api.FileList.item",
+  "api.FileList.length",
+  "api.FileReader",
+  "api.FileReader.FileReader",
+  "api.FileReader.abort",
+  "api.FileReader.abort_event",
+  "api.FileReader.error",
+  "api.FileReader.error_event",
+  "api.FileReader.load_event",
+  "api.FileReader.loadend_event",
+  "api.FileReader.loadstart_event",
+  "api.FileReader.progress_event",
+  "api.FileReader.readAsArrayBuffer",
+  "api.FileReader.readAsDataURL",
+  "api.FileReader.readAsText",
+  "api.FileReader.readyState",
+  "api.FileReader.result",
+  "api.FileReader.worker_support",
+  "api.FileReaderSync",
+  "api.FileReaderSync.FileReaderSync",
+  "api.FileReaderSync.readAsArrayBuffer",
+  "api.FileReaderSync.readAsDataURL",
+  "api.FileReaderSync.readAsText",
+  "api.FileReaderSync.worker_support",
+  "api.URL.createObjectURL_static",
+  "api.URL.revokeObjectURL_static"
+ ],
+ "description": "The File API represents and reads from file data and metadata. Typically, you get files through other APIs, such as the <input type=\"file\"> element or drag-and-drop events. You may also send file data to other APIs, such as creating images or drawing on canvases.",
+ "description_html": "The File API represents and reads from file data and metadata. Typically, you get files through other APIs, such as the <code>&#x3C;input type=\"file\"></code> element or drag-and-drop events. You may also send file data to other APIs, such as creating images or drawing on canvases.",
+ "kind": "feature",
+ "name": "File API",
+ "spec": [
+  "https://w3c.github.io/FileAPI/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2022-07-15",
+  "baseline_low_date": "2020-01-15",
+  "by_compat_key": {
+   "api.Blob": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "5",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.Blob.Blob": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "20",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "13",
+     "firefox_android": "14",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.Blob.arrayBuffer": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "76",
+     "chrome_android": "76",
+     "edge": "79",
+     "firefox": "69",
+     "firefox_android": "79",
+     "safari": "14",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.Blob.bytes": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-21",
+    "support": {
+     "chrome": "144",
+     "chrome_android": "144",
+     "edge": "144",
+     "firefox": "128",
+     "firefox_android": "128",
+     "safari": "18",
+     "safari_ios": "18"
+    }
+   },
+   "api.Blob.size": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "5",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.Blob.slice": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "21",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "13",
+     "firefox_android": "14",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.Blob.stream": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "76",
+     "chrome_android": "76",
+     "edge": "79",
+     "firefox": "69",
+     "firefox_android": "79",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.Blob.text": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "76",
+     "chrome_android": "76",
+     "edge": "79",
+     "firefox": "69",
+     "firefox_android": "79",
+     "safari": "14",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.Blob.type": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "5",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.File": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "13",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.File.File": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "38",
+     "chrome_android": "38",
+     "edge": "79",
+     "firefox": "28",
+     "firefox_android": "28",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.File.lastModified": {
+    "baseline": "high",
+    "baseline_high_date": "2021-04-02",
+    "baseline_low_date": "2018-10-02",
+    "support": {
+     "chrome": "13",
+     "chrome_android": "18",
+     "edge": "18",
+     "firefox": "15",
+     "firefox_android": "15",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "api.File.name": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "13",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.6",
+     "firefox_android": "4",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "api.FileList": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.FileList.item": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.FileList.length": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.FileReader": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.6",
+     "firefox_android": "32",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.FileReader.FileReader": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.6",
+     "firefox_android": "32",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.FileReader.abort": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.6",
+     "firefox_android": "32",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.FileReader.abort_event": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.6",
+     "firefox_android": "32",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.FileReader.error": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.6",
+     "firefox_android": "32",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.FileReader.error_event": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.6",
+     "firefox_android": "32",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.FileReader.load_event": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.6",
+     "firefox_android": "32",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.FileReader.loadend_event": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.6",
+     "firefox_android": "32",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.FileReader.loadstart_event": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "79",
+     "firefox_android": "79",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.FileReader.progress_event": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.6",
+     "firefox_android": "32",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.FileReader.readAsArrayBuffer": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.6",
+     "firefox_android": "32",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.FileReader.readAsDataURL": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.6",
+     "firefox_android": "32",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.FileReader.readAsText": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.6",
+     "firefox_android": "32",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.FileReader.readyState": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.6",
+     "firefox_android": "32",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.FileReader.result": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.6",
+     "firefox_android": "32",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.FileReader.worker_support": {
+    "baseline": "high",
+    "baseline_high_date": "2018-10-26",
+    "baseline_low_date": "2016-04-26",
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "46",
+     "firefox_android": "46",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.FileReaderSync": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "7",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "8",
+     "firefox_android": "8",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.FileReaderSync.FileReaderSync": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "7",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "8",
+     "firefox_android": "8",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.FileReaderSync.readAsArrayBuffer": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "9",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "8",
+     "firefox_android": "8",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.FileReaderSync.readAsDataURL": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "7",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "8",
+     "firefox_android": "8",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.FileReaderSync.readAsText": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "7",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "8",
+     "firefox_android": "8",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.FileReaderSync.worker_support": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "7",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "8",
+     "firefox_android": "8",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.URL.createObjectURL_static": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "32",
+     "chrome_android": "32",
+     "edge": "12",
+     "firefox": "19",
+     "firefox_android": "19",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.URL.revokeObjectURL_static": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "32",
+     "chrome_android": "32",
+     "edge": "12",
+     "firefox": "19",
+     "firefox_android": "19",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   }
+  },
+  "support": {
+   "chrome": "38",
+   "chrome_android": "38",
+   "edge": "79",
+   "firefox": "28",
+   "firefox_android": "28",
+   "safari": "10.1",
+   "safari_ios": "10.3"
+  }
+ },
+ "id": "file",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/FileAPI/",
+   "seriesComposition": "full",
+   "shortname": "FileAPI",
+   "series": {
+    "shortname": "FileAPI",
+    "currentSpecification": "FileAPI",
+    "title": "File API",
+    "shortTitle": "File API",
+    "releaseUrl": "https://www.w3.org/TR/FileAPI/",
+    "nightlyUrl": "https://w3c.github.io/FileAPI/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Applications Working Group",
+     "url": "https://www.w3.org/groups/wg/webapps/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/FileAPI/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/FileAPI/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/FileAPI",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "File API",
+   "source": "w3c",
+   "shortTitle": "File API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "FileAPI"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/File_API",
+   "title": "File API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/File_API"
+  },
+  {
+   "slug": "Web/HTML/Reference/Elements/input/file",
+   "title": "<input type=\"file\">",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/input/file"
+  },
+  {
+   "slug": "Web/API/DataTransferItem/getAsFile",
+   "title": "DataTransferItem: getAsFile() method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/DataTransferItem/getAsFile"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:file"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2020-01-15T00:00:00.000Z",
+ "baselineHighDateAsObject": "2022-07-15T00:00:00.000Z"
+}

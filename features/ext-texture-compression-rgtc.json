@@ -1,0 +1,106 @@
+{
+ "compat_features": [
+  "api.EXT_texture_compression_rgtc"
+ ],
+ "description": "The EXT_texture_compression_rgtc extension for WebGL 1.0 and 2.0 contexts adds RGTC compressed texture formats. RGTC is a block-based texture compression format suited for unsigned and signed red and red-green textures. Also known as Red-Green Texture Compression.",
+ "description_html": "The <code>EXT_texture_compression_rgtc</code> extension for WebGL 1.0 and 2.0 contexts adds RGTC compressed texture formats. RGTC is a block-based texture compression format suited for unsigned and signed red and red-green textures. Also known as Red-Green Texture Compression.",
+ "group": [
+  "webgl-extensions"
+ ],
+ "kind": "feature",
+ "name": "EXT_texture_compression_rgtc WebGL extension",
+ "spec": [
+  "https://registry.khronos.org/webgl/extensions/EXT_texture_compression_rgtc/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.EXT_texture_compression_rgtc": {
+    "baseline": false,
+    "support": {
+     "chrome": "93",
+     "chrome_android": "83",
+     "edge": "93",
+     "safari": "14.1"
+    }
+   }
+  },
+  "support": {
+   "chrome": "93",
+   "chrome_android": "83",
+   "edge": "93",
+   "safari": "14.1"
+  }
+ },
+ "id": "ext-texture-compression-rgtc",
+ "groups": [
+  "webgl-extensions"
+ ],
+ "specs": [
+  {
+   "url": "https://registry.khronos.org/webgl/extensions/EXT_texture_compression_rgtc/",
+   "seriesComposition": "full",
+   "shortname": "EXT_texture_compression_rgtc",
+   "series": {
+    "shortname": "EXT_texture_compression_rgtc",
+    "currentSpecification": "EXT_texture_compression_rgtc",
+    "title": "WebGL EXT_texture_compression_rgtc Extension Specification",
+    "shortTitle": "WebGL EXT_texture_compression_rgtc Extension",
+    "nightlyUrl": "https://registry.khronos.org/webgl/extensions/EXT_texture_compression_rgtc/"
+   },
+   "organization": "Khronos Group",
+   "groups": [
+    {
+     "name": "WebGL Working Group",
+     "url": "https://www.khronos.org/webgl/"
+    }
+   ],
+   "nightly": {
+    "url": "https://registry.khronos.org/webgl/extensions/EXT_texture_compression_rgtc/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "sourcePath": "extensions/EXT_texture_compression_rgtc/extension.xml",
+    "filename": "index.html"
+   },
+   "title": "WebGL EXT_texture_compression_rgtc Extension Specification",
+   "source": "spec",
+   "shortTitle": "WebGL EXT_texture_compression_rgtc Extension",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "testPaths": [
+     "conformance-suites"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/EXT_texture_compression_rgtc",
+   "title": "EXT_texture_compression_rgtc extension",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/EXT_texture_compression_rgtc"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00953077,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/382"
+ },
+ "interop": [],
+ "wpt": null,
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/120",
+  "votes": 0
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

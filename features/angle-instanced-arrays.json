@@ -1,0 +1,155 @@
+{
+ "compat_features": [
+  "api.ANGLE_instanced_arrays",
+  "api.ANGLE_instanced_arrays.drawArraysInstancedANGLE",
+  "api.ANGLE_instanced_arrays.drawElementsInstancedANGLE",
+  "api.ANGLE_instanced_arrays.vertexAttribDivisorANGLE"
+ ],
+ "description": "The ANGLE_instanced_arrays extension for WebGL 1.0 contexts draws the same object multiple times or groups of similar objects multiple times, if the group shares the same vertex data, primitive count and type.",
+ "description_html": "The <code>ANGLE_instanced_arrays</code> extension for WebGL 1.0 contexts draws the same object multiple times or groups of similar objects multiple times, if the group shares the same vertex data, primitive count and type.",
+ "group": [
+  "webgl-extensions"
+ ],
+ "kind": "feature",
+ "name": "ANGLE_instanced_arrays WebGL extension",
+ "spec": [
+  "https://registry.khronos.org/webgl/extensions/ANGLE_instanced_arrays/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-12-07",
+  "baseline_low_date": "2016-06-07",
+  "by_compat_key": {
+   "api.ANGLE_instanced_arrays": {
+    "baseline": "high",
+    "baseline_high_date": "2018-12-07",
+    "baseline_low_date": "2016-06-07",
+    "support": {
+     "chrome": "32",
+     "chrome_android": "30",
+     "edge": "12",
+     "firefox": "47",
+     "firefox_android": "47",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "api.ANGLE_instanced_arrays.drawArraysInstancedANGLE": {
+    "baseline": "high",
+    "baseline_high_date": "2018-12-07",
+    "baseline_low_date": "2016-06-07",
+    "support": {
+     "chrome": "32",
+     "chrome_android": "30",
+     "edge": "12",
+     "firefox": "47",
+     "firefox_android": "47",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "api.ANGLE_instanced_arrays.drawElementsInstancedANGLE": {
+    "baseline": "high",
+    "baseline_high_date": "2018-12-07",
+    "baseline_low_date": "2016-06-07",
+    "support": {
+     "chrome": "32",
+     "chrome_android": "30",
+     "edge": "12",
+     "firefox": "47",
+     "firefox_android": "47",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "api.ANGLE_instanced_arrays.vertexAttribDivisorANGLE": {
+    "baseline": "high",
+    "baseline_high_date": "2018-12-07",
+    "baseline_low_date": "2016-06-07",
+    "support": {
+     "chrome": "32",
+     "chrome_android": "30",
+     "edge": "12",
+     "firefox": "47",
+     "firefox_android": "47",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   }
+  },
+  "support": {
+   "chrome": "32",
+   "chrome_android": "30",
+   "edge": "12",
+   "firefox": "47",
+   "firefox_android": "47",
+   "safari": "8",
+   "safari_ios": "8"
+  }
+ },
+ "id": "angle-instanced-arrays",
+ "groups": [
+  "webgl-extensions"
+ ],
+ "specs": [
+  {
+   "url": "https://registry.khronos.org/webgl/extensions/ANGLE_instanced_arrays/",
+   "seriesComposition": "full",
+   "shortname": "ANGLE_instanced_arrays",
+   "series": {
+    "shortname": "ANGLE_instanced_arrays",
+    "currentSpecification": "ANGLE_instanced_arrays",
+    "title": "WebGL ANGLE_instanced_arrays Khronos Ratified Extension Specification",
+    "shortTitle": "WebGL ANGLE_instanced_arrays Khronos Ratified Extension",
+    "nightlyUrl": "https://registry.khronos.org/webgl/extensions/ANGLE_instanced_arrays/"
+   },
+   "organization": "Khronos Group",
+   "groups": [
+    {
+     "name": "WebGL Working Group",
+     "url": "https://www.khronos.org/webgl/"
+    }
+   ],
+   "nightly": {
+    "url": "https://registry.khronos.org/webgl/extensions/ANGLE_instanced_arrays/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "sourcePath": "extensions/ANGLE_instanced_arrays/extension.xml",
+    "filename": "index.html"
+   },
+   "title": "WebGL ANGLE_instanced_arrays Khronos Ratified Extension Specification",
+   "source": "spec",
+   "shortTitle": "WebGL ANGLE_instanced_arrays Khronos Ratified Extension",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "testPaths": [
+     "conformance-suites"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/ANGLE_instanced_arrays",
+   "title": "ANGLE_instanced_arrays",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/ANGLE_instanced_arrays"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2016-06-07T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-12-07T00:00:00.000Z"
+}

@@ -1,0 +1,273 @@
+{
+ "compat_features": [
+  "api.Navigator.canShare",
+  "api.Navigator.canShare.data_files_parameter",
+  "api.Navigator.canShare.data_text_parameter",
+  "api.Navigator.share",
+  "api.Navigator.share.data_files_parameter",
+  "api.Navigator.share.data_text_parameter",
+  "html.elements.iframe.allow.web-share",
+  "http.headers.Permissions-Policy.web-share"
+ ],
+ "description": "The navigator.share() method invokes the device's native sharing mechanism and passes text, links, files, and other content to share targets. Also known as the Web Share API.",
+ "description_html": "The <code>navigator.share()</code> method invokes the device's native sharing mechanism and passes text, links, files, and other content to share targets. Also known as the Web Share API.",
+ "kind": "feature",
+ "name": "navigator.share()",
+ "spec": [
+  "https://w3c.github.io/web-share/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Navigator.canShare": {
+    "baseline": false,
+    "support": {
+     "chrome": "128",
+     "chrome_android": "75",
+     "edge": "93",
+     "firefox_android": "96",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "api.Navigator.canShare.data_files_parameter": {
+    "baseline": false,
+    "support": {
+     "chrome": "128",
+     "chrome_android": "76",
+     "edge": "93",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "api.Navigator.canShare.data_text_parameter": {
+    "baseline": false,
+    "support": {
+     "chrome": "128",
+     "chrome_android": "76",
+     "edge": "93",
+     "firefox_android": "96",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "api.Navigator.share": {
+    "baseline": false,
+    "support": {
+     "chrome": "128",
+     "chrome_android": "61",
+     "edge": "93",
+     "firefox_android": "79",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Navigator.share.data_files_parameter": {
+    "baseline": false,
+    "support": {
+     "chrome": "128",
+     "chrome_android": "76",
+     "edge": "93",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "api.Navigator.share.data_text_parameter": {
+    "baseline": false,
+    "support": {
+     "chrome": "128",
+     "chrome_android": "76",
+     "edge": "93",
+     "firefox_android": "79",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "html.elements.iframe.allow.web-share": {
+    "baseline": false,
+    "support": {
+     "chrome": "86",
+     "chrome_android": "86",
+     "edge": "86",
+     "firefox": "81",
+     "firefox_android": "81"
+    }
+   },
+   "http.headers.Permissions-Policy.web-share": {
+    "baseline": false,
+    "support": {
+     "chrome": "88",
+     "chrome_android": "88",
+     "edge": "88"
+    }
+   }
+  },
+  "support": {
+   "chrome": "128",
+   "chrome_android": "61",
+   "edge": "93",
+   "firefox_android": "79",
+   "safari": "12.1",
+   "safari_ios": "12.2"
+  }
+ },
+ "id": "share",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/web-share/",
+   "seriesComposition": "full",
+   "shortname": "web-share",
+   "series": {
+    "shortname": "web-share",
+    "currentSpecification": "web-share",
+    "title": "Web Share API",
+    "shortTitle": "Web Share API",
+    "releaseUrl": "https://www.w3.org/TR/web-share/",
+    "nightlyUrl": "https://w3c.github.io/web-share/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Applications Working Group",
+     "url": "https://www.w3.org/groups/wg/webapps/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/web-share/",
+    "status": "Recommendation",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/web-share/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/web-share",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Web Share API",
+   "source": "w3c",
+   "shortTitle": "Web Share API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "web-share"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Web_Share_API",
+   "title": "Web Share API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Web_Share_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/27",
+   "position": "",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features_features_only",
+   "question": "usage",
+   "subQuestion": "html_interoperability_features_features_only",
+   "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features_features_only.freeform.allEditions.0.buckets.16.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/system_capabilities/#system_capabilities_pain_points_interop_issues_1",
+   "question": "system_capabilities",
+   "subQuestion": "system_capabilities_pain_points_interop_issues_1",
+   "path": "dataAPI.surveys.state_of_html.html2025.system_capabilities.system_capabilities_pain_points_interop_issues_1.freeform.allEditions.0.buckets.1.nestedBuckets.2.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/system_capabilities/#system_capabilities_pain_points_features",
+   "question": "system_capabilities",
+   "subQuestion": "system_capabilities_pain_points_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.system_capabilities.system_capabilities_pain_points_features.freeform.allEditions.0.buckets.2.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/system_capabilities/#system_capabilities_pain_points",
+   "question": "system_capabilities",
+   "subQuestion": "system_capabilities_pain_points",
+   "path": "dataAPI.surveys.state_of_html.html2025.system_capabilities.system_capabilities_pain_points.freeform.allEditions.0.buckets.1.nestedBuckets.2.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/system_capabilities/#system_capabilities_features",
+   "question": "system_capabilities",
+   "subQuestion": "system_capabilities_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.system_capabilities.system_capabilities_features.1.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.58.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+   "question": "_all_features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.58.entity"
+  },
+  {
+   "name": "State of HTML 2024",
+   "url": "https://2024.stateofhtml.com/en-US/features/#reading_list",
+   "question": "reading_list",
+   "subQuestion": "reading_list",
+   "path": "dataAPI.surveys.state_of_html.html2024.reading_list.reading_list.combined.allEditions.0.buckets.17.entity"
+  },
+  {
+   "name": "State of HTML 2024",
+   "url": "https://2024.stateofhtml.com/en-US/features/mobile-web-apps/#mobile_web_apps_features",
+   "question": "mobile_web_apps",
+   "subQuestion": "mobile_web_apps_features",
+   "path": "dataAPI.surveys.state_of_html.html2024.mobile_web_apps.mobile_web_apps_features.2.entity"
+  },
+  {
+   "name": "State of HTML 2024",
+   "url": "https://2024.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2024.features.all_features.44.entity"
+  }
+ ],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:share"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/76",
+  "votes": 12
+ },
+ "bugs": {
+  "webview_android": [
+   "https://crbug.com/40540400"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Firefox",
+ "monthsBlocked": 19,
+ "blockedSince": "August 2024"
+}

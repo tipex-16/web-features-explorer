@@ -1,0 +1,172 @@
+{
+ "compat_features": [
+  "api.SharedStorage.batchUpdate",
+  "api.SharedStorageAppendMethod",
+  "api.SharedStorageAppendMethod.SharedStorageAppendMethod",
+  "api.SharedStorageClearMethod",
+  "api.SharedStorageClearMethod.SharedStorageClearMethod",
+  "api.SharedStorageDeleteMethod",
+  "api.SharedStorageDeleteMethod.SharedStorageDeleteMethod",
+  "api.SharedStorageModifierMethod",
+  "api.SharedStorageSetMethod",
+  "api.SharedStorageSetMethod.SharedStorageSetMethod"
+ ],
+ "description": "The withLock option to set(), append(), delete(), clear(), and batchUpdate() methods of the sharedStorage API prevents duplicate reporting from cross-site race conditions.",
+ "description_html": "The <code>withLock</code> option to <code>set()</code>, <code>append()</code>, <code>delete()</code>, <code>clear()</code>, and <code>batchUpdate()</code> methods of the <code>sharedStorage</code> API prevents duplicate reporting from cross-site race conditions.",
+ "discouraged": {
+  "according_to": [
+   "https://groups.google.com/a/chromium.org/g/blink-dev/c/uh5Ke6qyegc",
+   "https://chromestatus.com/feature/5076349064708096"
+  ],
+  "reason": "Following the announcement that Chrome will maintain its current approach to third-party cookies, Chrome decided to withdraw certain Privacy Sandbox features including shared storage locks.",
+  "reason_html": "Following the announcement that Chrome will maintain its current approach to third-party cookies, Chrome decided to withdraw certain Privacy Sandbox features including shared storage locks.",
+  "removal_date": "2026-06-01"
+ },
+ "kind": "feature",
+ "name": "Shared storage locks",
+ "spec": [
+  "https://wicg.github.io/shared-storage/#web-locks-integration"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.SharedStorage.batchUpdate": {
+    "baseline": false,
+    "support": {
+     "chrome": "134",
+     "chrome_android": "134",
+     "edge": "134"
+    }
+   },
+   "api.SharedStorageAppendMethod": {
+    "baseline": false,
+    "support": {
+     "chrome": "134",
+     "chrome_android": "134",
+     "edge": "134"
+    }
+   },
+   "api.SharedStorageAppendMethod.SharedStorageAppendMethod": {
+    "baseline": false,
+    "support": {
+     "chrome": "134",
+     "chrome_android": "134",
+     "edge": "134"
+    }
+   },
+   "api.SharedStorageClearMethod": {
+    "baseline": false,
+    "support": {
+     "chrome": "134",
+     "chrome_android": "134",
+     "edge": "134"
+    }
+   },
+   "api.SharedStorageClearMethod.SharedStorageClearMethod": {
+    "baseline": false,
+    "support": {
+     "chrome": "134",
+     "chrome_android": "134",
+     "edge": "134"
+    }
+   },
+   "api.SharedStorageDeleteMethod": {
+    "baseline": false,
+    "support": {
+     "chrome": "134",
+     "chrome_android": "134",
+     "edge": "134"
+    }
+   },
+   "api.SharedStorageDeleteMethod.SharedStorageDeleteMethod": {
+    "baseline": false,
+    "support": {
+     "chrome": "134",
+     "chrome_android": "134",
+     "edge": "134"
+    }
+   },
+   "api.SharedStorageModifierMethod": {
+    "baseline": false,
+    "support": {
+     "chrome": "134",
+     "chrome_android": "134",
+     "edge": "134"
+    }
+   },
+   "api.SharedStorageSetMethod": {
+    "baseline": false,
+    "support": {
+     "chrome": "134",
+     "chrome_android": "134",
+     "edge": "134"
+    }
+   },
+   "api.SharedStorageSetMethod.SharedStorageSetMethod": {
+    "baseline": false,
+    "support": {
+     "chrome": "134",
+     "chrome_android": "134",
+     "edge": "134"
+    }
+   }
+  },
+  "support": {
+   "chrome": "134",
+   "chrome_android": "134",
+   "edge": "134"
+  }
+ },
+ "id": "shared-storage-locks",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://wicg.github.io/shared-storage/#web-locks-integration",
+   "seriesComposition": "full",
+   "shortname": "shared-storage",
+   "series": {
+    "shortname": "shared-storage",
+    "currentSpecification": "shared-storage",
+    "title": "Shared Storage API",
+    "shortTitle": "Shared Storage API",
+    "nightlyUrl": "https://wicg.github.io/shared-storage/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://wicg.github.io/shared-storage/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/WICG/shared-storage",
+    "sourcePath": "spec.bs",
+    "filename": "index.html"
+   },
+   "title": "Shared Storage API",
+   "source": "spec",
+   "shortTitle": "Shared Storage API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": "web-locks-integration"
+  }
+ ],
+ "mdnUrls": [],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:shared-storage-locks"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

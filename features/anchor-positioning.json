@@ -1,0 +1,3365 @@
+{
+ "caniuse": [
+  "css-anchor-positioning"
+ ],
+ "compat_features": [
+  "api.CSSPositionTryDescriptors",
+  "api.CSSPositionTryDescriptors.align-self",
+  "api.CSSPositionTryDescriptors.alignSelf",
+  "api.CSSPositionTryDescriptors.block-size",
+  "api.CSSPositionTryDescriptors.blockSize",
+  "api.CSSPositionTryDescriptors.bottom",
+  "api.CSSPositionTryDescriptors.height",
+  "api.CSSPositionTryDescriptors.inline-size",
+  "api.CSSPositionTryDescriptors.inlineSize",
+  "api.CSSPositionTryDescriptors.inset",
+  "api.CSSPositionTryDescriptors.inset-block",
+  "api.CSSPositionTryDescriptors.inset-block-end",
+  "api.CSSPositionTryDescriptors.inset-block-start",
+  "api.CSSPositionTryDescriptors.inset-inline",
+  "api.CSSPositionTryDescriptors.inset-inline-end",
+  "api.CSSPositionTryDescriptors.inset-inline-start",
+  "api.CSSPositionTryDescriptors.insetBlock",
+  "api.CSSPositionTryDescriptors.insetBlockEnd",
+  "api.CSSPositionTryDescriptors.insetBlockStart",
+  "api.CSSPositionTryDescriptors.insetInline",
+  "api.CSSPositionTryDescriptors.insetInlineEnd",
+  "api.CSSPositionTryDescriptors.insetInlineStart",
+  "api.CSSPositionTryDescriptors.justify-self",
+  "api.CSSPositionTryDescriptors.justifySelf",
+  "api.CSSPositionTryDescriptors.left",
+  "api.CSSPositionTryDescriptors.margin",
+  "api.CSSPositionTryDescriptors.margin-block",
+  "api.CSSPositionTryDescriptors.margin-block-end",
+  "api.CSSPositionTryDescriptors.margin-block-start",
+  "api.CSSPositionTryDescriptors.margin-bottom",
+  "api.CSSPositionTryDescriptors.margin-inline",
+  "api.CSSPositionTryDescriptors.margin-inline-end",
+  "api.CSSPositionTryDescriptors.margin-inline-start",
+  "api.CSSPositionTryDescriptors.margin-left",
+  "api.CSSPositionTryDescriptors.margin-right",
+  "api.CSSPositionTryDescriptors.margin-top",
+  "api.CSSPositionTryDescriptors.marginBlock",
+  "api.CSSPositionTryDescriptors.marginBlockEnd",
+  "api.CSSPositionTryDescriptors.marginBlockStart",
+  "api.CSSPositionTryDescriptors.marginBottom",
+  "api.CSSPositionTryDescriptors.marginInline",
+  "api.CSSPositionTryDescriptors.marginInlineEnd",
+  "api.CSSPositionTryDescriptors.marginInlineStart",
+  "api.CSSPositionTryDescriptors.marginLeft",
+  "api.CSSPositionTryDescriptors.marginRight",
+  "api.CSSPositionTryDescriptors.marginTop",
+  "api.CSSPositionTryDescriptors.max-block-size",
+  "api.CSSPositionTryDescriptors.max-height",
+  "api.CSSPositionTryDescriptors.max-inline-size",
+  "api.CSSPositionTryDescriptors.max-width",
+  "api.CSSPositionTryDescriptors.maxBlockSize",
+  "api.CSSPositionTryDescriptors.maxHeight",
+  "api.CSSPositionTryDescriptors.maxInlineSize",
+  "api.CSSPositionTryDescriptors.maxWidth",
+  "api.CSSPositionTryDescriptors.min-block-size",
+  "api.CSSPositionTryDescriptors.min-height",
+  "api.CSSPositionTryDescriptors.min-inline-size",
+  "api.CSSPositionTryDescriptors.min-width",
+  "api.CSSPositionTryDescriptors.minBlockSize",
+  "api.CSSPositionTryDescriptors.minHeight",
+  "api.CSSPositionTryDescriptors.minInlineSize",
+  "api.CSSPositionTryDescriptors.minWidth",
+  "api.CSSPositionTryDescriptors.place-self",
+  "api.CSSPositionTryDescriptors.placeSelf",
+  "api.CSSPositionTryDescriptors.position-anchor",
+  "api.CSSPositionTryDescriptors.position-area",
+  "api.CSSPositionTryDescriptors.positionAnchor",
+  "api.CSSPositionTryDescriptors.positionArea",
+  "api.CSSPositionTryDescriptors.right",
+  "api.CSSPositionTryDescriptors.top",
+  "api.CSSPositionTryDescriptors.width",
+  "api.CSSPositionTryRule",
+  "api.CSSPositionTryRule.name",
+  "api.CSSPositionTryRule.style",
+  "api.HTMLButtonElement.popoverTargetElement.implicit_anchor_reference",
+  "api.HTMLElement.showPopover.options_source_parameter.implicit_anchor_reference",
+  "api.HTMLElement.togglePopover.options_source_parameter.implicit_anchor_reference",
+  "api.HTMLInputElement.popoverTargetElement.implicit_anchor_reference",
+  "css.at-rules.position-try",
+  "css.properties.align-items.anchor-center",
+  "css.properties.align-self.anchor-center",
+  "css.properties.anchor-name",
+  "css.properties.anchor-name.none",
+  "css.properties.anchor-scope",
+  "css.properties.anchor-scope.all",
+  "css.properties.anchor-scope.none",
+  "css.properties.block-size.anchor-size",
+  "css.properties.bottom.anchor",
+  "css.properties.bottom.anchor-size",
+  "css.properties.height.anchor-size",
+  "css.properties.inline-size.anchor-size",
+  "css.properties.inset-block-end.anchor",
+  "css.properties.inset-block-end.anchor-size",
+  "css.properties.inset-block-start.anchor",
+  "css.properties.inset-block-start.anchor-size",
+  "css.properties.inset-block.anchor",
+  "css.properties.inset-block.anchor-size",
+  "css.properties.inset-inline-end.anchor",
+  "css.properties.inset-inline-end.anchor-size",
+  "css.properties.inset-inline-start.anchor",
+  "css.properties.inset-inline-start.anchor-size",
+  "css.properties.inset-inline.anchor",
+  "css.properties.inset-inline.anchor-size",
+  "css.properties.inset.anchor",
+  "css.properties.inset.anchor-size",
+  "css.properties.justify-items.anchor-center",
+  "css.properties.justify-self.anchor-center",
+  "css.properties.left.anchor",
+  "css.properties.left.anchor-size",
+  "css.properties.margin-block-end.anchor-size",
+  "css.properties.margin-block-start.anchor-size",
+  "css.properties.margin-block.anchor-size",
+  "css.properties.margin-bottom.anchor-size",
+  "css.properties.margin-inline-end.anchor-size",
+  "css.properties.margin-inline-start.anchor-size",
+  "css.properties.margin-inline.anchor-size",
+  "css.properties.margin-left.anchor-size",
+  "css.properties.margin-right.anchor-size",
+  "css.properties.margin-top.anchor-size",
+  "css.properties.margin.anchor-size",
+  "css.properties.max-block-size.anchor-size",
+  "css.properties.max-height.anchor-size",
+  "css.properties.max-inline-size.anchor-size",
+  "css.properties.max-width.anchor-size",
+  "css.properties.min-block-size.anchor-size",
+  "css.properties.min-height.anchor-size",
+  "css.properties.min-inline-size.anchor-size",
+  "css.properties.min-width.anchor-size",
+  "css.properties.place-items.anchor-center",
+  "css.properties.place-self.anchor-center",
+  "css.properties.position-anchor",
+  "css.properties.position-anchor.auto",
+  "css.properties.position-anchor.none",
+  "css.properties.position-area",
+  "css.properties.position-area.block-end",
+  "css.properties.position-area.block-start",
+  "css.properties.position-area.bottom",
+  "css.properties.position-area.center",
+  "css.properties.position-area.end",
+  "css.properties.position-area.inline-end",
+  "css.properties.position-area.inline-start",
+  "css.properties.position-area.left",
+  "css.properties.position-area.none",
+  "css.properties.position-area.right",
+  "css.properties.position-area.self-block-end",
+  "css.properties.position-area.self-block-start",
+  "css.properties.position-area.self-end",
+  "css.properties.position-area.self-inline-end",
+  "css.properties.position-area.self-inline-start",
+  "css.properties.position-area.self-start",
+  "css.properties.position-area.self-x-end",
+  "css.properties.position-area.self-x-start",
+  "css.properties.position-area.self-y-end",
+  "css.properties.position-area.self-y-start",
+  "css.properties.position-area.span-all",
+  "css.properties.position-area.span-block-end",
+  "css.properties.position-area.span-block-start",
+  "css.properties.position-area.span-bottom",
+  "css.properties.position-area.span-end",
+  "css.properties.position-area.span-inline-end",
+  "css.properties.position-area.span-inline-start",
+  "css.properties.position-area.span-left",
+  "css.properties.position-area.span-right",
+  "css.properties.position-area.span-self-block-end",
+  "css.properties.position-area.span-self-block-start",
+  "css.properties.position-area.span-self-end",
+  "css.properties.position-area.span-self-inline-end",
+  "css.properties.position-area.span-self-inline-start",
+  "css.properties.position-area.span-self-start",
+  "css.properties.position-area.span-self-x-end",
+  "css.properties.position-area.span-self-x-start",
+  "css.properties.position-area.span-self-y-end",
+  "css.properties.position-area.span-self-y-start",
+  "css.properties.position-area.span-start",
+  "css.properties.position-area.span-top",
+  "css.properties.position-area.span-x-end",
+  "css.properties.position-area.span-x-start",
+  "css.properties.position-area.span-y-end",
+  "css.properties.position-area.span-y-start",
+  "css.properties.position-area.start",
+  "css.properties.position-area.top",
+  "css.properties.position-area.x-end",
+  "css.properties.position-area.x-start",
+  "css.properties.position-area.y-end",
+  "css.properties.position-area.y-start",
+  "css.properties.position-try",
+  "css.properties.position-try-fallbacks",
+  "css.properties.position-try-fallbacks.flip-block",
+  "css.properties.position-try-fallbacks.flip-inline",
+  "css.properties.position-try-fallbacks.flip-start",
+  "css.properties.position-try-fallbacks.none",
+  "css.properties.position-try-fallbacks.position-area",
+  "css.properties.position-try-fallbacks.self-x-end",
+  "css.properties.position-try-fallbacks.self-x-start",
+  "css.properties.position-try-fallbacks.self-y-end",
+  "css.properties.position-try-fallbacks.self-y-start",
+  "css.properties.position-try-fallbacks.span-self-x-end",
+  "css.properties.position-try-fallbacks.span-self-x-start",
+  "css.properties.position-try-fallbacks.span-self-y-end",
+  "css.properties.position-try-fallbacks.span-self-y-start",
+  "css.properties.position-try-order",
+  "css.properties.position-try-order.most-block-size",
+  "css.properties.position-try-order.most-height",
+  "css.properties.position-try-order.most-inline-size",
+  "css.properties.position-try-order.most-width",
+  "css.properties.position-try-order.normal",
+  "css.properties.position-try.self-x-end",
+  "css.properties.position-try.self-x-start",
+  "css.properties.position-try.self-y-end",
+  "css.properties.position-try.self-y-start",
+  "css.properties.position-try.span-self-x-end",
+  "css.properties.position-try.span-self-x-start",
+  "css.properties.position-try.span-self-y-end",
+  "css.properties.position-try.span-self-y-start",
+  "css.properties.position-visibility",
+  "css.properties.position-visibility.always",
+  "css.properties.position-visibility.anchors-visible",
+  "css.properties.position-visibility.no-overflow",
+  "css.properties.right.anchor",
+  "css.properties.right.anchor-size",
+  "css.properties.top.anchor",
+  "css.properties.top.anchor-size",
+  "css.properties.width.anchor-size",
+  "css.types.anchor",
+  "css.types.anchor-size",
+  "css.types.anchor-size.inset_margin",
+  "html.elements.button.popovertarget.implicit_anchor_reference",
+  "html.elements.input.popovertarget.implicit_anchor_reference"
+ ],
+ "description": "Anchor positioning places an element based on the position of another element. For example, you can place a tooltip next to the content it references.",
+ "description_html": "Anchor positioning places an element based on the position of another element. For example, you can place a tooltip next to the content it references.",
+ "kind": "feature",
+ "name": "Anchor positioning",
+ "spec": [
+  "https://drafts.csswg.org/css-anchor-position-1/#anchoring"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.CSSPositionTryDescriptors": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.align-self": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.alignSelf": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.block-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.blockSize": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.bottom": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.height": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.inline-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.inlineSize": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.inset": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.inset-block": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.inset-block-end": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.inset-block-start": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.inset-inline": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.inset-inline-end": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.inset-inline-start": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.insetBlock": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.insetBlockEnd": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.insetBlockStart": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.insetInline": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.insetInlineEnd": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.insetInlineStart": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.justify-self": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.justifySelf": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.left": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.margin": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.margin-block": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.margin-block-end": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.margin-block-start": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.margin-bottom": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.margin-inline": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.margin-inline-end": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.margin-inline-start": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.margin-left": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.margin-right": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.margin-top": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.marginBlock": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.marginBlockEnd": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.marginBlockStart": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.marginBottom": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.marginInline": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.marginInlineEnd": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.marginInlineStart": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.marginLeft": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.marginRight": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.marginTop": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.max-block-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.max-height": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.max-inline-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.max-width": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.maxBlockSize": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.maxHeight": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.maxInlineSize": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.maxWidth": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.min-block-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.min-height": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.min-inline-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.min-width": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.minBlockSize": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.minHeight": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.minInlineSize": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.minWidth": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.place-self": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.placeSelf": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.position-anchor": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.position-area": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.positionAnchor": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.positionArea": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.right": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.top": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryDescriptors.width": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryRule": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryRule.name": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.CSSPositionTryRule.style": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.HTMLButtonElement.popoverTargetElement.implicit_anchor_reference": {
+    "baseline": false,
+    "support": {
+     "chrome": "133",
+     "chrome_android": "133",
+     "edge": "133"
+    }
+   },
+   "api.HTMLElement.showPopover.options_source_parameter.implicit_anchor_reference": {
+    "baseline": false,
+    "support": {
+     "chrome": "137",
+     "chrome_android": "137",
+     "edge": "137",
+     "firefox": "144",
+     "firefox_android": "144"
+    }
+   },
+   "api.HTMLElement.togglePopover.options_source_parameter.implicit_anchor_reference": {
+    "baseline": false,
+    "support": {
+     "chrome": "137",
+     "chrome_android": "137",
+     "edge": "137",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.HTMLInputElement.popoverTargetElement.implicit_anchor_reference": {
+    "baseline": false,
+    "support": {
+     "chrome": "133",
+     "chrome_android": "133",
+     "edge": "133"
+    }
+   },
+   "css.at-rules.position-try": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.align-items.anchor-center": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.align-self.anchor-center": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.anchor-name": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.anchor-name.none": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.anchor-scope": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131",
+     "edge": "131",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.anchor-scope.all": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131",
+     "edge": "131",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.anchor-scope.none": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131",
+     "edge": "131",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.block-size.anchor-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.bottom.anchor": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.bottom.anchor-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "132",
+     "chrome_android": "132",
+     "edge": "132",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.height.anchor-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.inline-size.anchor-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.inset-block-end.anchor": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.inset-block-end.anchor-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "132",
+     "chrome_android": "132",
+     "edge": "132",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.inset-block-start.anchor": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.inset-block-start.anchor-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "132",
+     "chrome_android": "132",
+     "edge": "132",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.inset-block.anchor": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.inset-block.anchor-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "132",
+     "chrome_android": "132",
+     "edge": "132",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.inset-inline-end.anchor": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.inset-inline-end.anchor-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "132",
+     "chrome_android": "132",
+     "edge": "132",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.inset-inline-start.anchor": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.inset-inline-start.anchor-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "132",
+     "chrome_android": "132",
+     "edge": "132",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.inset-inline.anchor": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.inset-inline.anchor-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "132",
+     "chrome_android": "132",
+     "edge": "132",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.inset.anchor": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.inset.anchor-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "132",
+     "chrome_android": "132",
+     "edge": "132",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.justify-items.anchor-center": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.justify-self.anchor-center": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.left.anchor": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.left.anchor-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "132",
+     "chrome_android": "132",
+     "edge": "132",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.margin-block-end.anchor-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "132",
+     "chrome_android": "132",
+     "edge": "132",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.margin-block-start.anchor-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "132",
+     "chrome_android": "132",
+     "edge": "132",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.margin-block.anchor-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "132",
+     "chrome_android": "132",
+     "edge": "132",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.margin-bottom.anchor-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "132",
+     "chrome_android": "132",
+     "edge": "132",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.margin-inline-end.anchor-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "132",
+     "chrome_android": "132",
+     "edge": "132",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.margin-inline-start.anchor-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "132",
+     "chrome_android": "132",
+     "edge": "132",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.margin-inline.anchor-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "132",
+     "chrome_android": "132",
+     "edge": "132",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.margin-left.anchor-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "132",
+     "chrome_android": "132",
+     "edge": "132",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.margin-right.anchor-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "132",
+     "chrome_android": "132",
+     "edge": "132",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.margin-top.anchor-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "132",
+     "chrome_android": "132",
+     "edge": "132",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.margin.anchor-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "132",
+     "chrome_android": "132",
+     "edge": "132",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.max-block-size.anchor-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.max-height.anchor-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.max-inline-size.anchor-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.max-width.anchor-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.min-block-size.anchor-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.min-height.anchor-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.min-inline-size.anchor-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.min-width.anchor-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.place-items.anchor-center": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.place-self.anchor-center": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-anchor": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-anchor.auto": {
+    "baseline": false,
+    "support": {
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-anchor.none": {
+    "baseline": false,
+    "support": {
+     "chrome": "144",
+     "chrome_android": "144",
+     "edge": "144",
+     "firefox": "147",
+     "firefox_android": "147"
+    }
+   },
+   "css.properties.position-area": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.block-end": {
+    "baseline": false,
+    "support": {
+     "chrome": "144",
+     "chrome_android": "144",
+     "edge": "144",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.block-start": {
+    "baseline": false,
+    "support": {
+     "chrome": "144",
+     "chrome_android": "144",
+     "edge": "144",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.bottom": {
+    "baseline": false,
+    "support": {
+     "chrome": "144",
+     "chrome_android": "144",
+     "edge": "144",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.center": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.end": {
+    "baseline": false,
+    "support": {
+     "chrome": "144",
+     "chrome_android": "144",
+     "edge": "144",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.inline-end": {
+    "baseline": false,
+    "support": {
+     "chrome": "144",
+     "chrome_android": "144",
+     "edge": "144",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.inline-start": {
+    "baseline": false,
+    "support": {
+     "chrome": "144",
+     "chrome_android": "144",
+     "edge": "144",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.left": {
+    "baseline": false,
+    "support": {
+     "chrome": "144",
+     "chrome_android": "144",
+     "edge": "144",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.none": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.right": {
+    "baseline": false,
+    "support": {
+     "chrome": "144",
+     "chrome_android": "144",
+     "edge": "144",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.self-block-end": {
+    "baseline": false,
+    "support": {
+     "chrome": "144",
+     "chrome_android": "144",
+     "edge": "144",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.self-block-start": {
+    "baseline": false,
+    "support": {
+     "chrome": "144",
+     "chrome_android": "144",
+     "edge": "144",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.self-end": {
+    "baseline": false,
+    "support": {
+     "chrome": "144",
+     "chrome_android": "144",
+     "edge": "144",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.self-inline-end": {
+    "baseline": false,
+    "support": {
+     "chrome": "144",
+     "chrome_android": "144",
+     "edge": "144",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.self-inline-start": {
+    "baseline": false,
+    "support": {
+     "chrome": "144",
+     "chrome_android": "144",
+     "edge": "144",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.self-start": {
+    "baseline": false,
+    "support": {
+     "chrome": "144",
+     "chrome_android": "144",
+     "edge": "144",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.self-x-end": {
+    "baseline": false,
+    "support": {
+     "chrome": "144",
+     "chrome_android": "144",
+     "edge": "144",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "css.properties.position-area.self-x-start": {
+    "baseline": false,
+    "support": {
+     "chrome": "144",
+     "chrome_android": "144",
+     "edge": "144",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "css.properties.position-area.self-y-end": {
+    "baseline": false,
+    "support": {
+     "chrome": "144",
+     "chrome_android": "144",
+     "edge": "144",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "css.properties.position-area.self-y-start": {
+    "baseline": false,
+    "support": {
+     "chrome": "144",
+     "chrome_android": "144",
+     "edge": "144",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "css.properties.position-area.span-all": {
+    "baseline": false,
+    "support": {
+     "chrome": "144",
+     "chrome_android": "144",
+     "edge": "144",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.span-block-end": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.span-block-start": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.span-bottom": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.span-end": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.span-inline-end": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.span-inline-start": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.span-left": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.span-right": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.span-self-block-end": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.span-self-block-start": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.span-self-end": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.span-self-inline-end": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.span-self-inline-start": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.span-self-start": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.span-self-x-end": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "143",
+     "chrome_android": "143",
+     "edge": "143",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "css.properties.position-area.span-self-x-start": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "143",
+     "chrome_android": "143",
+     "edge": "143",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "css.properties.position-area.span-self-y-end": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "143",
+     "chrome_android": "143",
+     "edge": "143",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "css.properties.position-area.span-self-y-start": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "143",
+     "chrome_android": "143",
+     "edge": "143",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "css.properties.position-area.span-start": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.span-top": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.span-x-end": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.span-x-start": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.span-y-end": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.span-y-start": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.start": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.top": {
+    "baseline": false,
+    "support": {
+     "chrome": "144",
+     "chrome_android": "144",
+     "edge": "144",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.x-end": {
+    "baseline": false,
+    "support": {
+     "chrome": "144",
+     "chrome_android": "144",
+     "edge": "144",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.x-start": {
+    "baseline": false,
+    "support": {
+     "chrome": "144",
+     "chrome_android": "144",
+     "edge": "144",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.y-end": {
+    "baseline": false,
+    "support": {
+     "chrome": "144",
+     "chrome_android": "144",
+     "edge": "144",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-area.y-start": {
+    "baseline": false,
+    "support": {
+     "chrome": "144",
+     "chrome_android": "144",
+     "edge": "144",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-try": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-try-fallbacks": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "128",
+     "chrome_android": "128",
+     "edge": "128",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-try-fallbacks.flip-block": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "128",
+     "chrome_android": "128",
+     "edge": "128",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-try-fallbacks.flip-inline": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "128",
+     "chrome_android": "128",
+     "edge": "128",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-try-fallbacks.flip-start": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "128",
+     "chrome_android": "128",
+     "edge": "128",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-try-fallbacks.none": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "128",
+     "chrome_android": "128",
+     "edge": "128",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-try-fallbacks.position-area": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "128",
+     "chrome_android": "128",
+     "edge": "128",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-try-fallbacks.self-x-end": {
+    "baseline": false,
+    "support": {
+     "chrome": "144",
+     "chrome_android": "144",
+     "edge": "144",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "css.properties.position-try-fallbacks.self-x-start": {
+    "baseline": false,
+    "support": {
+     "chrome": "144",
+     "chrome_android": "144",
+     "edge": "144",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "css.properties.position-try-fallbacks.self-y-end": {
+    "baseline": false,
+    "support": {
+     "chrome": "144",
+     "chrome_android": "144",
+     "edge": "144",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "css.properties.position-try-fallbacks.self-y-start": {
+    "baseline": false,
+    "support": {
+     "chrome": "144",
+     "chrome_android": "144",
+     "edge": "144",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "css.properties.position-try-fallbacks.span-self-x-end": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "143",
+     "chrome_android": "143",
+     "edge": "143",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "css.properties.position-try-fallbacks.span-self-x-start": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "143",
+     "chrome_android": "143",
+     "edge": "143",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "css.properties.position-try-fallbacks.span-self-y-end": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "143",
+     "chrome_android": "143",
+     "edge": "143",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "css.properties.position-try-fallbacks.span-self-y-start": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "143",
+     "chrome_android": "143",
+     "edge": "143",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "css.properties.position-try-order": {
+    "baseline": false,
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-try-order.most-block-size": {
+    "baseline": false,
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-try-order.most-height": {
+    "baseline": false,
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-try-order.most-inline-size": {
+    "baseline": false,
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-try-order.most-width": {
+    "baseline": false,
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-try-order.normal": {
+    "baseline": false,
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.position-try.self-x-end": {
+    "baseline": false,
+    "support": {
+     "chrome": "144",
+     "chrome_android": "144",
+     "edge": "144",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "css.properties.position-try.self-x-start": {
+    "baseline": false,
+    "support": {
+     "chrome": "144",
+     "chrome_android": "144",
+     "edge": "144",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "css.properties.position-try.self-y-end": {
+    "baseline": false,
+    "support": {
+     "chrome": "144",
+     "chrome_android": "144",
+     "edge": "144",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "css.properties.position-try.self-y-start": {
+    "baseline": false,
+    "support": {
+     "chrome": "144",
+     "chrome_android": "144",
+     "edge": "144",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "css.properties.position-try.span-self-x-end": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "143",
+     "chrome_android": "143",
+     "edge": "143",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "css.properties.position-try.span-self-x-start": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "143",
+     "chrome_android": "143",
+     "edge": "143",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "css.properties.position-try.span-self-y-end": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "143",
+     "chrome_android": "143",
+     "edge": "143",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "css.properties.position-try.span-self-y-start": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "143",
+     "chrome_android": "143",
+     "edge": "143",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "css.properties.position-visibility": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "css.properties.position-visibility.always": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "css.properties.position-visibility.anchors-visible": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "css.properties.position-visibility.no-overflow": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "css.properties.right.anchor": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.right.anchor-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "132",
+     "chrome_android": "132",
+     "edge": "132",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.top.anchor": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.top.anchor-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "132",
+     "chrome_android": "132",
+     "edge": "132",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.width.anchor-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.types.anchor": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.types.anchor-size": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.types.anchor-size.inset_margin": {
+    "baseline": false,
+    "support": {
+     "chrome": "132",
+     "chrome_android": "132",
+     "edge": "132",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "html.elements.button.popovertarget.implicit_anchor_reference": {
+    "baseline": false,
+    "support": {
+     "chrome": "133",
+     "chrome_android": "133",
+     "edge": "133"
+    }
+   },
+   "html.elements.input.popovertarget.implicit_anchor_reference": {
+    "baseline": false,
+    "support": {
+     "chrome": "133",
+     "chrome_android": "133",
+     "edge": "133"
+    }
+   }
+  },
+  "support": {}
+ },
+ "id": "anchor-positioning",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-anchor-position-1/#anchoring",
+   "seriesComposition": "full",
+   "shortname": "css-anchor-position-1",
+   "series": {
+    "shortname": "css-anchor-position",
+    "currentSpecification": "css-anchor-position-1",
+    "title": "CSS Anchor Positioning",
+    "shortTitle": "CSS Anchor Positioning",
+    "releaseUrl": "https://www.w3.org/TR/css-anchor-position/",
+    "nightlyUrl": "https://drafts.csswg.org/css-anchor-position/"
+   },
+   "seriesVersion": "1",
+   "seriesNext": "css-anchor-position-2",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-anchor-position-1/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-anchor-position-1/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-anchor-position-1/",
+     "https://w3c.github.io/csswg-drafts/css-anchor-position/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-anchor-position-1/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Anchor Positioning Module Level 1",
+   "source": "w3c",
+   "shortTitle": "CSS Anchor Positioning 1",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-anchor-position"
+    ]
+   },
+   "fragment": "anchoring"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Guides/Anchor_positioning",
+   "title": "CSS anchor positioning",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Guides/Anchor_positioning"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/794",
+   "position": "positive",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/167",
+   "position": "support",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features_features_only",
+   "question": "usage",
+   "subQuestion": "html_interoperability_features_features_only",
+   "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features_features_only.freeform.allEditions.0.buckets.1.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features",
+   "question": "usage",
+   "subQuestion": "html_interoperability_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features.freeform.allEditions.0.buckets.1.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/usage/#html_functionality_features_features_only",
+   "question": "usage",
+   "subQuestion": "html_functionality_features_features_only",
+   "path": "dataAPI.surveys.state_of_html.html2025.usage.html_functionality_features_features_only.freeform.allEditions.0.buckets.12.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/usage/#html_functionality_features",
+   "question": "usage",
+   "subQuestion": "html_functionality_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.usage.html_functionality_features.freeform.allEditions.1.buckets.17.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/features/interactivity/#interactivity_pain_points_limitations_1",
+   "question": "interactivity",
+   "subQuestion": "interactivity_pain_points_limitations_1",
+   "path": "dataAPI.surveys.state_of_html.html2025.interactivity.interactivity_pain_points_limitations_1.freeform.allEditions.0.buckets.10.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/features/interactivity/#interactivity_pain_points_interop_issues_1",
+   "question": "interactivity",
+   "subQuestion": "interactivity_pain_points_interop_issues_1",
+   "path": "dataAPI.surveys.state_of_html.html2025.interactivity.interactivity_pain_points_interop_issues_1.freeform.allEditions.0.buckets.4.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/features/interactivity/#interactivity_pain_points_features",
+   "question": "interactivity",
+   "subQuestion": "interactivity_pain_points_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.interactivity.interactivity_pain_points_features.freeform.allEditions.1.buckets.3.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/features/interactivity/#interactivity_pain_points",
+   "question": "interactivity",
+   "subQuestion": "interactivity_pain_points",
+   "path": "dataAPI.surveys.state_of_html.html2025.interactivity.interactivity_pain_points.freeform.allEditions.1.buckets.17.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/forms/#forms_pain_points_features",
+   "question": "forms",
+   "subQuestion": "forms_pain_points_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.forms.forms_pain_points_features.freeform.allEditions.1.buckets.19.entity"
+  },
+  {
+   "name": "State of HTML 2024",
+   "url": "https://2024.stateofhtml.com/en-US/usage/#html_interoperability_features",
+   "question": "usage",
+   "subQuestion": "html_interoperability_features",
+   "path": "dataAPI.surveys.state_of_html.html2024.usage.html_interoperability_features.freeform.allEditions.0.buckets.19.entity"
+  },
+  {
+   "name": "State of HTML 2023",
+   "url": "https://2023.stateofhtml.com/en-US/usage/#html_interoperability_features",
+   "question": "usage",
+   "subQuestion": "html_interoperability_features",
+   "path": "dataAPI.surveys.state_of_html.html2023.usage.html_interoperability_features.freeform.currentEdition.buckets.19.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#gamechanger_feature",
+   "question": "usage",
+   "subQuestion": "gamechanger_feature",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.gamechanger_feature.freeform.allEditions.0.buckets.15.groupedBuckets.0.groupedBuckets.26.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#favorite_new_features",
+   "question": "usage",
+   "subQuestion": "favorite_new_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.favorite_new_features.freeform.allEditions.0.buckets.12.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_missing_features",
+   "question": "usage",
+   "subQuestion": "css_missing_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_missing_features.freeform.allEditions.0.buckets.18.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_interoperability_features",
+   "question": "usage",
+   "subQuestion": "css_interoperability_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_interoperability_features.freeform.allEditions.0.buckets.0.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_general_pain_points",
+   "question": "usage",
+   "subQuestion": "css_general_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_general_pain_points.freeform.allEditions.0.buckets.9.groupedBuckets.0.groupedBuckets.0.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/shapes_graphics/#shapes_graphics_pain_points",
+   "question": "shapes_graphics",
+   "subQuestion": "shapes_graphics_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.shapes_graphics.shapes_graphics_pain_points.freeform.allEditions.0.buckets.8.groupedBuckets.0.groupedBuckets.19.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/features/#reading_list",
+   "question": "reading_list",
+   "subQuestion": "reading_list",
+   "path": "dataAPI.surveys.state_of_css.css2025.reading_list.reading_list.combined.allEditions.0.buckets.3.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/other_features/#other_features_pain_points",
+   "question": "other_features",
+   "subQuestion": "other_features_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.other_features.other_features_pain_points.freeform.allEditions.0.buckets.5.groupedBuckets.0.groupedBuckets.5.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/layout/#layout_pain_points",
+   "question": "layout",
+   "subQuestion": "layout_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.layout.layout_pain_points.freeform.allEditions.0.buckets.14.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/interactions/#interactions_pain_points",
+   "question": "interactions",
+   "subQuestion": "interactions_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.interactions.interactions_pain_points.freeform.allEditions.0.buckets.11.groupedBuckets.0.groupedBuckets.12.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.6.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/usage/#favorite_new_features",
+   "question": "usage",
+   "subQuestion": "favorite_new_features",
+   "path": "dataAPI.surveys.state_of_css.css2024.usage.favorite_new_features.freeform.currentEdition.buckets.12.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/usage/#css_missing_features",
+   "question": "usage",
+   "subQuestion": "css_missing_features",
+   "path": "dataAPI.surveys.state_of_css.css2024.usage.css_missing_features.freeform.currentEdition.buckets.18.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/usage/#css_interoperability_features",
+   "question": "usage",
+   "subQuestion": "css_interoperability_features",
+   "path": "dataAPI.surveys.state_of_css.css2024.usage.css_interoperability_features.freeform.currentEdition.buckets.0.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/features/#reading_list",
+   "question": "reading_list",
+   "subQuestion": "reading_list",
+   "path": "dataAPI.surveys.state_of_css.css2024.reading_list.reading_list.responses.currentEdition.buckets.3.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2024.features.all_features.6.entity"
+  }
+ ],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00346636,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/97"
+ },
+ "interop": [
+  {
+   "year": 2025,
+   "label": "interop-2025-anchor-positioning",
+   "url": "https://wpt.fyi/interop-2025?feature=interop-2025-anchor-positioning"
+  }
+ ],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:anchor-positioning"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/245",
+  "votes": 171
+ },
+ "bugs": {
+  "chrome": [
+   "https://issues.chromium.org/issues/382294252",
+   "https://issues.chromium.org/issues/373874012",
+   "https://crbug.com/346521300",
+   "https://crbug.com/352360007",
+   "https://issues.chromium.org/issues/40281992",
+   "https://issues.chromium.org/issues/40059176"
+  ],
+  "firefox": [
+   "https://bugzil.la/1972610"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

@@ -1,0 +1,481 @@
+{
+ "caniuse": [
+  "resource-timing"
+ ],
+ "compat_features": [
+  "api.Performance.clearResourceTimings",
+  "api.Performance.resourcetimingbufferfull_event",
+  "api.Performance.setResourceTimingBufferSize",
+  "api.PerformanceResourceTiming",
+  "api.PerformanceResourceTiming.connectEnd",
+  "api.PerformanceResourceTiming.connectStart",
+  "api.PerformanceResourceTiming.contentType",
+  "api.PerformanceResourceTiming.deliveryType",
+  "api.PerformanceResourceTiming.domainLookupEnd",
+  "api.PerformanceResourceTiming.domainLookupStart",
+  "api.PerformanceResourceTiming.fetchStart",
+  "api.PerformanceResourceTiming.firstInterimResponseStart",
+  "api.PerformanceResourceTiming.initiatorType",
+  "api.PerformanceResourceTiming.nextHopProtocol",
+  "api.PerformanceResourceTiming.redirectEnd",
+  "api.PerformanceResourceTiming.redirectStart",
+  "api.PerformanceResourceTiming.renderBlockingStatus",
+  "api.PerformanceResourceTiming.requestStart",
+  "api.PerformanceResourceTiming.responseEnd",
+  "api.PerformanceResourceTiming.responseStart",
+  "api.PerformanceResourceTiming.responseStatus",
+  "api.PerformanceResourceTiming.secureConnectionStart",
+  "api.PerformanceResourceTiming.toJSON",
+  "api.PerformanceResourceTiming.workerStart",
+  "api.PerformanceResourceTiming.worker_support"
+ ],
+ "description": "PerformanceResourceTiming entries report when network events happen while loading a resource, such as when connections start and end. You can use this information to measure loading times.",
+ "description_html": "<code>PerformanceResourceTiming</code> entries report when network events happen while loading a resource, such as when connections start and end. You can use this information to measure loading times.",
+ "group": [
+  "performance"
+ ],
+ "kind": "feature",
+ "name": "Resource timing",
+ "spec": [
+  "https://w3c.github.io/resource-timing/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2020-03-19",
+  "baseline_low_date": "2017-09-19",
+  "by_compat_key": {
+   "api.Performance.clearResourceTimings": {
+    "baseline": "high",
+    "baseline_high_date": "2020-03-19",
+    "baseline_low_date": "2017-09-19",
+    "support": {
+     "chrome": "46",
+     "chrome_android": "46",
+     "edge": "12",
+     "firefox": "35",
+     "firefox_android": "35",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.Performance.resourcetimingbufferfull_event": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "46",
+     "chrome_android": "46",
+     "edge": "79",
+     "firefox": "35",
+     "firefox_android": "35",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.Performance.setResourceTimingBufferSize": {
+    "baseline": "high",
+    "baseline_high_date": "2020-03-19",
+    "baseline_low_date": "2017-09-19",
+    "support": {
+     "chrome": "46",
+     "chrome_android": "46",
+     "edge": "12",
+     "firefox": "35",
+     "firefox_android": "35",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.PerformanceResourceTiming": {
+    "baseline": "high",
+    "baseline_high_date": "2020-03-19",
+    "baseline_low_date": "2017-09-19",
+    "support": {
+     "chrome": "29",
+     "chrome_android": "29",
+     "edge": "12",
+     "firefox": "35",
+     "firefox_android": "35",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.PerformanceResourceTiming.connectEnd": {
+    "baseline": "high",
+    "baseline_high_date": "2020-03-19",
+    "baseline_low_date": "2017-09-19",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "35",
+     "firefox_android": "35",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.PerformanceResourceTiming.connectStart": {
+    "baseline": "high",
+    "baseline_high_date": "2020-03-19",
+    "baseline_low_date": "2017-09-19",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "35",
+     "firefox_android": "35",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.PerformanceResourceTiming.contentType": {
+    "baseline": false,
+    "support": {
+     "firefox": "129",
+     "firefox_android": "129"
+    }
+   },
+   "api.PerformanceResourceTiming.deliveryType": {
+    "baseline": false,
+    "support": {
+     "chrome": "117",
+     "chrome_android": "117",
+     "edge": "117"
+    }
+   },
+   "api.PerformanceResourceTiming.domainLookupEnd": {
+    "baseline": "high",
+    "baseline_high_date": "2020-03-19",
+    "baseline_low_date": "2017-09-19",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "35",
+     "firefox_android": "35",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.PerformanceResourceTiming.domainLookupStart": {
+    "baseline": "high",
+    "baseline_high_date": "2020-03-19",
+    "baseline_low_date": "2017-09-19",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "35",
+     "firefox_android": "35",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.PerformanceResourceTiming.fetchStart": {
+    "baseline": "high",
+    "baseline_high_date": "2020-03-19",
+    "baseline_low_date": "2017-09-19",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "35",
+     "firefox_android": "35",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.PerformanceResourceTiming.firstInterimResponseStart": {
+    "baseline": false,
+    "support": {
+     "chrome": "115",
+     "chrome_android": "115",
+     "edge": "115"
+    }
+   },
+   "api.PerformanceResourceTiming.initiatorType": {
+    "baseline": "high",
+    "baseline_high_date": "2020-03-19",
+    "baseline_low_date": "2017-09-19",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "35",
+     "firefox_android": "35",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.PerformanceResourceTiming.nextHopProtocol": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-30",
+    "baseline_low_date": "2018-04-30",
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "17",
+     "firefox": "45",
+     "firefox_android": "45",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.PerformanceResourceTiming.redirectEnd": {
+    "baseline": "high",
+    "baseline_high_date": "2020-03-19",
+    "baseline_low_date": "2017-09-19",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "35",
+     "firefox_android": "35",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.PerformanceResourceTiming.redirectStart": {
+    "baseline": "high",
+    "baseline_high_date": "2020-03-19",
+    "baseline_low_date": "2017-09-19",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "35",
+     "firefox_android": "35",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.PerformanceResourceTiming.renderBlockingStatus": {
+    "baseline": false,
+    "support": {
+     "chrome": "107",
+     "chrome_android": "107",
+     "edge": "107"
+    }
+   },
+   "api.PerformanceResourceTiming.requestStart": {
+    "baseline": "high",
+    "baseline_high_date": "2020-03-19",
+    "baseline_low_date": "2017-09-19",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "35",
+     "firefox_android": "35",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.PerformanceResourceTiming.responseEnd": {
+    "baseline": "high",
+    "baseline_high_date": "2020-03-19",
+    "baseline_low_date": "2017-09-19",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "35",
+     "firefox_android": "35",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.PerformanceResourceTiming.responseStart": {
+    "baseline": "high",
+    "baseline_high_date": "2020-03-19",
+    "baseline_low_date": "2017-09-19",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "35",
+     "firefox_android": "35",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.PerformanceResourceTiming.responseStatus": {
+    "baseline": false,
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "129",
+     "firefox_android": "129"
+    }
+   },
+   "api.PerformanceResourceTiming.secureConnectionStart": {
+    "baseline": "high",
+    "baseline_high_date": "2021-04-02",
+    "baseline_low_date": "2018-10-02",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "18",
+     "firefox": "35",
+     "firefox_android": "35",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.PerformanceResourceTiming.toJSON": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "45",
+     "chrome_android": "45",
+     "edge": "16",
+     "firefox": "35",
+     "firefox_android": "35",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.PerformanceResourceTiming.workerStart": {
+    "baseline": "high",
+    "baseline_high_date": "2020-07-23",
+    "baseline_low_date": "2018-01-23",
+    "support": {
+     "chrome": "46",
+     "chrome_android": "46",
+     "edge": "16",
+     "firefox": "58",
+     "firefox_android": "58",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.PerformanceResourceTiming.worker_support": {
+    "baseline": false,
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "15",
+     "firefox": "60",
+     "firefox_android": "60",
+     "safari": "12"
+    }
+   }
+  },
+  "support": {
+   "chrome": "29",
+   "chrome_android": "29",
+   "edge": "12",
+   "firefox": "35",
+   "firefox_android": "35",
+   "safari": "11",
+   "safari_ios": "11"
+  }
+ },
+ "id": "resource-timing",
+ "groups": [
+  "performance"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/resource-timing/",
+   "seriesComposition": "full",
+   "shortname": "resource-timing",
+   "series": {
+    "shortname": "resource-timing",
+    "currentSpecification": "resource-timing",
+    "title": "Resource Timing",
+    "shortTitle": "Resource Timing",
+    "releaseUrl": "https://www.w3.org/TR/resource-timing/",
+    "nightlyUrl": "https://w3c.github.io/resource-timing/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Performance Working Group",
+     "url": "https://www.w3.org/groups/wg/webperf/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/resource-timing/",
+    "status": "Candidate Recommendation Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/resource-timing/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/resource-timing",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Resource Timing",
+   "source": "w3c",
+   "shortTitle": "Resource Timing",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "resource-timing"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/PerformanceResourceTiming/decodedBodySize",
+   "title": "PerformanceResourceTiming: decodedBodySize property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/decodedBodySize"
+  },
+  {
+   "slug": "Web/API/PerformanceResourceTiming/encodedBodySize",
+   "title": "PerformanceResourceTiming: encodedBodySize property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/encodedBodySize"
+  },
+  {
+   "slug": "Web/API/PerformanceResourceTiming/transferSize",
+   "title": "PerformanceResourceTiming: transferSize property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/transferSize"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/1108",
+   "position": "positive",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/424",
+   "position": "support",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:resource-timing"
+ },
+ "developerSignals": null,
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1811291"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/1811291"
+  ]
+ },
+ "baselineLowDateAsObject": "2017-09-19T00:00:00.000Z",
+ "baselineHighDateAsObject": "2020-03-19T00:00:00.000Z"
+}

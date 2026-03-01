@@ -1,0 +1,198 @@
+{
+ "compat_features": [
+  "api.DOMException.serializable_object",
+  "javascript.builtins.Error.serializable_object",
+  "javascript.builtins.EvalError.serializable_object",
+  "javascript.builtins.RangeError.serializable_object",
+  "javascript.builtins.ReferenceError.serializable_object",
+  "javascript.builtins.SyntaxError.serializable_object",
+  "javascript.builtins.TypeError.serializable_object",
+  "javascript.builtins.URIError.serializable_object"
+ ],
+ "description": "The DOMException, Error, EvalError, RangeError, ReferenceError, SyntaxError, TypeError, and URIError objects are serializable. You can call structuredClone() on an error object or pass it to a worker using postMessage().",
+ "description_html": "The <code>DOMException</code>, <code>Error</code>, <code>EvalError</code>, <code>RangeError</code>, <code>ReferenceError</code>, <code>SyntaxError</code>, <code>TypeError</code>, and <code>URIError</code> objects are serializable. You can call <code>structuredClone()</code> on an error object or pass it to a worker using <code>postMessage()</code>.",
+ "kind": "feature",
+ "name": "Serializable errors",
+ "spec": [
+  "https://webidl.spec.whatwg.org/#idl-DOMException"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.DOMException.serializable_object": {
+    "baseline": false,
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "101",
+     "firefox_android": "101"
+    }
+   },
+   "javascript.builtins.Error.serializable_object": {
+    "baseline": false,
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "103",
+     "firefox_android": "103"
+    }
+   },
+   "javascript.builtins.EvalError.serializable_object": {
+    "baseline": false,
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "103",
+     "firefox_android": "103"
+    }
+   },
+   "javascript.builtins.RangeError.serializable_object": {
+    "baseline": false,
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "103",
+     "firefox_android": "103"
+    }
+   },
+   "javascript.builtins.ReferenceError.serializable_object": {
+    "baseline": false,
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "103",
+     "firefox_android": "103"
+    }
+   },
+   "javascript.builtins.SyntaxError.serializable_object": {
+    "baseline": false,
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "103",
+     "firefox_android": "103"
+    }
+   },
+   "javascript.builtins.TypeError.serializable_object": {
+    "baseline": false,
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "103",
+     "firefox_android": "103"
+    }
+   },
+   "javascript.builtins.URIError.serializable_object": {
+    "baseline": false,
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "103",
+     "firefox_android": "103"
+    }
+   }
+  },
+  "support": {
+   "chrome": "77",
+   "chrome_android": "77",
+   "edge": "79",
+   "firefox": "103",
+   "firefox_android": "103"
+  }
+ },
+ "id": "serializable-errors",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://webidl.spec.whatwg.org/#idl-DOMException",
+   "seriesComposition": "full",
+   "shortname": "webidl",
+   "series": {
+    "shortname": "webidl",
+    "currentSpecification": "webidl",
+    "title": "Web IDL",
+    "shortTitle": "Web IDL",
+    "nightlyUrl": "https://webidl.spec.whatwg.org/"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "Web IDL Workstream",
+     "url": "https://webidl.spec.whatwg.org/"
+    }
+   ],
+   "nightly": {
+    "url": "https://webidl.spec.whatwg.org/",
+    "status": "Living Standard",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/webidl",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Web IDL",
+   "source": "whatwg",
+   "shortTitle": "Web IDL",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "webidl"
+    ]
+   },
+   "fragment": "idl-DOMException"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Window/structuredClone",
+   "title": "Window: structuredClone() method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Window/structuredClone"
+  },
+  {
+   "slug": "Web/API/WorkerGlobalScope/structuredClone",
+   "title": "WorkerGlobalScope: structuredClone() method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/structuredClone"
+  },
+  {
+   "slug": "Web/API/Window/postMessage",
+   "title": "Window: postMessage() method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Window/postMessage"
+  },
+  {
+   "slug": "Web/API/Worker/postMessage",
+   "title": "Worker: postMessage() method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Worker/postMessage"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/108",
+  "votes": 3
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Safari",
+ "monthsBlocked": 44,
+ "blockedSince": "July 2022"
+}

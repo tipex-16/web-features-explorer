@@ -1,0 +1,110 @@
+{
+ "compat_features": [
+  "api.WEBGL_debug_renderer_info"
+ ],
+ "description": "The WEBGL_debug_renderer_info extension for WebGL 1.0 and 2.0 contexts exposes information about the graphics driver for debugging purposes.",
+ "description_html": "The <code>WEBGL_debug_renderer_info</code> extension for WebGL 1.0 and 2.0 contexts exposes information about the graphics driver for debugging purposes.",
+ "group": [
+  "webgl-extensions"
+ ],
+ "kind": "feature",
+ "name": "WEBGL_debug_renderer_info WebGL extension",
+ "spec": [
+  "https://registry.khronos.org/webgl/extensions/WEBGL_debug_renderer_info/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2019-10-19",
+  "baseline_low_date": "2017-04-19",
+  "by_compat_key": {
+   "api.WEBGL_debug_renderer_info": {
+    "baseline": "high",
+    "baseline_high_date": "2019-10-19",
+    "baseline_low_date": "2017-04-19",
+    "support": {
+     "chrome": "33",
+     "chrome_android": "33",
+     "edge": "12",
+     "firefox": "53",
+     "firefox_android": "53",
+     "safari": "9.1",
+     "safari_ios": "9.3"
+    }
+   }
+  },
+  "support": {
+   "chrome": "33",
+   "chrome_android": "33",
+   "edge": "12",
+   "firefox": "53",
+   "firefox_android": "53",
+   "safari": "9.1",
+   "safari_ios": "9.3"
+  }
+ },
+ "id": "webgl-debug-renderer-info",
+ "groups": [
+  "webgl-extensions"
+ ],
+ "specs": [
+  {
+   "url": "https://registry.khronos.org/webgl/extensions/WEBGL_debug_renderer_info/",
+   "seriesComposition": "full",
+   "shortname": "WEBGL_debug_renderer_info",
+   "series": {
+    "shortname": "WEBGL_debug_renderer_info",
+    "currentSpecification": "WEBGL_debug_renderer_info",
+    "title": "WebGL WEBGL_debug_renderer_info Khronos Ratified Extension Specification",
+    "shortTitle": "WebGL WEBGL_debug_renderer_info Khronos Ratified Extension",
+    "nightlyUrl": "https://registry.khronos.org/webgl/extensions/WEBGL_debug_renderer_info/"
+   },
+   "organization": "Khronos Group",
+   "groups": [
+    {
+     "name": "WebGL Working Group",
+     "url": "https://www.khronos.org/webgl/"
+    }
+   ],
+   "nightly": {
+    "url": "https://registry.khronos.org/webgl/extensions/WEBGL_debug_renderer_info/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "sourcePath": "extensions/WEBGL_debug_renderer_info/extension.xml",
+    "filename": "index.html"
+   },
+   "title": "WebGL WEBGL_debug_renderer_info Khronos Ratified Extension Specification",
+   "source": "spec",
+   "shortTitle": "WebGL WEBGL_debug_renderer_info Khronos Ratified Extension",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "testPaths": [
+     "conformance-suites"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/WEBGL_debug_renderer_info",
+   "title": "WEBGL_debug_renderer_info extension",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/WEBGL_debug_renderer_info"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2017-04-19T00:00:00.000Z",
+ "baselineHighDateAsObject": "2019-10-19T00:00:00.000Z"
+}

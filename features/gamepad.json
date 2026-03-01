@@ -1,0 +1,406 @@
+{
+ "caniuse": [
+  "gamepad"
+ ],
+ "compat_features": [
+  "api.Gamepad",
+  "api.Gamepad.axes",
+  "api.Gamepad.buttons",
+  "api.Gamepad.connected",
+  "api.Gamepad.id",
+  "api.Gamepad.index",
+  "api.Gamepad.mapping",
+  "api.Gamepad.secure_context_required",
+  "api.Gamepad.timestamp",
+  "api.GamepadButton",
+  "api.GamepadButton.pressed",
+  "api.GamepadButton.secure_context_required",
+  "api.GamepadButton.value",
+  "api.GamepadEvent",
+  "api.GamepadEvent.GamepadEvent",
+  "api.GamepadEvent.gamepad",
+  "api.GamepadEvent.secure_context_required",
+  "api.Navigator.getGamepads",
+  "api.Navigator.getGamepads.secure_context_required",
+  "api.Window.gamepadconnected_event",
+  "api.Window.gamepaddisconnected_event",
+  "html.elements.iframe.allow.gamepad"
+ ],
+ "description": "The navigator.getGamepads() API accesses and responds to signals from game controllers.",
+ "description_html": "The <code>navigator.getGamepads()</code> API accesses and responds to signals from game controllers.",
+ "group": [
+  "gamepad"
+ ],
+ "kind": "feature",
+ "name": "Gamepad",
+ "spec": [
+  "https://w3c.github.io/gamepad/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2019-09-27",
+  "baseline_low_date": "2017-03-27",
+  "by_compat_key": {
+   "api.Gamepad": {
+    "baseline": "high",
+    "baseline_high_date": "2019-09-27",
+    "baseline_low_date": "2017-03-27",
+    "support": {
+     "chrome": "21",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "29",
+     "firefox_android": "32",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.Gamepad.axes": {
+    "baseline": "high",
+    "baseline_high_date": "2019-09-27",
+    "baseline_low_date": "2017-03-27",
+    "support": {
+     "chrome": "21",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "29",
+     "firefox_android": "32",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.Gamepad.buttons": {
+    "baseline": "high",
+    "baseline_high_date": "2019-09-27",
+    "baseline_low_date": "2017-03-27",
+    "support": {
+     "chrome": "21",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "29",
+     "firefox_android": "32",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.Gamepad.connected": {
+    "baseline": "high",
+    "baseline_high_date": "2019-09-27",
+    "baseline_low_date": "2017-03-27",
+    "support": {
+     "chrome": "25",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "29",
+     "firefox_android": "32",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.Gamepad.id": {
+    "baseline": "high",
+    "baseline_high_date": "2019-09-27",
+    "baseline_low_date": "2017-03-27",
+    "support": {
+     "chrome": "21",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "29",
+     "firefox_android": "32",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.Gamepad.index": {
+    "baseline": "high",
+    "baseline_high_date": "2019-09-27",
+    "baseline_low_date": "2017-03-27",
+    "support": {
+     "chrome": "21",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "29",
+     "firefox_android": "32",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.Gamepad.mapping": {
+    "baseline": "high",
+    "baseline_high_date": "2019-09-27",
+    "baseline_low_date": "2017-03-27",
+    "support": {
+     "chrome": "21",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "29",
+     "firefox_android": "32",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.Gamepad.secure_context_required": {
+    "baseline": false,
+    "support": {
+     "firefox": "91",
+     "firefox_android": "91"
+    }
+   },
+   "api.Gamepad.timestamp": {
+    "baseline": "high",
+    "baseline_high_date": "2019-09-27",
+    "baseline_low_date": "2017-03-27",
+    "support": {
+     "chrome": "21",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "29",
+     "firefox_android": "32",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.GamepadButton": {
+    "baseline": "high",
+    "baseline_high_date": "2019-09-27",
+    "baseline_low_date": "2017-03-27",
+    "support": {
+     "chrome": "21",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "29",
+     "firefox_android": "32",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.GamepadButton.pressed": {
+    "baseline": "high",
+    "baseline_high_date": "2019-09-27",
+    "baseline_low_date": "2017-03-27",
+    "support": {
+     "chrome": "21",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "29",
+     "firefox_android": "32",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.GamepadButton.secure_context_required": {
+    "baseline": false,
+    "support": {
+     "firefox": "91",
+     "firefox_android": "91"
+    }
+   },
+   "api.GamepadButton.value": {
+    "baseline": "high",
+    "baseline_high_date": "2019-09-27",
+    "baseline_low_date": "2017-03-27",
+    "support": {
+     "chrome": "21",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "29",
+     "firefox_android": "32",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.GamepadEvent": {
+    "baseline": "high",
+    "baseline_high_date": "2019-09-27",
+    "baseline_low_date": "2017-03-27",
+    "support": {
+     "chrome": "21",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "29",
+     "firefox_android": "32",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.GamepadEvent.GamepadEvent": {
+    "baseline": "high",
+    "baseline_high_date": "2019-09-27",
+    "baseline_low_date": "2017-03-27",
+    "support": {
+     "chrome": "35",
+     "chrome_android": "35",
+     "edge": "12",
+     "firefox": "29",
+     "firefox_android": "32",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.GamepadEvent.gamepad": {
+    "baseline": "high",
+    "baseline_high_date": "2019-09-27",
+    "baseline_low_date": "2017-03-27",
+    "support": {
+     "chrome": "21",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "29",
+     "firefox_android": "32",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.GamepadEvent.secure_context_required": {
+    "baseline": false,
+    "support": {
+     "firefox": "91",
+     "firefox_android": "91"
+    }
+   },
+   "api.Navigator.getGamepads": {
+    "baseline": "high",
+    "baseline_high_date": "2019-09-27",
+    "baseline_low_date": "2017-03-27",
+    "support": {
+     "chrome": "35",
+     "chrome_android": "35",
+     "edge": "12",
+     "firefox": "29",
+     "firefox_android": "32",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.Navigator.getGamepads.secure_context_required": {
+    "baseline": false,
+    "support": {
+     "firefox": "91"
+    }
+   },
+   "api.Window.gamepadconnected_event": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-05",
+    "support": {
+     "chrome": "143",
+     "chrome_android": "143",
+     "edge": "143",
+     "firefox": "89",
+     "firefox_android": "89",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "api.Window.gamepaddisconnected_event": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-05",
+    "support": {
+     "chrome": "143",
+     "chrome_android": "143",
+     "edge": "143",
+     "firefox": "89",
+     "firefox_android": "89",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "html.elements.iframe.allow.gamepad": {
+    "baseline": false,
+    "support": {}
+   }
+  },
+  "support": {
+   "chrome": "35",
+   "chrome_android": "35",
+   "edge": "12",
+   "firefox": "29",
+   "firefox_android": "32",
+   "safari": "10.1",
+   "safari_ios": "10.3"
+  }
+ },
+ "id": "gamepad",
+ "groups": [
+  "gamepad"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/gamepad/",
+   "seriesComposition": "full",
+   "shortname": "gamepad",
+   "series": {
+    "shortname": "gamepad",
+    "currentSpecification": "gamepad",
+    "title": "Gamepad",
+    "shortTitle": "Gamepad",
+    "releaseUrl": "https://www.w3.org/TR/gamepad/",
+    "nightlyUrl": "https://w3c.github.io/gamepad/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Applications Working Group",
+     "url": "https://www.w3.org/groups/wg/webapps/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/gamepad/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/gamepad/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/gamepad",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Gamepad",
+   "source": "w3c",
+   "shortTitle": "Gamepad",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "gamepad"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Gamepad_API",
+   "title": "Gamepad API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Gamepad_API"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of JS 2025",
+   "url": "https://2025.stateofjs.com/en-US/features/#browser_api_features",
+   "question": "features",
+   "subQuestion": "browser_api_features",
+   "path": "dataAPI.surveys.state_of_js.js2025.features.browser_api_features.combined.allEditions.0.buckets.12.entity"
+  }
+ ],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00000898,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/103"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:gamepad"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2017-03-27T00:00:00.000Z",
+ "baselineHighDateAsObject": "2019-09-27T00:00:00.000Z"
+}

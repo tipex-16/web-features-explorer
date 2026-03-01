@@ -1,0 +1,308 @@
+{
+ "caniuse": [
+  "loading-lazy-attr"
+ ],
+ "compat_features": [
+  "api.HTMLIFrameElement.loading",
+  "api.HTMLImageElement.loading",
+  "html.elements.iframe.loading",
+  "html.elements.img.loading"
+ ],
+ "description": "The loading=\"lazy\" attribute for <img> and <iframe> elements blocks loading the external resource until the user scrolls to that element's part of the page.",
+ "description_html": "The <code>loading=\"lazy\"</code> attribute for <code>&#x3C;img></code> and <code>&#x3C;iframe></code> elements blocks loading the external resource until the user scrolls to that element's part of the page.",
+ "kind": "feature",
+ "name": "Lazy-loading images and iframes",
+ "spec": [
+  "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#lazy-loading-attributes"
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2023-12-19",
+  "by_compat_key": {
+   "api.HTMLIFrameElement.loading": {
+    "baseline": "low",
+    "baseline_low_date": "2023-12-19",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "121",
+     "firefox_android": "121",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.HTMLImageElement.loading": {
+    "baseline": "high",
+    "baseline_high_date": "2024-09-14",
+    "baseline_low_date": "2022-03-14",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "75",
+     "firefox_android": "79",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "html.elements.iframe.loading": {
+    "baseline": "low",
+    "baseline_low_date": "2023-12-19",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "121",
+     "firefox_android": "121",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "html.elements.img.loading": {
+    "baseline": "high",
+    "baseline_high_date": "2024-09-14",
+    "baseline_low_date": "2022-03-14",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "75",
+     "firefox_android": "79",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   }
+  },
+  "support": {
+   "chrome": "77",
+   "chrome_android": "77",
+   "edge": "79",
+   "firefox": "121",
+   "firefox_android": "121",
+   "safari": "16.4",
+   "safari_ios": "16.4"
+  }
+ },
+ "id": "loading-lazy",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#lazy-loading-attributes",
+   "seriesComposition": "full",
+   "shortname": "html",
+   "series": {
+    "shortname": "html",
+    "currentSpecification": "html",
+    "title": "HTML",
+    "shortTitle": "HTML",
+    "nightlyUrl": "https://html.spec.whatwg.org/multipage/"
+   },
+   "nightly": {
+    "url": "https://html.spec.whatwg.org/multipage/",
+    "status": "Living Standard",
+    "sourcePath": "source",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/html",
+    "pages": [
+     "https://html.spec.whatwg.org/multipage/introduction.html",
+     "https://html.spec.whatwg.org/multipage/infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/common-microsyntaxes.html",
+     "https://html.spec.whatwg.org/multipage/urls-and-fetching.html",
+     "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html",
+     "https://html.spec.whatwg.org/multipage/structured-data.html",
+     "https://html.spec.whatwg.org/multipage/dom.html",
+     "https://html.spec.whatwg.org/multipage/semantics.html",
+     "https://html.spec.whatwg.org/multipage/sections.html",
+     "https://html.spec.whatwg.org/multipage/grouping-content.html",
+     "https://html.spec.whatwg.org/multipage/text-level-semantics.html",
+     "https://html.spec.whatwg.org/multipage/links.html",
+     "https://html.spec.whatwg.org/multipage/edits.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content.html",
+     "https://html.spec.whatwg.org/multipage/images.html",
+     "https://html.spec.whatwg.org/multipage/iframe-embed-object.html",
+     "https://html.spec.whatwg.org/multipage/media.html",
+     "https://html.spec.whatwg.org/multipage/image-maps.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content-other.html",
+     "https://html.spec.whatwg.org/multipage/tables.html",
+     "https://html.spec.whatwg.org/multipage/forms.html",
+     "https://html.spec.whatwg.org/multipage/input.html",
+     "https://html.spec.whatwg.org/multipage/form-elements.html",
+     "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/interactive-elements.html",
+     "https://html.spec.whatwg.org/multipage/scripting.html",
+     "https://html.spec.whatwg.org/multipage/canvas.html",
+     "https://html.spec.whatwg.org/multipage/custom-elements.html",
+     "https://html.spec.whatwg.org/multipage/semantics-other.html",
+     "https://html.spec.whatwg.org/multipage/microdata.html",
+     "https://html.spec.whatwg.org/multipage/interaction.html",
+     "https://html.spec.whatwg.org/multipage/dnd.html",
+     "https://html.spec.whatwg.org/multipage/popover.html",
+     "https://html.spec.whatwg.org/multipage/browsers.html",
+     "https://html.spec.whatwg.org/multipage/nav-history-apis.html",
+     "https://html.spec.whatwg.org/multipage/document-sequences.html",
+     "https://html.spec.whatwg.org/multipage/browsing-the-web.html",
+     "https://html.spec.whatwg.org/multipage/document-lifecycle.html",
+     "https://html.spec.whatwg.org/multipage/speculative-loading.html",
+     "https://html.spec.whatwg.org/multipage/webappapis.html",
+     "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html",
+     "https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html",
+     "https://html.spec.whatwg.org/multipage/system-state.html",
+     "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html",
+     "https://html.spec.whatwg.org/multipage/comms.html",
+     "https://html.spec.whatwg.org/multipage/server-sent-events.html",
+     "https://html.spec.whatwg.org/multipage/web-messaging.html",
+     "https://html.spec.whatwg.org/multipage/workers.html",
+     "https://html.spec.whatwg.org/multipage/worklets.html",
+     "https://html.spec.whatwg.org/multipage/webstorage.html",
+     "https://html.spec.whatwg.org/multipage/syntax.html",
+     "https://html.spec.whatwg.org/multipage/parsing.html",
+     "https://html.spec.whatwg.org/multipage/named-characters.html",
+     "https://html.spec.whatwg.org/multipage/xhtml.html",
+     "https://html.spec.whatwg.org/multipage/rendering.html",
+     "https://html.spec.whatwg.org/multipage/obsolete.html",
+     "https://html.spec.whatwg.org/multipage/iana.html",
+     "https://html.spec.whatwg.org/multipage/indices.html",
+     "https://html.spec.whatwg.org/multipage/references.html",
+     "https://html.spec.whatwg.org/multipage/acknowledgements.html"
+    ],
+    "filename": "index.html"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "HTML Workstream",
+     "url": "https://html.spec.whatwg.org/multipage/"
+    }
+   ],
+   "title": "HTML",
+   "source": "whatwg",
+   "shortTitle": "HTML",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "close-watcher",
+     "custom-elements",
+     "eventsource",
+     "html",
+     "imagebitmap-renderingcontext",
+     "import-maps",
+     "navigation-api",
+     "webmessaging",
+     "webstorage",
+     "workers",
+     "worklets",
+     "x-frame-options"
+    ],
+    "excludePaths": [
+     "html/cross-origin-embedder-policy/credentialless",
+     "html/dom/partial-updates/tentative",
+     "html/cross-origin-embedder-policy/credentialless"
+    ]
+   },
+   "fragment": "lazy-loading-attributes"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/HTMLIFrameElement/loading",
+   "title": "HTMLIFrameElement: loading property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/loading"
+  },
+  {
+   "slug": "Web/API/HTMLImageElement/loading",
+   "title": "HTMLImageElement: loading property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLImageElement/loading"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/151",
+   "position": "positive",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/performance/#performance_pain_points_limitations_1",
+   "question": "performance",
+   "subQuestion": "performance_pain_points_limitations_1",
+   "path": "dataAPI.surveys.state_of_html.html2025.performance.performance_pain_points_limitations_1.freeform.allEditions.0.buckets.0.nestedBuckets.0.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/performance/#performance_pain_points_features",
+   "question": "performance",
+   "subQuestion": "performance_pain_points_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.performance.performance_pain_points_features.freeform.allEditions.0.buckets.0.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/performance/#performance_pain_points",
+   "question": "performance",
+   "subQuestion": "performance_pain_points",
+   "path": "dataAPI.surveys.state_of_html.html2025.performance.performance_pain_points.freeform.allEditions.0.buckets.0.nestedBuckets.0.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/performance/#performance_features",
+   "question": "performance",
+   "subQuestion": "performance_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.performance.performance_features.0.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.35.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+   "question": "_all_features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.35.entity"
+  },
+  {
+   "name": "State of HTML 2024",
+   "url": "https://2024.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2024.features.all_features.15.entity"
+  },
+  {
+   "name": "State of HTML 2024",
+   "url": "https://2024.stateofhtml.com/en-US/content/#content_features",
+   "question": "content",
+   "subQuestion": "content_features",
+   "path": "dataAPI.surveys.state_of_html.html2024.content.content_features.0.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_missing_features",
+   "question": "usage",
+   "subQuestion": "css_missing_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_missing_features.freeform.allEditions.1.buckets.16.groupedBuckets.0.groupedBuckets.51.entity"
+  }
+ ],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:loading-lazy"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2023-12-19T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2026-06-19"
+}

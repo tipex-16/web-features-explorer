@@ -1,0 +1,396 @@
+{
+ "compat_features": [
+  "api.Element.assignedSlot",
+  "api.Element.slot",
+  "api.HTMLSlotElement",
+  "api.HTMLSlotElement.assignedElements",
+  "api.HTMLSlotElement.assignedNodes",
+  "api.HTMLSlotElement.name",
+  "api.HTMLSlotElement.slotchange_event",
+  "api.Text.assignedSlot",
+  "css.selectors.slotted",
+  "html.elements.slot",
+  "html.elements.slot.name",
+  "html.global_attributes.slot"
+ ],
+ "description": "The <slot> HTML element is a placeholder inside a web component where consumers of the component can insert their own markup.",
+ "description_html": "The <code>&#x3C;slot></code> HTML element is a placeholder inside a web component where consumers of the component can insert their own markup.",
+ "group": [
+  "html-elements",
+  "web-components"
+ ],
+ "kind": "feature",
+ "name": "<slot>",
+ "spec": [
+  "https://html.spec.whatwg.org/multipage/scripting.html#the-slot-element"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2022-07-15",
+  "baseline_low_date": "2020-01-15",
+  "by_compat_key": {
+   "api.Element.assignedSlot": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "53",
+     "chrome_android": "53",
+     "edge": "79",
+     "firefox": "63",
+     "firefox_android": "63",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "api.Element.slot": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "53",
+     "chrome_android": "53",
+     "edge": "79",
+     "firefox": "63",
+     "firefox_android": "63",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "api.HTMLSlotElement": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "53",
+     "chrome_android": "53",
+     "edge": "79",
+     "firefox": "63",
+     "firefox_android": "63",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "api.HTMLSlotElement.assignedElements": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "65",
+     "chrome_android": "65",
+     "edge": "79",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.HTMLSlotElement.assignedNodes": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "53",
+     "chrome_android": "53",
+     "edge": "79",
+     "firefox": "63",
+     "firefox_android": "63",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "api.HTMLSlotElement.name": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "53",
+     "chrome_android": "53",
+     "edge": "79",
+     "firefox": "63",
+     "firefox_android": "63",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "api.HTMLSlotElement.slotchange_event": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "53",
+     "chrome_android": "53",
+     "edge": "79",
+     "firefox": "63",
+     "firefox_android": "63",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.Text.assignedSlot": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "53",
+     "chrome_android": "53",
+     "edge": "79",
+     "firefox": "63",
+     "firefox_android": "63",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "css.selectors.slotted": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "50",
+     "chrome_android": "50",
+     "edge": "79",
+     "firefox": "63",
+     "firefox_android": "63",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "html.elements.slot": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "53",
+     "chrome_android": "53",
+     "edge": "79",
+     "firefox": "63",
+     "firefox_android": "63",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "html.elements.slot.name": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "53",
+     "chrome_android": "53",
+     "edge": "79",
+     "firefox": "63",
+     "firefox_android": "63",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "html.global_attributes.slot": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "53",
+     "chrome_android": "53",
+     "edge": "79",
+     "firefox": "63",
+     "firefox_android": "63",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   }
+  },
+  "support": {
+   "chrome": "53",
+   "chrome_android": "53",
+   "edge": "79",
+   "firefox": "63",
+   "firefox_android": "63",
+   "safari": "10",
+   "safari_ios": "10"
+  }
+ },
+ "id": "slot",
+ "groups": [
+  "html-elements",
+  "web-components"
+ ],
+ "specs": [
+  {
+   "url": "https://html.spec.whatwg.org/multipage/scripting.html#the-slot-element",
+   "seriesComposition": "full",
+   "shortname": "html",
+   "series": {
+    "shortname": "html",
+    "currentSpecification": "html",
+    "title": "HTML",
+    "shortTitle": "HTML",
+    "nightlyUrl": "https://html.spec.whatwg.org/multipage/"
+   },
+   "nightly": {
+    "url": "https://html.spec.whatwg.org/multipage/",
+    "status": "Living Standard",
+    "sourcePath": "source",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/html",
+    "pages": [
+     "https://html.spec.whatwg.org/multipage/introduction.html",
+     "https://html.spec.whatwg.org/multipage/infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/common-microsyntaxes.html",
+     "https://html.spec.whatwg.org/multipage/urls-and-fetching.html",
+     "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html",
+     "https://html.spec.whatwg.org/multipage/structured-data.html",
+     "https://html.spec.whatwg.org/multipage/dom.html",
+     "https://html.spec.whatwg.org/multipage/semantics.html",
+     "https://html.spec.whatwg.org/multipage/sections.html",
+     "https://html.spec.whatwg.org/multipage/grouping-content.html",
+     "https://html.spec.whatwg.org/multipage/text-level-semantics.html",
+     "https://html.spec.whatwg.org/multipage/links.html",
+     "https://html.spec.whatwg.org/multipage/edits.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content.html",
+     "https://html.spec.whatwg.org/multipage/images.html",
+     "https://html.spec.whatwg.org/multipage/iframe-embed-object.html",
+     "https://html.spec.whatwg.org/multipage/media.html",
+     "https://html.spec.whatwg.org/multipage/image-maps.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content-other.html",
+     "https://html.spec.whatwg.org/multipage/tables.html",
+     "https://html.spec.whatwg.org/multipage/forms.html",
+     "https://html.spec.whatwg.org/multipage/input.html",
+     "https://html.spec.whatwg.org/multipage/form-elements.html",
+     "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/interactive-elements.html",
+     "https://html.spec.whatwg.org/multipage/scripting.html",
+     "https://html.spec.whatwg.org/multipage/canvas.html",
+     "https://html.spec.whatwg.org/multipage/custom-elements.html",
+     "https://html.spec.whatwg.org/multipage/semantics-other.html",
+     "https://html.spec.whatwg.org/multipage/microdata.html",
+     "https://html.spec.whatwg.org/multipage/interaction.html",
+     "https://html.spec.whatwg.org/multipage/dnd.html",
+     "https://html.spec.whatwg.org/multipage/popover.html",
+     "https://html.spec.whatwg.org/multipage/browsers.html",
+     "https://html.spec.whatwg.org/multipage/nav-history-apis.html",
+     "https://html.spec.whatwg.org/multipage/document-sequences.html",
+     "https://html.spec.whatwg.org/multipage/browsing-the-web.html",
+     "https://html.spec.whatwg.org/multipage/document-lifecycle.html",
+     "https://html.spec.whatwg.org/multipage/speculative-loading.html",
+     "https://html.spec.whatwg.org/multipage/webappapis.html",
+     "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html",
+     "https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html",
+     "https://html.spec.whatwg.org/multipage/system-state.html",
+     "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html",
+     "https://html.spec.whatwg.org/multipage/comms.html",
+     "https://html.spec.whatwg.org/multipage/server-sent-events.html",
+     "https://html.spec.whatwg.org/multipage/web-messaging.html",
+     "https://html.spec.whatwg.org/multipage/workers.html",
+     "https://html.spec.whatwg.org/multipage/worklets.html",
+     "https://html.spec.whatwg.org/multipage/webstorage.html",
+     "https://html.spec.whatwg.org/multipage/syntax.html",
+     "https://html.spec.whatwg.org/multipage/parsing.html",
+     "https://html.spec.whatwg.org/multipage/named-characters.html",
+     "https://html.spec.whatwg.org/multipage/xhtml.html",
+     "https://html.spec.whatwg.org/multipage/rendering.html",
+     "https://html.spec.whatwg.org/multipage/obsolete.html",
+     "https://html.spec.whatwg.org/multipage/iana.html",
+     "https://html.spec.whatwg.org/multipage/indices.html",
+     "https://html.spec.whatwg.org/multipage/references.html",
+     "https://html.spec.whatwg.org/multipage/acknowledgements.html"
+    ],
+    "filename": "index.html"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "HTML Workstream",
+     "url": "https://html.spec.whatwg.org/multipage/"
+    }
+   ],
+   "title": "HTML",
+   "source": "whatwg",
+   "shortTitle": "HTML",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "close-watcher",
+     "custom-elements",
+     "eventsource",
+     "html",
+     "imagebitmap-renderingcontext",
+     "import-maps",
+     "navigation-api",
+     "webmessaging",
+     "webstorage",
+     "workers",
+     "worklets",
+     "x-frame-options"
+    ],
+    "excludePaths": [
+     "html/cross-origin-embedder-policy/credentialless",
+     "html/dom/partial-updates/tentative",
+     "html/cross-origin-embedder-policy/credentialless"
+    ]
+   },
+   "fragment": "the-slot-element"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/HTML/Reference/Elements/slot",
+   "title": "<slot>: The Web Component Slot element",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/slot"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/features/web_components/#web_components_features",
+   "question": "web_components",
+   "subQuestion": "web_components_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.web_components.web_components_features.6.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.48.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+   "question": "_all_features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.48.entity"
+  },
+  {
+   "name": "State of HTML 2024",
+   "url": "https://2024.stateofhtml.com/en-US/features/web_components/#web_components_features",
+   "question": "web_components",
+   "subQuestion": "web_components_features",
+   "path": "dataAPI.surveys.state_of_html.html2024.web_components.web_components_features.6.entity"
+  },
+  {
+   "name": "State of HTML 2024",
+   "url": "https://2024.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2024.features.all_features.33.entity"
+  }
+ ],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.59645715,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/62"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:slot"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2020-01-15T00:00:00.000Z",
+ "baselineHighDateAsObject": "2022-07-15T00:00:00.000Z"
+}

@@ -1,0 +1,122 @@
+{
+ "compat_features": [
+  "css.at-rules.media.inverted-colors"
+ ],
+ "description": "The inverted-colors CSS media query sets styles based on whether the user has inverted all colors, such as with mobile accessibility settings.",
+ "description_html": "The <code>inverted-colors</code> CSS media query sets styles based on whether the user has inverted all colors, such as with mobile accessibility settings.",
+ "group": [
+  "media-queries"
+ ],
+ "kind": "feature",
+ "name": "inverted-colors media query",
+ "spec": [
+  "https://drafts.csswg.org/mediaqueries-5/#inverted"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "css.at-rules.media.inverted-colors": {
+    "baseline": false,
+    "support": {
+     "safari": "9.1",
+     "safari_ios": "10"
+    }
+   }
+  },
+  "support": {
+   "safari": "9.1",
+   "safari_ios": "10"
+  }
+ },
+ "id": "inverted-colors",
+ "groups": [
+  "media-queries"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/mediaqueries-5/#inverted",
+   "seriesComposition": "delta",
+   "shortname": "mediaqueries-5",
+   "series": {
+    "shortname": "mediaqueries",
+    "currentSpecification": "mediaqueries-4",
+    "title": "Media Queries",
+    "shortTitle": "Media Queries",
+    "releaseUrl": "https://www.w3.org/TR/mediaqueries/",
+    "nightlyUrl": "https://drafts.csswg.org/mediaqueries/"
+   },
+   "seriesVersion": "5",
+   "seriesPrevious": "mediaqueries-4",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/mediaqueries-5/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/mediaqueries-5/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/mediaqueries-5/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "mediaqueries-5/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "Media Queries Level 5",
+   "source": "w3c",
+   "shortTitle": "Media Queries 5",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/mediaqueries"
+    ]
+   },
+   "fragment": "inverted"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/At-rules/@media/inverted-colors",
+   "title": "inverted-colors",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/inverted-colors"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/853",
+   "position": "",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:inverted-colors"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/54",
+  "votes": 0
+ },
+ "bugs": {
+  "chrome": [
+   "http://crbug.com/1462210"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

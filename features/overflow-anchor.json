@@ -1,0 +1,161 @@
+{
+ "caniuse": [
+  "css-overflow-anchor"
+ ],
+ "compat_features": [
+  "css.properties.overflow-anchor",
+  "css.properties.overflow-anchor.auto",
+  "css.properties.overflow-anchor.none"
+ ],
+ "description": "The overflow-anchor CSS property sets an element as a possible scroll anchor, reducing unintended scrolling when document changes occur above the current scrollport. This is enabled by default where supported.",
+ "description_html": "The <code>overflow-anchor</code> CSS property sets an element as a possible scroll anchor, reducing unintended scrolling when document changes occur above the current scrollport. This is enabled by default where supported.",
+ "group": [
+  "scrolling"
+ ],
+ "kind": "feature",
+ "name": "overflow-anchor",
+ "spec": [
+  "https://drafts.csswg.org/css-scroll-anchoring-1/#exclusion-api"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "css.properties.overflow-anchor": {
+    "baseline": false,
+    "support": {
+     "chrome": "56",
+     "chrome_android": "56",
+     "edge": "79",
+     "firefox": "66",
+     "firefox_android": "66"
+    }
+   },
+   "css.properties.overflow-anchor.auto": {
+    "baseline": false,
+    "support": {
+     "chrome": "56",
+     "chrome_android": "56",
+     "edge": "79",
+     "firefox": "66",
+     "firefox_android": "66"
+    }
+   },
+   "css.properties.overflow-anchor.none": {
+    "baseline": false,
+    "support": {
+     "chrome": "56",
+     "chrome_android": "56",
+     "edge": "79",
+     "firefox": "66",
+     "firefox_android": "66"
+    }
+   }
+  },
+  "support": {
+   "chrome": "56",
+   "chrome_android": "56",
+   "edge": "79",
+   "firefox": "66",
+   "firefox_android": "66"
+  }
+ },
+ "id": "overflow-anchor",
+ "groups": [
+  "scrolling"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-scroll-anchoring-1/#exclusion-api",
+   "seriesComposition": "full",
+   "shortname": "css-scroll-anchoring-1",
+   "series": {
+    "shortname": "css-scroll-anchoring",
+    "currentSpecification": "css-scroll-anchoring-1",
+    "title": "CSS Scroll Anchoring",
+    "shortTitle": "CSS Scroll Anchoring",
+    "releaseUrl": "https://www.w3.org/TR/css-scroll-anchoring/",
+    "nightlyUrl": "https://drafts.csswg.org/css-scroll-anchoring/"
+   },
+   "seriesVersion": "1",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-scroll-anchoring-1/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-scroll-anchoring-1/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-scroll-anchoring-1/",
+     "https://w3c.github.io/csswg-drafts/css-scroll-anchoring/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-scroll-anchoring-1/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Scroll Anchoring Module Level 1",
+   "source": "w3c",
+   "shortTitle": "CSS Scroll Anchoring 1",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-scroll-anchoring"
+    ]
+   },
+   "fragment": "exclusion-api"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Guides/Scroll_anchoring/Overview",
+   "title": "Overview of scroll anchoring",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Guides/Scroll_anchoring/Overview"
+  },
+  {
+   "slug": "Web/CSS/Reference/Properties/overflow-anchor",
+   "title": "overflow-anchor",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow-anchor"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:overflow-anchor"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/63",
+  "votes": 2
+ },
+ "bugs": {
+  "safari": [
+   "https://webkit.org/b/171099"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/171099"
+  ],
+  "webview_ios": [
+   "https://webkit.org/b/171099"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Safari",
+ "monthsBlocked": 74,
+ "blockedSince": "January 2020"
+}

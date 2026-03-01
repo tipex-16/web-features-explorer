@@ -1,0 +1,834 @@
+{
+ "caniuse": [
+  "css-snappoints"
+ ],
+ "compat_features": [
+  "css.properties.scroll-margin",
+  "css.properties.scroll-margin-block",
+  "css.properties.scroll-margin-block-end",
+  "css.properties.scroll-margin-block-start",
+  "css.properties.scroll-margin-bottom",
+  "css.properties.scroll-margin-inline",
+  "css.properties.scroll-margin-inline-end",
+  "css.properties.scroll-margin-inline-start",
+  "css.properties.scroll-margin-left",
+  "css.properties.scroll-margin-right",
+  "css.properties.scroll-margin-top",
+  "css.properties.scroll-padding",
+  "css.properties.scroll-padding-block",
+  "css.properties.scroll-padding-block-end",
+  "css.properties.scroll-padding-block-end.auto",
+  "css.properties.scroll-padding-block-start",
+  "css.properties.scroll-padding-block-start.auto",
+  "css.properties.scroll-padding-block.auto",
+  "css.properties.scroll-padding-bottom",
+  "css.properties.scroll-padding-inline",
+  "css.properties.scroll-padding-inline-end",
+  "css.properties.scroll-padding-inline-end.auto",
+  "css.properties.scroll-padding-inline-start",
+  "css.properties.scroll-padding-inline-start.auto",
+  "css.properties.scroll-padding-inline.auto",
+  "css.properties.scroll-padding-left",
+  "css.properties.scroll-padding-right",
+  "css.properties.scroll-padding-top",
+  "css.properties.scroll-padding.auto",
+  "css.properties.scroll-snap-align",
+  "css.properties.scroll-snap-align.center",
+  "css.properties.scroll-snap-align.end",
+  "css.properties.scroll-snap-align.none",
+  "css.properties.scroll-snap-align.start",
+  "css.properties.scroll-snap-stop",
+  "css.properties.scroll-snap-stop.always",
+  "css.properties.scroll-snap-stop.normal",
+  "css.properties.scroll-snap-type",
+  "css.properties.scroll-snap-type.block",
+  "css.properties.scroll-snap-type.both",
+  "css.properties.scroll-snap-type.inline",
+  "css.properties.scroll-snap-type.none",
+  "css.properties.scroll-snap-type.x",
+  "css.properties.scroll-snap-type.y"
+ ],
+ "description": "CSS scroll snap controls the panning and scrolling behavior within a scroll container.",
+ "description_html": "CSS scroll snap controls the panning and scrolling behavior within a scroll container.",
+ "group": [
+  "scrolling"
+ ],
+ "kind": "feature",
+ "name": "Scroll snap",
+ "spec": [
+  "https://drafts.csswg.org/css-scroll-snap-2/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2022-07-15",
+  "baseline_low_date": "2020-01-15",
+  "by_compat_key": {
+   "css.properties.scroll-margin": {
+    "baseline": "high",
+    "baseline_high_date": "2024-01-13",
+    "baseline_low_date": "2021-07-13",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "90",
+     "firefox_android": "90",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.scroll-margin-block": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "css.properties.scroll-margin-block-end": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "css.properties.scroll-margin-block-start": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "css.properties.scroll-margin-bottom": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.scroll-margin-inline": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "css.properties.scroll-margin-inline-end": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "css.properties.scroll-margin-inline-start": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "css.properties.scroll-margin-left": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.scroll-margin-right": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.scroll-margin-top": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.scroll-padding": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.scroll-padding-block": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "css.properties.scroll-padding-block-end": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "css.properties.scroll-padding-block-end.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "css.properties.scroll-padding-block-start": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "css.properties.scroll-padding-block-start.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "css.properties.scroll-padding-block.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "css.properties.scroll-padding-bottom": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.scroll-padding-inline": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "css.properties.scroll-padding-inline-end": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "css.properties.scroll-padding-inline-end.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "css.properties.scroll-padding-inline-start": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "css.properties.scroll-padding-inline-start.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "css.properties.scroll-padding-inline.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "css.properties.scroll-padding-left": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.scroll-padding-right": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.scroll-padding-top": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.scroll-padding.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.scroll-snap-align": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "css.properties.scroll-snap-align.center": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "css.properties.scroll-snap-align.end": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "css.properties.scroll-snap-align.none": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "css.properties.scroll-snap-align.start": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "css.properties.scroll-snap-stop": {
+    "baseline": "high",
+    "baseline_high_date": "2025-01-26",
+    "baseline_low_date": "2022-07-26",
+    "support": {
+     "chrome": "75",
+     "chrome_android": "75",
+     "edge": "79",
+     "firefox": "103",
+     "firefox_android": "103",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "css.properties.scroll-snap-stop.always": {
+    "baseline": "high",
+    "baseline_high_date": "2025-01-26",
+    "baseline_low_date": "2022-07-26",
+    "support": {
+     "chrome": "75",
+     "chrome_android": "75",
+     "edge": "79",
+     "firefox": "103",
+     "firefox_android": "103",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "css.properties.scroll-snap-stop.normal": {
+    "baseline": "high",
+    "baseline_high_date": "2025-01-26",
+    "baseline_low_date": "2022-07-26",
+    "support": {
+     "chrome": "75",
+     "chrome_android": "75",
+     "edge": "79",
+     "firefox": "103",
+     "firefox_android": "103",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "css.properties.scroll-snap-type": {
+    "baseline": "high",
+    "baseline_high_date": "2024-10-05",
+    "baseline_low_date": "2022-04-05",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "99",
+     "firefox_android": "39",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "css.properties.scroll-snap-type.block": {
+    "baseline": "high",
+    "baseline_high_date": "2024-10-05",
+    "baseline_low_date": "2022-04-05",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "99",
+     "firefox_android": "68",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "css.properties.scroll-snap-type.both": {
+    "baseline": "high",
+    "baseline_high_date": "2024-10-05",
+    "baseline_low_date": "2022-04-05",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "99",
+     "firefox_android": "68",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "css.properties.scroll-snap-type.inline": {
+    "baseline": "high",
+    "baseline_high_date": "2024-10-05",
+    "baseline_low_date": "2022-04-05",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "99",
+     "firefox_android": "68",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "css.properties.scroll-snap-type.none": {
+    "baseline": "high",
+    "baseline_high_date": "2024-10-05",
+    "baseline_low_date": "2022-04-05",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "99",
+     "firefox_android": "39",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "css.properties.scroll-snap-type.x": {
+    "baseline": "high",
+    "baseline_high_date": "2024-10-05",
+    "baseline_low_date": "2022-04-05",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "99",
+     "firefox_android": "68",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "css.properties.scroll-snap-type.y": {
+    "baseline": "high",
+    "baseline_high_date": "2024-10-05",
+    "baseline_low_date": "2022-04-05",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "99",
+     "firefox_android": "68",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   }
+  },
+  "support": {
+   "chrome": "69",
+   "chrome_android": "69",
+   "edge": "79",
+   "firefox": "68",
+   "firefox_android": "68",
+   "safari": "11",
+   "safari_ios": "11"
+  }
+ },
+ "id": "scroll-snap",
+ "groups": [
+  "scrolling"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-scroll-snap-2/",
+   "seriesComposition": "delta",
+   "shortname": "css-scroll-snap-2",
+   "series": {
+    "shortname": "css-scroll-snap",
+    "currentSpecification": "css-scroll-snap-1",
+    "title": "CSS Scroll Snap",
+    "shortTitle": "CSS Scroll Snap",
+    "releaseUrl": "https://www.w3.org/TR/css-scroll-snap/",
+    "nightlyUrl": "https://drafts.csswg.org/css-scroll-snap/"
+   },
+   "seriesVersion": "2",
+   "seriesPrevious": "css-scroll-snap-1",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-scroll-snap-2/",
+    "status": "First Public Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-scroll-snap-2/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-scroll-snap-2/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-scroll-snap-2/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Scroll Snap Module Level 2",
+   "source": "w3c",
+   "shortTitle": "CSS Scroll Snap 2",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-scroll-snap"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Guides/Scroll_snap",
+   "title": "CSS scroll snap",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Guides/Scroll_snap"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#gamechanger_feature",
+   "question": "usage",
+   "subQuestion": "gamechanger_feature",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.gamechanger_feature.freeform.allEditions.0.buckets.15.groupedBuckets.0.groupedBuckets.48.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#favorite_new_features",
+   "question": "usage",
+   "subQuestion": "favorite_new_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.favorite_new_features.freeform.allEditions.0.buckets.21.groupedBuckets.0.groupedBuckets.7.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_missing_features",
+   "question": "usage",
+   "subQuestion": "css_missing_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_missing_features.freeform.allEditions.0.buckets.21.groupedBuckets.1.groupedBuckets.110.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_interoperability_features",
+   "question": "usage",
+   "subQuestion": "css_interoperability_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_interoperability_features.freeform.allEditions.0.buckets.21.groupedBuckets.0.groupedBuckets.10.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/interactions/#interactions_pain_points",
+   "question": "interactions",
+   "subQuestion": "interactions_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.interactions.interactions_pain_points.freeform.allEditions.0.buckets.11.groupedBuckets.0.groupedBuckets.9.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.25.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2024.features.all_features.22.entity"
+  }
+ ],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.15703273,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/59"
+ },
+ "interop": [
+  {
+   "year": 2022,
+   "label": "interop-2022-scrolling",
+   "url": "https://wpt.fyi/interop-2022?feature=interop-2022-scrolling"
+  },
+  {
+   "year": 2023,
+   "label": "interop-2022-scrolling",
+   "url": "https://wpt.fyi/interop-2023?feature=interop-2022-scrolling"
+  }
+ ],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:scroll-snap"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2020-01-15T00:00:00.000Z",
+ "baselineHighDateAsObject": "2022-07-15T00:00:00.000Z"
+}

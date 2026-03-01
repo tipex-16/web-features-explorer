@@ -1,0 +1,186 @@
+{
+ "compat_features": [
+  "api.Keyboard.getLayoutMap",
+  "api.KeyboardLayoutMap",
+  "api.KeyboardLayoutMap.@@iterator",
+  "api.KeyboardLayoutMap.entries",
+  "api.KeyboardLayoutMap.forEach",
+  "api.KeyboardLayoutMap.get",
+  "api.KeyboardLayoutMap.has",
+  "api.KeyboardLayoutMap.keys",
+  "api.KeyboardLayoutMap.size",
+  "api.KeyboardLayoutMap.values"
+ ],
+ "description": "The navigator.keyboard.getLayoutMap() API returns a map from key codes to human readable key names. It can be used to describe buttons to the user when using the keyboard as a set of buttons, such as in games.",
+ "description_html": "The <code>navigator.keyboard.getLayoutMap()</code> API returns a map from key codes to human readable key names. It can be used to describe buttons to the user when using the keyboard as a set of buttons, such as in games.",
+ "kind": "feature",
+ "name": "Keyboard map",
+ "spec": [
+  "https://wicg.github.io/keyboard-map/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Keyboard.getLayoutMap": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79"
+    }
+   },
+   "api.KeyboardLayoutMap": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79"
+    }
+   },
+   "api.KeyboardLayoutMap.@@iterator": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79"
+    }
+   },
+   "api.KeyboardLayoutMap.entries": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79"
+    }
+   },
+   "api.KeyboardLayoutMap.forEach": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79"
+    }
+   },
+   "api.KeyboardLayoutMap.get": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79"
+    }
+   },
+   "api.KeyboardLayoutMap.has": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79"
+    }
+   },
+   "api.KeyboardLayoutMap.keys": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79"
+    }
+   },
+   "api.KeyboardLayoutMap.size": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79"
+    }
+   },
+   "api.KeyboardLayoutMap.values": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79"
+    }
+   }
+  },
+  "support": {
+   "chrome": "69",
+   "chrome_android": "69",
+   "edge": "79"
+  }
+ },
+ "id": "keyboard-map",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://wicg.github.io/keyboard-map/",
+   "seriesComposition": "full",
+   "shortname": "keyboard-map",
+   "series": {
+    "shortname": "keyboard-map",
+    "currentSpecification": "keyboard-map",
+    "title": "Keyboard Map",
+    "shortTitle": "Keyboard Map",
+    "nightlyUrl": "https://wicg.github.io/keyboard-map/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://wicg.github.io/keyboard-map/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/WICG/keyboard-map",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Keyboard Map",
+   "source": "spec",
+   "shortTitle": "Keyboard Map",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "keyboard-map"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Keyboard/getLayoutMap",
+   "title": "Keyboard: getLayoutMap() method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Keyboard/getLayoutMap"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/300",
+   "position": "negative",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": true,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.0818589,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/116"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:keyboard-map"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

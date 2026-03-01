@@ -1,0 +1,81 @@
+{
+ "compat_features": [
+  "webassembly.relaxed-SIMD"
+ ],
+ "description": "Relaxed SIMD (Single Instruction Multiple Data) introduces local non-determinism, where the results of the instructions may vary based on hardware support.",
+ "description_html": "Relaxed SIMD (Single Instruction Multiple Data) introduces local non-determinism, where the results of the instructions may vary based on hardware support.",
+ "group": [
+  "webassembly"
+ ],
+ "kind": "feature",
+ "name": "Relaxed-width SIMD (WebAssembly)",
+ "spec": [
+  "https://github.com/WebAssembly/relaxed-simd/blob/main/proposals/relaxed-simd/Overview.md"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "webassembly.relaxed-SIMD": {
+    "baseline": false,
+    "support": {
+     "chrome": "114",
+     "chrome_android": "114",
+     "edge": "114",
+     "firefox": "146",
+     "firefox_android": "146"
+    }
+   }
+  },
+  "support": {
+   "chrome": "114",
+   "chrome_android": "114",
+   "edge": "114",
+   "firefox": "146",
+   "firefox_android": "146"
+  }
+ },
+ "id": "wasm-simd-relaxed",
+ "groups": [
+  "webassembly"
+ ],
+ "specs": [
+  {
+   "url": "https://github.com/WebAssembly/relaxed-simd/blob/main/proposals/relaxed-simd/Overview.md"
+  }
+ ],
+ "mdnUrls": [],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/651",
+   "position": "positive",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/4",
+   "position": "neutral",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00009108,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/361"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:wasm-simd-relaxed"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/205",
+  "votes": 2
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Safari",
+ "monthsBlocked": 3,
+ "blockedSince": "December 2025"
+}

@@ -1,0 +1,141 @@
+{
+ "compat_features": [
+  "css.selectors.future",
+  "css.selectors.past"
+ ],
+ "description": "The :past and :future CSS pseudo-classes match prior or upcoming text track cues during media playback.",
+ "description_html": "The <code>:past</code> and <code>:future</code> CSS pseudo-classes match prior or upcoming text track cues during media playback.",
+ "group": [
+  "selectors"
+ ],
+ "kind": "feature",
+ "name": "Time-relative pseudo-selectors",
+ "spec": [
+  "https://w3c.github.io/webvtt/#the-past-and-future-pseudo-classes"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "css.selectors.future": {
+    "baseline": false,
+    "support": {
+     "chrome": "23",
+     "chrome_android": "25",
+     "edge": "79",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "css.selectors.past": {
+    "baseline": false,
+    "support": {
+     "chrome": "23",
+     "chrome_android": "25",
+     "edge": "79",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   }
+  },
+  "support": {
+   "chrome": "23",
+   "chrome_android": "25",
+   "edge": "79",
+   "safari": "7",
+   "safari_ios": "7"
+  }
+ },
+ "id": "time-relative-selectors",
+ "groups": [
+  "selectors"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/webvtt/#the-past-and-future-pseudo-classes",
+   "seriesComposition": "full",
+   "shortname": "webvtt1",
+   "series": {
+    "shortname": "webvtt",
+    "currentSpecification": "webvtt1",
+    "title": "WebVTT: The Web Video Text Tracks Format",
+    "shortTitle": "WebVTT: The Web Video Text Tracks Format",
+    "releaseUrl": "https://www.w3.org/TR/webvtt/",
+    "nightlyUrl": "https://w3c.github.io/webvtt/"
+   },
+   "seriesVersion": "1",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Timed Text Working Group",
+     "url": "https://www.w3.org/AudioVideo/TT/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/webvtt1/",
+    "status": "Candidate Recommendation Snapshot",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/webvtt/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/webvtt",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "WebVTT: The Web Video Text Tracks Format",
+   "source": "w3c",
+   "shortTitle": "WebVTT: The Web Video Text Tracks Format",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "webvtt"
+    ]
+   },
+   "fragment": "the-past-and-future-pseudo-classes"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Selectors/:future",
+   "title": ":future",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:future"
+  },
+  {
+   "slug": "Web/CSS/Reference/Selectors/:past",
+   "title": ":past",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:past"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00219182,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/355"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:time-relative-selectors"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/25",
+  "votes": 0
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/865401"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Firefox",
+ "monthsBlocked": 74,
+ "blockedSince": "January 2020"
+}

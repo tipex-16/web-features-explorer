@@ -1,0 +1,327 @@
+{
+ "compat_features": [
+  "css.properties.appearance",
+  "css.properties.appearance.auto",
+  "css.properties.appearance.button",
+  "css.properties.appearance.checkbox",
+  "css.properties.appearance.listbox",
+  "css.properties.appearance.menulist",
+  "css.properties.appearance.menulist-button",
+  "css.properties.appearance.meter",
+  "css.properties.appearance.none",
+  "css.properties.appearance.progress-bar",
+  "css.properties.appearance.radio",
+  "css.properties.appearance.searchfield",
+  "css.properties.appearance.textarea",
+  "css.properties.appearance.textfield"
+ ],
+ "description": "The appearance CSS property controls the appearance of form controls. Using appearance: none disables any default native appearance and allows the elements to be styled with CSS.",
+ "description_html": "The <code>appearance</code> CSS property controls the appearance of form controls. Using <code>appearance: none</code> disables any default native appearance and allows the elements to be styled with CSS.",
+ "group": [
+  "css"
+ ],
+ "kind": "feature",
+ "name": "appearance",
+ "spec": [
+  "https://drafts.csswg.org/css-ui-4/#appearance-switching"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2024-09-14",
+  "baseline_low_date": "2022-03-14",
+  "by_compat_key": {
+   "css.properties.appearance": {
+    "baseline": "high",
+    "baseline_high_date": "2024-09-14",
+    "baseline_low_date": "2022-03-14",
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84",
+     "firefox": "80",
+     "firefox_android": "80",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.properties.appearance.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2024-09-14",
+    "baseline_low_date": "2022-03-14",
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84",
+     "firefox": "80",
+     "firefox_android": "80",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.properties.appearance.button": {
+    "baseline": "high",
+    "baseline_high_date": "2024-09-14",
+    "baseline_low_date": "2022-03-14",
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84",
+     "firefox": "80",
+     "firefox_android": "80",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.properties.appearance.checkbox": {
+    "baseline": "high",
+    "baseline_high_date": "2024-09-14",
+    "baseline_low_date": "2022-03-14",
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84",
+     "firefox": "80",
+     "firefox_android": "80",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.properties.appearance.listbox": {
+    "baseline": "high",
+    "baseline_high_date": "2024-09-14",
+    "baseline_low_date": "2022-03-14",
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84",
+     "firefox": "80",
+     "firefox_android": "80",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.properties.appearance.menulist": {
+    "baseline": "high",
+    "baseline_high_date": "2024-09-14",
+    "baseline_low_date": "2022-03-14",
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84",
+     "firefox": "80",
+     "firefox_android": "80",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.properties.appearance.menulist-button": {
+    "baseline": "high",
+    "baseline_high_date": "2024-09-14",
+    "baseline_low_date": "2022-03-14",
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84",
+     "firefox": "80",
+     "firefox_android": "80",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.properties.appearance.meter": {
+    "baseline": "high",
+    "baseline_high_date": "2024-09-14",
+    "baseline_low_date": "2022-03-14",
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84",
+     "firefox": "80",
+     "firefox_android": "80",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.properties.appearance.none": {
+    "baseline": "high",
+    "baseline_high_date": "2024-09-14",
+    "baseline_low_date": "2022-03-14",
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84",
+     "firefox": "80",
+     "firefox_android": "80",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.properties.appearance.progress-bar": {
+    "baseline": "high",
+    "baseline_high_date": "2024-09-14",
+    "baseline_low_date": "2022-03-14",
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84",
+     "firefox": "80",
+     "firefox_android": "80",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.properties.appearance.radio": {
+    "baseline": "high",
+    "baseline_high_date": "2024-09-14",
+    "baseline_low_date": "2022-03-14",
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84",
+     "firefox": "80",
+     "firefox_android": "80",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.properties.appearance.searchfield": {
+    "baseline": "high",
+    "baseline_high_date": "2024-09-14",
+    "baseline_low_date": "2022-03-14",
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84",
+     "firefox": "80",
+     "firefox_android": "80",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.properties.appearance.textarea": {
+    "baseline": "high",
+    "baseline_high_date": "2024-09-14",
+    "baseline_low_date": "2022-03-14",
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84",
+     "firefox": "80",
+     "firefox_android": "80",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.properties.appearance.textfield": {
+    "baseline": "high",
+    "baseline_high_date": "2024-09-14",
+    "baseline_low_date": "2022-03-14",
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84",
+     "firefox": "80",
+     "firefox_android": "80",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   }
+  },
+  "support": {
+   "chrome": "84",
+   "chrome_android": "84",
+   "edge": "84",
+   "firefox": "80",
+   "firefox_android": "80",
+   "safari": "15.4",
+   "safari_ios": "15.4"
+  }
+ },
+ "id": "appearance",
+ "groups": [
+  "css"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-ui-4/#appearance-switching",
+   "seriesComposition": "full",
+   "shortname": "css-ui-4",
+   "series": {
+    "shortname": "css-ui",
+    "currentSpecification": "css-ui-4",
+    "title": "CSS Basic User Interface",
+    "shortTitle": "CSS User Interface",
+    "releaseUrl": "https://www.w3.org/TR/css-ui/",
+    "nightlyUrl": "https://drafts.csswg.org/css-ui/"
+   },
+   "seriesVersion": "4",
+   "shortTitle": "CSS User Interface 4",
+   "seriesPrevious": "css-ui-3",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-ui-4/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-ui-4/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-ui-4/",
+     "https://w3c.github.io/csswg-drafts/css-ui/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-ui-4/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Basic User Interface Module Level 4",
+   "source": "w3c",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-ui"
+    ]
+   },
+   "fragment": "appearance-switching"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/appearance",
+   "title": "appearance",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/appearance"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.46885359,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/8"
+ },
+ "interop": [
+  {
+   "year": 2025,
+   "label": "interop-2025-webcompat",
+   "url": "https://wpt.fyi/interop-2025?feature=interop-2025-webcompat"
+  }
+ ],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:appearance"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2022-03-14T00:00:00.000Z",
+ "baselineHighDateAsObject": "2024-09-14T00:00:00.000Z"
+}

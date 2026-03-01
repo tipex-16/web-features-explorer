@@ -1,0 +1,409 @@
+{
+ "compat_features": [
+  "javascript.builtins.String.anchor",
+  "javascript.builtins.String.big",
+  "javascript.builtins.String.blink",
+  "javascript.builtins.String.bold",
+  "javascript.builtins.String.fixed",
+  "javascript.builtins.String.fontcolor",
+  "javascript.builtins.String.fontsize",
+  "javascript.builtins.String.italics",
+  "javascript.builtins.String.link",
+  "javascript.builtins.String.small",
+  "javascript.builtins.String.strike",
+  "javascript.builtins.String.sub",
+  "javascript.builtins.String.substr",
+  "javascript.builtins.String.sup"
+ ],
+ "description": "JavaScript built-in methods such as, String.bold() and String.italics(), wrap strings in (often historic) HTML.",
+ "description_html": "JavaScript built-in methods such as, <code>String.bold()</code> and <code>String.italics()</code>, wrap strings in (often historic) HTML.",
+ "discouraged": {
+  "according_to": [
+   "https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#sec-additional-ecmascript-features-for-web-browsers"
+  ],
+  "alternatives": [
+   "dom"
+  ],
+  "reason": "HTML wrapper methods exist only for backwards compatibility. Use DOM APIs to create elements instead.",
+  "reason_html": "HTML wrapper methods exist only for backwards compatibility. Use DOM APIs to create elements instead."
+ },
+ "group": [
+  "javascript"
+ ],
+ "kind": "feature",
+ "name": "HTML wrapper methods",
+ "spec": [
+  "https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#sec-additional-properties-of-the-string.prototype-object"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "javascript.builtins.String.anchor": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.String.big": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.String.blink": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.String.bold": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.String.fixed": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.String.fontcolor": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.String.fontsize": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.String.italics": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.String.link": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.String.small": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.String.strike": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.String.sub": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.String.substr": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.String.sup": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   }
+  },
+  "support": {
+   "chrome": "1",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "1",
+   "firefox_android": "4",
+   "safari": "1",
+   "safari_ios": "1"
+  }
+ },
+ "id": "html-wrapper-methods",
+ "groups": [
+  "javascript"
+ ],
+ "specs": [
+  {
+   "url": "https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#sec-additional-properties-of-the-string.prototype-object",
+   "seriesComposition": "full",
+   "shortname": "ecmascript",
+   "series": {
+    "shortname": "ecmascript",
+    "currentSpecification": "ecmascript",
+    "title": "ECMAScript® 2026 Language Specification",
+    "shortTitle": "ECMAScript",
+    "nightlyUrl": "https://tc39.es/ecma262/multipage/"
+   },
+   "shortTitle": "ECMAScript",
+   "tests": {
+    "repository": "https://github.com/tc39/test262",
+    "testPaths": [
+     "test"
+    ],
+    "excludePaths": [
+     "test/intl402"
+    ]
+   },
+   "organization": "Ecma International",
+   "groups": [
+    {
+     "name": "TC39",
+     "url": "https://tc39.es/"
+    }
+   ],
+   "nightly": {
+    "url": "https://tc39.es/ecma262/multipage/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/tc39/ecma262",
+    "sourcePath": "spec.html",
+    "pages": [
+     "https://tc39.es/ecma262/multipage/scope.html",
+     "https://tc39.es/ecma262/multipage/conformance.html",
+     "https://tc39.es/ecma262/multipage/normative-references.html",
+     "https://tc39.es/ecma262/multipage/overview.html",
+     "https://tc39.es/ecma262/multipage/notational-conventions.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html",
+     "https://tc39.es/ecma262/multipage/abstract-operations.html",
+     "https://tc39.es/ecma262/multipage/syntax-directed-operations.html",
+     "https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html",
+     "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-language-source-code.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-language-lexical-grammar.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html",
+     "https://tc39.es/ecma262/multipage/error-handling-and-language-extensions.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-standard-built-in-objects.html",
+     "https://tc39.es/ecma262/multipage/global-object.html",
+     "https://tc39.es/ecma262/multipage/fundamental-objects.html",
+     "https://tc39.es/ecma262/multipage/numbers-and-dates.html",
+     "https://tc39.es/ecma262/multipage/text-processing.html",
+     "https://tc39.es/ecma262/multipage/indexed-collections.html",
+     "https://tc39.es/ecma262/multipage/keyed-collections.html",
+     "https://tc39.es/ecma262/multipage/structured-data.html",
+     "https://tc39.es/ecma262/multipage/managing-memory.html",
+     "https://tc39.es/ecma262/multipage/control-abstraction-objects.html",
+     "https://tc39.es/ecma262/multipage/reflection.html",
+     "https://tc39.es/ecma262/multipage/memory-model.html",
+     "https://tc39.es/ecma262/multipage/grammar-summary.html",
+     "https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html",
+     "https://tc39.es/ecma262/multipage/strict-mode-of-ecmascript.html",
+     "https://tc39.es/ecma262/multipage/host-layering-points.html",
+     "https://tc39.es/ecma262/multipage/corrections-and-clarifications-in-ecmascript-2015-with-possible-compatibility-impact.html",
+     "https://tc39.es/ecma262/multipage/additions-and-changes-that-introduce-incompatibilities-with-prior-editions.html",
+     "https://tc39.es/ecma262/multipage/bibliography.html",
+     "https://tc39.es/ecma262/multipage/colophon.html",
+     "https://tc39.es/ecma262/multipage/copyright-and-software-license.html"
+    ],
+    "filename": "index.html"
+   },
+   "title": "ECMAScript® 2026 Language Specification",
+   "source": "spec",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": "sec-additional-properties-of-the-string.prototype-object"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/JavaScript/Reference/Global_Objects/String/anchor",
+   "title": "String.prototype.anchor()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/anchor"
+  },
+  {
+   "slug": "Web/JavaScript/Reference/Global_Objects/String/big",
+   "title": "String.prototype.big()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/big"
+  },
+  {
+   "slug": "Web/JavaScript/Reference/Global_Objects/String/blink",
+   "title": "String.prototype.blink()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/blink"
+  },
+  {
+   "slug": "Web/JavaScript/Reference/Global_Objects/String/bold",
+   "title": "String.prototype.bold()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/bold"
+  },
+  {
+   "slug": "Web/JavaScript/Reference/Global_Objects/String/fixed",
+   "title": "String.prototype.fixed()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/fixed"
+  },
+  {
+   "slug": "Web/JavaScript/Reference/Global_Objects/String/fontcolor",
+   "title": "String.prototype.fontcolor()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/fontcolor"
+  },
+  {
+   "slug": "Web/JavaScript/Reference/Global_Objects/String/fontsize",
+   "title": "String.prototype.fontsize()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/fontsize"
+  },
+  {
+   "slug": "Web/JavaScript/Reference/Global_Objects/String/italics",
+   "title": "String.prototype.italics()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/italics"
+  },
+  {
+   "slug": "Web/JavaScript/Reference/Global_Objects/String/link",
+   "title": "String.prototype.link()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/link"
+  },
+  {
+   "slug": "Web/JavaScript/Reference/Global_Objects/String/small",
+   "title": "String.prototype.small()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/small"
+  },
+  {
+   "slug": "Web/JavaScript/Reference/Global_Objects/String/strike",
+   "title": "String.prototype.strike()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/strike"
+  },
+  {
+   "slug": "Web/JavaScript/Reference/Global_Objects/String/sub",
+   "title": "String.prototype.sub()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/sub"
+  },
+  {
+   "slug": "Web/JavaScript/Reference/Global_Objects/String/substr",
+   "title": "String.prototype.substr()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/substr"
+  },
+  {
+   "slug": "Web/JavaScript/Reference/Global_Objects/String/sup",
+   "title": "String.prototype.sup()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/sup"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.08370912,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/394"
+ },
+ "interop": [],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

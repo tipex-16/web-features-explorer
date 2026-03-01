@@ -1,0 +1,90 @@
+{
+ "compat_features": [
+  "api.Request.targetAddressSpace"
+ ],
+ "description": "The \"local-network-access\" user permission (and certain actions that imply this permission, such as a fetch() request with { targetAddressSpace: \"local\" }) allows a site to send requests to servers on a user's local network.",
+ "description_html": "The <code>\"local-network-access\"</code> user permission (and certain actions that imply this permission, such as a <code>fetch()</code> request with <code>{ targetAddressSpace: \"local\" }</code>) allows a site to send requests to servers on a user's local network.",
+ "kind": "feature",
+ "name": "Local network access",
+ "spec": [
+  "https://wicg.github.io/local-network-access/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Request.targetAddressSpace": {
+    "baseline": false,
+    "support": {}
+   }
+  },
+  "support": {}
+ },
+ "id": "local-network-access",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://wicg.github.io/local-network-access/",
+   "seriesComposition": "full",
+   "shortname": "local-network-access",
+   "series": {
+    "shortname": "local-network-access",
+    "currentSpecification": "local-network-access",
+    "title": "Local Network Access",
+    "shortTitle": "Local Network Access",
+    "nightlyUrl": "https://wicg.github.io/local-network-access/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://wicg.github.io/local-network-access/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/WICG/local-network-access",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Local Network Access",
+   "source": "spec",
+   "shortTitle": "Local Network Access",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "fetch/local-network-access"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:local-network-access"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/367",
+  "votes": 2
+ },
+ "bugs": {
+  "chrome": [
+   "https://issues.chromium.org/issues/465491626",
+   "https://issues.chromium.org/issues/421216834",
+   "https://crbug.com/421156866",
+   "https://crbug.com/394009026"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

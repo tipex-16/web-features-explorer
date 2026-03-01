@@ -1,0 +1,197 @@
+{
+ "caniuse": [
+  "css-line-clamp"
+ ],
+ "compat_features": [
+  "css.properties.line-clamp",
+  "css.properties.line-clamp.none"
+ ],
+ "description": "The line-clamp CSS property limits the text in a block container to a certain number of lines. The prefixed -webkit-line-clamp is widely supported but only works with -webkit-box-orient: vertical in combination with display: -webkit-box or display: -webkit-inline-box.",
+ "description_html": "The <code>line-clamp</code> CSS property limits the text in a block container to a certain number of lines. The prefixed <code>-webkit-line-clamp</code> is widely supported but only works with <code>-webkit-box-orient: vertical</code> in combination with <code>display: -webkit-box</code> or <code>display: -webkit-inline-box</code>.",
+ "group": [
+  "css"
+ ],
+ "kind": "feature",
+ "name": "line-clamp",
+ "spec": [
+  "https://drafts.csswg.org/css-overflow-4/#line-clamp"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "css.properties.line-clamp": {
+    "baseline": false,
+    "support": {}
+   },
+   "css.properties.line-clamp.none": {
+    "baseline": false,
+    "support": {}
+   }
+  },
+  "support": {}
+ },
+ "id": "line-clamp",
+ "groups": [
+  "css"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-overflow-4/#line-clamp",
+   "seriesComposition": "delta",
+   "shortname": "css-overflow-4",
+   "series": {
+    "shortname": "css-overflow",
+    "currentSpecification": "css-overflow-3",
+    "title": "CSS Overflow",
+    "shortTitle": "CSS Overflow",
+    "releaseUrl": "https://www.w3.org/TR/css-overflow/",
+    "nightlyUrl": "https://drafts.csswg.org/css-overflow/"
+   },
+   "seriesVersion": "4",
+   "seriesPrevious": "css-overflow-3",
+   "seriesNext": "css-overflow-5",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-overflow-4/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-overflow-4/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-overflow-4/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-overflow-4/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Overflow Module Level 4",
+   "source": "w3c",
+   "shortTitle": "CSS Overflow 4",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-overflow"
+    ]
+   },
+   "fragment": "line-clamp"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/line-clamp",
+   "title": "line-clamp",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/line-clamp"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#gamechanger_feature",
+   "question": "usage",
+   "subQuestion": "gamechanger_feature",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.gamechanger_feature.freeform.allEditions.0.buckets.15.groupedBuckets.0.groupedBuckets.41.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#favorite_new_features",
+   "question": "usage",
+   "subQuestion": "favorite_new_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.favorite_new_features.freeform.allEditions.0.buckets.21.groupedBuckets.0.groupedBuckets.11.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_missing_features",
+   "question": "usage",
+   "subQuestion": "css_missing_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_missing_features.freeform.allEditions.0.buckets.21.groupedBuckets.0.groupedBuckets.8.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_interoperability_features",
+   "question": "usage",
+   "subQuestion": "css_interoperability_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_interoperability_features.freeform.allEditions.0.buckets.13.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/typography/#typography_pain_points",
+   "question": "typography",
+   "subQuestion": "typography_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.typography.typography_pain_points.freeform.allEditions.0.buckets.3.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.34.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/usage/#css_interoperability_features",
+   "question": "usage",
+   "subQuestion": "css_interoperability_features",
+   "path": "dataAPI.surveys.state_of_css.css2024.usage.css_interoperability_features.freeform.currentEdition.buckets.13.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2024.features.all_features.31.entity"
+  }
+ ],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:line-clamp"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/267",
+  "votes": 25
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1540681"
+  ],
+  "chrome": [
+   "https://issues.chromium.org/issues/40336192",
+   "https://crbug.com/40336192"
+  ],
+  "chrome_android": [
+   "https://crbug.com/40336192"
+  ],
+  "oculus": [
+   "https://crbug.com/40336192"
+  ],
+  "opera": [
+   "https://crbug.com/40336192"
+  ],
+  "opera_android": [
+   "https://crbug.com/40336192"
+  ],
+  "samsunginternet_android": [
+   "https://crbug.com/40336192"
+  ],
+  "webview_android": [
+   "https://crbug.com/40336192"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

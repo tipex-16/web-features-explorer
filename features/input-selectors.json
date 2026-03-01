@@ -1,0 +1,222 @@
+{
+ "compat_features": [
+  "css.selectors.checked",
+  "css.selectors.disabled",
+  "css.selectors.enabled"
+ ],
+ "description": "The :checked, :disabled, and :enabled CSS pseudo-classes match form elements based on their state.",
+ "description_html": "The <code>:checked</code>, <code>:disabled</code>, and <code>:enabled</code> CSS pseudo-classes match form elements based on their state.",
+ "group": [
+  "forms",
+  "selectors"
+ ],
+ "kind": "feature",
+ "name": "Input selectors",
+ "spec": [
+  "https://drafts.csswg.org/selectors-4/#checked",
+  "https://drafts.csswg.org/selectors-4/#enableddisabled"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "css.selectors.checked": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3.1",
+     "safari_ios": "2"
+    }
+   },
+   "css.selectors.disabled": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3.1",
+     "safari_ios": "2"
+    }
+   },
+   "css.selectors.enabled": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3.1",
+     "safari_ios": "2"
+    }
+   }
+  },
+  "support": {
+   "chrome": "1",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "1",
+   "firefox_android": "4",
+   "safari": "3.1",
+   "safari_ios": "2"
+  }
+ },
+ "id": "input-selectors",
+ "groups": [
+  "forms",
+  "selectors"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/selectors-4/#checked",
+   "seriesComposition": "full",
+   "shortname": "selectors-4",
+   "series": {
+    "shortname": "selectors",
+    "currentSpecification": "selectors-4",
+    "title": "Selectors",
+    "shortTitle": "Selectors",
+    "releaseUrl": "https://www.w3.org/TR/selectors/",
+    "nightlyUrl": "https://drafts.csswg.org/selectors/"
+   },
+   "seriesVersion": "4",
+   "seriesPrevious": "selectors-3",
+   "seriesNext": "selectors-5",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/selectors-4/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/selectors-4/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/selectors-4/",
+     "https://w3c.github.io/csswg-drafts/selectors/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "selectors-4/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "Selectors Level 4",
+   "source": "w3c",
+   "shortTitle": "Selectors 4",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/selectors"
+    ]
+   },
+   "fragment": "checked"
+  },
+  {
+   "url": "https://drafts.csswg.org/selectors-4/#enableddisabled",
+   "seriesComposition": "full",
+   "shortname": "selectors-4",
+   "series": {
+    "shortname": "selectors",
+    "currentSpecification": "selectors-4",
+    "title": "Selectors",
+    "shortTitle": "Selectors",
+    "releaseUrl": "https://www.w3.org/TR/selectors/",
+    "nightlyUrl": "https://drafts.csswg.org/selectors/"
+   },
+   "seriesVersion": "4",
+   "seriesPrevious": "selectors-3",
+   "seriesNext": "selectors-5",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/selectors-4/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/selectors-4/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/selectors-4/",
+     "https://w3c.github.io/csswg-drafts/selectors/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "selectors-4/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "Selectors Level 4",
+   "source": "w3c",
+   "shortTitle": "Selectors 4",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/selectors"
+    ]
+   },
+   "fragment": "enableddisabled"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Selectors/:checked",
+   "title": ":checked",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:checked"
+  },
+  {
+   "slug": "Web/CSS/Reference/Selectors/:disabled",
+   "title": ":disabled",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:disabled"
+  },
+  {
+   "slug": "Web/CSS/Reference/Selectors/:enabled",
+   "title": ":enabled",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:enabled"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:input-selectors"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

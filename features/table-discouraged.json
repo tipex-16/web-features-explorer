@@ -1,0 +1,1393 @@
+{
+ "compat_features": [
+  "api.HTMLTableCaptionElement.align",
+  "api.HTMLTableCellElement.align",
+  "api.HTMLTableCellElement.axis",
+  "api.HTMLTableCellElement.bgColor",
+  "api.HTMLTableCellElement.ch",
+  "api.HTMLTableCellElement.chOff",
+  "api.HTMLTableCellElement.height",
+  "api.HTMLTableCellElement.noWrap",
+  "api.HTMLTableCellElement.vAlign",
+  "api.HTMLTableCellElement.width",
+  "api.HTMLTableColElement.align",
+  "api.HTMLTableColElement.ch",
+  "api.HTMLTableColElement.chOff",
+  "api.HTMLTableColElement.vAlign",
+  "api.HTMLTableColElement.width",
+  "api.HTMLTableElement.align",
+  "api.HTMLTableElement.bgColor",
+  "api.HTMLTableElement.border",
+  "api.HTMLTableElement.cellPadding",
+  "api.HTMLTableElement.cellSpacing",
+  "api.HTMLTableElement.frame",
+  "api.HTMLTableElement.rules",
+  "api.HTMLTableElement.summary",
+  "api.HTMLTableElement.width",
+  "api.HTMLTableRowElement.align",
+  "api.HTMLTableRowElement.bgColor",
+  "api.HTMLTableRowElement.ch",
+  "api.HTMLTableRowElement.chOff",
+  "api.HTMLTableRowElement.vAlign",
+  "api.HTMLTableSectionElement.align",
+  "api.HTMLTableSectionElement.ch",
+  "api.HTMLTableSectionElement.chOff",
+  "api.HTMLTableSectionElement.vAlign",
+  "html.elements.caption.align",
+  "html.elements.col.align",
+  "html.elements.col.char",
+  "html.elements.col.charoff",
+  "html.elements.col.valign",
+  "html.elements.col.width",
+  "html.elements.colgroup.align",
+  "html.elements.colgroup.char",
+  "html.elements.colgroup.charoff",
+  "html.elements.colgroup.valign",
+  "html.elements.colgroup.width",
+  "html.elements.table.align",
+  "html.elements.table.bgcolor",
+  "html.elements.table.border",
+  "html.elements.table.cellpadding",
+  "html.elements.table.cellspacing",
+  "html.elements.table.frame",
+  "html.elements.table.rules",
+  "html.elements.table.summary",
+  "html.elements.table.width",
+  "html.elements.tbody.align",
+  "html.elements.tbody.bgcolor",
+  "html.elements.tbody.char",
+  "html.elements.tbody.charoff",
+  "html.elements.tbody.valign",
+  "html.elements.td.abbr",
+  "html.elements.td.align",
+  "html.elements.td.axis",
+  "html.elements.td.bgcolor",
+  "html.elements.td.char",
+  "html.elements.td.charoff",
+  "html.elements.td.scope",
+  "html.elements.td.valign",
+  "html.elements.td.width",
+  "html.elements.tfoot.align",
+  "html.elements.tfoot.bgcolor",
+  "html.elements.tfoot.char",
+  "html.elements.tfoot.charoff",
+  "html.elements.tfoot.valign",
+  "html.elements.th.align",
+  "html.elements.th.axis",
+  "html.elements.th.bgcolor",
+  "html.elements.th.char",
+  "html.elements.th.charoff",
+  "html.elements.th.valign",
+  "html.elements.th.width",
+  "html.elements.thead.align",
+  "html.elements.thead.bgcolor",
+  "html.elements.thead.char",
+  "html.elements.thead.charoff",
+  "html.elements.thead.valign",
+  "html.elements.tr.align",
+  "html.elements.tr.bgcolor",
+  "html.elements.tr.char",
+  "html.elements.tr.charoff",
+  "html.elements.tr.valign"
+ ],
+ "description": "Attributes and properties of table elements, such as align, vAlign, noWrap, bgcolor, or char set various visual presentation properties of the table and its sections and cells.",
+ "description_html": "Attributes and properties of table elements, such as <code>align</code>, <code>vAlign</code>, <code>noWrap</code>, <code>bgcolor</code>, or <code>char</code> set various visual presentation properties of the table and its sections and cells.",
+ "discouraged": {
+  "according_to": [
+   "https://html.spec.whatwg.org/multipage/obsolete.html"
+  ],
+  "reason": "Some table styling attributes have no effect. They are superseded by CSS.",
+  "reason_html": "Some table styling attributes have no effect. They are superseded by CSS."
+ },
+ "group": [
+  "html-elements"
+ ],
+ "kind": "feature",
+ "name": "Table styling",
+ "spec": [
+  "https://html.spec.whatwg.org/multipage/obsolete.html"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.HTMLTableCaptionElement.align": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLTableCellElement.align": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLTableCellElement.axis": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLTableCellElement.bgColor": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLTableCellElement.ch": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLTableCellElement.chOff": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLTableCellElement.height": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLTableCellElement.noWrap": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLTableCellElement.vAlign": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLTableCellElement.width": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLTableColElement.align": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLTableColElement.ch": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLTableColElement.chOff": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLTableColElement.vAlign": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLTableColElement.width": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLTableElement.align": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLTableElement.bgColor": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLTableElement.border": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLTableElement.cellPadding": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLTableElement.cellSpacing": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLTableElement.frame": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLTableElement.rules": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLTableElement.summary": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLTableElement.width": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLTableRowElement.align": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLTableRowElement.bgColor": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLTableRowElement.ch": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLTableRowElement.chOff": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLTableRowElement.vAlign": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLTableSectionElement.align": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLTableSectionElement.ch": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLTableSectionElement.chOff": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLTableSectionElement.vAlign": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "html.elements.caption.align": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "≤4",
+     "safari_ios": "≤3.2"
+    }
+   },
+   "html.elements.col.align": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "≤4",
+     "safari_ios": "≤3.2"
+    }
+   },
+   "html.elements.col.char": {
+    "baseline": false,
+    "support": {}
+   },
+   "html.elements.col.charoff": {
+    "baseline": false,
+    "support": {}
+   },
+   "html.elements.col.valign": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "≤4",
+     "safari_ios": "≤3.2"
+    }
+   },
+   "html.elements.col.width": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "≤4",
+     "safari_ios": "≤3.2"
+    }
+   },
+   "html.elements.colgroup.align": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "≤4",
+     "safari_ios": "≤3.2"
+    }
+   },
+   "html.elements.colgroup.char": {
+    "baseline": false,
+    "support": {}
+   },
+   "html.elements.colgroup.charoff": {
+    "baseline": false,
+    "support": {}
+   },
+   "html.elements.colgroup.valign": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "≤4",
+     "safari_ios": "≤3.2"
+    }
+   },
+   "html.elements.colgroup.width": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "≤4",
+     "safari_ios": "≤3.2"
+    }
+   },
+   "html.elements.table.align": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "html.elements.table.bgcolor": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "html.elements.table.border": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "html.elements.table.cellpadding": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "html.elements.table.cellspacing": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "html.elements.table.frame": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "html.elements.table.rules": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "html.elements.table.summary": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "html.elements.table.width": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "html.elements.tbody.align": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "2"
+    }
+   },
+   "html.elements.tbody.bgcolor": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "html.elements.tbody.char": {
+    "baseline": false,
+    "support": {}
+   },
+   "html.elements.tbody.charoff": {
+    "baseline": false,
+    "support": {
+     "firefox": "1",
+     "firefox_android": "4"
+    }
+   },
+   "html.elements.tbody.valign": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "2"
+    }
+   },
+   "html.elements.td.abbr": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "html.elements.td.align": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "2"
+    }
+   },
+   "html.elements.td.axis": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "html.elements.td.bgcolor": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "html.elements.td.char": {
+    "baseline": false,
+    "support": {}
+   },
+   "html.elements.td.charoff": {
+    "baseline": false,
+    "support": {
+     "firefox": "1",
+     "firefox_android": "4"
+    }
+   },
+   "html.elements.td.scope": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "html.elements.td.valign": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "2"
+    }
+   },
+   "html.elements.td.width": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "html.elements.tfoot.align": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "2"
+    }
+   },
+   "html.elements.tfoot.bgcolor": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "html.elements.tfoot.char": {
+    "baseline": false,
+    "support": {}
+   },
+   "html.elements.tfoot.charoff": {
+    "baseline": false,
+    "support": {
+     "firefox": "1",
+     "firefox_android": "4"
+    }
+   },
+   "html.elements.tfoot.valign": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "2"
+    }
+   },
+   "html.elements.th.align": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "2"
+    }
+   },
+   "html.elements.th.axis": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "html.elements.th.bgcolor": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "html.elements.th.char": {
+    "baseline": false,
+    "support": {}
+   },
+   "html.elements.th.charoff": {
+    "baseline": false,
+    "support": {
+     "firefox": "1",
+     "firefox_android": "4"
+    }
+   },
+   "html.elements.th.valign": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "2"
+    }
+   },
+   "html.elements.th.width": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "html.elements.thead.align": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "2"
+    }
+   },
+   "html.elements.thead.bgcolor": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "html.elements.thead.char": {
+    "baseline": false,
+    "support": {}
+   },
+   "html.elements.thead.charoff": {
+    "baseline": false,
+    "support": {
+     "firefox": "1",
+     "firefox_android": "4"
+    }
+   },
+   "html.elements.thead.valign": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "2"
+    }
+   },
+   "html.elements.tr.align": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "2"
+    }
+   },
+   "html.elements.tr.bgcolor": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "html.elements.tr.char": {
+    "baseline": false,
+    "support": {}
+   },
+   "html.elements.tr.charoff": {
+    "baseline": false,
+    "support": {}
+   },
+   "html.elements.tr.valign": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "2"
+    }
+   }
+  },
+  "support": {}
+ },
+ "id": "table-discouraged",
+ "groups": [
+  "html-elements"
+ ],
+ "specs": [
+  {
+   "url": "https://html.spec.whatwg.org/multipage/obsolete.html",
+   "seriesComposition": "full",
+   "shortname": "html",
+   "series": {
+    "shortname": "html",
+    "currentSpecification": "html",
+    "title": "HTML",
+    "shortTitle": "HTML",
+    "nightlyUrl": "https://html.spec.whatwg.org/multipage/"
+   },
+   "nightly": {
+    "url": "https://html.spec.whatwg.org/multipage/",
+    "status": "Living Standard",
+    "sourcePath": "source",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/html",
+    "pages": [
+     "https://html.spec.whatwg.org/multipage/introduction.html",
+     "https://html.spec.whatwg.org/multipage/infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/common-microsyntaxes.html",
+     "https://html.spec.whatwg.org/multipage/urls-and-fetching.html",
+     "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html",
+     "https://html.spec.whatwg.org/multipage/structured-data.html",
+     "https://html.spec.whatwg.org/multipage/dom.html",
+     "https://html.spec.whatwg.org/multipage/semantics.html",
+     "https://html.spec.whatwg.org/multipage/sections.html",
+     "https://html.spec.whatwg.org/multipage/grouping-content.html",
+     "https://html.spec.whatwg.org/multipage/text-level-semantics.html",
+     "https://html.spec.whatwg.org/multipage/links.html",
+     "https://html.spec.whatwg.org/multipage/edits.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content.html",
+     "https://html.spec.whatwg.org/multipage/images.html",
+     "https://html.spec.whatwg.org/multipage/iframe-embed-object.html",
+     "https://html.spec.whatwg.org/multipage/media.html",
+     "https://html.spec.whatwg.org/multipage/image-maps.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content-other.html",
+     "https://html.spec.whatwg.org/multipage/tables.html",
+     "https://html.spec.whatwg.org/multipage/forms.html",
+     "https://html.spec.whatwg.org/multipage/input.html",
+     "https://html.spec.whatwg.org/multipage/form-elements.html",
+     "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/interactive-elements.html",
+     "https://html.spec.whatwg.org/multipage/scripting.html",
+     "https://html.spec.whatwg.org/multipage/canvas.html",
+     "https://html.spec.whatwg.org/multipage/custom-elements.html",
+     "https://html.spec.whatwg.org/multipage/semantics-other.html",
+     "https://html.spec.whatwg.org/multipage/microdata.html",
+     "https://html.spec.whatwg.org/multipage/interaction.html",
+     "https://html.spec.whatwg.org/multipage/dnd.html",
+     "https://html.spec.whatwg.org/multipage/popover.html",
+     "https://html.spec.whatwg.org/multipage/browsers.html",
+     "https://html.spec.whatwg.org/multipage/nav-history-apis.html",
+     "https://html.spec.whatwg.org/multipage/document-sequences.html",
+     "https://html.spec.whatwg.org/multipage/browsing-the-web.html",
+     "https://html.spec.whatwg.org/multipage/document-lifecycle.html",
+     "https://html.spec.whatwg.org/multipage/speculative-loading.html",
+     "https://html.spec.whatwg.org/multipage/webappapis.html",
+     "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html",
+     "https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html",
+     "https://html.spec.whatwg.org/multipage/system-state.html",
+     "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html",
+     "https://html.spec.whatwg.org/multipage/comms.html",
+     "https://html.spec.whatwg.org/multipage/server-sent-events.html",
+     "https://html.spec.whatwg.org/multipage/web-messaging.html",
+     "https://html.spec.whatwg.org/multipage/workers.html",
+     "https://html.spec.whatwg.org/multipage/worklets.html",
+     "https://html.spec.whatwg.org/multipage/webstorage.html",
+     "https://html.spec.whatwg.org/multipage/syntax.html",
+     "https://html.spec.whatwg.org/multipage/parsing.html",
+     "https://html.spec.whatwg.org/multipage/named-characters.html",
+     "https://html.spec.whatwg.org/multipage/xhtml.html",
+     "https://html.spec.whatwg.org/multipage/rendering.html",
+     "https://html.spec.whatwg.org/multipage/obsolete.html",
+     "https://html.spec.whatwg.org/multipage/iana.html",
+     "https://html.spec.whatwg.org/multipage/indices.html",
+     "https://html.spec.whatwg.org/multipage/references.html",
+     "https://html.spec.whatwg.org/multipage/acknowledgements.html"
+    ],
+    "filename": "index.html"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "HTML Workstream",
+     "url": "https://html.spec.whatwg.org/multipage/"
+    }
+   ],
+   "title": "HTML",
+   "source": "whatwg",
+   "shortTitle": "HTML",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "close-watcher",
+     "custom-elements",
+     "eventsource",
+     "html",
+     "imagebitmap-renderingcontext",
+     "import-maps",
+     "navigation-api",
+     "webmessaging",
+     "webstorage",
+     "workers",
+     "worklets",
+     "x-frame-options"
+    ],
+    "excludePaths": [
+     "html/cross-origin-embedder-policy/credentialless",
+     "html/dom/partial-updates/tentative",
+     "html/cross-origin-embedder-policy/credentialless"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/HTMLTableCaptionElement/align",
+   "title": "HTMLTableCaptionElement: align property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLTableCaptionElement/align"
+  },
+  {
+   "slug": "Web/API/HTMLTableCellElement/align",
+   "title": "HTMLTableCellElement: align property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLTableCellElement/align"
+  },
+  {
+   "slug": "Web/API/HTMLTableCellElement/bgColor",
+   "title": "HTMLTableCellElement: bgColor property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLTableCellElement/bgColor"
+  },
+  {
+   "slug": "Web/API/HTMLTableCellElement/ch",
+   "title": "HTMLTableCellElement: ch property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLTableCellElement/ch"
+  },
+  {
+   "slug": "Web/API/HTMLTableCellElement/chOff",
+   "title": "HTMLTableCellElement: chOff property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLTableCellElement/chOff"
+  },
+  {
+   "slug": "Web/API/HTMLTableCellElement/noWrap",
+   "title": "HTMLTableCellElement: noWrap property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLTableCellElement/noWrap"
+  },
+  {
+   "slug": "Web/API/HTMLTableCellElement/vAlign",
+   "title": "HTMLTableCellElement: vAlign property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLTableCellElement/vAlign"
+  },
+  {
+   "slug": "Web/API/HTMLTableColElement/align",
+   "title": "HTMLTableColElement: align property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLTableColElement/align"
+  },
+  {
+   "slug": "Web/API/HTMLTableColElement/ch",
+   "title": "HTMLTableColElement: ch property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLTableColElement/ch"
+  },
+  {
+   "slug": "Web/API/HTMLTableColElement/chOff",
+   "title": "HTMLTableColElement: chOff property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLTableColElement/chOff"
+  },
+  {
+   "slug": "Web/API/HTMLTableColElement/vAlign",
+   "title": "HTMLTableColElement: vAlign property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLTableColElement/vAlign"
+  },
+  {
+   "slug": "Web/API/HTMLTableElement/align",
+   "title": "HTMLTableElement: align property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLTableElement/align"
+  },
+  {
+   "slug": "Web/API/HTMLTableElement/bgColor",
+   "title": "HTMLTableElement: bgColor property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLTableElement/bgColor"
+  },
+  {
+   "slug": "Web/API/HTMLTableElement/border",
+   "title": "HTMLTableElement: border property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLTableElement/border"
+  },
+  {
+   "slug": "Web/API/HTMLTableElement/cellPadding",
+   "title": "HTMLTableElement: cellPadding property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLTableElement/cellPadding"
+  },
+  {
+   "slug": "Web/API/HTMLTableElement/cellSpacing",
+   "title": "HTMLTableElement: cellSpacing property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLTableElement/cellSpacing"
+  },
+  {
+   "slug": "Web/API/HTMLTableElement/frame",
+   "title": "HTMLTableElement: frame property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLTableElement/frame"
+  },
+  {
+   "slug": "Web/API/HTMLTableElement/rules",
+   "title": "HTMLTableElement: rules property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLTableElement/rules"
+  },
+  {
+   "slug": "Web/API/HTMLTableElement/summary",
+   "title": "HTMLTableElement: summary property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLTableElement/summary"
+  },
+  {
+   "slug": "Web/API/HTMLTableElement/width",
+   "title": "HTMLTableElement: width property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLTableElement/width"
+  },
+  {
+   "slug": "Web/API/HTMLTableRowElement/align",
+   "title": "HTMLTableRowElement: align property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLTableRowElement/align"
+  },
+  {
+   "slug": "Web/API/HTMLTableRowElement/bgColor",
+   "title": "HTMLTableRowElement: bgColor property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLTableRowElement/bgColor"
+  },
+  {
+   "slug": "Web/API/HTMLTableRowElement/ch",
+   "title": "HTMLTableRowElement: ch property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLTableRowElement/ch"
+  },
+  {
+   "slug": "Web/API/HTMLTableRowElement/chOff",
+   "title": "HTMLTableRowElement: chOff property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLTableRowElement/chOff"
+  },
+  {
+   "slug": "Web/API/HTMLTableRowElement/vAlign",
+   "title": "HTMLTableRowElement: vAlign property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLTableRowElement/vAlign"
+  },
+  {
+   "slug": "Web/API/HTMLTableSectionElement/align",
+   "title": "HTMLTableSectionElement: align property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLTableSectionElement/align"
+  },
+  {
+   "slug": "Web/API/HTMLTableSectionElement/ch",
+   "title": "HTMLTableSectionElement: ch property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLTableSectionElement/ch"
+  },
+  {
+   "slug": "Web/API/HTMLTableSectionElement/chOff",
+   "title": "HTMLTableSectionElement: chOff property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLTableSectionElement/chOff"
+  },
+  {
+   "slug": "Web/API/HTMLTableSectionElement/vAlign",
+   "title": "HTMLTableSectionElement: vAlign property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLTableSectionElement/vAlign"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:table-discouraged"
+ },
+ "developerSignals": null,
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/2212",
+   "https://bugzil.la/915"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/2212",
+   "https://bugzil.la/915"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

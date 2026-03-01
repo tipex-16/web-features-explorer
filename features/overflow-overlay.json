@@ -1,0 +1,132 @@
+{
+ "caniuse": [
+  "css-overflow-overlay"
+ ],
+ "compat_features": [
+  "css.types.overflow.overlay"
+ ],
+ "description": "The overflow: overlay CSS declaration is an alias to overflow: auto. Historically, it caused non-standard behavior, allowing scrollbars to overlay content without taking up layout space.",
+ "description_html": "The <code>overflow: overlay</code> CSS declaration is an alias to <code>overflow: auto</code>. Historically, it caused non-standard behavior, allowing scrollbars to overlay content without taking up layout space.",
+ "discouraged": {
+  "according_to": [
+   "https://drafts.csswg.org/css-overflow-3/#valdef-overflow-overlay"
+  ],
+  "alternatives": [
+   "overflow-shorthand"
+  ],
+  "reason": "Some old browsers may implement non-standard behavior for overflow: overlay.",
+  "reason_html": "Some old browsers may implement non-standard behavior for <code>overflow: overlay</code>."
+ },
+ "group": [
+  "css"
+ ],
+ "kind": "feature",
+ "name": "overflow: overlay",
+ "spec": [
+  "https://drafts.csswg.org/css-overflow-3/#propdef-overflow"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "css.types.overflow.overlay": {
+    "baseline": false,
+    "support": {
+     "chrome": "114",
+     "chrome_android": "114",
+     "edge": "114",
+     "firefox": "112",
+     "firefox_android": "112",
+     "safari": "12",
+     "safari_ios": "12"
+    }
+   }
+  },
+  "support": {
+   "chrome": "114",
+   "chrome_android": "114",
+   "edge": "114",
+   "firefox": "112",
+   "firefox_android": "112",
+   "safari": "12",
+   "safari_ios": "12"
+  }
+ },
+ "id": "overflow-overlay",
+ "groups": [
+  "css"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-overflow-3/#propdef-overflow",
+   "seriesComposition": "full",
+   "shortname": "css-overflow-3",
+   "series": {
+    "shortname": "css-overflow",
+    "currentSpecification": "css-overflow-3",
+    "title": "CSS Overflow",
+    "shortTitle": "CSS Overflow",
+    "releaseUrl": "https://www.w3.org/TR/css-overflow/",
+    "nightlyUrl": "https://drafts.csswg.org/css-overflow/"
+   },
+   "seriesVersion": "3",
+   "seriesNext": "css-overflow-4",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-overflow-3/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-overflow-3/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-overflow-3/",
+     "https://w3c.github.io/csswg-drafts/css-overflow/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-overflow-3/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Overflow Module Level 3",
+   "source": "w3c",
+   "shortTitle": "CSS Overflow 3",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-overflow"
+    ]
+   },
+   "fragment": "propdef-overflow"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/overflow",
+   "title": "overflow",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:overflow-overlay"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

@@ -1,0 +1,196 @@
+{
+ "compat_features": [
+  "api.Gamepad.hand",
+  "api.Gamepad.pose",
+  "api.GamepadPose",
+  "api.GamepadPose.angularAcceleration",
+  "api.GamepadPose.angularVelocity",
+  "api.GamepadPose.hasOrientation",
+  "api.GamepadPose.hasPosition",
+  "api.GamepadPose.linearAcceleration",
+  "api.GamepadPose.linearVelocity",
+  "api.GamepadPose.orientation",
+  "api.GamepadPose.position",
+  "api.GamepadPose.secure_context_required"
+ ],
+ "description": "The hand and pose properties of a Gamepad object represent the position in space and the hand that WebVR controllers are held in.",
+ "description_html": "The <code>hand</code> and <code>pose</code> properties of a <code>Gamepad</code> object represent the position in space and the hand that WebVR controllers are held in.",
+ "group": [
+  "gamepad"
+ ],
+ "kind": "feature",
+ "name": "Gamepad VR hands and poses",
+ "spec": [
+  "https://w3c.github.io/gamepad/extensions.html"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Gamepad.hand": {
+    "baseline": false,
+    "support": {
+     "firefox": "55",
+     "firefox_android": "55"
+    }
+   },
+   "api.Gamepad.pose": {
+    "baseline": false,
+    "support": {
+     "firefox": "55",
+     "firefox_android": "55"
+    }
+   },
+   "api.GamepadPose": {
+    "baseline": false,
+    "support": {
+     "firefox": "55",
+     "firefox_android": "55"
+    }
+   },
+   "api.GamepadPose.angularAcceleration": {
+    "baseline": false,
+    "support": {
+     "firefox": "55",
+     "firefox_android": "55"
+    }
+   },
+   "api.GamepadPose.angularVelocity": {
+    "baseline": false,
+    "support": {
+     "firefox": "55",
+     "firefox_android": "55"
+    }
+   },
+   "api.GamepadPose.hasOrientation": {
+    "baseline": false,
+    "support": {
+     "firefox": "55",
+     "firefox_android": "55"
+    }
+   },
+   "api.GamepadPose.hasPosition": {
+    "baseline": false,
+    "support": {
+     "firefox": "55",
+     "firefox_android": "55"
+    }
+   },
+   "api.GamepadPose.linearAcceleration": {
+    "baseline": false,
+    "support": {
+     "firefox": "55",
+     "firefox_android": "55"
+    }
+   },
+   "api.GamepadPose.linearVelocity": {
+    "baseline": false,
+    "support": {
+     "firefox": "55",
+     "firefox_android": "55"
+    }
+   },
+   "api.GamepadPose.orientation": {
+    "baseline": false,
+    "support": {
+     "firefox": "55",
+     "firefox_android": "55"
+    }
+   },
+   "api.GamepadPose.position": {
+    "baseline": false,
+    "support": {
+     "firefox": "55",
+     "firefox_android": "55"
+    }
+   },
+   "api.GamepadPose.secure_context_required": {
+    "baseline": false,
+    "support": {
+     "firefox": "91",
+     "firefox_android": "91"
+    }
+   }
+  },
+  "support": {
+   "firefox": "55",
+   "firefox_android": "55"
+  }
+ },
+ "id": "gamepad-vr",
+ "groups": [
+  "gamepad"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/gamepad/extensions.html",
+   "seriesComposition": "full",
+   "shortname": "gamepad-extensions",
+   "series": {
+    "shortname": "gamepad-extensions",
+    "currentSpecification": "gamepad-extensions",
+    "title": "Gamepad Extensions",
+    "shortTitle": "Gamepad Extensions",
+    "nightlyUrl": "https://w3c.github.io/gamepad/extensions.html"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Applications Working Group",
+     "url": "https://www.w3.org/groups/wg/webapps/"
+    }
+   ],
+   "nightly": {
+    "url": "https://w3c.github.io/gamepad/extensions.html",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/gamepad",
+    "sourcePath": "extensions.html",
+    "filename": "extensions.html"
+   },
+   "title": "Gamepad Extensions",
+   "source": "spec",
+   "shortTitle": "Gamepad Extensions",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Gamepad/hand",
+   "title": "Gamepad: hand property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Gamepad/hand"
+  },
+  {
+   "slug": "Web/API/Gamepad/pose",
+   "title": "Gamepad: pose property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Gamepad/pose"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/1",
+   "position": "support",
+   "concerns": [
+    "integration"
+   ]
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/74",
+  "votes": 1
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

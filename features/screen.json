@@ -1,0 +1,207 @@
+{
+ "compat_features": [
+  "api.Screen",
+  "api.Screen.availHeight",
+  "api.Screen.availWidth",
+  "api.Screen.colorDepth",
+  "api.Screen.height",
+  "api.Screen.pixelDepth",
+  "api.Screen.width"
+ ],
+ "description": "The window.screen property contains information about the screen of the output device that the referenced window is being rendered on.",
+ "description_html": "The <code>window.screen</code> property contains information about the screen of the output device that the referenced <code>window</code> is being rendered on.",
+ "kind": "feature",
+ "name": "Screen",
+ "spec": [
+  "https://drafts.csswg.org/cssom-view-1/#screen"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "api.Screen": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.Screen.availHeight": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.Screen.availWidth": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.Screen.colorDepth": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.Screen.height": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.Screen.pixelDepth": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.Screen.width": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   }
+  },
+  "support": {
+   "chrome": "1",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "1",
+   "firefox_android": "4",
+   "safari": "1",
+   "safari_ios": "1"
+  }
+ },
+ "id": "screen",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/cssom-view-1/#screen",
+   "seriesComposition": "full",
+   "shortname": "cssom-view-1",
+   "series": {
+    "shortname": "cssom-view",
+    "currentSpecification": "cssom-view-1",
+    "title": "CSSOM View",
+    "shortTitle": "CSSOM View",
+    "releaseUrl": "https://www.w3.org/TR/cssom-view/",
+    "nightlyUrl": "https://drafts.csswg.org/cssom-view/"
+   },
+   "seriesVersion": "1",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/cssom-view-1/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/cssom-view-1/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/cssom-view-1/",
+     "https://w3c.github.io/csswg-drafts/cssom-view/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "cssom-view-1/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSSOM View Module",
+   "source": "w3c",
+   "shortTitle": "CSSOM View",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/cssom-view"
+    ]
+   },
+   "fragment": "screen"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Window/screen",
+   "title": "Window: screen property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Window/screen"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:screen"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

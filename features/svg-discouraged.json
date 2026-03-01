@@ -1,0 +1,820 @@
+{
+ "compat_features": [
+  "api.SVGAElement.text",
+  "api.SVGElement.className",
+  "api.SVGPathElement.createSVGPathSegArcAbs",
+  "api.SVGPathElement.createSVGPathSegArcRel",
+  "api.SVGPathElement.createSVGPathSegClosePath",
+  "api.SVGPathElement.createSVGPathSegCurvetoCubicAbs",
+  "api.SVGPathElement.createSVGPathSegCurvetoCubicRel",
+  "api.SVGPathElement.createSVGPathSegCurvetoCubicSmoothAbs",
+  "api.SVGPathElement.createSVGPathSegCurvetoCubicSmoothRel",
+  "api.SVGPathElement.createSVGPathSegCurvetoQuadraticAbs",
+  "api.SVGPathElement.createSVGPathSegCurvetoQuadraticRel",
+  "api.SVGPathElement.createSVGPathSegCurvetoQuadraticSmoothAbs",
+  "api.SVGPathElement.createSVGPathSegCurvetoQuadraticSmoothRel",
+  "api.SVGPathElement.createSVGPathSegLinetoAbs",
+  "api.SVGPathElement.createSVGPathSegLinetoHorizontalAbs",
+  "api.SVGPathElement.createSVGPathSegLinetoHorizontalRel",
+  "api.SVGPathElement.createSVGPathSegLinetoRel",
+  "api.SVGPathElement.createSVGPathSegLinetoVerticalAbs",
+  "api.SVGPathElement.createSVGPathSegLinetoVerticalRel",
+  "api.SVGPathElement.createSVGPathSegMovetoAbs",
+  "api.SVGPathElement.createSVGPathSegMovetoRel",
+  "api.SVGPathElement.getPathSegAtLength",
+  "api.SVGPoint",
+  "api.SVGPoint.matrixTransform",
+  "api.SVGPoint.x",
+  "api.SVGPoint.y",
+  "api.SVGRenderingIntent",
+  "api.SVGSVGElement.currentView",
+  "api.SVGSVGElement.forceRedraw",
+  "api.SVGSVGElement.suspendRedraw",
+  "api.SVGSVGElement.unsuspendRedraw",
+  "api.SVGSVGElement.unsuspendRedrawAll",
+  "api.SVGSVGElement.useCurrentView",
+  "api.SVGStyleElement.type",
+  "api.SVGTextContentElement.selectSubString",
+  "css.at-rules.font-face.SVG_fonts",
+  "svg.elements.a.xlink_actuate",
+  "svg.elements.a.xlink_href",
+  "svg.elements.a.xlink_show",
+  "svg.elements.a.xlink_title",
+  "svg.elements.feImage.xlink_href",
+  "svg.elements.filter.xlink_href",
+  "svg.elements.image.xlink_href",
+  "svg.elements.linearGradient.xlink_href",
+  "svg.elements.mpath.xlink_href",
+  "svg.elements.pattern.xlink_href",
+  "svg.elements.radialGradient.xlink_href",
+  "svg.elements.script.xlink_href",
+  "svg.elements.svg.baseProfile",
+  "svg.elements.svg.version",
+  "svg.elements.svg.zoomAndPan",
+  "svg.elements.textPath.xlink_href",
+  "svg.elements.use.xlink_href",
+  "svg.elements.view.zoomAndPan",
+  "svg.global_attributes.clip",
+  "svg.global_attributes.glyph-orientation-horizontal",
+  "svg.global_attributes.glyph-orientation-vertical",
+  "svg.global_attributes.xml_lang",
+  "svg.global_attributes.xml_space"
+ ],
+ "description": "The SVG 1.1 image format has several components that were excluded from SVG 2, such as fonts, alternate glyphs, and the xlink namespace.",
+ "description_html": "The SVG 1.1 image format has several components that were excluded from SVG 2, such as fonts, alternate glyphs, and the <code>xlink</code> namespace.",
+ "discouraged": {
+  "according_to": [
+   "https://svgwg.org/svg2-draft/changes.html#substantial"
+  ],
+  "alternatives": [
+   "svg",
+   "font-face"
+  ],
+  "reason": "SVG 2 omittted some parts of SVG 1.1 to \"improv[e] the usability and precision of the language.\"",
+  "reason_html": "SVG 2 omittted some parts of SVG 1.1 to \"improv[e] the usability and precision of the language.\""
+ },
+ "kind": "feature",
+ "name": "SVG 1.1",
+ "spec": [
+  "https://www.w3.org/TR/SVG11/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.SVGAElement.text": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.SVGElement.className": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.SVGPathElement.createSVGPathSegArcAbs": {
+    "baseline": false,
+    "support": {
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.SVGPathElement.createSVGPathSegArcRel": {
+    "baseline": false,
+    "support": {
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.SVGPathElement.createSVGPathSegClosePath": {
+    "baseline": false,
+    "support": {
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.SVGPathElement.createSVGPathSegCurvetoCubicAbs": {
+    "baseline": false,
+    "support": {
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.SVGPathElement.createSVGPathSegCurvetoCubicRel": {
+    "baseline": false,
+    "support": {
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.SVGPathElement.createSVGPathSegCurvetoCubicSmoothAbs": {
+    "baseline": false,
+    "support": {
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.SVGPathElement.createSVGPathSegCurvetoCubicSmoothRel": {
+    "baseline": false,
+    "support": {
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.SVGPathElement.createSVGPathSegCurvetoQuadraticAbs": {
+    "baseline": false,
+    "support": {
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.SVGPathElement.createSVGPathSegCurvetoQuadraticRel": {
+    "baseline": false,
+    "support": {
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.SVGPathElement.createSVGPathSegCurvetoQuadraticSmoothAbs": {
+    "baseline": false,
+    "support": {
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.SVGPathElement.createSVGPathSegCurvetoQuadraticSmoothRel": {
+    "baseline": false,
+    "support": {
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.SVGPathElement.createSVGPathSegLinetoAbs": {
+    "baseline": false,
+    "support": {
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.SVGPathElement.createSVGPathSegLinetoHorizontalAbs": {
+    "baseline": false,
+    "support": {
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.SVGPathElement.createSVGPathSegLinetoHorizontalRel": {
+    "baseline": false,
+    "support": {
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.SVGPathElement.createSVGPathSegLinetoRel": {
+    "baseline": false,
+    "support": {
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.SVGPathElement.createSVGPathSegLinetoVerticalAbs": {
+    "baseline": false,
+    "support": {
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.SVGPathElement.createSVGPathSegLinetoVerticalRel": {
+    "baseline": false,
+    "support": {
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.SVGPathElement.createSVGPathSegMovetoAbs": {
+    "baseline": false,
+    "support": {
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.SVGPathElement.createSVGPathSegMovetoRel": {
+    "baseline": false,
+    "support": {
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.SVGPathElement.getPathSegAtLength": {
+    "baseline": false,
+    "support": {
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.SVGPoint": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.SVGPoint.matrixTransform": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.SVGPoint.x": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.SVGPoint.y": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.SVGRenderingIntent": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.SVGSVGElement.currentView": {
+    "baseline": false,
+    "support": {
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.SVGSVGElement.forceRedraw": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.SVGSVGElement.suspendRedraw": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.SVGSVGElement.unsuspendRedraw": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.SVGSVGElement.unsuspendRedrawAll": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.SVGSVGElement.useCurrentView": {
+    "baseline": false,
+    "support": {
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.SVGStyleElement.type": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.SVGTextContentElement.selectSubString": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "css.at-rules.font-face.SVG_fonts": {
+    "baseline": false,
+    "support": {
+     "safari": "3.1",
+     "safari_ios": "3"
+    }
+   },
+   "svg.elements.a.xlink_actuate": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "79",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3.1",
+     "safari_ios": "2"
+    }
+   },
+   "svg.elements.a.xlink_href": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3.1",
+     "safari_ios": "2"
+    }
+   },
+   "svg.elements.a.xlink_show": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "79",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3.1",
+     "safari_ios": "2"
+    }
+   },
+   "svg.elements.a.xlink_title": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "79",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3.1",
+     "safari_ios": "2"
+    }
+   },
+   "svg.elements.feImage.xlink_href": {
+    "baseline": false,
+    "support": {
+     "chrome": "5",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "svg.elements.filter.xlink_href": {
+    "baseline": false,
+    "support": {
+     "chrome": "5",
+     "chrome_android": "18",
+     "edge": "79",
+     "firefox": "3",
+     "firefox_android": "4",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "svg.elements.image.xlink_href": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "79",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "2"
+    }
+   },
+   "svg.elements.linearGradient.xlink_href": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "79",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "2"
+    }
+   },
+   "svg.elements.mpath.xlink_href": {
+    "baseline": false,
+    "support": {
+     "chrome": "19",
+     "chrome_android": "25",
+     "edge": "79",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "svg.elements.pattern.xlink_href": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "3"
+    }
+   },
+   "svg.elements.radialGradient.xlink_href": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "79",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "2"
+    }
+   },
+   "svg.elements.script.xlink_href": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "79",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "2"
+    }
+   },
+   "svg.elements.svg.baseProfile": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "2"
+    }
+   },
+   "svg.elements.svg.version": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "2"
+    }
+   },
+   "svg.elements.svg.zoomAndPan": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "2"
+    }
+   },
+   "svg.elements.textPath.xlink_href": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "2",
+     "firefox_android": "4",
+     "safari": "3.1",
+     "safari_ios": "2"
+    }
+   },
+   "svg.elements.use.xlink_href": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "2"
+    }
+   },
+   "svg.elements.view.zoomAndPan": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "79",
+     "firefox": "15",
+     "firefox_android": "15",
+     "safari": "3",
+     "safari_ios": "2"
+    }
+   },
+   "svg.global_attributes.clip": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "svg.global_attributes.glyph-orientation-horizontal": {
+    "baseline": false,
+    "support": {
+     "safari": "≤13.1",
+     "safari_ios": "≤13.4"
+    }
+   },
+   "svg.global_attributes.glyph-orientation-vertical": {
+    "baseline": false,
+    "support": {
+     "safari": "≤13.1",
+     "safari_ios": "≤13.4"
+    }
+   },
+   "svg.global_attributes.xml_lang": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "≤4",
+     "safari_ios": "≤3.2"
+    }
+   },
+   "svg.global_attributes.xml_space": {
+    "baseline": false,
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "79",
+     "firefox": "3",
+     "firefox_android": "4",
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   }
+  },
+  "support": {}
+ },
+ "id": "svg-discouraged",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://www.w3.org/TR/SVG11/",
+   "seriesComposition": "full",
+   "shortname": "SVG11",
+   "series": {
+    "shortname": "SVG",
+    "currentSpecification": "SVG2",
+    "title": "Scalable Vector Graphics (SVG)",
+    "shortTitle": "SVG",
+    "releaseUrl": "https://www.w3.org/TR/SVG/",
+    "nightlyUrl": "https://svgwg.org/svg2-draft/"
+   },
+   "seriesVersion": "1.1",
+   "seriesNext": "SVG2",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "SVG Working Group",
+     "url": "https://www.w3.org/groups/wg/svg/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/SVG11/",
+    "status": "Recommendation",
+    "pages": [
+     "https://www.w3.org/TR/SVG11/expanded-toc.html",
+     "https://www.w3.org/TR/SVG11/intro.html",
+     "https://www.w3.org/TR/SVG11/concepts.html",
+     "https://www.w3.org/TR/SVG11/render.html",
+     "https://www.w3.org/TR/SVG11/types.html",
+     "https://www.w3.org/TR/SVG11/struct.html",
+     "https://www.w3.org/TR/SVG11/styling.html",
+     "https://www.w3.org/TR/SVG11/coords.html",
+     "https://www.w3.org/TR/SVG11/paths.html",
+     "https://www.w3.org/TR/SVG11/shapes.html",
+     "https://www.w3.org/TR/SVG11/text.html",
+     "https://www.w3.org/TR/SVG11/painting.html",
+     "https://www.w3.org/TR/SVG11/color.html",
+     "https://www.w3.org/TR/SVG11/pservers.html",
+     "https://www.w3.org/TR/SVG11/masking.html",
+     "https://www.w3.org/TR/SVG11/filters.html",
+     "https://www.w3.org/TR/SVG11/interact.html",
+     "https://www.w3.org/TR/SVG11/linking.html",
+     "https://www.w3.org/TR/SVG11/script.html",
+     "https://www.w3.org/TR/SVG11/animate.html",
+     "https://www.w3.org/TR/SVG11/fonts.html",
+     "https://www.w3.org/TR/SVG11/metadata.html",
+     "https://www.w3.org/TR/SVG11/backward.html",
+     "https://www.w3.org/TR/SVG11/extend.html",
+     "https://www.w3.org/TR/SVG11/svgdtd.html",
+     "https://www.w3.org/TR/SVG11/svgdom.html",
+     "https://www.w3.org/TR/SVG11/idl.html",
+     "https://www.w3.org/TR/SVG11/java.html",
+     "https://www.w3.org/TR/SVG11/escript.html",
+     "https://www.w3.org/TR/SVG11/implnote.html",
+     "https://www.w3.org/TR/SVG11/conform.html",
+     "https://www.w3.org/TR/SVG11/access.html",
+     "https://www.w3.org/TR/SVG11/i18n.html",
+     "https://www.w3.org/TR/SVG11/minimize.html",
+     "https://www.w3.org/TR/SVG11/refs.html",
+     "https://www.w3.org/TR/SVG11/eltindex.html",
+     "https://www.w3.org/TR/SVG11/attindex.html",
+     "https://www.w3.org/TR/SVG11/propidx.html",
+     "https://www.w3.org/TR/SVG11/feature.html",
+     "https://www.w3.org/TR/SVG11/mimereg.html",
+     "https://www.w3.org/TR/SVG11/changes.html"
+    ],
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://www.w3.org/TR/SVG11/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "pages": [
+     "https://www.w3.org/TR/SVG11/expanded-toc.html",
+     "https://www.w3.org/TR/SVG11/intro.html",
+     "https://www.w3.org/TR/SVG11/concepts.html",
+     "https://www.w3.org/TR/SVG11/render.html",
+     "https://www.w3.org/TR/SVG11/types.html",
+     "https://www.w3.org/TR/SVG11/struct.html",
+     "https://www.w3.org/TR/SVG11/styling.html",
+     "https://www.w3.org/TR/SVG11/coords.html",
+     "https://www.w3.org/TR/SVG11/paths.html",
+     "https://www.w3.org/TR/SVG11/shapes.html",
+     "https://www.w3.org/TR/SVG11/text.html",
+     "https://www.w3.org/TR/SVG11/painting.html",
+     "https://www.w3.org/TR/SVG11/color.html",
+     "https://www.w3.org/TR/SVG11/pservers.html",
+     "https://www.w3.org/TR/SVG11/masking.html",
+     "https://www.w3.org/TR/SVG11/filters.html",
+     "https://www.w3.org/TR/SVG11/interact.html",
+     "https://www.w3.org/TR/SVG11/linking.html",
+     "https://www.w3.org/TR/SVG11/script.html",
+     "https://www.w3.org/TR/SVG11/animate.html",
+     "https://www.w3.org/TR/SVG11/fonts.html",
+     "https://www.w3.org/TR/SVG11/metadata.html",
+     "https://www.w3.org/TR/SVG11/backward.html",
+     "https://www.w3.org/TR/SVG11/extend.html",
+     "https://www.w3.org/TR/SVG11/svgdtd.html",
+     "https://www.w3.org/TR/SVG11/svgdom.html",
+     "https://www.w3.org/TR/SVG11/idl.html",
+     "https://www.w3.org/TR/SVG11/java.html",
+     "https://www.w3.org/TR/SVG11/escript.html",
+     "https://www.w3.org/TR/SVG11/implnote.html",
+     "https://www.w3.org/TR/SVG11/conform.html",
+     "https://www.w3.org/TR/SVG11/access.html",
+     "https://www.w3.org/TR/SVG11/i18n.html",
+     "https://www.w3.org/TR/SVG11/minimize.html",
+     "https://www.w3.org/TR/SVG11/refs.html",
+     "https://www.w3.org/TR/SVG11/eltindex.html",
+     "https://www.w3.org/TR/SVG11/attindex.html",
+     "https://www.w3.org/TR/SVG11/propidx.html",
+     "https://www.w3.org/TR/SVG11/feature.html",
+     "https://www.w3.org/TR/SVG11/mimereg.html",
+     "https://www.w3.org/TR/SVG11/changes.html"
+    ],
+    "filename": "Overview.html"
+   },
+   "title": "Scalable Vector Graphics (SVG) 1.1 (Second Edition)",
+   "source": "w3c",
+   "shortTitle": "SVG",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/SVG",
+   "title": "SVG: Scalable Vector Graphics",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/SVG"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:svg-discouraged"
+ },
+ "developerSignals": null,
+ "bugs": {
+  "chrome": [
+   "https://bugs.chromium.org/p/chromium/issues/detail?id=669498",
+   "https://crbug.com/539385",
+   "http://crbug.com/242735"
+  ],
+  "safari": [
+   "https://webkit.org/b/226721"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/226721"
+  ],
+  "webview_ios": [
+   "https://webkit.org/b/226721"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

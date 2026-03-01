@@ -1,0 +1,278 @@
+{
+ "caniuse": [
+  "css-touch-action"
+ ],
+ "compat_features": [
+  "css.properties.touch-action",
+  "css.properties.touch-action.manipulation",
+  "css.properties.touch-action.none",
+  "css.properties.touch-action.pan-down",
+  "css.properties.touch-action.pan-left",
+  "css.properties.touch-action.pan-right",
+  "css.properties.touch-action.pan-up",
+  "css.properties.touch-action.pan-x",
+  "css.properties.touch-action.pan-y",
+  "css.properties.touch-action.pinch-zoom"
+ ],
+ "description": "The touch-action CSS property sets whether an element on a touch screen can be panned or pinched to zoom.",
+ "description_html": "The <code>touch-action</code> CSS property sets whether an element on a touch screen can be panned or pinched to zoom.",
+ "kind": "feature",
+ "name": "touch-action",
+ "spec": [
+  "https://w3c.github.io/pointerevents/#the-touch-action-css-property",
+  "https://compat.spec.whatwg.org/#touch-action"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2022-03-19",
+  "baseline_low_date": "2019-09-19",
+  "by_compat_key": {
+   "css.properties.touch-action": {
+    "baseline": "high",
+    "baseline_high_date": "2022-03-19",
+    "baseline_low_date": "2019-09-19",
+    "support": {
+     "chrome": "36",
+     "chrome_android": "36",
+     "edge": "12",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "13",
+     "safari_ios": "9.3"
+    }
+   },
+   "css.properties.touch-action.manipulation": {
+    "baseline": "high",
+    "baseline_high_date": "2022-03-19",
+    "baseline_low_date": "2019-09-19",
+    "support": {
+     "chrome": "36",
+     "chrome_android": "36",
+     "edge": "12",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "13",
+     "safari_ios": "9.3"
+    }
+   },
+   "css.properties.touch-action.none": {
+    "baseline": "high",
+    "baseline_high_date": "2022-03-19",
+    "baseline_low_date": "2019-09-19",
+    "support": {
+     "chrome": "36",
+     "chrome_android": "36",
+     "edge": "12",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "css.properties.touch-action.pan-down": {
+    "baseline": false,
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "79"
+    }
+   },
+   "css.properties.touch-action.pan-left": {
+    "baseline": false,
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "79"
+    }
+   },
+   "css.properties.touch-action.pan-right": {
+    "baseline": false,
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "79"
+    }
+   },
+   "css.properties.touch-action.pan-up": {
+    "baseline": false,
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "79"
+    }
+   },
+   "css.properties.touch-action.pan-x": {
+    "baseline": "high",
+    "baseline_high_date": "2022-03-19",
+    "baseline_low_date": "2019-09-19",
+    "support": {
+     "chrome": "36",
+     "chrome_android": "36",
+     "edge": "12",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "css.properties.touch-action.pan-y": {
+    "baseline": "high",
+    "baseline_high_date": "2022-03-19",
+    "baseline_low_date": "2019-09-19",
+    "support": {
+     "chrome": "36",
+     "chrome_android": "36",
+     "edge": "12",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "css.properties.touch-action.pinch-zoom": {
+    "baseline": "high",
+    "baseline_high_date": "2023-07-26",
+    "baseline_low_date": "2021-01-26",
+    "support": {
+     "chrome": "56",
+     "chrome_android": "56",
+     "edge": "12",
+     "firefox": "85",
+     "firefox_android": "85",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   }
+  },
+  "support": {
+   "chrome": "36",
+   "chrome_android": "36",
+   "edge": "12",
+   "firefox": "52",
+   "firefox_android": "52",
+   "safari": "13",
+   "safari_ios": "9.3"
+  }
+ },
+ "id": "touch-action",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/pointerevents/#the-touch-action-css-property",
+   "seriesComposition": "full",
+   "shortname": "pointerevents4",
+   "series": {
+    "shortname": "pointerevents",
+    "currentSpecification": "pointerevents4",
+    "title": "Pointer Events",
+    "shortTitle": "Pointer Events",
+    "releaseUrl": "https://www.w3.org/TR/pointerevents/",
+    "nightlyUrl": "https://w3c.github.io/pointerevents/"
+   },
+   "seriesVersion": "4",
+   "seriesPrevious": "pointerevents3",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Pointer Events Working Group",
+     "url": "https://www.w3.org/groups/wg/pointer-events/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/pointerevents4/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/pointerevents/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/pointerevents",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Pointer Events",
+   "source": "w3c",
+   "shortTitle": "Pointer Events",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "pointerevents"
+    ]
+   },
+   "fragment": "the-touch-action-css-property"
+  },
+  {
+   "url": "https://compat.spec.whatwg.org/#touch-action",
+   "seriesComposition": "full",
+   "shortname": "compat",
+   "series": {
+    "shortname": "compat",
+    "currentSpecification": "compat",
+    "title": "Compatibility",
+    "shortTitle": "Compatibility",
+    "nightlyUrl": "https://compat.spec.whatwg.org/"
+   },
+   "nightly": {
+    "url": "https://compat.spec.whatwg.org/",
+    "status": "Living Standard",
+    "sourcePath": "compatibility.bs",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/compat",
+    "filename": "index.html"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "Compatibility Workstream",
+     "url": "https://compat.spec.whatwg.org/"
+    }
+   ],
+   "title": "Compatibility",
+   "source": "whatwg",
+   "shortTitle": "Compatibility",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "compat"
+    ]
+   },
+   "fragment": "touch-action"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/touch-action",
+   "title": "touch-action",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/touch-action"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:touch-action"
+ },
+ "developerSignals": null,
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1285685"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/1285685"
+  ]
+ },
+ "baselineLowDateAsObject": "2019-09-19T00:00:00.000Z",
+ "baselineHighDateAsObject": "2022-03-19T00:00:00.000Z"
+}

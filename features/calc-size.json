@@ -1,0 +1,216 @@
+{
+ "compat_features": [
+  "css.types.calc-size"
+ ],
+ "description": "The calc-size() CSS function computes mathematical expressions that include height and width keyword values, for example calc-size(fit-content, size / 2). Not to be confused with the calc() CSS function, which cannot use keyword values.",
+ "description_html": "The <code>calc-size()</code> CSS function computes mathematical expressions that include <code>height</code> and <code>width</code> keyword values, for example <code>calc-size(fit-content, size / 2)</code>. Not to be confused with the <code>calc()</code> CSS function, which cannot use keyword values.",
+ "group": [
+  "css"
+ ],
+ "kind": "feature",
+ "name": "calc-size()",
+ "spec": [
+  "https://drafts.csswg.org/css-values-5/#calc-size"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "css.types.calc-size": {
+    "baseline": false,
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129"
+    }
+   }
+  },
+  "support": {
+   "chrome": "129",
+   "chrome_android": "129",
+   "edge": "129"
+  }
+ },
+ "id": "calc-size",
+ "groups": [
+  "css"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-values-5/#calc-size",
+   "seriesComposition": "delta",
+   "shortname": "css-values-5",
+   "series": {
+    "shortname": "css-values",
+    "currentSpecification": "css-values-4",
+    "title": "CSS Values and Units",
+    "shortTitle": "CSS Values",
+    "releaseUrl": "https://www.w3.org/TR/css-values/",
+    "nightlyUrl": "https://drafts.csswg.org/css-values/"
+   },
+   "seriesVersion": "5",
+   "shortTitle": "CSS Values 5",
+   "seriesPrevious": "css-values-4",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-values-5/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-values-5/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-values-5/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-values-5/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Values and Units Module Level 5",
+   "source": "w3c",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-values"
+    ]
+   },
+   "fragment": "calc-size"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Values/calc-size",
+   "title": "calc-size()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/calc-size"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/1022",
+   "position": "positive",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/348",
+   "position": "",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#gamechanger_feature",
+   "question": "usage",
+   "subQuestion": "gamechanger_feature",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.gamechanger_feature.freeform.allEditions.0.buckets.15.groupedBuckets.0.groupedBuckets.29.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#favorite_new_features",
+   "question": "usage",
+   "subQuestion": "favorite_new_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.favorite_new_features.freeform.allEditions.0.buckets.21.groupedBuckets.1.groupedBuckets.4.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_missing_features",
+   "question": "usage",
+   "subQuestion": "css_missing_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_missing_features.freeform.allEditions.0.buckets.21.groupedBuckets.1.groupedBuckets.24.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_interoperability_features",
+   "question": "usage",
+   "subQuestion": "css_interoperability_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_interoperability_features.freeform.allEditions.0.buckets.21.groupedBuckets.1.groupedBuckets.68.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_general_pain_points",
+   "question": "usage",
+   "subQuestion": "css_general_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_general_pain_points.freeform.allEditions.0.buckets.9.groupedBuckets.0.groupedBuckets.70.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/shapes_graphics/#shapes_graphics_pain_points",
+   "question": "shapes_graphics",
+   "subQuestion": "shapes_graphics_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.shapes_graphics.shapes_graphics_pain_points.freeform.allEditions.0.buckets.8.groupedBuckets.0.groupedBuckets.26.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/features/#reading_list",
+   "question": "reading_list",
+   "subQuestion": "reading_list",
+   "path": "dataAPI.surveys.state_of_css.css2025.reading_list.reading_list.combined.allEditions.1.buckets.1.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/math_features/#math_features_pain_points",
+   "question": "math_features",
+   "subQuestion": "math_features_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.math_features.math_features_pain_points.freeform.allEditions.0.buckets.4.groupedBuckets.0.groupedBuckets.18.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/layout/#layout_pain_points",
+   "question": "layout",
+   "subQuestion": "layout_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.layout.layout_pain_points.freeform.allEditions.0.buckets.21.groupedBuckets.0.groupedBuckets.13.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.9.entity"
+  }
+ ],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00219973,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/234"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:calc-size"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/252",
+  "votes": 22
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1896734"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/1896734"
+  ],
+  "safari": [
+   "https://webkit.org/b/274177"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/274177"
+  ],
+  "webview_ios": [
+   "https://webkit.org/b/274177"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

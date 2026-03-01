@@ -1,0 +1,217 @@
+{
+ "compat_features": [
+  "api.Element.wheel_event",
+  "api.WheelEvent",
+  "api.WheelEvent.WheelEvent",
+  "api.WheelEvent.deltaMode",
+  "api.WheelEvent.deltaX",
+  "api.WheelEvent.deltaY",
+  "api.WheelEvent.deltaZ",
+  "api.WheelEvent.pinch_to_zoom_support"
+ ],
+ "description": "The wheel event fires when the user moves a mouse wheel or similar spatially rotating input device.",
+ "description_html": "The <code>wheel</code> event fires when the user moves a mouse wheel or similar spatially rotating input device.",
+ "kind": "feature",
+ "name": "Wheel events",
+ "spec": [
+  "https://w3c.github.io/pointerevents/#events-wheelevents"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Element.wheel_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "31",
+     "chrome_android": "31",
+     "edge": "12",
+     "firefox": "17",
+     "firefox_android": "17",
+     "safari": "7"
+    }
+   },
+   "api.WheelEvent": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "17",
+     "firefox_android": "17",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.WheelEvent.WheelEvent": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "17",
+     "firefox_android": "17",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.WheelEvent.deltaMode": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "17",
+     "firefox_android": "17",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.WheelEvent.deltaX": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "31",
+     "chrome_android": "31",
+     "edge": "12",
+     "firefox": "17",
+     "firefox_android": "17",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "api.WheelEvent.deltaY": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "31",
+     "chrome_android": "31",
+     "edge": "12",
+     "firefox": "17",
+     "firefox_android": "17",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "api.WheelEvent.deltaZ": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "31",
+     "chrome_android": "31",
+     "edge": "12",
+     "firefox": "17",
+     "firefox_android": "17",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "api.WheelEvent.pinch_to_zoom_support": {
+    "baseline": false,
+    "support": {
+     "chrome": "31",
+     "chrome_android": "31",
+     "edge": "79",
+     "firefox": "55",
+     "firefox_android": "55",
+     "safari": "15"
+    }
+   }
+  },
+  "support": {
+   "chrome": "31",
+   "chrome_android": "31",
+   "edge": "12",
+   "firefox": "17",
+   "firefox_android": "17",
+   "safari": "7"
+  }
+ },
+ "id": "wheel-events",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/pointerevents/#events-wheelevents",
+   "seriesComposition": "full",
+   "shortname": "pointerevents4",
+   "series": {
+    "shortname": "pointerevents",
+    "currentSpecification": "pointerevents4",
+    "title": "Pointer Events",
+    "shortTitle": "Pointer Events",
+    "releaseUrl": "https://www.w3.org/TR/pointerevents/",
+    "nightlyUrl": "https://w3c.github.io/pointerevents/"
+   },
+   "seriesVersion": "4",
+   "seriesPrevious": "pointerevents3",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Pointer Events Working Group",
+     "url": "https://www.w3.org/groups/wg/pointer-events/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/pointerevents4/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/pointerevents/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/pointerevents",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Pointer Events",
+   "source": "w3c",
+   "shortTitle": "Pointer Events",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "pointerevents"
+    ]
+   },
+   "fragment": "events-wheelevents"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Element/wheel_event",
+   "title": "Element: wheel event",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Element/wheel_event"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:wheel-events"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/26",
+  "votes": 1
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Safari on iOS",
+ "monthsBlocked": 128,
+ "blockedSince": "July 2015"
+}

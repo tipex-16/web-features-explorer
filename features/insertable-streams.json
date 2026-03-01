@@ -1,0 +1,163 @@
+{
+ "compat_features": [
+  "api.MediaStreamTrackProcessor",
+  "api.MediaStreamTrackProcessor.MediaStreamTrackProcessor",
+  "api.MediaStreamTrackProcessor.readable",
+  "api.VideoTrackGenerator",
+  "api.VideoTrackGenerator.VideoTrackGenerator",
+  "api.VideoTrackGenerator.muted",
+  "api.VideoTrackGenerator.track",
+  "api.VideoTrackGenerator.writable"
+ ],
+ "description": "The MediaStreamTrackProcessor and MediaStreamTrackGenerator APIs modify the contents of a media track for merging streams, applying real-time effects like funny hats, and content overlays.",
+ "description_html": "The <code>MediaStreamTrackProcessor</code> and <code>MediaStreamTrackGenerator</code> APIs modify the contents of a media track for merging streams, applying real-time effects like funny hats, and content overlays.",
+ "kind": "feature",
+ "name": "Insertable streams for MediaStreamTrack",
+ "spec": [
+  "https://w3c.github.io/mediacapture-transform/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.MediaStreamTrackProcessor": {
+    "baseline": false,
+    "support": {
+     "safari": "18",
+     "safari_ios": "18"
+    }
+   },
+   "api.MediaStreamTrackProcessor.MediaStreamTrackProcessor": {
+    "baseline": false,
+    "support": {
+     "safari": "18",
+     "safari_ios": "18"
+    }
+   },
+   "api.MediaStreamTrackProcessor.readable": {
+    "baseline": false,
+    "support": {
+     "safari": "18",
+     "safari_ios": "18"
+    }
+   },
+   "api.VideoTrackGenerator": {
+    "baseline": false,
+    "support": {
+     "safari": "18",
+     "safari_ios": "18"
+    }
+   },
+   "api.VideoTrackGenerator.VideoTrackGenerator": {
+    "baseline": false,
+    "support": {
+     "safari": "18",
+     "safari_ios": "18"
+    }
+   },
+   "api.VideoTrackGenerator.muted": {
+    "baseline": false,
+    "support": {
+     "safari": "18",
+     "safari_ios": "18"
+    }
+   },
+   "api.VideoTrackGenerator.track": {
+    "baseline": false,
+    "support": {
+     "safari": "18",
+     "safari_ios": "18"
+    }
+   },
+   "api.VideoTrackGenerator.writable": {
+    "baseline": false,
+    "support": {
+     "safari": "18",
+     "safari_ios": "18"
+    }
+   }
+  },
+  "support": {
+   "safari": "18",
+   "safari_ios": "18"
+  }
+ },
+ "id": "insertable-streams",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/mediacapture-transform/",
+   "seriesComposition": "full",
+   "shortname": "mediacapture-transform",
+   "series": {
+    "shortname": "mediacapture-transform",
+    "currentSpecification": "mediacapture-transform",
+    "title": "MediaStreamTrack Insertable Media Processing using Streams",
+    "shortTitle": "MediaStreamTrack Insertable Media Processing using Streams",
+    "releaseUrl": "https://www.w3.org/TR/mediacapture-transform/",
+    "nightlyUrl": "https://w3c.github.io/mediacapture-transform/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Real-Time Communications Working Group",
+     "url": "https://www.w3.org/groups/wg/webrtc/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/mediacapture-transform/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/mediacapture-transform/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/mediacapture-transform",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "MediaStreamTrack Insertable Media Processing using Streams",
+   "source": "w3c",
+   "shortTitle": "MediaStreamTrack Insertable Media Processing using Streams",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "mediacapture-insertable-streams"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Insertable_Streams_for_MediaStreamTrack_API",
+   "title": "Insertable Streams for MediaStreamTrack API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Insertable_Streams_for_MediaStreamTrack_API"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:insertable-streams"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/251",
+  "votes": 0
+ },
+ "bugs": {
+  "chrome": [
+   "https://crbug.com/1300528",
+   "https://crbug.com/1142955"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

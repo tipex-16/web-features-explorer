@@ -1,0 +1,137 @@
+{
+ "compat_features": [
+  "css.types.global_keywords",
+  "css.types.global_keywords.inherit"
+ ],
+ "description": "The inherit keyword resets any CSS property to the computed value of that property from the parent element.",
+ "description_html": "The <code>inherit</code> keyword resets any CSS property to the computed value of that property from the parent element.",
+ "group": [
+  "explicit-defaults"
+ ],
+ "kind": "feature",
+ "name": "inherit",
+ "spec": [
+  "https://drafts.csswg.org/css-cascade-3/#inherit"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "css.types.global_keywords": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "css.types.global_keywords.inherit": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   }
+  },
+  "support": {
+   "chrome": "1",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "1",
+   "firefox_android": "4",
+   "safari": "1",
+   "safari_ios": "1"
+  }
+ },
+ "id": "inherit-value",
+ "groups": [
+  "explicit-defaults"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-cascade-3/#inherit",
+   "seriesComposition": "full",
+   "shortname": "css-cascade-3",
+   "series": {
+    "shortname": "css-cascade",
+    "currentSpecification": "css-cascade-4",
+    "title": "CSS Cascading and Inheritance",
+    "shortTitle": "CSS Cascading",
+    "releaseUrl": "https://www.w3.org/TR/css-cascade/",
+    "nightlyUrl": "https://drafts.csswg.org/css-cascade/"
+   },
+   "seriesVersion": "3",
+   "shortTitle": "CSS Cascading 3",
+   "seriesNext": "css-cascade-4",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-cascade-3/",
+    "status": "Recommendation",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-cascade-3/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-cascade-3/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-cascade-3/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Cascading and Inheritance Level 3",
+   "source": "w3c",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-cascade"
+    ]
+   },
+   "fragment": "inherit"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Values/inherit",
+   "title": "inherit",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/inherit"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:inherit-value"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

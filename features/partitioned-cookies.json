@@ -1,0 +1,191 @@
+{
+ "compat_features": [
+  "api.CookieStore.delete.partitioned_option",
+  "api.CookieStore.get.partitioned_return_property",
+  "api.CookieStore.set.partitioned_option",
+  "api.ExtendableCookieChangeEvent.changed.partitioned_property",
+  "api.ExtendableCookieChangeEvent.deleted.partitioned_property",
+  "http.headers.Set-Cookie.Partitioned"
+ ],
+ "description": "Partitioned cookies allow you to opt a cookie into partitioned storage, with a separate cookie jar per top-level site. Also known as Cookies Having Independent Partitioned State or CHIPS.",
+ "description_html": "Partitioned cookies allow you to opt a cookie into partitioned storage, with a separate cookie jar per top-level site. Also known as Cookies Having Independent Partitioned State or CHIPS.",
+ "group": [
+  "cookies"
+ ],
+ "kind": "feature",
+ "name": "Partitioned cookies",
+ "spec": [
+  "https://cookiestore.spec.whatwg.org/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.CookieStore.delete.partitioned_option": {
+    "baseline": false,
+    "support": {
+     "chrome": "114",
+     "chrome_android": "114",
+     "edge": "114",
+     "firefox": "140",
+     "firefox_android": "140"
+    }
+   },
+   "api.CookieStore.get.partitioned_return_property": {
+    "baseline": false,
+    "support": {
+     "chrome": "114",
+     "chrome_android": "114",
+     "edge": "114"
+    }
+   },
+   "api.CookieStore.set.partitioned_option": {
+    "baseline": false,
+    "support": {
+     "chrome": "114",
+     "chrome_android": "114",
+     "edge": "114",
+     "firefox": "140",
+     "firefox_android": "140"
+    }
+   },
+   "api.ExtendableCookieChangeEvent.changed.partitioned_property": {
+    "baseline": false,
+    "support": {
+     "chrome": "114",
+     "chrome_android": "114",
+     "edge": "114"
+    }
+   },
+   "api.ExtendableCookieChangeEvent.deleted.partitioned_property": {
+    "baseline": false,
+    "support": {
+     "chrome": "114",
+     "chrome_android": "114",
+     "edge": "114"
+    }
+   },
+   "http.headers.Set-Cookie.Partitioned": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "114",
+     "chrome_android": "114",
+     "edge": "114",
+     "firefox": "141",
+     "firefox_android": "141",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   }
+  },
+  "support": {
+   "chrome": "114",
+   "chrome_android": "114",
+   "edge": "114"
+  }
+ },
+ "id": "partitioned-cookies",
+ "groups": [
+  "cookies"
+ ],
+ "specs": [
+  {
+   "url": "https://cookiestore.spec.whatwg.org/",
+   "seriesComposition": "full",
+   "shortname": "cookiestore",
+   "series": {
+    "shortname": "cookiestore",
+    "currentSpecification": "cookiestore",
+    "title": "Cookie Store API",
+    "shortTitle": "Cookie Store API",
+    "nightlyUrl": "https://cookiestore.spec.whatwg.org/"
+   },
+   "formerNames": [
+    "cookie-store"
+   ],
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "Fetch Workstream",
+     "url": "https://cookiestore.spec.whatwg.org/"
+    }
+   ],
+   "nightly": {
+    "url": "https://cookiestore.spec.whatwg.org/",
+    "status": "Living Standard",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/cookiestore",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Cookie Store API",
+   "source": "whatwg",
+   "shortTitle": "Cookie Store API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "cookiestore"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/HTTP/Reference/Headers/Set-Cookie",
+   "title": "Set-Cookie header",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Set-Cookie"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/678",
+   "position": "positive",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/50",
+   "position": "support",
+   "concerns": [
+    "performance"
+   ]
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.237241,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/419"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:partitioned-cookies"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/204",
+  "votes": 4
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1865198"
+  ],
+  "safari": [
+   "https://webkit.org/b/292975"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/292975"
+  ],
+  "webview_ios": [
+   "https://webkit.org/b/292975"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

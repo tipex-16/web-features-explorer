@@ -1,0 +1,110 @@
+{
+ "compat_features": [
+  "api.EXT_blend_minmax"
+ ],
+ "description": "The EXT_blend_minmax extension for WebGL 1.0 contexts adds two blend equations, the minimum and maximum color components of the source and destination colors.",
+ "description_html": "The <code>EXT_blend_minmax</code> extension for WebGL 1.0 contexts adds two blend equations, the minimum and maximum color components of the source and destination colors.",
+ "group": [
+  "webgl-extensions"
+ ],
+ "kind": "feature",
+ "name": "EXT_blend_minmax WebGL extension",
+ "spec": [
+  "https://registry.khronos.org/webgl/extensions/EXT_blend_minmax/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2020-10-30",
+  "baseline_low_date": "2018-04-30",
+  "by_compat_key": {
+   "api.EXT_blend_minmax": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-30",
+    "baseline_low_date": "2018-04-30",
+    "support": {
+     "chrome": "38",
+     "chrome_android": "38",
+     "edge": "17",
+     "firefox": "47",
+     "firefox_android": "35",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   }
+  },
+  "support": {
+   "chrome": "38",
+   "chrome_android": "38",
+   "edge": "17",
+   "firefox": "47",
+   "firefox_android": "35",
+   "safari": "9",
+   "safari_ios": "9"
+  }
+ },
+ "id": "ext-blend-minmax",
+ "groups": [
+  "webgl-extensions"
+ ],
+ "specs": [
+  {
+   "url": "https://registry.khronos.org/webgl/extensions/EXT_blend_minmax/",
+   "seriesComposition": "full",
+   "shortname": "EXT_blend_minmax",
+   "series": {
+    "shortname": "EXT_blend_minmax",
+    "currentSpecification": "EXT_blend_minmax",
+    "title": "WebGL EXT_blend_minmax Khronos Ratified Extension Specification",
+    "shortTitle": "WebGL EXT_blend_minmax Khronos Ratified Extension",
+    "nightlyUrl": "https://registry.khronos.org/webgl/extensions/EXT_blend_minmax/"
+   },
+   "organization": "Khronos Group",
+   "groups": [
+    {
+     "name": "WebGL Working Group",
+     "url": "https://www.khronos.org/webgl/"
+    }
+   ],
+   "nightly": {
+    "url": "https://registry.khronos.org/webgl/extensions/EXT_blend_minmax/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "sourcePath": "extensions/EXT_blend_minmax/extension.xml",
+    "filename": "index.html"
+   },
+   "title": "WebGL EXT_blend_minmax Khronos Ratified Extension Specification",
+   "source": "spec",
+   "shortTitle": "WebGL EXT_blend_minmax Khronos Ratified Extension",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "testPaths": [
+     "conformance-suites"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/EXT_blend_minmax",
+   "title": "EXT_blend_minmax extension",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/EXT_blend_minmax"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2018-04-30T00:00:00.000Z",
+ "baselineHighDateAsObject": "2020-10-30T00:00:00.000Z"
+}

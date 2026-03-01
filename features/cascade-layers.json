@@ -1,0 +1,311 @@
+{
+ "caniuse": [
+  "css-cascade-layers"
+ ],
+ "compat_features": [
+  "api.CSSImportRule.layerName",
+  "api.CSSLayerBlockRule",
+  "api.CSSLayerBlockRule.name",
+  "api.CSSLayerStatementRule",
+  "api.CSSLayerStatementRule.nameList",
+  "css.at-rules.import.layer",
+  "css.at-rules.layer",
+  "css.types.global_keywords.revert-layer"
+ ],
+ "description": "The @layer CSS at-rule avoids specificity conflicts by providing priority levels for different groups of CSS rules, such as low-priority styles like resets, and high-priority styles like UI components.",
+ "description_html": "The <code>@layer</code> CSS at-rule avoids specificity conflicts by providing priority levels for different groups of CSS rules, such as low-priority styles like resets, and high-priority styles like UI components.",
+ "group": [
+  "css"
+ ],
+ "kind": "feature",
+ "name": "Cascade layers",
+ "spec": [
+  "https://drafts.csswg.org/css-cascade-5/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2024-09-14",
+  "baseline_low_date": "2022-03-14",
+  "by_compat_key": {
+   "api.CSSImportRule.layerName": {
+    "baseline": "high",
+    "baseline_high_date": "2024-09-14",
+    "baseline_low_date": "2022-03-14",
+    "support": {
+     "chrome": "99",
+     "chrome_android": "99",
+     "edge": "99",
+     "firefox": "97",
+     "firefox_android": "97",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "api.CSSLayerBlockRule": {
+    "baseline": "high",
+    "baseline_high_date": "2024-09-14",
+    "baseline_low_date": "2022-03-14",
+    "support": {
+     "chrome": "99",
+     "chrome_android": "99",
+     "edge": "99",
+     "firefox": "97",
+     "firefox_android": "97",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "api.CSSLayerBlockRule.name": {
+    "baseline": "high",
+    "baseline_high_date": "2024-09-14",
+    "baseline_low_date": "2022-03-14",
+    "support": {
+     "chrome": "99",
+     "chrome_android": "99",
+     "edge": "99",
+     "firefox": "97",
+     "firefox_android": "97",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "api.CSSLayerStatementRule": {
+    "baseline": "high",
+    "baseline_high_date": "2024-09-14",
+    "baseline_low_date": "2022-03-14",
+    "support": {
+     "chrome": "99",
+     "chrome_android": "99",
+     "edge": "99",
+     "firefox": "97",
+     "firefox_android": "97",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "api.CSSLayerStatementRule.nameList": {
+    "baseline": "high",
+    "baseline_high_date": "2024-09-14",
+    "baseline_low_date": "2022-03-14",
+    "support": {
+     "chrome": "99",
+     "chrome_android": "99",
+     "edge": "99",
+     "firefox": "97",
+     "firefox_android": "97",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.at-rules.import.layer": {
+    "baseline": "high",
+    "baseline_high_date": "2024-09-14",
+    "baseline_low_date": "2022-03-14",
+    "support": {
+     "chrome": "99",
+     "chrome_android": "99",
+     "edge": "99",
+     "firefox": "97",
+     "firefox_android": "97",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.at-rules.layer": {
+    "baseline": "high",
+    "baseline_high_date": "2024-09-14",
+    "baseline_low_date": "2022-03-14",
+    "support": {
+     "chrome": "99",
+     "chrome_android": "99",
+     "edge": "99",
+     "firefox": "97",
+     "firefox_android": "97",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.types.global_keywords.revert-layer": {
+    "baseline": "high",
+    "baseline_high_date": "2024-09-14",
+    "baseline_low_date": "2022-03-14",
+    "support": {
+     "chrome": "99",
+     "chrome_android": "99",
+     "edge": "99",
+     "firefox": "97",
+     "firefox_android": "97",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   }
+  },
+  "support": {
+   "chrome": "99",
+   "chrome_android": "99",
+   "edge": "99",
+   "firefox": "97",
+   "firefox_android": "97",
+   "safari": "15.4",
+   "safari_ios": "15.4"
+  }
+ },
+ "id": "cascade-layers",
+ "groups": [
+  "css"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-cascade-5/",
+   "seriesComposition": "full",
+   "shortname": "css-cascade-5",
+   "series": {
+    "shortname": "css-cascade",
+    "currentSpecification": "css-cascade-4",
+    "title": "CSS Cascading and Inheritance",
+    "shortTitle": "CSS Cascading",
+    "releaseUrl": "https://www.w3.org/TR/css-cascade/",
+    "nightlyUrl": "https://drafts.csswg.org/css-cascade/"
+   },
+   "seriesVersion": "5",
+   "shortTitle": "CSS Cascading 5",
+   "seriesPrevious": "css-cascade-4",
+   "seriesNext": "css-cascade-6",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-cascade-5/",
+    "status": "Candidate Recommendation Snapshot",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-cascade-5/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-cascade-5/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-cascade-5/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Cascading and Inheritance Level 5",
+   "source": "w3c",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-cascade"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/At-rules/@layer",
+   "title": "@layer",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@layer"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/471",
+   "position": "positive",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#gamechanger_feature",
+   "question": "usage",
+   "subQuestion": "gamechanger_feature",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.gamechanger_feature.freeform.allEditions.0.buckets.10.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#favorite_new_features",
+   "question": "usage",
+   "subQuestion": "favorite_new_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.favorite_new_features.freeform.allEditions.0.buckets.10.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_missing_features",
+   "question": "usage",
+   "subQuestion": "css_missing_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_missing_features.freeform.allEditions.0.buckets.21.groupedBuckets.1.groupedBuckets.9.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_interoperability_features",
+   "question": "usage",
+   "subQuestion": "css_interoperability_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_interoperability_features.freeform.allEditions.0.buckets.11.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/other_features/#other_features_pain_points",
+   "question": "other_features",
+   "subQuestion": "other_features_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.other_features.other_features_pain_points.freeform.allEditions.0.buckets.5.groupedBuckets.0.groupedBuckets.14.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.50.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/usage/#favorite_new_features",
+   "question": "usage",
+   "subQuestion": "favorite_new_features",
+   "path": "dataAPI.surveys.state_of_css.css2024.usage.favorite_new_features.freeform.currentEdition.buckets.10.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/usage/#css_interoperability_features",
+   "question": "usage",
+   "subQuestion": "css_interoperability_features",
+   "path": "dataAPI.surveys.state_of_css.css2024.usage.css_interoperability_features.freeform.currentEdition.buckets.11.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2024.features.all_features.54.entity"
+  }
+ ],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.04196573,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/5"
+ },
+ "interop": [
+  {
+   "year": 2022,
+   "label": "interop-2022-cascade",
+   "url": "https://wpt.fyi/interop-2022?feature=interop-2022-cascade"
+  }
+ ],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:cascade-layers"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2022-03-14T00:00:00.000Z",
+ "baselineHighDateAsObject": "2024-09-14T00:00:00.000Z"
+}

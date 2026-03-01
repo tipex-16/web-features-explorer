@@ -1,0 +1,158 @@
+{
+ "caniuse": [
+  "css-media-range-syntax"
+ ],
+ "compat_features": [
+  "css.at-rules.media.range_syntax"
+ ],
+ "description": "The range syntax of CSS media queries allows you to use mathematical comparison operators such as <, >, <=, and >= to define a range of values for a media query. For example, (400px < width < 1000px) returns true if the viewport width is between 400px and 1000px.",
+ "description_html": "The range syntax of CSS media queries allows you to use mathematical comparison operators such as <code>&#x3C;</code>, <code>></code>, <code>&#x3C;=</code>, and <code>>=</code> to define a range of values for a media query. For example, <code>(400px &#x3C; width &#x3C; 1000px)</code> returns true if the viewport width is between 400px and 1000px.",
+ "group": [
+  "media-queries"
+ ],
+ "kind": "feature",
+ "name": "Media query range syntax",
+ "spec": [
+  "https://drafts.csswg.org/mediaqueries-4/#mq-range-context"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2025-09-27",
+  "baseline_low_date": "2023-03-27",
+  "by_compat_key": {
+   "css.at-rules.media.range_syntax": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "104",
+     "chrome_android": "104",
+     "edge": "104",
+     "firefox": "102",
+     "firefox_android": "102",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   }
+  },
+  "support": {
+   "chrome": "104",
+   "chrome_android": "104",
+   "edge": "104",
+   "firefox": "102",
+   "firefox_android": "102",
+   "safari": "16.4",
+   "safari_ios": "16.4"
+  }
+ },
+ "id": "media-query-range-syntax",
+ "groups": [
+  "media-queries"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/mediaqueries-4/#mq-range-context",
+   "seriesComposition": "full",
+   "shortname": "mediaqueries-4",
+   "series": {
+    "shortname": "mediaqueries",
+    "currentSpecification": "mediaqueries-4",
+    "title": "Media Queries",
+    "shortTitle": "Media Queries",
+    "releaseUrl": "https://www.w3.org/TR/mediaqueries/",
+    "nightlyUrl": "https://drafts.csswg.org/mediaqueries/"
+   },
+   "seriesVersion": "4",
+   "seriesPrevious": "mediaqueries-3",
+   "seriesNext": "mediaqueries-5",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/mediaqueries-4/",
+    "status": "Candidate Recommendation Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/mediaqueries-4/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/mediaqueries-4/",
+     "https://w3c.github.io/csswg-drafts/mediaqueries/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "mediaqueries-4/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "Media Queries Level 4",
+   "source": "w3c",
+   "shortTitle": "Media Queries 4",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/mediaqueries"
+    ]
+   },
+   "fragment": "mq-range-context"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Guides/Media_queries/Using",
+   "title": "Using media queries",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Guides/Media_queries/Using"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#favorite_new_features",
+   "question": "usage",
+   "subQuestion": "favorite_new_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.favorite_new_features.freeform.allEditions.0.buckets.21.groupedBuckets.1.groupedBuckets.8.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.5.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2024.features.all_features.5.entity"
+  }
+ ],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.12164951,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/145"
+ },
+ "interop": [
+  {
+   "year": 2023,
+   "label": "interop-2023-mediaqueries",
+   "url": "https://wpt.fyi/interop-2023?feature=interop-2023-mediaqueries"
+  }
+ ],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:media-query-range-syntax"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2023-03-27T00:00:00.000Z",
+ "baselineHighDateAsObject": "2025-09-27T00:00:00.000Z"
+}

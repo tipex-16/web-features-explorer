@@ -1,0 +1,494 @@
+{
+ "compat_features": [
+  "api.Performance.navigation",
+  "api.Performance.timing",
+  "api.PerformanceNavigation",
+  "api.PerformanceNavigation.redirectCount",
+  "api.PerformanceNavigation.toJSON",
+  "api.PerformanceNavigation.type",
+  "api.PerformanceTiming",
+  "api.PerformanceTiming.connectEnd",
+  "api.PerformanceTiming.connectStart",
+  "api.PerformanceTiming.domComplete",
+  "api.PerformanceTiming.domContentLoadedEventEnd",
+  "api.PerformanceTiming.domContentLoadedEventStart",
+  "api.PerformanceTiming.domInteractive",
+  "api.PerformanceTiming.domLoading",
+  "api.PerformanceTiming.domainLookupEnd",
+  "api.PerformanceTiming.domainLookupStart",
+  "api.PerformanceTiming.fetchStart",
+  "api.PerformanceTiming.loadEventEnd",
+  "api.PerformanceTiming.loadEventStart",
+  "api.PerformanceTiming.navigationStart",
+  "api.PerformanceTiming.redirectEnd",
+  "api.PerformanceTiming.redirectStart",
+  "api.PerformanceTiming.requestStart",
+  "api.PerformanceTiming.responseEnd",
+  "api.PerformanceTiming.responseStart",
+  "api.PerformanceTiming.secureConnectionStart",
+  "api.PerformanceTiming.toJSON",
+  "api.PerformanceTiming.unloadEventEnd",
+  "api.PerformanceTiming.unloadEventStart"
+ ],
+ "description": "The window.performance.timing and window.performance.navigation APIs report performance timing information for events that occur during the loading and use of the current page.",
+ "description_html": "The <code>window.performance.timing</code> and <code>window.performance.navigation</code> APIs report performance timing information for events that occur during the loading and use of the current page.",
+ "discouraged": {
+  "according_to": [
+   "https://w3c.github.io/navigation-timing/#obsolete"
+  ],
+  "alternatives": [
+   "performance",
+   "navigation-timing"
+  ],
+  "reason": "This feature is supserseded by the PerformanceNavigationTiming API.",
+  "reason_html": "This feature is supserseded by the <code>PerformanceNavigationTiming</code> API."
+ },
+ "group": [
+  "performance"
+ ],
+ "kind": "feature",
+ "name": "PerformanceTiming and PerformanceNavigation",
+ "spec": [
+  "https://w3c.github.io/navigation-timing/#obsolete"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Performance.navigation": {
+    "baseline": false,
+    "support": {
+     "chrome": "10",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "7",
+     "firefox_android": "7",
+     "safari": "8",
+     "safari_ios": "9"
+    }
+   },
+   "api.Performance.timing": {
+    "baseline": false,
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "7",
+     "firefox_android": "7",
+     "safari": "8",
+     "safari_ios": "9"
+    }
+   },
+   "api.PerformanceNavigation": {
+    "baseline": false,
+    "support": {
+     "chrome": "10",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "7",
+     "firefox_android": "7",
+     "safari": "8",
+     "safari_ios": "9"
+    }
+   },
+   "api.PerformanceNavigation.redirectCount": {
+    "baseline": false,
+    "support": {
+     "chrome": "10",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "7",
+     "firefox_android": "7",
+     "safari": "8",
+     "safari_ios": "9"
+    }
+   },
+   "api.PerformanceNavigation.toJSON": {
+    "baseline": false,
+    "support": {
+     "chrome": "56",
+     "chrome_android": "56",
+     "edge": "12",
+     "firefox": "25",
+     "firefox_android": "25",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.PerformanceNavigation.type": {
+    "baseline": false,
+    "support": {
+     "chrome": "10",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "7",
+     "firefox_android": "7",
+     "safari": "8",
+     "safari_ios": "9"
+    }
+   },
+   "api.PerformanceTiming": {
+    "baseline": false,
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "7",
+     "firefox_android": "7",
+     "safari": "8",
+     "safari_ios": "9"
+    }
+   },
+   "api.PerformanceTiming.connectEnd": {
+    "baseline": false,
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "7",
+     "firefox_android": "7",
+     "safari": "8",
+     "safari_ios": "9"
+    }
+   },
+   "api.PerformanceTiming.connectStart": {
+    "baseline": false,
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "7",
+     "firefox_android": "7",
+     "safari": "8",
+     "safari_ios": "9"
+    }
+   },
+   "api.PerformanceTiming.domComplete": {
+    "baseline": false,
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "7",
+     "firefox_android": "7",
+     "safari": "8",
+     "safari_ios": "9"
+    }
+   },
+   "api.PerformanceTiming.domContentLoadedEventEnd": {
+    "baseline": false,
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "7",
+     "firefox_android": "7",
+     "safari": "8",
+     "safari_ios": "9"
+    }
+   },
+   "api.PerformanceTiming.domContentLoadedEventStart": {
+    "baseline": false,
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "7",
+     "firefox_android": "7",
+     "safari": "8",
+     "safari_ios": "9"
+    }
+   },
+   "api.PerformanceTiming.domInteractive": {
+    "baseline": false,
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "7",
+     "firefox_android": "7",
+     "safari": "8",
+     "safari_ios": "9"
+    }
+   },
+   "api.PerformanceTiming.domLoading": {
+    "baseline": false,
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "7",
+     "firefox_android": "7",
+     "safari": "8",
+     "safari_ios": "9"
+    }
+   },
+   "api.PerformanceTiming.domainLookupEnd": {
+    "baseline": false,
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "7",
+     "firefox_android": "7",
+     "safari": "8",
+     "safari_ios": "9"
+    }
+   },
+   "api.PerformanceTiming.domainLookupStart": {
+    "baseline": false,
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "7",
+     "firefox_android": "7",
+     "safari": "8",
+     "safari_ios": "9"
+    }
+   },
+   "api.PerformanceTiming.fetchStart": {
+    "baseline": false,
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "7",
+     "firefox_android": "7",
+     "safari": "8",
+     "safari_ios": "9"
+    }
+   },
+   "api.PerformanceTiming.loadEventEnd": {
+    "baseline": false,
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "7",
+     "firefox_android": "7",
+     "safari": "8",
+     "safari_ios": "9"
+    }
+   },
+   "api.PerformanceTiming.loadEventStart": {
+    "baseline": false,
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "7",
+     "firefox_android": "7",
+     "safari": "8",
+     "safari_ios": "9"
+    }
+   },
+   "api.PerformanceTiming.navigationStart": {
+    "baseline": false,
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "7",
+     "firefox_android": "7",
+     "safari": "8",
+     "safari_ios": "9"
+    }
+   },
+   "api.PerformanceTiming.redirectEnd": {
+    "baseline": false,
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "7",
+     "firefox_android": "7",
+     "safari": "8",
+     "safari_ios": "9"
+    }
+   },
+   "api.PerformanceTiming.redirectStart": {
+    "baseline": false,
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "7",
+     "firefox_android": "7",
+     "safari": "8",
+     "safari_ios": "9"
+    }
+   },
+   "api.PerformanceTiming.requestStart": {
+    "baseline": false,
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "7",
+     "firefox_android": "7",
+     "safari": "8",
+     "safari_ios": "9"
+    }
+   },
+   "api.PerformanceTiming.responseEnd": {
+    "baseline": false,
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "7",
+     "firefox_android": "7",
+     "safari": "8",
+     "safari_ios": "9"
+    }
+   },
+   "api.PerformanceTiming.responseStart": {
+    "baseline": false,
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "7",
+     "firefox_android": "7",
+     "safari": "8",
+     "safari_ios": "9"
+    }
+   },
+   "api.PerformanceTiming.secureConnectionStart": {
+    "baseline": false,
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "18",
+     "firefox": "56",
+     "firefox_android": "56",
+     "safari": "8",
+     "safari_ios": "9"
+    }
+   },
+   "api.PerformanceTiming.toJSON": {
+    "baseline": false,
+    "support": {
+     "chrome": "44",
+     "chrome_android": "44",
+     "edge": "12",
+     "firefox": "25",
+     "firefox_android": "25",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.PerformanceTiming.unloadEventEnd": {
+    "baseline": false,
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "7",
+     "firefox_android": "7",
+     "safari": "8",
+     "safari_ios": "9"
+    }
+   },
+   "api.PerformanceTiming.unloadEventStart": {
+    "baseline": false,
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "7",
+     "firefox_android": "7",
+     "safari": "8",
+     "safari_ios": "9"
+    }
+   }
+  },
+  "support": {
+   "chrome": "56",
+   "chrome_android": "56",
+   "edge": "18",
+   "firefox": "56",
+   "firefox_android": "56",
+   "safari": "14.1",
+   "safari_ios": "14.5"
+  }
+ },
+ "id": "performancetiming",
+ "groups": [
+  "performance"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/navigation-timing/#obsolete",
+   "seriesComposition": "full",
+   "shortname": "navigation-timing-2",
+   "series": {
+    "shortname": "navigation-timing",
+    "currentSpecification": "navigation-timing-2",
+    "title": "Navigation Timing",
+    "shortTitle": "Navigation Timing",
+    "releaseUrl": "https://www.w3.org/TR/navigation-timing/",
+    "nightlyUrl": "https://w3c.github.io/navigation-timing/"
+   },
+   "seriesVersion": "2",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Performance Working Group",
+     "url": "https://www.w3.org/groups/wg/webperf/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/navigation-timing-2/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/navigation-timing/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/navigation-timing",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Navigation Timing Level 2",
+   "source": "w3c",
+   "shortTitle": "Navigation Timing 2",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "navigation-timing"
+    ]
+   },
+   "fragment": "obsolete"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Performance/timing",
+   "title": "Performance: timing property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Performance/timing"
+  },
+  {
+   "slug": "Web/API/Performance/navigation",
+   "title": "Performance: navigation property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Performance/navigation"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

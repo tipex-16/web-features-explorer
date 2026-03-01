@@ -1,0 +1,222 @@
+{
+ "compat_features": [
+  "api.Accelerometer",
+  "api.Accelerometer.Accelerometer",
+  "api.Accelerometer.x",
+  "api.Accelerometer.y",
+  "api.Accelerometer.z",
+  "api.GravitySensor",
+  "api.GravitySensor.GravitySensor",
+  "api.LinearAccelerationSensor",
+  "api.LinearAccelerationSensor.LinearAccelerationSensor",
+  "api.Permissions.permission_accelerometer",
+  "html.elements.iframe.allow.accelerometer",
+  "http.headers.Permissions-Policy.accelerometer"
+ ],
+ "description": "The Accelerometer, LinearAccelerationSensor and GravitySensor APIs read the acceleration applied to a device in three dimensions, either including the effect of gravity, without its effect, or only its effect, respectively.",
+ "description_html": "The <code>Accelerometer</code>, <code>LinearAccelerationSensor</code> and <code>GravitySensor</code> APIs read the acceleration applied to a device in three dimensions, either including the effect of gravity, without its effect, or only its effect, respectively.",
+ "group": [
+  "sensors"
+ ],
+ "kind": "feature",
+ "name": "Accelerometer",
+ "spec": [
+  "https://w3c.github.io/accelerometer/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Accelerometer": {
+    "baseline": false,
+    "support": {
+     "chrome": "67",
+     "chrome_android": "67",
+     "edge": "79"
+    }
+   },
+   "api.Accelerometer.Accelerometer": {
+    "baseline": false,
+    "support": {
+     "chrome": "67",
+     "chrome_android": "67",
+     "edge": "79"
+    }
+   },
+   "api.Accelerometer.x": {
+    "baseline": false,
+    "support": {
+     "chrome": "67",
+     "chrome_android": "67",
+     "edge": "79"
+    }
+   },
+   "api.Accelerometer.y": {
+    "baseline": false,
+    "support": {
+     "chrome": "67",
+     "chrome_android": "67",
+     "edge": "79"
+    }
+   },
+   "api.Accelerometer.z": {
+    "baseline": false,
+    "support": {
+     "chrome": "67",
+     "chrome_android": "67",
+     "edge": "79"
+    }
+   },
+   "api.GravitySensor": {
+    "baseline": false,
+    "support": {
+     "chrome": "91",
+     "chrome_android": "91",
+     "edge": "91"
+    }
+   },
+   "api.GravitySensor.GravitySensor": {
+    "baseline": false,
+    "support": {
+     "chrome": "91",
+     "chrome_android": "91",
+     "edge": "91"
+    }
+   },
+   "api.LinearAccelerationSensor": {
+    "baseline": false,
+    "support": {
+     "chrome": "67",
+     "chrome_android": "67",
+     "edge": "79"
+    }
+   },
+   "api.LinearAccelerationSensor.LinearAccelerationSensor": {
+    "baseline": false,
+    "support": {
+     "chrome": "67",
+     "chrome_android": "67",
+     "edge": "79"
+    }
+   },
+   "api.Permissions.permission_accelerometer": {
+    "baseline": false,
+    "support": {
+     "chrome": "62",
+     "chrome_android": "62",
+     "edge": "79"
+    }
+   },
+   "html.elements.iframe.allow.accelerometer": {
+    "baseline": false,
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79"
+    }
+   },
+   "http.headers.Permissions-Policy.accelerometer": {
+    "baseline": false,
+    "support": {
+     "chrome": "88",
+     "chrome_android": "88",
+     "edge": "88"
+    }
+   }
+  },
+  "support": {
+   "chrome": "91",
+   "chrome_android": "91",
+   "edge": "91"
+  }
+ },
+ "id": "accelerometer",
+ "groups": [
+  "sensors"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/accelerometer/",
+   "seriesComposition": "full",
+   "shortname": "accelerometer",
+   "series": {
+    "shortname": "accelerometer",
+    "currentSpecification": "accelerometer",
+    "title": "Accelerometer",
+    "shortTitle": "Accelerometer",
+    "releaseUrl": "https://www.w3.org/TR/accelerometer/",
+    "nightlyUrl": "https://w3c.github.io/accelerometer/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Devices and Sensors Working Group",
+     "url": "https://www.w3.org/das/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/accelerometer/",
+    "status": "Candidate Recommendation Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/accelerometer/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/accelerometer",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Accelerometer",
+   "source": "w3c",
+   "shortTitle": "Accelerometer",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "accelerometer"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Accelerometer",
+   "title": "Accelerometer",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Accelerometer"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/347",
+   "position": "oppose",
+   "concerns": [
+    "duplication",
+    "privacy",
+    "venue",
+    "use cases",
+    "power",
+    "device independence"
+   ]
+  }
+ ],
+ "hasNegativeStandardPosition": true,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00195542,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/147"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:accelerometer"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

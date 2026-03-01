@@ -1,0 +1,149 @@
+{
+ "compat_features": [
+  "api.AuthenticatorAttestationResponse.getAuthenticatorData",
+  "api.AuthenticatorAttestationResponse.getPublicKey",
+  "api.AuthenticatorAttestationResponse.getPublicKeyAlgorithm"
+ ],
+ "description": "The getAuthenticatorData(), getPublicKey(), and getPublicKeyAlgorithm() methods of AuthenticatorAttestationResponse access credential data inside attestationObject without the need to parse it.",
+ "description_html": "The <code>getAuthenticatorData()</code>, <code>getPublicKey()</code>, and <code>getPublicKeyAlgorithm()</code> methods of <code>AuthenticatorAttestationResponse</code> access credential data inside <code>attestationObject</code> without the need to parse it.",
+ "group": [
+  "webauthn"
+ ],
+ "kind": "feature",
+ "name": "Web authentication easy public key access",
+ "spec": [
+  "https://w3c.github.io/webauthn/#sctn-public-key-easy"
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2023-10-24",
+  "by_compat_key": {
+   "api.AuthenticatorAttestationResponse.getAuthenticatorData": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "api.AuthenticatorAttestationResponse.getPublicKey": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "api.AuthenticatorAttestationResponse.getPublicKeyAlgorithm": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   }
+  },
+  "support": {
+   "chrome": "85",
+   "chrome_android": "85",
+   "edge": "85",
+   "firefox": "119",
+   "firefox_android": "119",
+   "safari": "16",
+   "safari_ios": "16"
+  }
+ },
+ "id": "webauthn-public-key-easy",
+ "groups": [
+  "webauthn"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/webauthn/#sctn-public-key-easy",
+   "seriesComposition": "full",
+   "shortname": "webauthn-3",
+   "series": {
+    "shortname": "webauthn",
+    "currentSpecification": "webauthn-3",
+    "title": "Web Authentication",
+    "shortTitle": "Web Authentication",
+    "releaseUrl": "https://www.w3.org/TR/webauthn/",
+    "nightlyUrl": "https://w3c.github.io/webauthn/"
+   },
+   "seriesVersion": "3",
+   "shortTitle": "Web Authentication",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Authentication Working Group",
+     "url": "https://www.w3.org/groups/wg/webauthn/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/webauthn-3/",
+    "status": "Candidate Recommendation Snapshot",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/webauthn/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/webauthn",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Web Authentication: An API for accessing Public Key Credentials - Level 3",
+   "source": "w3c",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "webauthn"
+    ]
+   },
+   "fragment": "sctn-public-key-easy"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/AuthenticatorAttestationResponse",
+   "title": "AuthenticatorAttestationResponse",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/AuthenticatorAttestationResponse"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00000412,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/327"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:webauthn-public-key-easy"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2023-10-24T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2026-04-24"
+}

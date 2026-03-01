@@ -1,0 +1,523 @@
+{
+ "caniuse": [
+  "speech-recognition"
+ ],
+ "compat_features": [
+  "api.SpeechRecognition",
+  "api.SpeechRecognition.SpeechRecognition",
+  "api.SpeechRecognition.abort",
+  "api.SpeechRecognition.audioend_event",
+  "api.SpeechRecognition.audiostart_event",
+  "api.SpeechRecognition.continuous",
+  "api.SpeechRecognition.end_event",
+  "api.SpeechRecognition.error_event",
+  "api.SpeechRecognition.interimResults",
+  "api.SpeechRecognition.lang",
+  "api.SpeechRecognition.maxAlternatives",
+  "api.SpeechRecognition.nomatch_event",
+  "api.SpeechRecognition.result_event",
+  "api.SpeechRecognition.soundend_event",
+  "api.SpeechRecognition.soundstart_event",
+  "api.SpeechRecognition.speechend_event",
+  "api.SpeechRecognition.speechstart_event",
+  "api.SpeechRecognition.start",
+  "api.SpeechRecognition.start_event",
+  "api.SpeechRecognition.stop",
+  "api.SpeechRecognitionAlternative",
+  "api.SpeechRecognitionAlternative.confidence",
+  "api.SpeechRecognitionAlternative.transcript",
+  "api.SpeechRecognitionErrorEvent",
+  "api.SpeechRecognitionErrorEvent.SpeechRecognitionErrorEvent",
+  "api.SpeechRecognitionErrorEvent.error",
+  "api.SpeechRecognitionErrorEvent.message",
+  "api.SpeechRecognitionEvent",
+  "api.SpeechRecognitionEvent.SpeechRecognitionEvent",
+  "api.SpeechRecognitionEvent.resultIndex",
+  "api.SpeechRecognitionEvent.results",
+  "api.SpeechRecognitionResult",
+  "api.SpeechRecognitionResult.isFinal",
+  "api.SpeechRecognitionResult.item",
+  "api.SpeechRecognitionResult.length",
+  "api.SpeechRecognitionResultList",
+  "api.SpeechRecognitionResultList.item",
+  "api.SpeechRecognitionResultList.length"
+ ],
+ "description": "The SpeechRecognition API converts audio into text using the device's speech recognition service.",
+ "description_html": "The <code>SpeechRecognition</code> API converts audio into text using the device's speech recognition service.",
+ "group": [
+  "speech"
+ ],
+ "kind": "feature",
+ "name": "Speech recognition",
+ "spec": [
+  "https://webaudio.github.io/web-speech-api/#speechreco-section"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.SpeechRecognition": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139"
+    }
+   },
+   "api.SpeechRecognition.SpeechRecognition": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139"
+    }
+   },
+   "api.SpeechRecognition.abort": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139"
+    }
+   },
+   "api.SpeechRecognition.audioend_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139"
+    }
+   },
+   "api.SpeechRecognition.audiostart_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139"
+    }
+   },
+   "api.SpeechRecognition.continuous": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "edge": "139"
+    }
+   },
+   "api.SpeechRecognition.end_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139"
+    }
+   },
+   "api.SpeechRecognition.error_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139"
+    }
+   },
+   "api.SpeechRecognition.interimResults": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139"
+    }
+   },
+   "api.SpeechRecognition.lang": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139"
+    }
+   },
+   "api.SpeechRecognition.maxAlternatives": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139"
+    }
+   },
+   "api.SpeechRecognition.nomatch_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139"
+    }
+   },
+   "api.SpeechRecognition.result_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139"
+    }
+   },
+   "api.SpeechRecognition.soundend_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139"
+    }
+   },
+   "api.SpeechRecognition.soundstart_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139"
+    }
+   },
+   "api.SpeechRecognition.speechend_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139"
+    }
+   },
+   "api.SpeechRecognition.speechstart_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139"
+    }
+   },
+   "api.SpeechRecognition.start": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139"
+    }
+   },
+   "api.SpeechRecognition.start_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139"
+    }
+   },
+   "api.SpeechRecognition.stop": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139"
+    }
+   },
+   "api.SpeechRecognitionAlternative": {
+    "baseline": false,
+    "support": {
+     "chrome": "33",
+     "chrome_android": "33",
+     "edge": "79",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.SpeechRecognitionAlternative.confidence": {
+    "baseline": false,
+    "support": {
+     "chrome": "33",
+     "chrome_android": "33",
+     "edge": "79",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.SpeechRecognitionAlternative.transcript": {
+    "baseline": false,
+    "support": {
+     "chrome": "33",
+     "chrome_android": "33",
+     "edge": "79",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.SpeechRecognitionErrorEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.SpeechRecognitionErrorEvent.SpeechRecognitionErrorEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.SpeechRecognitionErrorEvent.error": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.SpeechRecognitionErrorEvent.message": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.SpeechRecognitionEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.SpeechRecognitionEvent.SpeechRecognitionEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.SpeechRecognitionEvent.resultIndex": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.SpeechRecognitionEvent.results": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.SpeechRecognitionResult": {
+    "baseline": false,
+    "support": {
+     "chrome": "33",
+     "chrome_android": "33",
+     "edge": "79",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.SpeechRecognitionResult.isFinal": {
+    "baseline": false,
+    "support": {
+     "chrome": "33",
+     "chrome_android": "33",
+     "edge": "79",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.SpeechRecognitionResult.item": {
+    "baseline": false,
+    "support": {
+     "chrome": "33",
+     "chrome_android": "33",
+     "edge": "79",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.SpeechRecognitionResult.length": {
+    "baseline": false,
+    "support": {
+     "chrome": "33",
+     "chrome_android": "33",
+     "edge": "79",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.SpeechRecognitionResultList": {
+    "baseline": false,
+    "support": {
+     "chrome": "33",
+     "chrome_android": "33",
+     "edge": "79",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.SpeechRecognitionResultList.item": {
+    "baseline": false,
+    "support": {
+     "chrome": "33",
+     "chrome_android": "33",
+     "edge": "79",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.SpeechRecognitionResultList.length": {
+    "baseline": false,
+    "support": {
+     "chrome": "33",
+     "chrome_android": "33",
+     "edge": "79",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   }
+  },
+  "support": {
+   "chrome": "139",
+   "chrome_android": "139",
+   "edge": "139"
+  }
+ },
+ "id": "speech-recognition",
+ "groups": [
+  "speech"
+ ],
+ "specs": [
+  {
+   "url": "https://webaudio.github.io/web-speech-api/#speechreco-section",
+   "seriesComposition": "full",
+   "shortname": "speech-api",
+   "series": {
+    "shortname": "speech-api",
+    "currentSpecification": "speech-api",
+    "title": "Web Speech API",
+    "shortTitle": "Web Speech API",
+    "nightlyUrl": "https://webaudio.github.io/web-speech-api/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Audio Community Group",
+     "url": "https://www.w3.org/community/audio-comgp/"
+    }
+   ],
+   "nightly": {
+    "url": "https://webaudio.github.io/web-speech-api/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/WebAudio/web-speech-api",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Web Speech API",
+   "source": "spec",
+   "shortTitle": "Web Speech API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": "speechreco-section"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Web_Speech_API",
+   "title": "Web Speech API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Web_Speech_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/170",
+   "position": "",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features_features_only",
+   "question": "usage",
+   "subQuestion": "html_interoperability_features_features_only",
+   "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features_features_only.freeform.allEditions.1.buckets.15.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/system_capabilities/#system_capabilities_features",
+   "question": "system_capabilities",
+   "subQuestion": "system_capabilities_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.system_capabilities.system_capabilities_features.7.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.64.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+   "question": "_all_features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.64.entity"
+  }
+ ],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00094758,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/63"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:speech-recognition"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/318",
+  "votes": 11
+ },
+ "bugs": {
+  "chrome_android": [
+   "https://crbug.com/41297427"
+  ],
+  "oculus": [
+   "https://crbug.com/41297427"
+  ],
+  "opera_android": [
+   "https://crbug.com/41297427"
+  ],
+  "samsunginternet_android": [
+   "https://crbug.com/41297427"
+  ],
+  "webview_android": [
+   "https://crbug.com/41297427"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

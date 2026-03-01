@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Web platform features explorer - November 2020 release notes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
+    <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
+  </head>
+  <body>
+
+    
+      <header>
+        <a href="/web-features-explorer/">Web platform features explorer</a>
+
+        <nav>
+          <ul>
+            <li><a href="/web-features-explorer/release-notes/february-2026">Release notes</a></li>
+            <li><a href="/web-features-explorer/newly-available">Explore features</a></li>
+            <li><a href="/web-features-explorer/about">About</a></li>
+          </ul>
+          <search>
+            <form>
+              <input type="search" id="search" placeholder="Search">
+            </form>
+          </search>
+        </nav>
+
+        <output for="search"></output>
+      </header>
+    
+
+    
+<main class="release-notes">
+  <h1>📃 November 2020 release notes</h1>
+
+  <div>
+    
+      <section class="baseline-low">
+        <h2>Newly available</h2>
+        <p>The following features are newly available:</p>
+        <ul>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/conic-gradients/">Conic gradients</a></strong>:
+              The <code>conic-gradient()</code> and <code>repeating-conic-gradient()</code> CSS functions create backgrounds that progress between two or more colors around a center point.
+            </li>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/text-underline-offset/">text-underline-offset</a></strong>:
+              The <code>text-underline-offset</code> CSS property shifts underlines on text from the initial position by a given distance. The initial position is affected by the <code>text-underline-position</code> property.
+            </li>
+          
+        </ul>
+      </section>
+    
+
+    
+      <section class="baseline-high">
+        <h2>Widely available</h2>
+        <p>The following features are now widely available:</p>
+        <ul>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/array-iterators/">Array iterators</a></strong>:
+              Arrays are iterable with the <code>for … of</code> statement and enumerable with the methods <code>entries()</code>, <code>keys()</code>, and <code>values()</code>.
+            </li>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/js-modules/">JavaScript modules</a></strong>:
+              JavaScript modules allow code to be organized into reusable units. Modules use <code>import</code> to load other modules and <code>export</code> to declare what is available to import from other modules. In HTML, modules are loaded with <code>&#x3C;script type="module"></code>.
+            </li>
+          
+        </ul>
+      </section>
+    
+
+    
+      
+        <section class="baseline-false chrome">
+          <h2>New in Chrome</h2>
+          <p>The following features are now available in Chrome:</p>
+          <ul>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/cookie-store/">Cookie store</a></strong>:
+                The <code>CookieStore</code> API is an asynchronous and promise-based API for managing cookies. It does not rely on document and so is available to service workers as well.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/ext-texture-norm16/">EXT_texture_norm16 WebGL extension</a></strong>:
+                The <code>EXT_texture_norm16</code> extension to WebGL 2.0 contexts adds 16 bit signed normalized and unsigned normalized fixed-point texture, renderbuffer, and texture buffer formats.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/font-metric-overrides/">Font metric overrides</a></strong>:
+                The <code>ascent-override</code>, <code>descent-override</code>, and <code>line-gap-override</code> descriptors adjust the display of a font declared in an <code>@font-face</code> statement. This can help make fallback fonts look the same size.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/http3/">HTTP/3</a></strong>:
+                HTTP/3 is a major revision of the HTTP network protocol, providing improved performance and efficiency by using QUIC as the underlying transport protocol.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/intl-segmenter/">Intl.Segmenter</a></strong>:
+                The <code>Intl.Segmenter</code> API creates a locale-aware text splitter that can separate a string into meaningful graphemes, words, or sentences.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/is-input-pending/">isInputPending()</a></strong>:
+                The <code>navigator.scheduling.isInputPending()</code> method checks if there are pending input events, such as touch or mouse events. This allows you to yield from long-running scripts that might be blocking user interaction.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/quotes/">Quotes</a></strong>:
+                The <code>quotes</code> CSS property sets the quotation marks inserted via the <code>content</code> CSS property or <code>&#x3C;q></code> element.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/transferable-streams/">Transferable streams</a></strong>:
+                Streams are transferable objects, which can be moved between contexts such as windows and workers.
+              </li>
+            
+          </ul>
+        </section>
+      
+    
+      
+        <section class="baseline-false chrome_android">
+          <h2>New in Chrome Android</h2>
+          <p>The following features are now available in Chrome Android:</p>
+          <ul>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/cookie-store/">Cookie store</a></strong>:
+                The <code>CookieStore</code> API is an asynchronous and promise-based API for managing cookies. It does not rely on document and so is available to service workers as well.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/ext-texture-norm16/">EXT_texture_norm16 WebGL extension</a></strong>:
+                The <code>EXT_texture_norm16</code> extension to WebGL 2.0 contexts adds 16 bit signed normalized and unsigned normalized fixed-point texture, renderbuffer, and texture buffer formats.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/font-metric-overrides/">Font metric overrides</a></strong>:
+                The <code>ascent-override</code>, <code>descent-override</code>, and <code>line-gap-override</code> descriptors adjust the display of a font declared in an <code>@font-face</code> statement. This can help make fallback fonts look the same size.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/http3/">HTTP/3</a></strong>:
+                HTTP/3 is a major revision of the HTTP network protocol, providing improved performance and efficiency by using QUIC as the underlying transport protocol.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/intl-segmenter/">Intl.Segmenter</a></strong>:
+                The <code>Intl.Segmenter</code> API creates a locale-aware text splitter that can separate a string into meaningful graphemes, words, or sentences.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/is-input-pending/">isInputPending()</a></strong>:
+                The <code>navigator.scheduling.isInputPending()</code> method checks if there are pending input events, such as touch or mouse events. This allows you to yield from long-running scripts that might be blocking user interaction.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/quotes/">Quotes</a></strong>:
+                The <code>quotes</code> CSS property sets the quotation marks inserted via the <code>content</code> CSS property or <code>&#x3C;q></code> element.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/transferable-streams/">Transferable streams</a></strong>:
+                Streams are transferable objects, which can be moved between contexts such as windows and workers.
+              </li>
+            
+          </ul>
+        </section>
+      
+    
+      
+        <section class="baseline-false edge">
+          <h2>New in Edge</h2>
+          <p>The following features are now available in Edge:</p>
+          <ul>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/cookie-store/">Cookie store</a></strong>:
+                The <code>CookieStore</code> API is an asynchronous and promise-based API for managing cookies. It does not rely on document and so is available to service workers as well.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/ext-texture-norm16/">EXT_texture_norm16 WebGL extension</a></strong>:
+                The <code>EXT_texture_norm16</code> extension to WebGL 2.0 contexts adds 16 bit signed normalized and unsigned normalized fixed-point texture, renderbuffer, and texture buffer formats.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/font-metric-overrides/">Font metric overrides</a></strong>:
+                The <code>ascent-override</code>, <code>descent-override</code>, and <code>line-gap-override</code> descriptors adjust the display of a font declared in an <code>@font-face</code> statement. This can help make fallback fonts look the same size.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/http3/">HTTP/3</a></strong>:
+                HTTP/3 is a major revision of the HTTP network protocol, providing improved performance and efficiency by using QUIC as the underlying transport protocol.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/intl-segmenter/">Intl.Segmenter</a></strong>:
+                The <code>Intl.Segmenter</code> API creates a locale-aware text splitter that can separate a string into meaningful graphemes, words, or sentences.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/is-input-pending/">isInputPending()</a></strong>:
+                The <code>navigator.scheduling.isInputPending()</code> method checks if there are pending input events, such as touch or mouse events. This allows you to yield from long-running scripts that might be blocking user interaction.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/quotes/">Quotes</a></strong>:
+                The <code>quotes</code> CSS property sets the quotation marks inserted via the <code>content</code> CSS property or <code>&#x3C;q></code> element.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/transferable-streams/">Transferable streams</a></strong>:
+                Streams are transferable objects, which can be moved between contexts such as windows and workers.
+              </li>
+            
+          </ul>
+        </section>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+
+  <aside>
+    <h2>Other release notes</h2>
+    <ul>
+      
+        
+          <li class="month-entry">
+            <a href="../february-2026">February 2026</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../january-2026">January 2026</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../december-2025">December 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../november-2025">November 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../october-2025">October 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../september-2025">September 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../august-2025">August 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../july-2025">July 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../june-2025">June 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../may-2025">May 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../april-2025">April 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../march-2025">March 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../february-2025">February 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../january-2025">January 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../december-2024">December 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../november-2024">November 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../october-2024">October 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../september-2024">September 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../august-2024">August 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../july-2024">July 2024</a>
+          </li>
+        
+      
+        
+          <li><a href="../">See all</a></li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </ul>
+  </aside>
+</main>
+
+
+        
+      <script src="/web-features-explorer/assets/search.js" defer=""></script>
+    
+  </body>
+</html>

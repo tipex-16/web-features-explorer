@@ -1,0 +1,166 @@
+{
+ "compat_features": [
+  "css.properties.font-width",
+  "css.properties.font-width.condensed",
+  "css.properties.font-width.expanded",
+  "css.properties.font-width.extra-condensed",
+  "css.properties.font-width.extra-expanded",
+  "css.properties.font-width.normal",
+  "css.properties.font-width.semi-condensed",
+  "css.properties.font-width.semi-expanded",
+  "css.properties.font-width.ultra-condensed",
+  "css.properties.font-width.ultra-expanded"
+ ],
+ "description": "The font-width CSS property selects a font face from a font family based on width, either by a keyword such as condensed or a percentage.",
+ "description_html": "The <code>font-width</code> CSS property selects a font face from a font family based on width, either by a keyword such as <code>condensed</code> or a percentage.",
+ "group": [
+  "fonts"
+ ],
+ "kind": "feature",
+ "name": "font-width",
+ "spec": [
+  "https://drafts.csswg.org/css-fonts-4/#font-width-prop"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "css.properties.font-width": {
+    "baseline": false,
+    "support": {
+     "safari": "18.4"
+    }
+   },
+   "css.properties.font-width.condensed": {
+    "baseline": false,
+    "support": {
+     "safari": "18.4"
+    }
+   },
+   "css.properties.font-width.expanded": {
+    "baseline": false,
+    "support": {
+     "safari": "18.4"
+    }
+   },
+   "css.properties.font-width.extra-condensed": {
+    "baseline": false,
+    "support": {
+     "safari": "18.4"
+    }
+   },
+   "css.properties.font-width.extra-expanded": {
+    "baseline": false,
+    "support": {
+     "safari": "18.4"
+    }
+   },
+   "css.properties.font-width.normal": {
+    "baseline": false,
+    "support": {
+     "safari": "18.4"
+    }
+   },
+   "css.properties.font-width.semi-condensed": {
+    "baseline": false,
+    "support": {
+     "safari": "18.4"
+    }
+   },
+   "css.properties.font-width.semi-expanded": {
+    "baseline": false,
+    "support": {
+     "safari": "18.4"
+    }
+   },
+   "css.properties.font-width.ultra-condensed": {
+    "baseline": false,
+    "support": {
+     "safari": "18.4"
+    }
+   },
+   "css.properties.font-width.ultra-expanded": {
+    "baseline": false,
+    "support": {
+     "safari": "18.4"
+    }
+   }
+  },
+  "support": {
+   "safari": "18.4"
+  }
+ },
+ "id": "font-width",
+ "groups": [
+  "fonts"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-fonts-4/#font-width-prop",
+   "seriesComposition": "full",
+   "shortname": "css-fonts-4",
+   "series": {
+    "shortname": "css-fonts",
+    "currentSpecification": "css-fonts-4",
+    "title": "CSS Fonts",
+    "shortTitle": "CSS Fonts",
+    "releaseUrl": "https://www.w3.org/TR/css-fonts/",
+    "nightlyUrl": "https://drafts.csswg.org/css-fonts/"
+   },
+   "seriesVersion": "4",
+   "seriesNext": "css-fonts-5",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-fonts-4/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-fonts-4/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-fonts-4/",
+     "https://w3c.github.io/csswg-drafts/css-fonts/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-fonts-4/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Fonts Module Level 4",
+   "source": "w3c",
+   "shortTitle": "CSS Fonts 4",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-fonts"
+    ]
+   },
+   "fragment": "font-width-prop"
+  }
+ ],
+ "mdnUrls": [],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:font-width"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/285",
+  "votes": 0
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

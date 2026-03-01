@@ -1,0 +1,242 @@
+{
+ "caniuse": [
+  "input-event"
+ ],
+ "compat_features": [
+  "api.Element.beforeinput_event",
+  "api.Element.input_event",
+  "api.InputEvent",
+  "api.InputEvent.InputEvent",
+  "api.InputEvent.data",
+  "api.InputEvent.dataTransfer",
+  "api.InputEvent.getTargetRanges",
+  "api.InputEvent.inputType",
+  "api.InputEvent.inputType.insertFromPasteAsQuotation",
+  "api.InputEvent.isComposing"
+ ],
+ "description": "The input event fires when a form control changes or an element with the contenteditable attribute changes.",
+ "description_html": "The <code>input</code> event fires when a form control changes or an element with the <code>contenteditable</code> attribute changes.",
+ "kind": "feature",
+ "name": "input (event)",
+ "spec": [
+  "https://w3c.github.io/uievents/#event-type-input"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2022-07-15",
+  "baseline_low_date": "2020-01-15",
+  "by_compat_key": {
+   "api.Element.beforeinput_event": {
+    "baseline": "high",
+    "baseline_high_date": "2023-09-23",
+    "baseline_low_date": "2021-03-23",
+    "support": {
+     "chrome": "60",
+     "chrome_android": "60",
+     "edge": "79",
+     "firefox": "87",
+     "firefox_android": "87",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.Element.input_event": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "79",
+     "firefox": "6",
+     "firefox_android": "6",
+     "safari": "3.1",
+     "safari_ios": "2"
+    }
+   },
+   "api.InputEvent": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "60",
+     "chrome_android": "60",
+     "edge": "79",
+     "firefox": "31",
+     "firefox_android": "31",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.InputEvent.InputEvent": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "60",
+     "chrome_android": "60",
+     "edge": "79",
+     "firefox": "31",
+     "firefox_android": "31",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.InputEvent.data": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "60",
+     "chrome_android": "60",
+     "edge": "79",
+     "firefox": "67",
+     "firefox_android": "67",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.InputEvent.dataTransfer": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "60",
+     "chrome_android": "60",
+     "edge": "79",
+     "firefox": "67",
+     "firefox_android": "67",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.InputEvent.getTargetRanges": {
+    "baseline": "high",
+    "baseline_high_date": "2023-09-23",
+    "baseline_low_date": "2021-03-23",
+    "support": {
+     "chrome": "60",
+     "chrome_android": "60",
+     "edge": "79",
+     "firefox": "87",
+     "firefox_android": "87",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.InputEvent.inputType": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "60",
+     "chrome_android": "60",
+     "edge": "79",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.InputEvent.inputType.insertFromPasteAsQuotation": {
+    "baseline": false,
+    "support": {
+     "firefox": "67",
+     "firefox_android": "67"
+    }
+   },
+   "api.InputEvent.isComposing": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "60",
+     "chrome_android": "60",
+     "edge": "79",
+     "firefox": "31",
+     "firefox_android": "31",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   }
+  },
+  "support": {
+   "chrome": "1",
+   "chrome_android": "18",
+   "edge": "79",
+   "firefox": "6",
+   "firefox_android": "6",
+   "safari": "3.1",
+   "safari_ios": "2"
+  }
+ },
+ "id": "input-event",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/uievents/#event-type-input",
+   "seriesComposition": "full",
+   "shortname": "uievents",
+   "series": {
+    "shortname": "uievents",
+    "currentSpecification": "uievents",
+    "title": "UI Events",
+    "shortTitle": "UI Events",
+    "releaseUrl": "https://www.w3.org/TR/uievents/",
+    "nightlyUrl": "https://w3c.github.io/uievents/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Applications Working Group",
+     "url": "https://www.w3.org/groups/wg/webapps/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/uievents/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/uievents/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/uievents",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "UI Events",
+   "source": "w3c",
+   "shortTitle": "UI Events",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "uievents"
+    ]
+   },
+   "fragment": "event-type-input"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Element/input_event",
+   "title": "Element: input event",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Element/input_event"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2020-01-15T00:00:00.000Z",
+ "baselineHighDateAsObject": "2022-07-15T00:00:00.000Z"
+}

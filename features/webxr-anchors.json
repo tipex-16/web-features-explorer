@@ -1,0 +1,234 @@
+{
+ "compat_features": [
+  "api.XRAnchor",
+  "api.XRAnchor.anchorSpace",
+  "api.XRAnchor.delete",
+  "api.XRAnchorSet",
+  "api.XRAnchorSet.@@iterator",
+  "api.XRAnchorSet.entries",
+  "api.XRAnchorSet.forEach",
+  "api.XRAnchorSet.has",
+  "api.XRAnchorSet.keys",
+  "api.XRAnchorSet.size",
+  "api.XRAnchorSet.values",
+  "api.XRFrame.createAnchor",
+  "api.XRFrame.trackedAnchors",
+  "api.XRHitTestResult.createAnchor"
+ ],
+ "description": "An XRAnchor object keeps track of a pose that is fixed relative to the real world. Anchors build an illusion that the placed objects are really present in the user's environment.",
+ "description_html": "An <code>XRAnchor</code> object keeps track of a pose that is fixed relative to the real world. Anchors build an illusion that the placed objects are really present in the user's environment.",
+ "group": [
+  "webxr"
+ ],
+ "kind": "feature",
+ "name": "Anchors (WebXR)",
+ "spec": [
+  "https://immersive-web.github.io/anchors/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.XRAnchor": {
+    "baseline": false,
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85"
+    }
+   },
+   "api.XRAnchor.anchorSpace": {
+    "baseline": false,
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85"
+    }
+   },
+   "api.XRAnchor.delete": {
+    "baseline": false,
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85"
+    }
+   },
+   "api.XRAnchorSet": {
+    "baseline": false,
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85"
+    }
+   },
+   "api.XRAnchorSet.@@iterator": {
+    "baseline": false,
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85"
+    }
+   },
+   "api.XRAnchorSet.entries": {
+    "baseline": false,
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85"
+    }
+   },
+   "api.XRAnchorSet.forEach": {
+    "baseline": false,
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85"
+    }
+   },
+   "api.XRAnchorSet.has": {
+    "baseline": false,
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85"
+    }
+   },
+   "api.XRAnchorSet.keys": {
+    "baseline": false,
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85"
+    }
+   },
+   "api.XRAnchorSet.size": {
+    "baseline": false,
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85"
+    }
+   },
+   "api.XRAnchorSet.values": {
+    "baseline": false,
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85"
+    }
+   },
+   "api.XRFrame.createAnchor": {
+    "baseline": false,
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85"
+    }
+   },
+   "api.XRFrame.trackedAnchors": {
+    "baseline": false,
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85"
+    }
+   },
+   "api.XRHitTestResult.createAnchor": {
+    "baseline": false,
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85"
+    }
+   }
+  },
+  "support": {
+   "chrome": "85",
+   "chrome_android": "85",
+   "edge": "85"
+  }
+ },
+ "id": "webxr-anchors",
+ "groups": [
+  "webxr"
+ ],
+ "specs": [
+  {
+   "url": "https://immersive-web.github.io/anchors/",
+   "seriesComposition": "full",
+   "shortname": "anchors",
+   "series": {
+    "shortname": "anchors",
+    "currentSpecification": "anchors",
+    "title": "WebXR Anchors",
+    "shortTitle": "WebXR Anchors",
+    "nightlyUrl": "https://immersive-web.github.io/anchors/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Immersive Web Working Group",
+     "url": "https://www.w3.org/immersive-web/"
+    }
+   ],
+   "nightly": {
+    "url": "https://immersive-web.github.io/anchors/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/immersive-web/anchors",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "WebXR Anchors Module",
+   "source": "spec",
+   "shortTitle": "WebXR Anchors",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "webxr/anchors"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/XRAnchor",
+   "title": "XRAnchor",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/XRAnchor"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/351",
+   "position": "defer",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 1e-8,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/402"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:webxr-anchors"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/127",
+  "votes": 0
+ },
+ "bugs": {
+  "webview_android": [
+   "https://crbug.com/40652382"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

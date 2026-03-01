@@ -1,0 +1,129 @@
+{
+ "compat_features": [
+  "api.AudioSession",
+  "api.AudioSession.type",
+  "api.Navigator.audioSession"
+ ],
+ "description": "The navigator.audioSession API controls how audio playback interacts with other applications. For example, playing music can pause audio from other applications, while ambient audio can play at the same time.",
+ "description_html": "The <code>navigator.audioSession</code> API controls how audio playback interacts with other applications. For example, playing music can pause audio from other applications, while ambient audio can play at the same time.",
+ "kind": "feature",
+ "name": "Audio session",
+ "spec": [
+  "https://w3c.github.io/audio-session/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.AudioSession": {
+    "baseline": false,
+    "support": {
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.AudioSession.type": {
+    "baseline": false,
+    "support": {
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.Navigator.audioSession": {
+    "baseline": false,
+    "support": {
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   }
+  },
+  "support": {
+   "safari": "16.4",
+   "safari_ios": "16.4"
+  }
+ },
+ "id": "audio-session",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/audio-session/",
+   "seriesComposition": "full",
+   "shortname": "audio-session",
+   "series": {
+    "shortname": "audio-session",
+    "currentSpecification": "audio-session",
+    "title": "Audio Session",
+    "shortTitle": "Audio Session",
+    "releaseUrl": "https://www.w3.org/TR/audio-session/",
+    "nightlyUrl": "https://w3c.github.io/audio-session/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Media Working Group",
+     "url": "https://www.w3.org/media-wg/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/audio-session/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/audio-session/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/audio-session",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Audio Session",
+   "source": "w3c",
+   "shortTitle": "Audio Session",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/AudioSession",
+   "title": "AudioSession",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/AudioSession"
+  },
+  {
+   "slug": "Web/API/AudioSession/type",
+   "title": "AudioSession: type property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/AudioSession/type"
+  },
+  {
+   "slug": "Web/API/Navigator/audioSession",
+   "title": "Navigator: audioSession property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Navigator/audioSession"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/200",
+  "votes": 0
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1921506"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/1921506"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

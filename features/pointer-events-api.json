@@ -1,0 +1,668 @@
+{
+ "caniuse": [
+  "pointer"
+ ],
+ "compat_features": [
+  "api.Element.auxclick_event.type_pointerevent",
+  "api.Element.click_event.type_pointerevent",
+  "api.Element.contextmenu_event.type_pointerevent",
+  "api.Element.gotpointercapture_event",
+  "api.Element.hasPointerCapture",
+  "api.Element.lostpointercapture_event",
+  "api.Element.pointercancel_event",
+  "api.Element.pointerdown_event",
+  "api.Element.pointerenter_event",
+  "api.Element.pointerleave_event",
+  "api.Element.pointermove_event",
+  "api.Element.pointerout_event",
+  "api.Element.pointerover_event",
+  "api.Element.pointerrawupdate_event",
+  "api.Element.pointerup_event",
+  "api.Element.releasePointerCapture",
+  "api.Element.setPointerCapture",
+  "api.Navigator.maxTouchPoints",
+  "api.PointerEvent",
+  "api.PointerEvent.PointerEvent",
+  "api.PointerEvent.PointerEvent.options_altitudeAngle_parameter",
+  "api.PointerEvent.PointerEvent.options_azimuthAngle_parameter",
+  "api.PointerEvent.altitudeAngle",
+  "api.PointerEvent.azimuthAngle",
+  "api.PointerEvent.getCoalescedEvents",
+  "api.PointerEvent.getPredictedEvents",
+  "api.PointerEvent.height",
+  "api.PointerEvent.isPrimary",
+  "api.PointerEvent.persistentDeviceId",
+  "api.PointerEvent.pointerId",
+  "api.PointerEvent.pointerType",
+  "api.PointerEvent.pointerType.fractional_coordinates",
+  "api.PointerEvent.pressure",
+  "api.PointerEvent.tangentialPressure",
+  "api.PointerEvent.tiltX",
+  "api.PointerEvent.tiltY",
+  "api.PointerEvent.twist",
+  "api.PointerEvent.width"
+ ],
+ "description": "Pointer events, such as pointerdown, and the PointerEvent API, represent general pointing inputs, from a wide range of devices, such as a mouse, pen or stylus, or touch with one or more fingers. Not to be confused with the pointer-events CSS property.",
+ "description_html": "Pointer events, such as <code>pointerdown</code>, and the <code>PointerEvent</code> API, represent general pointing inputs, from a wide range of devices, such as a mouse, pen or stylus, or touch with one or more fingers. Not to be confused with the <code>pointer-events</code> CSS property.",
+ "kind": "feature",
+ "name": "Pointer Events",
+ "spec": [
+  "https://w3c.github.io/pointerevents/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2023-01-28",
+  "baseline_low_date": "2020-07-28",
+  "by_compat_key": {
+   "api.Element.auxclick_event.type_pointerevent": {
+    "baseline": "low",
+    "baseline_low_date": "2024-12-11",
+    "support": {
+     "chrome": "92",
+     "chrome_android": "92",
+     "edge": "92",
+     "firefox": "129",
+     "firefox_android": "129",
+     "safari": "18.2",
+     "safari_ios": "18.2"
+    }
+   },
+   "api.Element.click_event.type_pointerevent": {
+    "baseline": "low",
+    "baseline_low_date": "2024-12-11",
+    "support": {
+     "chrome": "92",
+     "chrome_android": "92",
+     "edge": "92",
+     "firefox": "129",
+     "firefox_android": "129",
+     "safari": "18.2",
+     "safari_ios": "18.2"
+    }
+   },
+   "api.Element.contextmenu_event.type_pointerevent": {
+    "baseline": false,
+    "support": {
+     "chrome": "92",
+     "chrome_android": "92",
+     "edge": "92",
+     "firefox": "129",
+     "firefox_android": "129",
+     "safari": "18.2"
+    }
+   },
+   "api.Element.gotpointercapture_event": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "17",
+     "firefox": "59",
+     "firefox_android": "79",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "api.Element.hasPointerCapture": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "79",
+     "firefox": "59",
+     "firefox_android": "79",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "api.Element.lostpointercapture_event": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "17",
+     "firefox": "59",
+     "firefox_android": "79",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "api.Element.pointercancel_event": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "12",
+     "firefox": "59",
+     "firefox_android": "79",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "api.Element.pointerdown_event": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "12",
+     "firefox": "59",
+     "firefox_android": "79",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "api.Element.pointerenter_event": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "12",
+     "firefox": "59",
+     "firefox_android": "79",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "api.Element.pointerleave_event": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "12",
+     "firefox": "59",
+     "firefox_android": "79",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "api.Element.pointermove_event": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "12",
+     "firefox": "59",
+     "firefox_android": "79",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "api.Element.pointerout_event": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "12",
+     "firefox": "59",
+     "firefox_android": "79",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "api.Element.pointerover_event": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "12",
+     "firefox": "59",
+     "firefox_android": "79",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "api.Element.pointerrawupdate_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79"
+    }
+   },
+   "api.Element.pointerup_event": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "12",
+     "firefox": "59",
+     "firefox_android": "79",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "api.Element.releasePointerCapture": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "12",
+     "firefox": "59",
+     "firefox_android": "79",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "api.Element.setPointerCapture": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "12",
+     "firefox": "59",
+     "firefox_android": "79",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "api.Navigator.maxTouchPoints": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "35",
+     "chrome_android": "35",
+     "edge": "12",
+     "firefox": "59",
+     "firefox_android": "79",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "api.PointerEvent": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "12",
+     "firefox": "59",
+     "firefox_android": "79",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "api.PointerEvent.PointerEvent": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "12",
+     "firefox": "59",
+     "firefox_android": "79",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "api.PointerEvent.PointerEvent.options_altitudeAngle_parameter": {
+    "baseline": "low",
+    "baseline_low_date": "2024-12-11",
+    "support": {
+     "chrome": "86",
+     "chrome_android": "86",
+     "edge": "86",
+     "firefox": "131",
+     "firefox_android": "131",
+     "safari": "18.2",
+     "safari_ios": "18.2"
+    }
+   },
+   "api.PointerEvent.PointerEvent.options_azimuthAngle_parameter": {
+    "baseline": "low",
+    "baseline_low_date": "2024-12-11",
+    "support": {
+     "chrome": "86",
+     "chrome_android": "86",
+     "edge": "86",
+     "firefox": "131",
+     "firefox_android": "131",
+     "safari": "18.2",
+     "safari_ios": "18.2"
+    }
+   },
+   "api.PointerEvent.altitudeAngle": {
+    "baseline": "low",
+    "baseline_low_date": "2024-12-11",
+    "support": {
+     "chrome": "86",
+     "chrome_android": "86",
+     "edge": "86",
+     "firefox": "131",
+     "firefox_android": "131",
+     "safari": "18.2",
+     "safari_ios": "18.2"
+    }
+   },
+   "api.PointerEvent.azimuthAngle": {
+    "baseline": "low",
+    "baseline_low_date": "2024-12-11",
+    "support": {
+     "chrome": "86",
+     "chrome_android": "86",
+     "edge": "86",
+     "firefox": "131",
+     "firefox_android": "131",
+     "safari": "18.2",
+     "safari_ios": "18.2"
+    }
+   },
+   "api.PointerEvent.getCoalescedEvents": {
+    "baseline": false,
+    "support": {
+     "chrome": "58",
+     "chrome_android": "58",
+     "edge": "79",
+     "firefox": "59",
+     "safari": "18.2",
+     "safari_ios": "18.2"
+    }
+   },
+   "api.PointerEvent.getPredictedEvents": {
+    "baseline": "low",
+    "baseline_low_date": "2024-12-11",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "89",
+     "firefox_android": "89",
+     "safari": "18.2",
+     "safari_ios": "18.2"
+    }
+   },
+   "api.PointerEvent.height": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "12",
+     "firefox": "59",
+     "firefox_android": "79",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "api.PointerEvent.isPrimary": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "12",
+     "firefox": "59",
+     "firefox_android": "79",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "api.PointerEvent.persistentDeviceId": {
+    "baseline": false,
+    "support": {
+     "chrome": "128",
+     "chrome_android": "128",
+     "edge": "128",
+     "firefox": "141",
+     "firefox_android": "141"
+    }
+   },
+   "api.PointerEvent.pointerId": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "12",
+     "firefox": "59",
+     "firefox_android": "79",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "api.PointerEvent.pointerType": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "12",
+     "firefox": "59",
+     "firefox_android": "79",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "api.PointerEvent.pointerType.fractional_coordinates": {
+    "baseline": false,
+    "support": {
+     "firefox": "135",
+     "firefox_android": "135",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.PointerEvent.pressure": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "12",
+     "firefox": "59",
+     "firefox_android": "79",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "api.PointerEvent.tangentialPressure": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "59",
+     "firefox_android": "79",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "api.PointerEvent.tiltX": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "12",
+     "firefox": "59",
+     "firefox_android": "79",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "api.PointerEvent.tiltY": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "12",
+     "firefox": "59",
+     "firefox_android": "79",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "api.PointerEvent.twist": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "18",
+     "firefox": "59",
+     "firefox_android": "79",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "api.PointerEvent.width": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "12",
+     "firefox": "59",
+     "firefox_android": "79",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   }
+  },
+  "support": {
+   "chrome": "55",
+   "chrome_android": "55",
+   "edge": "12",
+   "firefox": "59",
+   "firefox_android": "79",
+   "safari": "13",
+   "safari_ios": "13"
+  }
+ },
+ "id": "pointer-events-api",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/pointerevents/",
+   "seriesComposition": "full",
+   "shortname": "pointerevents4",
+   "series": {
+    "shortname": "pointerevents",
+    "currentSpecification": "pointerevents4",
+    "title": "Pointer Events",
+    "shortTitle": "Pointer Events",
+    "releaseUrl": "https://www.w3.org/TR/pointerevents/",
+    "nightlyUrl": "https://w3c.github.io/pointerevents/"
+   },
+   "seriesVersion": "4",
+   "seriesPrevious": "pointerevents3",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Pointer Events Working Group",
+     "url": "https://www.w3.org/groups/wg/pointer-events/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/pointerevents4/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/pointerevents/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/pointerevents",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Pointer Events",
+   "source": "w3c",
+   "shortTitle": "Pointer Events",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "pointerevents"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Pointer_events",
+   "title": "Pointer events",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Pointer_events"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [
+  {
+   "year": 2023,
+   "label": "interop-2023-events",
+   "url": "https://wpt.fyi/interop-2023?feature=interop-2023-events"
+  },
+  {
+   "year": 2024,
+   "label": "interop-2023-events",
+   "url": "https://wpt.fyi/interop-2024?feature=interop-2023-events"
+  },
+  {
+   "year": 2025,
+   "label": "interop-2023-events",
+   "url": "https://wpt.fyi/interop-2025?feature=interop-2023-events"
+  }
+ ],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:pointer-events-api"
+ },
+ "developerSignals": null,
+ "bugs": {
+  "safari_ios": [
+   "https://webkit.org/b/213953"
+  ],
+  "webview_ios": [
+   "https://webkit.org/b/213953"
+  ]
+ },
+ "baselineLowDateAsObject": "2020-07-28T00:00:00.000Z",
+ "baselineHighDateAsObject": "2023-01-28T00:00:00.000Z"
+}

@@ -1,0 +1,159 @@
+{
+ "compat_features": [
+  "api.WEBGL_multi_draw",
+  "api.WEBGL_multi_draw.multiDrawArraysInstancedWEBGL",
+  "api.WEBGL_multi_draw.multiDrawArraysWEBGL",
+  "api.WEBGL_multi_draw.multiDrawElementsInstancedWEBGL",
+  "api.WEBGL_multi_draw.multiDrawElementsWEBGL"
+ ],
+ "description": "The WEBGL_multi_draw extension for WebGL 1.0 and 2.0 contexts renders more than one primitive with a single function call.",
+ "description_html": "The <code>WEBGL_multi_draw</code> extension for WebGL 1.0 and 2.0 contexts renders more than one primitive with a single function call.",
+ "group": [
+  "webgl-extensions"
+ ],
+ "kind": "feature",
+ "name": "WEBGL_multi_draw WebGL extension",
+ "spec": [
+  "https://registry.khronos.org/webgl/extensions/WEBGL_multi_draw/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.WEBGL_multi_draw": {
+    "baseline": false,
+    "support": {
+     "chrome": "86",
+     "chrome_android": "86",
+     "edge": "86",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "api.WEBGL_multi_draw.multiDrawArraysInstancedWEBGL": {
+    "baseline": false,
+    "support": {
+     "chrome": "86",
+     "chrome_android": "86",
+     "edge": "86",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "api.WEBGL_multi_draw.multiDrawArraysWEBGL": {
+    "baseline": false,
+    "support": {
+     "chrome": "86",
+     "chrome_android": "86",
+     "edge": "86",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "api.WEBGL_multi_draw.multiDrawElementsInstancedWEBGL": {
+    "baseline": false,
+    "support": {
+     "chrome": "86",
+     "chrome_android": "86",
+     "edge": "86",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "api.WEBGL_multi_draw.multiDrawElementsWEBGL": {
+    "baseline": false,
+    "support": {
+     "chrome": "86",
+     "chrome_android": "86",
+     "edge": "86",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   }
+  },
+  "support": {
+   "chrome": "86",
+   "chrome_android": "86",
+   "edge": "86",
+   "safari": "15",
+   "safari_ios": "15"
+  }
+ },
+ "id": "webgl-multi-draw",
+ "groups": [
+  "webgl-extensions"
+ ],
+ "specs": [
+  {
+   "url": "https://registry.khronos.org/webgl/extensions/WEBGL_multi_draw/",
+   "seriesComposition": "full",
+   "shortname": "WEBGL_multi_draw",
+   "series": {
+    "shortname": "WEBGL_multi_draw",
+    "currentSpecification": "WEBGL_multi_draw",
+    "title": "WebGL WEBGL_multi_draw Extension Specification",
+    "shortTitle": "WebGL WEBGL_multi_draw Extension",
+    "nightlyUrl": "https://registry.khronos.org/webgl/extensions/WEBGL_multi_draw/"
+   },
+   "organization": "Khronos Group",
+   "groups": [
+    {
+     "name": "WebGL Working Group",
+     "url": "https://www.khronos.org/webgl/"
+    }
+   ],
+   "nightly": {
+    "url": "https://registry.khronos.org/webgl/extensions/WEBGL_multi_draw/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "sourcePath": "extensions/WEBGL_multi_draw/extension.xml",
+    "filename": "index.html"
+   },
+   "title": "WebGL WEBGL_multi_draw Extension Specification",
+   "source": "spec",
+   "shortTitle": "WebGL WEBGL_multi_draw Extension",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "testPaths": [
+     "conformance-suites"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/WEBGL_multi_draw",
+   "title": "WEBGL_multi_draw extension",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/WEBGL_multi_draw"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.01534048,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/388"
+ },
+ "interop": [],
+ "wpt": null,
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/130",
+  "votes": 0
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1536673"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Firefox",
+ "monthsBlocked": 54,
+ "blockedSince": "September 2021"
+}

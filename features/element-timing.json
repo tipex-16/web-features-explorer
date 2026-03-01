@@ -1,0 +1,209 @@
+{
+ "compat_features": [
+  "api.Element.elementTiming",
+  "api.PerformanceElementTiming",
+  "api.PerformanceElementTiming.element",
+  "api.PerformanceElementTiming.id",
+  "api.PerformanceElementTiming.identifier",
+  "api.PerformanceElementTiming.intersectionRect",
+  "api.PerformanceElementTiming.loadTime",
+  "api.PerformanceElementTiming.naturalHeight",
+  "api.PerformanceElementTiming.naturalWidth",
+  "api.PerformanceElementTiming.renderTime",
+  "api.PerformanceElementTiming.toJSON",
+  "api.PerformanceElementTiming.url"
+ ],
+ "description": "The element performance entry and the PerformanceElementTiming API measures the time to render elements that have the elementtiming attribute.",
+ "description_html": "The <code>element</code> performance entry and the <code>PerformanceElementTiming</code> API measures the time to render elements that have the <code>elementtiming</code> attribute.",
+ "group": [
+  "performance"
+ ],
+ "kind": "feature",
+ "name": "Element timing",
+ "spec": [
+  "https://w3c.github.io/element-timing/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Element.elementTiming": {
+    "baseline": false,
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79"
+    }
+   },
+   "api.PerformanceElementTiming": {
+    "baseline": false,
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79"
+    }
+   },
+   "api.PerformanceElementTiming.element": {
+    "baseline": false,
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79"
+    }
+   },
+   "api.PerformanceElementTiming.id": {
+    "baseline": false,
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79"
+    }
+   },
+   "api.PerformanceElementTiming.identifier": {
+    "baseline": false,
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79"
+    }
+   },
+   "api.PerformanceElementTiming.intersectionRect": {
+    "baseline": false,
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79"
+    }
+   },
+   "api.PerformanceElementTiming.loadTime": {
+    "baseline": false,
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79"
+    }
+   },
+   "api.PerformanceElementTiming.naturalHeight": {
+    "baseline": false,
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79"
+    }
+   },
+   "api.PerformanceElementTiming.naturalWidth": {
+    "baseline": false,
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79"
+    }
+   },
+   "api.PerformanceElementTiming.renderTime": {
+    "baseline": false,
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79"
+    }
+   },
+   "api.PerformanceElementTiming.toJSON": {
+    "baseline": false,
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79"
+    }
+   },
+   "api.PerformanceElementTiming.url": {
+    "baseline": false,
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79"
+    }
+   }
+  },
+  "support": {
+   "chrome": "77",
+   "chrome_android": "77",
+   "edge": "79"
+  }
+ },
+ "id": "element-timing",
+ "groups": [
+  "performance"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/element-timing/",
+   "seriesComposition": "full",
+   "shortname": "element-timing",
+   "series": {
+    "shortname": "element-timing",
+    "currentSpecification": "element-timing",
+    "title": "Element Timing API",
+    "shortTitle": "Element Timing API",
+    "nightlyUrl": "https://w3c.github.io/element-timing/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Performance Working Group",
+     "url": "https://www.w3.org/groups/wg/webperf/"
+    }
+   ],
+   "nightly": {
+    "url": "https://w3c.github.io/element-timing/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/element-timing",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Element Timing API",
+   "source": "spec",
+   "shortTitle": "Element Timing API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Element/elementTiming",
+   "title": "Element: elementTiming property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Element/elementTiming"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/192",
+   "position": "positive",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/84",
+   "position": "",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:element-timing"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/110",
+  "votes": 1
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

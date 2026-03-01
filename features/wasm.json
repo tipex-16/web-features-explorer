@@ -1,0 +1,618 @@
+{
+ "caniuse": [
+  "wasm"
+ ],
+ "compat_features": [
+  "webassembly.api",
+  "webassembly.api.CompileError",
+  "webassembly.api.CompileError.CompileError",
+  "webassembly.api.Global",
+  "webassembly.api.Global.Global",
+  "webassembly.api.Global.value",
+  "webassembly.api.Global.valueOf",
+  "webassembly.api.Instance",
+  "webassembly.api.Instance.Instance",
+  "webassembly.api.Instance.exports",
+  "webassembly.api.LinkError",
+  "webassembly.api.LinkError.LinkError",
+  "webassembly.api.Memory",
+  "webassembly.api.Memory.Memory",
+  "webassembly.api.Memory.buffer",
+  "webassembly.api.Memory.grow",
+  "webassembly.api.Module",
+  "webassembly.api.Module.Module",
+  "webassembly.api.Module.customSections_static",
+  "webassembly.api.Module.exports_static",
+  "webassembly.api.Module.imports_static",
+  "webassembly.api.RuntimeError",
+  "webassembly.api.RuntimeError.RuntimeError",
+  "webassembly.api.Table",
+  "webassembly.api.Table.Table",
+  "webassembly.api.Table.get",
+  "webassembly.api.Table.grow",
+  "webassembly.api.Table.length",
+  "webassembly.api.Table.set",
+  "webassembly.api.compileStreaming_static",
+  "webassembly.api.compile_static",
+  "webassembly.api.instantiateStreaming_static",
+  "webassembly.api.instantiate_static",
+  "webassembly.api.validate_static"
+ ],
+ "description": "The WebAssembly.instantiate() and WebAssembly.instantiateStreaming() global static methods load WebAssembly code (also known as Wasm), a portable binary instruction format.",
+ "description_html": "The <code>WebAssembly.instantiate()</code> and <code>WebAssembly.instantiateStreaming()</code> global static methods load WebAssembly code (also known as Wasm), a portable binary instruction format.",
+ "group": [
+  "webassembly"
+ ],
+ "kind": "feature",
+ "name": "WebAssembly",
+ "spec": [
+  "https://webassembly.github.io/gc/core/bikeshed/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2020-04-17",
+  "baseline_low_date": "2017-10-17",
+  "by_compat_key": {
+   "webassembly.api": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "16",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "webassembly.api.CompileError": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "16",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "webassembly.api.CompileError.CompileError": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "16",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "webassembly.api.Global": {
+    "baseline": "high",
+    "baseline_high_date": "2022-09-24",
+    "baseline_low_date": "2020-03-24",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "62",
+     "firefox_android": "62",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "webassembly.api.Global.Global": {
+    "baseline": "high",
+    "baseline_high_date": "2022-09-24",
+    "baseline_low_date": "2020-03-24",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "62",
+     "firefox_android": "62",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "webassembly.api.Global.value": {
+    "baseline": "high",
+    "baseline_high_date": "2022-09-24",
+    "baseline_low_date": "2020-03-24",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "62",
+     "firefox_android": "62",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "webassembly.api.Global.valueOf": {
+    "baseline": "high",
+    "baseline_high_date": "2022-09-24",
+    "baseline_low_date": "2020-03-24",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "62",
+     "firefox_android": "62",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "webassembly.api.Instance": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "16",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "webassembly.api.Instance.Instance": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "16",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "webassembly.api.Instance.exports": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "16",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "webassembly.api.LinkError": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "16",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "webassembly.api.LinkError.LinkError": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "16",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "webassembly.api.Memory": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "16",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "webassembly.api.Memory.Memory": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "16",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "webassembly.api.Memory.buffer": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "16",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "webassembly.api.Memory.grow": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "16",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "webassembly.api.Module": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "16",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "webassembly.api.Module.Module": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "16",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "webassembly.api.Module.customSections_static": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "16",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "webassembly.api.Module.exports_static": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "16",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "webassembly.api.Module.imports_static": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "16",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "webassembly.api.RuntimeError": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "16",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "webassembly.api.RuntimeError.RuntimeError": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "16",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "webassembly.api.Table": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "16",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "webassembly.api.Table.Table": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "16",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "webassembly.api.Table.get": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "16",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "webassembly.api.Table.grow": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "16",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "webassembly.api.Table.length": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "16",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "webassembly.api.Table.set": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "16",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "webassembly.api.compileStreaming_static": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "60",
+     "chrome_android": "60",
+     "edge": "16",
+     "firefox": "58",
+     "firefox_android": "58",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "webassembly.api.compile_static": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "16",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "webassembly.api.instantiateStreaming_static": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "60",
+     "chrome_android": "60",
+     "edge": "16",
+     "firefox": "58",
+     "firefox_android": "58",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "webassembly.api.instantiate_static": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "16",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "webassembly.api.validate_static": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "16",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   }
+  },
+  "support": {
+   "chrome": "57",
+   "chrome_android": "57",
+   "edge": "16",
+   "firefox": "52",
+   "firefox_android": "52",
+   "safari": "11",
+   "safari_ios": "11"
+  }
+ },
+ "id": "wasm",
+ "groups": [
+  "webassembly"
+ ],
+ "specs": [
+  {
+   "url": "https://webassembly.github.io/gc/core/bikeshed/",
+   "seriesComposition": "fork",
+   "shortname": "wasm-core-2-fork-gc",
+   "series": {
+    "shortname": "wasm-core",
+    "currentSpecification": "wasm-core-2",
+    "title": "WebAssembly Core",
+    "shortTitle": "WebAssembly Core",
+    "releaseUrl": "https://www.w3.org/TR/wasm-core/",
+    "nightlyUrl": "https://webassembly.github.io/spec/core/bikeshed/"
+   },
+   "seriesVersion": "2",
+   "forkOf": "wasm-core-2",
+   "title": "WebAssembly Core: Garbage Collection",
+   "formerNames": [
+    "wasm-core-1-fork-gc"
+   ],
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "WebAssembly Community Group",
+     "url": "https://www.w3.org/community/webassembly/"
+    }
+   ],
+   "nightly": {
+    "url": "https://webassembly.github.io/gc/core/bikeshed/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/WebAssembly/gc",
+    "sourcePath": "document/core/index.bs",
+    "filename": "index.html"
+   },
+   "source": "spec",
+   "shortTitle": "WebAssembly Core: Garbage Collection",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "WebAssembly",
+   "title": "WebAssembly",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/WebAssembly"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of JS 2025",
+   "url": "https://2025.stateofjs.com/en-US/features/#browser_api_features",
+   "question": "features",
+   "subQuestion": "browser_api_features",
+   "path": "dataAPI.surveys.state_of_js.js2025.features.browser_api_features.combined.allEditions.0.buckets.6.entity"
+  }
+ ],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:wasm"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2017-10-17T00:00:00.000Z",
+ "baselineHighDateAsObject": "2020-04-17T00:00:00.000Z"
+}

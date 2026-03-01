@@ -1,0 +1,187 @@
+{
+ "compat_features": [
+  "api.FontData",
+  "api.FontData.blob",
+  "api.FontData.family",
+  "api.FontData.fullName",
+  "api.FontData.postscriptName",
+  "api.FontData.style",
+  "api.Permissions.permission_local-fonts",
+  "api.Window.queryLocalFonts",
+  "html.elements.iframe.allow.local-fonts",
+  "http.headers.Permissions-Policy.local-fonts"
+ ],
+ "description": "The window.queryLocalFonts() method returns an array of locally-installed fonts, each represented by a FontData object.",
+ "description_html": "The <code>window.queryLocalFonts()</code> method returns an array of locally-installed fonts, each represented by a <code>FontData</code> object.",
+ "kind": "feature",
+ "name": "Local fonts",
+ "spec": [
+  "https://wicg.github.io/local-font-access/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.FontData": {
+    "baseline": false,
+    "support": {
+     "chrome": "103",
+     "edge": "103"
+    }
+   },
+   "api.FontData.blob": {
+    "baseline": false,
+    "support": {
+     "chrome": "103",
+     "edge": "103"
+    }
+   },
+   "api.FontData.family": {
+    "baseline": false,
+    "support": {
+     "chrome": "103",
+     "edge": "103"
+    }
+   },
+   "api.FontData.fullName": {
+    "baseline": false,
+    "support": {
+     "chrome": "103",
+     "edge": "103"
+    }
+   },
+   "api.FontData.postscriptName": {
+    "baseline": false,
+    "support": {
+     "chrome": "103",
+     "edge": "103"
+    }
+   },
+   "api.FontData.style": {
+    "baseline": false,
+    "support": {
+     "chrome": "103",
+     "edge": "103"
+    }
+   },
+   "api.Permissions.permission_local-fonts": {
+    "baseline": false,
+    "support": {
+     "chrome": "103",
+     "edge": "103"
+    }
+   },
+   "api.Window.queryLocalFonts": {
+    "baseline": false,
+    "support": {
+     "chrome": "103",
+     "edge": "103"
+    }
+   },
+   "html.elements.iframe.allow.local-fonts": {
+    "baseline": false,
+    "support": {
+     "chrome": "103",
+     "edge": "103"
+    }
+   },
+   "http.headers.Permissions-Policy.local-fonts": {
+    "baseline": false,
+    "support": {
+     "chrome": "103",
+     "edge": "103"
+    }
+   }
+  },
+  "support": {
+   "chrome": "103",
+   "edge": "103"
+  }
+ },
+ "id": "local-fonts",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://wicg.github.io/local-font-access/",
+   "seriesComposition": "full",
+   "shortname": "local-font-access",
+   "series": {
+    "shortname": "local-font-access",
+    "currentSpecification": "local-font-access",
+    "title": "Local Font Access API",
+    "shortTitle": "Local Font Access API",
+    "nightlyUrl": "https://wicg.github.io/local-font-access/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://wicg.github.io/local-font-access/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/WICG/local-font-access",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Local Font Access API",
+   "source": "spec",
+   "shortTitle": "Local Font Access API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "font-access"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Window/queryLocalFonts",
+   "title": "Window: queryLocalFonts() method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Window/queryLocalFonts"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00001013,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/287"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:local-fonts"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/174",
+  "votes": 5
+ },
+ "bugs": {
+  "chrome_android": [
+   "https://crbug.com/40840834"
+  ],
+  "oculus": [
+   "https://crbug.com/40840834"
+  ],
+  "opera_android": [
+   "https://crbug.com/40840834"
+  ],
+  "samsunginternet_android": [
+   "https://crbug.com/40840834"
+  ],
+  "webview_android": [
+   "https://crbug.com/40840834"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

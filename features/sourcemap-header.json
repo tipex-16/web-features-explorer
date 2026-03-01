@@ -1,0 +1,102 @@
+{
+ "compat_features": [
+  "http.headers.SourceMap"
+ ],
+ "description": "The Sourcemap HTTP response header links generated code to a source map, so the browser shows the original source in a debugger. This makes it easier to work with minified or transpiled code.",
+ "description_html": "The <code>Sourcemap</code> HTTP response header links generated code to a source map, so the browser shows the original source in a debugger. This makes it easier to work with minified or transpiled code.",
+ "kind": "feature",
+ "name": "Sourcemap header",
+ "spec": [
+  "https://tc39.es/ecma426/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2022-07-15",
+  "baseline_low_date": "2020-01-15",
+  "by_compat_key": {
+   "http.headers.SourceMap": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "18",
+     "chrome_android": "18",
+     "edge": "79",
+     "firefox": "55",
+     "firefox_android": "55",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   }
+  },
+  "support": {
+   "chrome": "18",
+   "chrome_android": "18",
+   "edge": "79",
+   "firefox": "55",
+   "firefox_android": "55",
+   "safari": "7",
+   "safari_ios": "7"
+  }
+ },
+ "id": "sourcemap-header",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://tc39.es/ecma426/",
+   "seriesComposition": "full",
+   "shortname": "ecma-426",
+   "series": {
+    "shortname": "ecma-426",
+    "currentSpecification": "ecma-426",
+    "title": "Source map format specification",
+    "shortTitle": "Source map format",
+    "nightlyUrl": "https://tc39.es/ecma426/"
+   },
+   "nightly": {
+    "url": "https://tc39.es/ecma426/",
+    "status": "Editor's Draft",
+    "sourcePath": "source-map-rev3.md",
+    "alternateUrls": [],
+    "repository": "https://github.com/tc39/ecma426",
+    "filename": "index.html"
+   },
+   "formerNames": [
+    "sourcemap"
+   ],
+   "organization": "Ecma International",
+   "groups": [
+    {
+     "name": "TC39",
+     "url": "https://tc39.es/"
+    }
+   ],
+   "title": "Source map format specification",
+   "source": "spec",
+   "shortTitle": "Source map format",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/HTTP/Reference/Headers/SourceMap",
+   "title": "SourceMap header",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/SourceMap"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2020-01-15T00:00:00.000Z",
+ "baselineHighDateAsObject": "2022-07-15T00:00:00.000Z"
+}

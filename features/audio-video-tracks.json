@@ -1,0 +1,401 @@
+{
+ "caniuse": [
+  "audiotracks",
+  "videotracks"
+ ],
+ "compat_features": [
+  "api.AudioTrack",
+  "api.AudioTrack.enabled",
+  "api.AudioTrack.id",
+  "api.AudioTrack.kind",
+  "api.AudioTrack.label",
+  "api.AudioTrack.language",
+  "api.AudioTrackList",
+  "api.AudioTrackList.addtrack_event",
+  "api.AudioTrackList.change_event",
+  "api.AudioTrackList.getTrackById",
+  "api.AudioTrackList.length",
+  "api.AudioTrackList.removetrack_event",
+  "api.HTMLMediaElement.audioTracks",
+  "api.HTMLMediaElement.videoTracks",
+  "api.VideoTrack",
+  "api.VideoTrack.id",
+  "api.VideoTrack.kind",
+  "api.VideoTrack.label",
+  "api.VideoTrack.language",
+  "api.VideoTrack.selected",
+  "api.VideoTrackList",
+  "api.VideoTrackList.addtrack_event",
+  "api.VideoTrackList.change_event",
+  "api.VideoTrackList.getTrackById",
+  "api.VideoTrackList.length",
+  "api.VideoTrackList.removetrack_event",
+  "api.VideoTrackList.selectedIndex"
+ ],
+ "description": "The audioTracks and videoTracks APIs for media elements switch audio and video tracks during playback.",
+ "description_html": "The <code>audioTracks</code> and <code>videoTracks</code> APIs for media elements switch audio and video tracks during playback.",
+ "group": [
+  "media-elements"
+ ],
+ "kind": "feature",
+ "name": "Audio and video tracks",
+ "spec": [
+  "https://html.spec.whatwg.org/multipage/media.html#media-resources-with-multiple-media-tracks"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.AudioTrack": {
+    "baseline": false,
+    "support": {
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "api.AudioTrack.enabled": {
+    "baseline": false,
+    "support": {
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "api.AudioTrack.id": {
+    "baseline": false,
+    "support": {
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "api.AudioTrack.kind": {
+    "baseline": false,
+    "support": {
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "api.AudioTrack.label": {
+    "baseline": false,
+    "support": {
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "api.AudioTrack.language": {
+    "baseline": false,
+    "support": {
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "api.AudioTrackList": {
+    "baseline": false,
+    "support": {
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.AudioTrackList.addtrack_event": {
+    "baseline": false,
+    "support": {
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.AudioTrackList.change_event": {
+    "baseline": false,
+    "support": {
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.AudioTrackList.getTrackById": {
+    "baseline": false,
+    "support": {
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.AudioTrackList.length": {
+    "baseline": false,
+    "support": {
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.AudioTrackList.removetrack_event": {
+    "baseline": false,
+    "support": {
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.HTMLMediaElement.audioTracks": {
+    "baseline": false,
+    "support": {
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.HTMLMediaElement.videoTracks": {
+    "baseline": false,
+    "support": {
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.VideoTrack": {
+    "baseline": false,
+    "support": {
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.VideoTrack.id": {
+    "baseline": false,
+    "support": {
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.VideoTrack.kind": {
+    "baseline": false,
+    "support": {
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.VideoTrack.label": {
+    "baseline": false,
+    "support": {
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.VideoTrack.language": {
+    "baseline": false,
+    "support": {
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.VideoTrack.selected": {
+    "baseline": false,
+    "support": {
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.VideoTrackList": {
+    "baseline": false,
+    "support": {
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.VideoTrackList.addtrack_event": {
+    "baseline": false,
+    "support": {
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.VideoTrackList.change_event": {
+    "baseline": false,
+    "support": {
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.VideoTrackList.getTrackById": {
+    "baseline": false,
+    "support": {
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.VideoTrackList.length": {
+    "baseline": false,
+    "support": {
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.VideoTrackList.removetrack_event": {
+    "baseline": false,
+    "support": {
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.VideoTrackList.selectedIndex": {
+    "baseline": false,
+    "support": {
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   }
+  },
+  "support": {
+   "safari": "8",
+   "safari_ios": "8"
+  }
+ },
+ "id": "audio-video-tracks",
+ "groups": [
+  "media-elements"
+ ],
+ "specs": [
+  {
+   "url": "https://html.spec.whatwg.org/multipage/media.html#media-resources-with-multiple-media-tracks",
+   "seriesComposition": "full",
+   "shortname": "html",
+   "series": {
+    "shortname": "html",
+    "currentSpecification": "html",
+    "title": "HTML",
+    "shortTitle": "HTML",
+    "nightlyUrl": "https://html.spec.whatwg.org/multipage/"
+   },
+   "nightly": {
+    "url": "https://html.spec.whatwg.org/multipage/",
+    "status": "Living Standard",
+    "sourcePath": "source",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/html",
+    "pages": [
+     "https://html.spec.whatwg.org/multipage/introduction.html",
+     "https://html.spec.whatwg.org/multipage/infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/common-microsyntaxes.html",
+     "https://html.spec.whatwg.org/multipage/urls-and-fetching.html",
+     "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html",
+     "https://html.spec.whatwg.org/multipage/structured-data.html",
+     "https://html.spec.whatwg.org/multipage/dom.html",
+     "https://html.spec.whatwg.org/multipage/semantics.html",
+     "https://html.spec.whatwg.org/multipage/sections.html",
+     "https://html.spec.whatwg.org/multipage/grouping-content.html",
+     "https://html.spec.whatwg.org/multipage/text-level-semantics.html",
+     "https://html.spec.whatwg.org/multipage/links.html",
+     "https://html.spec.whatwg.org/multipage/edits.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content.html",
+     "https://html.spec.whatwg.org/multipage/images.html",
+     "https://html.spec.whatwg.org/multipage/iframe-embed-object.html",
+     "https://html.spec.whatwg.org/multipage/media.html",
+     "https://html.spec.whatwg.org/multipage/image-maps.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content-other.html",
+     "https://html.spec.whatwg.org/multipage/tables.html",
+     "https://html.spec.whatwg.org/multipage/forms.html",
+     "https://html.spec.whatwg.org/multipage/input.html",
+     "https://html.spec.whatwg.org/multipage/form-elements.html",
+     "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/interactive-elements.html",
+     "https://html.spec.whatwg.org/multipage/scripting.html",
+     "https://html.spec.whatwg.org/multipage/canvas.html",
+     "https://html.spec.whatwg.org/multipage/custom-elements.html",
+     "https://html.spec.whatwg.org/multipage/semantics-other.html",
+     "https://html.spec.whatwg.org/multipage/microdata.html",
+     "https://html.spec.whatwg.org/multipage/interaction.html",
+     "https://html.spec.whatwg.org/multipage/dnd.html",
+     "https://html.spec.whatwg.org/multipage/popover.html",
+     "https://html.spec.whatwg.org/multipage/browsers.html",
+     "https://html.spec.whatwg.org/multipage/nav-history-apis.html",
+     "https://html.spec.whatwg.org/multipage/document-sequences.html",
+     "https://html.spec.whatwg.org/multipage/browsing-the-web.html",
+     "https://html.spec.whatwg.org/multipage/document-lifecycle.html",
+     "https://html.spec.whatwg.org/multipage/speculative-loading.html",
+     "https://html.spec.whatwg.org/multipage/webappapis.html",
+     "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html",
+     "https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html",
+     "https://html.spec.whatwg.org/multipage/system-state.html",
+     "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html",
+     "https://html.spec.whatwg.org/multipage/comms.html",
+     "https://html.spec.whatwg.org/multipage/server-sent-events.html",
+     "https://html.spec.whatwg.org/multipage/web-messaging.html",
+     "https://html.spec.whatwg.org/multipage/workers.html",
+     "https://html.spec.whatwg.org/multipage/worklets.html",
+     "https://html.spec.whatwg.org/multipage/webstorage.html",
+     "https://html.spec.whatwg.org/multipage/syntax.html",
+     "https://html.spec.whatwg.org/multipage/parsing.html",
+     "https://html.spec.whatwg.org/multipage/named-characters.html",
+     "https://html.spec.whatwg.org/multipage/xhtml.html",
+     "https://html.spec.whatwg.org/multipage/rendering.html",
+     "https://html.spec.whatwg.org/multipage/obsolete.html",
+     "https://html.spec.whatwg.org/multipage/iana.html",
+     "https://html.spec.whatwg.org/multipage/indices.html",
+     "https://html.spec.whatwg.org/multipage/references.html",
+     "https://html.spec.whatwg.org/multipage/acknowledgements.html"
+    ],
+    "filename": "index.html"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "HTML Workstream",
+     "url": "https://html.spec.whatwg.org/multipage/"
+    }
+   ],
+   "title": "HTML",
+   "source": "whatwg",
+   "shortTitle": "HTML",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "close-watcher",
+     "custom-elements",
+     "eventsource",
+     "html",
+     "imagebitmap-renderingcontext",
+     "import-maps",
+     "navigation-api",
+     "webmessaging",
+     "webstorage",
+     "workers",
+     "worklets",
+     "x-frame-options"
+    ],
+    "excludePaths": [
+     "html/cross-origin-embedder-policy/credentialless",
+     "html/dom/partial-updates/tentative",
+     "html/cross-origin-embedder-policy/credentialless"
+    ]
+   },
+   "fragment": "media-resources-with-multiple-media-tracks"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/HTMLMediaElement/audioTracks",
+   "title": "HTMLMediaElement: audioTracks property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/audioTracks"
+  },
+  {
+   "slug": "Web/API/HTMLMediaElement/videoTracks",
+   "title": "HTMLMediaElement: videoTracks property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/videoTracks"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:audio-video-tracks"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/43",
+  "votes": 1
+ },
+ "bugs": {
+  "chrome": [
+   "http://code.google.com/p/chromium/issues/detail?id=249427"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

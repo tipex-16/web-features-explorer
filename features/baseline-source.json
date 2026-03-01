@@ -1,0 +1,164 @@
+{
+ "compat_features": [
+  "css.properties.baseline-source",
+  "css.properties.baseline-source.auto",
+  "css.properties.baseline-source.first",
+  "css.properties.baseline-source.last"
+ ],
+ "description": "The baseline-source CSS property controls how inline-level boxes with multiple lines of text are aligned with the surrounding text. By default, which typographic baseline is used depends on the display property value.",
+ "description_html": "The <code>baseline-source</code> CSS property controls how inline-level boxes with multiple lines of text are aligned with the surrounding text. By default, which typographic baseline is used depends on the <code>display</code> property value.",
+ "kind": "feature",
+ "name": "baseline-source",
+ "spec": [
+  "https://drafts.csswg.org/css-inline-3/#baseline-source"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "css.properties.baseline-source": {
+    "baseline": false,
+    "support": {
+     "chrome": "111",
+     "chrome_android": "111",
+     "edge": "111",
+     "firefox": "115",
+     "firefox_android": "115"
+    }
+   },
+   "css.properties.baseline-source.auto": {
+    "baseline": false,
+    "support": {
+     "chrome": "111",
+     "chrome_android": "111",
+     "edge": "111",
+     "firefox": "115",
+     "firefox_android": "115"
+    }
+   },
+   "css.properties.baseline-source.first": {
+    "baseline": false,
+    "support": {
+     "chrome": "111",
+     "chrome_android": "111",
+     "edge": "111",
+     "firefox": "115",
+     "firefox_android": "115"
+    }
+   },
+   "css.properties.baseline-source.last": {
+    "baseline": false,
+    "support": {
+     "chrome": "111",
+     "chrome_android": "111",
+     "edge": "111",
+     "firefox": "115",
+     "firefox_android": "115"
+    }
+   }
+  },
+  "support": {
+   "chrome": "111",
+   "chrome_android": "111",
+   "edge": "111",
+   "firefox": "115",
+   "firefox_android": "115"
+  }
+ },
+ "id": "baseline-source",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-inline-3/#baseline-source",
+   "seriesComposition": "full",
+   "shortname": "css-inline-3",
+   "series": {
+    "shortname": "css-inline",
+    "currentSpecification": "css-inline-3",
+    "title": "CSS Inline Layout",
+    "shortTitle": "CSS Inline Layout",
+    "releaseUrl": "https://www.w3.org/TR/css-inline/",
+    "nightlyUrl": "https://drafts.csswg.org/css-inline/"
+   },
+   "seriesVersion": "3",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-inline-3/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-inline-3/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-inline-3/",
+     "https://w3c.github.io/csswg-drafts/css-inline/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-inline-3/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Inline Layout Module Level 3",
+   "source": "w3c",
+   "shortTitle": "CSS Inline Layout 3",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-inline"
+    ]
+   },
+   "fragment": "baseline-source"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/baseline-source",
+   "title": "baseline-source",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/baseline-source"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/727",
+   "position": "positive",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/118",
+   "position": "",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.0002453,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/214"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:baseline-source"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/192",
+  "votes": 0
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Safari",
+ "monthsBlocked": 32,
+ "blockedSince": "July 2023"
+}

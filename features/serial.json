@@ -1,0 +1,302 @@
+{
+ "compat_features": [
+  "api.Navigator.serial",
+  "api.Serial",
+  "api.Serial.getPorts",
+  "api.Serial.requestPort",
+  "api.Serial.requestPort.allowedBluetoothServiceClassIds_option",
+  "api.Serial.requestPort.filters_bluetoothServiceClassId",
+  "api.SerialPort",
+  "api.SerialPort.close",
+  "api.SerialPort.connect_event",
+  "api.SerialPort.connect_event.bluetooth_rfcomm",
+  "api.SerialPort.connected",
+  "api.SerialPort.disconnect_event",
+  "api.SerialPort.disconnect_event.bluetooth_rfcomm",
+  "api.SerialPort.forget",
+  "api.SerialPort.getInfo",
+  "api.SerialPort.getInfo.bluetoothServiceClassId",
+  "api.SerialPort.getSignals",
+  "api.SerialPort.open",
+  "api.SerialPort.readable",
+  "api.SerialPort.setSignals",
+  "api.SerialPort.writable",
+  "api.WorkerNavigator.serial",
+  "html.elements.iframe.allow.serial",
+  "http.headers.Permissions-Policy.serial"
+ ],
+ "description": "The navigator.serial API communicates with devices over serial ports, such as microcontrollers.",
+ "description_html": "The <code>navigator.serial</code> API communicates with devices over serial ports, such as microcontrollers.",
+ "kind": "feature",
+ "name": "Web serial",
+ "spec": [
+  "https://wicg.github.io/serial/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Navigator.serial": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "edge": "89"
+    }
+   },
+   "api.Serial": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "edge": "89"
+    }
+   },
+   "api.Serial.getPorts": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "edge": "89"
+    }
+   },
+   "api.Serial.requestPort": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "edge": "89"
+    }
+   },
+   "api.Serial.requestPort.allowedBluetoothServiceClassIds_option": {
+    "baseline": false,
+    "support": {
+     "chrome": "117",
+     "edge": "117"
+    }
+   },
+   "api.Serial.requestPort.filters_bluetoothServiceClassId": {
+    "baseline": false,
+    "support": {
+     "chrome": "117",
+     "edge": "117"
+    }
+   },
+   "api.SerialPort": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "edge": "89"
+    }
+   },
+   "api.SerialPort.close": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "edge": "89"
+    }
+   },
+   "api.SerialPort.connect_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "edge": "89"
+    }
+   },
+   "api.SerialPort.connect_event.bluetooth_rfcomm": {
+    "baseline": false,
+    "support": {
+     "chrome": "130",
+     "edge": "130"
+    }
+   },
+   "api.SerialPort.connected": {
+    "baseline": false,
+    "support": {
+     "chrome": "130",
+     "edge": "130"
+    }
+   },
+   "api.SerialPort.disconnect_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "edge": "89"
+    }
+   },
+   "api.SerialPort.disconnect_event.bluetooth_rfcomm": {
+    "baseline": false,
+    "support": {
+     "chrome": "130",
+     "edge": "130"
+    }
+   },
+   "api.SerialPort.forget": {
+    "baseline": false,
+    "support": {
+     "chrome": "103",
+     "edge": "103"
+    }
+   },
+   "api.SerialPort.getInfo": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "edge": "89"
+    }
+   },
+   "api.SerialPort.getInfo.bluetoothServiceClassId": {
+    "baseline": false,
+    "support": {
+     "chrome": "117",
+     "edge": "117"
+    }
+   },
+   "api.SerialPort.getSignals": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "edge": "89"
+    }
+   },
+   "api.SerialPort.open": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "edge": "89"
+    }
+   },
+   "api.SerialPort.readable": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "edge": "89"
+    }
+   },
+   "api.SerialPort.setSignals": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "edge": "89"
+    }
+   },
+   "api.SerialPort.writable": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "edge": "89"
+    }
+   },
+   "api.WorkerNavigator.serial": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "edge": "89"
+    }
+   },
+   "html.elements.iframe.allow.serial": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "chrome_android": "89",
+     "edge": "89"
+    }
+   },
+   "http.headers.Permissions-Policy.serial": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "chrome_android": "89",
+     "edge": "89"
+    }
+   }
+  },
+  "support": {
+   "chrome": "89",
+   "edge": "89"
+  }
+ },
+ "id": "serial",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://wicg.github.io/serial/",
+   "seriesComposition": "full",
+   "shortname": "serial",
+   "series": {
+    "shortname": "serial",
+    "currentSpecification": "serial",
+    "title": "Web Serial API",
+    "shortTitle": "Web Serial API",
+    "nightlyUrl": "https://wicg.github.io/serial/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://wicg.github.io/serial/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/WICG/serial",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Web Serial API",
+   "source": "spec",
+   "shortTitle": "Web Serial API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "serial"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Navigator/serial",
+   "title": "Navigator: serial property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Navigator/serial"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/336",
+   "position": "neutral",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/199",
+   "position": "",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00001557,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/107"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:serial"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/139",
+  "votes": 1
+ },
+ "bugs": {
+  "webview_android": [
+   "https://crbug.com/40740509"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

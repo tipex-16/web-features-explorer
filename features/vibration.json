@@ -1,0 +1,121 @@
+{
+ "compat_features": [
+  "api.Navigator.vibrate"
+ ],
+ "description": "The navigator.vibrate() method makes a tactile alert, if the device is equipped with a haptic motor.",
+ "description_html": "The <code>navigator.vibrate()</code> method makes a tactile alert, if the device is equipped with a haptic motor.",
+ "kind": "feature",
+ "name": "Vibration",
+ "spec": [
+  "https://w3c.github.io/vibration/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Navigator.vibrate": {
+    "baseline": false,
+    "support": {
+     "chrome": "32",
+     "chrome_android": "32",
+     "edge": "79"
+    }
+   }
+  },
+  "support": {
+   "chrome": "32",
+   "chrome_android": "32",
+   "edge": "79"
+  }
+ },
+ "id": "vibration",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/vibration/",
+   "seriesComposition": "full",
+   "shortname": "vibration",
+   "series": {
+    "shortname": "vibration",
+    "currentSpecification": "vibration",
+    "title": "Vibration API",
+    "shortTitle": "Vibration API",
+    "releaseUrl": "https://www.w3.org/TR/vibration/",
+    "nightlyUrl": "https://w3c.github.io/vibration/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Devices and Sensors Working Group",
+     "url": "https://www.w3.org/das/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/vibration/",
+    "status": "Candidate Recommendation Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/vibration/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/vibration",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Vibration API",
+   "source": "w3c",
+   "shortTitle": "Vibration API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "vibration"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Navigator/vibrate",
+   "title": "Navigator: vibrate() method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Navigator/vibrate"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/907",
+   "position": "",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/267",
+   "position": "oppose",
+   "concerns": [
+    "integration",
+    "use cases",
+    "portability",
+    "power",
+    "annoyance",
+    "device independence"
+   ]
+  }
+ ],
+ "hasNegativeStandardPosition": true,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:vibration"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

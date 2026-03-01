@@ -1,0 +1,173 @@
+{
+ "compat_features": [
+  "api.Document.hasStorageAccess",
+  "api.Document.requestStorageAccess",
+  "api.Permissions.permission_storage-access",
+  "html.elements.iframe.allow.storage-access",
+  "http.headers.Permissions-Policy.storage-access"
+ ],
+ "description": "The document.requestStorageAccess() method allows content in iframes to request storing and reading cookies and other site data, while the document.hasStorageAccess() method checks if such access is granted.",
+ "description_html": "The <code>document.requestStorageAccess()</code> method allows content in iframes to request storing and reading cookies and other site data, while the <code>document.hasStorageAccess()</code> method checks if such access is granted.",
+ "group": [
+  "storage"
+ ],
+ "kind": "feature",
+ "name": "Storage access",
+ "spec": [
+  "https://privacycg.github.io/storage-access/"
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2023-12-05",
+  "by_compat_key": {
+   "api.Document.hasStorageAccess": {
+    "baseline": "low",
+    "baseline_low_date": "2023-12-05",
+    "support": {
+     "chrome": "119",
+     "chrome_android": "120",
+     "edge": "85",
+     "firefox": "65",
+     "firefox_android": "65",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.Document.requestStorageAccess": {
+    "baseline": "low",
+    "baseline_low_date": "2023-12-05",
+    "support": {
+     "chrome": "119",
+     "chrome_android": "120",
+     "edge": "85",
+     "firefox": "65",
+     "firefox_android": "65",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.Permissions.permission_storage-access": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "119",
+     "chrome_android": "120",
+     "edge": "85",
+     "firefox": "117",
+     "firefox_android": "117",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "html.elements.iframe.allow.storage-access": {
+    "baseline": false,
+    "support": {
+     "chrome": "113",
+     "chrome_android": "113",
+     "edge": "113"
+    }
+   },
+   "http.headers.Permissions-Policy.storage-access": {
+    "baseline": false,
+    "support": {
+     "chrome": "113",
+     "chrome_android": "113",
+     "edge": "113"
+    }
+   }
+  },
+  "support": {
+   "chrome": "119",
+   "chrome_android": "120",
+   "edge": "85",
+   "firefox": "65",
+   "firefox_android": "65",
+   "safari": "11.1",
+   "safari_ios": "11.3"
+  }
+ },
+ "id": "storage-access",
+ "groups": [
+  "storage"
+ ],
+ "specs": [
+  {
+   "url": "https://privacycg.github.io/storage-access/",
+   "seriesComposition": "full",
+   "shortname": "storage-access",
+   "series": {
+    "shortname": "storage-access",
+    "currentSpecification": "storage-access",
+    "title": "The Storage Access API",
+    "shortTitle": "The Storage Access API",
+    "nightlyUrl": "https://privacycg.github.io/storage-access/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Privacy Community Group",
+     "url": "https://www.w3.org/community/privacycg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://privacycg.github.io/storage-access/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/privacycg/storage-access",
+    "sourcePath": "storage-access.bs",
+    "filename": "index.html"
+   },
+   "title": "The Storage Access API",
+   "source": "spec",
+   "shortTitle": "The Storage Access API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "storage-access-api"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Storage_Access_API",
+   "title": "Storage Access API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Storage_Access_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/280",
+   "position": "positive",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.03092489,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/65"
+ },
+ "interop": [
+  {
+   "year": 2025,
+   "label": "interop-2025-storageaccess",
+   "url": "https://wpt.fyi/interop-2025?feature=interop-2025-storageaccess"
+  }
+ ],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:storage-access"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2023-12-05T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2026-06-05"
+}

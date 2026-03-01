@@ -1,0 +1,1032 @@
+{
+ "compat_features": [
+  "api.HTMLInputElement",
+  "api.HTMLInputElement.accept",
+  "api.HTMLInputElement.alt",
+  "api.HTMLInputElement.autocomplete",
+  "api.HTMLInputElement.cancel_event",
+  "api.HTMLInputElement.checked",
+  "api.HTMLInputElement.defaultValue",
+  "api.HTMLInputElement.disabled",
+  "api.HTMLInputElement.form",
+  "api.HTMLInputElement.formAction",
+  "api.HTMLInputElement.formEnctype",
+  "api.HTMLInputElement.formMethod",
+  "api.HTMLInputElement.formNoValidate",
+  "api.HTMLInputElement.formTarget",
+  "api.HTMLInputElement.height",
+  "api.HTMLInputElement.invalid_event",
+  "api.HTMLInputElement.labels",
+  "api.HTMLInputElement.list",
+  "api.HTMLInputElement.maxLength",
+  "api.HTMLInputElement.minLength",
+  "api.HTMLInputElement.name",
+  "api.HTMLInputElement.pattern",
+  "api.HTMLInputElement.placeholder",
+  "api.HTMLInputElement.readOnly",
+  "api.HTMLInputElement.required",
+  "api.HTMLInputElement.select",
+  "api.HTMLInputElement.select_event",
+  "api.HTMLInputElement.selectionDirection",
+  "api.HTMLInputElement.selectionEnd",
+  "api.HTMLInputElement.selectionStart",
+  "api.HTMLInputElement.setRangeText",
+  "api.HTMLInputElement.setSelectionRange",
+  "api.HTMLInputElement.size",
+  "api.HTMLInputElement.type",
+  "api.HTMLInputElement.value",
+  "api.HTMLInputElement.width",
+  "html.elements.input",
+  "html.elements.input.accept",
+  "html.elements.input.alt",
+  "html.elements.input.checked",
+  "html.elements.input.disabled",
+  "html.elements.input.form",
+  "html.elements.input.formaction",
+  "html.elements.input.formenctype",
+  "html.elements.input.formmethod",
+  "html.elements.input.formnovalidate",
+  "html.elements.input.formtarget",
+  "html.elements.input.maxlength",
+  "html.elements.input.minlength",
+  "html.elements.input.name",
+  "html.elements.input.pattern",
+  "html.elements.input.placeholder",
+  "html.elements.input.readonly",
+  "html.elements.input.required",
+  "html.elements.input.size",
+  "html.elements.input.src",
+  "html.elements.input.type_text"
+ ],
+ "description": "The <input type=\"text\"> HTML element allows the user to enter information into a form. By default, an <input> element is a text input.",
+ "description_html": "The <code>&#x3C;input type=\"text\"></code> HTML element allows the user to enter information into a form. By default, an <code>&#x3C;input></code> element is a text input.",
+ "group": [
+  "forms",
+  "html-elements"
+ ],
+ "kind": "feature",
+ "name": "<input>",
+ "spec": [
+  "https://html.spec.whatwg.org/multipage/input.html#the-input-element"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "api.HTMLInputElement": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLInputElement.accept": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLInputElement.alt": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLInputElement.autocomplete": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "14",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.HTMLInputElement.cancel_event": {
+    "baseline": "high",
+    "baseline_high_date": "2025-11-05",
+    "baseline_low_date": "2023-05-05",
+    "support": {
+     "chrome": "113",
+     "chrome_android": "113",
+     "edge": "113",
+     "firefox": "91",
+     "firefox_android": "91",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.HTMLInputElement.checked": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLInputElement.defaultValue": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLInputElement.disabled": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLInputElement.form": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLInputElement.formAction": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "9",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   },
+   "api.HTMLInputElement.formEnctype": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "9",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   },
+   "api.HTMLInputElement.formMethod": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "9",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   },
+   "api.HTMLInputElement.formNoValidate": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "5",
+     "safari_ios": "4"
+    }
+   },
+   "api.HTMLInputElement.formTarget": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "9",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   },
+   "api.HTMLInputElement.height": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "21",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.HTMLInputElement.invalid_event": {
+    "baseline": "high",
+    "baseline_high_date": "2021-06-11",
+    "baseline_low_date": "2018-12-11",
+    "support": {
+     "chrome": "10",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "64",
+     "safari": "5",
+     "safari_ios": "5"
+    }
+   },
+   "api.HTMLInputElement.labels": {
+    "baseline": "high",
+    "baseline_high_date": "2021-04-02",
+    "baseline_low_date": "2018-10-02",
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "18",
+     "firefox": "56",
+     "firefox_android": "56",
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   },
+   "api.HTMLInputElement.list": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "20",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.HTMLInputElement.maxLength": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLInputElement.minLength": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-30",
+    "baseline_low_date": "2018-04-30",
+    "support": {
+     "chrome": "40",
+     "chrome_android": "40",
+     "edge": "17",
+     "firefox": "51",
+     "firefox_android": "51",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.HTMLInputElement.name": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLInputElement.pattern": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "5",
+     "safari_ios": "4"
+    }
+   },
+   "api.HTMLInputElement.placeholder": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "3",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.HTMLInputElement.readOnly": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLInputElement.required": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "5",
+     "safari_ios": "4"
+    }
+   },
+   "api.HTMLInputElement.select": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLInputElement.select_event": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "6",
+     "firefox_android": "6",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLInputElement.selectionDirection": {
+    "baseline": "high",
+    "baseline_high_date": "2018-05-12",
+    "baseline_low_date": "2015-11-12",
+    "support": {
+     "chrome": "15",
+     "chrome_android": "18",
+     "edge": "13",
+     "firefox": "8",
+     "firefox_android": "8",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.HTMLInputElement.selectionEnd": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1.3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLInputElement.selectionStart": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1.3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLInputElement.setRangeText": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "24",
+     "chrome_android": "25",
+     "edge": "79",
+     "firefox": "27",
+     "firefox_android": "27",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.HTMLInputElement.setSelectionRange": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLInputElement.size": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLInputElement.type": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLInputElement.value": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.HTMLInputElement.width": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "21",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "html.elements.input": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "html.elements.input.accept": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "html.elements.input.alt": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "html.elements.input.checked": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "html.elements.input.disabled": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "html.elements.input.form": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "html.elements.input.formaction": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "9",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   },
+   "html.elements.input.formenctype": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "9",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   },
+   "html.elements.input.formmethod": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "9",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   },
+   "html.elements.input.formnovalidate": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "5",
+     "safari_ios": "4"
+    }
+   },
+   "html.elements.input.formtarget": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "9",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   },
+   "html.elements.input.maxlength": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "html.elements.input.minlength": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-30",
+    "baseline_low_date": "2018-04-30",
+    "support": {
+     "chrome": "40",
+     "chrome_android": "40",
+     "edge": "17",
+     "firefox": "51",
+     "firefox_android": "51",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "html.elements.input.name": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "html.elements.input.pattern": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "5",
+     "safari_ios": "4"
+    }
+   },
+   "html.elements.input.placeholder": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "3",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "html.elements.input.readonly": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "html.elements.input.required": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "5",
+     "safari_ios": "4"
+    }
+   },
+   "html.elements.input.size": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "html.elements.input.src": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "html.elements.input.type_text": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   }
+  },
+  "support": {
+   "chrome": "1",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "1",
+   "firefox_android": "4",
+   "safari": "1",
+   "safari_ios": "1"
+  }
+ },
+ "id": "input",
+ "groups": [
+  "forms",
+  "html-elements"
+ ],
+ "specs": [
+  {
+   "url": "https://html.spec.whatwg.org/multipage/input.html#the-input-element",
+   "seriesComposition": "full",
+   "shortname": "html",
+   "series": {
+    "shortname": "html",
+    "currentSpecification": "html",
+    "title": "HTML",
+    "shortTitle": "HTML",
+    "nightlyUrl": "https://html.spec.whatwg.org/multipage/"
+   },
+   "nightly": {
+    "url": "https://html.spec.whatwg.org/multipage/",
+    "status": "Living Standard",
+    "sourcePath": "source",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/html",
+    "pages": [
+     "https://html.spec.whatwg.org/multipage/introduction.html",
+     "https://html.spec.whatwg.org/multipage/infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/common-microsyntaxes.html",
+     "https://html.spec.whatwg.org/multipage/urls-and-fetching.html",
+     "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html",
+     "https://html.spec.whatwg.org/multipage/structured-data.html",
+     "https://html.spec.whatwg.org/multipage/dom.html",
+     "https://html.spec.whatwg.org/multipage/semantics.html",
+     "https://html.spec.whatwg.org/multipage/sections.html",
+     "https://html.spec.whatwg.org/multipage/grouping-content.html",
+     "https://html.spec.whatwg.org/multipage/text-level-semantics.html",
+     "https://html.spec.whatwg.org/multipage/links.html",
+     "https://html.spec.whatwg.org/multipage/edits.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content.html",
+     "https://html.spec.whatwg.org/multipage/images.html",
+     "https://html.spec.whatwg.org/multipage/iframe-embed-object.html",
+     "https://html.spec.whatwg.org/multipage/media.html",
+     "https://html.spec.whatwg.org/multipage/image-maps.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content-other.html",
+     "https://html.spec.whatwg.org/multipage/tables.html",
+     "https://html.spec.whatwg.org/multipage/forms.html",
+     "https://html.spec.whatwg.org/multipage/input.html",
+     "https://html.spec.whatwg.org/multipage/form-elements.html",
+     "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/interactive-elements.html",
+     "https://html.spec.whatwg.org/multipage/scripting.html",
+     "https://html.spec.whatwg.org/multipage/canvas.html",
+     "https://html.spec.whatwg.org/multipage/custom-elements.html",
+     "https://html.spec.whatwg.org/multipage/semantics-other.html",
+     "https://html.spec.whatwg.org/multipage/microdata.html",
+     "https://html.spec.whatwg.org/multipage/interaction.html",
+     "https://html.spec.whatwg.org/multipage/dnd.html",
+     "https://html.spec.whatwg.org/multipage/popover.html",
+     "https://html.spec.whatwg.org/multipage/browsers.html",
+     "https://html.spec.whatwg.org/multipage/nav-history-apis.html",
+     "https://html.spec.whatwg.org/multipage/document-sequences.html",
+     "https://html.spec.whatwg.org/multipage/browsing-the-web.html",
+     "https://html.spec.whatwg.org/multipage/document-lifecycle.html",
+     "https://html.spec.whatwg.org/multipage/speculative-loading.html",
+     "https://html.spec.whatwg.org/multipage/webappapis.html",
+     "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html",
+     "https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html",
+     "https://html.spec.whatwg.org/multipage/system-state.html",
+     "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html",
+     "https://html.spec.whatwg.org/multipage/comms.html",
+     "https://html.spec.whatwg.org/multipage/server-sent-events.html",
+     "https://html.spec.whatwg.org/multipage/web-messaging.html",
+     "https://html.spec.whatwg.org/multipage/workers.html",
+     "https://html.spec.whatwg.org/multipage/worklets.html",
+     "https://html.spec.whatwg.org/multipage/webstorage.html",
+     "https://html.spec.whatwg.org/multipage/syntax.html",
+     "https://html.spec.whatwg.org/multipage/parsing.html",
+     "https://html.spec.whatwg.org/multipage/named-characters.html",
+     "https://html.spec.whatwg.org/multipage/xhtml.html",
+     "https://html.spec.whatwg.org/multipage/rendering.html",
+     "https://html.spec.whatwg.org/multipage/obsolete.html",
+     "https://html.spec.whatwg.org/multipage/iana.html",
+     "https://html.spec.whatwg.org/multipage/indices.html",
+     "https://html.spec.whatwg.org/multipage/references.html",
+     "https://html.spec.whatwg.org/multipage/acknowledgements.html"
+    ],
+    "filename": "index.html"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "HTML Workstream",
+     "url": "https://html.spec.whatwg.org/multipage/"
+    }
+   ],
+   "title": "HTML",
+   "source": "whatwg",
+   "shortTitle": "HTML",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "close-watcher",
+     "custom-elements",
+     "eventsource",
+     "html",
+     "imagebitmap-renderingcontext",
+     "import-maps",
+     "navigation-api",
+     "webmessaging",
+     "webstorage",
+     "workers",
+     "worklets",
+     "x-frame-options"
+    ],
+    "excludePaths": [
+     "html/cross-origin-embedder-policy/credentialless",
+     "html/dom/partial-updates/tentative",
+     "html/cross-origin-embedder-policy/credentialless"
+    ]
+   },
+   "fragment": "the-input-element"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/HTML/Reference/Elements/input",
+   "title": "<input>: The HTML Input element",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/input"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:input"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

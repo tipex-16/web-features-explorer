@@ -1,0 +1,222 @@
+{
+ "compat_features": [
+  "css.properties.text-align",
+  "css.properties.text-align.center",
+  "css.properties.text-align.end",
+  "css.properties.text-align.justify",
+  "css.properties.text-align.left",
+  "css.properties.text-align.match-parent",
+  "css.properties.text-align.right",
+  "css.properties.text-align.start"
+ ],
+ "description": "The text-align CSS property sets the horizontal placement of the inner content of a block element.",
+ "description_html": "The <code>text-align</code> CSS property sets the horizontal placement of the inner content of a block element.",
+ "group": [
+  "text"
+ ],
+ "kind": "feature",
+ "name": "text-align",
+ "spec": [
+  "https://drafts.csswg.org/css-text-4/#text-align-property"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "css.properties.text-align": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.text-align.center": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "79",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "≤4",
+     "safari_ios": "≤3.2"
+    }
+   },
+   "css.properties.text-align.end": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "79",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3.1",
+     "safari_ios": "2"
+    }
+   },
+   "css.properties.text-align.justify": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.text-align.left": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "79",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "≤4",
+     "safari_ios": "≤3.2"
+    }
+   },
+   "css.properties.text-align.match-parent": {
+    "baseline": false,
+    "support": {
+     "firefox": "40",
+     "firefox_android": "40",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.properties.text-align.right": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "79",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "≤4",
+     "safari_ios": "≤3.2"
+    }
+   },
+   "css.properties.text-align.start": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "79",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3.1",
+     "safari_ios": "2"
+    }
+   }
+  },
+  "support": {
+   "chrome": "1",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "1",
+   "firefox_android": "4",
+   "safari": "1",
+   "safari_ios": "1"
+  }
+ },
+ "id": "text-align",
+ "groups": [
+  "text"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-text-4/#text-align-property",
+   "seriesComposition": "delta",
+   "shortname": "css-text-4",
+   "series": {
+    "shortname": "css-text",
+    "currentSpecification": "css-text-3",
+    "title": "CSS Text",
+    "shortTitle": "CSS Text",
+    "releaseUrl": "https://www.w3.org/TR/css-text/",
+    "nightlyUrl": "https://drafts.csswg.org/css-text/"
+   },
+   "seriesVersion": "4",
+   "seriesPrevious": "css-text-3",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-text-4/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-text-4/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-text-4/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-text-4/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Text Module Level 4",
+   "source": "w3c",
+   "shortTitle": "CSS Text 4",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-text"
+    ]
+   },
+   "fragment": "text-align-property"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/text-align",
+   "title": "text-align",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-align"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:text-align"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

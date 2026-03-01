@@ -1,0 +1,205 @@
+{
+ "compat_features": [
+  "api.ClipboardEvent",
+  "api.ClipboardEvent.ClipboardEvent",
+  "api.ClipboardEvent.clipboardData",
+  "api.Element.copy_event",
+  "api.Element.cut_event",
+  "api.Element.paste_event"
+ ],
+ "description": "The \"copy\", \"cut\", and \"paste\" events fire on elements when the user starts an action with the clipboard.",
+ "description_html": "The <code>\"copy\"</code>, <code>\"cut\"</code>, and <code>\"paste\"</code> events fire on elements when the user starts an action with the clipboard.",
+ "group": [
+  "clipboard"
+ ],
+ "kind": "feature",
+ "name": "Clipboard events",
+ "spec": [
+  "https://w3c.github.io/clipboard-apis/#clipboard-event-interfaces"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2019-09-27",
+  "baseline_low_date": "2017-03-27",
+  "by_compat_key": {
+   "api.ClipboardEvent": {
+    "baseline": "high",
+    "baseline_high_date": "2019-09-27",
+    "baseline_low_date": "2017-03-27",
+    "support": {
+     "chrome": "41",
+     "chrome_android": "41",
+     "edge": "12",
+     "firefox": "22",
+     "firefox_android": "22",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.ClipboardEvent.ClipboardEvent": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-30",
+    "baseline_low_date": "2018-04-30",
+    "support": {
+     "chrome": "58",
+     "chrome_android": "58",
+     "edge": "17",
+     "firefox": "22",
+     "firefox_android": "22",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.ClipboardEvent.clipboardData": {
+    "baseline": "high",
+    "baseline_high_date": "2019-09-27",
+    "baseline_low_date": "2017-03-27",
+    "support": {
+     "chrome": "41",
+     "chrome_android": "41",
+     "edge": "12",
+     "firefox": "22",
+     "firefox_android": "22",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.Element.copy_event": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "22",
+     "firefox_android": "22",
+     "safari": "3",
+     "safari_ios": "3"
+    }
+   },
+   "api.Element.cut_event": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "22",
+     "firefox_android": "22",
+     "safari": "3",
+     "safari_ios": "3"
+    }
+   },
+   "api.Element.paste_event": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "22",
+     "firefox_android": "22",
+     "safari": "3",
+     "safari_ios": "3"
+    }
+   }
+  },
+  "support": {
+   "chrome": "41",
+   "chrome_android": "41",
+   "edge": "12",
+   "firefox": "22",
+   "firefox_android": "22",
+   "safari": "10.1",
+   "safari_ios": "10.3"
+  }
+ },
+ "id": "clipboard-events",
+ "groups": [
+  "clipboard"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/clipboard-apis/#clipboard-event-interfaces",
+   "seriesComposition": "full",
+   "shortname": "clipboard-apis",
+   "series": {
+    "shortname": "clipboard-apis",
+    "currentSpecification": "clipboard-apis",
+    "title": "Clipboard API and events",
+    "shortTitle": "Clipboard API and events",
+    "releaseUrl": "https://www.w3.org/TR/clipboard-apis/",
+    "nightlyUrl": "https://w3c.github.io/clipboard-apis/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Editing Working Group",
+     "url": "https://www.w3.org/groups/wg/webediting/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/clipboard-apis/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/clipboard-apis/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/clipboard-apis",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Clipboard API and events",
+   "source": "w3c",
+   "shortTitle": "Clipboard API and events",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "clipboard-apis"
+    ]
+   },
+   "fragment": "clipboard-event-interfaces"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Element/copy_event",
+   "title": "Element: copy event",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Element/copy_event"
+  },
+  {
+   "slug": "Web/API/Element/cut_event",
+   "title": "Element: cut event",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Element/cut_event"
+  },
+  {
+   "slug": "Web/API/Element/paste_event",
+   "title": "Element: paste event",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Element/paste_event"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:clipboard-events"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2017-03-27T00:00:00.000Z",
+ "baselineHighDateAsObject": "2019-09-27T00:00:00.000Z"
+}

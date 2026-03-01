@@ -1,0 +1,110 @@
+{
+ "compat_features": [
+  "api.EXT_color_buffer_half_float"
+ ],
+ "description": "The EXT_color_buffer_half_float extension for WebGL 1.0 and 2.0 contexts renders 16-bit floating-point color buffers.",
+ "description_html": "The <code>EXT_color_buffer_half_float</code> extension for WebGL 1.0 and 2.0 contexts renders 16-bit floating-point color buffers.",
+ "group": [
+  "webgl-extensions"
+ ],
+ "kind": "feature",
+ "name": "EXT_color_buffer_half_float WebGL extension",
+ "spec": [
+  "https://registry.khronos.org/webgl/extensions/EXT_color_buffer_half_float/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2023-03-16",
+  "baseline_low_date": "2020-09-16",
+  "by_compat_key": {
+   "api.EXT_color_buffer_half_float": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "63",
+     "chrome_android": "63",
+     "edge": "17",
+     "firefox": "47",
+     "firefox_android": "36",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   }
+  },
+  "support": {
+   "chrome": "63",
+   "chrome_android": "63",
+   "edge": "17",
+   "firefox": "47",
+   "firefox_android": "36",
+   "safari": "14",
+   "safari_ios": "14"
+  }
+ },
+ "id": "ext-color-buffer-half-float",
+ "groups": [
+  "webgl-extensions"
+ ],
+ "specs": [
+  {
+   "url": "https://registry.khronos.org/webgl/extensions/EXT_color_buffer_half_float/",
+   "seriesComposition": "full",
+   "shortname": "EXT_color_buffer_half_float",
+   "series": {
+    "shortname": "EXT_color_buffer_half_float",
+    "currentSpecification": "EXT_color_buffer_half_float",
+    "title": "WebGL EXT_color_buffer_half_float Extension Specification",
+    "shortTitle": "WebGL EXT_color_buffer_half_float Extension",
+    "nightlyUrl": "https://registry.khronos.org/webgl/extensions/EXT_color_buffer_half_float/"
+   },
+   "organization": "Khronos Group",
+   "groups": [
+    {
+     "name": "WebGL Working Group",
+     "url": "https://www.khronos.org/webgl/"
+    }
+   ],
+   "nightly": {
+    "url": "https://registry.khronos.org/webgl/extensions/EXT_color_buffer_half_float/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "sourcePath": "extensions/EXT_color_buffer_half_float/extension.xml",
+    "filename": "index.html"
+   },
+   "title": "WebGL EXT_color_buffer_half_float Extension Specification",
+   "source": "spec",
+   "shortTitle": "WebGL EXT_color_buffer_half_float Extension",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "testPaths": [
+     "conformance-suites"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/EXT_color_buffer_half_float",
+   "title": "EXT_color_buffer_half_float extension",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/EXT_color_buffer_half_float"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2020-09-16T00:00:00.000Z",
+ "baselineHighDateAsObject": "2023-03-16T00:00:00.000Z"
+}

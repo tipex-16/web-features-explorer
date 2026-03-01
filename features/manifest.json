@@ -1,0 +1,285 @@
+{
+ "compat_features": [
+  "html.elements.link.rel.manifest",
+  "manifests.webapp.background_color",
+  "manifests.webapp.description",
+  "manifests.webapp.display",
+  "manifests.webapp.icons",
+  "manifests.webapp.id",
+  "manifests.webapp.name",
+  "manifests.webapp.orientation",
+  "manifests.webapp.scope",
+  "manifests.webapp.serviceworker",
+  "manifests.webapp.serviceworker.scope",
+  "manifests.webapp.serviceworker.src",
+  "manifests.webapp.serviceworker.use_cache",
+  "manifests.webapp.short_name",
+  "manifests.webapp.start_url",
+  "manifests.webapp.theme_color"
+ ],
+ "description": "A web app manifest file provides metadata about the site. The browser can use the metadata to install the site as a standalone application on the user's device. The metadata usually includes the app's name, icon, description, and ways in which the app wishes to integrate with the device.",
+ "description_html": "A web app manifest file provides metadata about the site. The browser can use the metadata to install the site as a standalone application on the user's device. The metadata usually includes the app's name, icon, description, and ways in which the app wishes to integrate with the device.",
+ "group": [
+  "progressive-web-app"
+ ],
+ "kind": "feature",
+ "name": "Web app manifest",
+ "spec": [
+  "https://w3c.github.io/manifest/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "html.elements.link.rel.manifest": {
+    "baseline": false,
+    "support": {
+     "chrome": "39",
+     "chrome_android": "39",
+     "edge": "79",
+     "firefox_android": "58",
+     "safari": "17",
+     "safari_ios": "11.3"
+    }
+   },
+   "manifests.webapp.background_color": {
+    "baseline": false,
+    "support": {
+     "chrome": "46",
+     "chrome_android": "46",
+     "edge": "79",
+     "firefox_android": "79"
+    }
+   },
+   "manifests.webapp.description": {
+    "baseline": false,
+    "support": {
+     "chrome": "88",
+     "chrome_android": "88",
+     "edge": "88"
+    }
+   },
+   "manifests.webapp.display": {
+    "baseline": false,
+    "support": {
+     "chrome": "39",
+     "chrome_android": "39",
+     "edge": "79",
+     "firefox_android": "47",
+     "safari": "17",
+     "safari_ios": "11.3"
+    }
+   },
+   "manifests.webapp.icons": {
+    "baseline": false,
+    "support": {
+     "chrome": "39",
+     "chrome_android": "39",
+     "edge": "79",
+     "firefox_android": "79",
+     "safari": "17",
+     "safari_ios": "15.4"
+    }
+   },
+   "manifests.webapp.id": {
+    "baseline": false,
+    "support": {
+     "chrome": "96",
+     "chrome_android": "96",
+     "edge": "96",
+     "safari": "17",
+     "safari_ios": "16.4"
+    }
+   },
+   "manifests.webapp.name": {
+    "baseline": false,
+    "support": {
+     "chrome": "39",
+     "chrome_android": "39",
+     "edge": "79",
+     "firefox_android": "79",
+     "safari": "17",
+     "safari_ios": "11.3"
+    }
+   },
+   "manifests.webapp.orientation": {
+    "baseline": false,
+    "support": {
+     "chrome": "39",
+     "chrome_android": "39",
+     "edge": "79",
+     "firefox_android": "79"
+    }
+   },
+   "manifests.webapp.scope": {
+    "baseline": false,
+    "support": {
+     "chrome": "53",
+     "chrome_android": "53",
+     "edge": "79",
+     "firefox_android": "79",
+     "safari": "17",
+     "safari_ios": "11.3"
+    }
+   },
+   "manifests.webapp.serviceworker": {
+    "baseline": false,
+    "support": {
+     "chrome": "70",
+     "chrome_android": "70",
+     "edge": "79"
+    }
+   },
+   "manifests.webapp.serviceworker.scope": {
+    "baseline": false,
+    "support": {
+     "chrome": "70",
+     "chrome_android": "70",
+     "edge": "79"
+    }
+   },
+   "manifests.webapp.serviceworker.src": {
+    "baseline": false,
+    "support": {
+     "chrome": "70",
+     "chrome_android": "70",
+     "edge": "79"
+    }
+   },
+   "manifests.webapp.serviceworker.use_cache": {
+    "baseline": false,
+    "support": {
+     "chrome": "70",
+     "chrome_android": "70",
+     "edge": "79"
+    }
+   },
+   "manifests.webapp.short_name": {
+    "baseline": false,
+    "support": {
+     "chrome": "39",
+     "chrome_android": "39",
+     "edge": "79",
+     "firefox_android": "79",
+     "safari": "17",
+     "safari_ios": "11.3"
+    }
+   },
+   "manifests.webapp.start_url": {
+    "baseline": false,
+    "support": {
+     "chrome": "39",
+     "chrome_android": "39",
+     "edge": "79",
+     "firefox_android": "79",
+     "safari": "17",
+     "safari_ios": "11.3"
+    }
+   },
+   "manifests.webapp.theme_color": {
+    "baseline": false,
+    "support": {
+     "chrome": "46",
+     "chrome_android": "46",
+     "edge": "79",
+     "firefox_android": "79",
+     "safari": "17",
+     "safari_ios": "15"
+    }
+   }
+  },
+  "support": {
+   "chrome": "53",
+   "chrome_android": "53",
+   "edge": "79",
+   "firefox_android": "79",
+   "safari": "17",
+   "safari_ios": "15.4"
+  }
+ },
+ "id": "manifest",
+ "groups": [
+  "progressive-web-app"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/manifest/",
+   "seriesComposition": "full",
+   "shortname": "appmanifest",
+   "series": {
+    "shortname": "appmanifest",
+    "currentSpecification": "appmanifest",
+    "title": "Web Application Manifest",
+    "shortTitle": "Web Application Manifest",
+    "releaseUrl": "https://www.w3.org/TR/appmanifest/",
+    "nightlyUrl": "https://w3c.github.io/manifest/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Applications Working Group",
+     "url": "https://www.w3.org/groups/wg/webapps/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/appmanifest/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/manifest/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/manifest",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Web Application Manifest",
+   "source": "w3c",
+   "shortTitle": "Web Application Manifest",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "appmanifest"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/Progressive_web_apps/Manifest",
+   "title": "Web application manifest",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/Progressive_web_apps/Manifest"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.21241273,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/302"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:manifest"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/57",
+  "votes": 10
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1407202"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Firefox",
+ "monthsBlocked": 30,
+ "blockedSince": "September 2023"
+}

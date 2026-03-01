@@ -1,0 +1,342 @@
+{
+ "compat_features": [
+  "javascript.builtins.Intl.Locale",
+  "javascript.builtins.Intl.Locale.Locale",
+  "javascript.builtins.Intl.Locale.baseName",
+  "javascript.builtins.Intl.Locale.calendar",
+  "javascript.builtins.Intl.Locale.caseFirst",
+  "javascript.builtins.Intl.Locale.collation",
+  "javascript.builtins.Intl.Locale.hourCycle",
+  "javascript.builtins.Intl.Locale.language",
+  "javascript.builtins.Intl.Locale.maximize",
+  "javascript.builtins.Intl.Locale.minimize",
+  "javascript.builtins.Intl.Locale.numberingSystem",
+  "javascript.builtins.Intl.Locale.numeric",
+  "javascript.builtins.Intl.Locale.region",
+  "javascript.builtins.Intl.Locale.script",
+  "javascript.builtins.Intl.Locale.toString"
+ ],
+ "description": "The Intl.Locale API parses Unicode locale identifiers, with language, region, and script codes, such as zh-Hans-CN or en-GB.",
+ "description_html": "The <code>Intl.Locale</code> API parses Unicode locale identifiers, with language, region, and script codes, such as <code>zh-Hans-CN</code> or <code>en-GB</code>.",
+ "group": [
+  "intl"
+ ],
+ "kind": "feature",
+ "name": "Intl.Locale",
+ "spec": [
+  "https://tc39.es/ecma402/#locale-objects"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2023-03-16",
+  "baseline_low_date": "2020-09-16",
+  "by_compat_key": {
+   "javascript.builtins.Intl.Locale": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79",
+     "firefox": "75",
+     "firefox_android": "79",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "javascript.builtins.Intl.Locale.Locale": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79",
+     "firefox": "75",
+     "firefox_android": "79",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "javascript.builtins.Intl.Locale.baseName": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79",
+     "firefox": "75",
+     "firefox_android": "79",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "javascript.builtins.Intl.Locale.calendar": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79",
+     "firefox": "75",
+     "firefox_android": "79",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "javascript.builtins.Intl.Locale.caseFirst": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79",
+     "firefox": "75",
+     "firefox_android": "79",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "javascript.builtins.Intl.Locale.collation": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79",
+     "firefox": "75",
+     "firefox_android": "79",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "javascript.builtins.Intl.Locale.hourCycle": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79",
+     "firefox": "75",
+     "firefox_android": "79",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "javascript.builtins.Intl.Locale.language": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79",
+     "firefox": "75",
+     "firefox_android": "79",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "javascript.builtins.Intl.Locale.maximize": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79",
+     "firefox": "75",
+     "firefox_android": "79",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "javascript.builtins.Intl.Locale.minimize": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79",
+     "firefox": "75",
+     "firefox_android": "79",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "javascript.builtins.Intl.Locale.numberingSystem": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79",
+     "firefox": "75",
+     "firefox_android": "79",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "javascript.builtins.Intl.Locale.numeric": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79",
+     "firefox": "75",
+     "firefox_android": "79",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "javascript.builtins.Intl.Locale.region": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79",
+     "firefox": "75",
+     "firefox_android": "79",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "javascript.builtins.Intl.Locale.script": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79",
+     "firefox": "75",
+     "firefox_android": "79",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "javascript.builtins.Intl.Locale.toString": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79",
+     "firefox": "75",
+     "firefox_android": "79",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   }
+  },
+  "support": {
+   "chrome": "74",
+   "chrome_android": "74",
+   "edge": "79",
+   "firefox": "75",
+   "firefox_android": "79",
+   "safari": "14",
+   "safari_ios": "14"
+  }
+ },
+ "id": "intl-locale",
+ "groups": [
+  "intl"
+ ],
+ "specs": [
+  {
+   "url": "https://tc39.es/ecma402/#locale-objects",
+   "seriesComposition": "full",
+   "shortname": "ecma-402",
+   "series": {
+    "shortname": "ecma-402",
+    "currentSpecification": "ecma-402",
+    "title": "ECMAScript® 2026 Internationalization API Specification",
+    "shortTitle": "ECMAScript® 2026 Internationalization API",
+    "nightlyUrl": "https://tc39.es/ecma402/"
+   },
+   "tests": {
+    "repository": "https://github.com/tc39/test262",
+    "testPaths": [
+     "test/intl402"
+    ]
+   },
+   "organization": "Ecma International",
+   "groups": [
+    {
+     "name": "TC39",
+     "url": "https://tc39.es/"
+    }
+   ],
+   "nightly": {
+    "url": "https://tc39.es/ecma402/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/tc39/ecma402",
+    "sourcePath": "spec/index.html",
+    "filename": "index.html"
+   },
+   "title": "ECMAScript® 2026 Internationalization API Specification",
+   "source": "spec",
+   "shortTitle": "ECMAScript® 2026 Internationalization API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": "locale-objects"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/JavaScript/Reference/Global_Objects/Intl/Locale",
+   "title": "Intl.Locale",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.32.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/content/#content_features",
+   "question": "content",
+   "subQuestion": "content_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.content.content_features.6.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+   "question": "_all_features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.32.entity"
+  }
+ ],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2020-09-16T00:00:00.000Z",
+ "baselineHighDateAsObject": "2023-03-16T00:00:00.000Z"
+}

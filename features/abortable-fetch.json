@@ -1,0 +1,127 @@
+{
+ "compat_features": [
+  "api.Request.signal",
+  "api.fetch.init_signal_parameter"
+ ],
+ "description": "If you construct a fetch request with an AbortSignal, you can cancel the request.",
+ "description_html": "If you construct a fetch request with an <code>AbortSignal</code>, you can cancel the request.",
+ "kind": "feature",
+ "name": "Abortable fetch",
+ "spec": [
+  "https://fetch.spec.whatwg.org/#ref-for-dom-request-signal%E2%91%A1"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2021-09-25",
+  "baseline_low_date": "2019-03-25",
+  "by_compat_key": {
+   "api.Request.signal": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "16",
+     "firefox": "57",
+     "firefox_android": "57",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.fetch.init_signal_parameter": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-17",
+    "baseline_low_date": "2018-04-17",
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "16",
+     "firefox": "57",
+     "firefox_android": "57",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   }
+  },
+  "support": {
+   "chrome": "66",
+   "chrome_android": "66",
+   "edge": "16",
+   "firefox": "57",
+   "firefox_android": "57",
+   "safari": "12.1",
+   "safari_ios": "12.2"
+  }
+ },
+ "id": "abortable-fetch",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://fetch.spec.whatwg.org/#ref-for-dom-request-signal%E2%91%A1",
+   "seriesComposition": "full",
+   "shortname": "fetch",
+   "series": {
+    "shortname": "fetch",
+    "currentSpecification": "fetch",
+    "title": "Fetch",
+    "shortTitle": "Fetch",
+    "nightlyUrl": "https://fetch.spec.whatwg.org/"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "Fetch Workstream",
+     "url": "https://fetch.spec.whatwg.org/"
+    }
+   ],
+   "nightly": {
+    "url": "https://fetch.spec.whatwg.org/",
+    "status": "Living Standard",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/fetch",
+    "sourcePath": "fetch.bs",
+    "filename": "index.html"
+   },
+   "title": "Fetch",
+   "source": "whatwg",
+   "shortTitle": "Fetch",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "cors",
+     "fetch"
+    ],
+    "excludePaths": [
+     "fetch/local-network-access",
+     "fetch/metadata"
+    ]
+   },
+   "fragment": "ref-for-dom-request-signal%E2%91%A1"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Request/signal",
+   "title": "Request: signal property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Request/signal"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:abortable-fetch"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2019-03-25T00:00:00.000Z",
+ "baselineHighDateAsObject": "2021-09-25T00:00:00.000Z"
+}

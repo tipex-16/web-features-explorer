@@ -1,0 +1,113 @@
+{
+ "compat_features": [
+  "api.BrowserCaptureMediaStreamTrack.restrictTo",
+  "api.RestrictionTarget",
+  "api.RestrictionTarget.fromElement_static"
+ ],
+ "description": "The restrictTo() method on screen capture media tracks limits capture to a specific element, excluding content which might occlude the element itself, such as video conferencing controls.",
+ "description_html": "The <code>restrictTo()</code> method on screen capture media tracks limits capture to a specific element, excluding content which might occlude the element itself, such as video conferencing controls.",
+ "kind": "feature",
+ "name": "Element capture",
+ "spec": [
+  "https://screen-share.github.io/element-capture/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.BrowserCaptureMediaStreamTrack.restrictTo": {
+    "baseline": false,
+    "support": {
+     "chrome": "132",
+     "edge": "132"
+    }
+   },
+   "api.RestrictionTarget": {
+    "baseline": false,
+    "support": {
+     "chrome": "132",
+     "edge": "132"
+    }
+   },
+   "api.RestrictionTarget.fromElement_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "132",
+     "edge": "132"
+    }
+   }
+  },
+  "support": {
+   "chrome": "132",
+   "edge": "132"
+  }
+ },
+ "id": "element-capture",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://screen-share.github.io/element-capture/",
+   "seriesComposition": "full",
+   "shortname": "element-capture",
+   "series": {
+    "shortname": "element-capture",
+    "currentSpecification": "element-capture",
+    "title": "Element Capture",
+    "shortTitle": "Element Capture",
+    "nightlyUrl": "https://screen-share.github.io/element-capture/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Screen Capture Community Group",
+     "url": "https://www.w3.org/community/sccg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://screen-share.github.io/element-capture/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/screen-share/element-capture",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Element Capture",
+   "source": "spec",
+   "shortTitle": "Element Capture",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/BrowserCaptureMediaStreamTrack/restrictTo",
+   "title": "BrowserCaptureMediaStreamTrack: restrictTo() method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/BrowserCaptureMediaStreamTrack/restrictTo"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/857",
+   "position": "negative",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": true,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 2.4e-7,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/321"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:element-capture"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

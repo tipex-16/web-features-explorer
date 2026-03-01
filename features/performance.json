@@ -1,0 +1,835 @@
+{
+ "caniuse": [
+  "user-timing",
+  "high-resolution-time"
+ ],
+ "compat_features": [
+  "api.Performance",
+  "api.Performance.clearMarks",
+  "api.Performance.clearMeasures",
+  "api.Performance.getEntries",
+  "api.Performance.getEntriesByName",
+  "api.Performance.getEntriesByType",
+  "api.Performance.mark",
+  "api.Performance.mark.markOptions_parameter",
+  "api.Performance.mark.returns_performancemark",
+  "api.Performance.measure",
+  "api.Performance.measure.measureOptions_parameter",
+  "api.Performance.measure.returns_performancemeasure",
+  "api.Performance.now",
+  "api.Performance.timeOrigin",
+  "api.Performance.toJSON",
+  "api.PerformanceEntry",
+  "api.PerformanceEntry.duration",
+  "api.PerformanceEntry.entryType",
+  "api.PerformanceEntry.name",
+  "api.PerformanceEntry.startTime",
+  "api.PerformanceEntry.toJSON",
+  "api.PerformanceEntry.worker_support",
+  "api.PerformanceMark",
+  "api.PerformanceMark.PerformanceMark",
+  "api.PerformanceMark.detail",
+  "api.PerformanceMeasure",
+  "api.PerformanceMeasure.detail",
+  "api.PerformanceObserver",
+  "api.PerformanceObserver.PerformanceObserver",
+  "api.PerformanceObserver.PerformanceObserver.droppedEntriesCount",
+  "api.PerformanceObserver.disconnect",
+  "api.PerformanceObserver.observe",
+  "api.PerformanceObserver.supportedEntryTypes_static",
+  "api.PerformanceObserver.takeRecords",
+  "api.PerformanceObserver.worker_support",
+  "api.PerformanceObserverEntryList",
+  "api.PerformanceObserverEntryList.getEntries",
+  "api.PerformanceObserverEntryList.getEntriesByName",
+  "api.PerformanceObserverEntryList.getEntriesByType",
+  "api.performance",
+  "api.performance.worker_support",
+  "http.headers.Timing-Allow-Origin"
+ ],
+ "description": "The performance global object and the PerformanceObserver API provide access to performance-related information for the current execution context.",
+ "description_html": "The <code>performance</code> global object and the <code>PerformanceObserver</code> API provide access to performance-related information for the current execution context.",
+ "group": [
+  "performance"
+ ],
+ "kind": "feature",
+ "name": "Performance",
+ "spec": [
+  "https://w3c.github.io/hr-time/",
+  "https://w3c.github.io/performance-timeline/",
+  "https://w3c.github.io/user-timing/#extensions-performance-interface"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-03-16",
+  "baseline_low_date": "2015-09-16",
+  "by_compat_key": {
+   "api.Performance": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-16",
+    "baseline_low_date": "2015-09-16",
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "7",
+     "firefox_android": "7",
+     "safari": "8",
+     "safari_ios": "9"
+    }
+   },
+   "api.Performance.clearMarks": {
+    "baseline": "high",
+    "baseline_high_date": "2020-03-19",
+    "baseline_low_date": "2017-09-19",
+    "support": {
+     "chrome": "29",
+     "chrome_android": "29",
+     "edge": "12",
+     "firefox": "38",
+     "firefox_android": "42",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.Performance.clearMeasures": {
+    "baseline": "high",
+    "baseline_high_date": "2020-03-19",
+    "baseline_low_date": "2017-09-19",
+    "support": {
+     "chrome": "29",
+     "chrome_android": "29",
+     "edge": "12",
+     "firefox": "38",
+     "firefox_android": "42",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.Performance.getEntries": {
+    "baseline": "high",
+    "baseline_high_date": "2020-03-19",
+    "baseline_low_date": "2017-09-19",
+    "support": {
+     "chrome": "28",
+     "chrome_android": "28",
+     "edge": "12",
+     "firefox": "35",
+     "firefox_android": "35",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.Performance.getEntriesByName": {
+    "baseline": "high",
+    "baseline_high_date": "2020-03-19",
+    "baseline_low_date": "2017-09-19",
+    "support": {
+     "chrome": "28",
+     "chrome_android": "28",
+     "edge": "12",
+     "firefox": "35",
+     "firefox_android": "35",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.Performance.getEntriesByType": {
+    "baseline": "high",
+    "baseline_high_date": "2020-03-19",
+    "baseline_low_date": "2017-09-19",
+    "support": {
+     "chrome": "28",
+     "chrome_android": "28",
+     "edge": "12",
+     "firefox": "35",
+     "firefox_android": "35",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.Performance.mark": {
+    "baseline": "high",
+    "baseline_high_date": "2020-03-19",
+    "baseline_low_date": "2017-09-19",
+    "support": {
+     "chrome": "28",
+     "chrome_android": "28",
+     "edge": "12",
+     "firefox": "38",
+     "firefox_android": "42",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.Performance.mark.markOptions_parameter": {
+    "baseline": "high",
+    "baseline_high_date": "2024-11-30",
+    "baseline_low_date": "2022-05-31",
+    "support": {
+     "chrome": "78",
+     "chrome_android": "78",
+     "edge": "79",
+     "firefox": "101",
+     "firefox_android": "101",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.Performance.mark.returns_performancemark": {
+    "baseline": "high",
+    "baseline_high_date": "2024-11-30",
+    "baseline_low_date": "2022-05-31",
+    "support": {
+     "chrome": "78",
+     "chrome_android": "78",
+     "edge": "79",
+     "firefox": "101",
+     "firefox_android": "101",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.Performance.measure": {
+    "baseline": "high",
+    "baseline_high_date": "2020-03-19",
+    "baseline_low_date": "2017-09-19",
+    "support": {
+     "chrome": "28",
+     "chrome_android": "28",
+     "edge": "12",
+     "firefox": "38",
+     "firefox_android": "42",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.Performance.measure.measureOptions_parameter": {
+    "baseline": "high",
+    "baseline_high_date": "2025-01-26",
+    "baseline_low_date": "2022-07-26",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "103",
+     "firefox_android": "103",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.Performance.measure.returns_performancemeasure": {
+    "baseline": "high",
+    "baseline_high_date": "2025-01-26",
+    "baseline_low_date": "2022-07-26",
+    "support": {
+     "chrome": "78",
+     "chrome_android": "78",
+     "edge": "79",
+     "firefox": "103",
+     "firefox_android": "103",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.Performance.now": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-16",
+    "baseline_low_date": "2015-09-16",
+    "support": {
+     "chrome": "24",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "15",
+     "firefox_android": "15",
+     "safari": "8",
+     "safari_ios": "9"
+    }
+   },
+   "api.Performance.timeOrigin": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "62",
+     "chrome_android": "62",
+     "edge": "16",
+     "firefox": "53",
+     "firefox_android": "53",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "api.Performance.toJSON": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "56",
+     "chrome_android": "56",
+     "edge": "12",
+     "firefox": "25",
+     "firefox_android": "25",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.PerformanceEntry": {
+    "baseline": "high",
+    "baseline_high_date": "2020-03-19",
+    "baseline_low_date": "2017-09-19",
+    "support": {
+     "chrome": "46",
+     "chrome_android": "46",
+     "edge": "12",
+     "firefox": "35",
+     "firefox_android": "35",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.PerformanceEntry.duration": {
+    "baseline": "high",
+    "baseline_high_date": "2020-03-19",
+    "baseline_low_date": "2017-09-19",
+    "support": {
+     "chrome": "46",
+     "chrome_android": "46",
+     "edge": "12",
+     "firefox": "35",
+     "firefox_android": "35",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.PerformanceEntry.entryType": {
+    "baseline": "high",
+    "baseline_high_date": "2020-03-19",
+    "baseline_low_date": "2017-09-19",
+    "support": {
+     "chrome": "46",
+     "chrome_android": "46",
+     "edge": "12",
+     "firefox": "35",
+     "firefox_android": "35",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.PerformanceEntry.name": {
+    "baseline": "high",
+    "baseline_high_date": "2020-03-19",
+    "baseline_low_date": "2017-09-19",
+    "support": {
+     "chrome": "46",
+     "chrome_android": "46",
+     "edge": "12",
+     "firefox": "35",
+     "firefox_android": "35",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.PerformanceEntry.startTime": {
+    "baseline": "high",
+    "baseline_high_date": "2020-03-19",
+    "baseline_low_date": "2017-09-19",
+    "support": {
+     "chrome": "46",
+     "chrome_android": "46",
+     "edge": "12",
+     "firefox": "35",
+     "firefox_android": "35",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.PerformanceEntry.toJSON": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "46",
+     "chrome_android": "46",
+     "edge": "16",
+     "firefox": "35",
+     "firefox_android": "35",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.PerformanceEntry.worker_support": {
+    "baseline": "high",
+    "baseline_high_date": "2020-11-09",
+    "baseline_low_date": "2018-05-09",
+    "support": {
+     "chrome": "62",
+     "chrome_android": "62",
+     "edge": "15",
+     "firefox": "60",
+     "firefox_android": "60",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.PerformanceMark": {
+    "baseline": "high",
+    "baseline_high_date": "2020-03-19",
+    "baseline_low_date": "2017-09-19",
+    "support": {
+     "chrome": "28",
+     "chrome_android": "28",
+     "edge": "12",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.PerformanceMark.PerformanceMark": {
+    "baseline": "high",
+    "baseline_high_date": "2024-11-30",
+    "baseline_low_date": "2022-05-31",
+    "support": {
+     "chrome": "76",
+     "chrome_android": "76",
+     "edge": "79",
+     "firefox": "101",
+     "firefox_android": "101",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.PerformanceMark.detail": {
+    "baseline": "high",
+    "baseline_high_date": "2024-11-30",
+    "baseline_low_date": "2022-05-31",
+    "support": {
+     "chrome": "78",
+     "chrome_android": "78",
+     "edge": "79",
+     "firefox": "101",
+     "firefox_android": "101",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.PerformanceMeasure": {
+    "baseline": "high",
+    "baseline_high_date": "2020-03-19",
+    "baseline_low_date": "2017-09-19",
+    "support": {
+     "chrome": "25",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.PerformanceMeasure.detail": {
+    "baseline": "high",
+    "baseline_high_date": "2025-01-26",
+    "baseline_low_date": "2022-07-26",
+    "support": {
+     "chrome": "78",
+     "chrome_android": "78",
+     "edge": "79",
+     "firefox": "103",
+     "firefox_android": "103",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.PerformanceObserver": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "52",
+     "chrome_android": "52",
+     "edge": "79",
+     "firefox": "57",
+     "firefox_android": "57",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.PerformanceObserver.PerformanceObserver": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "52",
+     "chrome_android": "52",
+     "edge": "79",
+     "firefox": "57",
+     "firefox_android": "57",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.PerformanceObserver.PerformanceObserver.droppedEntriesCount": {
+    "baseline": false,
+    "support": {
+     "chrome": "95",
+     "chrome_android": "95",
+     "edge": "95"
+    }
+   },
+   "api.PerformanceObserver.disconnect": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "52",
+     "chrome_android": "52",
+     "edge": "79",
+     "firefox": "57",
+     "firefox_android": "57",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.PerformanceObserver.observe": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "52",
+     "chrome_android": "52",
+     "edge": "79",
+     "firefox": "57",
+     "firefox_android": "57",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.PerformanceObserver.supportedEntryTypes_static": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "73",
+     "chrome_android": "73",
+     "edge": "79",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "api.PerformanceObserver.takeRecords": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "65",
+     "chrome_android": "65",
+     "edge": "79",
+     "firefox": "60",
+     "firefox_android": "60",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "api.PerformanceObserver.worker_support": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "62",
+     "chrome_android": "62",
+     "edge": "79",
+     "firefox": "57",
+     "firefox_android": "57",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.PerformanceObserverEntryList": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "52",
+     "chrome_android": "52",
+     "edge": "79",
+     "firefox": "57",
+     "firefox_android": "57",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.PerformanceObserverEntryList.getEntries": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "52",
+     "chrome_android": "52",
+     "edge": "79",
+     "firefox": "57",
+     "firefox_android": "57",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.PerformanceObserverEntryList.getEntriesByName": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "52",
+     "chrome_android": "52",
+     "edge": "79",
+     "firefox": "57",
+     "firefox_android": "57",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.PerformanceObserverEntryList.getEntriesByType": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "52",
+     "chrome_android": "52",
+     "edge": "79",
+     "firefox": "57",
+     "firefox_android": "57",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.performance": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-16",
+    "baseline_low_date": "2015-09-16",
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "7",
+     "firefox_android": "7",
+     "safari": "8",
+     "safari_ios": "9"
+    }
+   },
+   "api.performance.worker_support": {
+    "baseline": "high",
+    "baseline_high_date": "2020-03-19",
+    "baseline_low_date": "2017-09-19",
+    "support": {
+     "chrome": "30",
+     "chrome_android": "30",
+     "edge": "14",
+     "firefox": "34",
+     "firefox_android": "34",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "http.headers.Timing-Allow-Origin": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "54",
+     "chrome_android": "54",
+     "edge": "79",
+     "firefox": "45",
+     "firefox_android": "45",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   }
+  },
+  "support": {
+   "chrome": "6",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "7",
+   "firefox_android": "7",
+   "safari": "8",
+   "safari_ios": "9"
+  }
+ },
+ "id": "performance",
+ "groups": [
+  "performance"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/hr-time/",
+   "seriesComposition": "full",
+   "shortname": "hr-time-3",
+   "series": {
+    "shortname": "hr-time",
+    "currentSpecification": "hr-time-3",
+    "title": "High Resolution Time",
+    "shortTitle": "High Resolution Time",
+    "releaseUrl": "https://www.w3.org/TR/hr-time/",
+    "nightlyUrl": "https://w3c.github.io/hr-time/"
+   },
+   "seriesVersion": "3",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Performance Working Group",
+     "url": "https://www.w3.org/groups/wg/webperf/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/hr-time-3/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/hr-time/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/hr-time",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "High Resolution Time",
+   "source": "w3c",
+   "shortTitle": "High Resolution Time",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "hr-time"
+    ]
+   },
+   "fragment": null
+  },
+  {
+   "url": "https://w3c.github.io/performance-timeline/",
+   "seriesComposition": "full",
+   "shortname": "performance-timeline",
+   "series": {
+    "shortname": "performance-timeline",
+    "currentSpecification": "performance-timeline",
+    "title": "Performance Timeline",
+    "shortTitle": "Performance Timeline",
+    "releaseUrl": "https://www.w3.org/TR/performance-timeline/",
+    "nightlyUrl": "https://w3c.github.io/performance-timeline/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Performance Working Group",
+     "url": "https://www.w3.org/groups/wg/webperf/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/performance-timeline/",
+    "status": "Candidate Recommendation Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/performance-timeline/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/performance-timeline",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Performance Timeline",
+   "source": "w3c",
+   "shortTitle": "Performance Timeline",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "performance-timeline"
+    ]
+   },
+   "fragment": null
+  },
+  {
+   "url": "https://w3c.github.io/user-timing/#extensions-performance-interface",
+   "seriesComposition": "full",
+   "shortname": "user-timing",
+   "series": {
+    "shortname": "user-timing",
+    "currentSpecification": "user-timing",
+    "title": "User Timing",
+    "shortTitle": "User Timing",
+    "releaseUrl": "https://www.w3.org/TR/user-timing/",
+    "nightlyUrl": "https://w3c.github.io/user-timing/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Performance Working Group",
+     "url": "https://www.w3.org/groups/wg/webperf/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/user-timing/",
+    "status": "Candidate Recommendation Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/user-timing/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/user-timing",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "User Timing",
+   "source": "w3c",
+   "shortTitle": "User Timing",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "user-timing"
+    ]
+   },
+   "fragment": "extensions-performance-interface"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Performance_API",
+   "title": "Performance APIs",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Performance_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/424",
+   "position": "support",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:performance"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-09-16T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-03-16T00:00:00.000Z"
+}

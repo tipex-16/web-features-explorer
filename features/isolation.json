@@ -1,0 +1,112 @@
+{
+ "compat_features": [
+  "css.properties.isolation"
+ ],
+ "description": "The isolation CSS property creates a new stacking context, which impacts z-index ordering and blend modes.",
+ "description_html": "The <code>isolation</code> CSS property creates a new stacking context, which impacts <code>z-index</code> ordering and blend modes.",
+ "group": [
+  "blend-mode"
+ ],
+ "kind": "feature",
+ "name": "isolation",
+ "spec": [
+  "https://drafts.csswg.org/compositing-2/#isolation"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2022-07-15",
+  "baseline_low_date": "2020-01-15",
+  "by_compat_key": {
+   "css.properties.isolation": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "41",
+     "chrome_android": "41",
+     "edge": "79",
+     "firefox": "36",
+     "firefox_android": "36",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   }
+  },
+  "support": {
+   "chrome": "41",
+   "chrome_android": "41",
+   "edge": "79",
+   "firefox": "36",
+   "firefox_android": "36",
+   "safari": "8",
+   "safari_ios": "8"
+  }
+ },
+ "id": "isolation",
+ "groups": [
+  "blend-mode"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/compositing-2/#isolation",
+   "seriesComposition": "full",
+   "shortname": "compositing-2",
+   "series": {
+    "shortname": "compositing",
+    "currentSpecification": "compositing-2",
+    "title": "Compositing and Blending",
+    "shortTitle": "Compositing",
+    "nightlyUrl": "https://drafts.csswg.org/compositing/",
+    "releaseUrl": "https://www.w3.org/TR/compositing/"
+   },
+   "seriesVersion": "2",
+   "shortTitle": "Compositing 2",
+   "seriesPrevious": "compositing-1",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "nightly": {
+    "url": "https://drafts.csswg.org/compositing-2/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/compositing-2/",
+     "https://w3c.github.io/csswg-drafts/compositing/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "compositing-2/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "Compositing and Blending Module Level 2",
+   "source": "spec",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": "isolation"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/isolation",
+   "title": "isolation",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/isolation"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:isolation"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2020-01-15T00:00:00.000Z",
+ "baselineHighDateAsObject": "2022-07-15T00:00:00.000Z"
+}

@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Web platform features explorer - December 2024 release notes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
+    <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
+  </head>
+  <body>
+
+    
+      <header>
+        <a href="/web-features-explorer/">Web platform features explorer</a>
+
+        <nav>
+          <ul>
+            <li><a href="/web-features-explorer/release-notes/february-2026">Release notes</a></li>
+            <li><a href="/web-features-explorer/newly-available">Explore features</a></li>
+            <li><a href="/web-features-explorer/about">About</a></li>
+          </ul>
+          <search>
+            <form>
+              <input type="search" id="search" placeholder="Search">
+            </form>
+          </search>
+        </nav>
+
+        <output for="search"></output>
+      </header>
+    
+
+    
+<main class="release-notes">
+  <h1>📃 December 2024 release notes</h1>
+
+  <div>
+    
+      <section class="baseline-low">
+        <h2>Newly available</h2>
+        <p>The following features are newly available:</p>
+        <ul>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/page-setup/">Page setup</a></strong>:
+              The <code>@page</code> CSS at-rule sets the page-specific dimensions and margins for content such as printed documents, ebooks, or slides.
+            </li>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/ruby-align/">ruby-align</a></strong>:
+              The <code>ruby-align</code> CSS property sets the spacing and alignment of ruby annotation text when it does not fill its available space.
+            </li>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/ruby-position/">ruby-position</a></strong>:
+              The <code>ruby-position</code> CSS property sets the position of a ruby annotation in relation to its base text. Annotations can display over, under, or interleaved with the base text.
+            </li>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/scrollbar-gutter/">scrollbar-gutter</a></strong>:
+              The <code>scrollbar-gutter</code> CSS property reserves space for the scrollbar, preventing unwanted layout changes as the scrollbar appears and disappears.
+            </li>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/scrollbar-width/">scrollbar-width</a></strong>:
+              The <code>scrollbar-width</code> CSS property sets the width of the scrollbar.
+            </li>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/target-text/">::target-text</a></strong>:
+              The <code>::target-text</code> pseudo-element allows you to style text highlighted by a URL text fragment such as <code>#:~:text=snippet</code>.
+            </li>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/wasm-garbage-collection/">Garbage collection (WebAssembly)</a></strong>:
+              Garbage collection tracks references for better memory management with garbage-collected languages running in WebAssmbly.
+            </li>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/wasm-tail-call-optimization/">Tail call optimization (WebAssembly)</a></strong>:
+              Tail call optimization discards a caller frame and replaces the call with a jump instruction.
+            </li>
+          
+        </ul>
+      </section>
+    
+
+    
+      <section class="baseline-high">
+        <h2>Widely available</h2>
+        <p>The following features are now widely available:</p>
+        <ul>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/streams/">Streams</a></strong>:
+              The streams API creates, composes, and consumes continuously generated data.
+            </li>
+          
+        </ul>
+      </section>
+    
+
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <section class="baseline-false safari">
+          <h2>New in Safari</h2>
+          <p>The following features are now available in Safari:</p>
+          <ul>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/active-view-transition/">Active view transition</a></strong>:
+                The <code>:active-view-transition</code> CSS pseudo-class matches the root element when a view transition is active. The <code>:active-view-transition-type()</code> CSS pseudo-class matches only when the active view transition was started with the specified type.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/background-clip-border-area/">background-clip: border-area</a></strong>:
+                The <code>background-clip: border-area</code> CSS declaration draws the background underneath only the border of an element.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/blocking-render/">blocking="render"</a></strong>:
+                The <code>blocking="render"</code> attribute for <code>&#x3C;link></code>, <code>&#x3C;script></code>, and <code>&#x3C;style></code> elements blocks rendering until the external script or stylesheet has been loaded. For <code>&#x3C;link rel="expect"></code>, rendering is blocked until a specific element is in the DOM.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/cross-document-view-transitions/">Cross-document view transitions</a></strong>:
+                The <code>@view-transition</code> CSS rule sets whether a document opts-in to transitions between documents in a multi-page application. Both the old and new document must opt-in for a transition to be triggered.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/float16array/">Float16Array</a></strong>:
+                Float16Array is a typed array of 16-bit floating point numbers.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/promise-try/">Promise.try()</a></strong>:
+                The <code>Promise.try()</code> static method returns a promise that takes a callback of any kind (returns or throws, synchronously or asynchronously) and wraps its result in a <code>Promise</code>.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/regexp-escape/">RegExp.escape()</a></strong>:
+                The <code>RegExp.escape()</code> static method takes a string and replaces any characters that are potentially special characters of a regular expression with equivalent escape sequences. For example, <code>RegExp.escape("[abc]")</code> returns <code>"\\[abc\\]"</code>.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/ruby-overhang/">ruby-overhang</a></strong>:
+                The <code>ruby-overhang</code> CSS property sets whether ruby annotations may overlap adjacent text.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/text-box/">text-box</a></strong>:
+                The <code>text-box</code> CSS property sets the spacing above and below text based on a font's typographic features. For example, <code>text-box: trim-both ex alphabetic</code> trims the top to the top of the letter x and the bottom to the bottom of most letters, without descenders.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/uint8array-base64-hex/">Uint8Array base64 and hex conversion</a></strong>:
+                The <code>Uint8Array</code> object methods <code>fromBase64()</code>, <code>toBase64()</code>, and <code>setFromBase64()</code> convert to and from base64 strings. The <code>fromHex()</code>, <code>toHex()</code>, and <code>setFromHex()</code> methods convert to and from hex strings.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/view-transition-class/">view-transition-class</a></strong>:
+                The <code>view-transition-class</code> CSS property sets a name that can be used to apply styles to multiple named view transition pseudo-elements.
+              </li>
+            
+          </ul>
+        </section>
+      
+    
+      
+        <section class="baseline-false safari_ios">
+          <h2>New in Safari on iOS</h2>
+          <p>The following features are now available in Safari on iOS:</p>
+          <ul>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/active-view-transition/">Active view transition</a></strong>:
+                The <code>:active-view-transition</code> CSS pseudo-class matches the root element when a view transition is active. The <code>:active-view-transition-type()</code> CSS pseudo-class matches only when the active view transition was started with the specified type.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/background-clip-border-area/">background-clip: border-area</a></strong>:
+                The <code>background-clip: border-area</code> CSS declaration draws the background underneath only the border of an element.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/blocking-render/">blocking="render"</a></strong>:
+                The <code>blocking="render"</code> attribute for <code>&#x3C;link></code>, <code>&#x3C;script></code>, and <code>&#x3C;style></code> elements blocks rendering until the external script or stylesheet has been loaded. For <code>&#x3C;link rel="expect"></code>, rendering is blocked until a specific element is in the DOM.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/cross-document-view-transitions/">Cross-document view transitions</a></strong>:
+                The <code>@view-transition</code> CSS rule sets whether a document opts-in to transitions between documents in a multi-page application. Both the old and new document must opt-in for a transition to be triggered.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/float16array/">Float16Array</a></strong>:
+                Float16Array is a typed array of 16-bit floating point numbers.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/promise-try/">Promise.try()</a></strong>:
+                The <code>Promise.try()</code> static method returns a promise that takes a callback of any kind (returns or throws, synchronously or asynchronously) and wraps its result in a <code>Promise</code>.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/regexp-escape/">RegExp.escape()</a></strong>:
+                The <code>RegExp.escape()</code> static method takes a string and replaces any characters that are potentially special characters of a regular expression with equivalent escape sequences. For example, <code>RegExp.escape("[abc]")</code> returns <code>"\\[abc\\]"</code>.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/ruby-overhang/">ruby-overhang</a></strong>:
+                The <code>ruby-overhang</code> CSS property sets whether ruby annotations may overlap adjacent text.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/text-box/">text-box</a></strong>:
+                The <code>text-box</code> CSS property sets the spacing above and below text based on a font's typographic features. For example, <code>text-box: trim-both ex alphabetic</code> trims the top to the top of the letter x and the bottom to the bottom of most letters, without descenders.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/uint8array-base64-hex/">Uint8Array base64 and hex conversion</a></strong>:
+                The <code>Uint8Array</code> object methods <code>fromBase64()</code>, <code>toBase64()</code>, and <code>setFromBase64()</code> convert to and from base64 strings. The <code>fromHex()</code>, <code>toHex()</code>, and <code>setFromHex()</code> methods convert to and from hex strings.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/view-transition-class/">view-transition-class</a></strong>:
+                The <code>view-transition-class</code> CSS property sets a name that can be used to apply styles to multiple named view transition pseudo-elements.
+              </li>
+            
+          </ul>
+        </section>
+      
+    
+  </div>
+
+  <aside>
+    <h2>Other release notes</h2>
+    <ul>
+      
+        
+          <li class="month-entry">
+            <a href="../february-2026">February 2026</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../january-2026">January 2026</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../december-2025">December 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../november-2025">November 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../october-2025">October 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../september-2025">September 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../august-2025">August 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../july-2025">July 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../june-2025">June 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../may-2025">May 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../april-2025">April 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../march-2025">March 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../february-2025">February 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../january-2025">January 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../december-2024">December 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../november-2024">November 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../october-2024">October 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../september-2024">September 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../august-2024">August 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../july-2024">July 2024</a>
+          </li>
+        
+      
+        
+          <li><a href="../">See all</a></li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </ul>
+  </aside>
+</main>
+
+
+        
+      <script src="/web-features-explorer/assets/search.js" defer=""></script>
+    
+  </body>
+</html>

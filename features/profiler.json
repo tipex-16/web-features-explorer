@@ -1,0 +1,153 @@
+{
+ "compat_features": [
+  "api.Profiler",
+  "api.Profiler.Profiler",
+  "api.Profiler.sampleInterval",
+  "api.Profiler.stop",
+  "api.Profiler.stopped"
+ ],
+ "description": "The Profiler API records data about the execution of a page, which you can send to a server for later analysis. Also known as self-profiling.",
+ "description_html": "The <code>Profiler</code> API records data about the execution of a page, which you can send to a server for later analysis. Also known as self-profiling.",
+ "kind": "feature",
+ "name": "Profiler",
+ "spec": [
+  "https://wicg.github.io/js-self-profiling/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Profiler": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "94"
+    }
+   },
+   "api.Profiler.Profiler": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "94"
+    }
+   },
+   "api.Profiler.sampleInterval": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "94"
+    }
+   },
+   "api.Profiler.stop": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "94"
+    }
+   },
+   "api.Profiler.stopped": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "94"
+    }
+   }
+  },
+  "support": {
+   "chrome": "94",
+   "chrome_android": "94",
+   "edge": "94"
+  }
+ },
+ "id": "profiler",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://wicg.github.io/js-self-profiling/",
+   "seriesComposition": "full",
+   "shortname": "js-self-profiling",
+   "series": {
+    "shortname": "js-self-profiling",
+    "currentSpecification": "js-self-profiling",
+    "title": "JS Self-Profiling API",
+    "shortTitle": "JS Self-Profiling API",
+    "nightlyUrl": "https://wicg.github.io/js-self-profiling/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://wicg.github.io/js-self-profiling/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/WICG/js-self-profiling",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "JS Self-Profiling API",
+   "source": "spec",
+   "shortTitle": "JS Self-Profiling API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "js-self-profiling"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/JS_Self-Profiling_API",
+   "title": "JS Self-Profiling API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/JS_Self-Profiling_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/477",
+   "concerns": [
+    "security"
+   ],
+   "position": ""
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00098021,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/278"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:profiler"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/152",
+  "votes": 0
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1867361"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/1867361"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

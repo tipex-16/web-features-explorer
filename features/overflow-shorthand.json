@@ -1,0 +1,369 @@
+{
+ "caniuse": [
+  "css-overflow"
+ ],
+ "compat_features": [
+  "css.properties.overflow",
+  "css.properties.overflow-x",
+  "css.properties.overflow-x.auto",
+  "css.properties.overflow-x.hidden",
+  "css.properties.overflow-x.scroll",
+  "css.properties.overflow-x.visible",
+  "css.properties.overflow-y",
+  "css.properties.overflow-y.auto",
+  "css.properties.overflow-y.hidden",
+  "css.properties.overflow-y.scroll",
+  "css.properties.overflow-y.visible",
+  "css.properties.overflow.auto",
+  "css.properties.overflow.hidden",
+  "css.properties.overflow.multiple_keywords",
+  "css.properties.overflow.scroll",
+  "css.properties.overflow.visible",
+  "css.types.overflow"
+ ],
+ "description": "The overflow CSS property sets the behavior for when content doesn't fit in an element.",
+ "description_html": "The <code>overflow</code> CSS property sets the behavior for when content doesn't fit in an element.",
+ "group": [
+  "css"
+ ],
+ "kind": "feature",
+ "name": "overflow",
+ "spec": [
+  "https://drafts.csswg.org/css-overflow-3/#propdef-overflow"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2022-09-24",
+  "baseline_low_date": "2020-03-24",
+  "by_compat_key": {
+   "css.properties.overflow": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.overflow-x": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.overflow-x.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "2"
+    }
+   },
+   "css.properties.overflow-x.hidden": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "2"
+    }
+   },
+   "css.properties.overflow-x.scroll": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "2"
+    }
+   },
+   "css.properties.overflow-x.visible": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "2"
+    }
+   },
+   "css.properties.overflow-y": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.overflow-y.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "2"
+    }
+   },
+   "css.properties.overflow-y.hidden": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "2"
+    }
+   },
+   "css.properties.overflow-y.scroll": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "2"
+    }
+   },
+   "css.properties.overflow-y.visible": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "2"
+    }
+   },
+   "css.properties.overflow.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "2"
+    }
+   },
+   "css.properties.overflow.hidden": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "2"
+    }
+   },
+   "css.properties.overflow.multiple_keywords": {
+    "baseline": "high",
+    "baseline_high_date": "2022-09-24",
+    "baseline_low_date": "2020-03-24",
+    "support": {
+     "chrome": "68",
+     "chrome_android": "68",
+     "edge": "79",
+     "firefox": "61",
+     "firefox_android": "61",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "css.properties.overflow.scroll": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "2"
+    }
+   },
+   "css.properties.overflow.visible": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "2"
+    }
+   },
+   "css.types.overflow": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   }
+  },
+  "support": {
+   "chrome": "68",
+   "chrome_android": "68",
+   "edge": "79",
+   "firefox": "61",
+   "firefox_android": "61",
+   "safari": "13.1",
+   "safari_ios": "13.4"
+  }
+ },
+ "id": "overflow-shorthand",
+ "groups": [
+  "css"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-overflow-3/#propdef-overflow",
+   "seriesComposition": "full",
+   "shortname": "css-overflow-3",
+   "series": {
+    "shortname": "css-overflow",
+    "currentSpecification": "css-overflow-3",
+    "title": "CSS Overflow",
+    "shortTitle": "CSS Overflow",
+    "releaseUrl": "https://www.w3.org/TR/css-overflow/",
+    "nightlyUrl": "https://drafts.csswg.org/css-overflow/"
+   },
+   "seriesVersion": "3",
+   "seriesNext": "css-overflow-4",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-overflow-3/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-overflow-3/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-overflow-3/",
+     "https://w3c.github.io/csswg-drafts/css-overflow/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-overflow-3/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Overflow Module Level 3",
+   "source": "w3c",
+   "shortTitle": "CSS Overflow 3",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-overflow"
+    ]
+   },
+   "fragment": "propdef-overflow"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/overflow",
+   "title": "overflow",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.14800794,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/112"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:overflow-shorthand"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2020-03-24T00:00:00.000Z",
+ "baselineHighDateAsObject": "2022-09-24T00:00:00.000Z"
+}

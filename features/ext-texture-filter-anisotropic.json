@@ -1,0 +1,110 @@
+{
+ "compat_features": [
+  "api.EXT_texture_filter_anisotropic"
+ ],
+ "description": "The EXT_texture_filter_anisotropic extension for WebGL 1.0 and 2.0 contexts adds anisotropic filtering (AF). AF improves the quality of mipmapped texture access when viewing a textured primitive at an oblique angle.",
+ "description_html": "The <code>EXT_texture_filter_anisotropic</code> extension for WebGL 1.0 and 2.0 contexts adds anisotropic filtering (AF). AF improves the quality of mipmapped texture access when viewing a textured primitive at an oblique angle.",
+ "group": [
+  "webgl-extensions"
+ ],
+ "kind": "feature",
+ "name": "EXT_texture_filter_anisotropic WebGL extension",
+ "spec": [
+  "https://registry.khronos.org/webgl/extensions/EXT_texture_filter_anisotropic/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-12-07",
+  "baseline_low_date": "2016-06-07",
+  "by_compat_key": {
+   "api.EXT_texture_filter_anisotropic": {
+    "baseline": "high",
+    "baseline_high_date": "2018-12-07",
+    "baseline_low_date": "2016-06-07",
+    "support": {
+     "chrome": "34",
+     "chrome_android": "34",
+     "edge": "12",
+     "firefox": "47",
+     "firefox_android": "47",
+     "safari": "9.1",
+     "safari_ios": "9.3"
+    }
+   }
+  },
+  "support": {
+   "chrome": "34",
+   "chrome_android": "34",
+   "edge": "12",
+   "firefox": "47",
+   "firefox_android": "47",
+   "safari": "9.1",
+   "safari_ios": "9.3"
+  }
+ },
+ "id": "ext-texture-filter-anisotropic",
+ "groups": [
+  "webgl-extensions"
+ ],
+ "specs": [
+  {
+   "url": "https://registry.khronos.org/webgl/extensions/EXT_texture_filter_anisotropic/",
+   "seriesComposition": "full",
+   "shortname": "EXT_texture_filter_anisotropic",
+   "series": {
+    "shortname": "EXT_texture_filter_anisotropic",
+    "currentSpecification": "EXT_texture_filter_anisotropic",
+    "title": "WebGL EXT_texture_filter_anisotropic Khronos Ratified Extension Specification",
+    "shortTitle": "WebGL EXT_texture_filter_anisotropic Khronos Ratified Extension",
+    "nightlyUrl": "https://registry.khronos.org/webgl/extensions/EXT_texture_filter_anisotropic/"
+   },
+   "organization": "Khronos Group",
+   "groups": [
+    {
+     "name": "WebGL Working Group",
+     "url": "https://www.khronos.org/webgl/"
+    }
+   ],
+   "nightly": {
+    "url": "https://registry.khronos.org/webgl/extensions/EXT_texture_filter_anisotropic/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "sourcePath": "extensions/EXT_texture_filter_anisotropic/extension.xml",
+    "filename": "index.html"
+   },
+   "title": "WebGL EXT_texture_filter_anisotropic Khronos Ratified Extension Specification",
+   "source": "spec",
+   "shortTitle": "WebGL EXT_texture_filter_anisotropic Khronos Ratified Extension",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "testPaths": [
+     "conformance-suites"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/EXT_texture_filter_anisotropic",
+   "title": "EXT_texture_filter_anisotropic extension",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/EXT_texture_filter_anisotropic"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2016-06-07T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-12-07T00:00:00.000Z"
+}

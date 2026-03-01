@@ -1,0 +1,110 @@
+{
+ "compat_features": [
+  "api.EXT_color_buffer_float"
+ ],
+ "description": "The EXT_color_buffer_float extension for WebGL 2.0 contexts adds color-renderable floating point formats to renderbufferStorage().",
+ "description_html": "The <code>EXT_color_buffer_float</code> extension for WebGL 2.0 contexts adds color-renderable floating point formats to <code>renderbufferStorage()</code>.",
+ "group": [
+  "webgl-extensions"
+ ],
+ "kind": "feature",
+ "name": "EXT_color_buffer_float WebGL extension",
+ "spec": [
+  "https://registry.khronos.org/webgl/extensions/EXT_color_buffer_float/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2024-03-20",
+  "baseline_low_date": "2021-09-20",
+  "by_compat_key": {
+   "api.EXT_color_buffer_float": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "56",
+     "chrome_android": "56",
+     "edge": "79",
+     "firefox": "51",
+     "firefox_android": "51",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   }
+  },
+  "support": {
+   "chrome": "56",
+   "chrome_android": "56",
+   "edge": "79",
+   "firefox": "51",
+   "firefox_android": "51",
+   "safari": "15",
+   "safari_ios": "15"
+  }
+ },
+ "id": "ext-color-buffer-float",
+ "groups": [
+  "webgl-extensions"
+ ],
+ "specs": [
+  {
+   "url": "https://registry.khronos.org/webgl/extensions/EXT_color_buffer_float/",
+   "seriesComposition": "full",
+   "shortname": "EXT_color_buffer_float",
+   "series": {
+    "shortname": "EXT_color_buffer_float",
+    "currentSpecification": "EXT_color_buffer_float",
+    "title": "WebGL EXT_color_buffer_float Extension Specification",
+    "shortTitle": "WebGL EXT_color_buffer_float Extension",
+    "nightlyUrl": "https://registry.khronos.org/webgl/extensions/EXT_color_buffer_float/"
+   },
+   "organization": "Khronos Group",
+   "groups": [
+    {
+     "name": "WebGL Working Group",
+     "url": "https://www.khronos.org/webgl/"
+    }
+   ],
+   "nightly": {
+    "url": "https://registry.khronos.org/webgl/extensions/EXT_color_buffer_float/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "sourcePath": "extensions/EXT_color_buffer_float/extension.xml",
+    "filename": "index.html"
+   },
+   "title": "WebGL EXT_color_buffer_float Extension Specification",
+   "source": "spec",
+   "shortTitle": "WebGL EXT_color_buffer_float Extension",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "testPaths": [
+     "conformance-suites"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/EXT_color_buffer_float",
+   "title": "EXT_color_buffer_float extension",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/EXT_color_buffer_float"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2021-09-20T00:00:00.000Z",
+ "baselineHighDateAsObject": "2024-03-20T00:00:00.000Z"
+}

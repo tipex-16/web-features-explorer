@@ -1,0 +1,275 @@
+{
+ "caniuse": [
+  "input-datetime"
+ ],
+ "compat_features": [
+  "api.HTMLInputElement.valueAsDate",
+  "html.elements.input.type_date",
+  "html.elements.input.type_datetime-local",
+  "html.elements.input.type_month",
+  "html.elements.input.type_time",
+  "html.elements.input.type_week"
+ ],
+ "description": "The <input type=\"date\"> and <input type=\"time\"> HTML elements show date and time pickers.",
+ "description_html": "The <code>&#x3C;input type=\"date\"></code> and <code>&#x3C;input type=\"time\"></code> HTML elements show date and time pickers.",
+ "group": [
+  "forms",
+  "html-elements"
+ ],
+ "kind": "feature",
+ "name": "Date and time <input> types",
+ "spec": [
+  "https://html.spec.whatwg.org/multipage/input.html#date-state-(type=date)"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2023-10-26",
+  "baseline_low_date": "2021-04-26",
+  "by_compat_key": {
+   "api.HTMLInputElement.valueAsDate": {
+    "baseline": "high",
+    "baseline_high_date": "2020-05-28",
+    "baseline_low_date": "2017-11-28",
+    "support": {
+     "chrome": "5",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "57",
+     "firefox_android": "57",
+     "safari": "5",
+     "safari_ios": "4"
+    }
+   },
+   "html.elements.input.type_date": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "20",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "57",
+     "firefox_android": "57",
+     "safari": "14.1",
+     "safari_ios": "5"
+    }
+   },
+   "html.elements.input.type_datetime-local": {
+    "baseline": "high",
+    "baseline_high_date": "2024-04-05",
+    "baseline_low_date": "2021-10-05",
+    "support": {
+     "chrome": "20",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "93",
+     "firefox_android": "93",
+     "safari": "14.1",
+     "safari_ios": "5"
+    }
+   },
+   "html.elements.input.type_month": {
+    "baseline": false,
+    "support": {
+     "chrome": "20",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox_android": "18",
+     "safari_ios": "≤11.3"
+    }
+   },
+   "html.elements.input.type_time": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "20",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "57",
+     "firefox_android": "57",
+     "safari": "14.1",
+     "safari_ios": "5"
+    }
+   },
+   "html.elements.input.type_week": {
+    "baseline": false,
+    "support": {
+     "chrome": "20",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox_android": "18",
+     "safari_ios": "18.2"
+    }
+   }
+  },
+  "support": {
+   "chrome": "20",
+   "chrome_android": "25",
+   "edge": "12",
+   "firefox": "57",
+   "firefox_android": "57",
+   "safari": "14.1",
+   "safari_ios": "5"
+  }
+ },
+ "id": "input-date-time",
+ "groups": [
+  "forms",
+  "html-elements"
+ ],
+ "specs": [
+  {
+   "url": "https://html.spec.whatwg.org/multipage/input.html#date-state-(type=date)",
+   "seriesComposition": "full",
+   "shortname": "html",
+   "series": {
+    "shortname": "html",
+    "currentSpecification": "html",
+    "title": "HTML",
+    "shortTitle": "HTML",
+    "nightlyUrl": "https://html.spec.whatwg.org/multipage/"
+   },
+   "nightly": {
+    "url": "https://html.spec.whatwg.org/multipage/",
+    "status": "Living Standard",
+    "sourcePath": "source",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/html",
+    "pages": [
+     "https://html.spec.whatwg.org/multipage/introduction.html",
+     "https://html.spec.whatwg.org/multipage/infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/common-microsyntaxes.html",
+     "https://html.spec.whatwg.org/multipage/urls-and-fetching.html",
+     "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html",
+     "https://html.spec.whatwg.org/multipage/structured-data.html",
+     "https://html.spec.whatwg.org/multipage/dom.html",
+     "https://html.spec.whatwg.org/multipage/semantics.html",
+     "https://html.spec.whatwg.org/multipage/sections.html",
+     "https://html.spec.whatwg.org/multipage/grouping-content.html",
+     "https://html.spec.whatwg.org/multipage/text-level-semantics.html",
+     "https://html.spec.whatwg.org/multipage/links.html",
+     "https://html.spec.whatwg.org/multipage/edits.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content.html",
+     "https://html.spec.whatwg.org/multipage/images.html",
+     "https://html.spec.whatwg.org/multipage/iframe-embed-object.html",
+     "https://html.spec.whatwg.org/multipage/media.html",
+     "https://html.spec.whatwg.org/multipage/image-maps.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content-other.html",
+     "https://html.spec.whatwg.org/multipage/tables.html",
+     "https://html.spec.whatwg.org/multipage/forms.html",
+     "https://html.spec.whatwg.org/multipage/input.html",
+     "https://html.spec.whatwg.org/multipage/form-elements.html",
+     "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/interactive-elements.html",
+     "https://html.spec.whatwg.org/multipage/scripting.html",
+     "https://html.spec.whatwg.org/multipage/canvas.html",
+     "https://html.spec.whatwg.org/multipage/custom-elements.html",
+     "https://html.spec.whatwg.org/multipage/semantics-other.html",
+     "https://html.spec.whatwg.org/multipage/microdata.html",
+     "https://html.spec.whatwg.org/multipage/interaction.html",
+     "https://html.spec.whatwg.org/multipage/dnd.html",
+     "https://html.spec.whatwg.org/multipage/popover.html",
+     "https://html.spec.whatwg.org/multipage/browsers.html",
+     "https://html.spec.whatwg.org/multipage/nav-history-apis.html",
+     "https://html.spec.whatwg.org/multipage/document-sequences.html",
+     "https://html.spec.whatwg.org/multipage/browsing-the-web.html",
+     "https://html.spec.whatwg.org/multipage/document-lifecycle.html",
+     "https://html.spec.whatwg.org/multipage/speculative-loading.html",
+     "https://html.spec.whatwg.org/multipage/webappapis.html",
+     "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html",
+     "https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html",
+     "https://html.spec.whatwg.org/multipage/system-state.html",
+     "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html",
+     "https://html.spec.whatwg.org/multipage/comms.html",
+     "https://html.spec.whatwg.org/multipage/server-sent-events.html",
+     "https://html.spec.whatwg.org/multipage/web-messaging.html",
+     "https://html.spec.whatwg.org/multipage/workers.html",
+     "https://html.spec.whatwg.org/multipage/worklets.html",
+     "https://html.spec.whatwg.org/multipage/webstorage.html",
+     "https://html.spec.whatwg.org/multipage/syntax.html",
+     "https://html.spec.whatwg.org/multipage/parsing.html",
+     "https://html.spec.whatwg.org/multipage/named-characters.html",
+     "https://html.spec.whatwg.org/multipage/xhtml.html",
+     "https://html.spec.whatwg.org/multipage/rendering.html",
+     "https://html.spec.whatwg.org/multipage/obsolete.html",
+     "https://html.spec.whatwg.org/multipage/iana.html",
+     "https://html.spec.whatwg.org/multipage/indices.html",
+     "https://html.spec.whatwg.org/multipage/references.html",
+     "https://html.spec.whatwg.org/multipage/acknowledgements.html"
+    ],
+    "filename": "index.html"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "HTML Workstream",
+     "url": "https://html.spec.whatwg.org/multipage/"
+    }
+   ],
+   "title": "HTML",
+   "source": "whatwg",
+   "shortTitle": "HTML",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "close-watcher",
+     "custom-elements",
+     "eventsource",
+     "html",
+     "imagebitmap-renderingcontext",
+     "import-maps",
+     "navigation-api",
+     "webmessaging",
+     "webstorage",
+     "workers",
+     "worklets",
+     "x-frame-options"
+    ],
+    "excludePaths": [
+     "html/cross-origin-embedder-policy/credentialless",
+     "html/dom/partial-updates/tentative",
+     "html/cross-origin-embedder-policy/credentialless"
+    ]
+   },
+   "fragment": "date-state-(type=date)"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/HTML/Reference/Elements/input/date",
+   "title": "<input type=\"date\">",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/input/date"
+  },
+  {
+   "slug": "Web/HTML/Reference/Elements/input/time",
+   "title": "<input type=\"time\">",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/input/time"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:input-date-time"
+ },
+ "developerSignals": null,
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/888320"
+  ],
+  "safari": [
+   "https://webkit.org/b/200416"
+  ]
+ },
+ "baselineLowDateAsObject": "2021-04-26T00:00:00.000Z",
+ "baselineHighDateAsObject": "2023-10-26T00:00:00.000Z"
+}

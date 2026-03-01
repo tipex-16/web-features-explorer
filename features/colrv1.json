@@ -1,0 +1,103 @@
+{
+ "caniuse": [
+  "colr-v1"
+ ],
+ "compat_features": [
+  "css.at-rules.font-face.OpenType_COLRv1"
+ ],
+ "description": "COLRv1 is a font format that supports multi-color glyphs. COLRv1 extends COLRv0 to support gradients, transforms, and blending modes.",
+ "description_html": "COLRv1 is a font format that supports multi-color glyphs. COLRv1 extends COLRv0 to support gradients, transforms, and blending modes.",
+ "group": [
+  "fonts"
+ ],
+ "kind": "feature",
+ "name": "COLRv1",
+ "spec": [
+  "https://www.iso.org/standard/87621.html"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "css.at-rules.font-face.OpenType_COLRv1": {
+    "baseline": false,
+    "support": {
+     "chrome": "98",
+     "chrome_android": "98",
+     "edge": "98",
+     "firefox": "107",
+     "firefox_android": "107"
+    }
+   }
+  },
+  "support": {
+   "chrome": "98",
+   "chrome_android": "98",
+   "edge": "98",
+   "firefox": "107",
+   "firefox_android": "107"
+  }
+ },
+ "id": "colrv1",
+ "groups": [
+  "fonts"
+ ],
+ "specs": [
+  {
+   "url": "https://www.iso.org/standard/87621.html",
+   "seriesComposition": "full",
+   "shortname": "iso14496-22",
+   "series": {
+    "shortname": "iso14496-22",
+    "currentSpecification": "iso14496-22",
+    "title": "Information technology — Coding of audio-visual objects — Part 22: Open font format",
+    "shortTitle": "Open Font Format"
+   },
+   "shortTitle": "Open Font Format",
+   "organization": "ISO/IEC",
+   "groups": [
+    {
+     "name": "ISO/IEC JTC 1/SC 29",
+     "url": "https://www.iso.org/committee/45316.html"
+    }
+   ],
+   "title": "Information technology — Coding of audio-visual objects — Part 22: Open font format",
+   "source": "spec",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/At-rules/@font-face",
+   "title": "@font-face",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/415",
+   "position": "",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/161",
+  "votes": 6
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Safari",
+ "monthsBlocked": 40,
+ "blockedSince": "November 2022"
+}

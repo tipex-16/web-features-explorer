@@ -1,0 +1,302 @@
+{
+ "caniuse": [
+  "cross-document-view-transitions"
+ ],
+ "compat_features": [
+  "api.CSSViewTransitionRule",
+  "api.CSSViewTransitionRule.navigation",
+  "api.CSSViewTransitionRule.types",
+  "css.at-rules.view-transition"
+ ],
+ "description": "The @view-transition CSS rule sets whether a document opts-in to transitions between documents in a multi-page application. Both the old and new document must opt-in for a transition to be triggered.",
+ "description_html": "The <code>@view-transition</code> CSS rule sets whether a document opts-in to transitions between documents in a multi-page application. Both the old and new document must opt-in for a transition to be triggered.",
+ "group": [
+  "view-transitions"
+ ],
+ "kind": "feature",
+ "name": "Cross-document view transitions",
+ "spec": [
+  "https://drafts.csswg.org/css-view-transitions-2/#cross-doc-opt-in"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.CSSViewTransitionRule": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126",
+     "safari": "18.2",
+     "safari_ios": "18.2"
+    }
+   },
+   "api.CSSViewTransitionRule.navigation": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126",
+     "safari": "18.2",
+     "safari_ios": "18.2"
+    }
+   },
+   "api.CSSViewTransitionRule.types": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126",
+     "safari": "18.2",
+     "safari_ios": "18.2"
+    }
+   },
+   "css.at-rules.view-transition": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126",
+     "safari": "18.2",
+     "safari_ios": "18.2"
+    }
+   }
+  },
+  "support": {
+   "chrome": "126",
+   "chrome_android": "126",
+   "edge": "126",
+   "safari": "18.2",
+   "safari_ios": "18.2"
+  }
+ },
+ "id": "cross-document-view-transitions",
+ "groups": [
+  "view-transitions"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-view-transitions-2/#cross-doc-opt-in",
+   "seriesComposition": "full",
+   "shortname": "css-view-transitions-2",
+   "series": {
+    "shortname": "css-view-transitions",
+    "currentSpecification": "css-view-transitions-1",
+    "title": "CSS View Transitions Module",
+    "shortTitle": "CSS View Transitions",
+    "releaseUrl": "https://www.w3.org/TR/css-view-transitions/",
+    "nightlyUrl": "https://drafts.csswg.org/css-view-transitions/"
+   },
+   "seriesVersion": "2",
+   "seriesPrevious": "css-view-transitions-1",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-view-transitions-2/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-view-transitions-2/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-view-transitions-2/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-view-transitions-2/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS View Transitions Module Level 2",
+   "source": "w3c",
+   "shortTitle": "CSS View Transitions 2",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-view-transitions"
+    ]
+   },
+   "fragment": "cross-doc-opt-in"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/At-rules/@view-transition",
+   "title": "@view-transition",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@view-transition"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/193",
+   "position": "support",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features_features_only",
+   "question": "usage",
+   "subQuestion": "html_interoperability_features_features_only",
+   "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features_features_only.freeform.allEditions.0.buckets.2.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features",
+   "question": "usage",
+   "subQuestion": "html_interoperability_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features.freeform.allEditions.0.buckets.2.entity"
+  },
+  {
+   "name": "State of HTML 2024",
+   "url": "https://2024.stateofhtml.com/en-US/usage/#html_interoperability_features",
+   "question": "usage",
+   "subQuestion": "html_interoperability_features",
+   "path": "dataAPI.surveys.state_of_html.html2024.usage.html_interoperability_features.freeform.allEditions.0.buckets.2.entity"
+  },
+  {
+   "name": "State of HTML 2023",
+   "url": "https://2023.stateofhtml.com/en-US/usage/#html_interoperability_features",
+   "question": "usage",
+   "subQuestion": "html_interoperability_features",
+   "path": "dataAPI.surveys.state_of_html.html2023.usage.html_interoperability_features.freeform.currentEdition.buckets.2.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#gamechanger_feature",
+   "question": "usage",
+   "subQuestion": "gamechanger_feature",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.gamechanger_feature.freeform.allEditions.0.buckets.15.groupedBuckets.0.groupedBuckets.50.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#favorite_new_features",
+   "question": "usage",
+   "subQuestion": "favorite_new_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.favorite_new_features.freeform.allEditions.0.buckets.5.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_missing_features",
+   "question": "usage",
+   "subQuestion": "css_missing_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_missing_features.freeform.allEditions.0.buckets.21.groupedBuckets.0.groupedBuckets.15.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_interoperability_features",
+   "question": "usage",
+   "subQuestion": "css_interoperability_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_interoperability_features.freeform.allEditions.0.buckets.4.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/shapes_graphics/#shapes_graphics_pain_points",
+   "question": "shapes_graphics",
+   "subQuestion": "shapes_graphics_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.shapes_graphics.shapes_graphics_pain_points.freeform.allEditions.0.buckets.8.groupedBuckets.0.groupedBuckets.47.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/features/#reading_list",
+   "question": "reading_list",
+   "subQuestion": "reading_list",
+   "path": "dataAPI.surveys.state_of_css.css2025.reading_list.reading_list.combined.allEditions.0.buckets.10.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/layout/#layout_pain_points",
+   "question": "layout",
+   "subQuestion": "layout_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.layout.layout_pain_points.freeform.allEditions.0.buckets.21.groupedBuckets.1.groupedBuckets.54.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/interactions/#interactions_pain_points",
+   "question": "interactions",
+   "subQuestion": "interactions_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.interactions.interactions_pain_points.freeform.allEditions.0.buckets.5.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.29.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/usage/#favorite_new_features",
+   "question": "usage",
+   "subQuestion": "favorite_new_features",
+   "path": "dataAPI.surveys.state_of_css.css2024.usage.favorite_new_features.freeform.currentEdition.buckets.5.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/usage/#css_interoperability_features",
+   "question": "usage",
+   "subQuestion": "css_interoperability_features",
+   "path": "dataAPI.surveys.state_of_css.css2024.usage.css_interoperability_features.freeform.currentEdition.buckets.4.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/features/#reading_list",
+   "question": "reading_list",
+   "subQuestion": "reading_list",
+   "path": "dataAPI.surveys.state_of_css.css2024.reading_list.reading_list.responses.currentEdition.buckets.10.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2024.features.all_features.26.entity"
+  }
+ ],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.1100277,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/232"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:cross-document-view-transitions"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/248",
+  "votes": 33
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1860854"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/1860854"
+  ],
+  "safari": [
+   "https://webkit.org/b/278247"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/278247"
+  ],
+  "webview_ios": [
+   "https://webkit.org/b/278247"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Firefox",
+ "monthsBlocked": 15,
+ "blockedSince": "December 2024"
+}

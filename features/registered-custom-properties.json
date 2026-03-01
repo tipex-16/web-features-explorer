@@ -1,0 +1,316 @@
+{
+ "compat_features": [
+  "api.CSS.registerProperty_static",
+  "api.CSSPropertyRule",
+  "api.CSSPropertyRule.inherits",
+  "api.CSSPropertyRule.initialValue",
+  "api.CSSPropertyRule.name",
+  "api.CSSPropertyRule.syntax",
+  "css.at-rules.property",
+  "css.at-rules.property.inherits",
+  "css.at-rules.property.initial-value",
+  "css.at-rules.property.syntax"
+ ],
+ "description": "The CSS.registerProperty() static method and the @property CSS at-rule register custom properties for which types and behaviors can be defined.",
+ "description_html": "The <code>CSS.registerProperty()</code> static method and the <code>@property</code> CSS at-rule register custom properties for which types and behaviors can be defined.",
+ "kind": "feature",
+ "name": "Registered custom properties",
+ "spec": [
+  "https://drafts.css-houdini.org/css-properties-values-api-1/"
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2024-07-09",
+  "by_compat_key": {
+   "api.CSS.registerProperty_static": {
+    "baseline": "low",
+    "baseline_low_date": "2024-07-09",
+    "support": {
+     "chrome": "78",
+     "chrome_android": "78",
+     "edge": "79",
+     "firefox": "128",
+     "firefox_android": "128",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSSPropertyRule": {
+    "baseline": "low",
+    "baseline_low_date": "2024-07-09",
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85",
+     "firefox": "128",
+     "firefox_android": "128",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSSPropertyRule.inherits": {
+    "baseline": "low",
+    "baseline_low_date": "2024-07-09",
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85",
+     "firefox": "128",
+     "firefox_android": "128",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSSPropertyRule.initialValue": {
+    "baseline": "low",
+    "baseline_low_date": "2024-07-09",
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85",
+     "firefox": "128",
+     "firefox_android": "128",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSSPropertyRule.name": {
+    "baseline": "low",
+    "baseline_low_date": "2024-07-09",
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85",
+     "firefox": "128",
+     "firefox_android": "128",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSSPropertyRule.syntax": {
+    "baseline": "low",
+    "baseline_low_date": "2024-07-09",
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85",
+     "firefox": "128",
+     "firefox_android": "128",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "css.at-rules.property": {
+    "baseline": "low",
+    "baseline_low_date": "2024-07-09",
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85",
+     "firefox": "128",
+     "firefox_android": "128",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "css.at-rules.property.inherits": {
+    "baseline": "low",
+    "baseline_low_date": "2024-07-09",
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85",
+     "firefox": "128",
+     "firefox_android": "128",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "css.at-rules.property.initial-value": {
+    "baseline": "low",
+    "baseline_low_date": "2024-07-09",
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85",
+     "firefox": "128",
+     "firefox_android": "128",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "css.at-rules.property.syntax": {
+    "baseline": "low",
+    "baseline_low_date": "2024-07-09",
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85",
+     "firefox": "128",
+     "firefox_android": "128",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   }
+  },
+  "support": {
+   "chrome": "85",
+   "chrome_android": "85",
+   "edge": "85",
+   "firefox": "128",
+   "firefox_android": "128",
+   "safari": "16.4",
+   "safari_ios": "16.4"
+  }
+ },
+ "id": "registered-custom-properties",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://drafts.css-houdini.org/css-properties-values-api-1/",
+   "seriesComposition": "full",
+   "shortname": "css-properties-values-api-1",
+   "series": {
+    "shortname": "css-properties-values-api",
+    "currentSpecification": "css-properties-values-api-1",
+    "title": "CSS Properties and Values API",
+    "shortTitle": "CSS Properties and Values API",
+    "releaseUrl": "https://www.w3.org/TR/css-properties-values-api/",
+    "nightlyUrl": "https://drafts.css-houdini.org/css-properties-values-api/"
+   },
+   "seriesVersion": "1",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-properties-values-api-1/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.css-houdini.org/css-properties-values-api-1/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/css-houdini-drafts",
+    "sourcePath": "css-properties-values-api/Overview.bs",
+    "filename": "Overview.html"
+   },
+   "title": "CSS Properties and Values API Level 1",
+   "source": "w3c",
+   "shortTitle": "CSS Properties and Values API 1",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-properties-values-api"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/CSS/registerProperty_static",
+   "title": "CSS: registerProperty() static method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/CSS/registerProperty_static"
+  },
+  {
+   "slug": "Web/CSS/Reference/At-rules/@property",
+   "title": "@property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@property"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#gamechanger_feature",
+   "question": "usage",
+   "subQuestion": "gamechanger_feature",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.gamechanger_feature.freeform.allEditions.0.buckets.15.groupedBuckets.0.groupedBuckets.27.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#favorite_new_features",
+   "question": "usage",
+   "subQuestion": "favorite_new_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.favorite_new_features.freeform.allEditions.0.buckets.21.groupedBuckets.0.groupedBuckets.2.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_missing_features",
+   "question": "usage",
+   "subQuestion": "css_missing_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_missing_features.freeform.allEditions.0.buckets.21.groupedBuckets.1.groupedBuckets.73.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_interoperability_features",
+   "question": "usage",
+   "subQuestion": "css_interoperability_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_interoperability_features.freeform.allEditions.0.buckets.21.groupedBuckets.0.groupedBuckets.0.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/features/#reading_list",
+   "question": "reading_list",
+   "subQuestion": "reading_list",
+   "path": "dataAPI.surveys.state_of_css.css2025.reading_list.reading_list.combined.allEditions.0.buckets.18.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.47.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/features/#reading_list",
+   "question": "reading_list",
+   "subQuestion": "reading_list",
+   "path": "dataAPI.surveys.state_of_css.css2024.reading_list.reading_list.responses.currentEdition.buckets.18.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2024.features.all_features.51.entity"
+  }
+ ],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.08330815,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/146"
+ },
+ "interop": [
+  {
+   "year": 2023,
+   "label": "interop-2023-property",
+   "url": "https://wpt.fyi/interop-2023?feature=interop-2023-property"
+  },
+  {
+   "year": 2024,
+   "label": "interop-2023-property",
+   "url": "https://wpt.fyi/interop-2024?feature=interop-2023-property"
+  }
+ ],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:registered-custom-properties"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2024-07-09T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2027-01-09"
+}

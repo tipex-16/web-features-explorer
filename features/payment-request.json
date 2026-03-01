@@ -1,0 +1,469 @@
+{
+ "compat_features": [
+  "api.PaymentMethodChangeEvent",
+  "api.PaymentMethodChangeEvent.PaymentMethodChangeEvent",
+  "api.PaymentMethodChangeEvent.methodDetails",
+  "api.PaymentMethodChangeEvent.methodName",
+  "api.PaymentRequest",
+  "api.PaymentRequest.PaymentRequest",
+  "api.PaymentRequest.PaymentRequest.secure_payment_confirmation_method",
+  "api.PaymentRequest.abort",
+  "api.PaymentRequest.canMakePayment",
+  "api.PaymentRequest.id",
+  "api.PaymentRequest.paymentmethodchange_event",
+  "api.PaymentRequest.show",
+  "api.PaymentRequestUpdateEvent",
+  "api.PaymentRequestUpdateEvent.PaymentRequestUpdateEvent",
+  "api.PaymentRequestUpdateEvent.secure_context_required",
+  "api.PaymentRequestUpdateEvent.updateWith",
+  "api.PaymentResponse",
+  "api.PaymentResponse.complete",
+  "api.PaymentResponse.details",
+  "api.PaymentResponse.methodName",
+  "api.PaymentResponse.payerEmail",
+  "api.PaymentResponse.payerName",
+  "api.PaymentResponse.payerPhone",
+  "api.PaymentResponse.payerdetailchange_event",
+  "api.PaymentResponse.requestId",
+  "api.PaymentResponse.retry",
+  "api.PaymentResponse.shippingAddress",
+  "api.PaymentResponse.shippingOption",
+  "api.PaymentResponse.toJSON",
+  "html.elements.iframe.allow.payment",
+  "http.headers.Permissions-Policy.payment"
+ ],
+ "description": "The PaymentRequest API prompts the user to make a payment through the browser's user interface.",
+ "description_html": "The <code>PaymentRequest</code> API prompts the user to make a payment through the browser's user interface.",
+ "group": [
+  "payments"
+ ],
+ "kind": "feature",
+ "name": "Payment request",
+ "spec": [
+  "https://w3c.github.io/payment-request/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.PaymentMethodChangeEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "76",
+     "chrome_android": "76",
+     "edge": "79",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.PaymentMethodChangeEvent.PaymentMethodChangeEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "76",
+     "chrome_android": "76",
+     "edge": "79",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.PaymentMethodChangeEvent.methodDetails": {
+    "baseline": false,
+    "support": {
+     "chrome": "76",
+     "chrome_android": "76",
+     "edge": "79",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.PaymentMethodChangeEvent.methodName": {
+    "baseline": false,
+    "support": {
+     "chrome": "76",
+     "chrome_android": "76",
+     "edge": "79",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.PaymentRequest": {
+    "baseline": false,
+    "support": {
+     "chrome": "60",
+     "chrome_android": "53",
+     "edge": "15",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.PaymentRequest.PaymentRequest": {
+    "baseline": false,
+    "support": {
+     "chrome": "60",
+     "chrome_android": "53",
+     "edge": "15",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.PaymentRequest.PaymentRequest.secure_payment_confirmation_method": {
+    "baseline": false,
+    "support": {
+     "chrome": "95",
+     "chrome_android": "95",
+     "edge": "95"
+    }
+   },
+   "api.PaymentRequest.abort": {
+    "baseline": false,
+    "support": {
+     "chrome": "60",
+     "chrome_android": "53",
+     "edge": "15",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.PaymentRequest.canMakePayment": {
+    "baseline": false,
+    "support": {
+     "chrome": "60",
+     "chrome_android": "53",
+     "edge": "16",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.PaymentRequest.id": {
+    "baseline": false,
+    "support": {
+     "chrome": "60",
+     "chrome_android": "60",
+     "edge": "16",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.PaymentRequest.paymentmethodchange_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "76",
+     "chrome_android": "76",
+     "edge": "79",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.PaymentRequest.show": {
+    "baseline": false,
+    "support": {
+     "chrome": "60",
+     "chrome_android": "53",
+     "edge": "15",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.PaymentRequestUpdateEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "60",
+     "chrome_android": "53",
+     "edge": "15",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.PaymentRequestUpdateEvent.PaymentRequestUpdateEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "60",
+     "chrome_android": "53",
+     "edge": "15",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.PaymentRequestUpdateEvent.secure_context_required": {
+    "baseline": false,
+    "support": {
+     "chrome": "122",
+     "chrome_android": "122",
+     "edge": "122"
+    }
+   },
+   "api.PaymentRequestUpdateEvent.updateWith": {
+    "baseline": false,
+    "support": {
+     "chrome": "60",
+     "chrome_android": "53",
+     "edge": "15",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.PaymentResponse": {
+    "baseline": false,
+    "support": {
+     "chrome": "60",
+     "chrome_android": "53",
+     "edge": "15",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.PaymentResponse.complete": {
+    "baseline": false,
+    "support": {
+     "chrome": "60",
+     "chrome_android": "53",
+     "edge": "15",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.PaymentResponse.details": {
+    "baseline": false,
+    "support": {
+     "chrome": "60",
+     "chrome_android": "53",
+     "edge": "15",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.PaymentResponse.methodName": {
+    "baseline": false,
+    "support": {
+     "chrome": "60",
+     "chrome_android": "53",
+     "edge": "15",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.PaymentResponse.payerEmail": {
+    "baseline": false,
+    "support": {
+     "chrome": "60",
+     "chrome_android": "53",
+     "edge": "15",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.PaymentResponse.payerName": {
+    "baseline": false,
+    "support": {
+     "chrome": "60",
+     "chrome_android": "56",
+     "edge": "15",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.PaymentResponse.payerPhone": {
+    "baseline": false,
+    "support": {
+     "chrome": "60",
+     "chrome_android": "53",
+     "edge": "15",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.PaymentResponse.payerdetailchange_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "78",
+     "chrome_android": "78",
+     "edge": "79",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.PaymentResponse.requestId": {
+    "baseline": false,
+    "support": {
+     "chrome": "60",
+     "chrome_android": "60",
+     "edge": "16",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.PaymentResponse.retry": {
+    "baseline": false,
+    "support": {
+     "chrome": "78",
+     "chrome_android": "78",
+     "edge": "79",
+     "safari": "12.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.PaymentResponse.shippingAddress": {
+    "baseline": false,
+    "support": {
+     "chrome": "60",
+     "chrome_android": "53",
+     "edge": "15",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.PaymentResponse.shippingOption": {
+    "baseline": false,
+    "support": {
+     "chrome": "60",
+     "chrome_android": "53",
+     "edge": "15",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.PaymentResponse.toJSON": {
+    "baseline": false,
+    "support": {
+     "chrome": "60",
+     "chrome_android": "55",
+     "edge": "15",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "html.elements.iframe.allow.payment": {
+    "baseline": false,
+    "support": {
+     "chrome": "60",
+     "chrome_android": "60",
+     "edge": "79",
+     "firefox": "74",
+     "firefox_android": "79"
+    }
+   },
+   "http.headers.Permissions-Policy.payment": {
+    "baseline": false,
+    "support": {
+     "chrome": "88",
+     "chrome_android": "88",
+     "edge": "88"
+    }
+   }
+  },
+  "support": {
+   "chrome": "60",
+   "chrome_android": "53",
+   "edge": "15",
+   "safari": "11.1",
+   "safari_ios": "11.3"
+  }
+ },
+ "id": "payment-request",
+ "groups": [
+  "payments"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/payment-request/",
+   "seriesComposition": "full",
+   "shortname": "payment-request",
+   "series": {
+    "shortname": "payment-request",
+    "currentSpecification": "payment-request",
+    "title": "Payment Request API",
+    "shortTitle": "Payment Request API",
+    "releaseUrl": "https://www.w3.org/TR/payment-request/",
+    "nightlyUrl": "https://w3c.github.io/payment-request/"
+   },
+   "formerNames": [
+    "payment-request-1.1"
+   ],
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Payments Working Group",
+     "url": "https://www.w3.org/groups/wg/payments/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/payment-request/",
+    "status": "Candidate Recommendation Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/payment-request/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/payment-request",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Payment Request API",
+   "source": "w3c",
+   "shortTitle": "Payment Request API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "payment-request"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Payment_Request_API",
+   "title": "Payment Request API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Payment_Request_API"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/system_capabilities/#system_capabilities_features",
+   "question": "system_capabilities",
+   "subQuestion": "system_capabilities_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.system_capabilities.system_capabilities_features.8.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.65.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+   "question": "_all_features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.65.entity"
+  }
+ ],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:payment-request"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/58",
+  "votes": 7
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1318984"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Firefox",
+ "monthsBlocked": 95,
+ "blockedSince": "April 2018"
+}

@@ -1,0 +1,207 @@
+{
+ "compat_features": [
+  "api.LayoutShift",
+  "api.LayoutShift.hadRecentInput",
+  "api.LayoutShift.lastInputTime",
+  "api.LayoutShift.sources",
+  "api.LayoutShift.toJSON",
+  "api.LayoutShift.value",
+  "api.LayoutShiftAttribution",
+  "api.LayoutShiftAttribution.currentRect",
+  "api.LayoutShiftAttribution.node",
+  "api.LayoutShiftAttribution.previousRect",
+  "api.LayoutShiftAttribution.toJSON"
+ ],
+ "description": "The layout-shift performance entry and LayoutShift API measures the layout stability of web pages based on movements of the elements on the page. They're used to calculate Cumulative Layout Shift (CLS), a common metric for perceived stability.",
+ "description_html": "The <code>layout-shift</code> performance entry and <code>LayoutShift</code> API measures the layout stability of web pages based on movements of the elements on the page. They're used to calculate Cumulative Layout Shift (CLS), a common metric for perceived stability.",
+ "group": [
+  "performance"
+ ],
+ "kind": "feature",
+ "name": "Layout instability",
+ "spec": [
+  "https://wicg.github.io/layout-instability/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.LayoutShift": {
+    "baseline": false,
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79"
+    }
+   },
+   "api.LayoutShift.hadRecentInput": {
+    "baseline": false,
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79"
+    }
+   },
+   "api.LayoutShift.lastInputTime": {
+    "baseline": false,
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79"
+    }
+   },
+   "api.LayoutShift.sources": {
+    "baseline": false,
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84"
+    }
+   },
+   "api.LayoutShift.toJSON": {
+    "baseline": false,
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79"
+    }
+   },
+   "api.LayoutShift.value": {
+    "baseline": false,
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79"
+    }
+   },
+   "api.LayoutShiftAttribution": {
+    "baseline": false,
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84"
+    }
+   },
+   "api.LayoutShiftAttribution.currentRect": {
+    "baseline": false,
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84"
+    }
+   },
+   "api.LayoutShiftAttribution.node": {
+    "baseline": false,
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84"
+    }
+   },
+   "api.LayoutShiftAttribution.previousRect": {
+    "baseline": false,
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84"
+    }
+   },
+   "api.LayoutShiftAttribution.toJSON": {
+    "baseline": false,
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84"
+    }
+   }
+  },
+  "support": {
+   "chrome": "84",
+   "chrome_android": "84",
+   "edge": "84"
+  }
+ },
+ "id": "layout-instability",
+ "groups": [
+  "performance"
+ ],
+ "specs": [
+  {
+   "url": "https://wicg.github.io/layout-instability/",
+   "seriesComposition": "full",
+   "shortname": "layout-instability",
+   "series": {
+    "shortname": "layout-instability",
+    "currentSpecification": "layout-instability",
+    "title": "Layout Instability API",
+    "shortTitle": "Layout Instability API",
+    "nightlyUrl": "https://wicg.github.io/layout-instability/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://wicg.github.io/layout-instability/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/WICG/layout-instability",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Layout Instability API",
+   "source": "spec",
+   "shortTitle": "Layout Instability API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "layout-instability"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/LayoutShift",
+   "title": "LayoutShift",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/LayoutShift"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/374",
+   "position": "positive",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.41374725,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/277"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:layout-instability"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/122",
+  "votes": 15
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1651528"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

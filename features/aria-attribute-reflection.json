@@ -1,0 +1,1534 @@
+{
+ "compat_features": [
+  "api.Element.ariaActiveDescendantElement",
+  "api.Element.ariaAtomic",
+  "api.Element.ariaAutoComplete",
+  "api.Element.ariaBrailleLabel",
+  "api.Element.ariaBrailleRoleDescription",
+  "api.Element.ariaBusy",
+  "api.Element.ariaChecked",
+  "api.Element.ariaColCount",
+  "api.Element.ariaColIndex",
+  "api.Element.ariaColIndexText",
+  "api.Element.ariaColSpan",
+  "api.Element.ariaControlsElements",
+  "api.Element.ariaCurrent",
+  "api.Element.ariaDescribedByElements",
+  "api.Element.ariaDescription",
+  "api.Element.ariaDetailsElements",
+  "api.Element.ariaDisabled",
+  "api.Element.ariaErrorMessageElements",
+  "api.Element.ariaExpanded",
+  "api.Element.ariaFlowToElements",
+  "api.Element.ariaHasPopup",
+  "api.Element.ariaHidden",
+  "api.Element.ariaInvalid",
+  "api.Element.ariaKeyShortcuts",
+  "api.Element.ariaLabel",
+  "api.Element.ariaLabelledByElements",
+  "api.Element.ariaLevel",
+  "api.Element.ariaLive",
+  "api.Element.ariaModal",
+  "api.Element.ariaMultiLine",
+  "api.Element.ariaMultiSelectable",
+  "api.Element.ariaOrientation",
+  "api.Element.ariaOwnsElements",
+  "api.Element.ariaPlaceholder",
+  "api.Element.ariaPosInSet",
+  "api.Element.ariaPressed",
+  "api.Element.ariaReadOnly",
+  "api.Element.ariaRelevant",
+  "api.Element.ariaRequired",
+  "api.Element.ariaRoleDescription",
+  "api.Element.ariaRowCount",
+  "api.Element.ariaRowIndex",
+  "api.Element.ariaRowIndexText",
+  "api.Element.ariaRowSpan",
+  "api.Element.ariaSelected",
+  "api.Element.ariaSetSize",
+  "api.Element.ariaSort",
+  "api.Element.ariaValueMax",
+  "api.Element.ariaValueMin",
+  "api.Element.ariaValueNow",
+  "api.Element.ariaValueText",
+  "api.Element.role",
+  "api.ElementInternals.ariaActiveDescendantElement",
+  "api.ElementInternals.ariaAtomic",
+  "api.ElementInternals.ariaAutoComplete",
+  "api.ElementInternals.ariaBrailleLabel",
+  "api.ElementInternals.ariaBrailleRoleDescription",
+  "api.ElementInternals.ariaBusy",
+  "api.ElementInternals.ariaChecked",
+  "api.ElementInternals.ariaColCount",
+  "api.ElementInternals.ariaColIndex",
+  "api.ElementInternals.ariaColIndexText",
+  "api.ElementInternals.ariaColSpan",
+  "api.ElementInternals.ariaControlsElements",
+  "api.ElementInternals.ariaCurrent",
+  "api.ElementInternals.ariaDescribedByElements",
+  "api.ElementInternals.ariaDescription",
+  "api.ElementInternals.ariaDetailsElements",
+  "api.ElementInternals.ariaDisabled",
+  "api.ElementInternals.ariaErrorMessageElements",
+  "api.ElementInternals.ariaExpanded",
+  "api.ElementInternals.ariaFlowToElements",
+  "api.ElementInternals.ariaHasPopup",
+  "api.ElementInternals.ariaHidden",
+  "api.ElementInternals.ariaInvalid",
+  "api.ElementInternals.ariaKeyShortcuts",
+  "api.ElementInternals.ariaLabel",
+  "api.ElementInternals.ariaLabelledByElements",
+  "api.ElementInternals.ariaLevel",
+  "api.ElementInternals.ariaLive",
+  "api.ElementInternals.ariaModal",
+  "api.ElementInternals.ariaMultiLine",
+  "api.ElementInternals.ariaMultiSelectable",
+  "api.ElementInternals.ariaOrientation",
+  "api.ElementInternals.ariaOwnsElements",
+  "api.ElementInternals.ariaPlaceholder",
+  "api.ElementInternals.ariaPosInSet",
+  "api.ElementInternals.ariaPressed",
+  "api.ElementInternals.ariaReadOnly",
+  "api.ElementInternals.ariaRequired",
+  "api.ElementInternals.ariaRoleDescription",
+  "api.ElementInternals.ariaRowCount",
+  "api.ElementInternals.ariaRowIndex",
+  "api.ElementInternals.ariaRowIndexText",
+  "api.ElementInternals.ariaRowSpan",
+  "api.ElementInternals.ariaSelected",
+  "api.ElementInternals.ariaSetSize",
+  "api.ElementInternals.ariaSort",
+  "api.ElementInternals.ariaValueMax",
+  "api.ElementInternals.ariaValueMin",
+  "api.ElementInternals.ariaValueNow",
+  "api.ElementInternals.ariaValueText",
+  "api.ElementInternals.role"
+ ],
+ "description": "WAI-ARIA attributes have corresponding properties on Element and ElementInternals objects.",
+ "description_html": "WAI-ARIA attributes have corresponding properties on <code>Element</code> and <code>ElementInternals</code> objects.",
+ "kind": "feature",
+ "name": "ARIA attribute reflection",
+ "spec": [
+  "https://w3c.github.io/aria/#accessibilityroleandproperties-correspondence"
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2023-10-24",
+  "by_compat_key": {
+   "api.Element.ariaActiveDescendantElement": {
+    "baseline": "low",
+    "baseline_low_date": "2025-04-04",
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135",
+     "firefox": "136",
+     "firefox_android": "136",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.Element.ariaAtomic": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaAutoComplete": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaBrailleLabel": {
+    "baseline": "low",
+    "baseline_low_date": "2024-09-16",
+    "support": {
+     "chrome": "107",
+     "chrome_android": "107",
+     "edge": "107",
+     "firefox": "125",
+     "firefox_android": "125",
+     "safari": "18",
+     "safari_ios": "18"
+    }
+   },
+   "api.Element.ariaBrailleRoleDescription": {
+    "baseline": "low",
+    "baseline_low_date": "2024-09-16",
+    "support": {
+     "chrome": "107",
+     "chrome_android": "107",
+     "edge": "107",
+     "firefox": "125",
+     "firefox_android": "125",
+     "safari": "18",
+     "safari_ios": "18"
+    }
+   },
+   "api.Element.ariaBusy": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaChecked": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaColCount": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaColIndex": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaColIndexText": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "128",
+     "chrome_android": "128",
+     "edge": "128",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.Element.ariaColSpan": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaControlsElements": {
+    "baseline": "low",
+    "baseline_low_date": "2025-04-04",
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135",
+     "firefox": "136",
+     "firefox_android": "136",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.Element.ariaCurrent": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaDescribedByElements": {
+    "baseline": "low",
+    "baseline_low_date": "2025-04-04",
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135",
+     "firefox": "136",
+     "firefox_android": "136",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.Element.ariaDescription": {
+    "baseline": "low",
+    "baseline_low_date": "2024-03-05",
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "17.4",
+     "safari_ios": "17.4"
+    }
+   },
+   "api.Element.ariaDetailsElements": {
+    "baseline": "low",
+    "baseline_low_date": "2025-04-04",
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135",
+     "firefox": "136",
+     "firefox_android": "136",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.Element.ariaDisabled": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaErrorMessageElements": {
+    "baseline": "low",
+    "baseline_low_date": "2025-04-04",
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135",
+     "firefox": "136",
+     "firefox_android": "136",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.Element.ariaExpanded": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaFlowToElements": {
+    "baseline": "low",
+    "baseline_low_date": "2025-04-04",
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135",
+     "firefox": "136",
+     "firefox_android": "136",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.Element.ariaHasPopup": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaHidden": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaInvalid": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaKeyShortcuts": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaLabel": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaLabelledByElements": {
+    "baseline": "low",
+    "baseline_low_date": "2025-04-04",
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135",
+     "firefox": "136",
+     "firefox_android": "136",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.Element.ariaLevel": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaLive": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaModal": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaMultiLine": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaMultiSelectable": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaOrientation": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaOwnsElements": {
+    "baseline": false,
+    "support": {
+     "firefox": "136",
+     "firefox_android": "136",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.Element.ariaPlaceholder": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaPosInSet": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaPressed": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaReadOnly": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaRelevant": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaRequired": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaRoleDescription": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaRowCount": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaRowIndex": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaRowIndexText": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "128",
+     "chrome_android": "128",
+     "edge": "128",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.Element.ariaRowSpan": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaSelected": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaSetSize": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaSort": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaValueMax": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaValueMin": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaValueNow": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.ariaValueText": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Element.role": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "103",
+     "chrome_android": "103",
+     "edge": "103",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.ElementInternals.ariaActiveDescendantElement": {
+    "baseline": "low",
+    "baseline_low_date": "2025-04-04",
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135",
+     "firefox": "136",
+     "firefox_android": "136",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaAtomic": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaAutoComplete": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaBrailleLabel": {
+    "baseline": "low",
+    "baseline_low_date": "2024-09-16",
+    "support": {
+     "chrome": "107",
+     "chrome_android": "107",
+     "edge": "107",
+     "firefox": "125",
+     "firefox_android": "125",
+     "safari": "18",
+     "safari_ios": "18"
+    }
+   },
+   "api.ElementInternals.ariaBrailleRoleDescription": {
+    "baseline": "low",
+    "baseline_low_date": "2024-09-16",
+    "support": {
+     "chrome": "107",
+     "chrome_android": "107",
+     "edge": "107",
+     "firefox": "125",
+     "firefox_android": "125",
+     "safari": "18",
+     "safari_ios": "18"
+    }
+   },
+   "api.ElementInternals.ariaBusy": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaChecked": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaColCount": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaColIndex": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaColIndexText": {
+    "baseline": false,
+    "support": {
+     "chrome": "128",
+     "chrome_android": "128",
+     "edge": "128",
+     "firefox": "119",
+     "firefox_android": "119"
+    }
+   },
+   "api.ElementInternals.ariaColSpan": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaControlsElements": {
+    "baseline": "low",
+    "baseline_low_date": "2025-04-04",
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135",
+     "firefox": "136",
+     "firefox_android": "136",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaCurrent": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaDescribedByElements": {
+    "baseline": "low",
+    "baseline_low_date": "2025-04-04",
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135",
+     "firefox": "136",
+     "firefox_android": "136",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaDescription": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "firefox": "119",
+     "firefox_android": "119"
+    }
+   },
+   "api.ElementInternals.ariaDetailsElements": {
+    "baseline": "low",
+    "baseline_low_date": "2025-04-04",
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135",
+     "firefox": "136",
+     "firefox_android": "136",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaDisabled": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaErrorMessageElements": {
+    "baseline": "low",
+    "baseline_low_date": "2025-04-04",
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135",
+     "firefox": "136",
+     "firefox_android": "136",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaExpanded": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaFlowToElements": {
+    "baseline": "low",
+    "baseline_low_date": "2025-04-04",
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135",
+     "firefox": "136",
+     "firefox_android": "136",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaHasPopup": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaHidden": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaInvalid": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "102",
+     "edge": "102",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaKeyShortcuts": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaLabel": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaLabelledByElements": {
+    "baseline": "low",
+    "baseline_low_date": "2025-04-04",
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135",
+     "firefox": "136",
+     "firefox_android": "136",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaLevel": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaLive": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaModal": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaMultiLine": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaMultiSelectable": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaOrientation": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaOwnsElements": {
+    "baseline": false,
+    "support": {
+     "firefox": "136",
+     "firefox_android": "136",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaPlaceholder": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaPosInSet": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaPressed": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaReadOnly": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaRequired": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaRoleDescription": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaRowCount": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaRowIndex": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaRowIndexText": {
+    "baseline": false,
+    "support": {
+     "chrome": "128",
+     "chrome_android": "128",
+     "edge": "128",
+     "firefox": "119",
+     "firefox_android": "119"
+    }
+   },
+   "api.ElementInternals.ariaRowSpan": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaSelected": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaSetSize": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaSort": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaValueMax": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaValueMin": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaValueNow": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.ariaValueText": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ElementInternals.role": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "103",
+     "chrome_android": "103",
+     "edge": "103",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   }
+  },
+  "support": {
+   "chrome": "103",
+   "chrome_android": "103",
+   "edge": "103",
+   "firefox": "119",
+   "firefox_android": "119",
+   "safari": "16.4",
+   "safari_ios": "16.4"
+  }
+ },
+ "id": "aria-attribute-reflection",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/aria/#accessibilityroleandproperties-correspondence",
+   "seriesComposition": "full",
+   "shortname": "wai-aria-1.2",
+   "series": {
+    "shortname": "wai-aria",
+    "currentSpecification": "wai-aria-1.2",
+    "title": "Accessible Rich Internet Applications (WAI-ARIA)",
+    "shortTitle": "WAI-ARIA",
+    "releaseUrl": "https://www.w3.org/TR/wai-aria/",
+    "nightlyUrl": "https://w3c.github.io/aria/"
+   },
+   "seriesVersion": "1.2",
+   "title": "Accessible Rich Internet Applications (WAI-ARIA)",
+   "seriesNext": "wai-aria-1.3",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Accessible Rich Internet Applications Working Group",
+     "url": "https://www.w3.org/WAI/about/groups/ariawg/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/wai-aria-1.2/",
+    "status": "Recommendation",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/aria/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/aria",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "source": "w3c",
+   "shortTitle": "WAI-ARIA",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "wai-aria"
+    ]
+   },
+   "fragment": "accessibilityroleandproperties-correspondence"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Element#instance_properties",
+   "title": "Element",
+   "anchor": "instance_properties",
+   "url": "https://developer.mozilla.org/docs/Web/API/Element#instance_properties"
+  },
+  {
+   "slug": "Web/API/ElementInternals#instance_properties",
+   "title": "ElementInternals",
+   "anchor": "instance_properties",
+   "url": "https://developer.mozilla.org/docs/Web/API/ElementInternals#instance_properties"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.16830915,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/96"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:aria-attribute-reflection"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2023-10-24T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2026-04-24"
+}

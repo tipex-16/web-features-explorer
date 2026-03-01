@@ -1,0 +1,112 @@
+{
+ "compat_features": [
+  "css.at-rules.media.-webkit-transform-3d"
+ ],
+ "description": "The @supports (-webkit-transform-3d) CSS media query is a standardized compatibility alternative to @supports (transform-style).",
+ "description_html": "The <code>@supports (-webkit-transform-3d)</code> CSS media query is a standardized compatibility alternative to <code>@supports (transform-style)</code>.",
+ "group": [
+  "media-queries"
+ ],
+ "kind": "feature",
+ "name": "@supports (compatibility prefix)",
+ "spec": [
+  "https://compat.spec.whatwg.org/#css-media-queries-webkit-transform-3d"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2019-03-20",
+  "baseline_low_date": "2016-09-20",
+  "by_compat_key": {
+   "css.at-rules.media.-webkit-transform-3d": {
+    "baseline": "high",
+    "baseline_high_date": "2019-03-20",
+    "baseline_low_date": "2016-09-20",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "49",
+     "firefox_android": "49",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   }
+  },
+  "support": {
+   "chrome": "2",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "49",
+   "firefox_android": "49",
+   "safari": "4",
+   "safari_ios": "3.2"
+  }
+ },
+ "id": "supports-compat",
+ "groups": [
+  "media-queries"
+ ],
+ "specs": [
+  {
+   "url": "https://compat.spec.whatwg.org/#css-media-queries-webkit-transform-3d",
+   "seriesComposition": "full",
+   "shortname": "compat",
+   "series": {
+    "shortname": "compat",
+    "currentSpecification": "compat",
+    "title": "Compatibility",
+    "shortTitle": "Compatibility",
+    "nightlyUrl": "https://compat.spec.whatwg.org/"
+   },
+   "nightly": {
+    "url": "https://compat.spec.whatwg.org/",
+    "status": "Living Standard",
+    "sourcePath": "compatibility.bs",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/compat",
+    "filename": "index.html"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "Compatibility Workstream",
+     "url": "https://compat.spec.whatwg.org/"
+    }
+   ],
+   "title": "Compatibility",
+   "source": "whatwg",
+   "shortTitle": "Compatibility",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "compat"
+    ]
+   },
+   "fragment": "css-media-queries-webkit-transform-3d"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/At-rules/@media/-webkit-transform-3d",
+   "title": "-webkit-transform-3d",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/-webkit-transform-3d"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:supports-compat"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2016-09-20T00:00:00.000Z",
+ "baselineHighDateAsObject": "2019-03-20T00:00:00.000Z"
+}

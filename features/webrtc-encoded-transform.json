@@ -1,0 +1,420 @@
+{
+ "compat_features": [
+  "api.DedicatedWorkerGlobalScope.rtctransform_event",
+  "api.RTCEncodedAudioFrame",
+  "api.RTCEncodedAudioFrame.RTCEncodedAudioFrame",
+  "api.RTCEncodedAudioFrame.data",
+  "api.RTCEncodedAudioFrame.getMetadata",
+  "api.RTCEncodedVideoFrame",
+  "api.RTCEncodedVideoFrame.RTCEncodedVideoFrame",
+  "api.RTCEncodedVideoFrame.data",
+  "api.RTCEncodedVideoFrame.getMetadata",
+  "api.RTCEncodedVideoFrame.type",
+  "api.RTCRtpReceiver.transform",
+  "api.RTCRtpScriptTransform",
+  "api.RTCRtpScriptTransform.RTCRtpScriptTransform",
+  "api.RTCRtpScriptTransformer",
+  "api.RTCRtpScriptTransformer.generateKeyFrame",
+  "api.RTCRtpScriptTransformer.options",
+  "api.RTCRtpScriptTransformer.readable",
+  "api.RTCRtpScriptTransformer.sendKeyFrameRequest",
+  "api.RTCRtpScriptTransformer.writable",
+  "api.RTCRtpSender.transform",
+  "api.RTCTransformEvent",
+  "api.RTCTransformEvent.transformer"
+ ],
+ "description": "The WebRTC encoded transform API allows you to modify audio and video streams in WebRTC connections. For example, it can be used for visual effects or custom codecs.",
+ "description_html": "The WebRTC encoded transform API allows you to modify audio and video streams in WebRTC connections. For example, it can be used for visual effects or custom codecs.",
+ "group": [
+  "webrtc"
+ ],
+ "kind": "feature",
+ "name": "WebRTC encoded transform",
+ "spec": [
+  "https://w3c.github.io/webrtc-encoded-transform/"
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2025-10-03",
+  "by_compat_key": {
+   "api.DedicatedWorkerGlobalScope.rtctransform_event": {
+    "baseline": "low",
+    "baseline_low_date": "2025-10-03",
+    "support": {
+     "chrome": "141",
+     "chrome_android": "141",
+     "edge": "141",
+     "firefox": "117",
+     "firefox_android": "117",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "api.RTCEncodedAudioFrame": {
+    "baseline": "low",
+    "baseline_low_date": "2023-08-29",
+    "support": {
+     "chrome": "86",
+     "chrome_android": "86",
+     "edge": "86",
+     "firefox": "117",
+     "firefox_android": "117",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "api.RTCEncodedAudioFrame.RTCEncodedAudioFrame": {
+    "baseline": "low",
+    "baseline_low_date": "2025-11-11",
+    "support": {
+     "chrome": "127",
+     "chrome_android": "127",
+     "edge": "127",
+     "firefox": "145",
+     "firefox_android": "145",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.RTCEncodedAudioFrame.data": {
+    "baseline": "low",
+    "baseline_low_date": "2023-08-29",
+    "support": {
+     "chrome": "86",
+     "chrome_android": "86",
+     "edge": "86",
+     "firefox": "117",
+     "firefox_android": "117",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "api.RTCEncodedAudioFrame.getMetadata": {
+    "baseline": "low",
+    "baseline_low_date": "2023-08-29",
+    "support": {
+     "chrome": "86",
+     "chrome_android": "86",
+     "edge": "86",
+     "firefox": "117",
+     "firefox_android": "117",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "api.RTCEncodedVideoFrame": {
+    "baseline": "low",
+    "baseline_low_date": "2023-08-29",
+    "support": {
+     "chrome": "86",
+     "chrome_android": "86",
+     "edge": "86",
+     "firefox": "117",
+     "firefox_android": "117",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "api.RTCEncodedVideoFrame.RTCEncodedVideoFrame": {
+    "baseline": "low",
+    "baseline_low_date": "2025-11-11",
+    "support": {
+     "chrome": "127",
+     "chrome_android": "127",
+     "edge": "127",
+     "firefox": "145",
+     "firefox_android": "145",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.RTCEncodedVideoFrame.data": {
+    "baseline": "low",
+    "baseline_low_date": "2023-08-29",
+    "support": {
+     "chrome": "86",
+     "chrome_android": "86",
+     "edge": "86",
+     "firefox": "117",
+     "firefox_android": "117",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "api.RTCEncodedVideoFrame.getMetadata": {
+    "baseline": "low",
+    "baseline_low_date": "2023-08-29",
+    "support": {
+     "chrome": "86",
+     "chrome_android": "86",
+     "edge": "86",
+     "firefox": "117",
+     "firefox_android": "117",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "api.RTCEncodedVideoFrame.type": {
+    "baseline": "low",
+    "baseline_low_date": "2023-08-29",
+    "support": {
+     "chrome": "86",
+     "chrome_android": "86",
+     "edge": "86",
+     "firefox": "117",
+     "firefox_android": "117",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "api.RTCRtpReceiver.transform": {
+    "baseline": "low",
+    "baseline_low_date": "2025-10-03",
+    "support": {
+     "chrome": "141",
+     "chrome_android": "141",
+     "edge": "141",
+     "firefox": "117",
+     "firefox_android": "117",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "api.RTCRtpScriptTransform": {
+    "baseline": "low",
+    "baseline_low_date": "2025-10-03",
+    "support": {
+     "chrome": "141",
+     "chrome_android": "141",
+     "edge": "141",
+     "firefox": "117",
+     "firefox_android": "117",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "api.RTCRtpScriptTransform.RTCRtpScriptTransform": {
+    "baseline": "low",
+    "baseline_low_date": "2025-10-03",
+    "support": {
+     "chrome": "141",
+     "chrome_android": "141",
+     "edge": "141",
+     "firefox": "117",
+     "firefox_android": "117",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "api.RTCRtpScriptTransformer": {
+    "baseline": "low",
+    "baseline_low_date": "2025-10-03",
+    "support": {
+     "chrome": "141",
+     "chrome_android": "141",
+     "edge": "141",
+     "firefox": "117",
+     "firefox_android": "117",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "api.RTCRtpScriptTransformer.generateKeyFrame": {
+    "baseline": false,
+    "support": {
+     "firefox": "117",
+     "firefox_android": "117",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "api.RTCRtpScriptTransformer.options": {
+    "baseline": "low",
+    "baseline_low_date": "2025-10-03",
+    "support": {
+     "chrome": "141",
+     "chrome_android": "141",
+     "edge": "141",
+     "firefox": "117",
+     "firefox_android": "117",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "api.RTCRtpScriptTransformer.readable": {
+    "baseline": "low",
+    "baseline_low_date": "2025-10-03",
+    "support": {
+     "chrome": "141",
+     "chrome_android": "141",
+     "edge": "141",
+     "firefox": "117",
+     "firefox_android": "117",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "api.RTCRtpScriptTransformer.sendKeyFrameRequest": {
+    "baseline": "low",
+    "baseline_low_date": "2025-10-03",
+    "support": {
+     "chrome": "141",
+     "chrome_android": "141",
+     "edge": "141",
+     "firefox": "117",
+     "firefox_android": "117",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "api.RTCRtpScriptTransformer.writable": {
+    "baseline": "low",
+    "baseline_low_date": "2025-10-03",
+    "support": {
+     "chrome": "141",
+     "chrome_android": "141",
+     "edge": "141",
+     "firefox": "117",
+     "firefox_android": "117",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "api.RTCRtpSender.transform": {
+    "baseline": "low",
+    "baseline_low_date": "2025-10-03",
+    "support": {
+     "chrome": "141",
+     "chrome_android": "141",
+     "edge": "141",
+     "firefox": "117",
+     "firefox_android": "117",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "api.RTCTransformEvent": {
+    "baseline": "low",
+    "baseline_low_date": "2025-10-03",
+    "support": {
+     "chrome": "141",
+     "chrome_android": "141",
+     "edge": "141",
+     "firefox": "117",
+     "firefox_android": "117",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "api.RTCTransformEvent.transformer": {
+    "baseline": "low",
+    "baseline_low_date": "2025-10-03",
+    "support": {
+     "chrome": "141",
+     "chrome_android": "141",
+     "edge": "141",
+     "firefox": "117",
+     "firefox_android": "117",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   }
+  },
+  "support": {
+   "chrome": "141",
+   "chrome_android": "141",
+   "edge": "141",
+   "firefox": "117",
+   "firefox_android": "117",
+   "safari": "15.4",
+   "safari_ios": "15.4"
+  }
+ },
+ "id": "webrtc-encoded-transform",
+ "groups": [
+  "webrtc"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/webrtc-encoded-transform/",
+   "seriesComposition": "full",
+   "shortname": "webrtc-encoded-transform",
+   "series": {
+    "shortname": "webrtc-encoded-transform",
+    "currentSpecification": "webrtc-encoded-transform",
+    "title": "WebRTC Encoded Transform",
+    "shortTitle": "WebRTC Encoded Transform",
+    "releaseUrl": "https://www.w3.org/TR/webrtc-encoded-transform/",
+    "nightlyUrl": "https://w3c.github.io/webrtc-encoded-transform/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Real-Time Communications Working Group",
+     "url": "https://www.w3.org/groups/wg/webrtc/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/webrtc-encoded-transform/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/webrtc-encoded-transform/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/webrtc-encoded-transform",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "WebRTC Encoded Transform",
+   "source": "w3c",
+   "shortTitle": "WebRTC Encoded Transform",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "webrtc-encoded-transform"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/WebRTC_API/Using_Encoded_Transforms",
+   "title": "Using WebRTC Encoded Transforms",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/WebRTC_API/Using_Encoded_Transforms"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/330",
+   "position": "positive",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [
+  {
+   "year": 2025,
+   "label": "interop-2025-webrtc",
+   "url": "https://wpt.fyi/interop-2025?feature=interop-2025-webrtc"
+  }
+ ],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:webrtc-encoded-transform"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2025-10-03T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2028-04-03"
+}

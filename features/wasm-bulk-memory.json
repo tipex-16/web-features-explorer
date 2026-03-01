@@ -1,0 +1,73 @@
+{
+ "caniuse": [
+  "wasm-bulk-memory"
+ ],
+ "compat_features": [
+  "webassembly.bulk-memory-operations"
+ ],
+ "description": "Bulk memory operations, such as copy and init, mirror the efficiency of native memcpy and memmove operations.",
+ "description_html": "Bulk memory operations, such as <code>copy</code> and <code>init</code>, mirror the efficiency of native <code>memcpy</code> and <code>memmove</code> operations.",
+ "group": [
+  "webassembly"
+ ],
+ "kind": "feature",
+ "name": "Bulk memory operations (WebAssembly)",
+ "spec": [
+  "https://github.com/WebAssembly/spec/blob/main/proposals/bulk-memory-operations/Overview.md"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2024-04-25",
+  "baseline_low_date": "2021-10-25",
+  "by_compat_key": {
+   "webassembly.bulk-memory-operations": {
+    "baseline": "high",
+    "baseline_high_date": "2024-04-25",
+    "baseline_low_date": "2021-10-25",
+    "support": {
+     "chrome": "75",
+     "chrome_android": "75",
+     "edge": "79",
+     "firefox": "78",
+     "firefox_android": "79",
+     "safari": "15.1",
+     "safari_ios": "15.1"
+    }
+   }
+  },
+  "support": {
+   "chrome": "75",
+   "chrome_android": "75",
+   "edge": "79",
+   "firefox": "78",
+   "firefox_android": "79",
+   "safari": "15.1",
+   "safari_ios": "15.1"
+  }
+ },
+ "id": "wasm-bulk-memory",
+ "groups": [
+  "webassembly"
+ ],
+ "specs": [
+  {
+   "url": "https://github.com/WebAssembly/spec/blob/main/proposals/bulk-memory-operations/Overview.md"
+  }
+ ],
+ "mdnUrls": [],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.01603082,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/369"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:wasm-bulk-memory"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2021-10-25T00:00:00.000Z",
+ "baselineHighDateAsObject": "2024-04-25T00:00:00.000Z"
+}

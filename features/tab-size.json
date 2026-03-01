@@ -1,0 +1,140 @@
+{
+ "caniuse": [
+  "css3-tabsize"
+ ],
+ "compat_features": [
+  "css.properties.tab-size",
+  "css.properties.tab-size.length"
+ ],
+ "description": "The tab-size CSS property sets the width of the tab character.",
+ "description_html": "The <code>tab-size</code> CSS property sets the width of the tab character.",
+ "group": [
+  "white-space"
+ ],
+ "kind": "feature",
+ "name": "tab-size",
+ "spec": [
+  "https://drafts.csswg.org/css-text-4/#tab-size-property"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2024-02-10",
+  "baseline_low_date": "2021-08-10",
+  "by_compat_key": {
+   "css.properties.tab-size": {
+    "baseline": "high",
+    "baseline_high_date": "2024-02-10",
+    "baseline_low_date": "2021-08-10",
+    "support": {
+     "chrome": "21",
+     "chrome_android": "25",
+     "edge": "79",
+     "firefox": "91",
+     "firefox_android": "91",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "css.properties.tab-size.length": {
+    "baseline": "high",
+    "baseline_high_date": "2024-02-10",
+    "baseline_low_date": "2021-08-10",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "79",
+     "firefox": "91",
+     "firefox_android": "91",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   }
+  },
+  "support": {
+   "chrome": "42",
+   "chrome_android": "42",
+   "edge": "79",
+   "firefox": "91",
+   "firefox_android": "91",
+   "safari": "13.1",
+   "safari_ios": "13.4"
+  }
+ },
+ "id": "tab-size",
+ "groups": [
+  "white-space"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-text-4/#tab-size-property",
+   "seriesComposition": "delta",
+   "shortname": "css-text-4",
+   "series": {
+    "shortname": "css-text",
+    "currentSpecification": "css-text-3",
+    "title": "CSS Text",
+    "shortTitle": "CSS Text",
+    "releaseUrl": "https://www.w3.org/TR/css-text/",
+    "nightlyUrl": "https://drafts.csswg.org/css-text/"
+   },
+   "seriesVersion": "4",
+   "seriesPrevious": "css-text-3",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-text-4/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-text-4/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-text-4/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-text-4/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Text Module Level 4",
+   "source": "w3c",
+   "shortTitle": "CSS Text 4",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-text"
+    ]
+   },
+   "fragment": "tab-size-property"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/tab-size",
+   "title": "tab-size",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/tab-size"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:tab-size"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2021-08-10T00:00:00.000Z",
+ "baselineHighDateAsObject": "2024-02-10T00:00:00.000Z"
+}

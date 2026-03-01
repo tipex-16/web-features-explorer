@@ -1,0 +1,75 @@
+{
+ "compat_features": [
+  "webassembly.multiMemory"
+ ],
+ "description": "A single module in WebAssembly can have multiple memories.",
+ "description_html": "A single module in WebAssembly can have multiple memories.",
+ "group": [
+  "webassembly"
+ ],
+ "kind": "feature",
+ "name": "Multi-memory (WebAssembly)",
+ "spec": [
+  "https://github.com/WebAssembly/multi-memory/blob/main/proposals/multi-memory/Overview.md"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "webassembly.multiMemory": {
+    "baseline": false,
+    "support": {
+     "chrome": "120",
+     "chrome_android": "120",
+     "edge": "120",
+     "firefox": "125",
+     "firefox_android": "125"
+    }
+   }
+  },
+  "support": {
+   "chrome": "120",
+   "chrome_android": "120",
+   "edge": "120",
+   "firefox": "125",
+   "firefox_android": "125"
+  }
+ },
+ "id": "wasm-multi-memory",
+ "groups": [
+  "webassembly"
+ ],
+ "specs": [
+  {
+   "url": "https://github.com/WebAssembly/multi-memory/blob/main/proposals/multi-memory/Overview.md"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "WebAssembly/Reference/JavaScript_interface/Memory",
+   "title": "WebAssembly.Memory",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/WebAssembly/Reference/JavaScript_interface/Memory"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 5.7e-7,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/359"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:wasm-multi-memory"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/223",
+  "votes": 0
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Safari",
+ "monthsBlocked": 23,
+ "blockedSince": "April 2024"
+}

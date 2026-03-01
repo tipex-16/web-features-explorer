@@ -1,0 +1,185 @@
+{
+ "caniuse": [
+  "css-env-function"
+ ],
+ "compat_features": [
+  "css.types.env",
+  "css.types.env.safe-area-inset-bottom",
+  "css.types.env.safe-area-inset-left",
+  "css.types.env.safe-area-inset-right",
+  "css.types.env.safe-area-inset-top"
+ ],
+ "description": "The safe-area-inset- CSS environment variables represent a rectangle that cannot cut off content within a non-rectangular screen. For example, top:\\ env(safe-area-inset-top); positions the top of an element below the notch on an iPhone.",
+ "description_html": "The <code>safe-area-inset-</code> CSS environment variables represent a rectangle that cannot cut off content within a non-rectangular screen. For example, <code>top:\\ env(safe-area-inset-top);</code> positions the top of an element below the notch on an iPhone.",
+ "group": [
+  "environment-variables"
+ ],
+ "kind": "feature",
+ "name": "Safe area inset environment variables",
+ "spec": [
+  "https://drafts.csswg.org/css-env-1/#safe-area-insets"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2022-07-15",
+  "baseline_low_date": "2020-01-15",
+  "by_compat_key": {
+   "css.types.env": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "65",
+     "firefox_android": "65",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "css.types.env.safe-area-inset-bottom": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "65",
+     "firefox_android": "65",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "css.types.env.safe-area-inset-left": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "65",
+     "firefox_android": "65",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "css.types.env.safe-area-inset-right": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "65",
+     "firefox_android": "65",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "css.types.env.safe-area-inset-top": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "65",
+     "firefox_android": "65",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   }
+  },
+  "support": {
+   "chrome": "69",
+   "chrome_android": "69",
+   "edge": "79",
+   "firefox": "65",
+   "firefox_android": "65",
+   "safari": "11.1",
+   "safari_ios": "11.3"
+  }
+ },
+ "id": "safe-area-inset",
+ "groups": [
+  "environment-variables"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-env-1/#safe-area-insets",
+   "seriesComposition": "full",
+   "shortname": "css-env-1",
+   "series": {
+    "shortname": "css-env",
+    "currentSpecification": "css-env-1",
+    "title": "CSS Environment Variables Module",
+    "shortTitle": "CSS Environment Variables",
+    "releaseUrl": "https://www.w3.org/TR/css-env/",
+    "nightlyUrl": "https://drafts.csswg.org/css-env/"
+   },
+   "seriesVersion": "1",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-env-1/",
+    "status": "First Public Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-env-1/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-env-1/",
+     "https://w3c.github.io/csswg-drafts/css-env/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-env-1/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Environment Variables Module Level 1",
+   "source": "w3c",
+   "shortTitle": "CSS Environment Variables 1",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-env"
+    ]
+   },
+   "fragment": "safe-area-insets"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Values/env",
+   "title": "env()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/env"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:safe-area-inset"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2020-01-15T00:00:00.000Z",
+ "baselineHighDateAsObject": "2022-07-15T00:00:00.000Z"
+}

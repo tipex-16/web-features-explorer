@@ -1,0 +1,116 @@
+{
+ "compat_features": [
+  "api.WEBGL_draw_buffers",
+  "api.WEBGL_draw_buffers.drawBuffersWEBGL"
+ ],
+ "description": "The WEBGL_draw_buffers extension for WebGL 1.0 contexts enables a fragment shader to write to several textures, which is useful for deferred shading, for example.",
+ "description_html": "The <code>WEBGL_draw_buffers</code> extension for WebGL 1.0 contexts enables a fragment shader to write to several textures, which is useful for deferred shading, for example.",
+ "group": [
+  "webgl-extensions"
+ ],
+ "kind": "feature",
+ "name": "WEBGL_draw_buffers WebGL extension",
+ "spec": [
+  "https://registry.khronos.org/webgl/extensions/WEBGL_draw_buffers/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.WEBGL_draw_buffers": {
+    "baseline": false,
+    "support": {
+     "chrome": "36",
+     "edge": "17",
+     "firefox": "28",
+     "safari": "9",
+     "safari_ios": "15"
+    }
+   },
+   "api.WEBGL_draw_buffers.drawBuffersWEBGL": {
+    "baseline": false,
+    "support": {
+     "chrome": "36",
+     "edge": "17",
+     "firefox": "28",
+     "safari": "9",
+     "safari_ios": "15"
+    }
+   }
+  },
+  "support": {
+   "chrome": "36",
+   "edge": "17",
+   "firefox": "28",
+   "safari": "9",
+   "safari_ios": "15"
+  }
+ },
+ "id": "webgl-draw-buffers",
+ "groups": [
+  "webgl-extensions"
+ ],
+ "specs": [
+  {
+   "url": "https://registry.khronos.org/webgl/extensions/WEBGL_draw_buffers/",
+   "seriesComposition": "full",
+   "shortname": "WEBGL_draw_buffers",
+   "series": {
+    "shortname": "WEBGL_draw_buffers",
+    "currentSpecification": "WEBGL_draw_buffers",
+    "title": "WebGL WEBGL_draw_buffers Khronos Ratified Extension Specification",
+    "shortTitle": "WebGL WEBGL_draw_buffers Khronos Ratified Extension",
+    "nightlyUrl": "https://registry.khronos.org/webgl/extensions/WEBGL_draw_buffers/"
+   },
+   "organization": "Khronos Group",
+   "groups": [
+    {
+     "name": "WebGL Working Group",
+     "url": "https://www.khronos.org/webgl/"
+    }
+   ],
+   "nightly": {
+    "url": "https://registry.khronos.org/webgl/extensions/WEBGL_draw_buffers/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "sourcePath": "extensions/WEBGL_draw_buffers/extension.xml",
+    "filename": "index.html"
+   },
+   "title": "WebGL WEBGL_draw_buffers Khronos Ratified Extension Specification",
+   "source": "spec",
+   "shortTitle": "WebGL WEBGL_draw_buffers Khronos Ratified Extension",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "testPaths": [
+     "conformance-suites"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/WEBGL_draw_buffers",
+   "title": "WEBGL_draw_buffers extension",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/WEBGL_draw_buffers"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/36",
+  "votes": 0
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

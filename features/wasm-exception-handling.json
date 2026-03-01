@@ -1,0 +1,250 @@
+{
+ "compat_features": [
+  "webassembly.api.Exception",
+  "webassembly.api.Exception.Exception",
+  "webassembly.api.Exception.Exception.options_parameter_traceStack",
+  "webassembly.api.Exception.getArg",
+  "webassembly.api.Exception.is",
+  "webassembly.api.Exception.stack",
+  "webassembly.api.Tag",
+  "webassembly.api.Tag.Tag",
+  "webassembly.api.Tag.type",
+  "webassembly.exception-handling"
+ ],
+ "description": "Exceptions break the normal control flow of execution to represent exceptional behavior, such as an error. You can respond to the exception in JavaScript code.",
+ "description_html": "Exceptions break the normal control flow of execution to represent exceptional behavior, such as an error. You can respond to the exception in JavaScript code.",
+ "group": [
+  "webassembly"
+ ],
+ "kind": "feature",
+ "name": "Exception handling (WebAssembly)",
+ "spec": [
+  "https://github.com/WebAssembly/exception-handling/blob/main/proposals/exception-handling/legacy/Exceptions.md"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2024-11-03",
+  "baseline_low_date": "2022-05-03",
+  "by_compat_key": {
+   "webassembly.api.Exception": {
+    "baseline": "high",
+    "baseline_high_date": "2024-11-03",
+    "baseline_low_date": "2022-05-03",
+    "support": {
+     "chrome": "95",
+     "chrome_android": "95",
+     "edge": "95",
+     "firefox": "100",
+     "firefox_android": "100",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   },
+   "webassembly.api.Exception.Exception": {
+    "baseline": "high",
+    "baseline_high_date": "2024-11-03",
+    "baseline_low_date": "2022-05-03",
+    "support": {
+     "chrome": "95",
+     "chrome_android": "95",
+     "edge": "95",
+     "firefox": "100",
+     "firefox_android": "100",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   },
+   "webassembly.api.Exception.Exception.options_parameter_traceStack": {
+    "baseline": "high",
+    "baseline_high_date": "2024-11-03",
+    "baseline_low_date": "2022-05-03",
+    "support": {
+     "chrome": "95",
+     "chrome_android": "95",
+     "edge": "95",
+     "firefox": "100",
+     "firefox_android": "100",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   },
+   "webassembly.api.Exception.getArg": {
+    "baseline": "high",
+    "baseline_high_date": "2024-11-03",
+    "baseline_low_date": "2022-05-03",
+    "support": {
+     "chrome": "95",
+     "chrome_android": "95",
+     "edge": "95",
+     "firefox": "100",
+     "firefox_android": "100",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   },
+   "webassembly.api.Exception.is": {
+    "baseline": "high",
+    "baseline_high_date": "2024-11-03",
+    "baseline_low_date": "2022-05-03",
+    "support": {
+     "chrome": "95",
+     "chrome_android": "95",
+     "edge": "95",
+     "firefox": "100",
+     "firefox_android": "100",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   },
+   "webassembly.api.Exception.stack": {
+    "baseline": false,
+    "support": {
+     "chrome": "95",
+     "chrome_android": "95",
+     "edge": "95",
+     "firefox": "100",
+     "firefox_android": "100"
+    }
+   },
+   "webassembly.api.Tag": {
+    "baseline": "high",
+    "baseline_high_date": "2024-11-03",
+    "baseline_low_date": "2022-05-03",
+    "support": {
+     "chrome": "95",
+     "chrome_android": "95",
+     "edge": "95",
+     "firefox": "100",
+     "firefox_android": "100",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   },
+   "webassembly.api.Tag.Tag": {
+    "baseline": "high",
+    "baseline_high_date": "2024-11-03",
+    "baseline_low_date": "2022-05-03",
+    "support": {
+     "chrome": "95",
+     "chrome_android": "95",
+     "edge": "95",
+     "firefox": "100",
+     "firefox_android": "100",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   },
+   "webassembly.api.Tag.type": {
+    "baseline": false,
+    "support": {
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   },
+   "webassembly.exception-handling": {
+    "baseline": "high",
+    "baseline_high_date": "2024-11-03",
+    "baseline_low_date": "2022-05-03",
+    "support": {
+     "chrome": "95",
+     "chrome_android": "95",
+     "edge": "95",
+     "firefox": "100",
+     "firefox_android": "100",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   }
+  },
+  "support": {
+   "chrome": "95",
+   "chrome_android": "95",
+   "edge": "95",
+   "firefox": "100",
+   "firefox_android": "100",
+   "safari": "15.2",
+   "safari_ios": "15.2"
+  }
+ },
+ "id": "wasm-exception-handling",
+ "groups": [
+  "webassembly"
+ ],
+ "specs": [
+  {
+   "url": "https://github.com/WebAssembly/exception-handling/blob/main/proposals/exception-handling/legacy/Exceptions.md"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "WebAssembly/Reference/JavaScript_interface/Exception",
+   "title": "WebAssembly.Exception",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/WebAssembly/Reference/JavaScript_interface/Exception"
+  },
+  {
+   "slug": "WebAssembly/Reference/JavaScript_interface/Exception/Exception",
+   "title": "WebAssembly.Exception constructor",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/WebAssembly/Reference/JavaScript_interface/Exception/Exception"
+  },
+  {
+   "slug": "WebAssembly/Reference/JavaScript_interface/Exception/getArg",
+   "title": "WebAssembly.Exception.prototype.getArg()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/WebAssembly/Reference/JavaScript_interface/Exception/getArg"
+  },
+  {
+   "slug": "WebAssembly/Reference/JavaScript_interface/Exception/is",
+   "title": "WebAssembly.Exception.prototype.is()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/WebAssembly/Reference/JavaScript_interface/Exception/is"
+  },
+  {
+   "slug": "WebAssembly/Reference/JavaScript_interface/Exception/stack",
+   "title": "WebAssembly.Exception.prototype.stack",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/WebAssembly/Reference/JavaScript_interface/Exception/stack"
+  },
+  {
+   "slug": "WebAssembly/Reference/JavaScript_interface/Tag",
+   "title": "WebAssembly.Tag",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/WebAssembly/Reference/JavaScript_interface/Tag"
+  },
+  {
+   "slug": "WebAssembly/Reference/JavaScript_interface/Tag/Tag",
+   "title": "WebAssembly.Tag() constructor",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/WebAssembly/Reference/JavaScript_interface/Tag/Tag"
+  },
+  {
+   "slug": "WebAssembly/Reference/JavaScript_interface/Tag/type",
+   "title": "WebAssembly.Tag.prototype.type()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/WebAssembly/Reference/JavaScript_interface/Tag/type"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/573",
+   "position": "positive",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00506803,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/356"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:wasm-exception-handling"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2022-05-03T00:00:00.000Z",
+ "baselineHighDateAsObject": "2024-11-03T00:00:00.000Z"
+}

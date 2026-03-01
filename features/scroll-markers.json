@@ -1,0 +1,216 @@
+{
+ "compat_features": [
+  "css.properties.scroll-marker-group",
+  "css.properties.scroll-marker-group.after",
+  "css.properties.scroll-marker-group.before",
+  "css.properties.scroll-marker-group.none",
+  "css.selectors.scroll-marker",
+  "css.selectors.scroll-marker-group"
+ ],
+ "description": "A scroll marker scrolls a container to a scroll target. The ::scroll-marker CSS pseudo-element selects a scroll marker in a ::scroll-marker-group pseudo-element, generated before or after the scroll container. You can use them to navigate and style tables of contents, tab panels, and carousels.",
+ "description_html": "A scroll marker scrolls a container to a scroll target. The <code>::scroll-marker</code> CSS pseudo-element selects a scroll marker in a <code>::scroll-marker-group</code> pseudo-element, generated before or after the scroll container. You can use them to navigate and style tables of contents, tab panels, and carousels.",
+ "group": [
+  "scroll-markers"
+ ],
+ "kind": "feature",
+ "name": "Scroll markers",
+ "spec": [
+  "https://drafts.csswg.org/css-overflow-5/#scroll-markers"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "css.properties.scroll-marker-group": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "css.properties.scroll-marker-group.after": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "css.properties.scroll-marker-group.before": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "css.properties.scroll-marker-group.none": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "css.selectors.scroll-marker": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "css.selectors.scroll-marker-group": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   }
+  },
+  "support": {
+   "chrome": "135",
+   "chrome_android": "135",
+   "edge": "135"
+  }
+ },
+ "id": "scroll-markers",
+ "groups": [
+  "scroll-markers"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-overflow-5/#scroll-markers",
+   "seriesComposition": "delta",
+   "shortname": "css-overflow-5",
+   "series": {
+    "shortname": "css-overflow",
+    "currentSpecification": "css-overflow-3",
+    "title": "CSS Overflow",
+    "shortTitle": "CSS Overflow",
+    "releaseUrl": "https://www.w3.org/TR/css-overflow/",
+    "nightlyUrl": "https://drafts.csswg.org/css-overflow/"
+   },
+   "seriesVersion": "5",
+   "seriesPrevious": "css-overflow-4",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-overflow-5/",
+    "status": "First Public Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-overflow-5/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-overflow-5/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-overflow-5/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Overflow Module Level 5",
+   "source": "w3c",
+   "shortTitle": "CSS Overflow 5",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-overflow"
+    ]
+   },
+   "fragment": "scroll-markers"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/scroll-marker-group",
+   "title": "scroll-marker-group",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-marker-group"
+  },
+  {
+   "slug": "Web/CSS/Reference/Selectors/::scroll-marker",
+   "title": "::scroll-marker",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::scroll-marker"
+  },
+  {
+   "slug": "Web/CSS/Reference/Selectors/::scroll-marker-group",
+   "title": "::scroll-marker-group",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::scroll-marker-group"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#favorite_new_features",
+   "question": "usage",
+   "subQuestion": "favorite_new_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.favorite_new_features.freeform.allEditions.1.buckets.21.groupedBuckets.1.groupedBuckets.33.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_missing_features",
+   "question": "usage",
+   "subQuestion": "css_missing_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_missing_features.freeform.allEditions.1.buckets.16.groupedBuckets.0.groupedBuckets.99.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_interoperability_features",
+   "question": "usage",
+   "subQuestion": "css_interoperability_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_interoperability_features.freeform.allEditions.1.buckets.19.groupedBuckets.0.groupedBuckets.35.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/features/#reading_list",
+   "question": "reading_list",
+   "subQuestion": "reading_list",
+   "path": "dataAPI.surveys.state_of_css.css2025.reading_list.reading_list.combined.allEditions.1.buckets.7.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/interactions/#interactions_pain_points",
+   "question": "interactions",
+   "subQuestion": "interactions_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.interactions.interactions_pain_points.freeform.allEditions.0.buckets.11.groupedBuckets.0.groupedBuckets.5.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.33.entity"
+  }
+ ],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00046544,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/295"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:scroll-markers"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/289",
+  "votes": 15
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

@@ -1,0 +1,346 @@
+{
+ "caniuse": [
+  "css-paged-media"
+ ],
+ "compat_features": [
+  "css.at-rules.page",
+  "css.at-rules.page.bottom-center",
+  "css.at-rules.page.bottom-left",
+  "css.at-rules.page.bottom-left-corner",
+  "css.at-rules.page.bottom-right",
+  "css.at-rules.page.bottom-right-corner",
+  "css.at-rules.page.left-bottom",
+  "css.at-rules.page.left-middle",
+  "css.at-rules.page.left-top",
+  "css.at-rules.page.right-bottom",
+  "css.at-rules.page.right-middle",
+  "css.at-rules.page.right-top",
+  "css.at-rules.page.size",
+  "css.at-rules.page.size.jis-b4",
+  "css.at-rules.page.size.jis-b5",
+  "css.at-rules.page.top-center",
+  "css.at-rules.page.top-left",
+  "css.at-rules.page.top-left-corner",
+  "css.at-rules.page.top-right",
+  "css.at-rules.page.top-right-corner",
+  "css.properties.page"
+ ],
+ "description": "The @page CSS at-rule sets the page-specific dimensions and margins for content such as printed documents, ebooks, or slides.",
+ "description_html": "The <code>@page</code> CSS at-rule sets the page-specific dimensions and margins for content such as printed documents, ebooks, or slides.",
+ "group": [
+  "layout",
+  "print"
+ ],
+ "kind": "feature",
+ "name": "Page setup",
+ "spec": [
+  "https://drafts.csswg.org/css-page-3/#at-page-rule"
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2024-12-11",
+  "by_compat_key": {
+   "css.at-rules.page": {
+    "baseline": "low",
+    "baseline_low_date": "2024-12-11",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "19",
+     "firefox_android": "19",
+     "safari": "18.2",
+     "safari_ios": "18.2"
+    }
+   },
+   "css.at-rules.page.bottom-center": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131",
+     "edge": "131"
+    }
+   },
+   "css.at-rules.page.bottom-left": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131",
+     "edge": "131"
+    }
+   },
+   "css.at-rules.page.bottom-left-corner": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131",
+     "edge": "131"
+    }
+   },
+   "css.at-rules.page.bottom-right": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131",
+     "edge": "131"
+    }
+   },
+   "css.at-rules.page.bottom-right-corner": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131",
+     "edge": "131"
+    }
+   },
+   "css.at-rules.page.left-bottom": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131",
+     "edge": "131"
+    }
+   },
+   "css.at-rules.page.left-middle": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131",
+     "edge": "131"
+    }
+   },
+   "css.at-rules.page.left-top": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131",
+     "edge": "131"
+    }
+   },
+   "css.at-rules.page.right-bottom": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131",
+     "edge": "131"
+    }
+   },
+   "css.at-rules.page.right-middle": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131",
+     "edge": "131"
+    }
+   },
+   "css.at-rules.page.right-top": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131",
+     "edge": "131"
+    }
+   },
+   "css.at-rules.page.size": {
+    "baseline": "low",
+    "baseline_low_date": "2024-12-11",
+    "support": {
+     "chrome": "15",
+     "chrome_android": "18",
+     "edge": "79",
+     "firefox": "95",
+     "firefox_android": "95",
+     "safari": "18.2",
+     "safari_ios": "18.2"
+    }
+   },
+   "css.at-rules.page.size.jis-b4": {
+    "baseline": "low",
+    "baseline_low_date": "2024-12-11",
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "firefox": "95",
+     "firefox_android": "95",
+     "safari": "18.2",
+     "safari_ios": "18.2"
+    }
+   },
+   "css.at-rules.page.size.jis-b5": {
+    "baseline": "low",
+    "baseline_low_date": "2024-12-11",
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "firefox": "95",
+     "firefox_android": "95",
+     "safari": "18.2",
+     "safari_ios": "18.2"
+    }
+   },
+   "css.at-rules.page.top-center": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131",
+     "edge": "131"
+    }
+   },
+   "css.at-rules.page.top-left": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131",
+     "edge": "131"
+    }
+   },
+   "css.at-rules.page.top-left-corner": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131",
+     "edge": "131"
+    }
+   },
+   "css.at-rules.page.top-right": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131",
+     "edge": "131"
+    }
+   },
+   "css.at-rules.page.top-right-corner": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131",
+     "edge": "131"
+    }
+   },
+   "css.properties.page": {
+    "baseline": "high",
+    "baseline_high_date": "2025-08-14",
+    "baseline_low_date": "2023-02-14",
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85",
+     "firefox": "110",
+     "firefox_android": "110",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   }
+  },
+  "support": {
+   "chrome": "15",
+   "chrome_android": "18",
+   "edge": "79",
+   "firefox": "95",
+   "firefox_android": "95",
+   "safari": "18.2",
+   "safari_ios": "18.2"
+  }
+ },
+ "id": "page-setup",
+ "groups": [
+  "layout",
+  "print"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-page-3/#at-page-rule",
+   "seriesComposition": "full",
+   "shortname": "css-page-3",
+   "series": {
+    "shortname": "css-page",
+    "currentSpecification": "css-page-3",
+    "title": "CSS Paged Media",
+    "shortTitle": "CSS Paged Media",
+    "releaseUrl": "https://www.w3.org/TR/css-page/",
+    "nightlyUrl": "https://drafts.csswg.org/css-page/"
+   },
+   "seriesVersion": "3",
+   "seriesNext": "css-page-4",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-page-3/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-page-3/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-page-3/",
+     "https://w3c.github.io/csswg-drafts/css-page/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-page-3/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Paged Media Module Level 3",
+   "source": "w3c",
+   "shortTitle": "CSS Paged Media 3",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-page"
+    ]
+   },
+   "fragment": "at-page-rule"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/At-rules/@page",
+   "title": "@page",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@page"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_interoperability_features",
+   "question": "usage",
+   "subQuestion": "css_interoperability_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_interoperability_features.freeform.allEditions.0.buckets.21.groupedBuckets.1.groupedBuckets.52.entity"
+  }
+ ],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:page-setup"
+ },
+ "developerSignals": null,
+ "bugs": {
+  "safari": [
+   "https://webkit.org/b/15548"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/15548"
+  ],
+  "webview_ios": [
+   "https://webkit.org/b/15548"
+  ]
+ },
+ "baselineLowDateAsObject": "2024-12-11T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2027-06-11"
+}

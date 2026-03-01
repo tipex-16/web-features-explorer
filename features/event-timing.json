@@ -1,0 +1,351 @@
+{
+ "compat_features": [
+  "api.EventCounts",
+  "api.EventCounts.@@iterator",
+  "api.EventCounts.entries",
+  "api.EventCounts.forEach",
+  "api.EventCounts.get",
+  "api.EventCounts.has",
+  "api.EventCounts.keys",
+  "api.EventCounts.size",
+  "api.EventCounts.values",
+  "api.Performance.eventCounts",
+  "api.PerformanceEventTiming",
+  "api.PerformanceEventTiming.cancelable",
+  "api.PerformanceEventTiming.interactionId",
+  "api.PerformanceEventTiming.processingEnd",
+  "api.PerformanceEventTiming.processingStart",
+  "api.PerformanceEventTiming.target",
+  "api.PerformanceEventTiming.toJSON"
+ ],
+ "description": "The event and first-input performance entries and the PerformanceEventTiming API measures the latency of user input events, such as mouse clicks or keypresses. They're used to calculate Interaction to Next Paint (INP), a common metric for perceived responsiveness.",
+ "description_html": "The <code>event</code> and <code>first-input</code> performance entries and the <code>PerformanceEventTiming</code> API measures the latency of user input events, such as mouse clicks or keypresses. They're used to calculate Interaction to Next Paint (INP), a common metric for perceived responsiveness.",
+ "group": [
+  "performance"
+ ],
+ "kind": "feature",
+ "name": "Event timing",
+ "spec": [
+  "https://w3c.github.io/event-timing/"
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2025-12-12",
+  "by_compat_key": {
+   "api.EventCounts": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85",
+     "firefox": "89",
+     "firefox_android": "89",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.EventCounts.@@iterator": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85",
+     "firefox": "89",
+     "firefox_android": "89",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.EventCounts.entries": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85",
+     "firefox": "89",
+     "firefox_android": "89",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.EventCounts.forEach": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85",
+     "firefox": "89",
+     "firefox_android": "89",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.EventCounts.get": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85",
+     "firefox": "89",
+     "firefox_android": "89",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.EventCounts.has": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85",
+     "firefox": "89",
+     "firefox_android": "89",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.EventCounts.keys": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85",
+     "firefox": "89",
+     "firefox_android": "89",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.EventCounts.size": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85",
+     "firefox": "89",
+     "firefox_android": "89",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.EventCounts.values": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85",
+     "firefox": "89",
+     "firefox_android": "89",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.Performance.eventCounts": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85",
+     "firefox": "89",
+     "firefox_android": "89",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.PerformanceEventTiming": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "76",
+     "chrome_android": "76",
+     "edge": "79",
+     "firefox": "89",
+     "firefox_android": "89",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.PerformanceEventTiming.cancelable": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "76",
+     "chrome_android": "76",
+     "edge": "79",
+     "firefox": "89",
+     "firefox_android": "89",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.PerformanceEventTiming.interactionId": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "96",
+     "chrome_android": "96",
+     "edge": "96",
+     "firefox": "144",
+     "firefox_android": "144",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.PerformanceEventTiming.processingEnd": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "76",
+     "chrome_android": "76",
+     "edge": "79",
+     "firefox": "89",
+     "firefox_android": "89",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.PerformanceEventTiming.processingStart": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "76",
+     "chrome_android": "76",
+     "edge": "79",
+     "firefox": "89",
+     "firefox_android": "89",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.PerformanceEventTiming.target": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85",
+     "firefox": "89",
+     "firefox_android": "89",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.PerformanceEventTiming.toJSON": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "76",
+     "chrome_android": "76",
+     "edge": "79",
+     "firefox": "89",
+     "firefox_android": "89",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   }
+  },
+  "support": {
+   "chrome": "76",
+   "chrome_android": "76",
+   "edge": "79",
+   "firefox": "89",
+   "firefox_android": "89",
+   "safari": "26.2",
+   "safari_ios": "26.2"
+  }
+ },
+ "id": "event-timing",
+ "groups": [
+  "performance"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/event-timing/",
+   "seriesComposition": "full",
+   "shortname": "event-timing",
+   "series": {
+    "shortname": "event-timing",
+    "currentSpecification": "event-timing",
+    "title": "Event Timing API",
+    "shortTitle": "Event Timing API",
+    "releaseUrl": "https://www.w3.org/TR/event-timing/",
+    "nightlyUrl": "https://w3c.github.io/event-timing/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Performance Working Group",
+     "url": "https://www.w3.org/groups/wg/webperf/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/event-timing/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/event-timing/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/event-timing",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Event Timing API",
+   "source": "w3c",
+   "shortTitle": "Event Timing API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/PerformanceEventTiming",
+   "title": "PerformanceEventTiming",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/PerformanceEventTiming"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/283",
+   "position": "positive",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/420",
+   "concerns": [
+    "duplication",
+    "interoperability"
+   ],
+   "position": ""
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:event-timing"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2025-12-12T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2028-06-12"
+}

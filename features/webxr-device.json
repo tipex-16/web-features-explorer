@@ -1,0 +1,1142 @@
+{
+ "compat_features": [
+  "api.Navigator.xr",
+  "api.WebGL2RenderingContext.makeXRCompatible",
+  "api.WebGLRenderingContext.makeXRCompatible",
+  "api.XRBoundedReferenceSpace",
+  "api.XRBoundedReferenceSpace.boundsGeometry",
+  "api.XRFrame",
+  "api.XRFrame.getPose",
+  "api.XRFrame.getViewerPose",
+  "api.XRFrame.session",
+  "api.XRInputSource",
+  "api.XRInputSource.gripSpace",
+  "api.XRInputSource.handedness",
+  "api.XRInputSource.profiles",
+  "api.XRInputSource.targetRayMode",
+  "api.XRInputSource.targetRaySpace",
+  "api.XRInputSourceArray",
+  "api.XRInputSourceArray.@@iterator",
+  "api.XRInputSourceArray.entries",
+  "api.XRInputSourceArray.forEach",
+  "api.XRInputSourceArray.keys",
+  "api.XRInputSourceArray.length",
+  "api.XRInputSourceArray.values",
+  "api.XRInputSourceEvent",
+  "api.XRInputSourceEvent.XRInputSourceEvent",
+  "api.XRInputSourceEvent.frame",
+  "api.XRInputSourceEvent.inputSource",
+  "api.XRInputSourcesChangeEvent",
+  "api.XRInputSourcesChangeEvent.XRInputSourcesChangeEvent",
+  "api.XRInputSourcesChangeEvent.added",
+  "api.XRInputSourcesChangeEvent.removed",
+  "api.XRInputSourcesChangeEvent.session",
+  "api.XRLayer",
+  "api.XRPose",
+  "api.XRPose.angularVelocity",
+  "api.XRPose.emulatedPosition",
+  "api.XRPose.linearVelocity",
+  "api.XRPose.transform",
+  "api.XRReferenceSpace",
+  "api.XRReferenceSpace.getOffsetReferenceSpace",
+  "api.XRReferenceSpace.reset_event",
+  "api.XRReferenceSpaceEvent",
+  "api.XRReferenceSpaceEvent.XRReferenceSpaceEvent",
+  "api.XRReferenceSpaceEvent.referenceSpace",
+  "api.XRReferenceSpaceEvent.transform",
+  "api.XRRenderState",
+  "api.XRRenderState.baseLayer",
+  "api.XRRenderState.depthFar",
+  "api.XRRenderState.depthNear",
+  "api.XRRenderState.inlineVerticalFieldOfView",
+  "api.XRRigidTransform",
+  "api.XRRigidTransform.XRRigidTransform",
+  "api.XRRigidTransform.inverse",
+  "api.XRRigidTransform.matrix",
+  "api.XRRigidTransform.orientation",
+  "api.XRRigidTransform.position",
+  "api.XRSession",
+  "api.XRSession.cancelAnimationFrame",
+  "api.XRSession.enabledFeatures",
+  "api.XRSession.end",
+  "api.XRSession.end_event",
+  "api.XRSession.inputSources",
+  "api.XRSession.inputsourceschange_event",
+  "api.XRSession.renderState",
+  "api.XRSession.requestAnimationFrame",
+  "api.XRSession.requestReferenceSpace",
+  "api.XRSession.select_event",
+  "api.XRSession.selectend_event",
+  "api.XRSession.selectstart_event",
+  "api.XRSession.squeeze_event",
+  "api.XRSession.squeezeend_event",
+  "api.XRSession.squeezestart_event",
+  "api.XRSession.updateRenderState",
+  "api.XRSession.visibilityState",
+  "api.XRSession.visibilitychange_event",
+  "api.XRSessionEvent",
+  "api.XRSessionEvent.XRSessionEvent",
+  "api.XRSessionEvent.session",
+  "api.XRSpace",
+  "api.XRSystem",
+  "api.XRSystem.devicechange_event",
+  "api.XRSystem.isSessionSupported",
+  "api.XRSystem.requestSession",
+  "api.XRView",
+  "api.XRView.eye",
+  "api.XRView.projectionMatrix",
+  "api.XRView.recommendedViewportScale",
+  "api.XRView.requestViewportScale",
+  "api.XRView.transform",
+  "api.XRViewerPose",
+  "api.XRViewerPose.views",
+  "api.XRViewport",
+  "api.XRViewport.height",
+  "api.XRViewport.width",
+  "api.XRViewport.x",
+  "api.XRViewport.y",
+  "api.XRWebGLLayer",
+  "api.XRWebGLLayer.XRWebGLLayer",
+  "api.XRWebGLLayer.antialias",
+  "api.XRWebGLLayer.fixedFoveation",
+  "api.XRWebGLLayer.framebuffer",
+  "api.XRWebGLLayer.framebufferHeight",
+  "api.XRWebGLLayer.framebufferWidth",
+  "api.XRWebGLLayer.getNativeFramebufferScaleFactor_static",
+  "api.XRWebGLLayer.getViewport",
+  "api.XRWebGLLayer.ignoreDepthValues",
+  "html.elements.iframe.allow.xr-spatial-tracking",
+  "http.headers.Permissions-Policy.xr-spatial-tracking"
+ ],
+ "description": "The navigator.xr API represents the browser's virtual reality or augmented reality system. You can use to request a WebXR session.",
+ "description_html": "The <code>navigator.xr</code> API represents the browser's virtual reality or augmented reality system. You can use to request a WebXR session.",
+ "group": [
+  "webxr"
+ ],
+ "kind": "feature",
+ "name": "WebXR",
+ "spec": [
+  "https://immersive-web.github.io/webxr/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Navigator.xr": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.WebGL2RenderingContext.makeXRCompatible": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.WebGLRenderingContext.makeXRCompatible": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRBoundedReferenceSpace": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRBoundedReferenceSpace.boundsGeometry": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRFrame": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRFrame.getPose": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRFrame.getViewerPose": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRFrame.session": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRInputSource": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRInputSource.gripSpace": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRInputSource.handedness": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRInputSource.profiles": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRInputSource.targetRayMode": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRInputSource.targetRaySpace": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRInputSourceArray": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRInputSourceArray.@@iterator": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRInputSourceArray.entries": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRInputSourceArray.forEach": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRInputSourceArray.keys": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRInputSourceArray.length": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRInputSourceArray.values": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRInputSourceEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRInputSourceEvent.XRInputSourceEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRInputSourceEvent.frame": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRInputSourceEvent.inputSource": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRInputSourcesChangeEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRInputSourcesChangeEvent.XRInputSourcesChangeEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRInputSourcesChangeEvent.added": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRInputSourcesChangeEvent.removed": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRInputSourcesChangeEvent.session": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRLayer": {
+    "baseline": false,
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84"
+    }
+   },
+   "api.XRPose": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRPose.angularVelocity": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.XRPose.emulatedPosition": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRPose.linearVelocity": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.XRPose.transform": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRReferenceSpace": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRReferenceSpace.getOffsetReferenceSpace": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRReferenceSpace.reset_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRReferenceSpaceEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRReferenceSpaceEvent.XRReferenceSpaceEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRReferenceSpaceEvent.referenceSpace": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRReferenceSpaceEvent.transform": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRRenderState": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRRenderState.baseLayer": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRRenderState.depthFar": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRRenderState.depthNear": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRRenderState.inlineVerticalFieldOfView": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRRigidTransform": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRRigidTransform.XRRigidTransform": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRRigidTransform.inverse": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRRigidTransform.matrix": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRRigidTransform.orientation": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRRigidTransform.position": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRSession": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRSession.cancelAnimationFrame": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRSession.enabledFeatures": {
+    "baseline": false,
+    "support": {
+     "chrome": "111",
+     "chrome_android": "111",
+     "edge": "111"
+    }
+   },
+   "api.XRSession.end": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRSession.end_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRSession.inputSources": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRSession.inputsourceschange_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRSession.renderState": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRSession.requestAnimationFrame": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRSession.requestReferenceSpace": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRSession.select_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRSession.selectend_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRSession.selectstart_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRSession.squeeze_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83"
+    }
+   },
+   "api.XRSession.squeezeend_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83"
+    }
+   },
+   "api.XRSession.squeezestart_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83"
+    }
+   },
+   "api.XRSession.updateRenderState": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRSession.visibilityState": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRSession.visibilitychange_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRSessionEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRSessionEvent.XRSessionEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRSessionEvent.session": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRSpace": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRSystem": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRSystem.devicechange_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRSystem.isSessionSupported": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRSystem.requestSession": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRView": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRView.eye": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRView.projectionMatrix": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRView.recommendedViewportScale": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90"
+    }
+   },
+   "api.XRView.requestViewportScale": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90"
+    }
+   },
+   "api.XRView.transform": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRViewerPose": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRViewerPose.views": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRViewport": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRViewport.height": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRViewport.width": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRViewport.x": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRViewport.y": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRWebGLLayer": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRWebGLLayer.XRWebGLLayer": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRWebGLLayer.antialias": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRWebGLLayer.fixedFoveation": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.XRWebGLLayer.framebuffer": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRWebGLLayer.framebufferHeight": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRWebGLLayer.framebufferWidth": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRWebGLLayer.getNativeFramebufferScaleFactor_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRWebGLLayer.getViewport": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "api.XRWebGLLayer.ignoreDepthValues": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "html.elements.iframe.allow.xr-spatial-tracking": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   },
+   "http.headers.Permissions-Policy.xr-spatial-tracking": {
+    "baseline": false,
+    "support": {
+     "chrome": "88",
+     "chrome_android": "88",
+     "edge": "88"
+    }
+   }
+  },
+  "support": {
+   "chrome": "79",
+   "chrome_android": "79",
+   "edge": "79"
+  }
+ },
+ "id": "webxr-device",
+ "groups": [
+  "webxr"
+ ],
+ "specs": [
+  {
+   "url": "https://immersive-web.github.io/webxr/",
+   "seriesComposition": "full",
+   "shortname": "webxr",
+   "series": {
+    "shortname": "webxr",
+    "currentSpecification": "webxr",
+    "title": "WebXR Device API",
+    "shortTitle": "WebXR Device API",
+    "releaseUrl": "https://www.w3.org/TR/webxr/",
+    "nightlyUrl": "https://immersive-web.github.io/webxr/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Immersive Web Working Group",
+     "url": "https://www.w3.org/immersive-web/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/webxr/",
+    "status": "Candidate Recommendation Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://immersive-web.github.io/webxr/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/immersive-web/webxr",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "WebXR Device API",
+   "source": "w3c",
+   "shortTitle": "WebXR Device API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "webxr"
+    ],
+    "excludePaths": [
+     "webxr/anchors",
+     "webxr/ar-module",
+     "webxr/dom-overlay",
+     "webxr/gamepads-module",
+     "webxr/hand-input",
+     "webxr/hit-test",
+     "webxr/layers",
+     "webxr/plane-detection"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/WebXR_Device_API",
+   "title": "WebXR Device API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/WebXR_Device_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/218",
+   "position": "positive",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/155",
+   "position": "",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of JS 2025",
+   "url": "https://2025.stateofjs.com/en-US/features/#browser_api_features",
+   "question": "features",
+   "subQuestion": "browser_api_features",
+   "path": "dataAPI.surveys.state_of_js.js2025.features.browser_api_features.combined.allEditions.0.buckets.13.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/graphics_multimedia/#graphics_pain_points_interop_issues_1",
+   "question": "graphics_multimedia",
+   "subQuestion": "graphics_pain_points_interop_issues_1",
+   "path": "dataAPI.surveys.state_of_html.html2025.graphics_multimedia.graphics_pain_points_interop_issues_1.freeform.allEditions.0.buckets.19.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/graphics_multimedia/#graphics_pain_points_features",
+   "question": "graphics_multimedia",
+   "subQuestion": "graphics_pain_points_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.graphics_multimedia.graphics_pain_points_features.freeform.allEditions.0.buckets.6.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/graphics_multimedia/#graphics_multimedia_features",
+   "question": "graphics_multimedia",
+   "subQuestion": "graphics_multimedia_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.graphics_multimedia.graphics_multimedia_features.5.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.22.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+   "question": "_all_features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.22.entity"
+  }
+ ],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:webxr-device"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/111",
+  "votes": 0
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1419190"
+  ],
+  "webview_android": [
+   "https://crbug.com/40652382"
+  ],
+  "chrome": [
+   "https://crbug.com/40762775"
+  ],
+  "chrome_android": [
+   "https://crbug.com/40762775"
+  ],
+  "edge": [
+   "https://crbug.com/40762775"
+  ],
+  "opera": [
+   "https://crbug.com/40762775"
+  ],
+  "opera_android": [
+   "https://crbug.com/40762775"
+  ],
+  "samsunginternet_android": [
+   "https://crbug.com/40762775"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

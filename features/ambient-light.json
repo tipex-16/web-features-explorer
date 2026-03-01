@@ -1,0 +1,133 @@
+{
+ "caniuse": [
+  "ambient-light"
+ ],
+ "compat_features": [
+  "api.AmbientLightSensor",
+  "api.AmbientLightSensor.AmbientLightSensor",
+  "api.AmbientLightSensor.illuminance",
+  "api.Permissions.permission_ambient-light-sensor",
+  "html.elements.iframe.allow.ambient-light-sensor",
+  "http.headers.Permissions-Policy.ambient-light-sensor"
+ ],
+ "description": "The AmbientLightSensor API returns the current light level in lux of the ambient light level around the device.",
+ "description_html": "The <code>AmbientLightSensor</code> API returns the current light level in lux of the ambient light level around the device.",
+ "group": [
+  "sensors"
+ ],
+ "kind": "feature",
+ "name": "Ambient light sensor",
+ "spec": [
+  "https://w3c.github.io/ambient-light/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.AmbientLightSensor": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.AmbientLightSensor.AmbientLightSensor": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.AmbientLightSensor.illuminance": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.Permissions.permission_ambient-light-sensor": {
+    "baseline": false,
+    "support": {}
+   },
+   "html.elements.iframe.allow.ambient-light-sensor": {
+    "baseline": false,
+    "support": {}
+   },
+   "http.headers.Permissions-Policy.ambient-light-sensor": {
+    "baseline": false,
+    "support": {}
+   }
+  },
+  "support": {}
+ },
+ "id": "ambient-light",
+ "groups": [
+  "sensors"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/ambient-light/",
+   "seriesComposition": "full",
+   "shortname": "ambient-light",
+   "series": {
+    "shortname": "ambient-light",
+    "currentSpecification": "ambient-light",
+    "title": "Ambient Light Sensor",
+    "shortTitle": "Ambient Light Sensor",
+    "releaseUrl": "https://www.w3.org/TR/ambient-light/",
+    "nightlyUrl": "https://w3c.github.io/ambient-light/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Devices and Sensors Working Group",
+     "url": "https://www.w3.org/das/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/ambient-light/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/ambient-light/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/ambient-light",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Ambient Light Sensor",
+   "source": "w3c",
+   "shortTitle": "Ambient Light Sensor",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "ambient-light"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/AmbientLightSensor",
+   "title": "AmbientLightSensor",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/AmbientLightSensor"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:ambient-light"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/292",
+  "votes": 0
+ },
+ "bugs": {
+  "chrome": [
+   "https://bugs.chromium.org/p/chromium/issues/detail?id=606766"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

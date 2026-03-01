@@ -1,0 +1,227 @@
+{
+ "compat_features": [
+  "css.types.exp",
+  "css.types.hypot",
+  "css.types.log",
+  "css.types.pow",
+  "css.types.sqrt"
+ ],
+ "description": "The pow(), sqrt(), hypot(), log(), and exp() CSS functions compute various exponential functions.",
+ "description_html": "The <code>pow()</code>, <code>sqrt()</code>, <code>hypot()</code>, <code>log()</code>, and <code>exp()</code> CSS functions compute various exponential functions.",
+ "group": [
+  "css"
+ ],
+ "kind": "feature",
+ "name": "pow(), sqrt(), hypot(), log(), and exp()",
+ "spec": [
+  "https://drafts.csswg.org/css-values-4/#exponent-funcs"
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2023-12-07",
+  "by_compat_key": {
+   "css.types.exp": {
+    "baseline": "low",
+    "baseline_low_date": "2023-12-07",
+    "support": {
+     "chrome": "120",
+     "chrome_android": "120",
+     "edge": "120",
+     "firefox": "118",
+     "firefox_android": "118",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.types.hypot": {
+    "baseline": "low",
+    "baseline_low_date": "2023-12-07",
+    "support": {
+     "chrome": "120",
+     "chrome_android": "120",
+     "edge": "120",
+     "firefox": "118",
+     "firefox_android": "118",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.types.log": {
+    "baseline": "low",
+    "baseline_low_date": "2023-12-07",
+    "support": {
+     "chrome": "120",
+     "chrome_android": "120",
+     "edge": "120",
+     "firefox": "118",
+     "firefox_android": "118",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.types.pow": {
+    "baseline": "low",
+    "baseline_low_date": "2023-12-07",
+    "support": {
+     "chrome": "120",
+     "chrome_android": "120",
+     "edge": "120",
+     "firefox": "118",
+     "firefox_android": "118",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.types.sqrt": {
+    "baseline": "low",
+    "baseline_low_date": "2023-12-07",
+    "support": {
+     "chrome": "120",
+     "chrome_android": "120",
+     "edge": "120",
+     "firefox": "118",
+     "firefox_android": "118",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   }
+  },
+  "support": {
+   "chrome": "120",
+   "chrome_android": "120",
+   "edge": "120",
+   "firefox": "118",
+   "firefox_android": "118",
+   "safari": "15.4",
+   "safari_ios": "15.4"
+  }
+ },
+ "id": "exp-functions",
+ "groups": [
+  "css"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-values-4/#exponent-funcs",
+   "seriesComposition": "full",
+   "shortname": "css-values-4",
+   "series": {
+    "shortname": "css-values",
+    "currentSpecification": "css-values-4",
+    "title": "CSS Values and Units",
+    "shortTitle": "CSS Values",
+    "releaseUrl": "https://www.w3.org/TR/css-values/",
+    "nightlyUrl": "https://drafts.csswg.org/css-values/"
+   },
+   "seriesVersion": "4",
+   "shortTitle": "CSS Values 4",
+   "seriesPrevious": "css-values-3",
+   "seriesNext": "css-values-5",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-values-4/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-values-4/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-values-4/",
+     "https://w3c.github.io/csswg-drafts/css-values/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-values-4/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Values and Units Module Level 4",
+   "source": "w3c",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-values"
+    ]
+   },
+   "fragment": "exponent-funcs"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Values/pow",
+   "title": "pow()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/pow"
+  },
+  {
+   "slug": "Web/CSS/Reference/Values/sqrt",
+   "title": "sqrt()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/sqrt"
+  },
+  {
+   "slug": "Web/CSS/Reference/Values/hypot",
+   "title": "hypot()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/hypot"
+  },
+  {
+   "slug": "Web/CSS/Reference/Values/log",
+   "title": "log()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/log"
+  },
+  {
+   "slug": "Web/CSS/Reference/Values/exp",
+   "title": "exp()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/exp"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.45.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2024.features.all_features.49.entity"
+  }
+ ],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00036395,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/184"
+ },
+ "interop": [
+  {
+   "year": 2023,
+   "label": "interop-2023-mathfunctions",
+   "url": "https://wpt.fyi/interop-2023?feature=interop-2023-mathfunctions"
+  }
+ ],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:exp-functions"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2023-12-07T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2026-06-07"
+}

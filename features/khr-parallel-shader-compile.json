@@ -1,0 +1,108 @@
+{
+ "compat_features": [
+  "api.KHR_parallel_shader_compile"
+ ],
+ "description": "The KHR_parallel_shader_compile extension for WebGL 1.0 and 2.0 contexts checks the status of shader compilation without blocking the runtime.",
+ "description_html": "The <code>KHR_parallel_shader_compile</code> extension for WebGL 1.0 and 2.0 contexts checks the status of shader compilation without blocking the runtime.",
+ "group": [
+  "webgl-extensions"
+ ],
+ "kind": "feature",
+ "name": "KHR_parallel_shader_compile WebGL extension",
+ "spec": [
+  "https://registry.khronos.org/webgl/extensions/KHR_parallel_shader_compile/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.KHR_parallel_shader_compile": {
+    "baseline": false,
+    "support": {
+     "chrome": "76",
+     "chrome_android": "76",
+     "edge": "79",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   }
+  },
+  "support": {
+   "chrome": "76",
+   "chrome_android": "76",
+   "edge": "79",
+   "safari": "14.1",
+   "safari_ios": "14.5"
+  }
+ },
+ "id": "khr-parallel-shader-compile",
+ "groups": [
+  "webgl-extensions"
+ ],
+ "specs": [
+  {
+   "url": "https://registry.khronos.org/webgl/extensions/KHR_parallel_shader_compile/",
+   "seriesComposition": "full",
+   "shortname": "KHR_parallel_shader_compile",
+   "series": {
+    "shortname": "KHR_parallel_shader_compile",
+    "currentSpecification": "KHR_parallel_shader_compile",
+    "title": "WebGL KHR_parallel_shader_compile Extension Specification",
+    "shortTitle": "WebGL KHR_parallel_shader_compile Extension",
+    "nightlyUrl": "https://registry.khronos.org/webgl/extensions/KHR_parallel_shader_compile/"
+   },
+   "organization": "Khronos Group",
+   "groups": [
+    {
+     "name": "WebGL Working Group",
+     "url": "https://www.khronos.org/webgl/"
+    }
+   ],
+   "nightly": {
+    "url": "https://registry.khronos.org/webgl/extensions/KHR_parallel_shader_compile/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "sourcePath": "extensions/KHR_parallel_shader_compile/extension.xml",
+    "filename": "index.html"
+   },
+   "title": "WebGL KHR_parallel_shader_compile Extension Specification",
+   "source": "spec",
+   "shortTitle": "WebGL KHR_parallel_shader_compile Extension",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "testPaths": [
+     "conformance-suites"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/KHR_parallel_shader_compile",
+   "title": "KHR_parallel_shader_compile extension",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/KHR_parallel_shader_compile"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/104",
+  "votes": 0
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Firefox",
+ "monthsBlocked": 59,
+ "blockedSince": "April 2021"
+}

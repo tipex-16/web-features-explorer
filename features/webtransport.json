@@ -1,0 +1,571 @@
+{
+ "caniuse": [
+  "webtransport"
+ ],
+ "compat_features": [
+  "api.WebTransport",
+  "api.WebTransport.WebTransport",
+  "api.WebTransport.WebTransport.options_allowPooling_parameter",
+  "api.WebTransport.WebTransport.options_congestionControl_parameter",
+  "api.WebTransport.WebTransport.options_requireUnreliable_parameter",
+  "api.WebTransport.WebTransport.options_serverCertificateHashes_parameter",
+  "api.WebTransport.byob_readers",
+  "api.WebTransport.close",
+  "api.WebTransport.closed",
+  "api.WebTransport.congestionControl",
+  "api.WebTransport.createBidirectionalStream",
+  "api.WebTransport.createBidirectionalStream.options_sendOrder_parameter",
+  "api.WebTransport.createUnidirectionalStream",
+  "api.WebTransport.createUnidirectionalStream.byob_readers",
+  "api.WebTransport.createUnidirectionalStream.options_sendOrder_parameter",
+  "api.WebTransport.datagrams",
+  "api.WebTransport.getStats",
+  "api.WebTransport.incomingBidirectionalStreams",
+  "api.WebTransport.incomingUnidirectionalStreams",
+  "api.WebTransport.ready",
+  "api.WebTransport.reliability",
+  "api.WebTransportBidirectionalStream",
+  "api.WebTransportBidirectionalStream.readable",
+  "api.WebTransportBidirectionalStream.readable.returns_WebTransportReceiveStream",
+  "api.WebTransportBidirectionalStream.writable",
+  "api.WebTransportBidirectionalStream.writable.returns_WebTransportSendStream",
+  "api.WebTransportDatagramDuplexStream",
+  "api.WebTransportDatagramDuplexStream.byob_readers",
+  "api.WebTransportDatagramDuplexStream.incomingHighWaterMark",
+  "api.WebTransportDatagramDuplexStream.incomingMaxAge",
+  "api.WebTransportDatagramDuplexStream.maxDatagramSize",
+  "api.WebTransportDatagramDuplexStream.outgoingHighWaterMark",
+  "api.WebTransportDatagramDuplexStream.outgoingMaxAge",
+  "api.WebTransportDatagramDuplexStream.readable",
+  "api.WebTransportError",
+  "api.WebTransportError.WebTransportError",
+  "api.WebTransportError.source",
+  "api.WebTransportError.streamErrorCode",
+  "api.WebTransportReceiveStream",
+  "api.WebTransportReceiveStream.getStats",
+  "api.WebTransportSendStream",
+  "api.WebTransportSendStream.getStats",
+  "api.WebTransportSendStream.getWriter",
+  "api.WebTransportSendStream.sendOrder"
+ ],
+ "description": "The WebTransport API transmits data between a client and a server, by using the HTTP/3 protocol.",
+ "description_html": "The <code>WebTransport</code> API transmits data between a client and a server, by using the HTTP/3 protocol.",
+ "kind": "feature",
+ "name": "WebTransport",
+ "spec": [
+  "https://w3c.github.io/webtransport/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.WebTransport": {
+    "baseline": false,
+    "support": {
+     "chrome": "97",
+     "chrome_android": "97",
+     "edge": "97",
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransport.WebTransport": {
+    "baseline": false,
+    "support": {
+     "chrome": "97",
+     "chrome_android": "97",
+     "edge": "97",
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransport.WebTransport.options_allowPooling_parameter": {
+    "baseline": false,
+    "support": {
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransport.WebTransport.options_congestionControl_parameter": {
+    "baseline": false,
+    "support": {
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransport.WebTransport.options_requireUnreliable_parameter": {
+    "baseline": false,
+    "support": {
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransport.WebTransport.options_serverCertificateHashes_parameter": {
+    "baseline": false,
+    "support": {
+     "chrome": "100",
+     "chrome_android": "100",
+     "edge": "100",
+     "firefox": "125",
+     "firefox_android": "125"
+    }
+   },
+   "api.WebTransport.byob_readers": {
+    "baseline": false,
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransport.close": {
+    "baseline": false,
+    "support": {
+     "chrome": "97",
+     "chrome_android": "97",
+     "edge": "97",
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransport.closed": {
+    "baseline": false,
+    "support": {
+     "chrome": "97",
+     "chrome_android": "97",
+     "edge": "97",
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransport.congestionControl": {
+    "baseline": false,
+    "support": {
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransport.createBidirectionalStream": {
+    "baseline": false,
+    "support": {
+     "chrome": "97",
+     "chrome_android": "97",
+     "edge": "97",
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransport.createBidirectionalStream.options_sendOrder_parameter": {
+    "baseline": false,
+    "support": {
+     "firefox": "119",
+     "firefox_android": "119"
+    }
+   },
+   "api.WebTransport.createUnidirectionalStream": {
+    "baseline": false,
+    "support": {
+     "chrome": "97",
+     "chrome_android": "97",
+     "edge": "97"
+    }
+   },
+   "api.WebTransport.createUnidirectionalStream.byob_readers": {
+    "baseline": false,
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109"
+    }
+   },
+   "api.WebTransport.createUnidirectionalStream.options_sendOrder_parameter": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.WebTransport.datagrams": {
+    "baseline": false,
+    "support": {
+     "chrome": "97",
+     "chrome_android": "97",
+     "edge": "97",
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransport.getStats": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.WebTransport.incomingBidirectionalStreams": {
+    "baseline": false,
+    "support": {
+     "chrome": "97",
+     "chrome_android": "97",
+     "edge": "97",
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransport.incomingUnidirectionalStreams": {
+    "baseline": false,
+    "support": {
+     "chrome": "97",
+     "chrome_android": "97",
+     "edge": "97",
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransport.ready": {
+    "baseline": false,
+    "support": {
+     "chrome": "97",
+     "chrome_android": "97",
+     "edge": "97",
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransport.reliability": {
+    "baseline": false,
+    "support": {
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransportBidirectionalStream": {
+    "baseline": false,
+    "support": {
+     "chrome": "97",
+     "chrome_android": "97",
+     "edge": "97",
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransportBidirectionalStream.readable": {
+    "baseline": false,
+    "support": {
+     "chrome": "97",
+     "chrome_android": "97",
+     "edge": "97",
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransportBidirectionalStream.readable.returns_WebTransportReceiveStream": {
+    "baseline": false,
+    "support": {
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransportBidirectionalStream.writable": {
+    "baseline": false,
+    "support": {
+     "chrome": "97",
+     "chrome_android": "97",
+     "edge": "97",
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransportBidirectionalStream.writable.returns_WebTransportSendStream": {
+    "baseline": false,
+    "support": {
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransportDatagramDuplexStream": {
+    "baseline": false,
+    "support": {
+     "chrome": "97",
+     "chrome_android": "97",
+     "edge": "97",
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransportDatagramDuplexStream.byob_readers": {
+    "baseline": false,
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109"
+    }
+   },
+   "api.WebTransportDatagramDuplexStream.incomingHighWaterMark": {
+    "baseline": false,
+    "support": {
+     "chrome": "97",
+     "chrome_android": "97",
+     "edge": "97",
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransportDatagramDuplexStream.incomingMaxAge": {
+    "baseline": false,
+    "support": {
+     "chrome": "97",
+     "chrome_android": "97",
+     "edge": "97",
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransportDatagramDuplexStream.maxDatagramSize": {
+    "baseline": false,
+    "support": {
+     "chrome": "97",
+     "chrome_android": "97",
+     "edge": "97",
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransportDatagramDuplexStream.outgoingHighWaterMark": {
+    "baseline": false,
+    "support": {
+     "chrome": "97",
+     "chrome_android": "97",
+     "edge": "97",
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransportDatagramDuplexStream.outgoingMaxAge": {
+    "baseline": false,
+    "support": {
+     "chrome": "97",
+     "chrome_android": "97",
+     "edge": "97",
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransportDatagramDuplexStream.readable": {
+    "baseline": false,
+    "support": {
+     "chrome": "97",
+     "chrome_android": "97",
+     "edge": "97",
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransportError": {
+    "baseline": false,
+    "support": {
+     "chrome": "97",
+     "chrome_android": "97",
+     "edge": "97",
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransportError.WebTransportError": {
+    "baseline": false,
+    "support": {
+     "chrome": "97",
+     "chrome_android": "97",
+     "edge": "97",
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransportError.source": {
+    "baseline": false,
+    "support": {
+     "chrome": "97",
+     "chrome_android": "97",
+     "edge": "97",
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransportError.streamErrorCode": {
+    "baseline": false,
+    "support": {
+     "chrome": "97",
+     "chrome_android": "97",
+     "edge": "97",
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransportReceiveStream": {
+    "baseline": false,
+    "support": {
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransportReceiveStream.getStats": {
+    "baseline": false,
+    "support": {
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransportSendStream": {
+    "baseline": false,
+    "support": {
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransportSendStream.getStats": {
+    "baseline": false,
+    "support": {
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransportSendStream.getWriter": {
+    "baseline": false,
+    "support": {
+     "firefox": "114",
+     "firefox_android": "114"
+    }
+   },
+   "api.WebTransportSendStream.sendOrder": {
+    "baseline": false,
+    "support": {
+     "firefox": "121",
+     "firefox_android": "121"
+    }
+   }
+  },
+  "support": {
+   "chrome": "97",
+   "chrome_android": "97",
+   "edge": "97",
+   "firefox": "114",
+   "firefox_android": "114"
+  }
+ },
+ "id": "webtransport",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/webtransport/",
+   "seriesComposition": "full",
+   "shortname": "webtransport",
+   "series": {
+    "shortname": "webtransport",
+    "currentSpecification": "webtransport",
+    "title": "WebTransport",
+    "shortTitle": "WebTransport",
+    "releaseUrl": "https://www.w3.org/TR/webtransport/",
+    "nightlyUrl": "https://w3c.github.io/webtransport/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "WebTransport Working Group",
+     "url": "https://www.w3.org/groups/wg/webtransport/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/webtransport/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/webtransport/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/webtransport",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "WebTransport",
+   "source": "w3c",
+   "shortTitle": "WebTransport",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "webtransport"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/WebTransport_API",
+   "title": "WebTransport API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/WebTransport_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/167",
+   "position": "positive",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/18",
+   "position": "support",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00002249,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/80"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:webtransport"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/159",
+  "votes": 34
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/2007441"
+  ],
+  "chrome": [
+   "https://crbug.com/41492543"
+  ],
+  "chrome_android": [
+   "https://crbug.com/41492543"
+  ],
+  "edge": [
+   "https://crbug.com/41492543"
+  ],
+  "oculus": [
+   "https://crbug.com/41492543"
+  ],
+  "opera": [
+   "https://crbug.com/41492543"
+  ],
+  "opera_android": [
+   "https://crbug.com/41492543"
+  ],
+  "samsunginternet_android": [
+   "https://crbug.com/41492543"
+  ],
+  "webview_android": [
+   "https://crbug.com/41492543"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Safari",
+ "monthsBlocked": 33,
+ "blockedSince": "June 2023"
+}

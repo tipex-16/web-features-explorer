@@ -1,0 +1,422 @@
+{
+ "caniuse": [
+  "deviceorientation"
+ ],
+ "compat_features": [
+  "api.DeviceMotionEvent",
+  "api.DeviceMotionEvent.DeviceMotionEvent",
+  "api.DeviceMotionEvent.acceleration",
+  "api.DeviceMotionEvent.accelerationIncludingGravity",
+  "api.DeviceMotionEvent.interval",
+  "api.DeviceMotionEvent.requestPermission_static",
+  "api.DeviceMotionEvent.rotationRate",
+  "api.DeviceMotionEventAcceleration",
+  "api.DeviceMotionEventAcceleration.x",
+  "api.DeviceMotionEventAcceleration.y",
+  "api.DeviceMotionEventAcceleration.z",
+  "api.DeviceMotionEventRotationRate",
+  "api.DeviceMotionEventRotationRate.alpha",
+  "api.DeviceMotionEventRotationRate.beta",
+  "api.DeviceMotionEventRotationRate.gamma",
+  "api.DeviceOrientationEvent",
+  "api.DeviceOrientationEvent.DeviceOrientationEvent",
+  "api.DeviceOrientationEvent.absolute",
+  "api.DeviceOrientationEvent.alpha",
+  "api.DeviceOrientationEvent.beta",
+  "api.DeviceOrientationEvent.gamma",
+  "api.DeviceOrientationEvent.requestPermission_static",
+  "api.Window.devicemotion_event",
+  "api.Window.deviceorientation_event",
+  "api.Window.deviceorientationabsolute_event"
+ ],
+ "description": "The DeviceMotion and DeviceOrientation events report the movement and orientation of the browser's device in physical space. Note that coordinates can differ noticeably between platforms and devices.",
+ "description_html": "The <code>DeviceMotion</code> and <code>DeviceOrientation</code> events report the movement and orientation of the browser's device in physical space. Note that coordinates can differ noticeably between platforms and devices.",
+ "group": [
+  "sensors"
+ ],
+ "kind": "feature",
+ "name": "Device orientation events",
+ "spec": [
+  "https://w3c.github.io/deviceorientation/"
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2023-09-18",
+  "by_compat_key": {
+   "api.DeviceMotionEvent": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "31",
+     "chrome_android": "31",
+     "edge": "12",
+     "firefox": "6",
+     "firefox_android": "6",
+     "safari": "17",
+     "safari_ios": "4.2"
+    }
+   },
+   "api.DeviceMotionEvent.DeviceMotionEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "59",
+     "chrome_android": "59",
+     "edge": "14",
+     "firefox": "29",
+     "firefox_android": "29"
+    }
+   },
+   "api.DeviceMotionEvent.acceleration": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "31",
+     "chrome_android": "31",
+     "edge": "12",
+     "firefox": "6",
+     "firefox_android": "6",
+     "safari": "17",
+     "safari_ios": "4.2"
+    }
+   },
+   "api.DeviceMotionEvent.accelerationIncludingGravity": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "31",
+     "chrome_android": "31",
+     "edge": "12",
+     "firefox": "6",
+     "firefox_android": "6",
+     "safari": "17",
+     "safari_ios": "4.2"
+    }
+   },
+   "api.DeviceMotionEvent.interval": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "31",
+     "chrome_android": "31",
+     "edge": "12",
+     "firefox": "6",
+     "firefox_android": "6",
+     "safari": "17",
+     "safari_ios": "4.2"
+    }
+   },
+   "api.DeviceMotionEvent.requestPermission_static": {
+    "baseline": false,
+    "support": {
+     "safari_ios": "14.5"
+    }
+   },
+   "api.DeviceMotionEvent.rotationRate": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "31",
+     "chrome_android": "31",
+     "edge": "12",
+     "firefox": "6",
+     "firefox_android": "6",
+     "safari": "17",
+     "safari_ios": "4.2"
+    }
+   },
+   "api.DeviceMotionEventAcceleration": {
+    "baseline": false,
+    "support": {
+     "chrome": "31",
+     "chrome_android": "31",
+     "edge": "12",
+     "firefox": "6",
+     "firefox_android": "6",
+     "safari_ios": "4.2"
+    }
+   },
+   "api.DeviceMotionEventAcceleration.x": {
+    "baseline": false,
+    "support": {
+     "chrome": "31",
+     "chrome_android": "31",
+     "edge": "12",
+     "firefox": "6",
+     "firefox_android": "6",
+     "safari_ios": "4.2"
+    }
+   },
+   "api.DeviceMotionEventAcceleration.y": {
+    "baseline": false,
+    "support": {
+     "chrome": "31",
+     "chrome_android": "31",
+     "edge": "12",
+     "firefox": "6",
+     "firefox_android": "6",
+     "safari_ios": "4.2"
+    }
+   },
+   "api.DeviceMotionEventAcceleration.z": {
+    "baseline": false,
+    "support": {
+     "chrome": "31",
+     "chrome_android": "31",
+     "edge": "12",
+     "firefox": "6",
+     "firefox_android": "6",
+     "safari_ios": "4.2"
+    }
+   },
+   "api.DeviceMotionEventRotationRate": {
+    "baseline": false,
+    "support": {
+     "chrome": "31",
+     "chrome_android": "31",
+     "edge": "12",
+     "firefox": "6",
+     "firefox_android": "6",
+     "safari_ios": "4.2"
+    }
+   },
+   "api.DeviceMotionEventRotationRate.alpha": {
+    "baseline": false,
+    "support": {
+     "chrome": "31",
+     "chrome_android": "31",
+     "edge": "12",
+     "firefox": "6",
+     "firefox_android": "6",
+     "safari_ios": "4.2"
+    }
+   },
+   "api.DeviceMotionEventRotationRate.beta": {
+    "baseline": false,
+    "support": {
+     "chrome": "31",
+     "chrome_android": "31",
+     "edge": "12",
+     "firefox": "6",
+     "firefox_android": "6",
+     "safari_ios": "4.2"
+    }
+   },
+   "api.DeviceMotionEventRotationRate.gamma": {
+    "baseline": false,
+    "support": {
+     "chrome": "31",
+     "chrome_android": "31",
+     "edge": "12",
+     "firefox": "6",
+     "firefox_android": "6",
+     "safari_ios": "4.2"
+    }
+   },
+   "api.DeviceOrientationEvent": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "7",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "6",
+     "firefox_android": "6",
+     "safari": "17",
+     "safari_ios": "4.2"
+    }
+   },
+   "api.DeviceOrientationEvent.DeviceOrientationEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "59",
+     "chrome_android": "59",
+     "edge": "14",
+     "firefox": "17",
+     "firefox_android": "17"
+    }
+   },
+   "api.DeviceOrientationEvent.absolute": {
+    "baseline": false,
+    "support": {
+     "chrome": "7",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "6",
+     "firefox_android": "6",
+     "safari": "17"
+    }
+   },
+   "api.DeviceOrientationEvent.alpha": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "7",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "6",
+     "firefox_android": "6",
+     "safari": "17",
+     "safari_ios": "4.2"
+    }
+   },
+   "api.DeviceOrientationEvent.beta": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "7",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "6",
+     "firefox_android": "6",
+     "safari": "17",
+     "safari_ios": "4.2"
+    }
+   },
+   "api.DeviceOrientationEvent.gamma": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "7",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "6",
+     "firefox_android": "6",
+     "safari": "17",
+     "safari_ios": "4.2"
+    }
+   },
+   "api.DeviceOrientationEvent.requestPermission_static": {
+    "baseline": false,
+    "support": {
+     "safari_ios": "14.5"
+    }
+   },
+   "api.Window.devicemotion_event": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "31",
+     "chrome_android": "31",
+     "edge": "12",
+     "firefox": "6",
+     "firefox_android": "6",
+     "safari": "17",
+     "safari_ios": "4.2"
+    }
+   },
+   "api.Window.deviceorientation_event": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "7",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "6",
+     "firefox_android": "6",
+     "safari": "17",
+     "safari_ios": "4.2"
+    }
+   },
+   "api.Window.deviceorientationabsolute_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "50",
+     "chrome_android": "50",
+     "edge": "79",
+     "firefox": "110",
+     "firefox_android": "110"
+    }
+   }
+  },
+  "support": {
+   "chrome": "31",
+   "chrome_android": "31",
+   "edge": "12",
+   "firefox": "6",
+   "firefox_android": "6",
+   "safari": "17",
+   "safari_ios": "4.2"
+  }
+ },
+ "id": "device-orientation-events",
+ "groups": [
+  "sensors"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/deviceorientation/",
+   "seriesComposition": "full",
+   "shortname": "orientation-event",
+   "series": {
+    "shortname": "orientation-event",
+    "currentSpecification": "orientation-event",
+    "title": "Device Orientation and Motion",
+    "shortTitle": "Device Orientation and Motion",
+    "releaseUrl": "https://www.w3.org/TR/orientation-event/",
+    "nightlyUrl": "https://w3c.github.io/deviceorientation/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Devices and Sensors Working Group",
+     "url": "https://www.w3.org/das/"
+    },
+    {
+     "name": "Web Applications Working Group",
+     "url": "https://www.w3.org/groups/wg/webapps/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/orientation-event/",
+    "status": "Candidate Recommendation Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/deviceorientation/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/deviceorientation",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Device Orientation and Motion",
+   "source": "w3c",
+   "shortTitle": "Device Orientation and Motion",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "orientation-event"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Device_orientation_events",
+   "title": "Device orientation events",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Device_orientation_events"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.05948974,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/102"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:device-orientation-events"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2023-09-18T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2026-03-18"
+}

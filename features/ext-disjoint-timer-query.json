@@ -1,0 +1,142 @@
+{
+ "compat_features": [
+  "api.EXT_disjoint_timer_query",
+  "api.EXT_disjoint_timer_query.beginQueryEXT",
+  "api.EXT_disjoint_timer_query.createQueryEXT",
+  "api.EXT_disjoint_timer_query.deleteQueryEXT",
+  "api.EXT_disjoint_timer_query.endQueryEXT",
+  "api.EXT_disjoint_timer_query.getQueryEXT",
+  "api.EXT_disjoint_timer_query.getQueryObjectEXT",
+  "api.EXT_disjoint_timer_query.isQueryEXT",
+  "api.EXT_disjoint_timer_query.queryCounterEXT",
+  "api.WebGLTimerQueryEXT"
+ ],
+ "description": "The EXT_disjoint_timer_query extension for WebGL 1.0 contexts measures the duration of a set of GL commands, without stalling the rendering pipeline.",
+ "description_html": "The <code>EXT_disjoint_timer_query</code> extension for WebGL 1.0 contexts measures the duration of a set of GL commands, without stalling the rendering pipeline.",
+ "group": [
+  "webgl-extensions"
+ ],
+ "kind": "feature",
+ "name": "EXT_disjoint_timer_query WebGL extension",
+ "spec": [
+  "https://registry.khronos.org/webgl/extensions/EXT_disjoint_timer_query/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.EXT_disjoint_timer_query": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.EXT_disjoint_timer_query.beginQueryEXT": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.EXT_disjoint_timer_query.createQueryEXT": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.EXT_disjoint_timer_query.deleteQueryEXT": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.EXT_disjoint_timer_query.endQueryEXT": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.EXT_disjoint_timer_query.getQueryEXT": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.EXT_disjoint_timer_query.getQueryObjectEXT": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.EXT_disjoint_timer_query.isQueryEXT": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.EXT_disjoint_timer_query.queryCounterEXT": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.WebGLTimerQueryEXT": {
+    "baseline": false,
+    "support": {}
+   }
+  },
+  "support": {}
+ },
+ "id": "ext-disjoint-timer-query",
+ "groups": [
+  "webgl-extensions"
+ ],
+ "specs": [
+  {
+   "url": "https://registry.khronos.org/webgl/extensions/EXT_disjoint_timer_query/",
+   "seriesComposition": "full",
+   "shortname": "EXT_disjoint_timer_query",
+   "series": {
+    "shortname": "EXT_disjoint_timer_query",
+    "currentSpecification": "EXT_disjoint_timer_query",
+    "title": "WebGL EXT_disjoint_timer_query Extension Specification",
+    "shortTitle": "WebGL EXT_disjoint_timer_query Extension",
+    "nightlyUrl": "https://registry.khronos.org/webgl/extensions/EXT_disjoint_timer_query/"
+   },
+   "organization": "Khronos Group",
+   "groups": [
+    {
+     "name": "WebGL Working Group",
+     "url": "https://www.khronos.org/webgl/"
+    }
+   ],
+   "nightly": {
+    "url": "https://registry.khronos.org/webgl/extensions/EXT_disjoint_timer_query/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "sourcePath": "extensions/EXT_disjoint_timer_query/extension.xml",
+    "filename": "index.html"
+   },
+   "title": "WebGL EXT_disjoint_timer_query Extension Specification",
+   "source": "spec",
+   "shortTitle": "WebGL EXT_disjoint_timer_query Extension",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "testPaths": [
+     "conformance-suites"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/EXT_disjoint_timer_query",
+   "title": "EXT_disjoint_timer_query extension",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/EXT_disjoint_timer_query"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/298",
+  "votes": 0
+ },
+ "bugs": {
+  "chrome": [
+   "http://crbug.com/560620"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

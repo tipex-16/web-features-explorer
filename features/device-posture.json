@@ -1,0 +1,156 @@
+{
+ "compat_features": [
+  "api.DevicePosture",
+  "api.DevicePosture.change_event",
+  "api.DevicePosture.type",
+  "api.Navigator.devicePosture",
+  "css.at-rules.media.device-posture"
+ ],
+ "description": "The device posture API and the device-posture CSS media feature reflect the physical posture of a device, such as whether a foldable device is folded or unfolded.",
+ "description_html": "The device posture API and the <code>device-posture</code> CSS media feature reflect the physical posture of a device, such as whether a foldable device is folded or unfolded.",
+ "kind": "feature",
+ "name": "Device posture",
+ "spec": [
+  "https://w3c.github.io/device-posture/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.DevicePosture": {
+    "baseline": false,
+    "support": {
+     "chrome": "132",
+     "chrome_android": "132",
+     "edge": "132"
+    }
+   },
+   "api.DevicePosture.change_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "132",
+     "chrome_android": "132",
+     "edge": "132"
+    }
+   },
+   "api.DevicePosture.type": {
+    "baseline": false,
+    "support": {
+     "chrome": "132",
+     "chrome_android": "132",
+     "edge": "132"
+    }
+   },
+   "api.Navigator.devicePosture": {
+    "baseline": false,
+    "support": {
+     "chrome": "132",
+     "chrome_android": "132",
+     "edge": "132"
+    }
+   },
+   "css.at-rules.media.device-posture": {
+    "baseline": false,
+    "support": {
+     "chrome": "132",
+     "chrome_android": "132",
+     "edge": "132"
+    }
+   }
+  },
+  "support": {
+   "chrome": "132",
+   "chrome_android": "132",
+   "edge": "132"
+  }
+ },
+ "id": "device-posture",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/device-posture/",
+   "seriesComposition": "full",
+   "shortname": "device-posture",
+   "series": {
+    "shortname": "device-posture",
+    "currentSpecification": "device-posture",
+    "title": "Device Posture API",
+    "shortTitle": "Device Posture API",
+    "releaseUrl": "https://www.w3.org/TR/device-posture/",
+    "nightlyUrl": "https://w3c.github.io/device-posture/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Devices and Sensors Working Group",
+     "url": "https://www.w3.org/das/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/device-posture/",
+    "status": "Candidate Recommendation Snapshot",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/device-posture/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/device-posture",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Device Posture API",
+   "source": "w3c",
+   "shortTitle": "Device Posture API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "device-posture"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Device_Posture_API",
+   "title": "Device Posture API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Device_Posture_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/882",
+   "position": "",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/328",
+   "position": "",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.0099936,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/401"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:device-posture"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/270",
+  "votes": 0
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

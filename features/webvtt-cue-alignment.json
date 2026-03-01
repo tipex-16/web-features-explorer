@@ -1,0 +1,198 @@
+{
+ "compat_features": [
+  "api.VTTCue.lineAlign",
+  "api.VTTCue.positionAlign"
+ ],
+ "description": "The WebVTT cue alignment settings control which part of the cue is aligned with the given line and position. Cue alignment is set using line and position settings in WebVTT files or the lineAlign and positionAlign properties of VTTCue using JavaScript.",
+ "description_html": "The WebVTT cue alignment settings control which part of the cue is aligned with the given line and position. Cue alignment is set using <code>line</code> and <code>position</code> settings in WebVTT files or the <code>lineAlign</code> and <code>positionAlign</code> properties of <code>VTTCue</code> using JavaScript.",
+ "kind": "feature",
+ "name": "WebVTT cue alignment",
+ "spec": [
+  "https://w3c.github.io/webvtt/#dom-vttcue-linealign",
+  "https://w3c.github.io/webvtt/#dom-vttcue-positionalign"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.VTTCue.lineAlign": {
+    "baseline": false,
+    "support": {
+     "firefox": "31",
+     "firefox_android": "31",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.VTTCue.positionAlign": {
+    "baseline": false,
+    "support": {
+     "firefox": "31",
+     "firefox_android": "31",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   }
+  },
+  "support": {
+   "firefox": "31",
+   "firefox_android": "31",
+   "safari": "14.1",
+   "safari_ios": "14.5"
+  }
+ },
+ "id": "webvtt-cue-alignment",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/webvtt/#dom-vttcue-linealign",
+   "seriesComposition": "full",
+   "shortname": "webvtt1",
+   "series": {
+    "shortname": "webvtt",
+    "currentSpecification": "webvtt1",
+    "title": "WebVTT: The Web Video Text Tracks Format",
+    "shortTitle": "WebVTT: The Web Video Text Tracks Format",
+    "releaseUrl": "https://www.w3.org/TR/webvtt/",
+    "nightlyUrl": "https://w3c.github.io/webvtt/"
+   },
+   "seriesVersion": "1",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Timed Text Working Group",
+     "url": "https://www.w3.org/AudioVideo/TT/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/webvtt1/",
+    "status": "Candidate Recommendation Snapshot",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/webvtt/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/webvtt",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "WebVTT: The Web Video Text Tracks Format",
+   "source": "w3c",
+   "shortTitle": "WebVTT: The Web Video Text Tracks Format",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "webvtt"
+    ]
+   },
+   "fragment": "dom-vttcue-linealign"
+  },
+  {
+   "url": "https://w3c.github.io/webvtt/#dom-vttcue-positionalign",
+   "seriesComposition": "full",
+   "shortname": "webvtt1",
+   "series": {
+    "shortname": "webvtt",
+    "currentSpecification": "webvtt1",
+    "title": "WebVTT: The Web Video Text Tracks Format",
+    "shortTitle": "WebVTT: The Web Video Text Tracks Format",
+    "releaseUrl": "https://www.w3.org/TR/webvtt/",
+    "nightlyUrl": "https://w3c.github.io/webvtt/"
+   },
+   "seriesVersion": "1",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Timed Text Working Group",
+     "url": "https://www.w3.org/AudioVideo/TT/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/webvtt1/",
+    "status": "Candidate Recommendation Snapshot",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/webvtt/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/webvtt",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "WebVTT: The Web Video Text Tracks Format",
+   "source": "w3c",
+   "shortTitle": "WebVTT: The Web Video Text Tracks Format",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "webvtt"
+    ]
+   },
+   "fragment": "dom-vttcue-positionalign"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/VTTCue/lineAlign",
+   "title": "VTTCue: lineAlign property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/VTTCue/lineAlign"
+  },
+  {
+   "slug": "Web/API/VTTCue/positionAlign",
+   "title": "VTTCue: positionAlign property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/VTTCue/positionAlign"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:webvtt-cue-alignment"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/39",
+  "votes": 0
+ },
+ "bugs": {
+  "chrome": [
+   "https://bugs.chromium.org/p/chromium/issues/detail?id=633690",
+   "https://crbug.com/41267398"
+  ],
+  "chrome_android": [
+   "https://crbug.com/41267398"
+  ],
+  "edge": [
+   "https://crbug.com/41267398"
+  ],
+  "oculus": [
+   "https://crbug.com/41267398"
+  ],
+  "opera": [
+   "https://crbug.com/41267398"
+  ],
+  "opera_android": [
+   "https://crbug.com/41267398"
+  ],
+  "samsunginternet_android": [
+   "https://crbug.com/41267398"
+  ],
+  "webview_android": [
+   "https://crbug.com/41267398"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

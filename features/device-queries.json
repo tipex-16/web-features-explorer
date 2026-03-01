@@ -1,0 +1,166 @@
+{
+ "compat_features": [
+  "css.at-rules.media.device-aspect-ratio",
+  "css.at-rules.media.device-height",
+  "css.at-rules.media.device-width"
+ ],
+ "description": "The device-aspect-ratio, device-height, and device-width media features describe physical properties of the displaying output device.",
+ "description_html": "The <code>device-aspect-ratio</code>, <code>device-height</code>, and <code>device-width</code> media features describe physical properties of the displaying output device.",
+ "discouraged": {
+  "according_to": [
+   "https://drafts.csswg.org/mediaqueries-5/#mf-deprecated"
+  ],
+  "alternatives": [
+   "media-queries"
+  ],
+  "reason": "Device media queries do not reflect available layout, only the physical size of the device.",
+  "reason_html": "Device media queries do not reflect available layout, only the physical size of the device."
+ },
+ "group": [
+  "media-queries"
+ ],
+ "kind": "feature",
+ "name": "Device media queries",
+ "spec": [
+  "https://drafts.csswg.org/mediaqueries-5/#mf-deprecated"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "css.at-rules.media.device-aspect-ratio": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "2",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "css.at-rules.media.device-height": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "2",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "css.at-rules.media.device-width": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "2",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   }
+  },
+  "support": {
+   "chrome": "1",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "2",
+   "firefox_android": "4",
+   "safari": "3",
+   "safari_ios": "1"
+  }
+ },
+ "id": "device-queries",
+ "groups": [
+  "media-queries"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/mediaqueries-5/#mf-deprecated",
+   "seriesComposition": "delta",
+   "shortname": "mediaqueries-5",
+   "series": {
+    "shortname": "mediaqueries",
+    "currentSpecification": "mediaqueries-4",
+    "title": "Media Queries",
+    "shortTitle": "Media Queries",
+    "releaseUrl": "https://www.w3.org/TR/mediaqueries/",
+    "nightlyUrl": "https://drafts.csswg.org/mediaqueries/"
+   },
+   "seriesVersion": "5",
+   "seriesPrevious": "mediaqueries-4",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/mediaqueries-5/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/mediaqueries-5/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/mediaqueries-5/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "mediaqueries-5/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "Media Queries Level 5",
+   "source": "w3c",
+   "shortTitle": "Media Queries 5",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/mediaqueries"
+    ]
+   },
+   "fragment": "mf-deprecated"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/At-rules/@media/device-aspect-ratio",
+   "title": "device-aspect-ratio",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/device-aspect-ratio"
+  },
+  {
+   "slug": "Web/CSS/Reference/At-rules/@media/device-height",
+   "title": "device-height",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/device-height"
+  },
+  {
+   "slug": "Web/CSS/Reference/At-rules/@media/device-width",
+   "title": "device-width",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/device-width"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:device-queries"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

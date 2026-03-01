@@ -1,0 +1,109 @@
+{
+ "compat_features": [
+  "api.URL.canParse_static"
+ ],
+ "description": "The URL.canParse() static method checks whether a URL can be parsed into a valid URL object. It's an alternative to calling new URL() in a try … catch statement.",
+ "description_html": "The <code>URL.canParse()</code> static method checks whether a URL can be parsed into a valid <code>URL</code> object. It's an alternative to calling <code>new URL()</code> in a <code>try … catch</code> statement.",
+ "kind": "feature",
+ "name": "URL.canParse()",
+ "spec": [
+  "https://url.spec.whatwg.org/#dom-url-canparse"
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2023-12-07",
+  "by_compat_key": {
+   "api.URL.canParse_static": {
+    "baseline": "low",
+    "baseline_low_date": "2023-12-07",
+    "support": {
+     "chrome": "120",
+     "chrome_android": "120",
+     "edge": "120",
+     "firefox": "115",
+     "firefox_android": "115",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   }
+  },
+  "support": {
+   "chrome": "120",
+   "chrome_android": "120",
+   "edge": "120",
+   "firefox": "115",
+   "firefox_android": "115",
+   "safari": "17",
+   "safari_ios": "17"
+  }
+ },
+ "id": "url-canparse",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://url.spec.whatwg.org/#dom-url-canparse",
+   "seriesComposition": "full",
+   "shortname": "url",
+   "series": {
+    "shortname": "url",
+    "currentSpecification": "url",
+    "title": "URL",
+    "shortTitle": "URL",
+    "nightlyUrl": "https://url.spec.whatwg.org/"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "URL Workstream",
+     "url": "https://url.spec.whatwg.org/"
+    }
+   ],
+   "nightly": {
+    "url": "https://url.spec.whatwg.org/",
+    "status": "Living Standard",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/url",
+    "sourcePath": "url.bs",
+    "filename": "index.html"
+   },
+   "title": "URL",
+   "source": "whatwg",
+   "shortTitle": "URL",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "url"
+    ]
+   },
+   "fragment": "dom-url-canparse"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/URL/canParse_static",
+   "title": "URL: canParse() static method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/URL/canParse_static"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.05505196,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/261"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:url-canparse"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2023-12-07T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2026-06-07"
+}

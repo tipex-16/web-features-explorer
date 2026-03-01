@@ -1,0 +1,247 @@
+{
+ "compat_features": [
+  "javascript.builtins.Intl.PluralRules",
+  "javascript.builtins.Intl.PluralRules.PluralRules",
+  "javascript.builtins.Intl.PluralRules.PluralRules.options_parameter",
+  "javascript.builtins.Intl.PluralRules.PluralRules.options_parameter.options_roundingIncrement_parameter",
+  "javascript.builtins.Intl.PluralRules.PluralRules.options_parameter.options_roundingMode_parameter",
+  "javascript.builtins.Intl.PluralRules.PluralRules.options_parameter.options_roundingPriority_parameter",
+  "javascript.builtins.Intl.PluralRules.PluralRules.options_parameter.options_trailingZeroDisplay_parameter",
+  "javascript.builtins.Intl.PluralRules.resolvedOptions",
+  "javascript.builtins.Intl.PluralRules.select",
+  "javascript.builtins.Intl.PluralRules.selectRange",
+  "javascript.builtins.Intl.PluralRules.supportedLocalesOf"
+ ],
+ "description": "The Intl.PluralRules API creates a locale-aware object that tells you which of the language's pluralization rules apply based on a given number.",
+ "description_html": "The <code>Intl.PluralRules</code> API creates a locale-aware object that tells you which of the language's pluralization rules apply based on a given number.",
+ "group": [
+  "intl"
+ ],
+ "kind": "feature",
+ "name": "Intl.PluralRules",
+ "spec": [
+  "https://tc39.es/ecma402/#pluralrules-objects"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2022-03-19",
+  "baseline_low_date": "2019-09-19",
+  "by_compat_key": {
+   "javascript.builtins.Intl.PluralRules": {
+    "baseline": "high",
+    "baseline_high_date": "2022-03-19",
+    "baseline_low_date": "2019-09-19",
+    "support": {
+     "chrome": "63",
+     "chrome_android": "63",
+     "edge": "18",
+     "firefox": "58",
+     "firefox_android": "58",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "javascript.builtins.Intl.PluralRules.PluralRules": {
+    "baseline": "high",
+    "baseline_high_date": "2022-03-19",
+    "baseline_low_date": "2019-09-19",
+    "support": {
+     "chrome": "63",
+     "chrome_android": "63",
+     "edge": "18",
+     "firefox": "58",
+     "firefox_android": "58",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "javascript.builtins.Intl.PluralRules.PluralRules.options_parameter": {
+    "baseline": "high",
+    "baseline_high_date": "2026-02-01",
+    "baseline_low_date": "2023-08-01",
+    "support": {
+     "chrome": "106",
+     "chrome_android": "106",
+     "edge": "106",
+     "firefox": "116",
+     "firefox_android": "116",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "javascript.builtins.Intl.PluralRules.PluralRules.options_parameter.options_roundingIncrement_parameter": {
+    "baseline": false,
+    "support": {
+     "firefox": "116",
+     "firefox_android": "116",
+     "safari": "17.2",
+     "safari_ios": "17.2"
+    }
+   },
+   "javascript.builtins.Intl.PluralRules.PluralRules.options_parameter.options_roundingMode_parameter": {
+    "baseline": "low",
+    "baseline_low_date": "2023-12-11",
+    "support": {
+     "chrome": "117",
+     "chrome_android": "117",
+     "edge": "117",
+     "firefox": "116",
+     "firefox_android": "116",
+     "safari": "17.2",
+     "safari_ios": "17.2"
+    }
+   },
+   "javascript.builtins.Intl.PluralRules.PluralRules.options_parameter.options_roundingPriority_parameter": {
+    "baseline": "high",
+    "baseline_high_date": "2026-02-01",
+    "baseline_low_date": "2023-08-01",
+    "support": {
+     "chrome": "106",
+     "chrome_android": "106",
+     "edge": "106",
+     "firefox": "116",
+     "firefox_android": "116",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "javascript.builtins.Intl.PluralRules.PluralRules.options_parameter.options_trailingZeroDisplay_parameter": {
+    "baseline": false,
+    "support": {
+     "firefox": "116",
+     "firefox_android": "116"
+    }
+   },
+   "javascript.builtins.Intl.PluralRules.resolvedOptions": {
+    "baseline": "high",
+    "baseline_high_date": "2022-03-19",
+    "baseline_low_date": "2019-09-19",
+    "support": {
+     "chrome": "63",
+     "chrome_android": "63",
+     "edge": "18",
+     "firefox": "58",
+     "firefox_android": "58",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "javascript.builtins.Intl.PluralRules.select": {
+    "baseline": "high",
+    "baseline_high_date": "2022-03-19",
+    "baseline_low_date": "2019-09-19",
+    "support": {
+     "chrome": "63",
+     "chrome_android": "63",
+     "edge": "18",
+     "firefox": "58",
+     "firefox_android": "58",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "javascript.builtins.Intl.PluralRules.selectRange": {
+    "baseline": "high",
+    "baseline_high_date": "2026-02-01",
+    "baseline_low_date": "2023-08-01",
+    "support": {
+     "chrome": "106",
+     "chrome_android": "106",
+     "edge": "106",
+     "firefox": "116",
+     "firefox_android": "116",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "javascript.builtins.Intl.PluralRules.supportedLocalesOf": {
+    "baseline": "high",
+    "baseline_high_date": "2022-03-19",
+    "baseline_low_date": "2019-09-19",
+    "support": {
+     "chrome": "63",
+     "chrome_android": "63",
+     "edge": "18",
+     "firefox": "58",
+     "firefox_android": "58",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   }
+  },
+  "support": {
+   "chrome": "63",
+   "chrome_android": "63",
+   "edge": "18",
+   "firefox": "58",
+   "firefox_android": "58",
+   "safari": "13",
+   "safari_ios": "13"
+  }
+ },
+ "id": "intl-plural-rules",
+ "groups": [
+  "intl"
+ ],
+ "specs": [
+  {
+   "url": "https://tc39.es/ecma402/#pluralrules-objects",
+   "seriesComposition": "full",
+   "shortname": "ecma-402",
+   "series": {
+    "shortname": "ecma-402",
+    "currentSpecification": "ecma-402",
+    "title": "ECMAScript® 2026 Internationalization API Specification",
+    "shortTitle": "ECMAScript® 2026 Internationalization API",
+    "nightlyUrl": "https://tc39.es/ecma402/"
+   },
+   "tests": {
+    "repository": "https://github.com/tc39/test262",
+    "testPaths": [
+     "test/intl402"
+    ]
+   },
+   "organization": "Ecma International",
+   "groups": [
+    {
+     "name": "TC39",
+     "url": "https://tc39.es/"
+    }
+   ],
+   "nightly": {
+    "url": "https://tc39.es/ecma402/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/tc39/ecma402",
+    "sourcePath": "spec/index.html",
+    "filename": "index.html"
+   },
+   "title": "ECMAScript® 2026 Internationalization API Specification",
+   "source": "spec",
+   "shortTitle": "ECMAScript® 2026 Internationalization API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": "pluralrules-objects"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/JavaScript/Reference/Global_Objects/Intl/PluralRules",
+   "title": "Intl.PluralRules",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/PluralRules"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2019-09-19T00:00:00.000Z",
+ "baselineHighDateAsObject": "2022-03-19T00:00:00.000Z"
+}

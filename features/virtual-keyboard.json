@@ -1,0 +1,204 @@
+{
+ "compat_features": [
+  "api.HTMLElement.virtualKeyboardPolicy",
+  "api.Navigator.virtualKeyboard",
+  "api.VirtualKeyboard",
+  "api.VirtualKeyboard.boundingRect",
+  "api.VirtualKeyboard.geometrychange_event",
+  "api.VirtualKeyboard.hide",
+  "api.VirtualKeyboard.overlaysContent",
+  "api.VirtualKeyboard.show",
+  "html.global_attributes.virtualkeyboardpolicy"
+ ],
+ "description": "The navigator.virtualKeyboard API inspects and controls on-screen virtual keyboards. You can use it to programmatically hide or show a virtual keyboard or respond to the keyboard disappearing or appearing.",
+ "description_html": "The <code>navigator.virtualKeyboard</code> API inspects and controls on-screen virtual keyboards. You can use it to programmatically hide or show a virtual keyboard or respond to the keyboard disappearing or appearing.",
+ "kind": "feature",
+ "name": "Virtual keyboard",
+ "spec": [
+  "https://w3c.github.io/virtual-keyboard/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.HTMLElement.virtualKeyboardPolicy": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "94"
+    }
+   },
+   "api.Navigator.virtualKeyboard": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "94"
+    }
+   },
+   "api.VirtualKeyboard": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "94"
+    }
+   },
+   "api.VirtualKeyboard.boundingRect": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "94"
+    }
+   },
+   "api.VirtualKeyboard.geometrychange_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "94"
+    }
+   },
+   "api.VirtualKeyboard.hide": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "94"
+    }
+   },
+   "api.VirtualKeyboard.overlaysContent": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "94"
+    }
+   },
+   "api.VirtualKeyboard.show": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "94"
+    }
+   },
+   "html.global_attributes.virtualkeyboardpolicy": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "94"
+    }
+   }
+  },
+  "support": {
+   "chrome": "94",
+   "chrome_android": "94",
+   "edge": "94"
+  }
+ },
+ "id": "virtual-keyboard",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/virtual-keyboard/",
+   "seriesComposition": "full",
+   "shortname": "virtual-keyboard",
+   "series": {
+    "shortname": "virtual-keyboard",
+    "currentSpecification": "virtual-keyboard",
+    "title": "VirtualKeyboard API",
+    "shortTitle": "VirtualKeyboard API",
+    "releaseUrl": "https://www.w3.org/TR/virtual-keyboard/",
+    "nightlyUrl": "https://w3c.github.io/virtual-keyboard/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Editing Working Group",
+     "url": "https://www.w3.org/groups/wg/webediting/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/virtual-keyboard/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/virtual-keyboard/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/virtual-keyboard",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "VirtualKeyboard API",
+   "source": "w3c",
+   "shortTitle": "VirtualKeyboard API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/VirtualKeyboard_API",
+   "title": "VirtualKeyboard API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/VirtualKeyboard_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/531",
+   "position": "",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/16",
+   "concerns": [
+    "device independence"
+   ],
+   "position": ""
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00395133,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/264"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:virtual-keyboard"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/153",
+  "votes": 7
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1730568"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/1730568"
+  ],
+  "safari": [
+   "https://webkit.org/b/230225"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/230225"
+  ],
+  "webview_ios": [
+   "https://webkit.org/b/230225"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

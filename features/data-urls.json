@@ -1,0 +1,162 @@
+{
+ "compat_features": [
+  "http.data-url",
+  "http.data-url.css_files",
+  "http.data-url.html_files",
+  "http.data-url.js_files",
+  "http.data-url.top_level_navigation_blocked"
+ ],
+ "description": "Data URLs are URLs that start with the data: scheme and which directly contain data rather than point to remote resources.",
+ "description_html": "Data URLs are URLs that start with the <code>data:</code> scheme and which directly contain data rather than point to remote resources.",
+ "kind": "feature",
+ "name": "Data URLs",
+ "spec": [
+  "https://www.rfc-editor.org/rfc/rfc2397"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "http.data-url": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "≤4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "≤2",
+     "firefox_android": "4",
+     "safari": "≤3.1",
+     "safari_ios": "≤2"
+    }
+   },
+   "http.data-url.css_files": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "≤4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "≤2",
+     "firefox_android": "4",
+     "safari": "≤3.1",
+     "safari_ios": "≤2"
+    }
+   },
+   "http.data-url.html_files": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "≤4",
+     "chrome_android": "18",
+     "edge": "79",
+     "firefox": "≤2",
+     "firefox_android": "4",
+     "safari": "≤3.1",
+     "safari_ios": "≤2"
+    }
+   },
+   "http.data-url.js_files": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "≤4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "≤2",
+     "firefox_android": "4",
+     "safari": "≤3.1",
+     "safari_ios": "≤2"
+    }
+   },
+   "http.data-url.top_level_navigation_blocked": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "60",
+     "chrome_android": "60",
+     "edge": "79",
+     "firefox": "59",
+     "firefox_android": "59",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   }
+  },
+  "support": {
+   "chrome": "≤4",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "≤2",
+   "firefox_android": "4",
+   "safari": "≤3.1",
+   "safari_ios": "≤2"
+  }
+ },
+ "id": "data-urls",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://www.rfc-editor.org/rfc/rfc2397",
+   "seriesComposition": "full",
+   "shortname": "rfc2397",
+   "series": {
+    "shortname": "rfc2397",
+    "currentSpecification": "rfc2397",
+    "title": "The \"data\" URL scheme",
+    "shortTitle": "The \"data\" URL scheme",
+    "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc2397"
+   },
+   "organization": "IETF",
+   "groups": [
+    {
+     "name": "Individual Submissions",
+     "url": "https://datatracker.ietf.org/wg/none/"
+    }
+   ],
+   "nightly": {
+    "url": "https://www.rfc-editor.org/rfc/rfc2397",
+    "status": "Proposed Standard",
+    "alternateUrls": [
+     "https://datatracker.ietf.org/doc/html/rfc2397",
+     "https://tools.ietf.org/html/rfc2397"
+    ],
+    "filename": "rfc2397.html"
+   },
+   "title": "The \"data\" URL scheme",
+   "source": "ietf",
+   "shortTitle": "The \"data\" URL scheme",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/URI/Reference/Schemes/data",
+   "title": "data: URLs",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/URI/Reference/Schemes/data"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:data-urls"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

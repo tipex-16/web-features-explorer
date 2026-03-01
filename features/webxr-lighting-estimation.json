@@ -1,0 +1,207 @@
+{
+ "compat_features": [
+  "api.XRFrame.getLightEstimate",
+  "api.XRLightEstimate",
+  "api.XRLightEstimate.primaryLightDirection",
+  "api.XRLightEstimate.primaryLightIntensity",
+  "api.XRLightEstimate.sphericalHarmonicsCoefficients",
+  "api.XRLightProbe",
+  "api.XRLightProbe.probeSpace",
+  "api.XRLightProbe.reflectionchange_event",
+  "api.XRSession.preferredReflectionFormat",
+  "api.XRSession.requestLightProbe",
+  "api.XRWebGLBinding.getReflectionCubeMap"
+ ],
+ "description": "The XRLightProbe and XRLightEstimate objects represent real-world environmental lighting conditions during a WebXR session.",
+ "description_html": "The <code>XRLightProbe</code> and <code>XRLightEstimate</code> objects represent real-world environmental lighting conditions during a WebXR session.",
+ "group": [
+  "webxr"
+ ],
+ "kind": "feature",
+ "name": "Lighting estimation",
+ "spec": [
+  "https://immersive-web.github.io/lighting-estimation/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.XRFrame.getLightEstimate": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90"
+    }
+   },
+   "api.XRLightEstimate": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90"
+    }
+   },
+   "api.XRLightEstimate.primaryLightDirection": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90"
+    }
+   },
+   "api.XRLightEstimate.primaryLightIntensity": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90"
+    }
+   },
+   "api.XRLightEstimate.sphericalHarmonicsCoefficients": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90"
+    }
+   },
+   "api.XRLightProbe": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90"
+    }
+   },
+   "api.XRLightProbe.probeSpace": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90"
+    }
+   },
+   "api.XRLightProbe.reflectionchange_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90"
+    }
+   },
+   "api.XRSession.preferredReflectionFormat": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90"
+    }
+   },
+   "api.XRSession.requestLightProbe": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90"
+    }
+   },
+   "api.XRWebGLBinding.getReflectionCubeMap": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90"
+    }
+   }
+  },
+  "support": {
+   "chrome": "90",
+   "chrome_android": "90",
+   "edge": "90"
+  }
+ },
+ "id": "webxr-lighting-estimation",
+ "groups": [
+  "webxr"
+ ],
+ "specs": [
+  {
+   "url": "https://immersive-web.github.io/lighting-estimation/",
+   "seriesComposition": "full",
+   "shortname": "webxr-lighting-estimation-1",
+   "series": {
+    "shortname": "webxr-lighting-estimation",
+    "currentSpecification": "webxr-lighting-estimation-1",
+    "title": "WebXR Lighting Estimation API",
+    "shortTitle": "WebXR Lighting Estimation API",
+    "releaseUrl": "https://www.w3.org/TR/webxr-lighting-estimation/",
+    "nightlyUrl": "https://immersive-web.github.io/lighting-estimation/"
+   },
+   "seriesVersion": "1",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Immersive Web Working Group",
+     "url": "https://www.w3.org/immersive-web/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/webxr-lighting-estimation-1/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://immersive-web.github.io/lighting-estimation/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/immersive-web/lighting-estimation",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "WebXR Lighting Estimation API Level 1",
+   "source": "w3c",
+   "shortTitle": "WebXR Lighting Estimation API 1",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/XRLightProbe",
+   "title": "XRLightProbe",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/XRLightProbe"
+  },
+  {
+   "slug": "Web/API/XRLightEstimate",
+   "title": "XRLightEstimate",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/XRLightEstimate"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 6e-8,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/409"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:webxr-lighting-estimation"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/141",
+  "votes": 0
+ },
+ "bugs": {
+  "webview_android": [
+   "https://crbug.com/40652382"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

@@ -1,0 +1,142 @@
+{
+ "compat_features": [
+  "api.LaunchParams.files",
+  "manifests.webapp.file_handlers"
+ ],
+ "description": "The file_handlers web app manifest member registers an installed web app as a handler for files with specific file extensions or MIME types.",
+ "description_html": "The <code>file_handlers</code> web app manifest member registers an installed web app as a handler for files with specific file extensions or MIME types.",
+ "group": [
+  "progressive-web-app"
+ ],
+ "kind": "feature",
+ "name": "File handlers",
+ "spec": [
+  "https://wicg.github.io/manifest-incubations/#file_handlers-member"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.LaunchParams.files": {
+    "baseline": false,
+    "support": {
+     "chrome": "102",
+     "edge": "102"
+    }
+   },
+   "manifests.webapp.file_handlers": {
+    "baseline": false,
+    "support": {
+     "chrome": "102",
+     "edge": "102"
+    }
+   }
+  },
+  "support": {
+   "chrome": "102",
+   "edge": "102"
+  }
+ },
+ "id": "app-file-handlers",
+ "groups": [
+  "progressive-web-app"
+ ],
+ "specs": [
+  {
+   "url": "https://wicg.github.io/manifest-incubations/#file_handlers-member",
+   "seriesComposition": "full",
+   "shortname": "manifest-incubations",
+   "series": {
+    "shortname": "manifest-incubations",
+    "currentSpecification": "manifest-incubations",
+    "title": "Manifest Incubations",
+    "shortTitle": "Manifest Incubations",
+    "nightlyUrl": "https://wicg.github.io/manifest-incubations/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://wicg.github.io/manifest-incubations/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/WICG/manifest-incubations",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Manifest Incubations",
+   "source": "spec",
+   "shortTitle": "Manifest Incubations",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": "file_handlers-member"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/Progressive_web_apps/Manifest/Reference/file_handlers",
+   "title": "file_handlers",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/Progressive_web_apps/Manifest/Reference/file_handlers"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/system_capabilities/#system_capabilities_features",
+   "question": "system_capabilities",
+   "subQuestion": "system_capabilities_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.system_capabilities.system_capabilities_features.3.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.60.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+   "question": "_all_features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.60.entity"
+  },
+  {
+   "name": "State of HTML 2024",
+   "url": "https://2024.stateofhtml.com/en-US/features/mobile-web-apps/#mobile_web_apps_features",
+   "question": "mobile_web_apps",
+   "subQuestion": "mobile_web_apps_features",
+   "path": "dataAPI.surveys.state_of_html.html2024.mobile_web_apps.mobile_web_apps_features.4.entity"
+  },
+  {
+   "name": "State of HTML 2024",
+   "url": "https://2024.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2024.features.all_features.46.entity"
+  }
+ ],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 6.3e-7,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/299"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:app-file-handlers"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/173",
+  "votes": 10
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

@@ -1,0 +1,87 @@
+{
+ "compat_features": [
+  "javascript.statements.import.import_assertions",
+  "javascript.statements.import.import_assertions.type_css",
+  "javascript.statements.import.import_assertions.type_json"
+ ],
+ "description": "Module import … assert { type: \"json\" } and import … assert { type: \"css\" } JavaScript statements load JSON and CSS data.",
+ "description_html": "Module <code>import … assert { type: \"json\" }</code> and <code>import … assert { type: \"css\" }</code> JavaScript statements load JSON and CSS data.",
+ "discouraged": {
+  "according_to": [
+   "https://github.com/tc39/proposal-import-attributes/pull/131"
+  ],
+  "alternatives": [
+   "css-modules",
+   "json-modules"
+  ],
+  "reason": "Import assertions are superseded by import attributes.",
+  "reason_html": "Import assertions are superseded by import attributes.",
+  "removal_date": "2024-06-13"
+ },
+ "group": [
+  "js-modules"
+ ],
+ "kind": "feature",
+ "name": "Import assertions",
+ "spec": [
+  "https://github.com/tc39/proposal-import-attributes/tree/abca60286360b47f9a6be25a28f489c2cb157beb"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "javascript.statements.import.import_assertions": {
+    "baseline": false,
+    "support": {}
+   },
+   "javascript.statements.import.import_assertions.type_css": {
+    "baseline": false,
+    "support": {}
+   },
+   "javascript.statements.import.import_assertions.type_json": {
+    "baseline": false,
+    "support": {}
+   }
+  },
+  "support": {}
+ },
+ "id": "import-assertions",
+ "groups": [
+  "js-modules"
+ ],
+ "specs": [
+  {
+   "url": "https://github.com/tc39/proposal-import-attributes/tree/abca60286360b47f9a6be25a28f489c2cb157beb"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/JavaScript/Reference/Statements/import",
+   "title": "import",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/import"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {
+  "chrome": [
+   "https://bugs.chromium.org/p/chromium/issues/detail?id=1132413"
+  ],
+  "safari": [
+   "https://webkit.org/b/227967"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/227967"
+  ],
+  "webview_ios": [
+   "https://webkit.org/b/227967"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

@@ -1,0 +1,505 @@
+{
+ "compat_features": [
+  "api.FileSystemDirectoryHandle",
+  "api.FileSystemDirectoryHandle.entries",
+  "api.FileSystemDirectoryHandle.getDirectoryHandle",
+  "api.FileSystemDirectoryHandle.getFileHandle",
+  "api.FileSystemDirectoryHandle.keys",
+  "api.FileSystemDirectoryHandle.removeEntry",
+  "api.FileSystemDirectoryHandle.resolve",
+  "api.FileSystemDirectoryHandle.values",
+  "api.FileSystemFileHandle",
+  "api.FileSystemFileHandle.createSyncAccessHandle",
+  "api.FileSystemFileHandle.getFile",
+  "api.FileSystemHandle",
+  "api.FileSystemHandle.isSameEntry",
+  "api.FileSystemHandle.kind",
+  "api.FileSystemHandle.name",
+  "api.FileSystemSyncAccessHandle",
+  "api.FileSystemSyncAccessHandle.close",
+  "api.FileSystemSyncAccessHandle.close.sync_version",
+  "api.FileSystemSyncAccessHandle.flush",
+  "api.FileSystemSyncAccessHandle.flush.sync_version",
+  "api.FileSystemSyncAccessHandle.getSize",
+  "api.FileSystemSyncAccessHandle.getSize.sync_version",
+  "api.FileSystemSyncAccessHandle.read",
+  "api.FileSystemSyncAccessHandle.truncate",
+  "api.FileSystemSyncAccessHandle.truncate.sync_version",
+  "api.FileSystemSyncAccessHandle.write",
+  "api.StorageManager.getDirectory"
+ ],
+ "description": "The navigator.storage.getDirectory() method returns a FileSystemDirectoryHandle that is restricted to a specific origin and invisible to the user's actual file system for faster file-based applications, such as SQLite databases.",
+ "description_html": "The <code>navigator.storage.getDirectory()</code> method returns a <code>FileSystemDirectoryHandle</code> that is restricted to a specific origin and invisible to the user's actual file system for faster file-based applications, such as SQLite databases.",
+ "group": [
+  "file-system"
+ ],
+ "kind": "feature",
+ "name": "Origin private file system",
+ "spec": [
+  "https://fs.spec.whatwg.org/#origin-private-file-system"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2025-09-27",
+  "baseline_low_date": "2023-03-27",
+  "by_compat_key": {
+   "api.FileSystemDirectoryHandle": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-14",
+    "baseline_low_date": "2023-03-14",
+    "support": {
+     "chrome": "86",
+     "chrome_android": "109",
+     "edge": "86",
+     "firefox": "111",
+     "firefox_android": "111",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   },
+   "api.FileSystemDirectoryHandle.entries": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-14",
+    "baseline_low_date": "2023-03-14",
+    "support": {
+     "chrome": "86",
+     "chrome_android": "109",
+     "edge": "86",
+     "firefox": "111",
+     "firefox_android": "111",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   },
+   "api.FileSystemDirectoryHandle.getDirectoryHandle": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-14",
+    "baseline_low_date": "2023-03-14",
+    "support": {
+     "chrome": "86",
+     "chrome_android": "109",
+     "edge": "86",
+     "firefox": "111",
+     "firefox_android": "111",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   },
+   "api.FileSystemDirectoryHandle.getFileHandle": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-14",
+    "baseline_low_date": "2023-03-14",
+    "support": {
+     "chrome": "86",
+     "chrome_android": "109",
+     "edge": "86",
+     "firefox": "111",
+     "firefox_android": "111",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   },
+   "api.FileSystemDirectoryHandle.keys": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-14",
+    "baseline_low_date": "2023-03-14",
+    "support": {
+     "chrome": "86",
+     "chrome_android": "109",
+     "edge": "86",
+     "firefox": "111",
+     "firefox_android": "111",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   },
+   "api.FileSystemDirectoryHandle.removeEntry": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-14",
+    "baseline_low_date": "2023-03-14",
+    "support": {
+     "chrome": "86",
+     "chrome_android": "109",
+     "edge": "86",
+     "firefox": "111",
+     "firefox_android": "111",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   },
+   "api.FileSystemDirectoryHandle.resolve": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-14",
+    "baseline_low_date": "2023-03-14",
+    "support": {
+     "chrome": "86",
+     "chrome_android": "109",
+     "edge": "86",
+     "firefox": "111",
+     "firefox_android": "111",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   },
+   "api.FileSystemDirectoryHandle.values": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-14",
+    "baseline_low_date": "2023-03-14",
+    "support": {
+     "chrome": "86",
+     "chrome_android": "109",
+     "edge": "86",
+     "firefox": "111",
+     "firefox_android": "111",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   },
+   "api.FileSystemFileHandle": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-14",
+    "baseline_low_date": "2023-03-14",
+    "support": {
+     "chrome": "86",
+     "chrome_android": "109",
+     "edge": "86",
+     "firefox": "111",
+     "firefox_android": "111",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   },
+   "api.FileSystemFileHandle.createSyncAccessHandle": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-14",
+    "baseline_low_date": "2023-03-14",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "109",
+     "edge": "102",
+     "firefox": "111",
+     "firefox_android": "111",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   },
+   "api.FileSystemFileHandle.getFile": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-14",
+    "baseline_low_date": "2023-03-14",
+    "support": {
+     "chrome": "86",
+     "chrome_android": "109",
+     "edge": "86",
+     "firefox": "111",
+     "firefox_android": "111",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   },
+   "api.FileSystemHandle": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-14",
+    "baseline_low_date": "2023-03-14",
+    "support": {
+     "chrome": "86",
+     "chrome_android": "109",
+     "edge": "86",
+     "firefox": "111",
+     "firefox_android": "111",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   },
+   "api.FileSystemHandle.isSameEntry": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-14",
+    "baseline_low_date": "2023-03-14",
+    "support": {
+     "chrome": "86",
+     "chrome_android": "109",
+     "edge": "86",
+     "firefox": "111",
+     "firefox_android": "111",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   },
+   "api.FileSystemHandle.kind": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-14",
+    "baseline_low_date": "2023-03-14",
+    "support": {
+     "chrome": "86",
+     "chrome_android": "109",
+     "edge": "86",
+     "firefox": "111",
+     "firefox_android": "111",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   },
+   "api.FileSystemHandle.name": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-14",
+    "baseline_low_date": "2023-03-14",
+    "support": {
+     "chrome": "86",
+     "chrome_android": "109",
+     "edge": "86",
+     "firefox": "111",
+     "firefox_android": "111",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   },
+   "api.FileSystemSyncAccessHandle": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-14",
+    "baseline_low_date": "2023-03-14",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "109",
+     "edge": "102",
+     "firefox": "111",
+     "firefox_android": "111",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   },
+   "api.FileSystemSyncAccessHandle.close": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-14",
+    "baseline_low_date": "2023-03-14",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "109",
+     "edge": "102",
+     "firefox": "111",
+     "firefox_android": "111",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   },
+   "api.FileSystemSyncAccessHandle.close.sync_version": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "108",
+     "chrome_android": "109",
+     "edge": "108",
+     "firefox": "111",
+     "firefox_android": "111",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.FileSystemSyncAccessHandle.flush": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-14",
+    "baseline_low_date": "2023-03-14",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "109",
+     "edge": "102",
+     "firefox": "111",
+     "firefox_android": "111",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   },
+   "api.FileSystemSyncAccessHandle.flush.sync_version": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "108",
+     "chrome_android": "109",
+     "edge": "108",
+     "firefox": "111",
+     "firefox_android": "111",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.FileSystemSyncAccessHandle.getSize": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-14",
+    "baseline_low_date": "2023-03-14",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "109",
+     "edge": "102",
+     "firefox": "111",
+     "firefox_android": "111",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   },
+   "api.FileSystemSyncAccessHandle.getSize.sync_version": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "108",
+     "chrome_android": "109",
+     "edge": "108",
+     "firefox": "111",
+     "firefox_android": "111",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.FileSystemSyncAccessHandle.read": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-14",
+    "baseline_low_date": "2023-03-14",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "109",
+     "edge": "102",
+     "firefox": "111",
+     "firefox_android": "111",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   },
+   "api.FileSystemSyncAccessHandle.truncate": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-14",
+    "baseline_low_date": "2023-03-14",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "109",
+     "edge": "102",
+     "firefox": "111",
+     "firefox_android": "111",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   },
+   "api.FileSystemSyncAccessHandle.truncate.sync_version": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "108",
+     "chrome_android": "109",
+     "edge": "108",
+     "firefox": "111",
+     "firefox_android": "111",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.FileSystemSyncAccessHandle.write": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-14",
+    "baseline_low_date": "2023-03-14",
+    "support": {
+     "chrome": "102",
+     "chrome_android": "109",
+     "edge": "102",
+     "firefox": "111",
+     "firefox_android": "111",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   },
+   "api.StorageManager.getDirectory": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-14",
+    "baseline_low_date": "2023-03-14",
+    "support": {
+     "chrome": "86",
+     "chrome_android": "109",
+     "edge": "86",
+     "firefox": "111",
+     "firefox_android": "111",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   }
+  },
+  "support": {
+   "chrome": "108",
+   "chrome_android": "109",
+   "edge": "108",
+   "firefox": "111",
+   "firefox_android": "111",
+   "safari": "16.4",
+   "safari_ios": "16.4"
+  }
+ },
+ "id": "origin-private-file-system",
+ "groups": [
+  "file-system"
+ ],
+ "specs": [
+  {
+   "url": "https://fs.spec.whatwg.org/#origin-private-file-system",
+   "seriesComposition": "full",
+   "shortname": "fs",
+   "series": {
+    "shortname": "fs",
+    "currentSpecification": "fs",
+    "title": "File System",
+    "shortTitle": "File System",
+    "nightlyUrl": "https://fs.spec.whatwg.org/"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "Storage Workstream",
+     "url": "https://fs.spec.whatwg.org/"
+    }
+   ],
+   "nightly": {
+    "url": "https://fs.spec.whatwg.org/",
+    "status": "Living Standard",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/fs",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "File System",
+   "source": "whatwg",
+   "shortTitle": "File System",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "fs"
+    ]
+   },
+   "fragment": "origin-private-file-system"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/File_System_API/Origin_private_file_system",
+   "title": "Origin private file system",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/File_System_API/Origin_private_file_system"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00287304,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/50"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:origin-private-file-system"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2023-03-27T00:00:00.000Z",
+ "baselineHighDateAsObject": "2025-09-27T00:00:00.000Z"
+}

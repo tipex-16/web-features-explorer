@@ -1,0 +1,232 @@
+{
+ "compat_features": [
+  "api.XRCPUDepthInformation",
+  "api.XRCPUDepthInformation.data",
+  "api.XRCPUDepthInformation.getDepthInMeters",
+  "api.XRDepthInformation",
+  "api.XRDepthInformation.height",
+  "api.XRDepthInformation.normDepthBufferFromNormView",
+  "api.XRDepthInformation.rawValueToMeters",
+  "api.XRDepthInformation.width",
+  "api.XRFrame.getDepthInformation",
+  "api.XRSession.depthDataFormat",
+  "api.XRSession.depthUsage",
+  "api.XRWebGLBinding.getDepthInformation",
+  "api.XRWebGLDepthInformation",
+  "api.XRWebGLDepthInformation.texture"
+ ],
+ "description": "An XRDepthInformation object represents a measurement of the distance from the user's device to the real-world geometry in the user's environment.",
+ "description_html": "An <code>XRDepthInformation</code> object represents a measurement of the distance from the user's device to the real-world geometry in the user's environment.",
+ "group": [
+  "webxr"
+ ],
+ "kind": "feature",
+ "name": "Depth sensing",
+ "spec": [
+  "https://immersive-web.github.io/depth-sensing/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.XRCPUDepthInformation": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90"
+    }
+   },
+   "api.XRCPUDepthInformation.data": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90"
+    }
+   },
+   "api.XRCPUDepthInformation.getDepthInMeters": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90"
+    }
+   },
+   "api.XRDepthInformation": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90"
+    }
+   },
+   "api.XRDepthInformation.height": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90"
+    }
+   },
+   "api.XRDepthInformation.normDepthBufferFromNormView": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90"
+    }
+   },
+   "api.XRDepthInformation.rawValueToMeters": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90"
+    }
+   },
+   "api.XRDepthInformation.width": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90"
+    }
+   },
+   "api.XRFrame.getDepthInformation": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90"
+    }
+   },
+   "api.XRSession.depthDataFormat": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90"
+    }
+   },
+   "api.XRSession.depthUsage": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90"
+    }
+   },
+   "api.XRWebGLBinding.getDepthInformation": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90"
+    }
+   },
+   "api.XRWebGLDepthInformation": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90"
+    }
+   },
+   "api.XRWebGLDepthInformation.texture": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90"
+    }
+   }
+  },
+  "support": {
+   "chrome": "90",
+   "chrome_android": "90",
+   "edge": "90"
+  }
+ },
+ "id": "webxr-depth-sensing",
+ "groups": [
+  "webxr"
+ ],
+ "specs": [
+  {
+   "url": "https://immersive-web.github.io/depth-sensing/",
+   "seriesComposition": "full",
+   "shortname": "webxr-depth-sensing-1",
+   "series": {
+    "shortname": "webxr-depth-sensing",
+    "currentSpecification": "webxr-depth-sensing-1",
+    "title": "WebXR Depth Sensing Module",
+    "shortTitle": "WebXR Depth Sensing",
+    "releaseUrl": "https://www.w3.org/TR/webxr-depth-sensing/",
+    "nightlyUrl": "https://immersive-web.github.io/depth-sensing/"
+   },
+   "seriesVersion": "1",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Immersive Web Working Group",
+     "url": "https://www.w3.org/immersive-web/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/webxr-depth-sensing-1/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://immersive-web.github.io/depth-sensing/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/immersive-web/depth-sensing",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "WebXR Depth Sensing Module",
+   "source": "w3c",
+   "shortTitle": "WebXR Depth Sensing",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/XRDepthInformation",
+   "title": "XRDepthInformation",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/XRDepthInformation"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/487",
+   "position": "defer",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:webxr-depth-sensing"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/140",
+  "votes": 0
+ },
+ "bugs": {
+  "webview_android": [
+   "https://crbug.com/40652382"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

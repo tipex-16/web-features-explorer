@@ -1,0 +1,792 @@
+{
+ "compat_features": [
+  "javascript.builtins.Function",
+  "javascript.builtins.Function.@@hasInstance",
+  "javascript.builtins.Function.Function",
+  "javascript.builtins.Function.apply",
+  "javascript.builtins.Function.apply.generic_arrays_as_arguments",
+  "javascript.builtins.Function.bind",
+  "javascript.builtins.Function.call",
+  "javascript.builtins.Function.length",
+  "javascript.builtins.Function.length.configurable_true",
+  "javascript.builtins.Function.name",
+  "javascript.builtins.Function.name.configurable_true",
+  "javascript.builtins.Function.name.inferred_names",
+  "javascript.builtins.Function.toString",
+  "javascript.builtins.Function.toString.toString_revision",
+  "javascript.functions",
+  "javascript.functions.arguments",
+  "javascript.functions.arguments.@@iterator",
+  "javascript.functions.arguments.length",
+  "javascript.functions.arrow_functions",
+  "javascript.functions.arrow_functions.trailing_comma",
+  "javascript.functions.block_level_functions",
+  "javascript.functions.default_parameters",
+  "javascript.functions.default_parameters.destructured_parameter_with_default_value_assignment",
+  "javascript.functions.default_parameters.parameters_without_defaults_after_default_parameters",
+  "javascript.functions.get",
+  "javascript.functions.get.computed_property_names",
+  "javascript.functions.method_definitions",
+  "javascript.functions.method_definitions.async_methods",
+  "javascript.functions.method_definitions.generator_methods_not_constructable",
+  "javascript.functions.rest_parameters",
+  "javascript.functions.rest_parameters.destructuring",
+  "javascript.functions.set",
+  "javascript.functions.set.computed_property_names",
+  "javascript.grammar.trailing_commas.trailing_commas_in_functions",
+  "javascript.operators.function",
+  "javascript.operators.function.trailing_comma",
+  "javascript.statements.function",
+  "javascript.statements.function.trailing_comma_in_parameters"
+ ],
+ "description": "Functions are series of statements that can be called and return a value. The function keyword (as in function () { }) and arrow (=>) expression create functions. The JavaScript functions protocol includes default and rest parameters and binding to this.",
+ "description_html": "Functions are series of statements that can be called and return a value. The <code>function</code> keyword (as in <code>function () { }</code>) and arrow (<code>=></code>) expression create functions. The JavaScript functions protocol includes default and rest parameters and binding to <code>this</code>.",
+ "group": [
+  "javascript"
+ ],
+ "kind": "feature",
+ "name": "Functions",
+ "spec": [
+  "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-ecmascript-language-functions-and-classes",
+  "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-function-objects"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "javascript.builtins.Function": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.Function.@@hasInstance": {
+    "baseline": "high",
+    "baseline_high_date": "2019-10-05",
+    "baseline_low_date": "2017-04-05",
+    "support": {
+     "chrome": "50",
+     "chrome_android": "50",
+     "edge": "15",
+     "firefox": "50",
+     "firefox_android": "50",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "javascript.builtins.Function.Function": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.Function.apply": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.Function.apply.generic_arrays_as_arguments": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "17",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "javascript.builtins.Function.bind": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "7",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "5.1",
+     "safari_ios": "6"
+    }
+   },
+   "javascript.builtins.Function.call": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.Function.length": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.Function.length.configurable_true": {
+    "baseline": "high",
+    "baseline_high_date": "2019-03-20",
+    "baseline_low_date": "2016-09-20",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "37",
+     "firefox_android": "37",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "javascript.builtins.Function.name": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "15",
+     "chrome_android": "18",
+     "edge": "14",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "javascript.builtins.Function.name.configurable_true": {
+    "baseline": "high",
+    "baseline_high_date": "2019-03-20",
+    "baseline_low_date": "2016-09-20",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "14",
+     "firefox": "38",
+     "firefox_android": "38",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "javascript.builtins.Function.name.inferred_names": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "51",
+     "chrome_android": "51",
+     "edge": "79",
+     "firefox": "53",
+     "firefox_android": "53",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "javascript.builtins.Function.toString": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.Function.toString.toString_revision": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "firefox": "54",
+     "firefox_android": "54",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "javascript.functions": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.functions.arguments": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.functions.arguments.@@iterator": {
+    "baseline": "high",
+    "baseline_high_date": "2019-01-27",
+    "baseline_low_date": "2016-07-27",
+    "support": {
+     "chrome": "52",
+     "chrome_android": "52",
+     "edge": "12",
+     "firefox": "46",
+     "firefox_android": "46",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "javascript.functions.arguments.length": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.functions.arrow_functions": {
+    "baseline": "high",
+    "baseline_high_date": "2019-03-20",
+    "baseline_low_date": "2016-09-20",
+    "support": {
+     "chrome": "45",
+     "chrome_android": "45",
+     "edge": "12",
+     "firefox": "22",
+     "firefox_android": "22",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "javascript.functions.arrow_functions.trailing_comma": {
+    "baseline": "high",
+    "baseline_high_date": "2019-10-25",
+    "baseline_low_date": "2017-04-25",
+    "support": {
+     "chrome": "58",
+     "chrome_android": "58",
+     "edge": "12",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "javascript.functions.block_level_functions": {
+    "baseline": "high",
+    "baseline_high_date": "2019-03-20",
+    "baseline_low_date": "2016-09-20",
+    "support": {
+     "chrome": "49",
+     "chrome_android": "49",
+     "edge": "12",
+     "firefox": "46",
+     "firefox_android": "46",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "javascript.functions.default_parameters": {
+    "baseline": "high",
+    "baseline_high_date": "2019-03-20",
+    "baseline_low_date": "2016-09-20",
+    "support": {
+     "chrome": "49",
+     "chrome_android": "49",
+     "edge": "14",
+     "firefox": "15",
+     "firefox_android": "15",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "javascript.functions.default_parameters.destructured_parameter_with_default_value_assignment": {
+    "baseline": "high",
+    "baseline_high_date": "2019-03-20",
+    "baseline_low_date": "2016-09-20",
+    "support": {
+     "chrome": "49",
+     "chrome_android": "49",
+     "edge": "14",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "javascript.functions.default_parameters.parameters_without_defaults_after_default_parameters": {
+    "baseline": "high",
+    "baseline_high_date": "2019-03-20",
+    "baseline_low_date": "2016-09-20",
+    "support": {
+     "chrome": "49",
+     "chrome_android": "49",
+     "edge": "14",
+     "firefox": "26",
+     "firefox_android": "26",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "javascript.functions.get": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.functions.get.computed_property_names": {
+    "baseline": "high",
+    "baseline_high_date": "2018-09-21",
+    "baseline_low_date": "2016-03-21",
+    "support": {
+     "chrome": "46",
+     "chrome_android": "46",
+     "edge": "12",
+     "firefox": "34",
+     "firefox_android": "34",
+     "safari": "9.1",
+     "safari_ios": "9.3"
+    }
+   },
+   "javascript.functions.method_definitions": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "39",
+     "chrome_android": "39",
+     "edge": "12",
+     "firefox": "34",
+     "firefox_android": "34",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "javascript.functions.method_definitions.async_methods": {
+    "baseline": "high",
+    "baseline_high_date": "2019-10-05",
+    "baseline_low_date": "2017-04-05",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "15",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "javascript.functions.method_definitions.generator_methods_not_constructable": {
+    "baseline": "high",
+    "baseline_high_date": "2018-09-21",
+    "baseline_low_date": "2016-03-21",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "13",
+     "firefox": "43",
+     "firefox_android": "43",
+     "safari": "9.1",
+     "safari_ios": "9.3"
+    }
+   },
+   "javascript.functions.rest_parameters": {
+    "baseline": "high",
+    "baseline_high_date": "2019-03-20",
+    "baseline_low_date": "2016-09-20",
+    "support": {
+     "chrome": "47",
+     "chrome_android": "47",
+     "edge": "12",
+     "firefox": "15",
+     "firefox_android": "15",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "javascript.functions.rest_parameters.destructuring": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "49",
+     "chrome_android": "49",
+     "edge": "79",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "javascript.functions.set": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.functions.set.computed_property_names": {
+    "baseline": "high",
+    "baseline_high_date": "2018-09-21",
+    "baseline_low_date": "2016-03-21",
+    "support": {
+     "chrome": "46",
+     "chrome_android": "46",
+     "edge": "12",
+     "firefox": "34",
+     "firefox_android": "34",
+     "safari": "9.1",
+     "safari_ios": "9.3"
+    }
+   },
+   "javascript.grammar.trailing_commas.trailing_commas_in_functions": {
+    "baseline": "high",
+    "baseline_high_date": "2019-10-25",
+    "baseline_low_date": "2017-04-25",
+    "support": {
+     "chrome": "58",
+     "chrome_android": "58",
+     "edge": "14",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "javascript.operators.function": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.operators.function.trailing_comma": {
+    "baseline": "high",
+    "baseline_high_date": "2019-10-25",
+    "baseline_low_date": "2017-04-25",
+    "support": {
+     "chrome": "58",
+     "chrome_android": "58",
+     "edge": "14",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "javascript.statements.function": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.statements.function.trailing_comma_in_parameters": {
+    "baseline": "high",
+    "baseline_high_date": "2019-10-25",
+    "baseline_low_date": "2017-04-25",
+    "support": {
+     "chrome": "58",
+     "chrome_android": "58",
+     "edge": "14",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   }
+  },
+  "support": {
+   "chrome": "1",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "1",
+   "firefox_android": "4",
+   "safari": "1",
+   "safari_ios": "1"
+  }
+ },
+ "id": "functions",
+ "groups": [
+  "javascript"
+ ],
+ "specs": [
+  {
+   "url": "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-ecmascript-language-functions-and-classes",
+   "seriesComposition": "full",
+   "shortname": "ecmascript",
+   "series": {
+    "shortname": "ecmascript",
+    "currentSpecification": "ecmascript",
+    "title": "ECMAScript® 2026 Language Specification",
+    "shortTitle": "ECMAScript",
+    "nightlyUrl": "https://tc39.es/ecma262/multipage/"
+   },
+   "shortTitle": "ECMAScript",
+   "tests": {
+    "repository": "https://github.com/tc39/test262",
+    "testPaths": [
+     "test"
+    ],
+    "excludePaths": [
+     "test/intl402"
+    ]
+   },
+   "organization": "Ecma International",
+   "groups": [
+    {
+     "name": "TC39",
+     "url": "https://tc39.es/"
+    }
+   ],
+   "nightly": {
+    "url": "https://tc39.es/ecma262/multipage/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/tc39/ecma262",
+    "sourcePath": "spec.html",
+    "pages": [
+     "https://tc39.es/ecma262/multipage/scope.html",
+     "https://tc39.es/ecma262/multipage/conformance.html",
+     "https://tc39.es/ecma262/multipage/normative-references.html",
+     "https://tc39.es/ecma262/multipage/overview.html",
+     "https://tc39.es/ecma262/multipage/notational-conventions.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html",
+     "https://tc39.es/ecma262/multipage/abstract-operations.html",
+     "https://tc39.es/ecma262/multipage/syntax-directed-operations.html",
+     "https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html",
+     "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-language-source-code.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-language-lexical-grammar.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html",
+     "https://tc39.es/ecma262/multipage/error-handling-and-language-extensions.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-standard-built-in-objects.html",
+     "https://tc39.es/ecma262/multipage/global-object.html",
+     "https://tc39.es/ecma262/multipage/fundamental-objects.html",
+     "https://tc39.es/ecma262/multipage/numbers-and-dates.html",
+     "https://tc39.es/ecma262/multipage/text-processing.html",
+     "https://tc39.es/ecma262/multipage/indexed-collections.html",
+     "https://tc39.es/ecma262/multipage/keyed-collections.html",
+     "https://tc39.es/ecma262/multipage/structured-data.html",
+     "https://tc39.es/ecma262/multipage/managing-memory.html",
+     "https://tc39.es/ecma262/multipage/control-abstraction-objects.html",
+     "https://tc39.es/ecma262/multipage/reflection.html",
+     "https://tc39.es/ecma262/multipage/memory-model.html",
+     "https://tc39.es/ecma262/multipage/grammar-summary.html",
+     "https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html",
+     "https://tc39.es/ecma262/multipage/strict-mode-of-ecmascript.html",
+     "https://tc39.es/ecma262/multipage/host-layering-points.html",
+     "https://tc39.es/ecma262/multipage/corrections-and-clarifications-in-ecmascript-2015-with-possible-compatibility-impact.html",
+     "https://tc39.es/ecma262/multipage/additions-and-changes-that-introduce-incompatibilities-with-prior-editions.html",
+     "https://tc39.es/ecma262/multipage/bibliography.html",
+     "https://tc39.es/ecma262/multipage/colophon.html",
+     "https://tc39.es/ecma262/multipage/copyright-and-software-license.html"
+    ],
+    "filename": "index.html"
+   },
+   "title": "ECMAScript® 2026 Language Specification",
+   "source": "spec",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": "sec-ecmascript-language-functions-and-classes"
+  },
+  {
+   "url": "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-function-objects",
+   "seriesComposition": "full",
+   "shortname": "ecmascript",
+   "series": {
+    "shortname": "ecmascript",
+    "currentSpecification": "ecmascript",
+    "title": "ECMAScript® 2026 Language Specification",
+    "shortTitle": "ECMAScript",
+    "nightlyUrl": "https://tc39.es/ecma262/multipage/"
+   },
+   "shortTitle": "ECMAScript",
+   "tests": {
+    "repository": "https://github.com/tc39/test262",
+    "testPaths": [
+     "test"
+    ],
+    "excludePaths": [
+     "test/intl402"
+    ]
+   },
+   "organization": "Ecma International",
+   "groups": [
+    {
+     "name": "TC39",
+     "url": "https://tc39.es/"
+    }
+   ],
+   "nightly": {
+    "url": "https://tc39.es/ecma262/multipage/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/tc39/ecma262",
+    "sourcePath": "spec.html",
+    "pages": [
+     "https://tc39.es/ecma262/multipage/scope.html",
+     "https://tc39.es/ecma262/multipage/conformance.html",
+     "https://tc39.es/ecma262/multipage/normative-references.html",
+     "https://tc39.es/ecma262/multipage/overview.html",
+     "https://tc39.es/ecma262/multipage/notational-conventions.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html",
+     "https://tc39.es/ecma262/multipage/abstract-operations.html",
+     "https://tc39.es/ecma262/multipage/syntax-directed-operations.html",
+     "https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html",
+     "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-language-source-code.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-language-lexical-grammar.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html",
+     "https://tc39.es/ecma262/multipage/error-handling-and-language-extensions.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-standard-built-in-objects.html",
+     "https://tc39.es/ecma262/multipage/global-object.html",
+     "https://tc39.es/ecma262/multipage/fundamental-objects.html",
+     "https://tc39.es/ecma262/multipage/numbers-and-dates.html",
+     "https://tc39.es/ecma262/multipage/text-processing.html",
+     "https://tc39.es/ecma262/multipage/indexed-collections.html",
+     "https://tc39.es/ecma262/multipage/keyed-collections.html",
+     "https://tc39.es/ecma262/multipage/structured-data.html",
+     "https://tc39.es/ecma262/multipage/managing-memory.html",
+     "https://tc39.es/ecma262/multipage/control-abstraction-objects.html",
+     "https://tc39.es/ecma262/multipage/reflection.html",
+     "https://tc39.es/ecma262/multipage/memory-model.html",
+     "https://tc39.es/ecma262/multipage/grammar-summary.html",
+     "https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html",
+     "https://tc39.es/ecma262/multipage/strict-mode-of-ecmascript.html",
+     "https://tc39.es/ecma262/multipage/host-layering-points.html",
+     "https://tc39.es/ecma262/multipage/corrections-and-clarifications-in-ecmascript-2015-with-possible-compatibility-impact.html",
+     "https://tc39.es/ecma262/multipage/additions-and-changes-that-introduce-incompatibilities-with-prior-editions.html",
+     "https://tc39.es/ecma262/multipage/bibliography.html",
+     "https://tc39.es/ecma262/multipage/colophon.html",
+     "https://tc39.es/ecma262/multipage/copyright-and-software-license.html"
+    ],
+    "filename": "index.html"
+   },
+   "title": "ECMAScript® 2026 Language Specification",
+   "source": "spec",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": "sec-function-objects"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/JavaScript/Reference/Functions",
+   "title": "Functions",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

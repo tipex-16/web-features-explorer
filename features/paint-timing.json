@@ -1,0 +1,157 @@
+{
+ "compat_features": [
+  "api.PerformancePaintTiming",
+  "api.PerformancePaintTiming.first-contentful-paint",
+  "api.PerformancePaintTiming.first-paint",
+  "api.PerformancePaintTiming.toJSON"
+ ],
+ "description": "The paint performance entry and the PerformancePaintTiming API measures the duration of \"paint\" (also called \"render\") operations as a page loads. The API measures the time to First Paint (FP) and First Contentful Paint (FCP), common metrics for perceived loading times.",
+ "description_html": "The <code>paint</code> performance entry and the <code>PerformancePaintTiming</code> API measures the duration of \"paint\" (also called \"render\") operations as a page loads. The API measures the time to First Paint (FP) and First Contentful Paint (FCP), common metrics for perceived loading times.",
+ "group": [
+  "performance"
+ ],
+ "kind": "feature",
+ "name": "Paint timing",
+ "spec": [
+  "https://w3c.github.io/paint-timing/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2023-10-26",
+  "baseline_low_date": "2021-04-26",
+  "by_compat_key": {
+   "api.PerformancePaintTiming": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "60",
+     "chrome_android": "60",
+     "edge": "79",
+     "firefox": "84",
+     "firefox_android": "84",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.PerformancePaintTiming.first-contentful-paint": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "60",
+     "chrome_android": "60",
+     "edge": "79",
+     "firefox": "84",
+     "firefox_android": "84",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.PerformancePaintTiming.first-paint": {
+    "baseline": false,
+    "support": {
+     "chrome": "60",
+     "chrome_android": "60",
+     "edge": "79"
+    }
+   },
+   "api.PerformancePaintTiming.toJSON": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "60",
+     "chrome_android": "60",
+     "edge": "79",
+     "firefox": "84",
+     "firefox_android": "84",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   }
+  },
+  "support": {
+   "chrome": "60",
+   "chrome_android": "60",
+   "edge": "79",
+   "firefox": "84",
+   "firefox_android": "84",
+   "safari": "14.1",
+   "safari_ios": "14.5"
+  }
+ },
+ "id": "paint-timing",
+ "groups": [
+  "performance"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/paint-timing/",
+   "seriesComposition": "full",
+   "shortname": "paint-timing",
+   "series": {
+    "shortname": "paint-timing",
+    "currentSpecification": "paint-timing",
+    "title": "Paint Timing",
+    "shortTitle": "Paint Timing",
+    "releaseUrl": "https://www.w3.org/TR/paint-timing/",
+    "nightlyUrl": "https://w3c.github.io/paint-timing/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Performance Working Group",
+     "url": "https://www.w3.org/groups/wg/webperf/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/paint-timing/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/paint-timing/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/paint-timing",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Paint Timing",
+   "source": "w3c",
+   "shortTitle": "Paint Timing",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "paint-timing"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/PerformancePaintTiming",
+   "title": "PerformancePaintTiming",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/PerformancePaintTiming"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:paint-timing"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2021-04-26T00:00:00.000Z",
+ "baselineHighDateAsObject": "2023-10-26T00:00:00.000Z"
+}

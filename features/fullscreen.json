@@ -1,0 +1,319 @@
+{
+ "caniuse": [
+  "fullscreen"
+ ],
+ "compat_features": [
+  "api.Document.exitFullscreen",
+  "api.Document.exitFullscreen.returns_promise",
+  "api.Document.fullscreenElement",
+  "api.Document.fullscreenEnabled",
+  "api.Document.fullscreenchange_event",
+  "api.Document.fullscreenerror_event",
+  "api.Element.fullscreenchange_event",
+  "api.Element.fullscreenerror_event",
+  "api.Element.requestFullscreen",
+  "api.Element.requestFullscreen.options_navigationUI_parameter",
+  "api.Element.requestFullscreen.returns_promise",
+  "api.HTMLIFrameElement.allowFullscreen",
+  "api.ShadowRoot.fullscreenElement",
+  "css.selectors.backdrop.fullscreen",
+  "css.selectors.fullscreen",
+  "css.selectors.fullscreen.all_elements",
+  "html.elements.iframe.allow.fullscreen",
+  "html.elements.iframe.allowfullscreen",
+  "http.headers.Permissions-Policy.fullscreen"
+ ],
+ "description": "The fullscreen API makes a specific element fill the whole screen and hides most browser UI.",
+ "description_html": "The fullscreen API makes a specific element fill the whole screen and hides most browser UI.",
+ "kind": "feature",
+ "name": "Fullscreen API",
+ "spec": [
+  "https://fullscreen.spec.whatwg.org/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Document.exitFullscreen": {
+    "baseline": false,
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "firefox": "64",
+     "firefox_android": "64",
+     "safari": "16.4"
+    }
+   },
+   "api.Document.exitFullscreen.returns_promise": {
+    "baseline": false,
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "firefox": "64",
+     "firefox_android": "64",
+     "safari": "16.4"
+    }
+   },
+   "api.Document.fullscreenElement": {
+    "baseline": false,
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "firefox": "64",
+     "firefox_android": "64",
+     "safari": "16.4"
+    }
+   },
+   "api.Document.fullscreenEnabled": {
+    "baseline": false,
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "12",
+     "firefox": "64",
+     "firefox_android": "64",
+     "safari": "16.4"
+    }
+   },
+   "api.Document.fullscreenchange_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "firefox": "64",
+     "firefox_android": "64",
+     "safari": "16.4"
+    }
+   },
+   "api.Document.fullscreenerror_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "firefox": "64",
+     "firefox_android": "64",
+     "safari": "16.4"
+    }
+   },
+   "api.Element.fullscreenchange_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "firefox": "64",
+     "firefox_android": "64",
+     "safari": "16.4"
+    }
+   },
+   "api.Element.fullscreenerror_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "firefox": "64",
+     "firefox_android": "64",
+     "safari": "16.4"
+    }
+   },
+   "api.Element.requestFullscreen": {
+    "baseline": false,
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "firefox": "64",
+     "firefox_android": "64",
+     "safari": "16.4"
+    }
+   },
+   "api.Element.requestFullscreen.options_navigationUI_parameter": {
+    "baseline": false,
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "safari": "16.4"
+    }
+   },
+   "api.Element.requestFullscreen.returns_promise": {
+    "baseline": false,
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "firefox": "64",
+     "firefox_android": "64",
+     "safari": "16.4"
+    }
+   },
+   "api.HTMLIFrameElement.allowFullscreen": {
+    "baseline": false,
+    "support": {
+     "chrome": "38",
+     "chrome_android": "38",
+     "edge": "12",
+     "firefox": "22",
+     "firefox_android": "22",
+     "safari": "10.1"
+    }
+   },
+   "api.ShadowRoot.fullscreenElement": {
+    "baseline": false,
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "firefox": "64",
+     "firefox_android": "64",
+     "safari": "16.4"
+    }
+   },
+   "css.selectors.backdrop.fullscreen": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "47",
+     "firefox_android": "47",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "css.selectors.fullscreen": {
+    "baseline": false,
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "12",
+     "firefox": "64",
+     "firefox_android": "64",
+     "safari": "16.4"
+    }
+   },
+   "css.selectors.fullscreen.all_elements": {
+    "baseline": false,
+    "support": {
+     "firefox": "64",
+     "firefox_android": "64"
+    }
+   },
+   "html.elements.iframe.allow.fullscreen": {
+    "baseline": false,
+    "support": {
+     "chrome": "62",
+     "chrome_android": "62",
+     "edge": "79",
+     "firefox": "80",
+     "firefox_android": "80"
+    }
+   },
+   "html.elements.iframe.allowfullscreen": {
+    "baseline": false,
+    "support": {
+     "chrome": "38",
+     "chrome_android": "38",
+     "edge": "12",
+     "firefox": "18",
+     "firefox_android": "18",
+     "safari": "10.1"
+    }
+   },
+   "http.headers.Permissions-Policy.fullscreen": {
+    "baseline": false,
+    "support": {
+     "chrome": "88",
+     "chrome_android": "88",
+     "edge": "88"
+    }
+   }
+  },
+  "support": {
+   "chrome": "71",
+   "chrome_android": "71",
+   "edge": "79",
+   "firefox": "64",
+   "firefox_android": "64",
+   "safari": "16.4"
+  }
+ },
+ "id": "fullscreen",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://fullscreen.spec.whatwg.org/",
+   "seriesComposition": "full",
+   "shortname": "fullscreen",
+   "series": {
+    "shortname": "fullscreen",
+    "currentSpecification": "fullscreen",
+    "title": "Fullscreen API",
+    "shortTitle": "Fullscreen API",
+    "nightlyUrl": "https://fullscreen.spec.whatwg.org/"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "Fullscreen API Workstream",
+     "url": "https://fullscreen.spec.whatwg.org/"
+    }
+   ],
+   "nightly": {
+    "url": "https://fullscreen.spec.whatwg.org/",
+    "status": "Living Standard",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/fullscreen",
+    "sourcePath": "fullscreen.bs",
+    "filename": "index.html"
+   },
+   "title": "Fullscreen API",
+   "source": "whatwg",
+   "shortTitle": "Fullscreen API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "fullscreen"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Fullscreen_API",
+   "title": "Fullscreen API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Fullscreen_API"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:fullscreen"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/93",
+  "votes": 5
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Safari on iOS",
+ "monthsBlocked": 36,
+ "blockedSince": "March 2023"
+}

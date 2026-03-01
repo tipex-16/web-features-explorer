@@ -1,0 +1,123 @@
+{
+ "compat_features": [
+  "api.AbortSignal.any_static"
+ ],
+ "description": "The AbortSignal.any() static method combines an iterable of abort signals into a single signal, with the abort reason taken from the first signal to abort.",
+ "description_html": "The <code>AbortSignal.any()</code> static method combines an iterable of abort signals into a single signal, with the abort reason taken from the first signal to abort.",
+ "kind": "feature",
+ "name": "AbortSignal.any()",
+ "spec": [
+  "https://dom.spec.whatwg.org/#dom-abortsignal-any"
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2024-03-19",
+  "by_compat_key": {
+   "api.AbortSignal.any_static": {
+    "baseline": "low",
+    "baseline_low_date": "2024-03-19",
+    "support": {
+     "chrome": "116",
+     "chrome_android": "116",
+     "edge": "116",
+     "firefox": "124",
+     "firefox_android": "124",
+     "safari": "17.4",
+     "safari_ios": "17.4"
+    }
+   }
+  },
+  "support": {
+   "chrome": "116",
+   "chrome_android": "116",
+   "edge": "116",
+   "firefox": "124",
+   "firefox_android": "124",
+   "safari": "17.4",
+   "safari_ios": "17.4"
+  }
+ },
+ "id": "abortsignal-any",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://dom.spec.whatwg.org/#dom-abortsignal-any",
+   "seriesComposition": "full",
+   "shortname": "dom",
+   "series": {
+    "shortname": "dom",
+    "currentSpecification": "dom",
+    "title": "DOM",
+    "shortTitle": "DOM",
+    "nightlyUrl": "https://dom.spec.whatwg.org/"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "DOM Workstream",
+     "url": "https://dom.spec.whatwg.org/"
+    }
+   ],
+   "nightly": {
+    "url": "https://dom.spec.whatwg.org/",
+    "status": "Living Standard",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/dom",
+    "sourcePath": "dom.bs",
+    "filename": "index.html"
+   },
+   "title": "DOM",
+   "source": "whatwg",
+   "shortTitle": "DOM",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "dom",
+     "shadow-dom"
+    ]
+   },
+   "fragment": "dom-abortsignal-any"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/AbortSignal/any_static",
+   "title": "AbortSignal: any() static method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/AbortSignal/any_static"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/774",
+   "position": "positive",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/166",
+   "position": "support",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00559881,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/88"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:abortsignal-any"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2024-03-19T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2026-09-19"
+}

@@ -1,0 +1,479 @@
+{
+ "caniuse": [
+  "cookie-store-api"
+ ],
+ "compat_features": [
+  "api.CookieChangeEvent",
+  "api.CookieChangeEvent.CookieChangeEvent",
+  "api.CookieChangeEvent.changed",
+  "api.CookieChangeEvent.deleted",
+  "api.CookieStore",
+  "api.CookieStore.change_event",
+  "api.CookieStore.delete",
+  "api.CookieStore.get",
+  "api.CookieStore.get.domain_return_property",
+  "api.CookieStore.get.expires_return_property",
+  "api.CookieStore.get.name_return_property",
+  "api.CookieStore.get.path_return_property",
+  "api.CookieStore.get.sameSite_return_property",
+  "api.CookieStore.get.secure_return_property",
+  "api.CookieStore.get.value_return_property",
+  "api.CookieStore.getAll",
+  "api.CookieStore.set",
+  "api.CookieStoreManager",
+  "api.CookieStoreManager.getSubscriptions",
+  "api.CookieStoreManager.subscribe",
+  "api.CookieStoreManager.unsubscribe",
+  "api.ExtendableCookieChangeEvent",
+  "api.ExtendableCookieChangeEvent.ExtendableCookieChangeEvent",
+  "api.ExtendableCookieChangeEvent.changed",
+  "api.ExtendableCookieChangeEvent.deleted",
+  "api.ServiceWorkerGlobalScope.cookieStore",
+  "api.ServiceWorkerGlobalScope.cookiechange_event",
+  "api.ServiceWorkerRegistration.cookies",
+  "api.Window.cookieStore"
+ ],
+ "description": "The CookieStore API is an asynchronous and promise-based API for managing cookies. It does not rely on document and so is available to service workers as well.",
+ "description_html": "The <code>CookieStore</code> API is an asynchronous and promise-based API for managing cookies. It does not rely on document and so is available to service workers as well.",
+ "group": [
+  "cookies"
+ ],
+ "kind": "feature",
+ "name": "Cookie store",
+ "spec": [
+  "https://cookiestore.spec.whatwg.org/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.CookieChangeEvent": {
+    "baseline": "low",
+    "baseline_low_date": "2025-06-24",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "140",
+     "firefox_android": "140",
+     "safari": "18.4",
+     "safari_ios": "18.4"
+    }
+   },
+   "api.CookieChangeEvent.CookieChangeEvent": {
+    "baseline": "low",
+    "baseline_low_date": "2025-06-24",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "140",
+     "firefox_android": "140",
+     "safari": "18.4",
+     "safari_ios": "18.4"
+    }
+   },
+   "api.CookieChangeEvent.changed": {
+    "baseline": "low",
+    "baseline_low_date": "2025-06-24",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "140",
+     "firefox_android": "140",
+     "safari": "18.4",
+     "safari_ios": "18.4"
+    }
+   },
+   "api.CookieChangeEvent.deleted": {
+    "baseline": "low",
+    "baseline_low_date": "2025-06-24",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "140",
+     "firefox_android": "140",
+     "safari": "18.4",
+     "safari_ios": "18.4"
+    }
+   },
+   "api.CookieStore": {
+    "baseline": "low",
+    "baseline_low_date": "2025-06-24",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "140",
+     "firefox_android": "140",
+     "safari": "18.4",
+     "safari_ios": "18.4"
+    }
+   },
+   "api.CookieStore.change_event": {
+    "baseline": "low",
+    "baseline_low_date": "2025-06-24",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "140",
+     "firefox_android": "140",
+     "safari": "18.4",
+     "safari_ios": "18.4"
+    }
+   },
+   "api.CookieStore.delete": {
+    "baseline": "low",
+    "baseline_low_date": "2025-06-24",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "140",
+     "firefox_android": "140",
+     "safari": "18.4",
+     "safari_ios": "18.4"
+    }
+   },
+   "api.CookieStore.get": {
+    "baseline": "low",
+    "baseline_low_date": "2025-06-24",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "140",
+     "firefox_android": "140",
+     "safari": "18.4",
+     "safari_ios": "18.4"
+    }
+   },
+   "api.CookieStore.get.domain_return_property": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87"
+    }
+   },
+   "api.CookieStore.get.expires_return_property": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87"
+    }
+   },
+   "api.CookieStore.get.name_return_property": {
+    "baseline": "low",
+    "baseline_low_date": "2025-06-24",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "140",
+     "firefox_android": "140",
+     "safari": "18.4",
+     "safari_ios": "18.4"
+    }
+   },
+   "api.CookieStore.get.path_return_property": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87"
+    }
+   },
+   "api.CookieStore.get.sameSite_return_property": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87"
+    }
+   },
+   "api.CookieStore.get.secure_return_property": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87"
+    }
+   },
+   "api.CookieStore.get.value_return_property": {
+    "baseline": "low",
+    "baseline_low_date": "2025-06-24",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "140",
+     "firefox_android": "140",
+     "safari": "18.4",
+     "safari_ios": "18.4"
+    }
+   },
+   "api.CookieStore.getAll": {
+    "baseline": "low",
+    "baseline_low_date": "2025-06-24",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "140",
+     "firefox_android": "140",
+     "safari": "18.4",
+     "safari_ios": "18.4"
+    }
+   },
+   "api.CookieStore.set": {
+    "baseline": "low",
+    "baseline_low_date": "2025-06-24",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "140",
+     "firefox_android": "140",
+     "safari": "18.4",
+     "safari_ios": "18.4"
+    }
+   },
+   "api.CookieStoreManager": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "140",
+     "firefox_android": "140"
+    }
+   },
+   "api.CookieStoreManager.getSubscriptions": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "140",
+     "firefox_android": "140"
+    }
+   },
+   "api.CookieStoreManager.subscribe": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "140",
+     "firefox_android": "140"
+    }
+   },
+   "api.CookieStoreManager.unsubscribe": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "140",
+     "firefox_android": "140"
+    }
+   },
+   "api.ExtendableCookieChangeEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "140",
+     "firefox_android": "140"
+    }
+   },
+   "api.ExtendableCookieChangeEvent.ExtendableCookieChangeEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "140",
+     "firefox_android": "140"
+    }
+   },
+   "api.ExtendableCookieChangeEvent.changed": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "140",
+     "firefox_android": "140"
+    }
+   },
+   "api.ExtendableCookieChangeEvent.deleted": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "140",
+     "firefox_android": "140"
+    }
+   },
+   "api.ServiceWorkerGlobalScope.cookieStore": {
+    "baseline": "low",
+    "baseline_low_date": "2025-06-24",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "140",
+     "firefox_android": "140",
+     "safari": "18.4",
+     "safari_ios": "18.4"
+    }
+   },
+   "api.ServiceWorkerGlobalScope.cookiechange_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "140",
+     "firefox_android": "140"
+    }
+   },
+   "api.ServiceWorkerRegistration.cookies": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "140",
+     "firefox_android": "140"
+    }
+   },
+   "api.Window.cookieStore": {
+    "baseline": "low",
+    "baseline_low_date": "2025-06-24",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "140",
+     "firefox_android": "140",
+     "safari": "18.4",
+     "safari_ios": "18.4"
+    }
+   }
+  },
+  "support": {
+   "chrome": "87",
+   "chrome_android": "87",
+   "edge": "87"
+  }
+ },
+ "id": "cookie-store",
+ "groups": [
+  "cookies"
+ ],
+ "specs": [
+  {
+   "url": "https://cookiestore.spec.whatwg.org/",
+   "seriesComposition": "full",
+   "shortname": "cookiestore",
+   "series": {
+    "shortname": "cookiestore",
+    "currentSpecification": "cookiestore",
+    "title": "Cookie Store API",
+    "shortTitle": "Cookie Store API",
+    "nightlyUrl": "https://cookiestore.spec.whatwg.org/"
+   },
+   "formerNames": [
+    "cookie-store"
+   ],
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "Fetch Workstream",
+     "url": "https://cookiestore.spec.whatwg.org/"
+    }
+   ],
+   "nightly": {
+    "url": "https://cookiestore.spec.whatwg.org/",
+    "status": "Living Standard",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/cookiestore",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Cookie Store API",
+   "source": "whatwg",
+   "shortTitle": "Cookie Store API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "cookiestore"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Cookie_Store_API",
+   "title": "Cookie Store API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Cookie_Store_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/94",
+   "position": "positive",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/36",
+   "position": "support",
+   "concerns": [
+    "integration"
+   ]
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.08930939,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/283"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:cookie-store"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/135",
+  "votes": 8
+ },
+ "bugs": {
+  "safari": [
+   "https://webkit.org/b/231750"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/231750"
+  ],
+  "webview_ios": [
+   "https://webkit.org/b/231750"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

@@ -1,0 +1,130 @@
+{
+ "caniuse": [
+  "css-backgroundblendmode"
+ ],
+ "compat_features": [
+  "css.properties.background-blend-mode",
+  "css.types.blend-mode"
+ ],
+ "description": "The background-blend-mode CSS property blends an element's background image and background color using blend modes like multiply, difference, or color.",
+ "description_html": "The <code>background-blend-mode</code> CSS property blends an element's background image and background color using blend modes like <code>multiply</code>, <code>difference</code>, or <code>color</code>.",
+ "group": [
+  "blend-mode"
+ ],
+ "kind": "feature",
+ "name": "background-blend-mode",
+ "spec": [
+  "https://drafts.csswg.org/compositing-2/#background-blend-mode"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2022-07-15",
+  "baseline_low_date": "2020-01-15",
+  "by_compat_key": {
+   "css.properties.background-blend-mode": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "35",
+     "chrome_android": "35",
+     "edge": "79",
+     "firefox": "30",
+     "firefox_android": "30",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "css.types.blend-mode": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "35",
+     "chrome_android": "59",
+     "edge": "79",
+     "firefox": "30",
+     "firefox_android": "54",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   }
+  },
+  "support": {
+   "chrome": "35",
+   "chrome_android": "59",
+   "edge": "79",
+   "firefox": "30",
+   "firefox_android": "54",
+   "safari": "8",
+   "safari_ios": "8"
+  }
+ },
+ "id": "background-blend-mode",
+ "groups": [
+  "blend-mode"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/compositing-2/#background-blend-mode",
+   "seriesComposition": "full",
+   "shortname": "compositing-2",
+   "series": {
+    "shortname": "compositing",
+    "currentSpecification": "compositing-2",
+    "title": "Compositing and Blending",
+    "shortTitle": "Compositing",
+    "nightlyUrl": "https://drafts.csswg.org/compositing/",
+    "releaseUrl": "https://www.w3.org/TR/compositing/"
+   },
+   "seriesVersion": "2",
+   "shortTitle": "Compositing 2",
+   "seriesPrevious": "compositing-1",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "nightly": {
+    "url": "https://drafts.csswg.org/compositing-2/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/compositing-2/",
+     "https://w3c.github.io/csswg-drafts/compositing/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "compositing-2/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "Compositing and Blending Module Level 2",
+   "source": "spec",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": "background-blend-mode"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/background-blend-mode",
+   "title": "background-blend-mode",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-blend-mode"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:background-blend-mode"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2020-01-15T00:00:00.000Z",
+ "baselineHighDateAsObject": "2022-07-15T00:00:00.000Z"
+}

@@ -1,0 +1,150 @@
+{
+ "compat_features": [
+  "api.XMLSerializer",
+  "api.XMLSerializer.XMLSerializer",
+  "api.XMLSerializer.serializeToString"
+ ],
+ "description": "The XMLSerializer API provides the serializeToString() method to construct an XML string representing a DOM tree.",
+ "description_html": "The <code>XMLSerializer</code> API provides the <code>serializeToString()</code> method to construct an XML string representing a DOM tree.",
+ "group": [
+  "parsing-and-serialization",
+  "xml"
+ ],
+ "kind": "feature",
+ "name": "XMLSerializer",
+ "spec": [
+  "https://w3c.github.io/DOM-Parsing/#the-xmlserializer-interface"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "api.XMLSerializer": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.XMLSerializer.XMLSerializer": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.XMLSerializer.serializeToString": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   }
+  },
+  "support": {
+   "chrome": "1",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "1",
+   "firefox_android": "4",
+   "safari": "3",
+   "safari_ios": "1"
+  }
+ },
+ "id": "xml-serializer",
+ "groups": [
+  "parsing-and-serialization",
+  "xml"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/DOM-Parsing/#the-xmlserializer-interface",
+   "seriesComposition": "full",
+   "shortname": "DOM-Parsing",
+   "series": {
+    "shortname": "DOM-Parsing",
+    "currentSpecification": "DOM-Parsing",
+    "title": "DOM Parsing and Serialization",
+    "shortTitle": "DOM Parsing and Serialization",
+    "releaseUrl": "https://www.w3.org/TR/DOM-Parsing/",
+    "nightlyUrl": "https://w3c.github.io/DOM-Parsing/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Working Group",
+     "url": "https://www.w3.org/WebPlatform/WG/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/DOM-Parsing/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/DOM-Parsing/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/DOM-Parsing",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "DOM Parsing and Serialization",
+   "source": "w3c",
+   "shortTitle": "DOM Parsing and Serialization",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "domparsing"
+    ]
+   },
+   "fragment": "the-xmlserializer-interface"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/XMLSerializer",
+   "title": "XMLSerializer",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/XMLSerializer"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:xml-serializer"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

@@ -1,0 +1,154 @@
+{
+ "compat_features": [
+  "api.ContentIndex",
+  "api.ContentIndex.add",
+  "api.ContentIndex.delete",
+  "api.ContentIndex.getAll",
+  "api.ContentIndexEvent",
+  "api.ContentIndexEvent.ContentIndexEvent",
+  "api.ContentIndexEvent.id",
+  "api.ServiceWorkerGlobalScope.contentdelete_event",
+  "api.ServiceWorkerRegistration.index"
+ ],
+ "description": "The Content Index API allows developers to register their offline enabled content with the browser.",
+ "description_html": "The Content Index API allows developers to register their offline enabled content with the browser.",
+ "kind": "feature",
+ "name": "Content Index",
+ "spec": [
+  "https://wicg.github.io/content-index/spec/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.ContentIndex": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "84"
+    }
+   },
+   "api.ContentIndex.add": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "84"
+    }
+   },
+   "api.ContentIndex.delete": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "84"
+    }
+   },
+   "api.ContentIndex.getAll": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "84"
+    }
+   },
+   "api.ContentIndexEvent": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "84"
+    }
+   },
+   "api.ContentIndexEvent.ContentIndexEvent": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "84"
+    }
+   },
+   "api.ContentIndexEvent.id": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "84"
+    }
+   },
+   "api.ServiceWorkerGlobalScope.contentdelete_event": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "84"
+    }
+   },
+   "api.ServiceWorkerRegistration.index": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "84"
+    }
+   }
+  },
+  "support": {
+   "chrome_android": "84"
+  }
+ },
+ "id": "content-index",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://wicg.github.io/content-index/spec/",
+   "seriesComposition": "full",
+   "shortname": "content-index",
+   "series": {
+    "shortname": "content-index",
+    "currentSpecification": "content-index",
+    "title": "Content Index",
+    "shortTitle": "Content Index",
+    "nightlyUrl": "https://wicg.github.io/content-index/spec/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://wicg.github.io/content-index/spec/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/WICG/content-index",
+    "sourcePath": "spec/index.bs",
+    "filename": "index.html"
+   },
+   "title": "Content Index",
+   "source": "spec",
+   "shortTitle": "Content Index",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "content-index"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Content_Index_API",
+   "title": "Content Index API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Content_Index_API"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:content-index"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/125",
+  "votes": 0
+ },
+ "bugs": {
+  "chrome": [
+   "https://bugs.chromium.org/p/chromium/issues/detail?id=973844"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

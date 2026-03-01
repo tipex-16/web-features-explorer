@@ -1,0 +1,178 @@
+{
+ "compat_features": [
+  "api.FetchLaterResult",
+  "api.FetchLaterResult.activated",
+  "api.Window.fetchLater",
+  "http.headers.Permissions-Policy.deferred-fetch",
+  "http.headers.Permissions-Policy.deferred-fetch-minimal"
+ ],
+ "description": "The fetchLater() method requests a deferred fetch sent at an unknown time. The browser chooses a reliable time to send the request, ideally when the document is unloaded, and ignores the response. This API is useful for sending beacons to a server without expecting a particular response.",
+ "description_html": "The <code>fetchLater()</code> method requests a deferred fetch sent at an unknown time. The browser chooses a reliable time to send the request, ideally when the document is unloaded, and ignores the response. This API is useful for sending beacons to a server without expecting a particular response.",
+ "kind": "feature",
+ "name": "fetchLater",
+ "spec": [
+  "https://fetch.spec.whatwg.org/#dom-window-fetchlater"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.FetchLaterResult": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "api.FetchLaterResult.activated": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "api.Window.fetchLater": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "http.headers.Permissions-Policy.deferred-fetch": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "http.headers.Permissions-Policy.deferred-fetch-minimal": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   }
+  },
+  "support": {
+   "chrome": "135",
+   "chrome_android": "135",
+   "edge": "135"
+  }
+ },
+ "id": "fetchlater",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://fetch.spec.whatwg.org/#dom-window-fetchlater",
+   "seriesComposition": "full",
+   "shortname": "fetch",
+   "series": {
+    "shortname": "fetch",
+    "currentSpecification": "fetch",
+    "title": "Fetch",
+    "shortTitle": "Fetch",
+    "nightlyUrl": "https://fetch.spec.whatwg.org/"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "Fetch Workstream",
+     "url": "https://fetch.spec.whatwg.org/"
+    }
+   ],
+   "nightly": {
+    "url": "https://fetch.spec.whatwg.org/",
+    "status": "Living Standard",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/fetch",
+    "sourcePath": "fetch.bs",
+    "filename": "index.html"
+   },
+   "title": "Fetch",
+   "source": "whatwg",
+   "shortTitle": "Fetch",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "cors",
+     "fetch"
+    ],
+    "excludePaths": [
+     "fetch/local-network-access",
+     "fetch/metadata"
+    ]
+   },
+   "fragment": "dom-window-fetchlater"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Fetch_API",
+   "title": "Fetch API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Fetch_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/703",
+   "position": "positive",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/85",
+   "position": "support",
+   "concerns": [
+    "complexity",
+    "privacy",
+    "integration",
+    "venue",
+    "API design",
+    "maintenance"
+   ]
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.03605228,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/306"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:fetchlater"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/286",
+  "votes": 2
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1936180"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/1936180"
+  ],
+  "safari": [
+   "https://webkit.org/b/284347"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/284347"
+  ],
+  "webview_ios": [
+   "https://webkit.org/b/284347"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

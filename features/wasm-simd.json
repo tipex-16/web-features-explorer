@@ -1,0 +1,138 @@
+{
+ "caniuse": [
+  "wasm-simd"
+ ],
+ "compat_features": [
+  "webassembly.fixed-width-SIMD"
+ ],
+ "description": "128-bit SIMD (Single Instruction Multiple Data) performs one instruction on multiple units of data, when running on hardware that supports such instructions. Also known as vector instructions.",
+ "description_html": "128-bit SIMD (Single Instruction Multiple Data) performs one instruction on multiple units of data, when running on hardware that supports such instructions. Also known as vector instructions.",
+ "group": [
+  "webassembly"
+ ],
+ "kind": "feature",
+ "name": "Fixed-width SIMD (WebAssembly)",
+ "spec": [
+  "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2025-09-27",
+  "baseline_low_date": "2023-03-27",
+  "by_compat_key": {
+   "webassembly.fixed-width-SIMD": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "91",
+     "chrome_android": "91",
+     "edge": "91",
+     "firefox": "89",
+     "firefox_android": "89",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   }
+  },
+  "support": {
+   "chrome": "91",
+   "chrome_android": "91",
+   "edge": "91",
+   "firefox": "89",
+   "firefox_android": "89",
+   "safari": "16.4",
+   "safari_ios": "16.4"
+  }
+ },
+ "id": "wasm-simd",
+ "groups": [
+  "webassembly"
+ ],
+ "specs": [
+  {
+   "url": "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions",
+   "seriesComposition": "full",
+   "shortname": "wasm-core-2",
+   "series": {
+    "shortname": "wasm-core",
+    "currentSpecification": "wasm-core-2",
+    "title": "WebAssembly Core",
+    "shortTitle": "WebAssembly Core",
+    "releaseUrl": "https://www.w3.org/TR/wasm-core/",
+    "nightlyUrl": "https://webassembly.github.io/spec/core/bikeshed/"
+   },
+   "seriesVersion": "2",
+   "nightly": {
+    "url": "https://webassembly.github.io/spec/core/bikeshed/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/WebAssembly/spec",
+    "sourcePath": "document/core/index.bs",
+    "filename": "index.html"
+   },
+   "tests": {
+    "repository": "https://github.com/WebAssembly/spec/",
+    "testPaths": [
+     "test/core"
+    ]
+   },
+   "forks": [
+    "wasm-core-2-fork-branch-hinting",
+    "wasm-core-2-fork-compact-import-section",
+    "wasm-core-2-fork-custom-descriptors",
+    "wasm-core-2-fork-extended-const",
+    "wasm-core-2-fork-function-references",
+    "wasm-core-2-fork-gc",
+    "wasm-core-2-fork-memory64",
+    "wasm-core-2-fork-multi-memory",
+    "wasm-core-2-fork-tail-call",
+    "wasm-core-2-fork-threads",
+    "wasm-core-2-fork-wide-arithmetic"
+   ],
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "WebAssembly Working Group",
+     "url": "https://www.w3.org/groups/wg/wasm/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/wasm-core-2/",
+    "status": "Candidate Recommendation Draft",
+    "filename": "Overview.html"
+   },
+   "title": "WebAssembly Core Specification",
+   "source": "w3c",
+   "shortTitle": "WebAssembly Core",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": "vector-instructions"
+  }
+ ],
+ "mdnUrls": [],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/491",
+   "position": "positive",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00345839,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/347"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:wasm-simd"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2023-03-27T00:00:00.000Z",
+ "baselineHighDateAsObject": "2025-09-27T00:00:00.000Z"
+}

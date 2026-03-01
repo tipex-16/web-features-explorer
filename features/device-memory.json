@@ -1,0 +1,123 @@
+{
+ "compat_features": [
+  "api.Navigator.deviceMemory",
+  "api.WorkerNavigator.deviceMemory",
+  "http.headers.Sec-CH-Device-Memory"
+ ],
+ "description": "The navigator.deviceMemory property is the approximate amount of device memory, in gigabytes.",
+ "description_html": "The <code>navigator.deviceMemory</code> property is the approximate amount of device memory, in gigabytes.",
+ "kind": "feature",
+ "name": "Device memory",
+ "spec": [
+  "https://www.w3.org/TR/device-memory/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Navigator.deviceMemory": {
+    "baseline": false,
+    "support": {
+     "chrome": "63",
+     "chrome_android": "63",
+     "edge": "79"
+    }
+   },
+   "api.WorkerNavigator.deviceMemory": {
+    "baseline": false,
+    "support": {
+     "chrome": "65",
+     "chrome_android": "65",
+     "edge": "79"
+    }
+   },
+   "http.headers.Sec-CH-Device-Memory": {
+    "baseline": false,
+    "support": {
+     "chrome": "97",
+     "chrome_android": "97",
+     "edge": "97"
+    }
+   }
+  },
+  "support": {
+   "chrome": "97",
+   "chrome_android": "97",
+   "edge": "97"
+  }
+ },
+ "id": "device-memory",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://www.w3.org/TR/device-memory/",
+   "seriesComposition": "full",
+   "shortname": "device-memory-1",
+   "series": {
+    "shortname": "device-memory",
+    "currentSpecification": "device-memory-1",
+    "title": "Device Memory",
+    "shortTitle": "Device Memory",
+    "releaseUrl": "https://www.w3.org/TR/device-memory/",
+    "nightlyUrl": "https://www.w3.org/TR/device-memory/"
+   },
+   "seriesVersion": "1",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Performance Working Group",
+     "url": "https://www.w3.org/groups/wg/webperf/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/device-memory-1/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://www.w3.org/TR/device-memory/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/device-memory",
+    "sourcePath": "index.bs",
+    "filename": "Overview.html"
+   },
+   "title": "Device Memory API",
+   "source": "w3c",
+   "shortTitle": "Device Memory API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "device-memory"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Device_Memory_API",
+   "title": "Device Memory API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Device_Memory_API"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:device-memory"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/79",
+  "votes": 0
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

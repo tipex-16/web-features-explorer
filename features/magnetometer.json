@@ -1,0 +1,136 @@
+{
+ "compat_features": [
+  "api.Magnetometer",
+  "api.Magnetometer.Magnetometer",
+  "api.Magnetometer.x",
+  "api.Magnetometer.y",
+  "api.Magnetometer.z",
+  "api.Permissions.permission_magnetometer",
+  "html.elements.iframe.allow.magnetometer",
+  "http.headers.Permissions-Policy.magnetometer"
+ ],
+ "description": "The Magnetometer API reads magnetic field sensor data from the device's magnetometer.",
+ "description_html": "The <code>Magnetometer</code> API reads magnetic field sensor data from the device's magnetometer.",
+ "group": [
+  "sensors"
+ ],
+ "kind": "feature",
+ "name": "Magnetometer",
+ "spec": [
+  "https://w3c.github.io/magnetometer/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Magnetometer": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.Magnetometer.Magnetometer": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.Magnetometer.x": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.Magnetometer.y": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.Magnetometer.z": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.Permissions.permission_magnetometer": {
+    "baseline": false,
+    "support": {}
+   },
+   "html.elements.iframe.allow.magnetometer": {
+    "baseline": false,
+    "support": {}
+   },
+   "http.headers.Permissions-Policy.magnetometer": {
+    "baseline": false,
+    "support": {}
+   }
+  },
+  "support": {}
+ },
+ "id": "magnetometer",
+ "groups": [
+  "sensors"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/magnetometer/",
+   "seriesComposition": "full",
+   "shortname": "magnetometer",
+   "series": {
+    "shortname": "magnetometer",
+    "currentSpecification": "magnetometer",
+    "title": "Magnetometer",
+    "shortTitle": "Magnetometer",
+    "releaseUrl": "https://www.w3.org/TR/magnetometer/",
+    "nightlyUrl": "https://w3c.github.io/magnetometer/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Devices and Sensors Working Group",
+     "url": "https://www.w3.org/das/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/magnetometer/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/magnetometer/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/magnetometer",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Magnetometer",
+   "source": "w3c",
+   "shortTitle": "Magnetometer",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "magnetometer"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Magnetometer",
+   "title": "Magnetometer",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Magnetometer"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:magnetometer"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/307",
+  "votes": 0
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

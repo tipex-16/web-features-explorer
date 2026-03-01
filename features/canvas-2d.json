@@ -1,0 +1,1884 @@
+{
+ "compat_features": [
+  "api.CanvasGradient",
+  "api.CanvasGradient.addColorStop",
+  "api.CanvasPattern",
+  "api.CanvasPattern.setTransform",
+  "api.CanvasPattern.setTransform.dommatrix",
+  "api.CanvasRenderingContext2D",
+  "api.CanvasRenderingContext2D.arc",
+  "api.CanvasRenderingContext2D.arcTo",
+  "api.CanvasRenderingContext2D.beginPath",
+  "api.CanvasRenderingContext2D.bezierCurveTo",
+  "api.CanvasRenderingContext2D.canvas",
+  "api.CanvasRenderingContext2D.clearRect",
+  "api.CanvasRenderingContext2D.clip",
+  "api.CanvasRenderingContext2D.clip.path_parameter",
+  "api.CanvasRenderingContext2D.closePath",
+  "api.CanvasRenderingContext2D.createImageData",
+  "api.CanvasRenderingContext2D.createLinearGradient",
+  "api.CanvasRenderingContext2D.createPattern",
+  "api.CanvasRenderingContext2D.createRadialGradient",
+  "api.CanvasRenderingContext2D.direction",
+  "api.CanvasRenderingContext2D.drawFocusIfNeeded",
+  "api.CanvasRenderingContext2D.drawFocusIfNeeded.path_parameter",
+  "api.CanvasRenderingContext2D.drawImage",
+  "api.CanvasRenderingContext2D.drawImage.ImageBitmap_source_image",
+  "api.CanvasRenderingContext2D.ellipse",
+  "api.CanvasRenderingContext2D.fill",
+  "api.CanvasRenderingContext2D.fill.path_parameter",
+  "api.CanvasRenderingContext2D.fillRect",
+  "api.CanvasRenderingContext2D.fillStyle",
+  "api.CanvasRenderingContext2D.fillText",
+  "api.CanvasRenderingContext2D.filter",
+  "api.CanvasRenderingContext2D.font",
+  "api.CanvasRenderingContext2D.fontKerning",
+  "api.CanvasRenderingContext2D.fontStretch",
+  "api.CanvasRenderingContext2D.fontVariantCaps",
+  "api.CanvasRenderingContext2D.getContextAttributes",
+  "api.CanvasRenderingContext2D.getImageData",
+  "api.CanvasRenderingContext2D.getLineDash",
+  "api.CanvasRenderingContext2D.getTransform",
+  "api.CanvasRenderingContext2D.globalAlpha",
+  "api.CanvasRenderingContext2D.globalCompositeOperation",
+  "api.CanvasRenderingContext2D.imageSmoothingEnabled",
+  "api.CanvasRenderingContext2D.imageSmoothingQuality",
+  "api.CanvasRenderingContext2D.isPointInPath",
+  "api.CanvasRenderingContext2D.isPointInPath.path_parameter",
+  "api.CanvasRenderingContext2D.isPointInStroke",
+  "api.CanvasRenderingContext2D.isPointInStroke.path_parameter",
+  "api.CanvasRenderingContext2D.lang",
+  "api.CanvasRenderingContext2D.letterSpacing",
+  "api.CanvasRenderingContext2D.lineCap",
+  "api.CanvasRenderingContext2D.lineDashOffset",
+  "api.CanvasRenderingContext2D.lineJoin",
+  "api.CanvasRenderingContext2D.lineTo",
+  "api.CanvasRenderingContext2D.lineWidth",
+  "api.CanvasRenderingContext2D.measureText",
+  "api.CanvasRenderingContext2D.miterLimit",
+  "api.CanvasRenderingContext2D.moveTo",
+  "api.CanvasRenderingContext2D.putImageData",
+  "api.CanvasRenderingContext2D.quadraticCurveTo",
+  "api.CanvasRenderingContext2D.rect",
+  "api.CanvasRenderingContext2D.resetTransform",
+  "api.CanvasRenderingContext2D.restore",
+  "api.CanvasRenderingContext2D.rotate",
+  "api.CanvasRenderingContext2D.save",
+  "api.CanvasRenderingContext2D.scale",
+  "api.CanvasRenderingContext2D.setLineDash",
+  "api.CanvasRenderingContext2D.setTransform",
+  "api.CanvasRenderingContext2D.setTransform.matrix_parameter",
+  "api.CanvasRenderingContext2D.shadowBlur",
+  "api.CanvasRenderingContext2D.shadowColor",
+  "api.CanvasRenderingContext2D.shadowOffsetX",
+  "api.CanvasRenderingContext2D.shadowOffsetY",
+  "api.CanvasRenderingContext2D.stroke",
+  "api.CanvasRenderingContext2D.stroke.path_parameter",
+  "api.CanvasRenderingContext2D.strokeRect",
+  "api.CanvasRenderingContext2D.strokeStyle",
+  "api.CanvasRenderingContext2D.strokeText",
+  "api.CanvasRenderingContext2D.textAlign",
+  "api.CanvasRenderingContext2D.textBaseline",
+  "api.CanvasRenderingContext2D.textRendering",
+  "api.CanvasRenderingContext2D.transform",
+  "api.CanvasRenderingContext2D.translate",
+  "api.CanvasRenderingContext2D.wordSpacing",
+  "api.HTMLCanvasElement.getContext.2d_context",
+  "api.ImageData",
+  "api.ImageData.ImageData",
+  "api.ImageData.colorSpace",
+  "api.ImageData.data",
+  "api.ImageData.height",
+  "api.ImageData.width",
+  "api.ImageData.worker_support",
+  "api.Path2D",
+  "api.Path2D.Path2D",
+  "api.Path2D.addPath",
+  "api.Path2D.arc",
+  "api.Path2D.arcTo",
+  "api.Path2D.bezierCurveTo",
+  "api.Path2D.closePath",
+  "api.Path2D.ellipse",
+  "api.Path2D.lineTo",
+  "api.Path2D.moveTo",
+  "api.Path2D.quadraticCurveTo",
+  "api.Path2D.rect",
+  "api.Path2D.roundRect",
+  "api.TextMetrics",
+  "api.TextMetrics.actualBoundingBoxAscent",
+  "api.TextMetrics.actualBoundingBoxDescent",
+  "api.TextMetrics.actualBoundingBoxLeft",
+  "api.TextMetrics.actualBoundingBoxRight",
+  "api.TextMetrics.alphabeticBaseline",
+  "api.TextMetrics.emHeightAscent",
+  "api.TextMetrics.emHeightDescent",
+  "api.TextMetrics.fontBoundingBoxAscent",
+  "api.TextMetrics.fontBoundingBoxDescent",
+  "api.TextMetrics.hangingBaseline",
+  "api.TextMetrics.ideographicBaseline",
+  "api.TextMetrics.width"
+ ],
+ "description": "The CanvasRenderingContext2D API is the \"2d\" rendering context for the <canvas> element. It represents a flat, two-dimensional space for drawing graphics and animations.",
+ "description_html": "The <code>CanvasRenderingContext2D</code> API is the \"2d\" rendering context for the <code>&#x3C;canvas></code> element. It represents a flat, two-dimensional space for drawing graphics and animations.",
+ "group": [
+  "canvas"
+ ],
+ "kind": "feature",
+ "name": "2D canvas",
+ "spec": [
+  "https://html.spec.whatwg.org/multipage/canvas.html#2dcontext"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "api.CanvasGradient": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasGradient.addColorStop": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasPattern": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasPattern.setTransform": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "68",
+     "chrome_android": "68",
+     "edge": "79",
+     "firefox": "33",
+     "firefox_android": "33",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.CanvasPattern.setTransform.dommatrix": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "68",
+     "chrome_android": "68",
+     "edge": "79",
+     "firefox": "79",
+     "firefox_android": "79",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.CanvasRenderingContext2D": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.arc": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.arcTo": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.beginPath": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.bezierCurveTo": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.canvas": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.clearRect": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.clip": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.clip.path_parameter": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "36",
+     "chrome_android": "36",
+     "edge": "14",
+     "firefox": "31",
+     "firefox_android": "31",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.CanvasRenderingContext2D.closePath": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.createImageData": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.CanvasRenderingContext2D.createLinearGradient": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.createPattern": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.createRadialGradient": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.direction": {
+    "baseline": "high",
+    "baseline_high_date": "2024-11-30",
+    "baseline_low_date": "2022-05-31",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "101",
+     "firefox_android": "101",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "api.CanvasRenderingContext2D.drawFocusIfNeeded": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "37",
+     "chrome_android": "37",
+     "edge": "14",
+     "firefox": "32",
+     "firefox_android": "32",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "api.CanvasRenderingContext2D.drawFocusIfNeeded.path_parameter": {
+    "baseline": false,
+    "support": {
+     "chrome": "37",
+     "chrome_android": "37",
+     "edge": "14",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "api.CanvasRenderingContext2D.drawImage": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.drawImage.ImageBitmap_source_image": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "50",
+     "chrome_android": "50",
+     "edge": "79",
+     "firefox": "42",
+     "firefox_android": "42",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "api.CanvasRenderingContext2D.ellipse": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "31",
+     "chrome_android": "31",
+     "edge": "13",
+     "firefox": "48",
+     "firefox_android": "48",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "api.CanvasRenderingContext2D.fill": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.fill.path_parameter": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "36",
+     "chrome_android": "36",
+     "edge": "14",
+     "firefox": "31",
+     "firefox_android": "31",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.CanvasRenderingContext2D.fillRect": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.fillStyle": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.fillText": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.CanvasRenderingContext2D.filter": {
+    "baseline": false,
+    "support": {
+     "chrome": "52",
+     "chrome_android": "52",
+     "edge": "79",
+     "firefox": "49",
+     "firefox_android": "49"
+    }
+   },
+   "api.CanvasRenderingContext2D.font": {
+    "baseline": "low",
+    "baseline_low_date": "2025-03-31",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "18.4",
+     "safari_ios": "18.4"
+    }
+   },
+   "api.CanvasRenderingContext2D.fontKerning": {
+    "baseline": false,
+    "support": {
+     "chrome": "99",
+     "chrome_android": "99",
+     "edge": "99",
+     "firefox": "104",
+     "firefox_android": "104"
+    }
+   },
+   "api.CanvasRenderingContext2D.fontStretch": {
+    "baseline": false,
+    "support": {
+     "chrome": "99",
+     "chrome_android": "99",
+     "edge": "99",
+     "firefox": "117",
+     "firefox_android": "117"
+    }
+   },
+   "api.CanvasRenderingContext2D.fontVariantCaps": {
+    "baseline": false,
+    "support": {
+     "chrome": "99",
+     "chrome_android": "99",
+     "edge": "99",
+     "firefox": "117",
+     "firefox_android": "117"
+    }
+   },
+   "api.CanvasRenderingContext2D.getContextAttributes": {
+    "baseline": "low",
+    "baseline_low_date": "2023-08-29",
+    "support": {
+     "chrome": "73",
+     "chrome_android": "73",
+     "edge": "79",
+     "firefox": "117",
+     "firefox_android": "117",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "api.CanvasRenderingContext2D.getImageData": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "2",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.CanvasRenderingContext2D.getLineDash": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "23",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "27",
+     "firefox_android": "27",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.CanvasRenderingContext2D.getTransform": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "68",
+     "chrome_android": "68",
+     "edge": "79",
+     "firefox": "70",
+     "firefox_android": "79",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.CanvasRenderingContext2D.globalAlpha": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.globalCompositeOperation": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.imageSmoothingEnabled": {
+    "baseline": "high",
+    "baseline_high_date": "2019-10-05",
+    "baseline_low_date": "2017-04-05",
+    "support": {
+     "chrome": "30",
+     "chrome_android": "30",
+     "edge": "15",
+     "firefox": "51",
+     "firefox_android": "51",
+     "safari": "9.1",
+     "safari_ios": "9.3"
+    }
+   },
+   "api.CanvasRenderingContext2D.imageSmoothingQuality": {
+    "baseline": false,
+    "support": {
+     "chrome": "54",
+     "chrome_android": "54",
+     "edge": "79",
+     "safari": "9.1",
+     "safari_ios": "9.3"
+    }
+   },
+   "api.CanvasRenderingContext2D.isPointInPath": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "2",
+     "firefox_android": "4",
+     "safari": "3.1",
+     "safari_ios": "2"
+    }
+   },
+   "api.CanvasRenderingContext2D.isPointInPath.path_parameter": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "36",
+     "chrome_android": "36",
+     "edge": "14",
+     "firefox": "31",
+     "firefox_android": "31",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.CanvasRenderingContext2D.isPointInStroke": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "79",
+     "firefox": "19",
+     "firefox_android": "19",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.CanvasRenderingContext2D.isPointInStroke.path_parameter": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "36",
+     "chrome_android": "36",
+     "edge": "79",
+     "firefox": "31",
+     "firefox_android": "31",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.CanvasRenderingContext2D.lang": {
+    "baseline": false,
+    "support": {
+     "chrome": "136",
+     "chrome_android": "136",
+     "edge": "136"
+    }
+   },
+   "api.CanvasRenderingContext2D.letterSpacing": {
+    "baseline": "low",
+    "baseline_low_date": "2025-03-31",
+    "support": {
+     "chrome": "99",
+     "chrome_android": "99",
+     "edge": "99",
+     "firefox": "115",
+     "firefox_android": "115",
+     "safari": "18.4",
+     "safari_ios": "18.4"
+    }
+   },
+   "api.CanvasRenderingContext2D.lineCap": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.lineDashOffset": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "23",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "27",
+     "firefox_android": "27",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.CanvasRenderingContext2D.lineJoin": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.lineTo": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.lineWidth": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.measureText": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.CanvasRenderingContext2D.miterLimit": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.moveTo": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.putImageData": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "2",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.CanvasRenderingContext2D.quadraticCurveTo": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.rect": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.resetTransform": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "31",
+     "chrome_android": "31",
+     "edge": "79",
+     "firefox": "36",
+     "firefox_android": "36",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.CanvasRenderingContext2D.restore": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.rotate": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.save": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.scale": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.setLineDash": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "23",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "27",
+     "firefox_android": "27",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.CanvasRenderingContext2D.setTransform": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.CanvasRenderingContext2D.setTransform.matrix_parameter": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "68",
+     "chrome_android": "68",
+     "edge": "79",
+     "firefox": "70",
+     "firefox_android": "79",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.CanvasRenderingContext2D.shadowBlur": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.shadowColor": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.shadowOffsetX": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.shadowOffsetY": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.stroke": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.stroke.path_parameter": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "36",
+     "chrome_android": "36",
+     "edge": "14",
+     "firefox": "31",
+     "firefox_android": "31",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.CanvasRenderingContext2D.strokeRect": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.strokeStyle": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.strokeText": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.CanvasRenderingContext2D.textAlign": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.CanvasRenderingContext2D.textBaseline": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.CanvasRenderingContext2D.textRendering": {
+    "baseline": false,
+    "support": {
+     "chrome": "99",
+     "chrome_android": "99",
+     "edge": "99",
+     "firefox": "116",
+     "firefox_android": "116"
+    }
+   },
+   "api.CanvasRenderingContext2D.transform": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3",
+     "firefox_android": "4",
+     "safari": "3.1",
+     "safari_ios": "2"
+    }
+   },
+   "api.CanvasRenderingContext2D.translate": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.CanvasRenderingContext2D.wordSpacing": {
+    "baseline": "low",
+    "baseline_low_date": "2025-03-31",
+    "support": {
+     "chrome": "99",
+     "chrome_android": "99",
+     "edge": "99",
+     "firefox": "115",
+     "firefox_android": "115",
+     "safari": "18.4",
+     "safari_ios": "18.4"
+    }
+   },
+   "api.HTMLCanvasElement.getContext.2d_context": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "2",
+     "safari_ios": "1"
+    }
+   },
+   "api.ImageData": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "3.1",
+     "safari_ios": "2"
+    }
+   },
+   "api.ImageData.ImageData": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "36",
+     "chrome_android": "36",
+     "edge": "14",
+     "firefox": "29",
+     "firefox_android": "29",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "api.ImageData.colorSpace": {
+    "baseline": false,
+    "support": {
+     "chrome": "92",
+     "chrome_android": "92",
+     "edge": "92",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   },
+   "api.ImageData.data": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "3.1",
+     "safari_ios": "2"
+    }
+   },
+   "api.ImageData.height": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "3.1",
+     "safari_ios": "2"
+    }
+   },
+   "api.ImageData.width": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "3.1",
+     "safari_ios": "2"
+    }
+   },
+   "api.ImageData.worker_support": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "36",
+     "chrome_android": "36",
+     "edge": "14",
+     "firefox": "25",
+     "firefox_android": "25",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.Path2D": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "36",
+     "chrome_android": "36",
+     "edge": "14",
+     "firefox": "31",
+     "firefox_android": "31",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "api.Path2D.Path2D": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "36",
+     "chrome_android": "36",
+     "edge": "14",
+     "firefox": "31",
+     "firefox_android": "31",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "api.Path2D.addPath": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "68",
+     "chrome_android": "68",
+     "edge": "79",
+     "firefox": "34",
+     "firefox_android": "34",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "api.Path2D.arc": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "36",
+     "chrome_android": "36",
+     "edge": "14",
+     "firefox": "31",
+     "firefox_android": "31",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "api.Path2D.arcTo": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "36",
+     "chrome_android": "36",
+     "edge": "14",
+     "firefox": "31",
+     "firefox_android": "31",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "api.Path2D.bezierCurveTo": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "36",
+     "chrome_android": "36",
+     "edge": "14",
+     "firefox": "31",
+     "firefox_android": "31",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "api.Path2D.closePath": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "36",
+     "chrome_android": "36",
+     "edge": "14",
+     "firefox": "31",
+     "firefox_android": "31",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "api.Path2D.ellipse": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "36",
+     "chrome_android": "36",
+     "edge": "14",
+     "firefox": "48",
+     "firefox_android": "48",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "api.Path2D.lineTo": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "36",
+     "chrome_android": "36",
+     "edge": "14",
+     "firefox": "31",
+     "firefox_android": "31",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "api.Path2D.moveTo": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "36",
+     "chrome_android": "36",
+     "edge": "14",
+     "firefox": "31",
+     "firefox_android": "31",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "api.Path2D.quadraticCurveTo": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "36",
+     "chrome_android": "36",
+     "edge": "14",
+     "firefox": "31",
+     "firefox_android": "31",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "api.Path2D.rect": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "36",
+     "chrome_android": "36",
+     "edge": "14",
+     "firefox": "31",
+     "firefox_android": "31",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "api.Path2D.roundRect": {
+    "baseline": "high",
+    "baseline_high_date": "2025-10-11",
+    "baseline_low_date": "2023-04-11",
+    "support": {
+     "chrome": "99",
+     "chrome_android": "99",
+     "edge": "99",
+     "firefox": "112",
+     "firefox_android": "112",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "api.TextMetrics": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "31",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.TextMetrics.actualBoundingBoxAscent": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "74",
+     "firefox_android": "79",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.TextMetrics.actualBoundingBoxDescent": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "74",
+     "firefox_android": "79",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.TextMetrics.actualBoundingBoxLeft": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "74",
+     "firefox_android": "79",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.TextMetrics.actualBoundingBoxRight": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "74",
+     "firefox_android": "79",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.TextMetrics.alphabeticBaseline": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-13",
+    "support": {
+     "chrome": "118",
+     "chrome_android": "118",
+     "edge": "118",
+     "firefox": "116",
+     "firefox_android": "116",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.TextMetrics.emHeightAscent": {
+    "baseline": false,
+    "support": {
+     "firefox": "118",
+     "firefox_android": "118",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.TextMetrics.emHeightDescent": {
+    "baseline": false,
+    "support": {
+     "firefox": "118",
+     "firefox_android": "118",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.TextMetrics.fontBoundingBoxAscent": {
+    "baseline": "high",
+    "baseline_high_date": "2026-02-01",
+    "baseline_low_date": "2023-08-01",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "116",
+     "firefox_android": "116",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.TextMetrics.fontBoundingBoxDescent": {
+    "baseline": "high",
+    "baseline_high_date": "2026-02-01",
+    "baseline_low_date": "2023-08-01",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "116",
+     "firefox_android": "116",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.TextMetrics.hangingBaseline": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-13",
+    "support": {
+     "chrome": "118",
+     "chrome_android": "118",
+     "edge": "118",
+     "firefox": "116",
+     "firefox_android": "116",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.TextMetrics.ideographicBaseline": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-13",
+    "support": {
+     "chrome": "118",
+     "chrome_android": "118",
+     "edge": "118",
+     "firefox": "116",
+     "firefox_android": "116",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.TextMetrics.width": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "31",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   }
+  },
+  "support": {
+   "chrome": "1",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "1.5",
+   "firefox_android": "4",
+   "safari": "2",
+   "safari_ios": "1"
+  }
+ },
+ "id": "canvas-2d",
+ "groups": [
+  "canvas"
+ ],
+ "specs": [
+  {
+   "url": "https://html.spec.whatwg.org/multipage/canvas.html#2dcontext",
+   "seriesComposition": "full",
+   "shortname": "html",
+   "series": {
+    "shortname": "html",
+    "currentSpecification": "html",
+    "title": "HTML",
+    "shortTitle": "HTML",
+    "nightlyUrl": "https://html.spec.whatwg.org/multipage/"
+   },
+   "nightly": {
+    "url": "https://html.spec.whatwg.org/multipage/",
+    "status": "Living Standard",
+    "sourcePath": "source",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/html",
+    "pages": [
+     "https://html.spec.whatwg.org/multipage/introduction.html",
+     "https://html.spec.whatwg.org/multipage/infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/common-microsyntaxes.html",
+     "https://html.spec.whatwg.org/multipage/urls-and-fetching.html",
+     "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html",
+     "https://html.spec.whatwg.org/multipage/structured-data.html",
+     "https://html.spec.whatwg.org/multipage/dom.html",
+     "https://html.spec.whatwg.org/multipage/semantics.html",
+     "https://html.spec.whatwg.org/multipage/sections.html",
+     "https://html.spec.whatwg.org/multipage/grouping-content.html",
+     "https://html.spec.whatwg.org/multipage/text-level-semantics.html",
+     "https://html.spec.whatwg.org/multipage/links.html",
+     "https://html.spec.whatwg.org/multipage/edits.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content.html",
+     "https://html.spec.whatwg.org/multipage/images.html",
+     "https://html.spec.whatwg.org/multipage/iframe-embed-object.html",
+     "https://html.spec.whatwg.org/multipage/media.html",
+     "https://html.spec.whatwg.org/multipage/image-maps.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content-other.html",
+     "https://html.spec.whatwg.org/multipage/tables.html",
+     "https://html.spec.whatwg.org/multipage/forms.html",
+     "https://html.spec.whatwg.org/multipage/input.html",
+     "https://html.spec.whatwg.org/multipage/form-elements.html",
+     "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/interactive-elements.html",
+     "https://html.spec.whatwg.org/multipage/scripting.html",
+     "https://html.spec.whatwg.org/multipage/canvas.html",
+     "https://html.spec.whatwg.org/multipage/custom-elements.html",
+     "https://html.spec.whatwg.org/multipage/semantics-other.html",
+     "https://html.spec.whatwg.org/multipage/microdata.html",
+     "https://html.spec.whatwg.org/multipage/interaction.html",
+     "https://html.spec.whatwg.org/multipage/dnd.html",
+     "https://html.spec.whatwg.org/multipage/popover.html",
+     "https://html.spec.whatwg.org/multipage/browsers.html",
+     "https://html.spec.whatwg.org/multipage/nav-history-apis.html",
+     "https://html.spec.whatwg.org/multipage/document-sequences.html",
+     "https://html.spec.whatwg.org/multipage/browsing-the-web.html",
+     "https://html.spec.whatwg.org/multipage/document-lifecycle.html",
+     "https://html.spec.whatwg.org/multipage/speculative-loading.html",
+     "https://html.spec.whatwg.org/multipage/webappapis.html",
+     "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html",
+     "https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html",
+     "https://html.spec.whatwg.org/multipage/system-state.html",
+     "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html",
+     "https://html.spec.whatwg.org/multipage/comms.html",
+     "https://html.spec.whatwg.org/multipage/server-sent-events.html",
+     "https://html.spec.whatwg.org/multipage/web-messaging.html",
+     "https://html.spec.whatwg.org/multipage/workers.html",
+     "https://html.spec.whatwg.org/multipage/worklets.html",
+     "https://html.spec.whatwg.org/multipage/webstorage.html",
+     "https://html.spec.whatwg.org/multipage/syntax.html",
+     "https://html.spec.whatwg.org/multipage/parsing.html",
+     "https://html.spec.whatwg.org/multipage/named-characters.html",
+     "https://html.spec.whatwg.org/multipage/xhtml.html",
+     "https://html.spec.whatwg.org/multipage/rendering.html",
+     "https://html.spec.whatwg.org/multipage/obsolete.html",
+     "https://html.spec.whatwg.org/multipage/iana.html",
+     "https://html.spec.whatwg.org/multipage/indices.html",
+     "https://html.spec.whatwg.org/multipage/references.html",
+     "https://html.spec.whatwg.org/multipage/acknowledgements.html"
+    ],
+    "filename": "index.html"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "HTML Workstream",
+     "url": "https://html.spec.whatwg.org/multipage/"
+    }
+   ],
+   "title": "HTML",
+   "source": "whatwg",
+   "shortTitle": "HTML",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "close-watcher",
+     "custom-elements",
+     "eventsource",
+     "html",
+     "imagebitmap-renderingcontext",
+     "import-maps",
+     "navigation-api",
+     "webmessaging",
+     "webstorage",
+     "workers",
+     "worklets",
+     "x-frame-options"
+    ],
+    "excludePaths": [
+     "html/cross-origin-embedder-policy/credentialless",
+     "html/dom/partial-updates/tentative",
+     "html/cross-origin-embedder-policy/credentialless"
+    ]
+   },
+   "fragment": "2dcontext"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/HTML/Reference/Elements/canvas",
+   "title": "<canvas>: The Graphics Canvas element",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/canvas"
+  },
+  {
+   "slug": "Web/API/HTMLCanvasElement/getContext",
+   "title": "HTMLCanvasElement: getContext() method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLCanvasElement/getContext"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.33338289,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/201"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:canvas-2d"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

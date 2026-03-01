@@ -1,0 +1,124 @@
+{
+ "compat_features": [
+  "api.Navigator.clearAppBadge",
+  "api.Navigator.setAppBadge"
+ ],
+ "description": "The navigator.setAppBadge() method allows installed web applications to display an application badge, typically a dot or number shown alongside the application's icon on the device's home screen or application dock.",
+ "description_html": "The <code>navigator.setAppBadge()</code> method allows installed web applications to display an application badge, typically a dot or number shown alongside the application's icon on the device's home screen or application dock.",
+ "kind": "feature",
+ "name": "Badging",
+ "spec": [
+  "https://w3c.github.io/badging/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Navigator.clearAppBadge": {
+    "baseline": false,
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "safari": "17",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.Navigator.setAppBadge": {
+    "baseline": false,
+    "support": {
+     "chrome": "81",
+     "edge": "81",
+     "safari": "17",
+     "safari_ios": "16.4"
+    }
+   }
+  },
+  "support": {
+   "chrome": "81",
+   "edge": "81",
+   "safari": "17",
+   "safari_ios": "16.4"
+  }
+ },
+ "id": "badging",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/badging/",
+   "seriesComposition": "full",
+   "shortname": "badging",
+   "series": {
+    "shortname": "badging",
+    "currentSpecification": "badging",
+    "title": "Badging API",
+    "shortTitle": "Badging API",
+    "releaseUrl": "https://www.w3.org/TR/badging/",
+    "nightlyUrl": "https://w3c.github.io/badging/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Applications Working Group",
+     "url": "https://www.w3.org/groups/wg/webapps/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/badging/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/badging/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/badging",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Badging API",
+   "source": "w3c",
+   "shortTitle": "Badging API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "badging"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Badging_API",
+   "title": "Badging API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Badging_API"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00142499,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/301"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:badging"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/117",
+  "votes": 5
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1885552"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

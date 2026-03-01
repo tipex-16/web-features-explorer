@@ -1,0 +1,244 @@
+{
+ "compat_features": [
+  "css.types.color.oklab",
+  "css.types.color.oklab.mixed_type_parameters",
+  "css.types.color.oklch",
+  "css.types.color.oklch.mixed_type_parameters"
+ ],
+ "description": "The Oklab color space expresses colors in terms of lightness and how red/green and blue/yellow a color is, aiming to match how humans perceive colors. OkLCh is a variant of Oklab with polar coordinates. These color spaces can be used with the CSS oklab() and oklch() functions.",
+ "description_html": "The Oklab color space expresses colors in terms of lightness and how red/green and blue/yellow a color is, aiming to match how humans perceive colors. OkLCh is a variant of Oklab with polar coordinates. These color spaces can be used with the CSS <code>oklab()</code> and <code>oklch()</code> functions.",
+ "group": [
+  "color-types"
+ ],
+ "kind": "feature",
+ "name": "Oklab and OkLCh",
+ "spec": [
+  "https://drafts.csswg.org/css-color-4/#ok-lab"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2025-11-09",
+  "baseline_low_date": "2023-05-09",
+  "by_compat_key": {
+   "css.types.color.oklab": {
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
+    "baseline_low_date": "2023-05-09",
+    "support": {
+     "chrome": "111",
+     "chrome_android": "111",
+     "edge": "111",
+     "firefox": "113",
+     "firefox_android": "113",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.types.color.oklab.mixed_type_parameters": {
+    "baseline": "low",
+    "baseline_low_date": "2023-08-21",
+    "support": {
+     "chrome": "116",
+     "chrome_android": "116",
+     "edge": "116",
+     "firefox": "113",
+     "firefox_android": "113",
+     "safari": "16.2",
+     "safari_ios": "16.2"
+    }
+   },
+   "css.types.color.oklch": {
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
+    "baseline_low_date": "2023-05-09",
+    "support": {
+     "chrome": "111",
+     "chrome_android": "111",
+     "edge": "111",
+     "firefox": "113",
+     "firefox_android": "113",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.types.color.oklch.mixed_type_parameters": {
+    "baseline": "low",
+    "baseline_low_date": "2023-08-21",
+    "support": {
+     "chrome": "116",
+     "chrome_android": "116",
+     "edge": "116",
+     "firefox": "113",
+     "firefox_android": "113",
+     "safari": "16.2",
+     "safari_ios": "16.2"
+    }
+   }
+  },
+  "support": {
+   "chrome": "111",
+   "chrome_android": "111",
+   "edge": "111",
+   "firefox": "113",
+   "firefox_android": "113",
+   "safari": "15.4",
+   "safari_ios": "15.4"
+  }
+ },
+ "id": "oklab",
+ "groups": [
+  "color-types"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-color-4/#ok-lab",
+   "seriesComposition": "full",
+   "shortname": "css-color-4",
+   "series": {
+    "shortname": "css-color",
+    "currentSpecification": "css-color-4",
+    "title": "CSS Color",
+    "shortTitle": "CSS Color",
+    "releaseUrl": "https://www.w3.org/TR/css-color/",
+    "nightlyUrl": "https://drafts.csswg.org/css-color/"
+   },
+   "seriesVersion": "4",
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-color-4/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-color-4/",
+     "https://w3c.github.io/csswg-drafts/css-color/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-color-4/Overview.bs",
+    "filename": "index.html"
+   },
+   "seriesPrevious": "css-color-3",
+   "seriesNext": "css-color-5",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-color-4/",
+    "status": "Candidate Recommendation Draft",
+    "filename": "Overview.html"
+   },
+   "title": "CSS Color Module Level 4",
+   "source": "w3c",
+   "shortTitle": "CSS Color 4",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-color"
+    ]
+   },
+   "fragment": "ok-lab"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Values/color_value/oklab",
+   "title": "oklab()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/oklab"
+  },
+  {
+   "slug": "Web/CSS/Reference/Values/color_value/oklch",
+   "title": "oklch()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/oklch"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#gamechanger_feature",
+   "question": "usage",
+   "subQuestion": "gamechanger_feature",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.gamechanger_feature.freeform.allEditions.0.buckets.15.groupedBuckets.0.groupedBuckets.17.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#favorite_new_features",
+   "question": "usage",
+   "subQuestion": "favorite_new_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.favorite_new_features.freeform.allEditions.0.buckets.19.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_interoperability_features",
+   "question": "usage",
+   "subQuestion": "css_interoperability_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_interoperability_features.freeform.allEditions.0.buckets.14.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.20.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/colors/#colors_pain_points",
+   "question": "colors",
+   "subQuestion": "colors_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.colors.colors_pain_points.freeform.allEditions.0.buckets.4.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/usage/#favorite_new_features",
+   "question": "usage",
+   "subQuestion": "favorite_new_features",
+   "path": "dataAPI.surveys.state_of_css.css2024.usage.favorite_new_features.freeform.currentEdition.buckets.19.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/usage/#css_interoperability_features",
+   "question": "usage",
+   "subQuestion": "css_interoperability_features",
+   "path": "dataAPI.surveys.state_of_css.css2024.usage.css_interoperability_features.freeform.currentEdition.buckets.14.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2024.features.all_features.19.entity"
+  }
+ ],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.025597,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/170"
+ },
+ "interop": [
+  {
+   "year": 2022,
+   "label": "interop-2022-color",
+   "url": "https://wpt.fyi/interop-2022?feature=interop-2022-color"
+  },
+  {
+   "year": 2023,
+   "label": "interop-2023-color",
+   "url": "https://wpt.fyi/interop-2023?feature=interop-2023-color"
+  }
+ ],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:oklab"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2023-05-09T00:00:00.000Z",
+ "baselineHighDateAsObject": "2025-11-09T00:00:00.000Z"
+}

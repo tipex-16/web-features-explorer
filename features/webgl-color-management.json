@@ -1,0 +1,173 @@
+{
+ "compat_features": [
+  "api.WebGLRenderingContext.drawingBufferColorSpace",
+  "api.WebGLRenderingContext.unpackColorSpace"
+ ],
+ "description": "The drawingBufferColorSpace and unpackColorSpace properties of WebGLRenderingContext sets the color representation for the buffer and imported textures, such as \"srgb\" or \"display-p3\".",
+ "description_html": "The <code>drawingBufferColorSpace</code> and <code>unpackColorSpace</code> properties of <code>WebGLRenderingContext</code> sets the color representation for the buffer and imported textures, such as <code>\"srgb\"</code> or <code>\"display-p3\"</code>.",
+ "group": [
+  "webgl"
+ ],
+ "kind": "feature",
+ "name": "Color management for WebGL",
+ "spec": [
+  "https://registry.khronos.org/webgl/specs/latest/1.0/#DOM-WebGLRenderingContext-drawingBufferColorSpace",
+  "https://registry.khronos.org/webgl/specs/latest/1.0/#DOM-WebGLRenderingContext-unpackColorSpace"
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2024-10-29",
+  "by_compat_key": {
+   "api.WebGLRenderingContext.drawingBufferColorSpace": {
+    "baseline": "low",
+    "baseline_low_date": "2024-10-29",
+    "support": {
+     "chrome": "104",
+     "chrome_android": "104",
+     "edge": "104",
+     "firefox": "132",
+     "firefox_android": "132",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.WebGLRenderingContext.unpackColorSpace": {
+    "baseline": false,
+    "support": {
+     "chrome": "104",
+     "chrome_android": "104",
+     "edge": "104",
+     "firefox": "132",
+     "firefox_android": "132"
+    }
+   }
+  },
+  "support": {
+   "chrome": "104",
+   "chrome_android": "104",
+   "edge": "104",
+   "firefox": "132",
+   "firefox_android": "132",
+   "safari": "16.4",
+   "safari_ios": "16.4"
+  }
+ },
+ "id": "webgl-color-management",
+ "groups": [
+  "webgl"
+ ],
+ "specs": [
+  {
+   "url": "https://registry.khronos.org/webgl/specs/latest/1.0/#DOM-WebGLRenderingContext-drawingBufferColorSpace",
+   "seriesComposition": "full",
+   "shortname": "webgl1",
+   "series": {
+    "shortname": "webgl1",
+    "currentSpecification": "webgl1",
+    "title": "WebGL Specification",
+    "shortTitle": "WebGL",
+    "nightlyUrl": "https://registry.khronos.org/webgl/specs/latest/1.0/"
+   },
+   "seriesVersion": "1",
+   "nightly": {
+    "url": "https://registry.khronos.org/webgl/specs/latest/1.0/",
+    "status": "Editor's Draft",
+    "sourcePath": "specs/latest/1.0/index.html",
+    "alternateUrls": [],
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "filename": "index.html"
+   },
+   "tests": {
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "testPaths": [
+     "conformance-suites/1.0.3"
+    ]
+   },
+   "organization": "Khronos Group",
+   "groups": [
+    {
+     "name": "WebGL Working Group",
+     "url": "https://www.khronos.org/webgl/"
+    }
+   ],
+   "title": "WebGL Specification",
+   "source": "spec",
+   "shortTitle": "WebGL",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": "DOM-WebGLRenderingContext-drawingBufferColorSpace"
+  },
+  {
+   "url": "https://registry.khronos.org/webgl/specs/latest/1.0/#DOM-WebGLRenderingContext-unpackColorSpace",
+   "seriesComposition": "full",
+   "shortname": "webgl1",
+   "series": {
+    "shortname": "webgl1",
+    "currentSpecification": "webgl1",
+    "title": "WebGL Specification",
+    "shortTitle": "WebGL",
+    "nightlyUrl": "https://registry.khronos.org/webgl/specs/latest/1.0/"
+   },
+   "seriesVersion": "1",
+   "nightly": {
+    "url": "https://registry.khronos.org/webgl/specs/latest/1.0/",
+    "status": "Editor's Draft",
+    "sourcePath": "specs/latest/1.0/index.html",
+    "alternateUrls": [],
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "filename": "index.html"
+   },
+   "tests": {
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "testPaths": [
+     "conformance-suites/1.0.3"
+    ]
+   },
+   "organization": "Khronos Group",
+   "groups": [
+    {
+     "name": "WebGL Working Group",
+     "url": "https://www.khronos.org/webgl/"
+    }
+   ],
+   "title": "WebGL Specification",
+   "source": "spec",
+   "shortTitle": "WebGL",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": "DOM-WebGLRenderingContext-unpackColorSpace"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/WebGLRenderingContext/drawingBufferColorSpace",
+   "title": "WebGLRenderingContext: drawingBufferColorSpace property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/drawingBufferColorSpace"
+  },
+  {
+   "slug": "Web/API/WebGLRenderingContext/unpackColorSpace",
+   "title": "WebGLRenderingContext: unpackColorSpace property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/unpackColorSpace"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00084366,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/385"
+ },
+ "interop": [],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2024-10-29T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2027-04-29"
+}

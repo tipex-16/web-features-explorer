@@ -1,0 +1,134 @@
+{
+ "compat_features": [
+  "css.properties.interactivity",
+  "css.properties.interactivity.auto",
+  "css.properties.interactivity.inert"
+ ],
+ "description": "The interactivity: inert CSS declaration makes an element and its descendants inert, like when using the inert HTML attribute. Inert elements can't be focused or clicked, their text can't be selected or found using the browser's find-in-page feature.",
+ "description_html": "The <code>interactivity: inert</code> CSS declaration makes an element and its descendants inert, like when using the <code>inert</code> HTML attribute. Inert elements can't be focused or clicked, their text can't be selected or found using the browser's find-in-page feature.",
+ "kind": "feature",
+ "name": "interactivity",
+ "spec": [
+  "https://drafts.csswg.org/css-ui-4/#inertness"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "css.properties.interactivity": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "css.properties.interactivity.auto": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "css.properties.interactivity.inert": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   }
+  },
+  "support": {
+   "chrome": "135",
+   "chrome_android": "135",
+   "edge": "135"
+  }
+ },
+ "id": "interactivity",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-ui-4/#inertness",
+   "seriesComposition": "full",
+   "shortname": "css-ui-4",
+   "series": {
+    "shortname": "css-ui",
+    "currentSpecification": "css-ui-4",
+    "title": "CSS Basic User Interface",
+    "shortTitle": "CSS User Interface",
+    "releaseUrl": "https://www.w3.org/TR/css-ui/",
+    "nightlyUrl": "https://drafts.csswg.org/css-ui/"
+   },
+   "seriesVersion": "4",
+   "shortTitle": "CSS User Interface 4",
+   "seriesPrevious": "css-ui-3",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-ui-4/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-ui-4/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-ui-4/",
+     "https://w3c.github.io/csswg-drafts/css-ui/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-ui-4/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Basic User Interface Module Level 4",
+   "source": "w3c",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-ui"
+    ]
+   },
+   "fragment": "inertness"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/interactivity",
+   "title": "interactivity",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/interactivity"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00029257,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/293"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:interactivity"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/305",
+  "votes": 4
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1943864"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

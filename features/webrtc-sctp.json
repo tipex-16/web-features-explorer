@@ -1,0 +1,208 @@
+{
+ "compat_features": [
+  "api.RTCPeerConnection.sctp",
+  "api.RTCSctpTransport",
+  "api.RTCSctpTransport.maxChannels",
+  "api.RTCSctpTransport.maxMessageSize",
+  "api.RTCSctpTransport.state",
+  "api.RTCSctpTransport.statechange_event",
+  "api.RTCSctpTransport.transport"
+ ],
+ "description": "The sctp object on RTCPeerConnection represents the negotiated SCTP transport. SCTP (Stream Control Transmission Protocol) is the protocol that RTCDataChannel uses.",
+ "description_html": "The <code>sctp</code> object on <code>RTCPeerConnection</code> represents the negotiated SCTP transport. SCTP (Stream Control Transmission Protocol) is the protocol that <code>RTCDataChannel</code> uses.",
+ "group": [
+  "webrtc"
+ ],
+ "kind": "feature",
+ "name": "WebRTC SCTP information",
+ "spec": [
+  "https://w3c.github.io/webrtc-pc/#rtcsctptransport-interface"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2025-11-09",
+  "baseline_low_date": "2023-05-09",
+  "by_compat_key": {
+   "api.RTCPeerConnection.sctp": {
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
+    "baseline_low_date": "2023-05-09",
+    "support": {
+     "chrome": "76",
+     "chrome_android": "76",
+     "edge": "79",
+     "firefox": "113",
+     "firefox_android": "113",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "api.RTCSctpTransport": {
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
+    "baseline_low_date": "2023-05-09",
+    "support": {
+     "chrome": "76",
+     "chrome_android": "76",
+     "edge": "79",
+     "firefox": "113",
+     "firefox_android": "113",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "api.RTCSctpTransport.maxChannels": {
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
+    "baseline_low_date": "2023-05-09",
+    "support": {
+     "chrome": "76",
+     "chrome_android": "76",
+     "edge": "79",
+     "firefox": "113",
+     "firefox_android": "113",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "api.RTCSctpTransport.maxMessageSize": {
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
+    "baseline_low_date": "2023-05-09",
+    "support": {
+     "chrome": "76",
+     "chrome_android": "76",
+     "edge": "79",
+     "firefox": "113",
+     "firefox_android": "113",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "api.RTCSctpTransport.state": {
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
+    "baseline_low_date": "2023-05-09",
+    "support": {
+     "chrome": "76",
+     "chrome_android": "76",
+     "edge": "79",
+     "firefox": "113",
+     "firefox_android": "113",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "api.RTCSctpTransport.statechange_event": {
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
+    "baseline_low_date": "2023-05-09",
+    "support": {
+     "chrome": "76",
+     "chrome_android": "76",
+     "edge": "79",
+     "firefox": "113",
+     "firefox_android": "113",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "api.RTCSctpTransport.transport": {
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
+    "baseline_low_date": "2023-05-09",
+    "support": {
+     "chrome": "76",
+     "chrome_android": "76",
+     "edge": "79",
+     "firefox": "113",
+     "firefox_android": "113",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   }
+  },
+  "support": {
+   "chrome": "76",
+   "chrome_android": "76",
+   "edge": "79",
+   "firefox": "113",
+   "firefox_android": "113",
+   "safari": "15.4",
+   "safari_ios": "15.4"
+  }
+ },
+ "id": "webrtc-sctp",
+ "groups": [
+  "webrtc"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/webrtc-pc/#rtcsctptransport-interface",
+   "seriesComposition": "full",
+   "shortname": "webrtc",
+   "series": {
+    "shortname": "webrtc",
+    "currentSpecification": "webrtc",
+    "title": "WebRTC: Real-Time Communication Between Browsers",
+    "shortTitle": "WebRTC",
+    "releaseUrl": "https://www.w3.org/TR/webrtc/",
+    "nightlyUrl": "https://w3c.github.io/webrtc-pc/"
+   },
+   "shortTitle": "WebRTC 1.0",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Real-Time Communications Working Group",
+     "url": "https://www.w3.org/groups/wg/webrtc/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/webrtc/",
+    "status": "Recommendation",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/webrtc-pc/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/webrtc-pc",
+    "sourcePath": "webrtc.html",
+    "filename": "index.html"
+   },
+   "title": "WebRTC: Real-Time Communication in Browsers",
+   "source": "w3c",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "webrtc"
+    ]
+   },
+   "fragment": "rtcsctptransport-interface"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/RTCPeerConnection/sctp",
+   "title": "RTCPeerConnection: sctp property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/RTCPeerConnection/sctp"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:webrtc-sctp"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2023-05-09T00:00:00.000Z",
+ "baselineHighDateAsObject": "2025-11-09T00:00:00.000Z"
+}

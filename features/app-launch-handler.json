@@ -1,0 +1,146 @@
+{
+ "compat_features": [
+  "api.LaunchParams",
+  "api.LaunchParams.targetURL",
+  "api.LaunchQueue",
+  "api.LaunchQueue.setConsumer",
+  "api.Window.launchQueue",
+  "manifests.webapp.launch_handler",
+  "manifests.webapp.launch_handler.client_mode"
+ ],
+ "description": "The launch_handler web app manifest member, with the client_mode property, configure how web app launches behave when an instance of the app is already open. For example, you can choose to focus the existing app instance instead of launching a new one.",
+ "description_html": "The <code>launch_handler</code> web app manifest member, with the <code>client_mode</code> property, configure how web app launches behave when an instance of the app is already open. For example, you can choose to focus the existing app instance instead of launching a new one.",
+ "group": [
+  "progressive-web-app"
+ ],
+ "kind": "feature",
+ "name": "Launch handler",
+ "spec": [
+  "https://wicg.github.io/web-app-launch/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.LaunchParams": {
+    "baseline": false,
+    "support": {
+     "chrome": "102",
+     "edge": "102"
+    }
+   },
+   "api.LaunchParams.targetURL": {
+    "baseline": false,
+    "support": {
+     "chrome": "110",
+     "edge": "110"
+    }
+   },
+   "api.LaunchQueue": {
+    "baseline": false,
+    "support": {
+     "chrome": "102",
+     "edge": "102"
+    }
+   },
+   "api.LaunchQueue.setConsumer": {
+    "baseline": false,
+    "support": {
+     "chrome": "102",
+     "edge": "102"
+    }
+   },
+   "api.Window.launchQueue": {
+    "baseline": false,
+    "support": {
+     "chrome": "102",
+     "edge": "102"
+    }
+   },
+   "manifests.webapp.launch_handler": {
+    "baseline": false,
+    "support": {
+     "chrome": "110",
+     "chrome_android": "110",
+     "edge": "110"
+    }
+   },
+   "manifests.webapp.launch_handler.client_mode": {
+    "baseline": false,
+    "support": {
+     "chrome": "110",
+     "chrome_android": "110",
+     "edge": "110"
+    }
+   }
+  },
+  "support": {
+   "chrome": "110",
+   "edge": "110"
+  }
+ },
+ "id": "app-launch-handler",
+ "groups": [
+  "progressive-web-app"
+ ],
+ "specs": [
+  {
+   "url": "https://wicg.github.io/web-app-launch/",
+   "seriesComposition": "full",
+   "shortname": "web-app-launch",
+   "series": {
+    "shortname": "web-app-launch",
+    "currentSpecification": "web-app-launch",
+    "title": "Web App Launch Handler API",
+    "shortTitle": "Web App Launch Handler API",
+    "nightlyUrl": "https://wicg.github.io/web-app-launch/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://wicg.github.io/web-app-launch/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/WICG/web-app-launch",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Web App Launch Handler API",
+   "source": "spec",
+   "shortTitle": "Web App Launch Handler API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Launch_Handler_API",
+   "title": "Launch Handler API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Launch_Handler_API"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.0093834,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/309"
+ },
+ "interop": [],
+ "wpt": null,
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/190",
+  "votes": 3
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

@@ -1,0 +1,249 @@
+{
+ "caniuse": [
+  "css-writing-mode"
+ ],
+ "compat_features": [
+  "css.properties.writing-mode",
+  "css.properties.writing-mode.horizontal-tb",
+  "css.properties.writing-mode.sideways-lr",
+  "css.properties.writing-mode.sideways-rl",
+  "css.properties.writing-mode.vertical-lr",
+  "css.properties.writing-mode.vertical-rl",
+  "svg.global_attributes.writing-mode"
+ ],
+ "description": "The writing-mode CSS property sets whether text is laid out horizontally or vertically, and left to right, or right to left.",
+ "description_html": "The <code>writing-mode</code> CSS property sets whether text is laid out horizontally or vertically, and left to right, or right to left.",
+ "group": [
+  "css"
+ ],
+ "kind": "feature",
+ "name": "writing-mode",
+ "spec": [
+  "https://drafts.csswg.org/css-writing-modes-4/#block-flow"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2019-09-27",
+  "baseline_low_date": "2017-03-27",
+  "by_compat_key": {
+   "css.properties.writing-mode": {
+    "baseline": "high",
+    "baseline_high_date": "2019-09-27",
+    "baseline_low_date": "2017-03-27",
+    "support": {
+     "chrome": "48",
+     "chrome_android": "48",
+     "edge": "12",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "css.properties.writing-mode.horizontal-tb": {
+    "baseline": "high",
+    "baseline_high_date": "2019-09-27",
+    "baseline_low_date": "2017-03-27",
+    "support": {
+     "chrome": "48",
+     "chrome_android": "48",
+     "edge": "12",
+     "firefox": "43",
+     "firefox_android": "43",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "css.properties.writing-mode.sideways-lr": {
+    "baseline": "low",
+    "baseline_low_date": "2025-03-31",
+    "support": {
+     "chrome": "132",
+     "chrome_android": "132",
+     "edge": "132",
+     "firefox": "43",
+     "firefox_android": "43",
+     "safari": "18.4",
+     "safari_ios": "18.4"
+    }
+   },
+   "css.properties.writing-mode.sideways-rl": {
+    "baseline": "low",
+    "baseline_low_date": "2025-03-31",
+    "support": {
+     "chrome": "132",
+     "chrome_android": "132",
+     "edge": "132",
+     "firefox": "43",
+     "firefox_android": "43",
+     "safari": "18.4",
+     "safari_ios": "18.4"
+    }
+   },
+   "css.properties.writing-mode.vertical-lr": {
+    "baseline": "high",
+    "baseline_high_date": "2019-09-27",
+    "baseline_low_date": "2017-03-27",
+    "support": {
+     "chrome": "48",
+     "chrome_android": "48",
+     "edge": "12",
+     "firefox": "43",
+     "firefox_android": "43",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "css.properties.writing-mode.vertical-rl": {
+    "baseline": "high",
+    "baseline_high_date": "2019-09-27",
+    "baseline_low_date": "2017-03-27",
+    "support": {
+     "chrome": "48",
+     "chrome_android": "48",
+     "edge": "12",
+     "firefox": "43",
+     "firefox_android": "43",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "svg.global_attributes.writing-mode": {
+    "baseline": "high",
+    "baseline_high_date": "2019-09-27",
+    "baseline_low_date": "2017-03-27",
+    "support": {
+     "chrome": "48",
+     "chrome_android": "48",
+     "edge": "12",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   }
+  },
+  "support": {
+   "chrome": "48",
+   "chrome_android": "48",
+   "edge": "12",
+   "firefox": "41",
+   "firefox_android": "41",
+   "safari": "10.1",
+   "safari_ios": "10.3"
+  }
+ },
+ "id": "writing-mode",
+ "groups": [
+  "css"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-writing-modes-4/#block-flow",
+   "seriesComposition": "full",
+   "shortname": "css-writing-modes-4",
+   "series": {
+    "shortname": "css-writing-modes",
+    "currentSpecification": "css-writing-modes-4",
+    "title": "CSS Writing Modes",
+    "shortTitle": "CSS Writing Modes",
+    "releaseUrl": "https://www.w3.org/TR/css-writing-modes/",
+    "nightlyUrl": "https://drafts.csswg.org/css-writing-modes/"
+   },
+   "seriesVersion": "4",
+   "seriesPrevious": "css-writing-modes-3",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-writing-modes-4/",
+    "status": "Candidate Recommendation Snapshot",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-writing-modes-4/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-writing-modes-4/",
+     "https://w3c.github.io/csswg-drafts/css-writing-modes/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-writing-modes-4/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Writing Modes Level 4",
+   "source": "w3c",
+   "shortTitle": "CSS Writing Modes 4",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-writing-modes"
+    ]
+   },
+   "fragment": "block-flow"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/writing-mode",
+   "title": "writing-mode",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/writing-mode"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_missing_features",
+   "question": "usage",
+   "subQuestion": "css_missing_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_missing_features.freeform.allEditions.0.buckets.21.groupedBuckets.1.groupedBuckets.64.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_interoperability_features",
+   "question": "usage",
+   "subQuestion": "css_interoperability_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_interoperability_features.freeform.allEditions.0.buckets.21.groupedBuckets.1.groupedBuckets.36.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.1.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2024.features.all_features.1.entity"
+  }
+ ],
+ "chromeUseCounters": {},
+ "interop": [
+  {
+   "year": 2025,
+   "label": "interop-2025-writingmodes",
+   "url": "https://wpt.fyi/interop-2025?feature=interop-2025-writingmodes"
+  }
+ ],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:writing-mode"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2017-03-27T00:00:00.000Z",
+ "baselineHighDateAsObject": "2019-09-27T00:00:00.000Z"
+}

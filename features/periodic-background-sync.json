@@ -1,0 +1,167 @@
+{
+ "compat_features": [
+  "api.PeriodicSyncEvent",
+  "api.PeriodicSyncEvent.PeriodicSyncEvent",
+  "api.PeriodicSyncEvent.tag",
+  "api.PeriodicSyncManager",
+  "api.PeriodicSyncManager.getTags",
+  "api.PeriodicSyncManager.register",
+  "api.PeriodicSyncManager.unregister",
+  "api.ServiceWorkerGlobalScope.periodicsync_event",
+  "api.ServiceWorkerRegistration.periodicSync"
+ ],
+ "description": "The periodic background synchronization API fires a recurring periodicsync event in a service worker. You can use this to update data in the background at regular intervals.",
+ "description_html": "The periodic background synchronization API fires a recurring <code>periodicsync</code> event in a service worker. You can use this to update data in the background at regular intervals.",
+ "kind": "feature",
+ "name": "Periodic background sync",
+ "spec": [
+  "https://wicg.github.io/periodic-background-sync/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.PeriodicSyncEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "80",
+     "chrome_android": "80",
+     "edge": "80"
+    }
+   },
+   "api.PeriodicSyncEvent.PeriodicSyncEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "80",
+     "chrome_android": "80",
+     "edge": "80"
+    }
+   },
+   "api.PeriodicSyncEvent.tag": {
+    "baseline": false,
+    "support": {
+     "chrome": "80",
+     "chrome_android": "80",
+     "edge": "80"
+    }
+   },
+   "api.PeriodicSyncManager": {
+    "baseline": false,
+    "support": {
+     "chrome": "80",
+     "chrome_android": "80",
+     "edge": "80"
+    }
+   },
+   "api.PeriodicSyncManager.getTags": {
+    "baseline": false,
+    "support": {
+     "chrome": "80",
+     "chrome_android": "80",
+     "edge": "80"
+    }
+   },
+   "api.PeriodicSyncManager.register": {
+    "baseline": false,
+    "support": {
+     "chrome": "80",
+     "chrome_android": "80",
+     "edge": "80"
+    }
+   },
+   "api.PeriodicSyncManager.unregister": {
+    "baseline": false,
+    "support": {
+     "chrome": "80",
+     "chrome_android": "80",
+     "edge": "80"
+    }
+   },
+   "api.ServiceWorkerGlobalScope.periodicsync_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "80",
+     "chrome_android": "80",
+     "edge": "80"
+    }
+   },
+   "api.ServiceWorkerRegistration.periodicSync": {
+    "baseline": false,
+    "support": {
+     "chrome": "80",
+     "chrome_android": "80",
+     "edge": "80"
+    }
+   }
+  },
+  "support": {
+   "chrome": "80",
+   "chrome_android": "80",
+   "edge": "80"
+  }
+ },
+ "id": "periodic-background-sync",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://wicg.github.io/periodic-background-sync/",
+   "seriesComposition": "full",
+   "shortname": "periodic-background-sync",
+   "series": {
+    "shortname": "periodic-background-sync",
+    "currentSpecification": "periodic-background-sync",
+    "title": "Web Periodic Background Synchronization",
+    "shortTitle": "Web Periodic Background Synchronization",
+    "nightlyUrl": "https://wicg.github.io/periodic-background-sync/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://wicg.github.io/periodic-background-sync/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/WICG/periodic-background-sync",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Web Periodic Background Synchronization",
+   "source": "spec",
+   "shortTitle": "Web Periodic Background Synchronization",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "periodic-background-sync"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:periodic-background-sync"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/380",
+  "votes": 9
+ },
+ "bugs": {
+  "webview_android": [
+   "https://crbug.com/40151529"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

@@ -1,0 +1,207 @@
+{
+ "compat_features": [
+  "css.types.sibling-count",
+  "css.types.sibling-index"
+ ],
+ "description": "The sibling-count() and sibling-index() CSS functions return integers that are useful to style elements based on their positions among siblings or on the number of siblings, for example as part of a calc() expression.",
+ "description_html": "The <code>sibling-count()</code> and <code>sibling-index()</code> CSS functions return integers that are useful to style elements based on their positions among siblings or on the number of siblings, for example as part of a <code>calc()</code> expression.",
+ "group": [
+  "css"
+ ],
+ "kind": "feature",
+ "name": "sibling-count() and sibling-index()",
+ "spec": [
+  "https://drafts.csswg.org/css-values-5/#tree-counting"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "css.types.sibling-count": {
+    "baseline": false,
+    "support": {
+     "chrome": "138",
+     "chrome_android": "138",
+     "edge": "138",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "css.types.sibling-index": {
+    "baseline": false,
+    "support": {
+     "chrome": "138",
+     "chrome_android": "138",
+     "edge": "138",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   }
+  },
+  "support": {
+   "chrome": "138",
+   "chrome_android": "138",
+   "edge": "138",
+   "safari": "26.2",
+   "safari_ios": "26.2"
+  }
+ },
+ "id": "sibling-count",
+ "groups": [
+  "css"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-values-5/#tree-counting",
+   "seriesComposition": "delta",
+   "shortname": "css-values-5",
+   "series": {
+    "shortname": "css-values",
+    "currentSpecification": "css-values-4",
+    "title": "CSS Values and Units",
+    "shortTitle": "CSS Values",
+    "releaseUrl": "https://www.w3.org/TR/css-values/",
+    "nightlyUrl": "https://drafts.csswg.org/css-values/"
+   },
+   "seriesVersion": "5",
+   "shortTitle": "CSS Values 5",
+   "seriesPrevious": "css-values-4",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-values-5/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-values-5/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-values-5/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-values-5/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Values and Units Module Level 5",
+   "source": "w3c",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-values"
+    ]
+   },
+   "fragment": "tree-counting"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Values/sibling-count",
+   "title": "sibling-count()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/sibling-count"
+  },
+  {
+   "slug": "Web/CSS/Reference/Values/sibling-index",
+   "title": "sibling-index()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/sibling-index"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/1194",
+   "position": "positive",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/471",
+   "position": "",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#favorite_new_features",
+   "question": "usage",
+   "subQuestion": "favorite_new_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.favorite_new_features.freeform.allEditions.1.buckets.21.groupedBuckets.1.groupedBuckets.44.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_missing_features",
+   "question": "usage",
+   "subQuestion": "css_missing_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_missing_features.freeform.allEditions.0.buckets.21.groupedBuckets.1.groupedBuckets.13.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_interoperability_features",
+   "question": "usage",
+   "subQuestion": "css_interoperability_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_interoperability_features.freeform.allEditions.1.buckets.19.groupedBuckets.0.groupedBuckets.11.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/features/#reading_list",
+   "question": "reading_list",
+   "subQuestion": "reading_list",
+   "path": "dataAPI.surveys.state_of_css.css2025.reading_list.reading_list.combined.allEditions.1.buckets.10.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/other_features/#other_features_pain_points",
+   "question": "other_features",
+   "subQuestion": "other_features_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.other_features.other_features_pain_points.freeform.allEditions.0.buckets.5.groupedBuckets.0.groupedBuckets.13.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/math_features/#math_features_pain_points",
+   "question": "math_features",
+   "subQuestion": "math_features_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.math_features.math_features_pain_points.freeform.allEditions.0.buckets.4.groupedBuckets.0.groupedBuckets.16.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.61.entity"
+  }
+ ],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:sibling-count"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/361",
+  "votes": 64
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1953973"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/1953973"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Firefox",
+ "monthsBlocked": 3,
+ "blockedSince": "December 2025"
+}

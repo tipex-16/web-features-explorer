@@ -1,0 +1,110 @@
+{
+ "compat_features": [
+  "api.EXT_sRGB"
+ ],
+ "description": "The EXT_sRGB extension for WebGL 1.0 contexts adds sRGB support to textures and framebuffer objects.",
+ "description_html": "The <code>EXT_sRGB</code> extension for WebGL 1.0 contexts adds sRGB support to textures and framebuffer objects.",
+ "group": [
+  "webgl-extensions"
+ ],
+ "kind": "feature",
+ "name": "EXT_sRGB WebGL extension",
+ "spec": [
+  "https://registry.khronos.org/webgl/extensions/EXT_sRGB/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2022-08-07",
+  "baseline_low_date": "2020-02-07",
+  "by_compat_key": {
+   "api.EXT_sRGB": {
+    "baseline": "high",
+    "baseline_high_date": "2022-08-07",
+    "baseline_low_date": "2020-02-07",
+    "support": {
+     "chrome": "40",
+     "chrome_android": "40",
+     "edge": "80",
+     "firefox": "58",
+     "firefox_android": "28",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   }
+  },
+  "support": {
+   "chrome": "40",
+   "chrome_android": "40",
+   "edge": "80",
+   "firefox": "58",
+   "firefox_android": "28",
+   "safari": "9",
+   "safari_ios": "9"
+  }
+ },
+ "id": "ext-srgb",
+ "groups": [
+  "webgl-extensions"
+ ],
+ "specs": [
+  {
+   "url": "https://registry.khronos.org/webgl/extensions/EXT_sRGB/",
+   "seriesComposition": "full",
+   "shortname": "EXT_sRGB",
+   "series": {
+    "shortname": "EXT_sRGB",
+    "currentSpecification": "EXT_sRGB",
+    "title": "WebGL EXT_sRGB Extension Specification",
+    "shortTitle": "WebGL EXT_sRGB Extension",
+    "nightlyUrl": "https://registry.khronos.org/webgl/extensions/EXT_sRGB/"
+   },
+   "organization": "Khronos Group",
+   "groups": [
+    {
+     "name": "WebGL Working Group",
+     "url": "https://www.khronos.org/webgl/"
+    }
+   ],
+   "nightly": {
+    "url": "https://registry.khronos.org/webgl/extensions/EXT_sRGB/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "sourcePath": "extensions/EXT_sRGB/extension.xml",
+    "filename": "index.html"
+   },
+   "title": "WebGL EXT_sRGB Extension Specification",
+   "source": "spec",
+   "shortTitle": "WebGL EXT_sRGB Extension",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "testPaths": [
+     "conformance-suites"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/EXT_sRGB",
+   "title": "EXT_sRGB extension",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/EXT_sRGB"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2020-02-07T00:00:00.000Z",
+ "baselineHighDateAsObject": "2022-08-07T00:00:00.000Z"
+}

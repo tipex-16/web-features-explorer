@@ -1,0 +1,473 @@
+{
+ "compat_features": [
+  "api.Navigator.registerProtocolHandler",
+  "api.Navigator.registerProtocolHandler.scheme_parameter_bitcoin",
+  "api.Navigator.registerProtocolHandler.scheme_parameter_ftp",
+  "api.Navigator.registerProtocolHandler.scheme_parameter_ftps",
+  "api.Navigator.registerProtocolHandler.scheme_parameter_geo",
+  "api.Navigator.registerProtocolHandler.scheme_parameter_im",
+  "api.Navigator.registerProtocolHandler.scheme_parameter_irc",
+  "api.Navigator.registerProtocolHandler.scheme_parameter_ircs",
+  "api.Navigator.registerProtocolHandler.scheme_parameter_magnet",
+  "api.Navigator.registerProtocolHandler.scheme_parameter_mailto",
+  "api.Navigator.registerProtocolHandler.scheme_parameter_matrix",
+  "api.Navigator.registerProtocolHandler.scheme_parameter_mms",
+  "api.Navigator.registerProtocolHandler.scheme_parameter_news",
+  "api.Navigator.registerProtocolHandler.scheme_parameter_nntp",
+  "api.Navigator.registerProtocolHandler.scheme_parameter_openpgp4fpr",
+  "api.Navigator.registerProtocolHandler.scheme_parameter_sftp",
+  "api.Navigator.registerProtocolHandler.scheme_parameter_sip",
+  "api.Navigator.registerProtocolHandler.scheme_parameter_sms",
+  "api.Navigator.registerProtocolHandler.scheme_parameter_smsto",
+  "api.Navigator.registerProtocolHandler.scheme_parameter_ssh",
+  "api.Navigator.registerProtocolHandler.scheme_parameter_tel",
+  "api.Navigator.registerProtocolHandler.scheme_parameter_urn",
+  "api.Navigator.registerProtocolHandler.scheme_parameter_webcal",
+  "api.Navigator.registerProtocolHandler.scheme_parameter_wtai",
+  "api.Navigator.registerProtocolHandler.scheme_parameter_xmpp",
+  "api.Navigator.registerProtocolHandler.secure_context_required",
+  "api.Navigator.unregisterProtocolHandler"
+ ],
+ "description": "The navigator.registerProtocolHandler() method declares a site's ability to handle an address scheme (also known as a protocol). For example, an email site can register to open mailto: URLs or a VoIP site to open tel: URLs.",
+ "description_html": "The <code>navigator.registerProtocolHandler()</code> method declares a site's ability to handle an address scheme (also known as a protocol). For example, an email site can register to open <code>mailto:</code> URLs or a VoIP site to open <code>tel:</code> URLs.",
+ "kind": "feature",
+ "name": "registerProtocolHandler",
+ "spec": [
+  "https://html.spec.whatwg.org/multipage/system-state.html#custom-handlers"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Navigator.registerProtocolHandler": {
+    "baseline": false,
+    "support": {
+     "chrome": "13",
+     "edge": "79",
+     "firefox": "2",
+     "firefox_android": "4"
+    }
+   },
+   "api.Navigator.registerProtocolHandler.scheme_parameter_bitcoin": {
+    "baseline": false,
+    "support": {
+     "chrome": "28",
+     "edge": "79",
+     "firefox": "2",
+     "firefox_android": "4"
+    }
+   },
+   "api.Navigator.registerProtocolHandler.scheme_parameter_ftp": {
+    "baseline": false,
+    "support": {
+     "firefox": "98",
+     "firefox_android": "98"
+    }
+   },
+   "api.Navigator.registerProtocolHandler.scheme_parameter_ftps": {
+    "baseline": false,
+    "support": {
+     "firefox": "98",
+     "firefox_android": "98"
+    }
+   },
+   "api.Navigator.registerProtocolHandler.scheme_parameter_geo": {
+    "baseline": false,
+    "support": {
+     "chrome": "30",
+     "edge": "79",
+     "firefox": "2",
+     "firefox_android": "4"
+    }
+   },
+   "api.Navigator.registerProtocolHandler.scheme_parameter_im": {
+    "baseline": false,
+    "support": {
+     "chrome": "30",
+     "edge": "79",
+     "firefox": "2",
+     "firefox_android": "4"
+    }
+   },
+   "api.Navigator.registerProtocolHandler.scheme_parameter_irc": {
+    "baseline": false,
+    "support": {
+     "chrome": "15",
+     "edge": "79",
+     "firefox": "2",
+     "firefox_android": "4"
+    }
+   },
+   "api.Navigator.registerProtocolHandler.scheme_parameter_ircs": {
+    "baseline": false,
+    "support": {
+     "chrome": "30",
+     "edge": "79",
+     "firefox": "2",
+     "firefox_android": "4"
+    }
+   },
+   "api.Navigator.registerProtocolHandler.scheme_parameter_magnet": {
+    "baseline": false,
+    "support": {
+     "chrome": "30",
+     "edge": "79",
+     "firefox": "2",
+     "firefox_android": "4"
+    }
+   },
+   "api.Navigator.registerProtocolHandler.scheme_parameter_mailto": {
+    "baseline": false,
+    "support": {
+     "chrome": "13",
+     "edge": "79",
+     "firefox": "2",
+     "firefox_android": "4"
+    }
+   },
+   "api.Navigator.registerProtocolHandler.scheme_parameter_matrix": {
+    "baseline": false,
+    "support": {
+     "chrome": "92",
+     "edge": "92",
+     "firefox": "90",
+     "firefox_android": "90"
+    }
+   },
+   "api.Navigator.registerProtocolHandler.scheme_parameter_mms": {
+    "baseline": false,
+    "support": {
+     "chrome": "13",
+     "edge": "79",
+     "firefox": "2",
+     "firefox_android": "4"
+    }
+   },
+   "api.Navigator.registerProtocolHandler.scheme_parameter_news": {
+    "baseline": false,
+    "support": {
+     "chrome": "13",
+     "edge": "79",
+     "firefox": "2",
+     "firefox_android": "4"
+    }
+   },
+   "api.Navigator.registerProtocolHandler.scheme_parameter_nntp": {
+    "baseline": false,
+    "support": {
+     "chrome": "13",
+     "edge": "79",
+     "firefox": "2",
+     "firefox_android": "4"
+    }
+   },
+   "api.Navigator.registerProtocolHandler.scheme_parameter_openpgp4fpr": {
+    "baseline": false,
+    "support": {
+     "chrome": "42",
+     "edge": "79",
+     "firefox": "2",
+     "firefox_android": "4"
+    }
+   },
+   "api.Navigator.registerProtocolHandler.scheme_parameter_sftp": {
+    "baseline": false,
+    "support": {
+     "firefox": "98",
+     "firefox_android": "98"
+    }
+   },
+   "api.Navigator.registerProtocolHandler.scheme_parameter_sip": {
+    "baseline": false,
+    "support": {
+     "chrome": "30",
+     "edge": "79",
+     "firefox": "2",
+     "firefox_android": "4"
+    }
+   },
+   "api.Navigator.registerProtocolHandler.scheme_parameter_sms": {
+    "baseline": false,
+    "support": {
+     "chrome": "13",
+     "edge": "79",
+     "firefox": "2",
+     "firefox_android": "4"
+    }
+   },
+   "api.Navigator.registerProtocolHandler.scheme_parameter_smsto": {
+    "baseline": false,
+    "support": {
+     "chrome": "26",
+     "edge": "79",
+     "firefox": "2",
+     "firefox_android": "4"
+    }
+   },
+   "api.Navigator.registerProtocolHandler.scheme_parameter_ssh": {
+    "baseline": false,
+    "support": {
+     "chrome": "41",
+     "edge": "79",
+     "firefox": "2",
+     "firefox_android": "4"
+    }
+   },
+   "api.Navigator.registerProtocolHandler.scheme_parameter_tel": {
+    "baseline": false,
+    "support": {
+     "chrome": "13",
+     "edge": "79",
+     "firefox": "2",
+     "firefox_android": "4"
+    }
+   },
+   "api.Navigator.registerProtocolHandler.scheme_parameter_urn": {
+    "baseline": false,
+    "support": {
+     "chrome": "13",
+     "edge": "79",
+     "firefox": "2",
+     "firefox_android": "4"
+    }
+   },
+   "api.Navigator.registerProtocolHandler.scheme_parameter_webcal": {
+    "baseline": false,
+    "support": {
+     "chrome": "13",
+     "edge": "79",
+     "firefox": "2",
+     "firefox_android": "4"
+    }
+   },
+   "api.Navigator.registerProtocolHandler.scheme_parameter_wtai": {
+    "baseline": false,
+    "support": {
+     "chrome": "31",
+     "edge": "79",
+     "firefox": "2",
+     "firefox_android": "4"
+    }
+   },
+   "api.Navigator.registerProtocolHandler.scheme_parameter_xmpp": {
+    "baseline": false,
+    "support": {
+     "chrome": "30",
+     "edge": "79",
+     "firefox": "2",
+     "firefox_android": "4"
+    }
+   },
+   "api.Navigator.registerProtocolHandler.secure_context_required": {
+    "baseline": false,
+    "support": {
+     "chrome": "80",
+     "edge": "79",
+     "firefox": "62"
+    }
+   },
+   "api.Navigator.unregisterProtocolHandler": {
+    "baseline": false,
+    "support": {
+     "chrome": "38",
+     "edge": "79"
+    }
+   }
+  },
+  "support": {
+   "chrome": "13",
+   "edge": "79",
+   "firefox": "2",
+   "firefox_android": "4"
+  }
+ },
+ "id": "registerprotocolhandler",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://html.spec.whatwg.org/multipage/system-state.html#custom-handlers",
+   "seriesComposition": "full",
+   "shortname": "html",
+   "series": {
+    "shortname": "html",
+    "currentSpecification": "html",
+    "title": "HTML",
+    "shortTitle": "HTML",
+    "nightlyUrl": "https://html.spec.whatwg.org/multipage/"
+   },
+   "nightly": {
+    "url": "https://html.spec.whatwg.org/multipage/",
+    "status": "Living Standard",
+    "sourcePath": "source",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/html",
+    "pages": [
+     "https://html.spec.whatwg.org/multipage/introduction.html",
+     "https://html.spec.whatwg.org/multipage/infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/common-microsyntaxes.html",
+     "https://html.spec.whatwg.org/multipage/urls-and-fetching.html",
+     "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html",
+     "https://html.spec.whatwg.org/multipage/structured-data.html",
+     "https://html.spec.whatwg.org/multipage/dom.html",
+     "https://html.spec.whatwg.org/multipage/semantics.html",
+     "https://html.spec.whatwg.org/multipage/sections.html",
+     "https://html.spec.whatwg.org/multipage/grouping-content.html",
+     "https://html.spec.whatwg.org/multipage/text-level-semantics.html",
+     "https://html.spec.whatwg.org/multipage/links.html",
+     "https://html.spec.whatwg.org/multipage/edits.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content.html",
+     "https://html.spec.whatwg.org/multipage/images.html",
+     "https://html.spec.whatwg.org/multipage/iframe-embed-object.html",
+     "https://html.spec.whatwg.org/multipage/media.html",
+     "https://html.spec.whatwg.org/multipage/image-maps.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content-other.html",
+     "https://html.spec.whatwg.org/multipage/tables.html",
+     "https://html.spec.whatwg.org/multipage/forms.html",
+     "https://html.spec.whatwg.org/multipage/input.html",
+     "https://html.spec.whatwg.org/multipage/form-elements.html",
+     "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/interactive-elements.html",
+     "https://html.spec.whatwg.org/multipage/scripting.html",
+     "https://html.spec.whatwg.org/multipage/canvas.html",
+     "https://html.spec.whatwg.org/multipage/custom-elements.html",
+     "https://html.spec.whatwg.org/multipage/semantics-other.html",
+     "https://html.spec.whatwg.org/multipage/microdata.html",
+     "https://html.spec.whatwg.org/multipage/interaction.html",
+     "https://html.spec.whatwg.org/multipage/dnd.html",
+     "https://html.spec.whatwg.org/multipage/popover.html",
+     "https://html.spec.whatwg.org/multipage/browsers.html",
+     "https://html.spec.whatwg.org/multipage/nav-history-apis.html",
+     "https://html.spec.whatwg.org/multipage/document-sequences.html",
+     "https://html.spec.whatwg.org/multipage/browsing-the-web.html",
+     "https://html.spec.whatwg.org/multipage/document-lifecycle.html",
+     "https://html.spec.whatwg.org/multipage/speculative-loading.html",
+     "https://html.spec.whatwg.org/multipage/webappapis.html",
+     "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html",
+     "https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html",
+     "https://html.spec.whatwg.org/multipage/system-state.html",
+     "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html",
+     "https://html.spec.whatwg.org/multipage/comms.html",
+     "https://html.spec.whatwg.org/multipage/server-sent-events.html",
+     "https://html.spec.whatwg.org/multipage/web-messaging.html",
+     "https://html.spec.whatwg.org/multipage/workers.html",
+     "https://html.spec.whatwg.org/multipage/worklets.html",
+     "https://html.spec.whatwg.org/multipage/webstorage.html",
+     "https://html.spec.whatwg.org/multipage/syntax.html",
+     "https://html.spec.whatwg.org/multipage/parsing.html",
+     "https://html.spec.whatwg.org/multipage/named-characters.html",
+     "https://html.spec.whatwg.org/multipage/xhtml.html",
+     "https://html.spec.whatwg.org/multipage/rendering.html",
+     "https://html.spec.whatwg.org/multipage/obsolete.html",
+     "https://html.spec.whatwg.org/multipage/iana.html",
+     "https://html.spec.whatwg.org/multipage/indices.html",
+     "https://html.spec.whatwg.org/multipage/references.html",
+     "https://html.spec.whatwg.org/multipage/acknowledgements.html"
+    ],
+    "filename": "index.html"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "HTML Workstream",
+     "url": "https://html.spec.whatwg.org/multipage/"
+    }
+   ],
+   "title": "HTML",
+   "source": "whatwg",
+   "shortTitle": "HTML",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "close-watcher",
+     "custom-elements",
+     "eventsource",
+     "html",
+     "imagebitmap-renderingcontext",
+     "import-maps",
+     "navigation-api",
+     "webmessaging",
+     "webstorage",
+     "workers",
+     "worklets",
+     "x-frame-options"
+    ],
+    "excludePaths": [
+     "html/cross-origin-embedder-policy/credentialless",
+     "html/dom/partial-updates/tentative",
+     "html/cross-origin-embedder-policy/credentialless"
+    ]
+   },
+   "fragment": "custom-handlers"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Navigator/registerProtocolHandler",
+   "title": "Navigator: registerProtocolHandler() method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Navigator/registerProtocolHandler"
+  },
+  {
+   "slug": "Web/API/Navigator/unregisterProtocolHandler",
+   "title": "Navigator: unregisterProtocolHandler() method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Navigator/unregisterProtocolHandler"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/system_capabilities/#system_capabilities_features",
+   "question": "system_capabilities",
+   "subQuestion": "system_capabilities_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.system_capabilities.system_capabilities_features.4.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.61.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+   "question": "_all_features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.61.entity"
+  }
+ ],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:registerprotocolhandler"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/12",
+  "votes": 1
+ },
+ "bugs": {
+  "chrome_android": [
+   "https://crbug.com/40964464"
+  ],
+  "oculus": [
+   "https://crbug.com/40964464"
+  ],
+  "opera_android": [
+   "https://crbug.com/40964464"
+  ],
+  "samsunginternet_android": [
+   "https://crbug.com/40964464"
+  ],
+  "webview_android": [
+   "https://crbug.com/40964464"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

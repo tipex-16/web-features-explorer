@@ -1,0 +1,152 @@
+{
+ "compat_features": [
+  "css.properties.counter-set",
+  "css.properties.counter-set.list-item",
+  "css.properties.counter-set.none"
+ ],
+ "description": "The counter-set CSS property creates (and optionally sets a value for) a counter, the numbers for a series of headings or ordered list items.",
+ "description_html": "The <code>counter-set</code> CSS property creates (and optionally sets a value for) a counter, the numbers for a series of headings or ordered list items.",
+ "group": [
+  "counters"
+ ],
+ "kind": "feature",
+ "name": "counter-set",
+ "spec": [
+  "https://drafts.csswg.org/css-lists-3/#propdef-counter-set"
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2023-12-11",
+  "by_compat_key": {
+   "css.properties.counter-set": {
+    "baseline": "low",
+    "baseline_low_date": "2023-12-11",
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "17.2",
+     "safari_ios": "17.2"
+    }
+   },
+   "css.properties.counter-set.list-item": {
+    "baseline": "low",
+    "baseline_low_date": "2023-12-11",
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "17.2",
+     "safari_ios": "17.2"
+    }
+   },
+   "css.properties.counter-set.none": {
+    "baseline": "low",
+    "baseline_low_date": "2023-12-11",
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "17.2",
+     "safari_ios": "17.2"
+    }
+   }
+  },
+  "support": {
+   "chrome": "85",
+   "chrome_android": "85",
+   "edge": "85",
+   "firefox": "68",
+   "firefox_android": "68",
+   "safari": "17.2",
+   "safari_ios": "17.2"
+  }
+ },
+ "id": "counter-set",
+ "groups": [
+  "counters"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-lists-3/#propdef-counter-set",
+   "seriesComposition": "full",
+   "shortname": "css-lists-3",
+   "series": {
+    "shortname": "css-lists",
+    "currentSpecification": "css-lists-3",
+    "title": "CSS Lists",
+    "shortTitle": "CSS Lists",
+    "releaseUrl": "https://www.w3.org/TR/css-lists/",
+    "nightlyUrl": "https://drafts.csswg.org/css-lists/"
+   },
+   "seriesVersion": "3",
+   "shortTitle": "CSS Lists 3",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-lists-3/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-lists-3/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-lists-3/",
+     "https://w3c.github.io/csswg-drafts/css-lists/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-lists-3/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Lists and Counters Module Level 3",
+   "source": "w3c",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-lists"
+    ]
+   },
+   "fragment": "propdef-counter-set"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/counter-set",
+   "title": "counter-set",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/counter-set"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00589064,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/149"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:counter-set"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2023-12-11T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2026-06-11"
+}

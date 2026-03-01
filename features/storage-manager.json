@@ -1,0 +1,200 @@
+{
+ "compat_features": [
+  "api.Navigator.storage",
+  "api.Permissions.permission_persistent-storage",
+  "api.StorageManager",
+  "api.StorageManager.estimate",
+  "api.StorageManager.persist",
+  "api.StorageManager.persisted",
+  "api.WorkerNavigator.storage"
+ ],
+ "description": "The navigator.storage API provides information about the availability and persistence of the data that a site stores on the device, by using APIs such as the Cache API or the IndexedDB API.",
+ "description_html": "The <code>navigator.storage</code> API provides information about the availability and persistence of the data that a site stores on the device, by using APIs such as the Cache API or the IndexedDB API.",
+ "group": [
+  "storage"
+ ],
+ "kind": "feature",
+ "name": "Storage manager",
+ "spec": [
+  "https://storage.spec.whatwg.org/"
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2023-09-18",
+  "by_compat_key": {
+   "api.Navigator.storage": {
+    "baseline": "high",
+    "baseline_high_date": "2024-06-13",
+    "baseline_low_date": "2021-12-13",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "79",
+     "firefox": "57",
+     "firefox_android": "57",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   },
+   "api.Permissions.permission_persistent-storage": {
+    "baseline": false,
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "firefox": "53",
+     "firefox_android": "53"
+    }
+   },
+   "api.StorageManager": {
+    "baseline": "high",
+    "baseline_high_date": "2024-06-13",
+    "baseline_low_date": "2021-12-13",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "79",
+     "firefox": "57",
+     "firefox_android": "57",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   },
+   "api.StorageManager.estimate": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "79",
+     "firefox": "57",
+     "firefox_android": "57",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "api.StorageManager.persist": {
+    "baseline": "high",
+    "baseline_high_date": "2024-06-13",
+    "baseline_low_date": "2021-12-13",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "79",
+     "firefox": "57",
+     "firefox_android": "57",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   },
+   "api.StorageManager.persisted": {
+    "baseline": "high",
+    "baseline_high_date": "2024-06-13",
+    "baseline_low_date": "2021-12-13",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "79",
+     "firefox": "57",
+     "firefox_android": "57",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   },
+   "api.WorkerNavigator.storage": {
+    "baseline": "high",
+    "baseline_high_date": "2024-06-13",
+    "baseline_low_date": "2021-12-13",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "79",
+     "firefox": "57",
+     "firefox_android": "57",
+     "safari": "15.2",
+     "safari_ios": "15.2"
+    }
+   }
+  },
+  "support": {
+   "chrome": "61",
+   "chrome_android": "61",
+   "edge": "79",
+   "firefox": "57",
+   "firefox_android": "57",
+   "safari": "17",
+   "safari_ios": "17"
+  }
+ },
+ "id": "storage-manager",
+ "groups": [
+  "storage"
+ ],
+ "specs": [
+  {
+   "url": "https://storage.spec.whatwg.org/",
+   "seriesComposition": "full",
+   "shortname": "storage",
+   "series": {
+    "shortname": "storage",
+    "currentSpecification": "storage",
+    "title": "Storage",
+    "shortTitle": "Storage",
+    "nightlyUrl": "https://storage.spec.whatwg.org/"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "Storage Workstream",
+     "url": "https://storage.spec.whatwg.org/"
+    }
+   ],
+   "nightly": {
+    "url": "https://storage.spec.whatwg.org/",
+    "status": "Living Standard",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/storage",
+    "sourcePath": "storage.bs",
+    "filename": "index.html"
+   },
+   "title": "Storage",
+   "source": "whatwg",
+   "shortTitle": "Storage",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "storage"
+    ],
+    "excludePaths": [
+     "storage/buckets"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Storage_API",
+   "title": "Storage API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Storage_API"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:storage-manager"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2023-09-18T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2026-03-18"
+}

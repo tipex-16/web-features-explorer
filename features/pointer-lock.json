@@ -1,0 +1,175 @@
+{
+ "caniuse": [
+  "pointerlock"
+ ],
+ "compat_features": [
+  "api.Document.exitPointerLock",
+  "api.Document.pointerLockElement",
+  "api.Document.pointerlockchange_event",
+  "api.Document.pointerlockerror_event",
+  "api.Element.requestPointerLock"
+ ],
+ "description": "Provides access to raw mouse movement by locking the target of mouse events to a single element and hiding the mouse cursor.",
+ "description_html": "Provides access to raw mouse movement by locking the target of mouse events to a single element and hiding the mouse cursor.",
+ "kind": "feature",
+ "name": "Pointer lock",
+ "spec": [
+  "https://w3c.github.io/pointerlock/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Document.exitPointerLock": {
+    "baseline": false,
+    "support": {
+     "chrome": "37",
+     "edge": "13",
+     "firefox": "50",
+     "firefox_android": "50",
+     "safari": "10.1"
+    }
+   },
+   "api.Document.pointerLockElement": {
+    "baseline": false,
+    "support": {
+     "chrome": "37",
+     "edge": "13",
+     "firefox": "50",
+     "firefox_android": "50",
+     "safari": "10.1"
+    }
+   },
+   "api.Document.pointerlockchange_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "36",
+     "edge": "13",
+     "firefox": "50",
+     "firefox_android": "50",
+     "safari": "10.1"
+    }
+   },
+   "api.Document.pointerlockerror_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "36",
+     "edge": "13",
+     "firefox": "50",
+     "firefox_android": "50",
+     "safari": "10.1"
+    }
+   },
+   "api.Element.requestPointerLock": {
+    "baseline": false,
+    "support": {
+     "chrome": "37",
+     "edge": "13",
+     "firefox": "50",
+     "firefox_android": "50",
+     "safari": "10.1"
+    }
+   }
+  },
+  "support": {
+   "chrome": "37",
+   "edge": "13",
+   "firefox": "50",
+   "firefox_android": "50",
+   "safari": "10.1"
+  }
+ },
+ "id": "pointer-lock",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/pointerlock/",
+   "seriesComposition": "full",
+   "shortname": "pointerlock-2",
+   "series": {
+    "shortname": "pointerlock",
+    "currentSpecification": "pointerlock-2",
+    "title": "Pointer Lock",
+    "shortTitle": "Pointer Lock",
+    "releaseUrl": "https://www.w3.org/TR/pointerlock/",
+    "nightlyUrl": "https://w3c.github.io/pointerlock/"
+   },
+   "seriesVersion": "2",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Applications Working Group",
+     "url": "https://www.w3.org/groups/wg/webapps/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/pointerlock-2/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/pointerlock/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/pointerlock",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Pointer Lock 2.0",
+   "source": "w3c",
+   "shortTitle": "Pointer Lock 2.0",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "pointerlock"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Pointer_Lock_API",
+   "title": "Pointer Lock API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Pointer_Lock_API"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.0005946,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/52"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:pointer-lock"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/40",
+  "votes": 3
+ },
+ "bugs": {
+  "chrome_android": [
+   "https://crbug.com/40290045"
+  ],
+  "oculus": [
+   "https://crbug.com/40290045"
+  ],
+  "opera_android": [
+   "https://crbug.com/40290045"
+  ],
+  "samsunginternet_android": [
+   "https://crbug.com/40290045"
+  ],
+  "webview_android": [
+   "https://crbug.com/40290045"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

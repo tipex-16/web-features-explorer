@@ -1,0 +1,152 @@
+{
+ "compat_features": [
+  "css.properties.word-spacing",
+  "css.properties.word-spacing.normal",
+  "svg.global_attributes.word-spacing"
+ ],
+ "description": "The word-spacing CSS property sets the amount of white space between words.",
+ "description_html": "The <code>word-spacing</code> CSS property sets the amount of white space between words.",
+ "group": [
+  "text"
+ ],
+ "kind": "feature",
+ "name": "word-spacing",
+ "spec": [
+  "https://drafts.csswg.org/css-text-4/#word-spacing-property"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "css.properties.word-spacing": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.word-spacing.normal": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "svg.global_attributes.word-spacing": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   }
+  },
+  "support": {
+   "chrome": "1",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "1",
+   "firefox_android": "4",
+   "safari": "1",
+   "safari_ios": "1"
+  }
+ },
+ "id": "word-spacing",
+ "groups": [
+  "text"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-text-4/#word-spacing-property",
+   "seriesComposition": "delta",
+   "shortname": "css-text-4",
+   "series": {
+    "shortname": "css-text",
+    "currentSpecification": "css-text-3",
+    "title": "CSS Text",
+    "shortTitle": "CSS Text",
+    "releaseUrl": "https://www.w3.org/TR/css-text/",
+    "nightlyUrl": "https://drafts.csswg.org/css-text/"
+   },
+   "seriesVersion": "4",
+   "seriesPrevious": "css-text-3",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-text-4/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-text-4/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-text-4/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-text-4/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Text Module Level 4",
+   "source": "w3c",
+   "shortTitle": "CSS Text 4",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-text"
+    ]
+   },
+   "fragment": "word-spacing-property"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/word-spacing",
+   "title": "word-spacing",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/word-spacing"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:word-spacing"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

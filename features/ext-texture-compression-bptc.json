@@ -1,0 +1,108 @@
+{
+ "compat_features": [
+  "api.EXT_texture_compression_bptc"
+ ],
+ "description": "The EXT_texture_compression_bptc extension for WebGL 1.0 and 2.0 contexts adds the BPTC compressed texture formats to compressedTexImage2D() and compressedTexSubImage2D().",
+ "description_html": "The <code>EXT_texture_compression_bptc</code> extension for WebGL 1.0 and 2.0 contexts adds the BPTC compressed texture formats to <code>compressedTexImage2D()</code> and <code>compressedTexSubImage2D()</code>.",
+ "group": [
+  "webgl-extensions"
+ ],
+ "kind": "feature",
+ "name": "EXT_texture_compression_bptc WebGL extension",
+ "spec": [
+  "https://registry.khronos.org/webgl/extensions/EXT_texture_compression_bptc/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.EXT_texture_compression_bptc": {
+    "baseline": false,
+    "support": {
+     "chrome": "93",
+     "chrome_android": "92",
+     "edge": "93",
+     "firefox": "68",
+     "safari": "16"
+    }
+   }
+  },
+  "support": {
+   "chrome": "93",
+   "chrome_android": "92",
+   "edge": "93",
+   "firefox": "68",
+   "safari": "16"
+  }
+ },
+ "id": "ext-texture-compression-bptc",
+ "groups": [
+  "webgl-extensions"
+ ],
+ "specs": [
+  {
+   "url": "https://registry.khronos.org/webgl/extensions/EXT_texture_compression_bptc/",
+   "seriesComposition": "full",
+   "shortname": "EXT_texture_compression_bptc",
+   "series": {
+    "shortname": "EXT_texture_compression_bptc",
+    "currentSpecification": "EXT_texture_compression_bptc",
+    "title": "WebGL EXT_texture_compression_bptc Extension Specification",
+    "shortTitle": "WebGL EXT_texture_compression_bptc Extension",
+    "nightlyUrl": "https://registry.khronos.org/webgl/extensions/EXT_texture_compression_bptc/"
+   },
+   "organization": "Khronos Group",
+   "groups": [
+    {
+     "name": "WebGL Working Group",
+     "url": "https://www.khronos.org/webgl/"
+    }
+   ],
+   "nightly": {
+    "url": "https://registry.khronos.org/webgl/extensions/EXT_texture_compression_bptc/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "sourcePath": "extensions/EXT_texture_compression_bptc/extension.xml",
+    "filename": "index.html"
+   },
+   "title": "WebGL EXT_texture_compression_bptc Extension Specification",
+   "source": "spec",
+   "shortTitle": "WebGL EXT_texture_compression_bptc Extension",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "testPaths": [
+     "conformance-suites"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/EXT_texture_compression_bptc",
+   "title": "EXT_texture_compression_bptc extension",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/EXT_texture_compression_bptc"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00978488,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/381"
+ },
+ "interop": [],
+ "wpt": null,
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/103",
+  "votes": 0
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

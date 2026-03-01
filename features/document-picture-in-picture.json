@@ -1,0 +1,193 @@
+{
+ "compat_features": [
+  "api.DocumentPictureInPicture",
+  "api.DocumentPictureInPicture.enter_event",
+  "api.DocumentPictureInPicture.requestWindow",
+  "api.DocumentPictureInPicture.requestWindow.option_disallowReturnToOpener",
+  "api.DocumentPictureInPicture.requestWindow.option_preferInitialWindowPlacement",
+  "api.DocumentPictureInPicture.window",
+  "api.DocumentPictureInPictureEvent",
+  "api.DocumentPictureInPictureEvent.DocumentPictureInPictureEvent",
+  "api.DocumentPictureInPictureEvent.window",
+  "api.Window.documentPictureInPicture"
+ ],
+ "description": "The document picture-in-picture API creates an always-on-top window from arbitrary HTML content.",
+ "description_html": "The document picture-in-picture API creates an always-on-top window from arbitrary HTML content.",
+ "kind": "feature",
+ "name": "Document picture-in-picture",
+ "spec": [
+  "https://wicg.github.io/document-picture-in-picture/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.DocumentPictureInPicture": {
+    "baseline": false,
+    "support": {
+     "chrome": "116",
+     "edge": "116"
+    }
+   },
+   "api.DocumentPictureInPicture.enter_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "116",
+     "edge": "116"
+    }
+   },
+   "api.DocumentPictureInPicture.requestWindow": {
+    "baseline": false,
+    "support": {
+     "chrome": "116",
+     "edge": "116"
+    }
+   },
+   "api.DocumentPictureInPicture.requestWindow.option_disallowReturnToOpener": {
+    "baseline": false,
+    "support": {
+     "chrome": "124",
+     "edge": "124"
+    }
+   },
+   "api.DocumentPictureInPicture.requestWindow.option_preferInitialWindowPlacement": {
+    "baseline": false,
+    "support": {
+     "chrome": "130",
+     "edge": "130"
+    }
+   },
+   "api.DocumentPictureInPicture.window": {
+    "baseline": false,
+    "support": {
+     "chrome": "116",
+     "edge": "116"
+    }
+   },
+   "api.DocumentPictureInPictureEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "116",
+     "edge": "116"
+    }
+   },
+   "api.DocumentPictureInPictureEvent.DocumentPictureInPictureEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "116",
+     "edge": "116"
+    }
+   },
+   "api.DocumentPictureInPictureEvent.window": {
+    "baseline": false,
+    "support": {
+     "chrome": "116",
+     "edge": "116"
+    }
+   },
+   "api.Window.documentPictureInPicture": {
+    "baseline": false,
+    "support": {
+     "chrome": "116",
+     "edge": "116"
+    }
+   }
+  },
+  "support": {
+   "chrome": "130",
+   "edge": "130"
+  }
+ },
+ "id": "document-picture-in-picture",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://wicg.github.io/document-picture-in-picture/",
+   "seriesComposition": "full",
+   "shortname": "document-picture-in-picture",
+   "series": {
+    "shortname": "document-picture-in-picture",
+    "currentSpecification": "document-picture-in-picture",
+    "title": "Document Picture-in-Picture Specification",
+    "shortTitle": "Document Picture-in-Picture",
+    "nightlyUrl": "https://wicg.github.io/document-picture-in-picture/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://wicg.github.io/document-picture-in-picture/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/WICG/document-picture-in-picture",
+    "sourcePath": "spec.bs",
+    "filename": "index.html"
+   },
+   "title": "Document Picture-in-Picture Specification",
+   "source": "spec",
+   "shortTitle": "Document Picture-in-Picture",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "document-picture-in-picture"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Document_Picture-in-Picture_API",
+   "title": "Document Picture-in-Picture API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Document_Picture-in-Picture_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/670",
+   "position": "positive",
+   "concerns": [
+    "device independence"
+   ]
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/41",
+   "concerns": [
+    "portability",
+    "device independence"
+   ],
+   "position": ""
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00045673,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/26"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:document-picture-in-picture"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/260",
+  "votes": 14
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1858562"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

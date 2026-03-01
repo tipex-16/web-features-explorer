@@ -1,0 +1,273 @@
+{
+ "compat_features": [
+  "css.properties.vertical-align",
+  "css.properties.vertical-align.baseline",
+  "css.properties.vertical-align.bottom",
+  "css.properties.vertical-align.middle",
+  "css.properties.vertical-align.sub",
+  "css.properties.vertical-align.super",
+  "css.properties.vertical-align.text-bottom",
+  "css.properties.vertical-align.text-top",
+  "css.properties.vertical-align.top"
+ ],
+ "description": "The vertical-align CSS property sets the vertical alignment of inline, inline-block, and table cell elements. It has no effect on block-level elements.",
+ "description_html": "The <code>vertical-align</code> CSS property sets the vertical alignment of inline, inline-block, and table cell elements. It has no effect on block-level elements.",
+ "group": [
+  "css"
+ ],
+ "kind": "feature",
+ "name": "vertical-align",
+ "spec": [
+  "https://drafts.csswg.org/css2/#propdef-vertical-align"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "css.properties.vertical-align": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.vertical-align.baseline": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.vertical-align.bottom": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.vertical-align.middle": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.vertical-align.sub": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.vertical-align.super": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.vertical-align.text-bottom": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.vertical-align.text-top": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.vertical-align.top": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   }
+  },
+  "support": {
+   "chrome": "1",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "1",
+   "firefox_android": "4",
+   "safari": "1",
+   "safari_ios": "1"
+  }
+ },
+ "id": "vertical-align",
+ "groups": [
+  "css"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css2/#propdef-vertical-align",
+   "seriesComposition": "full",
+   "shortname": "CSS2",
+   "series": {
+    "shortname": "CSS",
+    "currentSpecification": "CSS2",
+    "title": "Cascading Style Sheets",
+    "shortTitle": "CSS",
+    "releaseUrl": "https://www.w3.org/TR/CSS2/",
+    "nightlyUrl": "https://drafts.csswg.org/css2/"
+   },
+   "seriesVersion": "2",
+   "formerNames": [
+    "CSS21",
+    "CSS22"
+   ],
+   "nightly": {
+    "url": "https://drafts.csswg.org/css2/",
+    "status": "Editor's Draft",
+    "sourcePath": "css2/Overview.bs",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css2/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "filename": "index.html"
+   },
+   "title": "Cascading Style Sheets Level 2",
+   "shortTitle": "CSS 2",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/CSS2/",
+    "status": "Recommendation",
+    "pages": [
+     "https://www.w3.org/TR/CSS2/about.html",
+     "https://www.w3.org/TR/CSS2/intro.html",
+     "https://www.w3.org/TR/CSS2/conform.html",
+     "https://www.w3.org/TR/CSS2/syndata.html",
+     "https://www.w3.org/TR/CSS2/selector.html",
+     "https://www.w3.org/TR/CSS2/cascade.html",
+     "https://www.w3.org/TR/CSS2/media.html",
+     "https://www.w3.org/TR/CSS2/box.html",
+     "https://www.w3.org/TR/CSS2/visuren.html",
+     "https://www.w3.org/TR/CSS2/visudet.html",
+     "https://www.w3.org/TR/CSS2/visufx.html",
+     "https://www.w3.org/TR/CSS2/generate.html",
+     "https://www.w3.org/TR/CSS2/page.html",
+     "https://www.w3.org/TR/CSS2/colors.html",
+     "https://www.w3.org/TR/CSS2/fonts.html",
+     "https://www.w3.org/TR/CSS2/text.html",
+     "https://www.w3.org/TR/CSS2/tables.html",
+     "https://www.w3.org/TR/CSS2/ui.html",
+     "https://www.w3.org/TR/CSS2/aural.html",
+     "https://www.w3.org/TR/CSS2/refs.html",
+     "https://www.w3.org/TR/CSS2/changes.html",
+     "https://www.w3.org/TR/CSS2/sample.html",
+     "https://www.w3.org/TR/CSS2/zindex.html",
+     "https://www.w3.org/TR/CSS2/propidx.html",
+     "https://www.w3.org/TR/CSS2/grammar.html",
+     "https://www.w3.org/TR/CSS2/indexlist.html"
+    ],
+    "filename": "Overview.html"
+   },
+   "source": "w3c",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/CSS2"
+    ]
+   },
+   "fragment": "propdef-vertical-align"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/vertical-align",
+   "title": "vertical-align",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/vertical-align"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:vertical-align"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

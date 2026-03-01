@@ -1,0 +1,750 @@
+{
+ "caniuse": [
+  "addeventlistener"
+ ],
+ "compat_features": [
+  "api.CustomEvent",
+  "api.CustomEvent.CustomEvent",
+  "api.CustomEvent.detail",
+  "api.CustomEvent.worker_support",
+  "api.Event",
+  "api.Event.Event",
+  "api.Event.bubbles",
+  "api.Event.cancelable",
+  "api.Event.currentTarget",
+  "api.Event.defaultPrevented",
+  "api.Event.eventPhase",
+  "api.Event.isTrusted",
+  "api.Event.preventDefault",
+  "api.Event.stopImmediatePropagation",
+  "api.Event.stopPropagation",
+  "api.Event.target",
+  "api.Event.timeStamp",
+  "api.Event.type",
+  "api.EventTarget",
+  "api.EventTarget.EventTarget",
+  "api.EventTarget.addEventListener",
+  "api.EventTarget.addEventListener.options_parameter",
+  "api.EventTarget.addEventListener.options_parameter.options_capture_parameter",
+  "api.EventTarget.addEventListener.options_parameter.options_once_parameter",
+  "api.EventTarget.addEventListener.options_parameter.options_passive_parameter",
+  "api.EventTarget.addEventListener.options_parameter.options_passive_parameter_default_true_touch",
+  "api.EventTarget.addEventListener.options_parameter.options_passive_parameter_default_true_wheel",
+  "api.EventTarget.addEventListener.options_parameter.options_signal_parameter",
+  "api.EventTarget.addEventListener.useCapture_parameter_optional",
+  "api.EventTarget.dispatchEvent",
+  "api.EventTarget.removeEventListener",
+  "api.EventTarget.removeEventListener.options_parameter",
+  "api.EventTarget.removeEventListener.useCapture_parameter_optional"
+ ],
+ "description": "The Event API and the addEventListener() method on objects that receive events (event targets) represent and handle significant things happening on a page. Many APIs fire events for a wide range of situations relating to those APIs, such as an image loading, a user clicking, or a value changing.",
+ "description_html": "The <code>Event</code> API and the <code>addEventListener()</code> method on objects that receive events (event targets) represent and handle significant things happening on a page. Many APIs fire events for a wide range of situations relating to those APIs, such as an image loading, a user clicking, or a value changing.",
+ "kind": "feature",
+ "name": "Events",
+ "spec": [
+  "https://html.spec.whatwg.org/multipage/indices.html#events-2",
+  "https://dom.spec.whatwg.org/#interface-customevent",
+  "https://dom.spec.whatwg.org/#interface-eventtarget"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "api.CustomEvent": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "5",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "6",
+     "firefox_android": "6",
+     "safari": "5",
+     "safari_ios": "5"
+    }
+   },
+   "api.CustomEvent.CustomEvent": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "15",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "11",
+     "firefox_android": "14",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.CustomEvent.detail": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "5",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "6",
+     "firefox_android": "6",
+     "safari": "5",
+     "safari_ios": "5"
+    }
+   },
+   "api.CustomEvent.worker_support": {
+    "baseline": "high",
+    "baseline_high_date": "2021-03-17",
+    "baseline_low_date": "2018-09-17",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "17",
+     "firefox": "48",
+     "firefox_android": "48",
+     "safari": "12",
+     "safari_ios": "12"
+    }
+   },
+   "api.Event": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.Event.Event": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "15",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "11",
+     "firefox_android": "14",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.Event.bubbles": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.Event.cancelable": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.Event.currentTarget": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.Event.defaultPrevented": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "5",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "6",
+     "firefox_android": "6",
+     "safari": "5",
+     "safari_ios": "5"
+    }
+   },
+   "api.Event.eventPhase": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.Event.isTrusted": {
+    "baseline": "high",
+    "baseline_high_date": "2019-03-20",
+    "baseline_low_date": "2016-09-20",
+    "support": {
+     "chrome": "46",
+     "chrome_android": "46",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "api.Event.preventDefault": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.Event.stopImmediatePropagation": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "5",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "10",
+     "firefox_android": "10",
+     "safari": "5",
+     "safari_ios": "5"
+    }
+   },
+   "api.Event.stopPropagation": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.Event.target": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.Event.timeStamp": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.Event.type": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.EventTarget": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.EventTarget.EventTarget": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "64",
+     "chrome_android": "64",
+     "edge": "79",
+     "firefox": "59",
+     "firefox_android": "59",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "api.EventTarget.addEventListener": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.EventTarget.addEventListener.options_parameter": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "49",
+     "chrome_android": "49",
+     "edge": "16",
+     "firefox": "49",
+     "firefox_android": "49",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "api.EventTarget.addEventListener.options_parameter.options_capture_parameter": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "49",
+     "chrome_android": "49",
+     "edge": "16",
+     "firefox": "49",
+     "firefox_android": "49",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "api.EventTarget.addEventListener.options_parameter.options_once_parameter": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "16",
+     "firefox": "50",
+     "firefox_android": "50",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "api.EventTarget.addEventListener.options_parameter.options_passive_parameter": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "51",
+     "chrome_android": "51",
+     "edge": "16",
+     "firefox": "49",
+     "firefox_android": "49",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "api.EventTarget.addEventListener.options_parameter.options_passive_parameter_default_true_touch": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "79",
+     "firefox": "61",
+     "firefox_android": "61",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.EventTarget.addEventListener.options_parameter.options_passive_parameter_default_true_wheel": {
+    "baseline": false,
+    "support": {
+     "chrome": "73",
+     "chrome_android": "73",
+     "edge": "79",
+     "firefox": "84",
+     "firefox_android": "84"
+    }
+   },
+   "api.EventTarget.addEventListener.options_parameter.options_signal_parameter": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90",
+     "firefox": "86",
+     "firefox_android": "86",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "api.EventTarget.addEventListener.useCapture_parameter_optional": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "6",
+     "firefox_android": "6",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.EventTarget.dispatchEvent": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "2",
+     "firefox_android": "4",
+     "safari": "3.1",
+     "safari_ios": "3"
+    }
+   },
+   "api.EventTarget.removeEventListener": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "api.EventTarget.removeEventListener.options_parameter": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "49",
+     "chrome_android": "49",
+     "edge": "16",
+     "firefox": "49",
+     "firefox_android": "49",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "api.EventTarget.removeEventListener.useCapture_parameter_optional": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "6",
+     "firefox_android": "6",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   }
+  },
+  "support": {
+   "chrome": "1",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "1",
+   "firefox_android": "4",
+   "safari": "1",
+   "safari_ios": "1"
+  }
+ },
+ "id": "events",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://html.spec.whatwg.org/multipage/indices.html#events-2",
+   "seriesComposition": "full",
+   "shortname": "html",
+   "series": {
+    "shortname": "html",
+    "currentSpecification": "html",
+    "title": "HTML",
+    "shortTitle": "HTML",
+    "nightlyUrl": "https://html.spec.whatwg.org/multipage/"
+   },
+   "nightly": {
+    "url": "https://html.spec.whatwg.org/multipage/",
+    "status": "Living Standard",
+    "sourcePath": "source",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/html",
+    "pages": [
+     "https://html.spec.whatwg.org/multipage/introduction.html",
+     "https://html.spec.whatwg.org/multipage/infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/common-microsyntaxes.html",
+     "https://html.spec.whatwg.org/multipage/urls-and-fetching.html",
+     "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html",
+     "https://html.spec.whatwg.org/multipage/structured-data.html",
+     "https://html.spec.whatwg.org/multipage/dom.html",
+     "https://html.spec.whatwg.org/multipage/semantics.html",
+     "https://html.spec.whatwg.org/multipage/sections.html",
+     "https://html.spec.whatwg.org/multipage/grouping-content.html",
+     "https://html.spec.whatwg.org/multipage/text-level-semantics.html",
+     "https://html.spec.whatwg.org/multipage/links.html",
+     "https://html.spec.whatwg.org/multipage/edits.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content.html",
+     "https://html.spec.whatwg.org/multipage/images.html",
+     "https://html.spec.whatwg.org/multipage/iframe-embed-object.html",
+     "https://html.spec.whatwg.org/multipage/media.html",
+     "https://html.spec.whatwg.org/multipage/image-maps.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content-other.html",
+     "https://html.spec.whatwg.org/multipage/tables.html",
+     "https://html.spec.whatwg.org/multipage/forms.html",
+     "https://html.spec.whatwg.org/multipage/input.html",
+     "https://html.spec.whatwg.org/multipage/form-elements.html",
+     "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/interactive-elements.html",
+     "https://html.spec.whatwg.org/multipage/scripting.html",
+     "https://html.spec.whatwg.org/multipage/canvas.html",
+     "https://html.spec.whatwg.org/multipage/custom-elements.html",
+     "https://html.spec.whatwg.org/multipage/semantics-other.html",
+     "https://html.spec.whatwg.org/multipage/microdata.html",
+     "https://html.spec.whatwg.org/multipage/interaction.html",
+     "https://html.spec.whatwg.org/multipage/dnd.html",
+     "https://html.spec.whatwg.org/multipage/popover.html",
+     "https://html.spec.whatwg.org/multipage/browsers.html",
+     "https://html.spec.whatwg.org/multipage/nav-history-apis.html",
+     "https://html.spec.whatwg.org/multipage/document-sequences.html",
+     "https://html.spec.whatwg.org/multipage/browsing-the-web.html",
+     "https://html.spec.whatwg.org/multipage/document-lifecycle.html",
+     "https://html.spec.whatwg.org/multipage/speculative-loading.html",
+     "https://html.spec.whatwg.org/multipage/webappapis.html",
+     "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html",
+     "https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html",
+     "https://html.spec.whatwg.org/multipage/system-state.html",
+     "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html",
+     "https://html.spec.whatwg.org/multipage/comms.html",
+     "https://html.spec.whatwg.org/multipage/server-sent-events.html",
+     "https://html.spec.whatwg.org/multipage/web-messaging.html",
+     "https://html.spec.whatwg.org/multipage/workers.html",
+     "https://html.spec.whatwg.org/multipage/worklets.html",
+     "https://html.spec.whatwg.org/multipage/webstorage.html",
+     "https://html.spec.whatwg.org/multipage/syntax.html",
+     "https://html.spec.whatwg.org/multipage/parsing.html",
+     "https://html.spec.whatwg.org/multipage/named-characters.html",
+     "https://html.spec.whatwg.org/multipage/xhtml.html",
+     "https://html.spec.whatwg.org/multipage/rendering.html",
+     "https://html.spec.whatwg.org/multipage/obsolete.html",
+     "https://html.spec.whatwg.org/multipage/iana.html",
+     "https://html.spec.whatwg.org/multipage/indices.html",
+     "https://html.spec.whatwg.org/multipage/references.html",
+     "https://html.spec.whatwg.org/multipage/acknowledgements.html"
+    ],
+    "filename": "index.html"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "HTML Workstream",
+     "url": "https://html.spec.whatwg.org/multipage/"
+    }
+   ],
+   "title": "HTML",
+   "source": "whatwg",
+   "shortTitle": "HTML",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "close-watcher",
+     "custom-elements",
+     "eventsource",
+     "html",
+     "imagebitmap-renderingcontext",
+     "import-maps",
+     "navigation-api",
+     "webmessaging",
+     "webstorage",
+     "workers",
+     "worklets",
+     "x-frame-options"
+    ],
+    "excludePaths": [
+     "html/cross-origin-embedder-policy/credentialless",
+     "html/dom/partial-updates/tentative",
+     "html/cross-origin-embedder-policy/credentialless"
+    ]
+   },
+   "fragment": "events-2"
+  },
+  {
+   "url": "https://dom.spec.whatwg.org/#interface-customevent",
+   "seriesComposition": "full",
+   "shortname": "dom",
+   "series": {
+    "shortname": "dom",
+    "currentSpecification": "dom",
+    "title": "DOM",
+    "shortTitle": "DOM",
+    "nightlyUrl": "https://dom.spec.whatwg.org/"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "DOM Workstream",
+     "url": "https://dom.spec.whatwg.org/"
+    }
+   ],
+   "nightly": {
+    "url": "https://dom.spec.whatwg.org/",
+    "status": "Living Standard",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/dom",
+    "sourcePath": "dom.bs",
+    "filename": "index.html"
+   },
+   "title": "DOM",
+   "source": "whatwg",
+   "shortTitle": "DOM",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "dom",
+     "shadow-dom"
+    ]
+   },
+   "fragment": "interface-customevent"
+  },
+  {
+   "url": "https://dom.spec.whatwg.org/#interface-eventtarget",
+   "seriesComposition": "full",
+   "shortname": "dom",
+   "series": {
+    "shortname": "dom",
+    "currentSpecification": "dom",
+    "title": "DOM",
+    "shortTitle": "DOM",
+    "nightlyUrl": "https://dom.spec.whatwg.org/"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "DOM Workstream",
+     "url": "https://dom.spec.whatwg.org/"
+    }
+   ],
+   "nightly": {
+    "url": "https://dom.spec.whatwg.org/",
+    "status": "Living Standard",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/dom",
+    "sourcePath": "dom.bs",
+    "filename": "index.html"
+   },
+   "title": "DOM",
+   "source": "whatwg",
+   "shortTitle": "DOM",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "dom",
+     "shadow-dom"
+    ]
+   },
+   "fragment": "interface-eventtarget"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/EventTarget/addEventListener",
+   "title": "EventTarget: addEventListener() method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/EventTarget/addEventListener"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:events"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

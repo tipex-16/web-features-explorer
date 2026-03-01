@@ -1,0 +1,85 @@
+{
+ "compat_features": [
+  "api.Window.getDigitalGoodsService"
+ ],
+ "description": "The window.getDigitalGoodsService API connects to stores or billing services for in-app products and subscriptions.",
+ "description_html": "The <code>window.getDigitalGoodsService</code> API connects to stores or billing services for in-app products and subscriptions.",
+ "kind": "feature",
+ "name": "Digital goods",
+ "spec": [
+  "https://wicg.github.io/digital-goods/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Window.getDigitalGoodsService": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "101",
+     "edge": "134"
+    }
+   }
+  },
+  "support": {
+   "chrome_android": "101",
+   "edge": "134"
+  }
+ },
+ "id": "digital-goods",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://wicg.github.io/digital-goods/",
+   "seriesComposition": "full",
+   "shortname": "digital-goods",
+   "series": {
+    "shortname": "digital-goods",
+    "currentSpecification": "digital-goods",
+    "title": "Digital Goods API",
+    "shortTitle": "Digital Goods API",
+    "nightlyUrl": "https://wicg.github.io/digital-goods/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://wicg.github.io/digital-goods/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/WICG/digital-goods",
+    "sourcePath": "spec.bs",
+    "filename": "index.html"
+   },
+   "title": "Digital Goods API",
+   "source": "spec",
+   "shortTitle": "Digital Goods API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/168",
+  "votes": 2
+ },
+ "bugs": {
+  "chrome": [
+   "https://crbug.com/1248319"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

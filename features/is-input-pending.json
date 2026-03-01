@@ -1,0 +1,135 @@
+{
+ "compat_features": [
+  "api.Navigator.scheduling",
+  "api.Scheduling",
+  "api.Scheduling.isInputPending"
+ ],
+ "description": "The navigator.scheduling.isInputPending() method checks if there are pending input events, such as touch or mouse events. This allows you to yield from long-running scripts that might be blocking user interaction.",
+ "description_html": "The <code>navigator.scheduling.isInputPending()</code> method checks if there are pending input events, such as touch or mouse events. This allows you to yield from long-running scripts that might be blocking user interaction.",
+ "discouraged": {
+  "according_to": [
+   "https://web.dev/articles/optimize-long-tasks#isinputpending"
+  ],
+  "alternatives": [
+   "scheduler"
+  ],
+  "reason": "The navigator.scheduling.isInputPending() method may incorrectly return false and is not the only case where you might expect to yield.",
+  "reason_html": "The <code>navigator.scheduling.isInputPending()</code> method may incorrectly return <code>false</code> and is not the only case where you might expect to yield."
+ },
+ "kind": "feature",
+ "name": "isInputPending()",
+ "spec": [
+  "https://wicg.github.io/is-input-pending/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Navigator.scheduling": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87"
+    }
+   },
+   "api.Scheduling": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87"
+    }
+   },
+   "api.Scheduling.isInputPending": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87"
+    }
+   }
+  },
+  "support": {
+   "chrome": "87",
+   "chrome_android": "87",
+   "edge": "87"
+  }
+ },
+ "id": "is-input-pending",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://wicg.github.io/is-input-pending/",
+   "seriesComposition": "full",
+   "shortname": "is-input-pending",
+   "series": {
+    "shortname": "is-input-pending",
+    "currentSpecification": "is-input-pending",
+    "title": "Early detection of input events",
+    "shortTitle": "Early detection of input events",
+    "nightlyUrl": "https://wicg.github.io/is-input-pending/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://wicg.github.io/is-input-pending/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/WICG/is-input-pending",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Early detection of input events",
+   "source": "spec",
+   "shortTitle": "Early detection of input events",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "is-input-pending"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Navigator/scheduling",
+   "title": "Navigator: scheduling property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Navigator/scheduling"
+  },
+  {
+   "slug": "Web/API/Scheduling",
+   "title": "Scheduling",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Scheduling"
+  },
+  {
+   "slug": "Web/API/Scheduling/isInputPending",
+   "title": "Scheduling: isInputPending() method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Scheduling/isInputPending"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:is-input-pending"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

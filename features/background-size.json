@@ -1,0 +1,183 @@
+{
+ "compat_features": [
+  "css.properties.background-size",
+  "css.properties.background-size.auto",
+  "css.properties.background-size.contain",
+  "css.properties.background-size.cover",
+  "css.properties.background.background-size"
+ ],
+ "description": "The background-size CSS property scales or stretches a background based on the size of the element (with the contain and cover keywords), a length, or percentage.",
+ "description_html": "The <code>background-size</code> CSS property scales or stretches a background based on the size of the element (with the <code>contain</code> and <code>cover</code> keywords), a length, or percentage.",
+ "group": [
+  "background"
+ ],
+ "kind": "feature",
+ "name": "background-size",
+ "spec": [
+  "https://drafts.csswg.org/css-backgrounds-3/#background-size"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "css.properties.background-size": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "3",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   },
+   "css.properties.background-size.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "3",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   },
+   "css.properties.background-size.contain": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "3",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   },
+   "css.properties.background-size.cover": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "3",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   },
+   "css.properties.background.background-size": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "21",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "9",
+     "firefox_android": "18",
+     "safari": "5.1",
+     "safari_ios": "4"
+    }
+   }
+  },
+  "support": {
+   "chrome": "21",
+   "chrome_android": "25",
+   "edge": "12",
+   "firefox": "9",
+   "firefox_android": "18",
+   "safari": "5.1",
+   "safari_ios": "4.2"
+  }
+ },
+ "id": "background-size",
+ "groups": [
+  "background"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-backgrounds-3/#background-size",
+   "seriesComposition": "full",
+   "shortname": "css-backgrounds-3",
+   "series": {
+    "shortname": "css-backgrounds",
+    "currentSpecification": "css-backgrounds-3",
+    "title": "CSS Backgrounds and Borders",
+    "shortTitle": "CSS Backgrounds",
+    "releaseUrl": "https://www.w3.org/TR/css-backgrounds/",
+    "nightlyUrl": "https://drafts.csswg.org/css-backgrounds/"
+   },
+   "seriesVersion": "3",
+   "shortTitle": "CSS Backgrounds 3",
+   "seriesNext": "css-backgrounds-4",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-backgrounds-3/",
+    "status": "Candidate Recommendation Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-backgrounds-3/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-backgrounds-3/",
+     "https://w3c.github.io/csswg-drafts/css-backgrounds/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-backgrounds-3/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Backgrounds and Borders Module Level 3",
+   "source": "w3c",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-backgrounds"
+    ]
+   },
+   "fragment": "background-size"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/background-size",
+   "title": "background-size",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-size"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:background-size"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

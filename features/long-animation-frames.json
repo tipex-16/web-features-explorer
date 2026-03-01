@@ -1,0 +1,285 @@
+{
+ "compat_features": [
+  "api.PerformanceLongAnimationFrameTiming",
+  "api.PerformanceLongAnimationFrameTiming.blockingDuration",
+  "api.PerformanceLongAnimationFrameTiming.firstUIEventTimestamp",
+  "api.PerformanceLongAnimationFrameTiming.renderStart",
+  "api.PerformanceLongAnimationFrameTiming.scripts",
+  "api.PerformanceLongAnimationFrameTiming.styleAndLayoutStart",
+  "api.PerformanceLongAnimationFrameTiming.toJSON",
+  "api.PerformanceScriptTiming",
+  "api.PerformanceScriptTiming.executionStart",
+  "api.PerformanceScriptTiming.forcedStyleAndLayoutDuration",
+  "api.PerformanceScriptTiming.invoker",
+  "api.PerformanceScriptTiming.invokerType",
+  "api.PerformanceScriptTiming.pauseDuration",
+  "api.PerformanceScriptTiming.sourceCharPosition",
+  "api.PerformanceScriptTiming.sourceFunctionName",
+  "api.PerformanceScriptTiming.sourceURL",
+  "api.PerformanceScriptTiming.toJSON",
+  "api.PerformanceScriptTiming.window",
+  "api.PerformanceScriptTiming.windowAttribution"
+ ],
+ "description": "The long-animation-frame performance event type and the PerformanceLongAnimationFrameTiming API provide information about rendering updates that take longer than 50 milliseconds. Also known as LoAFs.",
+ "description_html": "The <code>long-animation-frame</code> performance event type and the <code>PerformanceLongAnimationFrameTiming</code> API provide information about rendering updates that take longer than 50 milliseconds. Also known as LoAFs.",
+ "group": [
+  "performance"
+ ],
+ "kind": "feature",
+ "name": "Long animation frames",
+ "spec": [
+  "https://w3c.github.io/long-animation-frames/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.PerformanceLongAnimationFrameTiming": {
+    "baseline": false,
+    "support": {
+     "chrome": "123",
+     "chrome_android": "123",
+     "edge": "123"
+    }
+   },
+   "api.PerformanceLongAnimationFrameTiming.blockingDuration": {
+    "baseline": false,
+    "support": {
+     "chrome": "123",
+     "chrome_android": "123",
+     "edge": "123"
+    }
+   },
+   "api.PerformanceLongAnimationFrameTiming.firstUIEventTimestamp": {
+    "baseline": false,
+    "support": {
+     "chrome": "123",
+     "chrome_android": "123",
+     "edge": "123"
+    }
+   },
+   "api.PerformanceLongAnimationFrameTiming.renderStart": {
+    "baseline": false,
+    "support": {
+     "chrome": "123",
+     "chrome_android": "123",
+     "edge": "123"
+    }
+   },
+   "api.PerformanceLongAnimationFrameTiming.scripts": {
+    "baseline": false,
+    "support": {
+     "chrome": "123",
+     "chrome_android": "123",
+     "edge": "123"
+    }
+   },
+   "api.PerformanceLongAnimationFrameTiming.styleAndLayoutStart": {
+    "baseline": false,
+    "support": {
+     "chrome": "123",
+     "chrome_android": "123",
+     "edge": "123"
+    }
+   },
+   "api.PerformanceLongAnimationFrameTiming.toJSON": {
+    "baseline": false,
+    "support": {
+     "chrome": "123",
+     "chrome_android": "123",
+     "edge": "123"
+    }
+   },
+   "api.PerformanceScriptTiming": {
+    "baseline": false,
+    "support": {
+     "chrome": "123",
+     "chrome_android": "123",
+     "edge": "123"
+    }
+   },
+   "api.PerformanceScriptTiming.executionStart": {
+    "baseline": false,
+    "support": {
+     "chrome": "123",
+     "chrome_android": "123",
+     "edge": "123"
+    }
+   },
+   "api.PerformanceScriptTiming.forcedStyleAndLayoutDuration": {
+    "baseline": false,
+    "support": {
+     "chrome": "123",
+     "chrome_android": "123",
+     "edge": "123"
+    }
+   },
+   "api.PerformanceScriptTiming.invoker": {
+    "baseline": false,
+    "support": {
+     "chrome": "123",
+     "chrome_android": "123",
+     "edge": "123"
+    }
+   },
+   "api.PerformanceScriptTiming.invokerType": {
+    "baseline": false,
+    "support": {
+     "chrome": "123",
+     "chrome_android": "123",
+     "edge": "123"
+    }
+   },
+   "api.PerformanceScriptTiming.pauseDuration": {
+    "baseline": false,
+    "support": {
+     "chrome": "123",
+     "chrome_android": "123",
+     "edge": "123"
+    }
+   },
+   "api.PerformanceScriptTiming.sourceCharPosition": {
+    "baseline": false,
+    "support": {
+     "chrome": "123",
+     "chrome_android": "123",
+     "edge": "123"
+    }
+   },
+   "api.PerformanceScriptTiming.sourceFunctionName": {
+    "baseline": false,
+    "support": {
+     "chrome": "123",
+     "chrome_android": "123",
+     "edge": "123"
+    }
+   },
+   "api.PerformanceScriptTiming.sourceURL": {
+    "baseline": false,
+    "support": {
+     "chrome": "123",
+     "chrome_android": "123",
+     "edge": "123"
+    }
+   },
+   "api.PerformanceScriptTiming.toJSON": {
+    "baseline": false,
+    "support": {
+     "chrome": "123",
+     "chrome_android": "123",
+     "edge": "123"
+    }
+   },
+   "api.PerformanceScriptTiming.window": {
+    "baseline": false,
+    "support": {
+     "chrome": "123",
+     "chrome_android": "123",
+     "edge": "123"
+    }
+   },
+   "api.PerformanceScriptTiming.windowAttribution": {
+    "baseline": false,
+    "support": {
+     "chrome": "123",
+     "chrome_android": "123",
+     "edge": "123"
+    }
+   }
+  },
+  "support": {
+   "chrome": "123",
+   "chrome_android": "123",
+   "edge": "123"
+  }
+ },
+ "id": "long-animation-frames",
+ "groups": [
+  "performance"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/long-animation-frames/",
+   "seriesComposition": "full",
+   "shortname": "long-animation-frames",
+   "series": {
+    "shortname": "long-animation-frames",
+    "currentSpecification": "long-animation-frames",
+    "title": "Long Animation Frames API",
+    "shortTitle": "Long Animation Frames API",
+    "nightlyUrl": "https://w3c.github.io/long-animation-frames/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Performance Working Group",
+     "url": "https://www.w3.org/groups/wg/webperf/"
+    }
+   ],
+   "nightly": {
+    "url": "https://w3c.github.io/long-animation-frames/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/long-animation-frames",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Long Animation Frames API",
+   "source": "spec",
+   "shortTitle": "Long Animation Frames API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "long-animation-frame"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/PerformanceLongAnimationFrameTiming",
+   "title": "PerformanceLongAnimationFrameTiming",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/PerformanceLongAnimationFrameTiming"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/929",
+   "position": "positive",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/283",
+   "position": "",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.15093399,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/236"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:long-animation-frames"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/235",
+  "votes": 0
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1348405"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

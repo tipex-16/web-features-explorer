@@ -1,0 +1,109 @@
+{
+ "compat_features": [
+  "api.HTMLMediaElement.captureStream"
+ ],
+ "description": "The captureStream() method for <audio> and <video> elements returns a MediaStream for the media element's content. You can use this to record media or send it elsewhere, such as a canvas or WebRTC connection.",
+ "description_html": "The <code>captureStream()</code> method for <code>&#x3C;audio></code> and <code>&#x3C;video></code> elements returns a <code>MediaStream</code> for the media element's content. You can use this to record media or send it elsewhere, such as a canvas or WebRTC connection.",
+ "group": [
+  "media-elements"
+ ],
+ "kind": "feature",
+ "name": "captureStream() for <audio> and <video>",
+ "spec": [
+  "https://w3c.github.io/mediacapture-fromelement/#html-media-element-media-capture-extensions"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.HTMLMediaElement.captureStream": {
+    "baseline": false,
+    "support": {
+     "chrome": "62",
+     "chrome_android": "62",
+     "edge": "79"
+    }
+   }
+  },
+  "support": {
+   "chrome": "62",
+   "chrome_android": "62",
+   "edge": "79"
+  }
+ },
+ "id": "capture-stream-audio-video",
+ "groups": [
+  "media-elements"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/mediacapture-fromelement/#html-media-element-media-capture-extensions",
+   "seriesComposition": "full",
+   "shortname": "mediacapture-fromelement",
+   "series": {
+    "shortname": "mediacapture-fromelement",
+    "currentSpecification": "mediacapture-fromelement",
+    "title": "Media Capture from DOM Elements",
+    "shortTitle": "Media Capture from DOM Elements",
+    "releaseUrl": "https://www.w3.org/TR/mediacapture-fromelement/",
+    "nightlyUrl": "https://w3c.github.io/mediacapture-fromelement/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Real-Time Communications Working Group",
+     "url": "https://www.w3.org/groups/wg/webrtc/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/mediacapture-fromelement/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/mediacapture-fromelement/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/mediacapture-fromelement",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Media Capture from DOM Elements",
+   "source": "w3c",
+   "shortTitle": "Media Capture from DOM Elements",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "mediacapture-fromelement"
+    ]
+   },
+   "fragment": "html-media-element-media-capture-extensions"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/HTMLMediaElement/captureStream",
+   "title": "HTMLMediaElement: captureStream() method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/captureStream"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:capture-stream-audio-video"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/77",
+  "votes": 0
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

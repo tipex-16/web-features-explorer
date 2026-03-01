@@ -1,0 +1,211 @@
+{
+ "compat_features": [
+  "api.VTTCue.region",
+  "api.VTTRegion",
+  "api.VTTRegion.VTTRegion",
+  "api.VTTRegion.id",
+  "api.VTTRegion.lines",
+  "api.VTTRegion.regionAnchorX",
+  "api.VTTRegion.regionAnchorY",
+  "api.VTTRegion.scroll",
+  "api.VTTRegion.viewportAnchorX",
+  "api.VTTRegion.viewportAnchorY",
+  "api.VTTRegion.width"
+ ],
+ "description": "WebVTT regions set the areas of the video where captions or subtitles should be rendered, such as placing roll-up captions used for live captions.",
+ "description_html": "WebVTT regions set the areas of the video where captions or subtitles should be rendered, such as placing roll-up captions used for live captions.",
+ "kind": "feature",
+ "name": "WebVTT regions",
+ "spec": [
+  "https://w3c.github.io/webvtt/#regions"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.VTTCue.region": {
+    "baseline": false,
+    "support": {
+     "firefox": "59",
+     "firefox_android": "59",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.VTTRegion": {
+    "baseline": false,
+    "support": {
+     "firefox": "59",
+     "firefox_android": "59",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.VTTRegion.VTTRegion": {
+    "baseline": false,
+    "support": {
+     "firefox": "59",
+     "firefox_android": "59",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.VTTRegion.id": {
+    "baseline": false,
+    "support": {
+     "firefox": "59",
+     "firefox_android": "59",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.VTTRegion.lines": {
+    "baseline": false,
+    "support": {
+     "firefox": "59",
+     "firefox_android": "59",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.VTTRegion.regionAnchorX": {
+    "baseline": false,
+    "support": {
+     "firefox": "59",
+     "firefox_android": "59",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.VTTRegion.regionAnchorY": {
+    "baseline": false,
+    "support": {
+     "firefox": "59",
+     "firefox_android": "59",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.VTTRegion.scroll": {
+    "baseline": false,
+    "support": {
+     "firefox": "59",
+     "firefox_android": "59",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.VTTRegion.viewportAnchorX": {
+    "baseline": false,
+    "support": {
+     "firefox": "59",
+     "firefox_android": "59",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.VTTRegion.viewportAnchorY": {
+    "baseline": false,
+    "support": {
+     "firefox": "59",
+     "firefox_android": "59",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.VTTRegion.width": {
+    "baseline": false,
+    "support": {
+     "firefox": "59",
+     "firefox_android": "59",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   }
+  },
+  "support": {
+   "firefox": "59",
+   "firefox_android": "59",
+   "safari": "14.1",
+   "safari_ios": "14.5"
+  }
+ },
+ "id": "webvtt-regions",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/webvtt/#regions",
+   "seriesComposition": "full",
+   "shortname": "webvtt1",
+   "series": {
+    "shortname": "webvtt",
+    "currentSpecification": "webvtt1",
+    "title": "WebVTT: The Web Video Text Tracks Format",
+    "shortTitle": "WebVTT: The Web Video Text Tracks Format",
+    "releaseUrl": "https://www.w3.org/TR/webvtt/",
+    "nightlyUrl": "https://w3c.github.io/webvtt/"
+   },
+   "seriesVersion": "1",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Timed Text Working Group",
+     "url": "https://www.w3.org/AudioVideo/TT/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/webvtt1/",
+    "status": "Candidate Recommendation Snapshot",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/webvtt/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/webvtt",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "WebVTT: The Web Video Text Tracks Format",
+   "source": "w3c",
+   "shortTitle": "WebVTT: The Web Video Text Tracks Format",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "webvtt"
+    ]
+   },
+   "fragment": "regions"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/VTTRegion",
+   "title": "VTTRegion",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/VTTRegion"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:webvtt-regions"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/82",
+  "votes": 0
+ },
+ "bugs": {
+  "chrome": [
+   "https://bugs.chromium.org/p/chromium/issues/detail?id=690014"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

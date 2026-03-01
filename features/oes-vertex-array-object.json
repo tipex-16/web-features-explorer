@@ -1,0 +1,185 @@
+{
+ "compat_features": [
+  "api.OES_vertex_array_object",
+  "api.OES_vertex_array_object.bindVertexArrayOES",
+  "api.OES_vertex_array_object.createVertexArrayOES",
+  "api.OES_vertex_array_object.deleteVertexArrayOES",
+  "api.OES_vertex_array_object.isVertexArrayOES",
+  "api.WebGLVertexArrayObjectOES"
+ ],
+ "description": "The OES_vertex_array_object extension for WebGL 1.0 contexts adds vertex array objects (VAOs) which encapsulate vertex array states. These objects keep pointers to vertex data and names for different sets of vertex data.",
+ "description_html": "The <code>OES_vertex_array_object</code> extension for WebGL 1.0 contexts adds vertex array objects (VAOs) which encapsulate vertex array states. These objects keep pointers to vertex data and names for different sets of vertex data.",
+ "group": [
+  "webgl-extensions"
+ ],
+ "kind": "feature",
+ "name": "OES_vertex_array_object WebGL extension",
+ "spec": [
+  "https://registry.khronos.org/webgl/extensions/OES_vertex_array_object/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2020-10-30",
+  "baseline_low_date": "2018-04-30",
+  "by_compat_key": {
+   "api.OES_vertex_array_object": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-30",
+    "baseline_low_date": "2018-04-30",
+    "support": {
+     "chrome": "24",
+     "chrome_android": "25",
+     "edge": "17",
+     "firefox": "25",
+     "firefox_android": "25",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "api.OES_vertex_array_object.bindVertexArrayOES": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-30",
+    "baseline_low_date": "2018-04-30",
+    "support": {
+     "chrome": "24",
+     "chrome_android": "25",
+     "edge": "17",
+     "firefox": "25",
+     "firefox_android": "25",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "api.OES_vertex_array_object.createVertexArrayOES": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-30",
+    "baseline_low_date": "2018-04-30",
+    "support": {
+     "chrome": "24",
+     "chrome_android": "25",
+     "edge": "17",
+     "firefox": "25",
+     "firefox_android": "25",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "api.OES_vertex_array_object.deleteVertexArrayOES": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-30",
+    "baseline_low_date": "2018-04-30",
+    "support": {
+     "chrome": "24",
+     "chrome_android": "25",
+     "edge": "17",
+     "firefox": "25",
+     "firefox_android": "25",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "api.OES_vertex_array_object.isVertexArrayOES": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-30",
+    "baseline_low_date": "2018-04-30",
+    "support": {
+     "chrome": "24",
+     "chrome_android": "25",
+     "edge": "17",
+     "firefox": "25",
+     "firefox_android": "25",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "api.WebGLVertexArrayObjectOES": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-30",
+    "baseline_low_date": "2018-04-30",
+    "support": {
+     "chrome": "24",
+     "chrome_android": "25",
+     "edge": "17",
+     "firefox": "25",
+     "firefox_android": "25",
+     "safari": "5.1",
+     "safari_ios": "9"
+    }
+   }
+  },
+  "support": {
+   "chrome": "24",
+   "chrome_android": "25",
+   "edge": "17",
+   "firefox": "25",
+   "firefox_android": "25",
+   "safari": "8",
+   "safari_ios": "9"
+  }
+ },
+ "id": "oes-vertex-array-object",
+ "groups": [
+  "webgl-extensions"
+ ],
+ "specs": [
+  {
+   "url": "https://registry.khronos.org/webgl/extensions/OES_vertex_array_object/",
+   "seriesComposition": "full",
+   "shortname": "OES_vertex_array_object",
+   "series": {
+    "shortname": "OES_vertex_array_object",
+    "currentSpecification": "OES_vertex_array_object",
+    "title": "WebGL OES_vertex_array_object Khronos Ratified Extension Specification",
+    "shortTitle": "WebGL OES_vertex_array_object Khronos Ratified Extension",
+    "nightlyUrl": "https://registry.khronos.org/webgl/extensions/OES_vertex_array_object/"
+   },
+   "organization": "Khronos Group",
+   "groups": [
+    {
+     "name": "WebGL Working Group",
+     "url": "https://www.khronos.org/webgl/"
+    }
+   ],
+   "nightly": {
+    "url": "https://registry.khronos.org/webgl/extensions/OES_vertex_array_object/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "sourcePath": "extensions/OES_vertex_array_object/extension.xml",
+    "filename": "index.html"
+   },
+   "title": "WebGL OES_vertex_array_object Khronos Ratified Extension Specification",
+   "source": "spec",
+   "shortTitle": "WebGL OES_vertex_array_object Khronos Ratified Extension",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "testPaths": [
+     "conformance-suites"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/OES_vertex_array_object",
+   "title": "OES_vertex_array_object extension",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/OES_vertex_array_object"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2018-04-30T00:00:00.000Z",
+ "baselineHighDateAsObject": "2020-10-30T00:00:00.000Z"
+}

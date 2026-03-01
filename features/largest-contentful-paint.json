@@ -1,0 +1,234 @@
+{
+ "compat_features": [
+  "api.LargestContentfulPaint",
+  "api.LargestContentfulPaint.element",
+  "api.LargestContentfulPaint.id",
+  "api.LargestContentfulPaint.loadTime",
+  "api.LargestContentfulPaint.renderTime",
+  "api.LargestContentfulPaint.size",
+  "api.LargestContentfulPaint.toJSON",
+  "api.LargestContentfulPaint.url"
+ ],
+ "description": "The largest-contentful-paint performance entry and the LargestContentfulPaint API measures  the time it takes for the largest image or text to appear. Largest contentful paint (LCP) is a common metric for perceived loading times.",
+ "description_html": "The <code>largest-contentful-paint</code> performance entry and the <code>LargestContentfulPaint</code> API measures  the time it takes for the largest image or text to appear. Largest contentful paint (LCP) is a common metric for perceived loading times.",
+ "group": [
+  "performance"
+ ],
+ "kind": "feature",
+ "name": "Largest contentful paint (LCP)",
+ "spec": [
+  "https://w3c.github.io/largest-contentful-paint/"
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2025-12-12",
+  "by_compat_key": {
+   "api.LargestContentfulPaint": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "122",
+     "firefox_android": "122",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.LargestContentfulPaint.element": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "122",
+     "firefox_android": "122",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.LargestContentfulPaint.id": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "122",
+     "firefox_android": "122",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.LargestContentfulPaint.loadTime": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "122",
+     "firefox_android": "122",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.LargestContentfulPaint.renderTime": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "122",
+     "firefox_android": "122",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.LargestContentfulPaint.size": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "122",
+     "firefox_android": "122",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.LargestContentfulPaint.toJSON": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "122",
+     "firefox_android": "122",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.LargestContentfulPaint.url": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "122",
+     "firefox_android": "122",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   }
+  },
+  "support": {
+   "chrome": "77",
+   "chrome_android": "77",
+   "edge": "79",
+   "firefox": "122",
+   "firefox_android": "122",
+   "safari": "26.2",
+   "safari_ios": "26.2"
+  }
+ },
+ "id": "largest-contentful-paint",
+ "groups": [
+  "performance"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/largest-contentful-paint/",
+   "seriesComposition": "full",
+   "shortname": "largest-contentful-paint",
+   "series": {
+    "shortname": "largest-contentful-paint",
+    "currentSpecification": "largest-contentful-paint",
+    "title": "Largest Contentful Paint",
+    "shortTitle": "Largest Contentful Paint",
+    "releaseUrl": "https://www.w3.org/TR/largest-contentful-paint/",
+    "nightlyUrl": "https://w3c.github.io/largest-contentful-paint/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Performance Working Group",
+     "url": "https://www.w3.org/groups/wg/webperf/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/largest-contentful-paint/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/largest-contentful-paint/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/largest-contentful-paint",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Largest Contentful Paint",
+   "source": "w3c",
+   "shortTitle": "Largest Contentful Paint",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "largest-contentful-paint"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/LargestContentfulPaint",
+   "title": "LargestContentfulPaint",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/LargestContentfulPaint"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/191",
+   "position": "positive",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/242",
+   "position": "",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [
+  {
+   "year": 2025,
+   "label": "interop-2025-core-web-vitals",
+   "url": "https://wpt.fyi/interop-2025?feature=interop-2025-core-web-vitals"
+  }
+ ],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:largest-contentful-paint"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2025-12-12T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2028-06-12"
+}

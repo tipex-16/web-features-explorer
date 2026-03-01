@@ -1,0 +1,105 @@
+{
+ "description": "WebDriver BiDi is a bidirectional protocol that allows a WebDriver client and a browser to communicate with each other.",
+ "description_html": "WebDriver BiDi is a bidirectional protocol that allows a WebDriver client and a browser to communicate with each other.",
+ "group": [
+  "webdriver"
+ ],
+ "kind": "feature",
+ "name": "WebDriver BiDi",
+ "spec": [
+  "https://w3c.github.io/webdriver-bidi/"
+ ],
+ "status": {
+  "baseline": false,
+  "support": {
+   "chrome": "106",
+   "chrome_android": "106",
+   "edge": "106",
+   "firefox": "102",
+   "firefox_android": "102"
+  }
+ },
+ "id": "webdriver-bidi",
+ "groups": [
+  "webdriver"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/webdriver-bidi/",
+   "seriesComposition": "full",
+   "shortname": "webdriver-bidi",
+   "series": {
+    "shortname": "webdriver-bidi",
+    "currentSpecification": "webdriver-bidi",
+    "title": "WebDriver BiDi",
+    "shortTitle": "WebDriver BiDi",
+    "releaseUrl": "https://www.w3.org/TR/webdriver-bidi/",
+    "nightlyUrl": "https://w3c.github.io/webdriver-bidi/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Browser Testing and Tools Working Group",
+     "url": "https://www.w3.org/groups/wg/browser-tools-testing/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/webdriver-bidi/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/webdriver-bidi/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/webdriver-bidi",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "WebDriver BiDi",
+   "source": "w3c",
+   "shortTitle": "WebDriver BiDi",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/632",
+   "position": "positive",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/240",
+   "position": "support",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:webdriver-bidi"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/175",
+  "votes": 2
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1690255"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Safari",
+ "monthsBlocked": 41,
+ "blockedSince": "October 2022"
+}

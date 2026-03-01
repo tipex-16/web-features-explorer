@@ -1,0 +1,511 @@
+{
+ "caniuse": [
+  "trusted-types"
+ ],
+ "compat_features": [
+  "api.Element.innerHTML.enforces_trusted_types",
+  "api.HTMLScriptElement.innerText.enforces_trusted_types",
+  "api.HTMLScriptElement.src.enforces_trusted_types",
+  "api.HTMLScriptElement.text.enforces_trusted_types",
+  "api.HTMLScriptElement.textContent.enforces_trusted_types",
+  "api.ShadowRoot.innerHTML.enforces_trusted_types",
+  "api.TrustedHTML",
+  "api.TrustedHTML.toJSON",
+  "api.TrustedHTML.toString",
+  "api.TrustedScript",
+  "api.TrustedScript.toJSON",
+  "api.TrustedScript.toString",
+  "api.TrustedScriptURL",
+  "api.TrustedScriptURL.toJSON",
+  "api.TrustedScriptURL.toString",
+  "api.TrustedTypePolicy",
+  "api.TrustedTypePolicy.createHTML",
+  "api.TrustedTypePolicy.createScript",
+  "api.TrustedTypePolicy.createScriptURL",
+  "api.TrustedTypePolicy.name",
+  "api.TrustedTypePolicyFactory",
+  "api.TrustedTypePolicyFactory.createPolicy",
+  "api.TrustedTypePolicyFactory.defaultPolicy",
+  "api.TrustedTypePolicyFactory.emptyHTML",
+  "api.TrustedTypePolicyFactory.emptyScript",
+  "api.TrustedTypePolicyFactory.getAttributeType",
+  "api.TrustedTypePolicyFactory.getPropertyType",
+  "api.TrustedTypePolicyFactory.isHTML",
+  "api.TrustedTypePolicyFactory.isScript",
+  "api.TrustedTypePolicyFactory.isScriptURL",
+  "api.setInterval.code_param_enforces_trusted_types",
+  "api.setTimeout.code_param_enforces_trusted_types",
+  "api.trustedTypes",
+  "http.headers.Content-Security-Policy.require-trusted-types-for",
+  "http.headers.Content-Security-Policy.trusted-types"
+ ],
+ "description": "Trusted types allow you to lock down insecure parts of the DOM API and prevent client-side cross-site scripting (XSS) attacks.",
+ "description_html": "Trusted types allow you to lock down insecure parts of the DOM API and prevent client-side cross-site scripting (XSS) attacks.",
+ "group": [
+  "security"
+ ],
+ "kind": "feature",
+ "name": "Trusted types",
+ "spec": [
+  "https://w3c.github.io/trusted-types/dist/spec/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Element.innerHTML.enforces_trusted_types": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.HTMLScriptElement.innerText.enforces_trusted_types": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.HTMLScriptElement.src.enforces_trusted_types": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.HTMLScriptElement.text.enforces_trusted_types": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.HTMLScriptElement.textContent.enforces_trusted_types": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.ShadowRoot.innerHTML.enforces_trusted_types": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.TrustedHTML": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.TrustedHTML.toJSON": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.TrustedHTML.toString": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.TrustedScript": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.TrustedScript.toJSON": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.TrustedScript.toString": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.TrustedScriptURL": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.TrustedScriptURL.toJSON": {
+    "baseline": false,
+    "support": {
+     "chrome": "90",
+     "chrome_android": "90",
+     "edge": "90",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.TrustedScriptURL.toString": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.TrustedTypePolicy": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.TrustedTypePolicy.createHTML": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.TrustedTypePolicy.createScript": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.TrustedTypePolicy.createScriptURL": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.TrustedTypePolicy.name": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.TrustedTypePolicyFactory": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.TrustedTypePolicyFactory.createPolicy": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.TrustedTypePolicyFactory.defaultPolicy": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.TrustedTypePolicyFactory.emptyHTML": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.TrustedTypePolicyFactory.emptyScript": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.TrustedTypePolicyFactory.getAttributeType": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.TrustedTypePolicyFactory.getPropertyType": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.TrustedTypePolicyFactory.isHTML": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.TrustedTypePolicyFactory.isScript": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.TrustedTypePolicyFactory.isScriptURL": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.setInterval.code_param_enforces_trusted_types": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.setTimeout.code_param_enforces_trusted_types": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.trustedTypes": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "http.headers.Content-Security-Policy.require-trusted-types-for": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "http.headers.Content-Security-Policy.trusted-types": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   }
+  },
+  "support": {
+   "chrome": "83",
+   "chrome_android": "83",
+   "edge": "83",
+   "safari": "26",
+   "safari_ios": "26"
+  }
+ },
+ "id": "trusted-types",
+ "groups": [
+  "security"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/trusted-types/dist/spec/",
+   "seriesComposition": "full",
+   "shortname": "trusted-types",
+   "series": {
+    "shortname": "trusted-types",
+    "currentSpecification": "trusted-types",
+    "title": "Trusted Types",
+    "shortTitle": "Trusted Types",
+    "releaseUrl": "https://www.w3.org/TR/trusted-types/",
+    "nightlyUrl": "https://w3c.github.io/trusted-types/dist/spec/"
+   },
+   "release": {
+    "url": "https://www.w3.org/TR/trusted-types/",
+    "status": "Working Draft",
+    "filename": "index.html"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Application Security Working Group",
+     "url": "https://www.w3.org/groups/wg/webappsec/"
+    }
+   ],
+   "nightly": {
+    "url": "https://w3c.github.io/trusted-types/dist/spec/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/trusted-types",
+    "sourcePath": "spec/index.bs",
+    "filename": "index.html"
+   },
+   "title": "Trusted Types",
+   "source": "w3c",
+   "shortTitle": "Trusted Types",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "trusted-types"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Trusted_Types_API",
+   "title": "Trusted Types API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Trusted_Types_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/20",
+   "position": "positive",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/186",
+   "position": "support",
+   "concerns": [
+    "complexity"
+   ]
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:trusted-types"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/118",
+  "votes": 9
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1508286"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Firefox",
+ "monthsBlocked": 6,
+ "blockedSince": "September 2025"
+}

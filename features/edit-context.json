@@ -1,0 +1,497 @@
+{
+ "compat_features": [
+  "api.CharacterBoundsUpdateEvent",
+  "api.CharacterBoundsUpdateEvent.CharacterBoundsUpdateEvent",
+  "api.CharacterBoundsUpdateEvent.rangeEnd",
+  "api.CharacterBoundsUpdateEvent.rangeStart",
+  "api.EditContext",
+  "api.EditContext.EditContext",
+  "api.EditContext.attachedElements",
+  "api.EditContext.characterBounds",
+  "api.EditContext.characterBoundsRangeStart",
+  "api.EditContext.characterboundsupdate_event",
+  "api.EditContext.compositionend_event",
+  "api.EditContext.compositionstart_event",
+  "api.EditContext.selectionEnd",
+  "api.EditContext.selectionStart",
+  "api.EditContext.text",
+  "api.EditContext.textformatupdate_event",
+  "api.EditContext.textupdate_event",
+  "api.EditContext.updateCharacterBounds",
+  "api.EditContext.updateControlBounds",
+  "api.EditContext.updateSelection",
+  "api.EditContext.updateSelectionBounds",
+  "api.EditContext.updateText",
+  "api.HTMLElement.editContext",
+  "api.TextFormat",
+  "api.TextFormat.TextFormat",
+  "api.TextFormat.rangeEnd",
+  "api.TextFormat.rangeStart",
+  "api.TextFormat.underlineStyle",
+  "api.TextFormat.underlineThickness",
+  "api.TextFormatUpdateEvent",
+  "api.TextFormatUpdateEvent.TextFormatUpdateEvent",
+  "api.TextFormatUpdateEvent.getTextFormats",
+  "api.TextUpdateEvent",
+  "api.TextUpdateEvent.TextUpdateEvent",
+  "api.TextUpdateEvent.selectionEnd",
+  "api.TextUpdateEvent.selectionStart",
+  "api.TextUpdateEvent.text",
+  "api.TextUpdateEvent.updateRangeEnd",
+  "api.TextUpdateEvent.updateRangeStart"
+ ],
+ "description": "The EditContext API allows you to build rich text editors that support advanced text input, such as Input Method Editor (IME) composition, an emoji picker, or other platform-specific editing UI.",
+ "description_html": "The <code>EditContext</code> API allows you to build rich text editors that support advanced text input, such as Input Method Editor (IME) composition, an emoji picker, or other platform-specific editing UI.",
+ "kind": "feature",
+ "name": "EditContext",
+ "spec": [
+  "https://w3c.github.io/edit-context/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.CharacterBoundsUpdateEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.CharacterBoundsUpdateEvent.CharacterBoundsUpdateEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.CharacterBoundsUpdateEvent.rangeEnd": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.CharacterBoundsUpdateEvent.rangeStart": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.EditContext": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.EditContext.EditContext": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.EditContext.attachedElements": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.EditContext.characterBounds": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.EditContext.characterBoundsRangeStart": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.EditContext.characterboundsupdate_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.EditContext.compositionend_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.EditContext.compositionstart_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.EditContext.selectionEnd": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.EditContext.selectionStart": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.EditContext.text": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.EditContext.textformatupdate_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.EditContext.textupdate_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.EditContext.updateCharacterBounds": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.EditContext.updateControlBounds": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.EditContext.updateSelection": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.EditContext.updateSelectionBounds": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.EditContext.updateText": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.HTMLElement.editContext": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.TextFormat": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.TextFormat.TextFormat": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.TextFormat.rangeEnd": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.TextFormat.rangeStart": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.TextFormat.underlineStyle": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.TextFormat.underlineThickness": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.TextFormatUpdateEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.TextFormatUpdateEvent.TextFormatUpdateEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.TextFormatUpdateEvent.getTextFormats": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.TextUpdateEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.TextUpdateEvent.TextUpdateEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.TextUpdateEvent.selectionEnd": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.TextUpdateEvent.selectionStart": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.TextUpdateEvent.text": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.TextUpdateEvent.updateRangeEnd": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "api.TextUpdateEvent.updateRangeStart": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   }
+  },
+  "support": {
+   "chrome": "121",
+   "chrome_android": "121",
+   "edge": "121"
+  }
+ },
+ "id": "edit-context",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/edit-context/",
+   "seriesComposition": "full",
+   "shortname": "edit-context",
+   "series": {
+    "shortname": "edit-context",
+    "currentSpecification": "edit-context",
+    "title": "EditContext API",
+    "shortTitle": "EditContext API",
+    "releaseUrl": "https://www.w3.org/TR/edit-context/",
+    "nightlyUrl": "https://w3c.github.io/edit-context/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Editing Working Group",
+     "url": "https://www.w3.org/groups/wg/webediting/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/edit-context/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/edit-context/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/edit-context",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "EditContext API",
+   "source": "w3c",
+   "shortTitle": "EditContext API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/EditContext_API",
+   "title": "EditContext API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/EditContext_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/199",
+   "position": "positive",
+   "concerns": [
+    "compatibility",
+    "accessibility"
+   ]
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/243",
+   "position": "",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of HTML 2024",
+   "url": "https://2024.stateofhtml.com/en-US/features/#reading_list",
+   "question": "reading_list",
+   "subQuestion": "reading_list",
+   "path": "dataAPI.surveys.state_of_html.html2024.reading_list.reading_list.combined.allEditions.1.buckets.3.entity"
+  },
+  {
+   "name": "State of HTML 2024",
+   "url": "https://2024.stateofhtml.com/en-US/forms/#forms_features",
+   "question": "forms",
+   "subQuestion": "forms_features",
+   "path": "dataAPI.surveys.state_of_html.html2024.forms.forms_features.7.entity"
+  },
+  {
+   "name": "State of HTML 2024",
+   "url": "https://2024.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2024.features.all_features.7.entity"
+  }
+ ],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.02446337,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/125"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:edit-context"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/228",
+  "votes": 8
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1904161"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/1904161"
+  ],
+  "safari": [
+   "https://webkit.org/b/269922"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/269922"
+  ],
+  "webview_ios": [
+   "https://webkit.org/b/269922"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

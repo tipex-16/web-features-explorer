@@ -1,0 +1,125 @@
+{
+ "compat_features": [
+  "api.WEBGL_debug_shaders",
+  "api.WEBGL_debug_shaders.getTranslatedShaderSource"
+ ],
+ "description": "The WEBGL_debug_shaders extension for WebGL 1.0 and 2.0 contexts adds the getTranslatedShaderSource() method to debug shaders from privileged contexts.",
+ "description_html": "The <code>WEBGL_debug_shaders</code> extension for WebGL 1.0 and 2.0 contexts adds the <code>getTranslatedShaderSource()</code> method to debug shaders from privileged contexts.",
+ "group": [
+  "webgl-extensions"
+ ],
+ "kind": "feature",
+ "name": "WEBGL_debug_shaders WebGL extension",
+ "spec": [
+  "https://registry.khronos.org/webgl/extensions/WEBGL_debug_shaders/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2023-03-16",
+  "baseline_low_date": "2020-09-16",
+  "by_compat_key": {
+   "api.WEBGL_debug_shaders": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "47",
+     "chrome_android": "47",
+     "edge": "79",
+     "firefox": "56",
+     "firefox_android": "56",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "api.WEBGL_debug_shaders.getTranslatedShaderSource": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "47",
+     "chrome_android": "47",
+     "edge": "79",
+     "firefox": "56",
+     "firefox_android": "56",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   }
+  },
+  "support": {
+   "chrome": "47",
+   "chrome_android": "47",
+   "edge": "79",
+   "firefox": "56",
+   "firefox_android": "56",
+   "safari": "14",
+   "safari_ios": "14"
+  }
+ },
+ "id": "webgl-debug-shaders",
+ "groups": [
+  "webgl-extensions"
+ ],
+ "specs": [
+  {
+   "url": "https://registry.khronos.org/webgl/extensions/WEBGL_debug_shaders/",
+   "seriesComposition": "full",
+   "shortname": "WEBGL_debug_shaders",
+   "series": {
+    "shortname": "WEBGL_debug_shaders",
+    "currentSpecification": "WEBGL_debug_shaders",
+    "title": "WebGL WEBGL_debug_shaders Khronos Ratified Extension Specification",
+    "shortTitle": "WebGL WEBGL_debug_shaders Khronos Ratified Extension",
+    "nightlyUrl": "https://registry.khronos.org/webgl/extensions/WEBGL_debug_shaders/"
+   },
+   "organization": "Khronos Group",
+   "groups": [
+    {
+     "name": "WebGL Working Group",
+     "url": "https://www.khronos.org/webgl/"
+    }
+   ],
+   "nightly": {
+    "url": "https://registry.khronos.org/webgl/extensions/WEBGL_debug_shaders/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "sourcePath": "extensions/WEBGL_debug_shaders/extension.xml",
+    "filename": "index.html"
+   },
+   "title": "WebGL WEBGL_debug_shaders Khronos Ratified Extension Specification",
+   "source": "spec",
+   "shortTitle": "WebGL WEBGL_debug_shaders Khronos Ratified Extension",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "testPaths": [
+     "conformance-suites"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/WEBGL_debug_shaders",
+   "title": "WEBGL_debug_shaders extension",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/WEBGL_debug_shaders"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2020-09-16T00:00:00.000Z",
+ "baselineHighDateAsObject": "2023-03-16T00:00:00.000Z"
+}

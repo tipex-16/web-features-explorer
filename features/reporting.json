@@ -1,0 +1,461 @@
+{
+ "compat_features": [
+  "api.DeprecationReportBody",
+  "api.DeprecationReportBody.anticipatedRemoval",
+  "api.DeprecationReportBody.columnNumber",
+  "api.DeprecationReportBody.id",
+  "api.DeprecationReportBody.lineNumber",
+  "api.DeprecationReportBody.message",
+  "api.DeprecationReportBody.sourceFile",
+  "api.DeprecationReportBody.toJSON",
+  "api.InterventionReportBody",
+  "api.InterventionReportBody.columnNumber",
+  "api.InterventionReportBody.id",
+  "api.InterventionReportBody.lineNumber",
+  "api.InterventionReportBody.message",
+  "api.InterventionReportBody.sourceFile",
+  "api.InterventionReportBody.toJSON",
+  "api.ReportingObserver",
+  "api.ReportingObserver.ReportingObserver",
+  "api.ReportingObserver.disconnect",
+  "api.ReportingObserver.observe",
+  "api.ReportingObserver.takeRecords",
+  "api.ReportingObserver.worker_support",
+  "http.headers.Reporting-Endpoints"
+ ],
+ "description": "The Reporting-Endpoints HTTP header and ReportingObserver() API send reports of Content Security Policy (CSP) violations, Permissions-Policy violations, deprecated feature usage, browser interventions, and crashes to a nominated URL or callback function.",
+ "description_html": "The <code>Reporting-Endpoints</code> HTTP header and <code>ReportingObserver()</code> API send reports of Content Security Policy (CSP) violations, Permissions-Policy violations, deprecated feature usage, browser interventions, and crashes to a nominated URL or callback function.",
+ "kind": "feature",
+ "name": "Reporting API",
+ "spec": [
+  "https://w3c.github.io/reporting/",
+  "https://wicg.github.io/intervention-reporting/",
+  "https://wicg.github.io/deprecation-reporting/",
+  "https://w3c.github.io/webappsec-csp/#reporting"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.DeprecationReportBody": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79"
+    }
+   },
+   "api.DeprecationReportBody.anticipatedRemoval": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79"
+    }
+   },
+   "api.DeprecationReportBody.columnNumber": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79"
+    }
+   },
+   "api.DeprecationReportBody.id": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79"
+    }
+   },
+   "api.DeprecationReportBody.lineNumber": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79"
+    }
+   },
+   "api.DeprecationReportBody.message": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79"
+    }
+   },
+   "api.DeprecationReportBody.sourceFile": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79"
+    }
+   },
+   "api.DeprecationReportBody.toJSON": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79"
+    }
+   },
+   "api.InterventionReportBody": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79"
+    }
+   },
+   "api.InterventionReportBody.columnNumber": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79"
+    }
+   },
+   "api.InterventionReportBody.id": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79"
+    }
+   },
+   "api.InterventionReportBody.lineNumber": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79"
+    }
+   },
+   "api.InterventionReportBody.message": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79"
+    }
+   },
+   "api.InterventionReportBody.sourceFile": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79"
+    }
+   },
+   "api.InterventionReportBody.toJSON": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79"
+    }
+   },
+   "api.ReportingObserver": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ReportingObserver.ReportingObserver": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ReportingObserver.disconnect": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ReportingObserver.observe": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ReportingObserver.takeRecords": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ReportingObserver.worker_support": {
+    "baseline": false,
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84"
+    }
+   },
+   "http.headers.Reporting-Endpoints": {
+    "baseline": false,
+    "support": {
+     "chrome": "96",
+     "chrome_android": "96",
+     "edge": "96",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   }
+  },
+  "support": {
+   "chrome": "96",
+   "chrome_android": "96",
+   "edge": "96",
+   "safari": "16.4",
+   "safari_ios": "16.4"
+  }
+ },
+ "id": "reporting",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/reporting/",
+   "seriesComposition": "full",
+   "shortname": "reporting-1",
+   "series": {
+    "shortname": "reporting",
+    "currentSpecification": "reporting-1",
+    "title": "Reporting API",
+    "shortTitle": "Reporting API",
+    "releaseUrl": "https://www.w3.org/TR/reporting/",
+    "nightlyUrl": "https://w3c.github.io/reporting/"
+   },
+   "seriesVersion": "1",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Performance Working Group",
+     "url": "https://www.w3.org/groups/wg/webperf/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/reporting-1/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/reporting/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/reporting",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Reporting API",
+   "source": "w3c",
+   "shortTitle": "Reporting API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "reporting"
+    ]
+   },
+   "fragment": null
+  },
+  {
+   "url": "https://wicg.github.io/intervention-reporting/",
+   "seriesComposition": "full",
+   "shortname": "intervention-reporting",
+   "series": {
+    "shortname": "intervention-reporting",
+    "currentSpecification": "intervention-reporting",
+    "title": "Intervention Reporting",
+    "shortTitle": "Intervention Reporting",
+    "nightlyUrl": "https://wicg.github.io/intervention-reporting/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://wicg.github.io/intervention-reporting/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/WICG/intervention-reporting",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Intervention Reporting",
+   "source": "spec",
+   "shortTitle": "Intervention Reporting",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "intervention-reporting"
+    ]
+   },
+   "fragment": null
+  },
+  {
+   "url": "https://wicg.github.io/deprecation-reporting/",
+   "seriesComposition": "full",
+   "shortname": "deprecation-reporting",
+   "series": {
+    "shortname": "deprecation-reporting",
+    "currentSpecification": "deprecation-reporting",
+    "title": "Deprecation Reporting",
+    "shortTitle": "Deprecation Reporting",
+    "nightlyUrl": "https://wicg.github.io/deprecation-reporting/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://wicg.github.io/deprecation-reporting/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/WICG/deprecation-reporting",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Deprecation Reporting",
+   "source": "spec",
+   "shortTitle": "Deprecation Reporting",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "deprecation-reporting"
+    ]
+   },
+   "fragment": null
+  },
+  {
+   "url": "https://w3c.github.io/webappsec-csp/#reporting",
+   "seriesComposition": "full",
+   "shortname": "CSP3",
+   "series": {
+    "shortname": "CSP",
+    "currentSpecification": "CSP3",
+    "title": "Content Security Policy",
+    "shortTitle": "Content Security Policy",
+    "releaseUrl": "https://www.w3.org/TR/CSP/",
+    "nightlyUrl": "https://w3c.github.io/webappsec-csp/"
+   },
+   "seriesVersion": "3",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Application Security Working Group",
+     "url": "https://www.w3.org/groups/wg/webappsec/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/CSP3/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/webappsec-csp/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/webappsec-csp",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Content Security Policy Level 3",
+   "source": "w3c",
+   "shortTitle": "Content Security Policy 3",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "content-security-policy"
+    ],
+    "excludePaths": [
+     "content-security-policy/embedded-enforcement"
+    ]
+   },
+   "fragment": "reporting"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Reporting_API",
+   "title": "Reporting API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Reporting_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/104",
+   "position": "positive",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.30934262,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/410"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:reporting"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/156",
+  "votes": 1
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1631237"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Firefox",
+ "monthsBlocked": 36,
+ "blockedSince": "March 2023"
+}

@@ -1,0 +1,119 @@
+{
+ "compat_features": [
+  "api.HTMLMediaElement.controlsList",
+  "html.elements.audio.controlslist",
+  "html.elements.video.controlslist"
+ ],
+ "description": "The controlslist attribute for <audio> or <video> hides parts of the browser's built-in controls. For example, controlslist=\"nofullscreen\" removes the button to play the video in fullscreen.",
+ "description_html": "The <code>controlslist</code> attribute for <code>&#x3C;audio></code> or <code>&#x3C;video></code> hides parts of the browser's built-in controls. For example, <code>controlslist=\"nofullscreen\"</code> removes the button to play the video in fullscreen.",
+ "group": [
+  "media-elements"
+ ],
+ "kind": "feature",
+ "name": "controlslist",
+ "spec": [
+  "https://wicg.github.io/controls-list/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.HTMLMediaElement.controlsList": {
+    "baseline": false,
+    "support": {
+     "chrome": "58",
+     "chrome_android": "58",
+     "edge": "79"
+    }
+   },
+   "html.elements.audio.controlslist": {
+    "baseline": false,
+    "support": {
+     "chrome": "58",
+     "chrome_android": "58",
+     "edge": "79"
+    }
+   },
+   "html.elements.video.controlslist": {
+    "baseline": false,
+    "support": {
+     "chrome": "58",
+     "chrome_android": "58",
+     "edge": "79"
+    }
+   }
+  },
+  "support": {
+   "chrome": "58",
+   "chrome_android": "58",
+   "edge": "79"
+  }
+ },
+ "id": "controls-list",
+ "groups": [
+  "media-elements"
+ ],
+ "specs": [
+  {
+   "url": "https://wicg.github.io/controls-list/"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/HTMLMediaElement/controlsList",
+   "title": "HTMLMediaElement: controlsList property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/controlsList"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/534",
+   "position": "",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of HTML 2024",
+   "url": "https://2024.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2024.features.all_features.22.entity"
+  },
+  {
+   "name": "State of HTML 2024",
+   "url": "https://2024.stateofhtml.com/en-US/content/#content_features",
+   "question": "content",
+   "subQuestion": "content_features",
+   "path": "dataAPI.surveys.state_of_html.html2024.content.content_features.7.entity"
+  },
+  {
+   "name": "State of HTML 2023",
+   "url": "https://2023.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2023.features.all_features.19.entity"
+  },
+  {
+   "name": "State of HTML 2023",
+   "url": "https://2023.stateofhtml.com/en-US/content/#content_features",
+   "question": "content",
+   "subQuestion": "content_features",
+   "path": "dataAPI.surveys.state_of_html.html2023.content.content_features.7.entity"
+  }
+ ],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:controls-list"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/68",
+  "votes": 2
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

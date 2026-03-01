@@ -1,0 +1,590 @@
+{
+ "caniuse": [
+  "web-bluetooth"
+ ],
+ "compat_features": [
+  "api.Bluetooth",
+  "api.Bluetooth.getAvailability",
+  "api.Bluetooth.getDevices",
+  "api.Bluetooth.requestDevice",
+  "api.Bluetooth.requestDevice.options_exclusionFilters_parameter",
+  "api.Bluetooth.requestDevice.options_filter_manufacturerData_parameter",
+  "api.BluetoothCharacteristicProperties",
+  "api.BluetoothCharacteristicProperties.authenticatedSignedWrites",
+  "api.BluetoothCharacteristicProperties.broadcast",
+  "api.BluetoothCharacteristicProperties.indicate",
+  "api.BluetoothCharacteristicProperties.notify",
+  "api.BluetoothCharacteristicProperties.read",
+  "api.BluetoothCharacteristicProperties.reliableWrite",
+  "api.BluetoothCharacteristicProperties.writableAuxiliaries",
+  "api.BluetoothCharacteristicProperties.write",
+  "api.BluetoothCharacteristicProperties.writeWithoutResponse",
+  "api.BluetoothDevice",
+  "api.BluetoothDevice.gatt",
+  "api.BluetoothDevice.gattserverdisconnected_event",
+  "api.BluetoothDevice.id",
+  "api.BluetoothDevice.name",
+  "api.BluetoothRemoteGATTCharacteristic",
+  "api.BluetoothRemoteGATTCharacteristic.characteristicvaluechanged_event",
+  "api.BluetoothRemoteGATTCharacteristic.getDescriptor",
+  "api.BluetoothRemoteGATTCharacteristic.getDescriptors",
+  "api.BluetoothRemoteGATTCharacteristic.properties",
+  "api.BluetoothRemoteGATTCharacteristic.readValue",
+  "api.BluetoothRemoteGATTCharacteristic.service",
+  "api.BluetoothRemoteGATTCharacteristic.startNotifications",
+  "api.BluetoothRemoteGATTCharacteristic.stopNotifications",
+  "api.BluetoothRemoteGATTCharacteristic.uuid",
+  "api.BluetoothRemoteGATTCharacteristic.value",
+  "api.BluetoothRemoteGATTCharacteristic.writeValueWithResponse",
+  "api.BluetoothRemoteGATTCharacteristic.writeValueWithoutResponse",
+  "api.BluetoothRemoteGATTDescriptor",
+  "api.BluetoothRemoteGATTDescriptor.characteristic",
+  "api.BluetoothRemoteGATTDescriptor.readValue",
+  "api.BluetoothRemoteGATTDescriptor.uuid",
+  "api.BluetoothRemoteGATTDescriptor.value",
+  "api.BluetoothRemoteGATTDescriptor.writeValue",
+  "api.BluetoothRemoteGATTServer",
+  "api.BluetoothRemoteGATTServer.connect",
+  "api.BluetoothRemoteGATTServer.connected",
+  "api.BluetoothRemoteGATTServer.device",
+  "api.BluetoothRemoteGATTServer.disconnect",
+  "api.BluetoothRemoteGATTServer.getPrimaryService",
+  "api.BluetoothRemoteGATTServer.getPrimaryServices",
+  "api.BluetoothRemoteGATTService",
+  "api.BluetoothRemoteGATTService.device",
+  "api.BluetoothRemoteGATTService.getCharacteristic",
+  "api.BluetoothRemoteGATTService.getCharacteristics",
+  "api.BluetoothRemoteGATTService.isPrimary",
+  "api.BluetoothRemoteGATTService.uuid",
+  "api.BluetoothUUID",
+  "api.BluetoothUUID.canonicalUUID_static",
+  "api.BluetoothUUID.getCharacteristic_static",
+  "api.BluetoothUUID.getDescriptor_static",
+  "api.BluetoothUUID.getService_static",
+  "api.Navigator.bluetooth",
+  "html.elements.iframe.allow.bluetooth",
+  "http.headers.Permissions-Policy.bluetooth"
+ ],
+ "description": "The Web Bluetooth API enables selecting and communicating with nearby Bluetooth devices.",
+ "description_html": "The Web Bluetooth API enables selecting and communicating with nearby Bluetooth devices.",
+ "kind": "feature",
+ "name": "Web Bluetooth",
+ "spec": [
+  "https://webbluetoothcg.github.io/web-bluetooth/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Bluetooth": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.Bluetooth.getAvailability": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "78"
+    }
+   },
+   "api.Bluetooth.getDevices": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.Bluetooth.requestDevice": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.Bluetooth.requestDevice.options_exclusionFilters_parameter": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "114"
+    }
+   },
+   "api.Bluetooth.requestDevice.options_filter_manufacturerData_parameter": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "92"
+    }
+   },
+   "api.BluetoothCharacteristicProperties": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothCharacteristicProperties.authenticatedSignedWrites": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothCharacteristicProperties.broadcast": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothCharacteristicProperties.indicate": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothCharacteristicProperties.notify": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothCharacteristicProperties.read": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothCharacteristicProperties.reliableWrite": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothCharacteristicProperties.writableAuxiliaries": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothCharacteristicProperties.write": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothCharacteristicProperties.writeWithoutResponse": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothDevice": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothDevice.gatt": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothDevice.gattserverdisconnected_event": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothDevice.id": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothDevice.name": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothRemoteGATTCharacteristic": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothRemoteGATTCharacteristic.characteristicvaluechanged_event": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothRemoteGATTCharacteristic.getDescriptor": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "57"
+    }
+   },
+   "api.BluetoothRemoteGATTCharacteristic.getDescriptors": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "57"
+    }
+   },
+   "api.BluetoothRemoteGATTCharacteristic.properties": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothRemoteGATTCharacteristic.readValue": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothRemoteGATTCharacteristic.service": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothRemoteGATTCharacteristic.startNotifications": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothRemoteGATTCharacteristic.stopNotifications": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothRemoteGATTCharacteristic.uuid": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothRemoteGATTCharacteristic.value": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothRemoteGATTCharacteristic.writeValueWithResponse": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "85"
+    }
+   },
+   "api.BluetoothRemoteGATTCharacteristic.writeValueWithoutResponse": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "85"
+    }
+   },
+   "api.BluetoothRemoteGATTDescriptor": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "57"
+    }
+   },
+   "api.BluetoothRemoteGATTDescriptor.characteristic": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "57"
+    }
+   },
+   "api.BluetoothRemoteGATTDescriptor.readValue": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "57"
+    }
+   },
+   "api.BluetoothRemoteGATTDescriptor.uuid": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "57"
+    }
+   },
+   "api.BluetoothRemoteGATTDescriptor.value": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "57"
+    }
+   },
+   "api.BluetoothRemoteGATTDescriptor.writeValue": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "57"
+    }
+   },
+   "api.BluetoothRemoteGATTServer": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothRemoteGATTServer.connect": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothRemoteGATTServer.connected": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothRemoteGATTServer.device": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothRemoteGATTServer.disconnect": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothRemoteGATTServer.getPrimaryService": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothRemoteGATTServer.getPrimaryServices": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothRemoteGATTService": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothRemoteGATTService.device": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothRemoteGATTService.getCharacteristic": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothRemoteGATTService.getCharacteristics": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothRemoteGATTService.isPrimary": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothRemoteGATTService.uuid": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothUUID": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothUUID.canonicalUUID_static": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothUUID.getCharacteristic_static": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothUUID.getDescriptor_static": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.BluetoothUUID.getService_static": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "api.Navigator.bluetooth": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "56"
+    }
+   },
+   "html.elements.iframe.allow.bluetooth": {
+    "baseline": false,
+    "support": {
+     "chrome": "104",
+     "chrome_android": "104",
+     "edge": "104"
+    }
+   },
+   "http.headers.Permissions-Policy.bluetooth": {
+    "baseline": false,
+    "support": {
+     "chrome": "104",
+     "chrome_android": "104",
+     "edge": "104"
+    }
+   }
+  },
+  "support": {
+   "chrome": "70",
+   "chrome_android": "56",
+   "edge": "79"
+  }
+ },
+ "id": "web-bluetooth",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://webbluetoothcg.github.io/web-bluetooth/",
+   "seriesComposition": "full",
+   "shortname": "web-bluetooth",
+   "series": {
+    "shortname": "web-bluetooth",
+    "currentSpecification": "web-bluetooth",
+    "title": "Web Bluetooth",
+    "shortTitle": "Web Bluetooth",
+    "nightlyUrl": "https://webbluetoothcg.github.io/web-bluetooth/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Bluetooth Community Group",
+     "url": "https://www.w3.org/community/web-bluetooth/"
+    }
+   ],
+   "nightly": {
+    "url": "https://webbluetoothcg.github.io/web-bluetooth/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/WebBluetoothCG/web-bluetooth",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Web Bluetooth",
+   "source": "spec",
+   "shortTitle": "Web Bluetooth",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "bluetooth"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Web_Bluetooth_API",
+   "title": "Web Bluetooth API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Web_Bluetooth_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/95",
+   "position": "negative",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": true,
+ "stateOfSurveys": [
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features_features_only",
+   "question": "usage",
+   "subQuestion": "html_interoperability_features_features_only",
+   "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features_features_only.freeform.allEditions.0.buckets.11.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features",
+   "question": "usage",
+   "subQuestion": "html_interoperability_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features.freeform.allEditions.0.buckets.15.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/system_capabilities/#system_capabilities_features",
+   "question": "system_capabilities",
+   "subQuestion": "system_capabilities_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.system_capabilities.system_capabilities_features.5.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.62.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+   "question": "_all_features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.62.entity"
+  },
+  {
+   "name": "State of HTML 2024",
+   "url": "https://2024.stateofhtml.com/en-US/usage/#html_interoperability_features",
+   "question": "usage",
+   "subQuestion": "html_interoperability_features",
+   "path": "dataAPI.surveys.state_of_html.html2024.usage.html_interoperability_features.freeform.allEditions.1.buckets.15.entity"
+  }
+ ],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00001125,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/105"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:web-bluetooth"
+ },
+ "developerSignals": null,
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/674737"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/674737"
+  ],
+  "safari": [
+   "https://webkit.org/b/101034"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/101034"
+  ],
+  "webview_android": [
+   "https://crbug.com/40703318"
+  ],
+  "webview_ios": [
+   "https://webkit.org/b/101034"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

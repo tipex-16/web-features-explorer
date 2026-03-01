@@ -1,0 +1,72 @@
+{
+ "compat_features": [
+  "webassembly.memory64"
+ ],
+ "description": "Instructions accept 64-bit memory indexes.",
+ "description_html": "Instructions accept 64-bit memory indexes.",
+ "group": [
+  "webassembly"
+ ],
+ "kind": "feature",
+ "name": "Memory64 (WebAssembly)",
+ "spec": [
+  "https://github.com/WebAssembly/memory64/blob/main/proposals/memory64/Overview.md"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "webassembly.memory64": {
+    "baseline": false,
+    "support": {
+     "chrome": "133",
+     "chrome_android": "133",
+     "edge": "133",
+     "firefox": "134",
+     "firefox_android": "134"
+    }
+   }
+  },
+  "support": {
+   "chrome": "133",
+   "chrome_android": "133",
+   "edge": "133",
+   "firefox": "134",
+   "firefox_android": "134"
+  }
+ },
+ "id": "wasm-memory64",
+ "groups": [
+  "webassembly"
+ ],
+ "specs": [
+  {
+   "url": "https://github.com/WebAssembly/memory64/blob/main/proposals/memory64/Overview.md"
+  }
+ ],
+ "mdnUrls": [],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00000159,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/366"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:wasm-memory64"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/269",
+  "votes": 3
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1677586"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Safari",
+ "monthsBlocked": 13,
+ "blockedSince": "February 2025"
+}

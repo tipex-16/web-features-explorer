@@ -1,0 +1,129 @@
+{
+ "compat_features": [
+  "api.Document.browsingTopics",
+  "api.HTMLIFrameElement.browsingTopics",
+  "api.Request.Request.init_browsingTopics_parameter",
+  "api.fetch.init_browsingTopics_parameter",
+  "html.elements.iframe.allow.browsing-topics",
+  "html.elements.iframe.browsingtopics",
+  "http.headers.Observe-Browsing-Topics",
+  "http.headers.Permissions-Policy.browsing-topics",
+  "http.headers.Sec-Browsing-Topics"
+ ],
+ "description": "The topics API reports a user's likely subject-matter interests (as determined by the browser, known as topics) to iframes. This allows for interest-based advertising that does not rely on user's exact browsing history, third-party cookies, or fingerprinting.",
+ "description_html": "The topics API reports a user's likely subject-matter interests (as determined by the browser, known as topics) to iframes. This allows for interest-based advertising that does not rely on user's exact browsing history, third-party cookies, or fingerprinting.",
+ "discouraged": {
+  "according_to": [
+   "https://groups.google.com/a/chromium.org/g/blink-dev/c/_R85yctz4Rs",
+   "https://chromestatus.com/feature/5135370673061888"
+  ],
+  "reason": "Following the announcement that Chrome will maintain its current approach to third-party cookies, Chrome decided to withdraw certain Privacy Sandbox features including the topics API.",
+  "reason_html": "Following the announcement that Chrome will maintain its current approach to third-party cookies, Chrome decided to withdraw certain Privacy Sandbox features including the topics API.",
+  "removal_date": "2026-06-01"
+ },
+ "kind": "feature",
+ "name": "Topics",
+ "spec": [
+  "https://patcg-individual-drafts.github.io/topics/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Document.browsingTopics": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126"
+    }
+   },
+   "api.HTMLIFrameElement.browsingTopics": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126"
+    }
+   },
+   "api.Request.Request.init_browsingTopics_parameter": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126"
+    }
+   },
+   "api.fetch.init_browsingTopics_parameter": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126"
+    }
+   },
+   "html.elements.iframe.allow.browsing-topics": {
+    "baseline": false,
+    "support": {
+     "chrome": "115",
+     "chrome_android": "115",
+     "edge": "115"
+    }
+   },
+   "html.elements.iframe.browsingtopics": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126"
+    }
+   },
+   "http.headers.Observe-Browsing-Topics": {
+    "baseline": false,
+    "support": {
+     "chrome": "115",
+     "chrome_android": "115",
+     "edge": "115"
+    }
+   },
+   "http.headers.Permissions-Policy.browsing-topics": {
+    "baseline": false,
+    "support": {
+     "chrome": "115",
+     "chrome_android": "115",
+     "edge": "115"
+    }
+   },
+   "http.headers.Sec-Browsing-Topics": {
+    "baseline": false,
+    "support": {
+     "chrome": "115",
+     "chrome_android": "115",
+     "edge": "115"
+    }
+   }
+  },
+  "support": {
+   "chrome": "126",
+   "chrome_android": "126",
+   "edge": "126"
+  }
+ },
+ "id": "topics",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://patcg-individual-drafts.github.io/topics/"
+  }
+ ],
+ "mdnUrls": [],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

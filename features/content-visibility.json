@@ -1,0 +1,250 @@
+{
+ "caniuse": [
+  "css-content-visibility"
+ ],
+ "compat_features": [
+  "api.ContentVisibilityAutoStateChangeEvent",
+  "api.ContentVisibilityAutoStateChangeEvent.ContentVisibilityAutoStateChangeEvent",
+  "api.ContentVisibilityAutoStateChangeEvent.skipped",
+  "api.Element.contentvisibilityautostatechange_event",
+  "css.properties.content-visibility",
+  "css.properties.content-visibility.auto",
+  "css.properties.content-visibility.hidden",
+  "css.properties.content-visibility.visible"
+ ],
+ "description": "The content-visibility CSS property delays rendering an element, including layout and painting, until it is needed.",
+ "description_html": "The <code>content-visibility</code> CSS property delays rendering an element, including layout and painting, until it is needed.",
+ "group": [
+  "css"
+ ],
+ "kind": "feature",
+ "name": "content-visibility",
+ "spec": [
+  "https://drafts.csswg.org/css-contain-2/#content-visibility"
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2025-09-15",
+  "by_compat_key": {
+   "api.ContentVisibilityAutoStateChangeEvent": {
+    "baseline": "low",
+    "baseline_low_date": "2024-09-16",
+    "support": {
+     "chrome": "108",
+     "chrome_android": "108",
+     "edge": "108",
+     "firefox": "125",
+     "firefox_android": "125",
+     "safari": "18",
+     "safari_ios": "18"
+    }
+   },
+   "api.ContentVisibilityAutoStateChangeEvent.ContentVisibilityAutoStateChangeEvent": {
+    "baseline": "low",
+    "baseline_low_date": "2024-09-16",
+    "support": {
+     "chrome": "108",
+     "chrome_android": "108",
+     "edge": "108",
+     "firefox": "125",
+     "firefox_android": "125",
+     "safari": "18",
+     "safari_ios": "18"
+    }
+   },
+   "api.ContentVisibilityAutoStateChangeEvent.skipped": {
+    "baseline": "low",
+    "baseline_low_date": "2024-09-16",
+    "support": {
+     "chrome": "108",
+     "chrome_android": "108",
+     "edge": "108",
+     "firefox": "125",
+     "firefox_android": "125",
+     "safari": "18",
+     "safari_ios": "18"
+    }
+   },
+   "api.Element.contentvisibilityautostatechange_event": {
+    "baseline": "low",
+    "baseline_low_date": "2024-09-16",
+    "support": {
+     "chrome": "108",
+     "chrome_android": "108",
+     "edge": "108",
+     "firefox": "130",
+     "firefox_android": "130",
+     "safari": "18",
+     "safari_ios": "18"
+    }
+   },
+   "css.properties.content-visibility": {
+    "baseline": "low",
+    "baseline_low_date": "2024-09-16",
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85",
+     "firefox": "125",
+     "firefox_android": "125",
+     "safari": "18",
+     "safari_ios": "18"
+    }
+   },
+   "css.properties.content-visibility.auto": {
+    "baseline": "low",
+    "baseline_low_date": "2025-09-15",
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85",
+     "firefox": "125",
+     "firefox_android": "125",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.content-visibility.hidden": {
+    "baseline": "low",
+    "baseline_low_date": "2024-09-16",
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85",
+     "firefox": "125",
+     "firefox_android": "125",
+     "safari": "18",
+     "safari_ios": "18"
+    }
+   },
+   "css.properties.content-visibility.visible": {
+    "baseline": "low",
+    "baseline_low_date": "2024-09-16",
+    "support": {
+     "chrome": "85",
+     "chrome_android": "85",
+     "edge": "85",
+     "firefox": "125",
+     "firefox_android": "125",
+     "safari": "18",
+     "safari_ios": "18"
+    }
+   }
+  },
+  "support": {
+   "chrome": "108",
+   "chrome_android": "108",
+   "edge": "108",
+   "firefox": "130",
+   "firefox_android": "130",
+   "safari": "26",
+   "safari_ios": "26"
+  }
+ },
+ "id": "content-visibility",
+ "groups": [
+  "css"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-contain-2/#content-visibility",
+   "seriesComposition": "full",
+   "shortname": "css-contain-2",
+   "series": {
+    "shortname": "css-contain",
+    "currentSpecification": "css-contain-2",
+    "title": "CSS Containment",
+    "shortTitle": "CSS Containment",
+    "releaseUrl": "https://www.w3.org/TR/css-contain/",
+    "nightlyUrl": "https://drafts.csswg.org/css-contain/"
+   },
+   "seriesVersion": "2",
+   "seriesPrevious": "css-contain-1",
+   "seriesNext": "css-contain-3",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-contain-2/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-contain-2/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-contain-2/",
+     "https://w3c.github.io/csswg-drafts/css-contain/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-contain-2/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Containment Module Level 2",
+   "source": "w3c",
+   "shortTitle": "CSS Containment 2",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-contain"
+    ]
+   },
+   "fragment": "content-visibility"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/content-visibility",
+   "title": "content-visibility",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/content-visibility"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/135",
+   "position": "positive",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.07949954,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/148"
+ },
+ "interop": [
+  {
+   "year": 2023,
+   "label": "interop-2023-contain",
+   "url": "https://wpt.fyi/interop-2023?feature=interop-2023-contain"
+  }
+ ],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:content-visibility"
+ },
+ "developerSignals": null,
+ "bugs": {
+  "safari": [
+   "https://webkit.org/b/283846"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/283846"
+  ],
+  "webview_ios": [
+   "https://webkit.org/b/283846"
+  ]
+ },
+ "baselineLowDateAsObject": "2025-09-15T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2028-03-15"
+}

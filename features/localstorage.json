@@ -1,0 +1,358 @@
+{
+ "caniuse": [
+  "namevalue-storage"
+ ],
+ "compat_features": [
+  "api.Storage",
+  "api.Storage.clear",
+  "api.Storage.getItem",
+  "api.Storage.key",
+  "api.Storage.length",
+  "api.Storage.removeItem",
+  "api.Storage.setItem",
+  "api.StorageEvent",
+  "api.StorageEvent.StorageEvent",
+  "api.StorageEvent.key",
+  "api.StorageEvent.newValue",
+  "api.StorageEvent.oldValue",
+  "api.StorageEvent.storageArea",
+  "api.StorageEvent.url",
+  "api.Window.localStorage",
+  "api.Window.sessionStorage",
+  "api.Window.storage_event"
+ ],
+ "description": "The localStorage and sessionStorage APIs store data as key-value pairs. While localStorage persists across sessions, sessionStorage data is discarded when the page is closed.",
+ "description_html": "The <code>localStorage</code> and <code>sessionStorage</code> APIs store data as key-value pairs. While <code>localStorage</code> persists across sessions, <code>sessionStorage</code> data is discarded when the page is closed.",
+ "group": [
+  "storage"
+ ],
+ "kind": "feature",
+ "name": "localStorage and sessionStorage",
+ "spec": [
+  "https://storage.spec.whatwg.org/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "api.Storage": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "6",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.Storage.clear": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "6",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.Storage.getItem": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "6",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.Storage.key": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "6",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.Storage.length": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "6",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.Storage.removeItem": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "6",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.Storage.setItem": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "6",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.StorageEvent": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "13",
+     "firefox_android": "14",
+     "safari": "4",
+     "safari_ios": "3"
+    }
+   },
+   "api.StorageEvent.StorageEvent": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-30",
+    "baseline_low_date": "2018-04-30",
+    "support": {
+     "chrome": "17",
+     "chrome_android": "18",
+     "edge": "17",
+     "firefox": "13",
+     "firefox_android": "14",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.StorageEvent.key": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "13",
+     "firefox_android": "14",
+     "safari": "4",
+     "safari_ios": "3"
+    }
+   },
+   "api.StorageEvent.newValue": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "13",
+     "firefox_android": "14",
+     "safari": "4",
+     "safari_ios": "3"
+    }
+   },
+   "api.StorageEvent.oldValue": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "13",
+     "firefox_android": "14",
+     "safari": "4",
+     "safari_ios": "3"
+    }
+   },
+   "api.StorageEvent.storageArea": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "3",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "13",
+     "firefox_android": "14",
+     "safari": "4",
+     "safari_ios": "3"
+    }
+   },
+   "api.StorageEvent.url": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "6",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "13",
+     "firefox_android": "14",
+     "safari": "5",
+     "safari_ios": "5"
+    }
+   },
+   "api.Window.localStorage": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.Window.sessionStorage": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "2",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.Window.storage_event": {
+    "baseline": "high",
+    "baseline_high_date": "2019-10-05",
+    "baseline_low_date": "2017-04-05",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "15",
+     "firefox": "45",
+     "firefox_android": "45",
+     "safari": "4",
+     "safari_ios": "4"
+    }
+   }
+  },
+  "support": {
+   "chrome": "4",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "3.5",
+   "firefox_android": "6",
+   "safari": "4",
+   "safari_ios": "3.2"
+  }
+ },
+ "id": "localstorage",
+ "groups": [
+  "storage"
+ ],
+ "specs": [
+  {
+   "url": "https://storage.spec.whatwg.org/",
+   "seriesComposition": "full",
+   "shortname": "storage",
+   "series": {
+    "shortname": "storage",
+    "currentSpecification": "storage",
+    "title": "Storage",
+    "shortTitle": "Storage",
+    "nightlyUrl": "https://storage.spec.whatwg.org/"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "Storage Workstream",
+     "url": "https://storage.spec.whatwg.org/"
+    }
+   ],
+   "nightly": {
+    "url": "https://storage.spec.whatwg.org/",
+    "status": "Living Standard",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/storage",
+    "sourcePath": "storage.bs",
+    "filename": "index.html"
+   },
+   "title": "Storage",
+   "source": "whatwg",
+   "shortTitle": "Storage",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "storage"
+    ],
+    "excludePaths": [
+     "storage/buckets"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Web_Storage_API",
+   "title": "Web Storage API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Web_Storage_API"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:localstorage"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

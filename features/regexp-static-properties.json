@@ -1,0 +1,173 @@
+{
+ "compat_features": [
+  "javascript.builtins.RegExp.input",
+  "javascript.builtins.RegExp.lastMatch",
+  "javascript.builtins.RegExp.lastParen",
+  "javascript.builtins.RegExp.leftContext",
+  "javascript.builtins.RegExp.n",
+  "javascript.builtins.RegExp.rightContext"
+ ],
+ "description": "The RegExp object has several static properties to access the input and results of the most-recent regular expression match.",
+ "description_html": "The <code>RegExp</code> object has several static properties to access the input and results of the most-recent regular expression match.",
+ "discouraged": {
+  "according_to": [
+   "https://github.com/tc39/proposal-regexp-legacy-features"
+  ],
+  "reason": "The RegExp static properties may have unintended side effects.",
+  "reason_html": "The <code>RegExp</code> static properties may have unintended side effects."
+ },
+ "group": [
+  "regexps"
+ ],
+ "kind": "feature",
+ "name": "RegExp static properties",
+ "spec": [
+  "https://github.com/tc39/proposal-regexp-legacy-features"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "javascript.builtins.RegExp.input": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.RegExp.lastMatch": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.RegExp.lastParen": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.RegExp.leftContext": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.RegExp.n": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "javascript.builtins.RegExp.rightContext": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   }
+  },
+  "support": {
+   "chrome": "1",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "1",
+   "firefox_android": "4",
+   "safari": "3",
+   "safari_ios": "1"
+  }
+ },
+ "id": "regexp-static-properties",
+ "groups": [
+  "regexps"
+ ],
+ "specs": [
+  {
+   "url": "https://github.com/tc39/proposal-regexp-legacy-features"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/JavaScript/Reference/Global_Objects/RegExp/input",
+   "title": "RegExp.input ($_)",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/input"
+  },
+  {
+   "slug": "Web/JavaScript/Reference/Global_Objects/RegExp/lastMatch",
+   "title": "RegExp.lastMatch ($&)",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/lastMatch"
+  },
+  {
+   "slug": "Web/JavaScript/Reference/Global_Objects/RegExp/lastParen",
+   "title": "RegExp.lastParen ($+)",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/lastParen"
+  },
+  {
+   "slug": "Web/JavaScript/Reference/Global_Objects/RegExp/leftContext",
+   "title": "RegExp.leftContext ($`)",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/leftContext"
+  },
+  {
+   "slug": "Web/JavaScript/Reference/Global_Objects/RegExp/n",
+   "title": "RegExp.$1, …, RegExp.$9",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/n"
+  },
+  {
+   "slug": "Web/JavaScript/Reference/Global_Objects/RegExp/rightContext",
+   "title": "RegExp.rightContext ($')",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/rightContext"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.06316279,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/395"
+ },
+ "interop": [],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

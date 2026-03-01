@@ -1,0 +1,131 @@
+{
+ "compat_features": [
+  "api.XRSession.environmentBlendMode",
+  "api.XRSession.interactionMode",
+  "api.XRView.isFirstPersonObserver"
+ ],
+ "description": "The \"immersive-ar\" value for navigator.xr.requestSession() starts an augmented reality WebXR session that renders content aligned with the visible environment.",
+ "description_html": "The <code>\"immersive-ar\"</code> value for <code>navigator.xr.requestSession()</code> starts an augmented reality WebXR session that renders content aligned with the visible environment.",
+ "group": [
+  "webxr"
+ ],
+ "kind": "feature",
+ "name": "Augmented reality",
+ "spec": [
+  "https://immersive-web.github.io/webxr-ar-module/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.XRSession.environmentBlendMode": {
+    "baseline": false,
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81"
+    }
+   },
+   "api.XRSession.interactionMode": {
+    "baseline": false,
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84"
+    }
+   },
+   "api.XRView.isFirstPersonObserver": {
+    "baseline": false,
+    "support": {
+     "chrome": "86",
+     "chrome_android": "86",
+     "edge": "86"
+    }
+   }
+  },
+  "support": {
+   "chrome": "86",
+   "chrome_android": "86",
+   "edge": "86"
+  }
+ },
+ "id": "webxr-ar",
+ "groups": [
+  "webxr"
+ ],
+ "specs": [
+  {
+   "url": "https://immersive-web.github.io/webxr-ar-module/",
+   "seriesComposition": "full",
+   "shortname": "webxr-ar-module-1",
+   "series": {
+    "shortname": "webxr-ar-module",
+    "currentSpecification": "webxr-ar-module-1",
+    "title": "WebXR Augmented Reality",
+    "shortTitle": "WebXR Augmented Reality",
+    "releaseUrl": "https://www.w3.org/TR/webxr-ar-module/",
+    "nightlyUrl": "https://immersive-web.github.io/webxr-ar-module/"
+   },
+   "seriesVersion": "1",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Immersive Web Working Group",
+     "url": "https://www.w3.org/immersive-web/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/webxr-ar-module-1/",
+    "status": "Candidate Recommendation Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://immersive-web.github.io/webxr-ar-module/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/immersive-web/webxr-ar-module",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "WebXR Augmented Reality Module - Level 1",
+   "source": "w3c",
+   "shortTitle": "WebXR Augmented Reality 1",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "webxr/ar-module"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/XRSystem/requestSession#mode",
+   "title": "XRSystem: requestSession() method",
+   "anchor": "mode",
+   "url": "https://developer.mozilla.org/docs/Web/API/XRSystem/requestSession#mode"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 1.2e-7,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/403"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:webxr-ar"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/131",
+  "votes": 0
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

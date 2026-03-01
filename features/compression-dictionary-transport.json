@@ -1,0 +1,182 @@
+{
+ "compat_features": [
+  "html.elements.link.rel.compression-dictionary",
+  "http.headers.Accept-Encoding.dcb",
+  "http.headers.Accept-Encoding.dcz",
+  "http.headers.Available-Dictionary",
+  "http.headers.Content-Encoding.dcb",
+  "http.headers.Content-Encoding.dcz",
+  "http.headers.Dictionary-ID",
+  "http.headers.Use-As-Dictionary"
+ ],
+ "description": "Compression Dictionary Transport is a mechanism for using designated HTTP responses as an external dictionary for future HTTP responses for compression schemes that support using external dictionaries (e.g., Brotli and Zstandard)",
+ "description_html": "Compression Dictionary Transport is a mechanism for using designated HTTP responses as an external dictionary for future HTTP responses for compression schemes that support using external dictionaries (e.g., Brotli and Zstandard)",
+ "kind": "feature",
+ "name": "Compression Dictionary Transport",
+ "spec": [
+  "https://httpwg.org/specs/rfc9842.html"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "html.elements.link.rel.compression-dictionary": {
+    "baseline": false,
+    "support": {
+     "chrome": "130",
+     "chrome_android": "130",
+     "edge": "130"
+    }
+   },
+   "http.headers.Accept-Encoding.dcb": {
+    "baseline": false,
+    "support": {
+     "chrome": "130",
+     "chrome_android": "130",
+     "edge": "130"
+    }
+   },
+   "http.headers.Accept-Encoding.dcz": {
+    "baseline": false,
+    "support": {
+     "chrome": "130",
+     "chrome_android": "130",
+     "edge": "130"
+    }
+   },
+   "http.headers.Available-Dictionary": {
+    "baseline": false,
+    "support": {
+     "chrome": "130",
+     "chrome_android": "130",
+     "edge": "130"
+    }
+   },
+   "http.headers.Content-Encoding.dcb": {
+    "baseline": false,
+    "support": {
+     "chrome": "130",
+     "chrome_android": "130",
+     "edge": "130"
+    }
+   },
+   "http.headers.Content-Encoding.dcz": {
+    "baseline": false,
+    "support": {
+     "chrome": "130",
+     "chrome_android": "130",
+     "edge": "130"
+    }
+   },
+   "http.headers.Dictionary-ID": {
+    "baseline": false,
+    "support": {
+     "chrome": "130",
+     "chrome_android": "130",
+     "edge": "130"
+    }
+   },
+   "http.headers.Use-As-Dictionary": {
+    "baseline": false,
+    "support": {
+     "chrome": "130",
+     "chrome_android": "130",
+     "edge": "130"
+    }
+   }
+  },
+  "support": {
+   "chrome": "130",
+   "chrome_android": "130",
+   "edge": "130"
+  }
+ },
+ "id": "compression-dictionary-transport",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://httpwg.org/specs/rfc9842.html",
+   "seriesComposition": "full",
+   "shortname": "rfc9842",
+   "series": {
+    "shortname": "rfc9842",
+    "currentSpecification": "rfc9842",
+    "title": "Compression Dictionary Transport",
+    "shortTitle": "Compression Dictionary Transport",
+    "nightlyUrl": "https://httpwg.org/specs/rfc9842.html"
+   },
+   "formerNames": [
+    "compression-dictionary"
+   ],
+   "organization": "IETF",
+   "groups": [
+    {
+     "name": "HTTP Working Group",
+     "url": "https://datatracker.ietf.org/wg/httpbis/"
+    }
+   ],
+   "nightly": {
+    "url": "https://httpwg.org/specs/rfc9842.html",
+    "status": "Proposed Standard",
+    "alternateUrls": [
+     "https://datatracker.ietf.org/doc/html/rfc9842",
+     "https://tools.ietf.org/html/rfc9842"
+    ],
+    "repository": "https://github.com/httpwg/httpwg.github.io",
+    "sourcePath": "specs/rfc9842.xml",
+    "filename": "rfc9842.html"
+   },
+   "title": "Compression Dictionary Transport",
+   "source": "ietf",
+   "shortTitle": "Compression Dictionary Transport",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/HTTP/Guides/Compression_dictionary_transport",
+   "title": "Compression Dictionary Transport",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/HTTP/Guides/Compression_dictionary_transport"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.086107,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/315"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:compression-dictionary-transport"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/258",
+  "votes": 4
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1882979",
+   "https://bugzil.la/1918013",
+   "https://bugzil.la/1917963",
+   "https://bugzil.la/1917974",
+   "https://bugzil.la/1917965",
+   "https://bugzil.la/1917979",
+   "https://bugzil.la/1917982"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/1918013",
+   "https://bugzil.la/1917963",
+   "https://bugzil.la/1917974",
+   "https://bugzil.la/1917965",
+   "https://bugzil.la/1917979",
+   "https://bugzil.la/1917982"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

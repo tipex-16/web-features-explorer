@@ -1,0 +1,268 @@
+{
+ "compat_features": [
+  "css.at-rules.media.forced-colors",
+  "css.properties.forced-color-adjust",
+  "css.properties.forced-color-adjust.auto",
+  "css.properties.forced-color-adjust.none",
+  "css.properties.forced-color-adjust.preserve-parent-color"
+ ],
+ "description": "The forced-colors CSS @media rule detects when a user has chosen to use a forced colors mode, also known as high-contrast mode, and the forced-color-adjust CSS property sets whether forced colors apply to an element.",
+ "description_html": "The <code>forced-colors</code> CSS @media rule detects when a user has chosen to use a forced colors mode, also known as high-contrast mode, and the <code>forced-color-adjust</code> CSS property sets whether forced colors apply to an element.",
+ "group": [
+  "css"
+ ],
+ "kind": "feature",
+ "name": "Forced colors",
+ "spec": [
+  "https://drafts.csswg.org/mediaqueries-5/#forced-colors",
+  "https://drafts.csswg.org/css-color-adjust-1/#forced-color-adjust-prop"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2025-03-12",
+  "baseline_low_date": "2022-09-12",
+  "by_compat_key": {
+   "css.at-rules.media.forced-colors": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-12",
+    "baseline_low_date": "2022-09-12",
+    "support": {
+     "chrome": "89",
+     "chrome_android": "89",
+     "edge": "79",
+     "firefox": "89",
+     "firefox_android": "89",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "css.properties.forced-color-adjust": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "chrome_android": "89",
+     "edge": "79",
+     "firefox": "113",
+     "firefox_android": "113"
+    }
+   },
+   "css.properties.forced-color-adjust.auto": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "chrome_android": "89",
+     "edge": "79",
+     "firefox": "113",
+     "firefox_android": "113"
+    }
+   },
+   "css.properties.forced-color-adjust.none": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "chrome_android": "89",
+     "edge": "79",
+     "firefox": "113",
+     "firefox_android": "113"
+    }
+   },
+   "css.properties.forced-color-adjust.preserve-parent-color": {
+    "baseline": false,
+    "support": {
+     "chrome": "106",
+     "chrome_android": "106",
+     "edge": "106"
+    }
+   }
+  },
+  "support": {
+   "chrome": "89",
+   "chrome_android": "89",
+   "edge": "79",
+   "firefox": "89",
+   "firefox_android": "89",
+   "safari": "16",
+   "safari_ios": "16"
+  }
+ },
+ "id": "forced-colors",
+ "groups": [
+  "css"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/mediaqueries-5/#forced-colors",
+   "seriesComposition": "delta",
+   "shortname": "mediaqueries-5",
+   "series": {
+    "shortname": "mediaqueries",
+    "currentSpecification": "mediaqueries-4",
+    "title": "Media Queries",
+    "shortTitle": "Media Queries",
+    "releaseUrl": "https://www.w3.org/TR/mediaqueries/",
+    "nightlyUrl": "https://drafts.csswg.org/mediaqueries/"
+   },
+   "seriesVersion": "5",
+   "seriesPrevious": "mediaqueries-4",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/mediaqueries-5/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/mediaqueries-5/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/mediaqueries-5/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "mediaqueries-5/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "Media Queries Level 5",
+   "source": "w3c",
+   "shortTitle": "Media Queries 5",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/mediaqueries"
+    ]
+   },
+   "fragment": "forced-colors"
+  },
+  {
+   "url": "https://drafts.csswg.org/css-color-adjust-1/#forced-color-adjust-prop",
+   "seriesComposition": "full",
+   "shortname": "css-color-adjust-1",
+   "series": {
+    "shortname": "css-color-adjust",
+    "currentSpecification": "css-color-adjust-1",
+    "title": "CSS Color Adjustment",
+    "shortTitle": "CSS Color Adjustment",
+    "releaseUrl": "https://www.w3.org/TR/css-color-adjust/",
+    "nightlyUrl": "https://drafts.csswg.org/css-color-adjust/"
+   },
+   "seriesVersion": "1",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-color-adjust-1/",
+    "status": "Candidate Recommendation Snapshot",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-color-adjust-1/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-color-adjust-1/",
+     "https://w3c.github.io/csswg-drafts/css-color-adjust/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-color-adjust-1/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Color Adjustment Module Level 1",
+   "source": "w3c",
+   "shortTitle": "CSS Color Adjustment 1",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-color-adjust"
+    ]
+   },
+   "fragment": "forced-color-adjust-prop"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/At-rules/@media/forced-colors",
+   "title": "forced-colors",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/forced-colors"
+  },
+  {
+   "slug": "Web/CSS/Reference/Properties/forced-color-adjust",
+   "title": "forced-color-adjust",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/forced-color-adjust"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/463",
+   "position": "",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_interoperability_features",
+   "question": "usage",
+   "subQuestion": "css_interoperability_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_interoperability_features.freeform.allEditions.1.buckets.19.groupedBuckets.0.groupedBuckets.32.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/features/#reading_list",
+   "question": "reading_list",
+   "subQuestion": "reading_list",
+   "path": "dataAPI.surveys.state_of_css.css2025.reading_list.reading_list.combined.allEditions.0.buckets.19.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/colors/#colors_pain_points",
+   "question": "colors",
+   "subQuestion": "colors_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.colors.colors_pain_points.freeform.allEditions.0.buckets.21.groupedBuckets.1.groupedBuckets.11.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/features/#reading_list",
+   "question": "reading_list",
+   "subQuestion": "reading_list",
+   "path": "dataAPI.surveys.state_of_css.css2024.reading_list.reading_list.responses.currentEdition.buckets.19.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2024.features.all_features.42.entity"
+  }
+ ],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.33869748,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/165"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:forced-colors"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2022-09-12T00:00:00.000Z",
+ "baselineHighDateAsObject": "2025-03-12T00:00:00.000Z"
+}

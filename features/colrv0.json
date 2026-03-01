@@ -1,0 +1,98 @@
+{
+ "caniuse": [
+  "colr"
+ ],
+ "compat_features": [
+  "css.at-rules.font-face.OpenType_COLRv0"
+ ],
+ "description": "COLRv0 is a font format that supports multi-color glyphs. COLRv0 supports only solid colors.",
+ "description_html": "COLRv0 is a font format that supports multi-color glyphs. COLRv0 supports only solid colors.",
+ "group": [
+  "fonts"
+ ],
+ "kind": "feature",
+ "name": "COLRv0",
+ "spec": [
+  "https://www.iso.org/standard/87621.html"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2022-07-15",
+  "baseline_low_date": "2020-01-15",
+  "by_compat_key": {
+   "css.at-rules.font-face.OpenType_COLRv0": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "53",
+     "chrome_android": "53",
+     "edge": "79",
+     "firefox": "31",
+     "firefox_android": "31",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   }
+  },
+  "support": {
+   "chrome": "53",
+   "chrome_android": "53",
+   "edge": "79",
+   "firefox": "31",
+   "firefox_android": "31",
+   "safari": "11.1",
+   "safari_ios": "11.3"
+  }
+ },
+ "id": "colrv0",
+ "groups": [
+  "fonts"
+ ],
+ "specs": [
+  {
+   "url": "https://www.iso.org/standard/87621.html",
+   "seriesComposition": "full",
+   "shortname": "iso14496-22",
+   "series": {
+    "shortname": "iso14496-22",
+    "currentSpecification": "iso14496-22",
+    "title": "Information technology — Coding of audio-visual objects — Part 22: Open font format",
+    "shortTitle": "Open Font Format"
+   },
+   "shortTitle": "Open Font Format",
+   "organization": "ISO/IEC",
+   "groups": [
+    {
+     "name": "ISO/IEC JTC 1/SC 29",
+     "url": "https://www.iso.org/committee/45316.html"
+    }
+   ],
+   "title": "Information technology — Coding of audio-visual objects — Part 22: Open font format",
+   "source": "spec",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/At-rules/@font-face",
+   "title": "@font-face",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2020-01-15T00:00:00.000Z",
+ "baselineHighDateAsObject": "2022-07-15T00:00:00.000Z"
+}

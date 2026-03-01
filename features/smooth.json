@@ -1,0 +1,110 @@
+{
+ "compat_features": [
+  "css.properties.image-rendering.smooth"
+ ],
+ "description": "The image-rendering: smooth CSS declaration scales images while retaining a gradual color blending that is useful for photos.",
+ "description_html": "The <code>image-rendering: smooth</code> CSS declaration scales images while retaining a gradual color blending that is useful for photos.",
+ "group": [
+  "image-scaling"
+ ],
+ "kind": "feature",
+ "name": "image-rendering: smooth",
+ "spec": [
+  "https://drafts.csswg.org/css-images-3/#the-image-rendering"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "css.properties.image-rendering.smooth": {
+    "baseline": false,
+    "support": {
+     "firefox": "93",
+     "firefox_android": "93"
+    }
+   }
+  },
+  "support": {
+   "firefox": "93",
+   "firefox_android": "93"
+  }
+ },
+ "id": "smooth",
+ "groups": [
+  "image-scaling"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-images-3/#the-image-rendering",
+   "seriesComposition": "full",
+   "shortname": "css-images-3",
+   "series": {
+    "shortname": "css-images",
+    "currentSpecification": "css-images-3",
+    "title": "CSS Images",
+    "shortTitle": "CSS Images",
+    "releaseUrl": "https://www.w3.org/TR/css-images/",
+    "nightlyUrl": "https://drafts.csswg.org/css-images/"
+   },
+   "seriesVersion": "3",
+   "shortTitle": "CSS Images 3",
+   "seriesNext": "css-images-4",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-images-3/",
+    "status": "Candidate Recommendation Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-images-3/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-images-3/",
+     "https://w3c.github.io/csswg-drafts/css-images/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-images-3/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Images Module Level 3",
+   "source": "w3c",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-images"
+    ]
+   },
+   "fragment": "the-image-rendering"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/image-rendering",
+   "title": "image-rendering",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/image-rendering"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/154",
+  "votes": 2
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

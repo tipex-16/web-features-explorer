@@ -1,0 +1,140 @@
+{
+ "compat_features": [
+  "css.at-rules.media.-webkit-device-pixel-ratio",
+  "css.at-rules.media.-webkit-max-device-pixel-ratio",
+  "css.at-rules.media.-webkit-min-device-pixel-ratio"
+ ],
+ "description": "The -webkit-device-pixel-ratio, -webkit-min-device-pixel-ratio, and -webkit-max-device-pixel-ratio CSS media queries are standardized compatibility alternatives to resolution media queries.",
+ "description_html": "The <code>-webkit-device-pixel-ratio</code>, <code>-webkit-min-device-pixel-ratio</code>, and <code>-webkit-max-device-pixel-ratio</code> CSS media queries are standardized compatibility alternatives to <code>resolution</code> media queries.",
+ "group": [
+  "media-queries"
+ ],
+ "kind": "feature",
+ "name": "resolution media query (compatibility prefixes)",
+ "spec": [
+  "https://compat.spec.whatwg.org/#css-media-queries-webkit-device-pixel-ratio"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2021-04-23",
+  "baseline_low_date": "2018-10-23",
+  "by_compat_key": {
+   "css.at-rules.media.-webkit-device-pixel-ratio": {
+    "baseline": "high",
+    "baseline_high_date": "2021-04-23",
+    "baseline_low_date": "2018-10-23",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "63",
+     "firefox_android": "63",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "css.at-rules.media.-webkit-max-device-pixel-ratio": {
+    "baseline": "high",
+    "baseline_high_date": "2021-04-23",
+    "baseline_low_date": "2018-10-23",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "63",
+     "firefox_android": "63",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "css.at-rules.media.-webkit-min-device-pixel-ratio": {
+    "baseline": "high",
+    "baseline_high_date": "2021-04-23",
+    "baseline_low_date": "2018-10-23",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "63",
+     "firefox_android": "63",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   }
+  },
+  "support": {
+   "chrome": "1",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "63",
+   "firefox_android": "63",
+   "safari": "3",
+   "safari_ios": "1"
+  }
+ },
+ "id": "resolution-compat",
+ "groups": [
+  "media-queries"
+ ],
+ "specs": [
+  {
+   "url": "https://compat.spec.whatwg.org/#css-media-queries-webkit-device-pixel-ratio",
+   "seriesComposition": "full",
+   "shortname": "compat",
+   "series": {
+    "shortname": "compat",
+    "currentSpecification": "compat",
+    "title": "Compatibility",
+    "shortTitle": "Compatibility",
+    "nightlyUrl": "https://compat.spec.whatwg.org/"
+   },
+   "nightly": {
+    "url": "https://compat.spec.whatwg.org/",
+    "status": "Living Standard",
+    "sourcePath": "compatibility.bs",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/compat",
+    "filename": "index.html"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "Compatibility Workstream",
+     "url": "https://compat.spec.whatwg.org/"
+    }
+   ],
+   "title": "Compatibility",
+   "source": "whatwg",
+   "shortTitle": "Compatibility",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "compat"
+    ]
+   },
+   "fragment": "css-media-queries-webkit-device-pixel-ratio"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/At-rules/@media/-webkit-device-pixel-ratio",
+   "title": "-webkit-device-pixel-ratio",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/-webkit-device-pixel-ratio"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2018-10-23T00:00:00.000Z",
+ "baselineHighDateAsObject": "2021-04-23T00:00:00.000Z"
+}

@@ -1,0 +1,288 @@
+{
+ "compat_features": [
+  "css.types.acos",
+  "css.types.asin",
+  "css.types.atan",
+  "css.types.atan2",
+  "css.types.cos",
+  "css.types.sin",
+  "css.types.tan"
+ ],
+ "description": "The sin(), cos(), tan(), asin(), acos(), atan(), and atan2() CSS functions compute various trigonometric functions.",
+ "description_html": "The <code>sin()</code>, <code>cos()</code>, <code>tan()</code>, <code>asin()</code>, <code>acos()</code>, <code>atan()</code>, and <code>atan2()</code> CSS functions compute various trigonometric functions.",
+ "group": [
+  "css"
+ ],
+ "kind": "feature",
+ "name": "sin(), cos(), tan(), asin(), acos(), atan(), and atan2() (CSS)",
+ "spec": [
+  "https://drafts.csswg.org/css-values-4/#trig-funcs"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2025-09-13",
+  "baseline_low_date": "2023-03-13",
+  "by_compat_key": {
+   "css.types.acos": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-13",
+    "baseline_low_date": "2023-03-13",
+    "support": {
+     "chrome": "111",
+     "chrome_android": "111",
+     "edge": "111",
+     "firefox": "108",
+     "firefox_android": "108",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.types.asin": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-13",
+    "baseline_low_date": "2023-03-13",
+    "support": {
+     "chrome": "111",
+     "chrome_android": "111",
+     "edge": "111",
+     "firefox": "108",
+     "firefox_android": "108",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.types.atan": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-13",
+    "baseline_low_date": "2023-03-13",
+    "support": {
+     "chrome": "111",
+     "chrome_android": "111",
+     "edge": "111",
+     "firefox": "108",
+     "firefox_android": "108",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.types.atan2": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-13",
+    "baseline_low_date": "2023-03-13",
+    "support": {
+     "chrome": "111",
+     "chrome_android": "111",
+     "edge": "111",
+     "firefox": "108",
+     "firefox_android": "108",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.types.cos": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-13",
+    "baseline_low_date": "2023-03-13",
+    "support": {
+     "chrome": "111",
+     "chrome_android": "111",
+     "edge": "111",
+     "firefox": "108",
+     "firefox_android": "108",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.types.sin": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-13",
+    "baseline_low_date": "2023-03-13",
+    "support": {
+     "chrome": "111",
+     "chrome_android": "111",
+     "edge": "111",
+     "firefox": "108",
+     "firefox_android": "108",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.types.tan": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-13",
+    "baseline_low_date": "2023-03-13",
+    "support": {
+     "chrome": "111",
+     "chrome_android": "111",
+     "edge": "111",
+     "firefox": "108",
+     "firefox_android": "108",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   }
+  },
+  "support": {
+   "chrome": "111",
+   "chrome_android": "111",
+   "edge": "111",
+   "firefox": "108",
+   "firefox_android": "108",
+   "safari": "15.4",
+   "safari_ios": "15.4"
+  }
+ },
+ "id": "trig-functions",
+ "groups": [
+  "css"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-values-4/#trig-funcs",
+   "seriesComposition": "full",
+   "shortname": "css-values-4",
+   "series": {
+    "shortname": "css-values",
+    "currentSpecification": "css-values-4",
+    "title": "CSS Values and Units",
+    "shortTitle": "CSS Values",
+    "releaseUrl": "https://www.w3.org/TR/css-values/",
+    "nightlyUrl": "https://drafts.csswg.org/css-values/"
+   },
+   "seriesVersion": "4",
+   "shortTitle": "CSS Values 4",
+   "seriesPrevious": "css-values-3",
+   "seriesNext": "css-values-5",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-values-4/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-values-4/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-values-4/",
+     "https://w3c.github.io/csswg-drafts/css-values/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-values-4/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Values and Units Module Level 4",
+   "source": "w3c",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-values"
+    ]
+   },
+   "fragment": "trig-funcs"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Values/sin",
+   "title": "sin()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/sin"
+  },
+  {
+   "slug": "Web/CSS/Reference/Values/cos",
+   "title": "cos()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/cos"
+  },
+  {
+   "slug": "Web/CSS/Reference/Values/tan",
+   "title": "tan()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/tan"
+  },
+  {
+   "slug": "Web/CSS/Reference/Values/asin",
+   "title": "asin()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/asin"
+  },
+  {
+   "slug": "Web/CSS/Reference/Values/acos",
+   "title": "acos()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/acos"
+  },
+  {
+   "slug": "Web/CSS/Reference/Values/atan",
+   "title": "atan()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/atan"
+  },
+  {
+   "slug": "Web/CSS/Reference/Values/atan2",
+   "title": "atan2()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/atan2"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#favorite_new_features",
+   "question": "usage",
+   "subQuestion": "favorite_new_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.favorite_new_features.freeform.allEditions.0.buckets.21.groupedBuckets.1.groupedBuckets.29.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_interoperability_features",
+   "question": "usage",
+   "subQuestion": "css_interoperability_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_interoperability_features.freeform.allEditions.0.buckets.21.groupedBuckets.1.groupedBuckets.22.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.42.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2024.features.all_features.46.entity"
+  }
+ ],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00481945,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/177"
+ },
+ "interop": [
+  {
+   "year": 2023,
+   "label": "interop-2023-mathfunctions",
+   "url": "https://wpt.fyi/interop-2023?feature=interop-2023-mathfunctions"
+  }
+ ],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:trig-functions"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2023-03-13T00:00:00.000Z",
+ "baselineHighDateAsObject": "2025-09-13T00:00:00.000Z"
+}

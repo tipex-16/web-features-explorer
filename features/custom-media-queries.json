@@ -1,0 +1,142 @@
+{
+ "compat_features": [
+  "api.CSSCustomMediaRule",
+  "css.at-rules.custom-media"
+ ],
+ "description": "The @custom-media CSS at-rule names a media query, which you can reuse in multiple @media rules.",
+ "description_html": "The <code>@custom-media</code> CSS at-rule names a media query, which you can reuse in multiple <code>@media</code> rules.",
+ "group": [
+  "media-queries"
+ ],
+ "kind": "feature",
+ "name": "Custom media queries",
+ "spec": [
+  "https://drafts.csswg.org/mediaqueries-5/#custom-mq"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.CSSCustomMediaRule": {
+    "baseline": false,
+    "support": {}
+   },
+   "css.at-rules.custom-media": {
+    "baseline": false,
+    "support": {}
+   }
+  },
+  "support": {}
+ },
+ "id": "custom-media-queries",
+ "groups": [
+  "media-queries"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/mediaqueries-5/#custom-mq",
+   "seriesComposition": "delta",
+   "shortname": "mediaqueries-5",
+   "series": {
+    "shortname": "mediaqueries",
+    "currentSpecification": "mediaqueries-4",
+    "title": "Media Queries",
+    "shortTitle": "Media Queries",
+    "releaseUrl": "https://www.w3.org/TR/mediaqueries/",
+    "nightlyUrl": "https://drafts.csswg.org/mediaqueries/"
+   },
+   "seriesVersion": "5",
+   "seriesPrevious": "mediaqueries-4",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/mediaqueries-5/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/mediaqueries-5/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/mediaqueries-5/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "mediaqueries-5/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "Media Queries Level 5",
+   "source": "w3c",
+   "shortTitle": "Media Queries 5",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/mediaqueries"
+    ]
+   },
+   "fragment": "custom-mq"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/At-rules/@custom-media",
+   "title": "@custom-media",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@custom-media"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/445",
+  "votes": 21
+ },
+ "bugs": {
+  "chrome": [
+   "https://crbug.com/40781325"
+  ],
+  "chrome_android": [
+   "https://crbug.com/40781325"
+  ],
+  "edge": [
+   "https://crbug.com/40781325"
+  ],
+  "oculus": [
+   "https://crbug.com/40781325"
+  ],
+  "opera": [
+   "https://crbug.com/40781325"
+  ],
+  "opera_android": [
+   "https://crbug.com/40781325"
+  ],
+  "safari": [
+   "https://webkit.org/b/233820"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/233820"
+  ],
+  "samsunginternet_android": [
+   "https://crbug.com/40781325"
+  ],
+  "webview_android": [
+   "https://crbug.com/40781325"
+  ],
+  "webview_ios": [
+   "https://webkit.org/b/233820"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Web platform features explorer - June 2024 release notes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
+    <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
+  </head>
+  <body>
+
+    
+      <header>
+        <a href="/web-features-explorer/">Web platform features explorer</a>
+
+        <nav>
+          <ul>
+            <li><a href="/web-features-explorer/release-notes/february-2026">Release notes</a></li>
+            <li><a href="/web-features-explorer/newly-available">Explore features</a></li>
+            <li><a href="/web-features-explorer/about">About</a></li>
+          </ul>
+          <search>
+            <form>
+              <input type="search" id="search" placeholder="Search">
+            </form>
+          </search>
+        </nav>
+
+        <output for="search"></output>
+      </header>
+    
+
+    
+<main class="release-notes">
+  <h1>📃 June 2024 release notes</h1>
+
+  <div>
+    
+      <section class="baseline-low">
+        <h2>Newly available</h2>
+        <p>The following features are newly available:</p>
+        <ul>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/async-clipboard/">Async clipboard</a></strong>:
+              The <code>navigator.clipboard</code> API asynchronously reads and writes to the system clipboard.
+            </li>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/gradient-interpolation/">Gradient interpolation</a></strong>:
+              Gradient interpolation controls how the colors between gradient stops are calculated in CSS. For example, <code>linear-gradient(to right in oklch longer hue, red, red);</code> calculates in the <code>oklch</code> color space, with the hue going all the way around the hue circle from red back to red.
+            </li>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/set-methods/">Set methods</a></strong>:
+              The <code>difference()</code>, <code>intersection()</code>, <code>isDisjointFrom()</code>, <code>isSubsetOf()</code>, <code>isSupersetOf()</code>, <code>symmetricDifference()</code>, and <code>union()</code> methods of the JavaScript <code>Set</code> object performs operations between two sets.
+            </li>
+          
+        </ul>
+      </section>
+    
+
+    
+      <section class="baseline-high">
+        <h2>Widely available</h2>
+        <p>The following features are now widely available:</p>
+        <ul>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/inputmode/">inputmode</a></strong>:
+              The <code>inputmode</code> global HTML attribute gives a hint about what type of data is to be entered into an <code>&#x3C;input></code> element, such as <code>text</code>, <code>numeric</code>, or <code>email</code>, so the browser may help the user enter data using an adapted input mechanism, such as an on-screen virtual keyboard.
+            </li>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/shared-memory/">SharedArrayBuffer and Atomics</a></strong>:
+              The <code>SharedArrayBuffer</code> object represents bytes shared between multiple workers and the main thread. The <code>Atomics</code> object safely accesses <code>SharedArrayBuffer</code> data to make sure predictable values are read and written and that operations are not interrupted.
+            </li>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/wasm-threads/">Threads and atomics (WebAssembly)</a></strong>:
+              Threads in WebAssembly run code in parallel, while atomic memory instructions can guarantee that no two threads can read or write to shared memory at the same time.
+            </li>
+          
+        </ul>
+      </section>
+    
+
+    
+      
+        <section class="baseline-false chrome">
+          <h2>New in Chrome</h2>
+          <p>The following features are now available in Chrome:</p>
+          <ul>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/closewatcher/">CloseWatcher</a></strong>:
+                The <code>CloseWatcher</code> API listens and responds to close requests on in-page components, such as modals, popovers, and sidebars.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/cross-document-view-transitions/">Cross-document view transitions</a></strong>:
+                The <code>@view-transition</code> CSS rule sets whether a document opts-in to transitions between documents in a multi-page application. Both the old and new document must opt-in for a transition to be triggered.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/fencedframe/">&lt;fencedframe&gt;</a></strong>:
+                The <code>&#x3C;fencedframe></code> element embeds another HTML page into the current page in a more secure and privacy-preserving way than <code>&#x3C;iframe></code> elements.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/shared-storage/">Shared storage</a></strong>:
+                The <code>sharedStorage</code> API stores data to a shared space where the data can then be processed without the ability to track users across the different sites they visit. A common use case is measuring the reach of third-party ads without using user-tracking cookies.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/sizes-auto/">&lt;img sizes="auto" loading="lazy"&gt;</a></strong>:
+                The <code>sizes="auto"</code> attribute for the <code>&#x3C;img></code> HTML element sets the layout size for the image based on the computed layout size when choosing a source from the <code>srcset</code>. This attribute only applies to images with the <code>loading="lazy"</code> attribute.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/topics/">Topics</a></strong>:
+                The topics API reports a user's likely subject-matter interests (as determined by the browser, known as topics) to iframes. This allows for interest-based advertising that does not rely on user's exact browsing history, third-party cookies, or fingerprinting.
+              </li>
+            
+          </ul>
+        </section>
+      
+    
+      
+        <section class="baseline-false chrome_android">
+          <h2>New in Chrome Android</h2>
+          <p>The following features are now available in Chrome Android:</p>
+          <ul>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/closewatcher/">CloseWatcher</a></strong>:
+                The <code>CloseWatcher</code> API listens and responds to close requests on in-page components, such as modals, popovers, and sidebars.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/cross-document-view-transitions/">Cross-document view transitions</a></strong>:
+                The <code>@view-transition</code> CSS rule sets whether a document opts-in to transitions between documents in a multi-page application. Both the old and new document must opt-in for a transition to be triggered.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/fencedframe/">&lt;fencedframe&gt;</a></strong>:
+                The <code>&#x3C;fencedframe></code> element embeds another HTML page into the current page in a more secure and privacy-preserving way than <code>&#x3C;iframe></code> elements.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/shared-storage/">Shared storage</a></strong>:
+                The <code>sharedStorage</code> API stores data to a shared space where the data can then be processed without the ability to track users across the different sites they visit. A common use case is measuring the reach of third-party ads without using user-tracking cookies.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/sizes-auto/">&lt;img sizes="auto" loading="lazy"&gt;</a></strong>:
+                The <code>sizes="auto"</code> attribute for the <code>&#x3C;img></code> HTML element sets the layout size for the image based on the computed layout size when choosing a source from the <code>srcset</code>. This attribute only applies to images with the <code>loading="lazy"</code> attribute.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/topics/">Topics</a></strong>:
+                The topics API reports a user's likely subject-matter interests (as determined by the browser, known as topics) to iframes. This allows for interest-based advertising that does not rely on user's exact browsing history, third-party cookies, or fingerprinting.
+              </li>
+            
+          </ul>
+        </section>
+      
+    
+      
+        <section class="baseline-false edge">
+          <h2>New in Edge</h2>
+          <p>The following features are now available in Edge:</p>
+          <ul>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/closewatcher/">CloseWatcher</a></strong>:
+                The <code>CloseWatcher</code> API listens and responds to close requests on in-page components, such as modals, popovers, and sidebars.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/cross-document-view-transitions/">Cross-document view transitions</a></strong>:
+                The <code>@view-transition</code> CSS rule sets whether a document opts-in to transitions between documents in a multi-page application. Both the old and new document must opt-in for a transition to be triggered.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/fencedframe/">&lt;fencedframe&gt;</a></strong>:
+                The <code>&#x3C;fencedframe></code> element embeds another HTML page into the current page in a more secure and privacy-preserving way than <code>&#x3C;iframe></code> elements.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/shared-storage/">Shared storage</a></strong>:
+                The <code>sharedStorage</code> API stores data to a shared space where the data can then be processed without the ability to track users across the different sites they visit. A common use case is measuring the reach of third-party ads without using user-tracking cookies.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/sizes-auto/">&lt;img sizes="auto" loading="lazy"&gt;</a></strong>:
+                The <code>sizes="auto"</code> attribute for the <code>&#x3C;img></code> HTML element sets the layout size for the image based on the computed layout size when choosing a source from the <code>srcset</code>. This attribute only applies to images with the <code>loading="lazy"</code> attribute.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/topics/">Topics</a></strong>:
+                The topics API reports a user's likely subject-matter interests (as determined by the browser, known as topics) to iframes. This allows for interest-based advertising that does not rely on user's exact browsing history, third-party cookies, or fingerprinting.
+              </li>
+            
+          </ul>
+        </section>
+      
+    
+      
+        <section class="baseline-false firefox">
+          <h2>New in Firefox</h2>
+          <p>The following features are now available in Firefox:</p>
+          <ul>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/clipboard-supports/">ClipboardItem.supports()</a></strong>:
+                The <code>ClipboardItem.supports()</code> static method checks if the browser supports writing data types such as "image/svg+xml" or other custom formats to the system clipboard.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/link-rel-dns-prefetch/">&lt;link rel="dns-prefetch"&gt;</a></strong>:
+                The <code>rel="dns-prefetch"</code> attribute for the <code>&#x3C;link></code> HTML element is a hint to the browser that the page or user is likely to request resources from another domain, so the browser should preemptively resolve DNS for the <code>href</code> value's domain.
+              </li>
+            
+          </ul>
+        </section>
+      
+    
+      
+        <section class="baseline-false firefox_android">
+          <h2>New in Firefox for Android</h2>
+          <p>The following features are now available in Firefox for Android:</p>
+          <ul>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/clipboard-supports/">ClipboardItem.supports()</a></strong>:
+                The <code>ClipboardItem.supports()</code> static method checks if the browser supports writing data types such as "image/svg+xml" or other custom formats to the system clipboard.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/link-rel-dns-prefetch/">&lt;link rel="dns-prefetch"&gt;</a></strong>:
+                The <code>rel="dns-prefetch"</code> attribute for the <code>&#x3C;link></code> HTML element is a hint to the browser that the page or user is likely to request resources from another domain, so the browser should preemptively resolve DNS for the <code>href</code> value's domain.
+              </li>
+            
+          </ul>
+        </section>
+      
+    
+      
+    
+      
+    
+  </div>
+
+  <aside>
+    <h2>Other release notes</h2>
+    <ul>
+      
+        
+          <li class="month-entry">
+            <a href="../february-2026">February 2026</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../january-2026">January 2026</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../december-2025">December 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../november-2025">November 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../october-2025">October 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../september-2025">September 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../august-2025">August 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../july-2025">July 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../june-2025">June 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../may-2025">May 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../april-2025">April 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../march-2025">March 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../february-2025">February 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../january-2025">January 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../december-2024">December 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../november-2024">November 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../october-2024">October 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../september-2024">September 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../august-2024">August 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../july-2024">July 2024</a>
+          </li>
+        
+      
+        
+          <li><a href="../">See all</a></li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </ul>
+  </aside>
+</main>
+
+
+        
+      <script src="/web-features-explorer/assets/search.js" defer=""></script>
+    
+  </body>
+</html>

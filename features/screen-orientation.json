@@ -1,0 +1,176 @@
+{
+ "caniuse": [
+  "screen-orientation"
+ ],
+ "compat_features": [
+  "api.Screen.orientation",
+  "api.ScreenOrientation",
+  "api.ScreenOrientation.angle",
+  "api.ScreenOrientation.change_event",
+  "api.ScreenOrientation.type"
+ ],
+ "description": "The screen.orientation API gets information about the orientation of the viewport, such as landscape or portrait. With this API, you can adapt an application's layout or behavior in response to changes in orientation.",
+ "description_html": "The <code>screen.orientation</code> API gets information about the orientation of the viewport, such as landscape or portrait. With this API, you can adapt an application's layout or behavior in response to changes in orientation.",
+ "kind": "feature",
+ "name": "Screen orientation",
+ "spec": [
+  "https://w3c.github.io/screen-orientation/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2025-09-27",
+  "baseline_low_date": "2023-03-27",
+  "by_compat_key": {
+   "api.Screen.orientation": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "38",
+     "chrome_android": "39",
+     "edge": "79",
+     "firefox": "43",
+     "firefox_android": "43",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ScreenOrientation": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "38",
+     "chrome_android": "38",
+     "edge": "79",
+     "firefox": "43",
+     "firefox_android": "43",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ScreenOrientation.angle": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "38",
+     "chrome_android": "38",
+     "edge": "79",
+     "firefox": "43",
+     "firefox_android": "43",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ScreenOrientation.change_event": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "38",
+     "chrome_android": "38",
+     "edge": "79",
+     "firefox": "43",
+     "firefox_android": "43",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.ScreenOrientation.type": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "38",
+     "chrome_android": "38",
+     "edge": "79",
+     "firefox": "43",
+     "firefox_android": "43",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   }
+  },
+  "support": {
+   "chrome": "38",
+   "chrome_android": "39",
+   "edge": "79",
+   "firefox": "43",
+   "firefox_android": "43",
+   "safari": "16.4",
+   "safari_ios": "16.4"
+  }
+ },
+ "id": "screen-orientation",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/screen-orientation/",
+   "seriesComposition": "full",
+   "shortname": "screen-orientation",
+   "series": {
+    "shortname": "screen-orientation",
+    "currentSpecification": "screen-orientation",
+    "title": "Screen Orientation",
+    "shortTitle": "Screen Orientation",
+    "releaseUrl": "https://www.w3.org/TR/screen-orientation/",
+    "nightlyUrl": "https://w3c.github.io/screen-orientation/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Applications Working Group",
+     "url": "https://www.w3.org/groups/wg/webapps/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/screen-orientation/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/screen-orientation/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/screen-orientation",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Screen Orientation",
+   "source": "w3c",
+   "shortTitle": "Screen Orientation",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "screen-orientation"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Screen_Orientation_API",
+   "title": "Screen Orientation API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Screen_Orientation_API"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:screen-orientation"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2023-03-27T00:00:00.000Z",
+ "baselineHighDateAsObject": "2025-09-27T00:00:00.000Z"
+}

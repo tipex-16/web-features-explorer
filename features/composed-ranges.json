@@ -1,0 +1,135 @@
+{
+ "compat_features": [
+  "api.Selection.getComposedRanges"
+ ],
+ "description": "The window.getSelection().getComposedRanges() method returns ranges that represent the current user selection, even if the selection spans across shadow tree boundaries.",
+ "description_html": "The <code>window.getSelection().getComposedRanges()</code> method returns ranges that represent the current user selection, even if the selection spans across shadow tree boundaries.",
+ "group": [
+  "selection",
+  "web-components"
+ ],
+ "kind": "feature",
+ "name": "Selection composed ranges",
+ "spec": [
+  "https://w3c.github.io/selection-api/#dom-selection-getcomposedranges"
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2025-08-19",
+  "by_compat_key": {
+   "api.Selection.getComposedRanges": {
+    "baseline": "low",
+    "baseline_low_date": "2025-08-19",
+    "support": {
+     "chrome": "137",
+     "chrome_android": "137",
+     "edge": "137",
+     "firefox": "142",
+     "firefox_android": "142",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   }
+  },
+  "support": {
+   "chrome": "137",
+   "chrome_android": "137",
+   "edge": "137",
+   "firefox": "142",
+   "firefox_android": "142",
+   "safari": "17",
+   "safari_ios": "17"
+  }
+ },
+ "id": "composed-ranges",
+ "groups": [
+  "selection",
+  "web-components"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/selection-api/#dom-selection-getcomposedranges",
+   "seriesComposition": "full",
+   "shortname": "selection-api",
+   "series": {
+    "shortname": "selection-api",
+    "currentSpecification": "selection-api",
+    "title": "Selection API",
+    "shortTitle": "Selection API",
+    "releaseUrl": "https://www.w3.org/TR/selection-api/",
+    "nightlyUrl": "https://w3c.github.io/selection-api/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Editing Working Group",
+     "url": "https://www.w3.org/groups/wg/webediting/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/selection-api/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/selection-api/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/selection-api",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Selection API",
+   "source": "w3c",
+   "shortTitle": "Selection API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "selection"
+    ]
+   },
+   "fragment": "dom-selection-getcomposedranges"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Selection/getComposedRanges",
+   "title": "Selection: getComposedRanges() method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Selection/getComposedRanges"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/1055",
+   "position": "positive",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/376",
+   "position": "support",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00007613,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/314"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:composed-ranges"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2025-08-19T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2028-02-19"
+}

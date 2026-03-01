@@ -1,0 +1,296 @@
+{
+ "compat_features": [
+  "api.SVGClipPathElement",
+  "api.SVGClipPathElement.clipPathUnits",
+  "api.SVGClipPathElement.transform",
+  "css.properties.clip-path",
+  "css.properties.clip-path.basic_shape",
+  "css.properties.clip-path.html_elements",
+  "css.properties.clip-path.path",
+  "css.properties.clip-path.svg_elements",
+  "svg.elements.clipPath",
+  "svg.elements.clipPath.clipPathUnits",
+  "svg.elements.clipPath.systemLanguage",
+  "svg.global_attributes.clip-path"
+ ],
+ "description": "The clip-path CSS property and SVG attribute set the visible area of an element. Everything outside the area will be hidden.",
+ "description_html": "The <code>clip-path</code> CSS property and SVG attribute set the visible area of an element. Everything outside the area will be hidden.",
+ "group": [
+  "clipping-shapes-masking"
+ ],
+ "kind": "feature",
+ "name": "clip-path",
+ "spec": [
+  "https://drafts.csswg.org/css-masking-1/#the-clip-path"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2023-07-21",
+  "baseline_low_date": "2021-01-21",
+  "by_compat_key": {
+   "api.SVGClipPathElement": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.SVGClipPathElement.clipPathUnits": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "api.SVGClipPathElement.transform": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.clip-path": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "79",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "9.1",
+     "safari_ios": "9.3"
+    }
+   },
+   "css.properties.clip-path.basic_shape": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "79",
+     "firefox": "54",
+     "firefox_android": "54",
+     "safari": "9.1",
+     "safari_ios": "9.3"
+    }
+   },
+   "css.properties.clip-path.html_elements": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "79",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "9.1",
+     "safari_ios": "9.3"
+    }
+   },
+   "css.properties.clip-path.path": {
+    "baseline": "high",
+    "baseline_high_date": "2023-07-21",
+    "baseline_low_date": "2021-01-21",
+    "support": {
+     "chrome": "88",
+     "chrome_android": "88",
+     "edge": "88",
+     "firefox": "71",
+     "firefox_android": "79",
+     "safari": "13.1",
+     "safari_ios": "13"
+    }
+   },
+   "css.properties.clip-path.svg_elements": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "79",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "9.1",
+     "safari_ios": "9.3"
+    }
+   },
+   "svg.elements.clipPath": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "3"
+    }
+   },
+   "svg.elements.clipPath.clipPathUnits": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "3"
+    }
+   },
+   "svg.elements.clipPath.systemLanguage": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "12",
+     "firefox_android": "14",
+     "safari": "3",
+     "safari_ios": "3"
+    }
+   },
+   "svg.global_attributes.clip-path": {
+    "baseline": "high",
+    "baseline_high_date": "2019-09-07",
+    "baseline_low_date": "2017-03-07",
+    "support": {
+     "chrome": "23",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "52",
+     "firefox_android": "52",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   }
+  },
+  "support": {
+   "chrome": "88",
+   "chrome_android": "88",
+   "edge": "88",
+   "firefox": "71",
+   "firefox_android": "79",
+   "safari": "13.1",
+   "safari_ios": "13"
+  }
+ },
+ "id": "clip-path",
+ "groups": [
+  "clipping-shapes-masking"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-masking-1/#the-clip-path",
+   "seriesComposition": "full",
+   "shortname": "css-masking-1",
+   "series": {
+    "shortname": "css-masking",
+    "currentSpecification": "css-masking-1",
+    "title": "CSS Masking",
+    "shortTitle": "CSS Masking",
+    "releaseUrl": "https://www.w3.org/TR/css-masking/",
+    "nightlyUrl": "https://drafts.csswg.org/css-masking/"
+   },
+   "seriesVersion": "1",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-masking-1/",
+    "status": "Candidate Recommendation Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-masking-1/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-masking-1/",
+     "https://w3c.github.io/csswg-drafts/css-masking/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-masking-1/Overview.bs",
+    "filename": "Overview.html"
+   },
+   "title": "CSS Masking Module Level 1",
+   "source": "w3c",
+   "shortTitle": "CSS Masking 1",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": "the-clip-path"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/clip-path",
+   "title": "clip-path",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/clip-path"
+  },
+  {
+   "slug": "Web/SVG/Reference/Attribute/clip-path",
+   "title": "clip-path",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/clip-path"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.42065697,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/216"
+ },
+ "interop": [
+  {
+   "year": 2023,
+   "label": "interop-2023-cssmasking",
+   "url": "https://wpt.fyi/interop-2023?feature=interop-2023-cssmasking"
+  }
+ ],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:clip-path"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2021-01-21T00:00:00.000Z",
+ "baselineHighDateAsObject": "2023-07-21T00:00:00.000Z"
+}

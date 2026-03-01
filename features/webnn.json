@@ -1,0 +1,597 @@
+{
+ "compat_features": [
+  "api.ML",
+  "api.ML.createContext",
+  "api.MLContext",
+  "api.MLContext.dispatch",
+  "api.MLContext.opSupportLimits",
+  "api.MLGraph",
+  "api.MLGraphBuilder",
+  "api.MLGraphBuilder.MLGraphBuilder",
+  "api.MLGraphBuilder.abs",
+  "api.MLGraphBuilder.add",
+  "api.MLGraphBuilder.argMax",
+  "api.MLGraphBuilder.argMin",
+  "api.MLGraphBuilder.averagePool2d",
+  "api.MLGraphBuilder.batchNormalization",
+  "api.MLGraphBuilder.build",
+  "api.MLGraphBuilder.cast",
+  "api.MLGraphBuilder.ceil",
+  "api.MLGraphBuilder.clamp",
+  "api.MLGraphBuilder.concat",
+  "api.MLGraphBuilder.constant",
+  "api.MLGraphBuilder.conv2d",
+  "api.MLGraphBuilder.convTranspose2d",
+  "api.MLGraphBuilder.cos",
+  "api.MLGraphBuilder.cumulativeSum",
+  "api.MLGraphBuilder.dequantizeLinear",
+  "api.MLGraphBuilder.div",
+  "api.MLGraphBuilder.elu",
+  "api.MLGraphBuilder.equal",
+  "api.MLGraphBuilder.erf",
+  "api.MLGraphBuilder.exp",
+  "api.MLGraphBuilder.expand",
+  "api.MLGraphBuilder.floor",
+  "api.MLGraphBuilder.gather",
+  "api.MLGraphBuilder.gatherElements",
+  "api.MLGraphBuilder.gatherND",
+  "api.MLGraphBuilder.gemm",
+  "api.MLGraphBuilder.greater",
+  "api.MLGraphBuilder.greaterOrEqual",
+  "api.MLGraphBuilder.gru",
+  "api.MLGraphBuilder.gruCell",
+  "api.MLGraphBuilder.hardSigmoid",
+  "api.MLGraphBuilder.hardSwish",
+  "api.MLGraphBuilder.identity",
+  "api.MLGraphBuilder.input",
+  "api.MLGraphBuilder.instanceNormalization",
+  "api.MLGraphBuilder.l2Pool2d",
+  "api.MLGraphBuilder.layerNormalization",
+  "api.MLGraphBuilder.leakyRelu",
+  "api.MLGraphBuilder.lesser",
+  "api.MLGraphBuilder.lesserOrEqual",
+  "api.MLGraphBuilder.linear",
+  "api.MLGraphBuilder.log",
+  "api.MLGraphBuilder.logicalAnd",
+  "api.MLGraphBuilder.logicalNot",
+  "api.MLGraphBuilder.logicalOr",
+  "api.MLGraphBuilder.logicalXor",
+  "api.MLGraphBuilder.lstm",
+  "api.MLGraphBuilder.lstmCell",
+  "api.MLGraphBuilder.matmul",
+  "api.MLGraphBuilder.max",
+  "api.MLGraphBuilder.maxPool2d",
+  "api.MLGraphBuilder.min",
+  "api.MLGraphBuilder.mul",
+  "api.MLGraphBuilder.neg",
+  "api.MLGraphBuilder.pad",
+  "api.MLGraphBuilder.pow",
+  "api.MLGraphBuilder.prelu",
+  "api.MLGraphBuilder.quantizeLinear",
+  "api.MLGraphBuilder.reciprocal",
+  "api.MLGraphBuilder.reduceL1",
+  "api.MLGraphBuilder.reduceL2",
+  "api.MLGraphBuilder.reduceLogSum",
+  "api.MLGraphBuilder.reduceLogSumExp",
+  "api.MLGraphBuilder.reduceMax",
+  "api.MLGraphBuilder.reduceMean",
+  "api.MLGraphBuilder.reduceMin",
+  "api.MLGraphBuilder.reduceProduct",
+  "api.MLGraphBuilder.reduceSum",
+  "api.MLGraphBuilder.reduceSumSquare",
+  "api.MLGraphBuilder.relu",
+  "api.MLGraphBuilder.resample2d",
+  "api.MLGraphBuilder.reshape",
+  "api.MLGraphBuilder.scatterElements",
+  "api.MLGraphBuilder.scatterND",
+  "api.MLGraphBuilder.sigmoid",
+  "api.MLGraphBuilder.sign",
+  "api.MLGraphBuilder.sin",
+  "api.MLGraphBuilder.slice",
+  "api.MLGraphBuilder.softmax",
+  "api.MLGraphBuilder.softplus",
+  "api.MLGraphBuilder.softsign",
+  "api.MLGraphBuilder.split",
+  "api.MLGraphBuilder.sqrt",
+  "api.MLGraphBuilder.sub",
+  "api.MLGraphBuilder.tan",
+  "api.MLGraphBuilder.tanh",
+  "api.MLGraphBuilder.tile",
+  "api.MLGraphBuilder.transpose",
+  "api.MLGraphBuilder.triangular",
+  "api.MLGraphBuilder.where",
+  "api.MLOperand",
+  "api.Navigator.ml",
+  "api.WorkerNavigator.ml"
+ ],
+ "description": "The WebNN API constructs and executes computational graphs of neural networks by making use of the various machine learning capabilities and hardware accelerators available on the device. Also known as Web Neural Network API.",
+ "description_html": "The WebNN API constructs and executes computational graphs of neural networks by making use of the various machine learning capabilities and hardware accelerators available on the device. Also known as Web Neural Network API.",
+ "kind": "feature",
+ "name": "WebNN",
+ "spec": [
+  "https://www.w3.org/TR/webnn/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.ML": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.ML.createContext": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLContext": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLContext.dispatch": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLContext.opSupportLimits": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraph": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.MLGraphBuilder": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.abs": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.add": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.argMax": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.argMin": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.averagePool2d": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.batchNormalization": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.build": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.cast": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.ceil": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.clamp": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.concat": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.constant": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.conv2d": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.convTranspose2d": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.cos": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.cumulativeSum": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.dequantizeLinear": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.div": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.elu": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.equal": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.erf": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.exp": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.expand": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.floor": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.gather": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.gatherElements": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.gatherND": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.gemm": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.greater": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.greaterOrEqual": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.gru": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.gruCell": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.hardSigmoid": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.hardSwish": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.identity": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.input": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.instanceNormalization": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.l2Pool2d": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.layerNormalization": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.leakyRelu": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.lesser": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.lesserOrEqual": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.linear": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.log": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.logicalAnd": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.logicalNot": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.logicalOr": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.logicalXor": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.lstm": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.lstmCell": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.matmul": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.max": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.maxPool2d": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.min": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.mul": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.neg": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.pad": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.pow": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.prelu": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.quantizeLinear": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.reciprocal": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.reduceL1": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.reduceL2": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.reduceLogSum": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.reduceLogSumExp": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.reduceMax": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.reduceMean": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.reduceMin": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.reduceProduct": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.reduceSum": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.reduceSumSquare": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.relu": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.resample2d": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.reshape": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.scatterElements": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.scatterND": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.sigmoid": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.sign": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.sin": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.slice": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.softmax": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.softplus": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.softsign": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.split": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.sqrt": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.sub": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.tan": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.tanh": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.tile": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.transpose": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.triangular": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLGraphBuilder.where": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MLOperand": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.Navigator.ml": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.WorkerNavigator.ml": {
+    "baseline": false,
+    "support": {}
+   }
+  },
+  "support": {}
+ },
+ "id": "webnn",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://www.w3.org/TR/webnn/",
+   "seriesComposition": "full",
+   "shortname": "webnn",
+   "series": {
+    "shortname": "webnn",
+    "currentSpecification": "webnn",
+    "title": "Web Neural Network API",
+    "shortTitle": "Web Neural Network API",
+    "releaseUrl": "https://www.w3.org/TR/webnn/",
+    "nightlyUrl": "https://webmachinelearning.github.io/webnn/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Machine Learning Working Group",
+     "url": "https://www.w3.org/groups/wg/webmachinelearning/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/webnn/",
+    "status": "Candidate Recommendation Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://webmachinelearning.github.io/webnn/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/webmachinelearning/webnn",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Web Neural Network API",
+   "source": "w3c",
+   "shortTitle": "Web Neural Network API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:webnn"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/322",
+  "votes": 2
+ },
+ "bugs": {
+  "chrome": [
+   "https://issues.chromium.org/issues/40206287"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

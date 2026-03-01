@@ -1,0 +1,806 @@
+{
+ "caniuse": [
+  "css-hyphens"
+ ],
+ "compat_features": [
+  "css.properties.hyphens",
+  "css.properties.hyphens.auto",
+  "css.properties.hyphens.language_afrikaans",
+  "css.properties.hyphens.language_albanian",
+  "css.properties.hyphens.language_amharic",
+  "css.properties.hyphens.language_armenian",
+  "css.properties.hyphens.language_assamese",
+  "css.properties.hyphens.language_basque",
+  "css.properties.hyphens.language_belarusian",
+  "css.properties.hyphens.language_bengali",
+  "css.properties.hyphens.language_bosnian",
+  "css.properties.hyphens.language_bulgarian",
+  "css.properties.hyphens.language_catalan",
+  "css.properties.hyphens.language_croatian",
+  "css.properties.hyphens.language_cyrillic_mongolian",
+  "css.properties.hyphens.language_czech",
+  "css.properties.hyphens.language_danish",
+  "css.properties.hyphens.language_dutch",
+  "css.properties.hyphens.language_english",
+  "css.properties.hyphens.language_esperanto",
+  "css.properties.hyphens.language_estonian",
+  "css.properties.hyphens.language_ethiopic_script_mul",
+  "css.properties.hyphens.language_ethiopic_script_und",
+  "css.properties.hyphens.language_finnish",
+  "css.properties.hyphens.language_french",
+  "css.properties.hyphens.language_galician",
+  "css.properties.hyphens.language_georgian",
+  "css.properties.hyphens.language_german_reformed_orthography",
+  "css.properties.hyphens.language_german_swiss_orthography",
+  "css.properties.hyphens.language_german_traditional_orthography",
+  "css.properties.hyphens.language_gujarati",
+  "css.properties.hyphens.language_hindi",
+  "css.properties.hyphens.language_hungarian",
+  "css.properties.hyphens.language_icelandic",
+  "css.properties.hyphens.language_interlingua",
+  "css.properties.hyphens.language_irish",
+  "css.properties.hyphens.language_italian",
+  "css.properties.hyphens.language_kannada",
+  "css.properties.hyphens.language_kurmanji",
+  "css.properties.hyphens.language_latin",
+  "css.properties.hyphens.language_latvian",
+  "css.properties.hyphens.language_lithuanian",
+  "css.properties.hyphens.language_malayalam",
+  "css.properties.hyphens.language_marathi",
+  "css.properties.hyphens.language_modern_greek",
+  "css.properties.hyphens.language_mongolian",
+  "css.properties.hyphens.language_norwegian_nn",
+  "css.properties.hyphens.language_norwegian_no",
+  "css.properties.hyphens.language_old_slavonic",
+  "css.properties.hyphens.language_oriya",
+  "css.properties.hyphens.language_polish",
+  "css.properties.hyphens.language_portuguese",
+  "css.properties.hyphens.language_punjabi",
+  "css.properties.hyphens.language_russian",
+  "css.properties.hyphens.language_slovak",
+  "css.properties.hyphens.language_slovenian",
+  "css.properties.hyphens.language_spanish",
+  "css.properties.hyphens.language_swedish",
+  "css.properties.hyphens.language_tamil",
+  "css.properties.hyphens.language_telugu",
+  "css.properties.hyphens.language_turkish",
+  "css.properties.hyphens.language_turkmen",
+  "css.properties.hyphens.language_ukrainian",
+  "css.properties.hyphens.language_upper_sorbian",
+  "css.properties.hyphens.language_welsh"
+ ],
+ "description": "The hyphens CSS property controls when long words are broken by line wrapping. Although called hyphens, the property applies to word-splitting behavior across languages, such as customary spelling changes or the use of other characters. Support for non-English languages varies significantly.",
+ "description_html": "The <code>hyphens</code> CSS property controls when long words are broken by line wrapping. Although called <code>hyphens</code>, the property applies to word-splitting behavior across languages, such as customary spelling changes or the use of other characters. Support for non-English languages varies significantly.",
+ "group": [
+  "css"
+ ],
+ "kind": "feature",
+ "name": "Hyphenation",
+ "spec": [
+  "https://drafts.csswg.org/css-text-3/#hyphens-property"
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2023-09-18",
+  "by_compat_key": {
+   "css.properties.hyphens": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "79",
+     "firefox": "43",
+     "firefox_android": "43",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "css.properties.hyphens.auto": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "88",
+     "chrome_android": "55",
+     "edge": "88",
+     "firefox": "43",
+     "firefox_android": "43",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "css.properties.hyphens.language_afrikaans": {
+    "baseline": false,
+    "support": {
+     "chrome": "112",
+     "chrome_android": "112",
+     "edge": "112",
+     "firefox": "43",
+     "firefox_android": "43"
+    }
+   },
+   "css.properties.hyphens.language_albanian": {
+    "baseline": false,
+    "support": {
+     "chrome": "112",
+     "chrome_android": "112",
+     "edge": "112"
+    }
+   },
+   "css.properties.hyphens.language_amharic": {
+    "baseline": false,
+    "support": {
+     "chrome": "112",
+     "chrome_android": "112",
+     "edge": "112"
+    }
+   },
+   "css.properties.hyphens.language_armenian": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87"
+    }
+   },
+   "css.properties.hyphens.language_assamese": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87"
+    }
+   },
+   "css.properties.hyphens.language_basque": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87"
+    }
+   },
+   "css.properties.hyphens.language_belarusian": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87"
+    }
+   },
+   "css.properties.hyphens.language_bengali": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87"
+    }
+   },
+   "css.properties.hyphens.language_bosnian": {
+    "baseline": false,
+    "support": {
+     "firefox": "43",
+     "firefox_android": "43"
+    }
+   },
+   "css.properties.hyphens.language_bulgarian": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "43",
+     "firefox_android": "43"
+    }
+   },
+   "css.properties.hyphens.language_catalan": {
+    "baseline": false,
+    "support": {
+     "firefox": "43",
+     "firefox_android": "43",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "css.properties.hyphens.language_croatian": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "43",
+     "firefox_android": "43",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "css.properties.hyphens.language_cyrillic_mongolian": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87"
+    }
+   },
+   "css.properties.hyphens.language_czech": {
+    "baseline": "low",
+    "baseline_low_date": "2024-09-03",
+    "support": {
+     "chrome": "112",
+     "chrome_android": "112",
+     "edge": "112",
+     "firefox": "130",
+     "firefox_android": "130",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "css.properties.hyphens.language_danish": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "43",
+     "firefox_android": "43",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "css.properties.hyphens.language_dutch": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "112",
+     "chrome_android": "112",
+     "edge": "112",
+     "firefox": "43",
+     "firefox_android": "43",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "css.properties.hyphens.language_english": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "55",
+     "chrome_android": "55",
+     "edge": "79",
+     "firefox": "43",
+     "firefox_android": "43",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "css.properties.hyphens.language_esperanto": {
+    "baseline": false,
+    "support": {
+     "firefox": "43",
+     "firefox_android": "43"
+    }
+   },
+   "css.properties.hyphens.language_estonian": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "43",
+     "firefox_android": "43"
+    }
+   },
+   "css.properties.hyphens.language_ethiopic_script_mul": {
+    "baseline": false,
+    "support": {
+     "chrome": "112",
+     "chrome_android": "112",
+     "edge": "112"
+    }
+   },
+   "css.properties.hyphens.language_ethiopic_script_und": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87"
+    }
+   },
+   "css.properties.hyphens.language_finnish": {
+    "baseline": false,
+    "support": {
+     "firefox": "43",
+     "firefox_android": "43",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "css.properties.hyphens.language_french": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "43",
+     "firefox_android": "43",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "css.properties.hyphens.language_galician": {
+    "baseline": false,
+    "support": {
+     "chrome": "112",
+     "chrome_android": "112",
+     "edge": "112",
+     "firefox": "43",
+     "firefox_android": "43"
+    }
+   },
+   "css.properties.hyphens.language_georgian": {
+    "baseline": false,
+    "support": {
+     "chrome": "112",
+     "chrome_android": "112",
+     "edge": "112"
+    }
+   },
+   "css.properties.hyphens.language_german_reformed_orthography": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "43",
+     "firefox_android": "43",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "css.properties.hyphens.language_german_swiss_orthography": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "43",
+     "firefox_android": "43"
+    }
+   },
+   "css.properties.hyphens.language_german_traditional_orthography": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "43",
+     "firefox_android": "43"
+    }
+   },
+   "css.properties.hyphens.language_gujarati": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87"
+    }
+   },
+   "css.properties.hyphens.language_hindi": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87"
+    }
+   },
+   "css.properties.hyphens.language_hungarian": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "43",
+     "firefox_android": "43",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "css.properties.hyphens.language_icelandic": {
+    "baseline": false,
+    "support": {
+     "firefox": "43",
+     "firefox_android": "43"
+    }
+   },
+   "css.properties.hyphens.language_interlingua": {
+    "baseline": false,
+    "support": {
+     "firefox": "43",
+     "firefox_android": "43"
+    }
+   },
+   "css.properties.hyphens.language_irish": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87"
+    }
+   },
+   "css.properties.hyphens.language_italian": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "112",
+     "chrome_android": "112",
+     "edge": "112",
+     "firefox": "43",
+     "firefox_android": "43",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "css.properties.hyphens.language_kannada": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87"
+    }
+   },
+   "css.properties.hyphens.language_kurmanji": {
+    "baseline": false,
+    "support": {
+     "firefox": "43",
+     "firefox_android": "43"
+    }
+   },
+   "css.properties.hyphens.language_latin": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "43",
+     "firefox_android": "43"
+    }
+   },
+   "css.properties.hyphens.language_latvian": {
+    "baseline": false,
+    "support": {
+     "chrome": "112",
+     "chrome_android": "112",
+     "edge": "112"
+    }
+   },
+   "css.properties.hyphens.language_lithuanian": {
+    "baseline": false,
+    "support": {
+     "chrome": "112",
+     "chrome_android": "112",
+     "edge": "112",
+     "firefox": "43",
+     "firefox_android": "43"
+    }
+   },
+   "css.properties.hyphens.language_malayalam": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87"
+    }
+   },
+   "css.properties.hyphens.language_marathi": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87"
+    }
+   },
+   "css.properties.hyphens.language_modern_greek": {
+    "baseline": false,
+    "support": {
+     "chrome": "112",
+     "chrome_android": "112",
+     "edge": "112"
+    }
+   },
+   "css.properties.hyphens.language_mongolian": {
+    "baseline": false,
+    "support": {
+     "firefox": "43",
+     "firefox_android": "43"
+    }
+   },
+   "css.properties.hyphens.language_norwegian_nn": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "43",
+     "firefox_android": "43",
+     "safari_ios": "17"
+    }
+   },
+   "css.properties.hyphens.language_norwegian_no": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "43",
+     "firefox_android": "43",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "css.properties.hyphens.language_old_slavonic": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87"
+    }
+   },
+   "css.properties.hyphens.language_oriya": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87"
+    }
+   },
+   "css.properties.hyphens.language_polish": {
+    "baseline": false,
+    "support": {
+     "firefox": "43",
+     "firefox_android": "43",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "css.properties.hyphens.language_portuguese": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "43",
+     "firefox_android": "43",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "css.properties.hyphens.language_punjabi": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87"
+    }
+   },
+   "css.properties.hyphens.language_russian": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "112",
+     "chrome_android": "112",
+     "edge": "112",
+     "firefox": "43",
+     "firefox_android": "43",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "css.properties.hyphens.language_slovak": {
+    "baseline": false,
+    "support": {
+     "chrome": "112",
+     "chrome_android": "112",
+     "edge": "112",
+     "firefox": "130",
+     "firefox_android": "130"
+    }
+   },
+   "css.properties.hyphens.language_slovenian": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "43",
+     "firefox_android": "43"
+    }
+   },
+   "css.properties.hyphens.language_spanish": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "43",
+     "firefox_android": "43",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "css.properties.hyphens.language_swedish": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "112",
+     "chrome_android": "112",
+     "edge": "112",
+     "firefox": "43",
+     "firefox_android": "43",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "css.properties.hyphens.language_tamil": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87"
+    }
+   },
+   "css.properties.hyphens.language_telugu": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87"
+    }
+   },
+   "css.properties.hyphens.language_turkish": {
+    "baseline": false,
+    "support": {
+     "firefox": "43",
+     "firefox_android": "43",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "css.properties.hyphens.language_turkmen": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87"
+    }
+   },
+   "css.properties.hyphens.language_ukrainian": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "112",
+     "chrome_android": "112",
+     "edge": "112",
+     "firefox": "43",
+     "firefox_android": "43",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "css.properties.hyphens.language_upper_sorbian": {
+    "baseline": false,
+    "support": {
+     "firefox": "43",
+     "firefox_android": "43"
+    }
+   },
+   "css.properties.hyphens.language_welsh": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "43",
+     "firefox_android": "43"
+    }
+   }
+  },
+  "support": {
+   "chrome": "88",
+   "chrome_android": "55",
+   "edge": "88",
+   "firefox": "43",
+   "firefox_android": "43",
+   "safari": "17",
+   "safari_ios": "17"
+  }
+ },
+ "id": "hyphens",
+ "groups": [
+  "css"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-text-3/#hyphens-property",
+   "seriesComposition": "full",
+   "shortname": "css-text-3",
+   "series": {
+    "shortname": "css-text",
+    "currentSpecification": "css-text-3",
+    "title": "CSS Text",
+    "shortTitle": "CSS Text",
+    "releaseUrl": "https://www.w3.org/TR/css-text/",
+    "nightlyUrl": "https://drafts.csswg.org/css-text/"
+   },
+   "seriesVersion": "3",
+   "seriesNext": "css-text-4",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-text-3/",
+    "status": "Candidate Recommendation Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-text-3/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-text-3/",
+     "https://w3c.github.io/csswg-drafts/css-text/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-text-3/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Text Module Level 3",
+   "source": "w3c",
+   "shortTitle": "CSS Text 3",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-text"
+    ]
+   },
+   "fragment": "hyphens-property"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/hyphens",
+   "title": "hyphens",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/hyphens"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.10374097,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/40"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:hyphens"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2023-09-18T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2026-03-18"
+}

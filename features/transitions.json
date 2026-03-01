@@ -1,0 +1,655 @@
+{
+ "caniuse": [
+  "css-transitions"
+ ],
+ "compat_features": [
+  "api.CSSTransition",
+  "api.CSSTransition.transitionProperty",
+  "api.Element.transitioncancel_event",
+  "api.Element.transitionend_event",
+  "api.Element.transitionrun_event",
+  "api.Element.transitionstart_event",
+  "api.TransitionEvent",
+  "api.TransitionEvent.TransitionEvent",
+  "api.TransitionEvent.elapsedTime",
+  "api.TransitionEvent.propertyName",
+  "api.TransitionEvent.pseudoElement",
+  "css.properties.transition",
+  "css.properties.transition-delay",
+  "css.properties.transition-duration",
+  "css.properties.transition-property",
+  "css.properties.transition-property.IDENT_value",
+  "css.properties.transition-property.all",
+  "css.properties.transition-property.none",
+  "css.properties.transition-timing-function",
+  "css.properties.transition-timing-function.ease",
+  "css.properties.transition-timing-function.ease-in",
+  "css.properties.transition-timing-function.ease-in-out",
+  "css.properties.transition-timing-function.ease-out",
+  "css.properties.transition-timing-function.jump",
+  "css.properties.transition-timing-function.linear",
+  "css.properties.transition-timing-function.step-end",
+  "css.properties.transition-timing-function.step-start",
+  "css.properties.transition.all",
+  "css.properties.transition.ease",
+  "css.properties.transition.ease-in",
+  "css.properties.transition.ease-in-out",
+  "css.properties.transition.ease-out",
+  "css.properties.transition.gradients_can_animate",
+  "css.properties.transition.linear",
+  "css.properties.transition.none",
+  "css.properties.transition.step-end",
+  "css.properties.transition.step-start"
+ ],
+ "description": "The transition shorthand CSS property sets how changes to an element's styles may occur over time. Transitions can be applied to specific CSS properties, all properties, or none.",
+ "description_html": "The <code>transition</code> shorthand CSS property sets how changes to an element's styles may occur over time. Transitions can be applied to specific CSS properties, all properties, or none.",
+ "group": [
+  "transitions"
+ ],
+ "kind": "feature",
+ "name": "Transitions (CSS)",
+ "spec": [
+  "https://drafts.csswg.org/css-transitions-2/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-03-30",
+  "baseline_low_date": "2015-09-30",
+  "by_compat_key": {
+   "api.CSSTransition": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84",
+     "firefox": "75",
+     "firefox_android": "79",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.CSSTransition.transitionProperty": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84",
+     "firefox": "75",
+     "firefox_android": "79",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.Element.transitioncancel_event": {
+    "baseline": "high",
+    "baseline_high_date": "2023-05-19",
+    "baseline_low_date": "2020-11-19",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "53",
+     "firefox_android": "53",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.Element.transitionend_event": {
+    "baseline": "high",
+    "baseline_high_date": "2021-04-02",
+    "baseline_low_date": "2018-10-02",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "18",
+     "firefox": "51",
+     "firefox_android": "51",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.Element.transitionrun_event": {
+    "baseline": "high",
+    "baseline_high_date": "2022-09-24",
+    "baseline_low_date": "2020-03-24",
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "12",
+     "firefox": "53",
+     "firefox_android": "53",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.Element.transitionstart_event": {
+    "baseline": "high",
+    "baseline_high_date": "2022-09-24",
+    "baseline_low_date": "2020-03-24",
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "12",
+     "firefox": "53",
+     "firefox_android": "53",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.TransitionEvent": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "27",
+     "chrome_android": "27",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.TransitionEvent.TransitionEvent": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "27",
+     "chrome_android": "27",
+     "edge": "14",
+     "firefox": "23",
+     "firefox_android": "23",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.TransitionEvent.elapsedTime": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "27",
+     "chrome_android": "27",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.TransitionEvent.propertyName": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "27",
+     "chrome_android": "27",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.TransitionEvent.pseudoElement": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "27",
+     "chrome_android": "27",
+     "edge": "79",
+     "firefox": "23",
+     "firefox_android": "23",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "css.properties.transition": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.transition-delay": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.transition-duration": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.transition-property": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.transition-property.IDENT_value": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.transition-property.all": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.transition-property.none": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.transition-timing-function": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.transition-timing-function.ease": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.transition-timing-function.ease-in": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.transition-timing-function.ease-in-out": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.transition-timing-function.ease-out": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.transition-timing-function.jump": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "65",
+     "firefox_android": "65",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "css.properties.transition-timing-function.linear": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.transition-timing-function.step-end": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.transition-timing-function.step-start": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.transition.all": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.transition.ease": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.transition.ease-in": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.transition.ease-in-out": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.transition.ease-out": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.transition.gradients_can_animate": {
+    "baseline": false,
+    "support": {}
+   },
+   "css.properties.transition.linear": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.transition.none": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.transition.step-end": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.transition.step-start": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "26",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   }
+  },
+  "support": {
+   "chrome": "26",
+   "chrome_android": "26",
+   "edge": "12",
+   "firefox": "16",
+   "firefox_android": "16",
+   "safari": "9",
+   "safari_ios": "9"
+  }
+ },
+ "id": "transitions",
+ "groups": [
+  "transitions"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-transitions-2/",
+   "seriesComposition": "delta",
+   "shortname": "css-transitions-2",
+   "series": {
+    "shortname": "css-transitions",
+    "currentSpecification": "css-transitions-1",
+    "title": "CSS Transitions",
+    "shortTitle": "CSS Transitions",
+    "releaseUrl": "https://www.w3.org/TR/css-transitions/",
+    "nightlyUrl": "https://drafts.csswg.org/css-transitions/"
+   },
+   "seriesVersion": "2",
+   "seriesPrevious": "css-transitions-1",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-transitions-2/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-transitions-2/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-transitions-2/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-transitions-2/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Transitions Module Level 2",
+   "source": "w3c",
+   "shortTitle": "CSS Transitions 2",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-transitions"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Guides/Transitions/Using",
+   "title": "Using CSS transitions",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Guides/Transitions/Using"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:transitions"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-09-30T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-03-30T00:00:00.000Z"
+}

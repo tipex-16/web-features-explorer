@@ -1,0 +1,816 @@
+{
+ "compat_features": [
+  "api.CSS.Hz_static",
+  "api.CSS.Q_static",
+  "api.CSS.cap_static",
+  "api.CSS.ch_static",
+  "api.CSS.cm_static",
+  "api.CSS.cqb_static",
+  "api.CSS.cqh_static",
+  "api.CSS.cqi_static",
+  "api.CSS.cqmax_static",
+  "api.CSS.cqmin_static",
+  "api.CSS.cqw_static",
+  "api.CSS.deg_static",
+  "api.CSS.dpcm_static",
+  "api.CSS.dpi_static",
+  "api.CSS.dppx_static",
+  "api.CSS.dvb_static",
+  "api.CSS.dvh_static",
+  "api.CSS.dvi_static",
+  "api.CSS.dvmax_static",
+  "api.CSS.dvmin_static",
+  "api.CSS.dvw_static",
+  "api.CSS.em_static",
+  "api.CSS.ex_static",
+  "api.CSS.fr_static",
+  "api.CSS.grad_static",
+  "api.CSS.ic_static",
+  "api.CSS.in_static",
+  "api.CSS.kHz_static",
+  "api.CSS.lh_static",
+  "api.CSS.lvb_static",
+  "api.CSS.lvh_static",
+  "api.CSS.lvi_static",
+  "api.CSS.lvmax_static",
+  "api.CSS.lvmin_static",
+  "api.CSS.lvw_static",
+  "api.CSS.mm_static",
+  "api.CSS.ms_static",
+  "api.CSS.number_static",
+  "api.CSS.pc_static",
+  "api.CSS.percent_static",
+  "api.CSS.pt_static",
+  "api.CSS.px_static",
+  "api.CSS.rad_static",
+  "api.CSS.rcap_static",
+  "api.CSS.rch_static",
+  "api.CSS.rem_static",
+  "api.CSS.rex_static",
+  "api.CSS.ric_static",
+  "api.CSS.rlh_static",
+  "api.CSS.s_static",
+  "api.CSS.svb_static",
+  "api.CSS.svh_static",
+  "api.CSS.svi_static",
+  "api.CSS.svmax_static",
+  "api.CSS.svmin_static",
+  "api.CSS.svw_static",
+  "api.CSS.turn_static",
+  "api.CSS.vb_static",
+  "api.CSS.vh_static",
+  "api.CSS.vi_static",
+  "api.CSS.vmax_static",
+  "api.CSS.vmin_static",
+  "api.CSS.vw_static"
+ ],
+ "description": "The numeric factory functions, such as CSS.px() or CSS.kHz(), return a CSSUnitValue representing a CSS number value (as in 12px or 440kHz).",
+ "description_html": "The numeric factory functions, such as <code>CSS.px()</code> or <code>CSS.kHz()</code>, return a <code>CSSUnitValue</code> representing a CSS number value (as in <code>12px</code> or <code>440kHz</code>).",
+ "group": [
+  "cssom"
+ ],
+ "kind": "feature",
+ "name": "Numeric factory functions",
+ "spec": [
+  "https://drafts.css-houdini.org/css-typed-om-1/#numeric-factory"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.CSS.Hz_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.Q_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.cap_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "118",
+     "chrome_android": "118",
+     "edge": "118",
+     "safari": "17.2",
+     "safari_ios": "17.2"
+    }
+   },
+   "api.CSS.ch_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.cm_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.cqb_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "105",
+     "chrome_android": "105",
+     "edge": "105",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.cqh_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "105",
+     "chrome_android": "105",
+     "edge": "105",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.cqi_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "105",
+     "chrome_android": "105",
+     "edge": "105",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.cqmax_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "105",
+     "chrome_android": "105",
+     "edge": "105",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.cqmin_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "105",
+     "chrome_android": "105",
+     "edge": "105",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.cqw_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "105",
+     "chrome_android": "105",
+     "edge": "105",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.deg_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.dpcm_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.dpi_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.dppx_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.dvb_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "108",
+     "chrome_android": "108",
+     "edge": "108",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.dvh_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "108",
+     "chrome_android": "108",
+     "edge": "108",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.dvi_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "108",
+     "chrome_android": "108",
+     "edge": "108",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.dvmax_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "108",
+     "chrome_android": "108",
+     "edge": "108",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.dvmin_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "108",
+     "chrome_android": "108",
+     "edge": "108",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.dvw_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "108",
+     "chrome_android": "108",
+     "edge": "108",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.em_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.ex_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.fr_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.grad_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.ic_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "118",
+     "chrome_android": "118",
+     "edge": "118",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.in_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.kHz_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.lh_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "118",
+     "chrome_android": "118",
+     "edge": "118",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.lvb_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "108",
+     "chrome_android": "108",
+     "edge": "108",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.lvh_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "108",
+     "chrome_android": "108",
+     "edge": "108",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.lvi_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "108",
+     "chrome_android": "108",
+     "edge": "108",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.lvmax_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "108",
+     "chrome_android": "108",
+     "edge": "108",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.lvmin_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "108",
+     "chrome_android": "108",
+     "edge": "108",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.lvw_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "108",
+     "chrome_android": "108",
+     "edge": "108",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.mm_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.ms_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.number_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.pc_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.percent_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.pt_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.px_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.rad_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.rcap_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "118",
+     "chrome_android": "118",
+     "edge": "118",
+     "safari": "17.2",
+     "safari_ios": "17.2"
+    }
+   },
+   "api.CSS.rch_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "118",
+     "chrome_android": "118",
+     "edge": "118",
+     "safari": "17.2",
+     "safari_ios": "17.2"
+    }
+   },
+   "api.CSS.rem_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.rex_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "118",
+     "chrome_android": "118",
+     "edge": "118",
+     "safari": "17.2",
+     "safari_ios": "17.2"
+    }
+   },
+   "api.CSS.ric_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "118",
+     "chrome_android": "118",
+     "edge": "118",
+     "safari": "17.2",
+     "safari_ios": "17.2"
+    }
+   },
+   "api.CSS.rlh_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "118",
+     "chrome_android": "118",
+     "edge": "118",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.s_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.svb_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "108",
+     "chrome_android": "108",
+     "edge": "108",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.svh_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "108",
+     "chrome_android": "108",
+     "edge": "108",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.svi_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "108",
+     "chrome_android": "108",
+     "edge": "108",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.svmax_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "108",
+     "chrome_android": "108",
+     "edge": "108",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.svmin_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "108",
+     "chrome_android": "108",
+     "edge": "108",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.svw_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "108",
+     "chrome_android": "108",
+     "edge": "108",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.turn_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.vb_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "108",
+     "chrome_android": "108",
+     "edge": "108",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.vh_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.vi_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "108",
+     "chrome_android": "108",
+     "edge": "108",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.vmax_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.vmin_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CSS.vw_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   }
+  },
+  "support": {
+   "chrome": "66",
+   "chrome_android": "66",
+   "edge": "79",
+   "safari": "16.4",
+   "safari_ios": "16.4"
+  }
+ },
+ "id": "numeric-factory-functions",
+ "groups": [
+  "cssom"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-factory",
+   "seriesComposition": "full",
+   "shortname": "css-typed-om-1",
+   "series": {
+    "shortname": "css-typed-om",
+    "currentSpecification": "css-typed-om-1",
+    "title": "CSS Typed OM",
+    "shortTitle": "CSS Typed OM",
+    "releaseUrl": "https://www.w3.org/TR/css-typed-om/",
+    "nightlyUrl": "https://drafts.css-houdini.org/css-typed-om/"
+   },
+   "seriesVersion": "1",
+   "seriesNext": "css-typed-om-2",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-typed-om-1/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.css-houdini.org/css-typed-om-1/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/css-houdini-drafts",
+    "sourcePath": "css-typed-om/Overview.bs",
+    "filename": "Overview.html"
+   },
+   "title": "CSS Typed OM Level 1",
+   "source": "w3c",
+   "shortTitle": "CSS Typed OM 1",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-typed-om"
+    ]
+   },
+   "fragment": "numeric-factory"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/CSS/factory_functions_static",
+   "title": "CSS numeric factory functions",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:numeric-factory-functions"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/86",
+  "votes": 1
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1278697"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/1278697"
+  ],
+  "safari": [
+   "https://webkit.org/b/159801"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/159801"
+  ],
+  "webview_ios": [
+   "https://webkit.org/b/159801"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Firefox",
+ "monthsBlocked": 36,
+ "blockedSince": "March 2023"
+}

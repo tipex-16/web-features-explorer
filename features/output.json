@@ -1,0 +1,365 @@
+{
+ "compat_features": [
+  "api.HTMLOutputElement",
+  "api.HTMLOutputElement.HTMLOutputElement",
+  "api.HTMLOutputElement.defaultValue",
+  "api.HTMLOutputElement.form",
+  "api.HTMLOutputElement.htmlFor",
+  "api.HTMLOutputElement.labels",
+  "api.HTMLOutputElement.name",
+  "api.HTMLOutputElement.type",
+  "api.HTMLOutputElement.value",
+  "html.elements.output",
+  "html.elements.output.for",
+  "html.elements.output.form",
+  "html.elements.output.name"
+ ],
+ "description": "The <output> element represents the result of a calculation, user action, or form entry.",
+ "description_html": "The <code>&#x3C;output></code> element represents the result of a calculation, user action, or form entry.",
+ "group": [
+  "forms",
+  "html-elements"
+ ],
+ "kind": "feature",
+ "name": "<output>",
+ "spec": [
+  "https://html.spec.whatwg.org/multipage/form-elements.html#the-output-element"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "≤2021-04-02",
+  "baseline_low_date": "≤2018-10-02",
+  "by_compat_key": {
+   "api.HTMLOutputElement": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "9",
+     "chrome_android": "18",
+     "edge": "14",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "5.1",
+     "safari_ios": "5"
+    }
+   },
+   "api.HTMLOutputElement.HTMLOutputElement": {
+    "baseline": false,
+    "support": {
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "api.HTMLOutputElement.defaultValue": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "9",
+     "chrome_android": "18",
+     "edge": "14",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "5.1",
+     "safari_ios": "5"
+    }
+   },
+   "api.HTMLOutputElement.form": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "9",
+     "chrome_android": "18",
+     "edge": "14",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "5.1",
+     "safari_ios": "5"
+    }
+   },
+   "api.HTMLOutputElement.htmlFor": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "9",
+     "chrome_android": "18",
+     "edge": "14",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "5.1",
+     "safari_ios": "5"
+    }
+   },
+   "api.HTMLOutputElement.labels": {
+    "baseline": "high",
+    "baseline_high_date": "2021-04-02",
+    "baseline_low_date": "2018-10-02",
+    "support": {
+     "chrome": "9",
+     "chrome_android": "18",
+     "edge": "18",
+     "firefox": "56",
+     "firefox_android": "56",
+     "safari": "5.1",
+     "safari_ios": "5"
+    }
+   },
+   "api.HTMLOutputElement.name": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "9",
+     "chrome_android": "18",
+     "edge": "14",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "5.1",
+     "safari_ios": "5"
+    }
+   },
+   "api.HTMLOutputElement.type": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "9",
+     "chrome_android": "18",
+     "edge": "14",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "5.1",
+     "safari_ios": "5"
+    }
+   },
+   "api.HTMLOutputElement.value": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "9",
+     "chrome_android": "18",
+     "edge": "14",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "5.1",
+     "safari_ios": "5"
+    }
+   },
+   "html.elements.output": {
+    "baseline": "high",
+    "baseline_high_date": "≤2021-04-02",
+    "baseline_low_date": "≤2018-10-02",
+    "support": {
+     "chrome": "10",
+     "chrome_android": "18",
+     "edge": "≤18",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "html.elements.output.for": {
+    "baseline": "high",
+    "baseline_high_date": "≤2021-04-02",
+    "baseline_low_date": "≤2018-10-02",
+    "support": {
+     "chrome": "10",
+     "chrome_android": "18",
+     "edge": "≤18",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "html.elements.output.form": {
+    "baseline": "high",
+    "baseline_high_date": "≤2021-04-02",
+    "baseline_low_date": "≤2018-10-02",
+    "support": {
+     "chrome": "10",
+     "chrome_android": "18",
+     "edge": "≤18",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "html.elements.output.name": {
+    "baseline": "high",
+    "baseline_high_date": "≤2021-04-02",
+    "baseline_low_date": "≤2018-10-02",
+    "support": {
+     "chrome": "10",
+     "chrome_android": "18",
+     "edge": "≤18",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   }
+  },
+  "support": {
+   "chrome": "10",
+   "chrome_android": "18",
+   "edge": "≤18",
+   "firefox": "4",
+   "firefox_android": "4",
+   "safari": "7",
+   "safari_ios": "7"
+  }
+ },
+ "id": "output",
+ "groups": [
+  "forms",
+  "html-elements"
+ ],
+ "specs": [
+  {
+   "url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-output-element",
+   "seriesComposition": "full",
+   "shortname": "html",
+   "series": {
+    "shortname": "html",
+    "currentSpecification": "html",
+    "title": "HTML",
+    "shortTitle": "HTML",
+    "nightlyUrl": "https://html.spec.whatwg.org/multipage/"
+   },
+   "nightly": {
+    "url": "https://html.spec.whatwg.org/multipage/",
+    "status": "Living Standard",
+    "sourcePath": "source",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/html",
+    "pages": [
+     "https://html.spec.whatwg.org/multipage/introduction.html",
+     "https://html.spec.whatwg.org/multipage/infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/common-microsyntaxes.html",
+     "https://html.spec.whatwg.org/multipage/urls-and-fetching.html",
+     "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html",
+     "https://html.spec.whatwg.org/multipage/structured-data.html",
+     "https://html.spec.whatwg.org/multipage/dom.html",
+     "https://html.spec.whatwg.org/multipage/semantics.html",
+     "https://html.spec.whatwg.org/multipage/sections.html",
+     "https://html.spec.whatwg.org/multipage/grouping-content.html",
+     "https://html.spec.whatwg.org/multipage/text-level-semantics.html",
+     "https://html.spec.whatwg.org/multipage/links.html",
+     "https://html.spec.whatwg.org/multipage/edits.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content.html",
+     "https://html.spec.whatwg.org/multipage/images.html",
+     "https://html.spec.whatwg.org/multipage/iframe-embed-object.html",
+     "https://html.spec.whatwg.org/multipage/media.html",
+     "https://html.spec.whatwg.org/multipage/image-maps.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content-other.html",
+     "https://html.spec.whatwg.org/multipage/tables.html",
+     "https://html.spec.whatwg.org/multipage/forms.html",
+     "https://html.spec.whatwg.org/multipage/input.html",
+     "https://html.spec.whatwg.org/multipage/form-elements.html",
+     "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/interactive-elements.html",
+     "https://html.spec.whatwg.org/multipage/scripting.html",
+     "https://html.spec.whatwg.org/multipage/canvas.html",
+     "https://html.spec.whatwg.org/multipage/custom-elements.html",
+     "https://html.spec.whatwg.org/multipage/semantics-other.html",
+     "https://html.spec.whatwg.org/multipage/microdata.html",
+     "https://html.spec.whatwg.org/multipage/interaction.html",
+     "https://html.spec.whatwg.org/multipage/dnd.html",
+     "https://html.spec.whatwg.org/multipage/popover.html",
+     "https://html.spec.whatwg.org/multipage/browsers.html",
+     "https://html.spec.whatwg.org/multipage/nav-history-apis.html",
+     "https://html.spec.whatwg.org/multipage/document-sequences.html",
+     "https://html.spec.whatwg.org/multipage/browsing-the-web.html",
+     "https://html.spec.whatwg.org/multipage/document-lifecycle.html",
+     "https://html.spec.whatwg.org/multipage/speculative-loading.html",
+     "https://html.spec.whatwg.org/multipage/webappapis.html",
+     "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html",
+     "https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html",
+     "https://html.spec.whatwg.org/multipage/system-state.html",
+     "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html",
+     "https://html.spec.whatwg.org/multipage/comms.html",
+     "https://html.spec.whatwg.org/multipage/server-sent-events.html",
+     "https://html.spec.whatwg.org/multipage/web-messaging.html",
+     "https://html.spec.whatwg.org/multipage/workers.html",
+     "https://html.spec.whatwg.org/multipage/worklets.html",
+     "https://html.spec.whatwg.org/multipage/webstorage.html",
+     "https://html.spec.whatwg.org/multipage/syntax.html",
+     "https://html.spec.whatwg.org/multipage/parsing.html",
+     "https://html.spec.whatwg.org/multipage/named-characters.html",
+     "https://html.spec.whatwg.org/multipage/xhtml.html",
+     "https://html.spec.whatwg.org/multipage/rendering.html",
+     "https://html.spec.whatwg.org/multipage/obsolete.html",
+     "https://html.spec.whatwg.org/multipage/iana.html",
+     "https://html.spec.whatwg.org/multipage/indices.html",
+     "https://html.spec.whatwg.org/multipage/references.html",
+     "https://html.spec.whatwg.org/multipage/acknowledgements.html"
+    ],
+    "filename": "index.html"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "HTML Workstream",
+     "url": "https://html.spec.whatwg.org/multipage/"
+    }
+   ],
+   "title": "HTML",
+   "source": "whatwg",
+   "shortTitle": "HTML",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "close-watcher",
+     "custom-elements",
+     "eventsource",
+     "html",
+     "imagebitmap-renderingcontext",
+     "import-maps",
+     "navigation-api",
+     "webmessaging",
+     "webstorage",
+     "workers",
+     "worklets",
+     "x-frame-options"
+    ],
+    "excludePaths": [
+     "html/cross-origin-embedder-policy/credentialless",
+     "html/dom/partial-updates/tentative",
+     "html/cross-origin-embedder-policy/credentialless"
+    ]
+   },
+   "fragment": "the-output-element"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/HTML/Reference/Elements/output",
+   "title": "<output>: The Output element",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/output"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:output"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2018-10-02T00:00:00.000Z",
+ "baselineHighDateAsObject": "2021-04-02T00:00:00.000Z"
+}

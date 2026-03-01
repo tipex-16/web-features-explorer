@@ -1,0 +1,765 @@
+{
+ "caniuse": [
+  "cryptography"
+ ],
+ "compat_features": [
+  "api.Crypto",
+  "api.Crypto.getRandomValues",
+  "api.Crypto.randomUUID",
+  "api.Crypto.subtle",
+  "api.Crypto.subtle.secure_context_required",
+  "api.CryptoKey",
+  "api.CryptoKey.algorithm",
+  "api.CryptoKey.extractable",
+  "api.CryptoKey.type",
+  "api.CryptoKey.usages",
+  "api.SubtleCrypto",
+  "api.SubtleCrypto.decrypt",
+  "api.SubtleCrypto.deriveBits",
+  "api.SubtleCrypto.deriveBits.x25519",
+  "api.SubtleCrypto.deriveKey",
+  "api.SubtleCrypto.deriveKey.derivedKeyAlgorithm_option_aes",
+  "api.SubtleCrypto.deriveKey.derivedKeyAlgorithm_option_hkdf",
+  "api.SubtleCrypto.deriveKey.derivedKeyAlgorithm_option_hmac",
+  "api.SubtleCrypto.deriveKey.derivedKeyAlgorithm_option_pbkdf2",
+  "api.SubtleCrypto.deriveKey.x25519",
+  "api.SubtleCrypto.digest",
+  "api.SubtleCrypto.encrypt",
+  "api.SubtleCrypto.exportKey",
+  "api.SubtleCrypto.exportKey.ed25519",
+  "api.SubtleCrypto.exportKey.x25519",
+  "api.SubtleCrypto.generateKey",
+  "api.SubtleCrypto.generateKey.ed25519",
+  "api.SubtleCrypto.generateKey.x25519",
+  "api.SubtleCrypto.importKey",
+  "api.SubtleCrypto.importKey.ed25519",
+  "api.SubtleCrypto.importKey.x25519",
+  "api.SubtleCrypto.secure_context_required",
+  "api.SubtleCrypto.sign",
+  "api.SubtleCrypto.sign.ed25519",
+  "api.SubtleCrypto.unwrapKey",
+  "api.SubtleCrypto.verify",
+  "api.SubtleCrypto.verify.ed25519",
+  "api.SubtleCrypto.worker_support",
+  "api.SubtleCrypto.wrapKey",
+  "api.crypto",
+  "api.crypto.worker_support"
+ ],
+ "description": "The Web Cryptography API performs low-level cryptographic operations, such as encryption, decryption, and signature verification. Also known as the Web Crypto API.",
+ "description_html": "The Web Cryptography API performs low-level cryptographic operations, such as encryption, decryption, and signature verification. Also known as the Web Crypto API.",
+ "group": [
+  "security"
+ ],
+ "kind": "feature",
+ "name": "Web Cryptography",
+ "spec": [
+  "https://w3c.github.io/webcrypto/",
+  "https://wicg.github.io/webcrypto-secure-curves/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "api.Crypto": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "11",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "21",
+     "firefox_android": "21",
+     "safari": "5",
+     "safari_ios": "5"
+    }
+   },
+   "api.Crypto.getRandomValues": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "11",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "21",
+     "firefox_android": "21",
+     "safari": "5",
+     "safari_ios": "5"
+    }
+   },
+   "api.Crypto.randomUUID": {
+    "baseline": "high",
+    "baseline_high_date": "2024-09-14",
+    "baseline_low_date": "2022-03-14",
+    "support": {
+     "chrome": "92",
+     "chrome_android": "92",
+     "edge": "92",
+     "firefox": "95",
+     "firefox_android": "95",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "api.Crypto.subtle": {
+    "baseline": "high",
+    "baseline_high_date": "2020-03-19",
+    "baseline_low_date": "2017-09-19",
+    "support": {
+     "chrome": "37",
+     "chrome_android": "37",
+     "edge": "12",
+     "firefox": "34",
+     "firefox_android": "34",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.Crypto.subtle.secure_context_required": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "60",
+     "chrome_android": "60",
+     "edge": "79",
+     "firefox": "75",
+     "firefox_android": "79",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "api.CryptoKey": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "37",
+     "chrome_android": "37",
+     "edge": "12",
+     "firefox": "34",
+     "firefox_android": "34",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.CryptoKey.algorithm": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "37",
+     "chrome_android": "37",
+     "edge": "12",
+     "firefox": "34",
+     "firefox_android": "34",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.CryptoKey.extractable": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "37",
+     "chrome_android": "37",
+     "edge": "12",
+     "firefox": "34",
+     "firefox_android": "34",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.CryptoKey.type": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "37",
+     "chrome_android": "37",
+     "edge": "12",
+     "firefox": "34",
+     "firefox_android": "34",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.CryptoKey.usages": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "37",
+     "chrome_android": "37",
+     "edge": "12",
+     "firefox": "34",
+     "firefox_android": "34",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.SubtleCrypto": {
+    "baseline": "high",
+    "baseline_high_date": "2020-03-19",
+    "baseline_low_date": "2017-09-19",
+    "support": {
+     "chrome": "37",
+     "chrome_android": "37",
+     "edge": "12",
+     "firefox": "34",
+     "firefox_android": "34",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.SubtleCrypto.decrypt": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "37",
+     "chrome_android": "37",
+     "edge": "79",
+     "firefox": "34",
+     "firefox_android": "34",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.SubtleCrypto.deriveBits": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "41",
+     "chrome_android": "41",
+     "edge": "79",
+     "firefox": "34",
+     "firefox_android": "34",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.SubtleCrypto.deriveBits.x25519": {
+    "baseline": "low",
+    "baseline_low_date": "2025-02-06",
+    "support": {
+     "chrome": "133",
+     "chrome_android": "133",
+     "edge": "133",
+     "firefox": "130",
+     "firefox_android": "130",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "api.SubtleCrypto.deriveKey": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "41",
+     "chrome_android": "41",
+     "edge": "79",
+     "firefox": "34",
+     "firefox_android": "34",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.SubtleCrypto.deriveKey.derivedKeyAlgorithm_option_aes": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "41",
+     "chrome_android": "41",
+     "edge": "79",
+     "firefox": "34",
+     "firefox_android": "34",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.SubtleCrypto.deriveKey.derivedKeyAlgorithm_option_hkdf": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "41",
+     "chrome_android": "41",
+     "edge": "79",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.SubtleCrypto.deriveKey.derivedKeyAlgorithm_option_hmac": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "41",
+     "chrome_android": "41",
+     "edge": "79",
+     "firefox": "34",
+     "firefox_android": "34",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.SubtleCrypto.deriveKey.derivedKeyAlgorithm_option_pbkdf2": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "41",
+     "chrome_android": "41",
+     "edge": "79",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.SubtleCrypto.deriveKey.x25519": {
+    "baseline": "low",
+    "baseline_low_date": "2025-02-06",
+    "support": {
+     "chrome": "133",
+     "chrome_android": "133",
+     "edge": "133",
+     "firefox": "130",
+     "firefox_android": "130",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "api.SubtleCrypto.digest": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "41",
+     "chrome_android": "41",
+     "edge": "79",
+     "firefox": "34",
+     "firefox_android": "34",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.SubtleCrypto.encrypt": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "37",
+     "chrome_android": "37",
+     "edge": "79",
+     "firefox": "34",
+     "firefox_android": "34",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.SubtleCrypto.exportKey": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "37",
+     "chrome_android": "37",
+     "edge": "79",
+     "firefox": "34",
+     "firefox_android": "34",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.SubtleCrypto.exportKey.ed25519": {
+    "baseline": "low",
+    "baseline_low_date": "2025-05-29",
+    "support": {
+     "chrome": "137",
+     "chrome_android": "137",
+     "edge": "137",
+     "firefox": "129",
+     "firefox_android": "129",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "api.SubtleCrypto.exportKey.x25519": {
+    "baseline": "low",
+    "baseline_low_date": "2025-02-06",
+    "support": {
+     "chrome": "133",
+     "chrome_android": "133",
+     "edge": "133",
+     "firefox": "130",
+     "firefox_android": "130",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "api.SubtleCrypto.generateKey": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "37",
+     "chrome_android": "37",
+     "edge": "79",
+     "firefox": "34",
+     "firefox_android": "34",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.SubtleCrypto.generateKey.ed25519": {
+    "baseline": "low",
+    "baseline_low_date": "2025-05-29",
+    "support": {
+     "chrome": "137",
+     "chrome_android": "137",
+     "edge": "137",
+     "firefox": "129",
+     "firefox_android": "129",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "api.SubtleCrypto.generateKey.x25519": {
+    "baseline": "low",
+    "baseline_low_date": "2025-02-06",
+    "support": {
+     "chrome": "133",
+     "chrome_android": "133",
+     "edge": "133",
+     "firefox": "130",
+     "firefox_android": "130",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "api.SubtleCrypto.importKey": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "37",
+     "chrome_android": "37",
+     "edge": "79",
+     "firefox": "34",
+     "firefox_android": "34",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.SubtleCrypto.importKey.ed25519": {
+    "baseline": "low",
+    "baseline_low_date": "2025-05-29",
+    "support": {
+     "chrome": "137",
+     "chrome_android": "137",
+     "edge": "137",
+     "firefox": "129",
+     "firefox_android": "129",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "api.SubtleCrypto.importKey.x25519": {
+    "baseline": "low",
+    "baseline_low_date": "2025-02-06",
+    "support": {
+     "chrome": "133",
+     "chrome_android": "133",
+     "edge": "133",
+     "firefox": "130",
+     "firefox_android": "130",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "api.SubtleCrypto.secure_context_required": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "60",
+     "chrome_android": "60",
+     "edge": "79",
+     "firefox": "75",
+     "firefox_android": "79",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "api.SubtleCrypto.sign": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "37",
+     "chrome_android": "37",
+     "edge": "79",
+     "firefox": "34",
+     "firefox_android": "34",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.SubtleCrypto.sign.ed25519": {
+    "baseline": "low",
+    "baseline_low_date": "2025-05-29",
+    "support": {
+     "chrome": "137",
+     "chrome_android": "137",
+     "edge": "137",
+     "firefox": "129",
+     "firefox_android": "129",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "api.SubtleCrypto.unwrapKey": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "37",
+     "chrome_android": "37",
+     "edge": "79",
+     "firefox": "34",
+     "firefox_android": "34",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.SubtleCrypto.verify": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "37",
+     "chrome_android": "37",
+     "edge": "79",
+     "firefox": "34",
+     "firefox_android": "34",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.SubtleCrypto.verify.ed25519": {
+    "baseline": "low",
+    "baseline_low_date": "2025-05-29",
+    "support": {
+     "chrome": "137",
+     "chrome_android": "137",
+     "edge": "137",
+     "firefox": "129",
+     "firefox_android": "129",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "api.SubtleCrypto.worker_support": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "37",
+     "chrome_android": "37",
+     "edge": "79",
+     "firefox": "48",
+     "firefox_android": "48",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.SubtleCrypto.wrapKey": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "37",
+     "chrome_android": "37",
+     "edge": "79",
+     "firefox": "34",
+     "firefox_android": "34",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.crypto": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "37",
+     "chrome_android": "37",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "5",
+     "safari_ios": "5"
+    }
+   },
+   "api.crypto.worker_support": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "37",
+     "chrome_android": "37",
+     "edge": "79",
+     "firefox": "48",
+     "firefox_android": "48",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   }
+  },
+  "support": {
+   "chrome": "37",
+   "chrome_android": "37",
+   "edge": "12",
+   "firefox": "34",
+   "firefox_android": "34",
+   "safari": "11",
+   "safari_ios": "11"
+  }
+ },
+ "id": "web-cryptography",
+ "groups": [
+  "security"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/webcrypto/",
+   "seriesComposition": "full",
+   "shortname": "webcrypto-2",
+   "series": {
+    "shortname": "webcrypto",
+    "currentSpecification": "webcrypto-2",
+    "title": "Web Cryptography",
+    "shortTitle": "Web Cryptography",
+    "releaseUrl": "https://www.w3.org/TR/webcrypto/",
+    "nightlyUrl": "https://w3c.github.io/webcrypto/"
+   },
+   "seriesVersion": "2",
+   "formerNames": [
+    "WebCryptoAPI"
+   ],
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Application Security Working Group",
+     "url": "https://www.w3.org/groups/wg/webappsec/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/webcrypto-2/",
+    "status": "First Public Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/webcrypto/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/webcrypto",
+    "sourcePath": "spec/Overview.html",
+    "filename": "index.html"
+   },
+   "title": "Web Cryptography Level 2",
+   "source": "w3c",
+   "shortTitle": "Web Cryptography 2",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "WebCryptoAPI"
+    ]
+   },
+   "fragment": null
+  },
+  {
+   "url": "https://wicg.github.io/webcrypto-secure-curves/",
+   "seriesComposition": "full",
+   "shortname": "webcrypto-secure-curves",
+   "series": {
+    "shortname": "webcrypto-secure-curves",
+    "currentSpecification": "webcrypto-secure-curves",
+    "title": "Secure Curves in the Web Cryptography API",
+    "shortTitle": "Secure Curves in the Web Cryptography API",
+    "nightlyUrl": "https://wicg.github.io/webcrypto-secure-curves/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://wicg.github.io/webcrypto-secure-curves/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/WICG/webcrypto-secure-curves",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Secure Curves in the Web Cryptography API",
+   "source": "spec",
+   "shortTitle": "Secure Curves in the Web Cryptography API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Web_Crypto_API",
+   "title": "Web Crypto API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Web_Crypto_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/67",
+   "position": "support",
+   "concerns": [
+    "venue"
+   ]
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:web-cryptography"
+ },
+ "developerSignals": null,
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1804788"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/1804788"
+  ]
+ },
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

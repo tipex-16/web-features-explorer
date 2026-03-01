@@ -1,0 +1,156 @@
+{
+ "compat_features": [
+  "api.ManagedMediaSource",
+  "api.ManagedMediaSource.ManagedMediaSource",
+  "api.ManagedMediaSource.endstreaming_event",
+  "api.ManagedMediaSource.startstreaming_event",
+  "api.ManagedMediaSource.streaming",
+  "api.ManagedSourceBuffer",
+  "api.ManagedSourceBuffer.bufferedchange_event"
+ ],
+ "description": "The ManagedMediaSource API is a MediaSource where the browser manages the memory of source buffers and may evict data if needed.",
+ "description_html": "The <code>ManagedMediaSource</code> API is a <code>MediaSource</code> where the browser manages the memory of source buffers and may evict data if needed.",
+ "kind": "feature",
+ "name": "Managed media source",
+ "spec": [
+  "https://w3c.github.io/media-source/#managedmediasource-interface"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.ManagedMediaSource": {
+    "baseline": false,
+    "support": {
+     "safari": "17",
+     "safari_ios": "17.1"
+    }
+   },
+   "api.ManagedMediaSource.ManagedMediaSource": {
+    "baseline": false,
+    "support": {
+     "safari": "17",
+     "safari_ios": "17.1"
+    }
+   },
+   "api.ManagedMediaSource.endstreaming_event": {
+    "baseline": false,
+    "support": {
+     "safari": "17",
+     "safari_ios": "17.1"
+    }
+   },
+   "api.ManagedMediaSource.startstreaming_event": {
+    "baseline": false,
+    "support": {
+     "safari": "17",
+     "safari_ios": "17.1"
+    }
+   },
+   "api.ManagedMediaSource.streaming": {
+    "baseline": false,
+    "support": {
+     "safari": "17",
+     "safari_ios": "17.1"
+    }
+   },
+   "api.ManagedSourceBuffer": {
+    "baseline": false,
+    "support": {
+     "safari": "17",
+     "safari_ios": "17.1"
+    }
+   },
+   "api.ManagedSourceBuffer.bufferedchange_event": {
+    "baseline": false,
+    "support": {
+     "safari": "17",
+     "safari_ios": "17.1"
+    }
+   }
+  },
+  "support": {
+   "safari": "17",
+   "safari_ios": "17.1"
+  }
+ },
+ "id": "managed-media-source",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/media-source/#managedmediasource-interface",
+   "seriesComposition": "full",
+   "shortname": "media-source-2",
+   "series": {
+    "shortname": "media-source",
+    "currentSpecification": "media-source-2",
+    "title": "Media Source Extensions™",
+    "shortTitle": "Media Source Extensions™",
+    "releaseUrl": "https://www.w3.org/TR/media-source/",
+    "nightlyUrl": "https://w3c.github.io/media-source/"
+   },
+   "seriesVersion": "2",
+   "nightly": {
+    "url": "https://w3c.github.io/media-source/",
+    "status": "Editor's Draft",
+    "sourcePath": "media-source-respec.html",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/media-source",
+    "filename": "index.html"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Media Working Group",
+     "url": "https://www.w3.org/media-wg/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/media-source-2/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "title": "Media Source Extensions™",
+   "source": "w3c",
+   "shortTitle": "Media Source Extensions™",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "media-source"
+    ]
+   },
+   "fragment": "managedmediasource-interface"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Media_Source_Extensions_API",
+   "title": "Media Source API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Media_Source_Extensions_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/845",
+   "position": "positive",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/216",
+  "votes": 0
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

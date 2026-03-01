@@ -1,0 +1,221 @@
+{
+ "compat_features": [
+  "api.ContactAddress",
+  "api.ContactAddress.addressLine",
+  "api.ContactAddress.city",
+  "api.ContactAddress.country",
+  "api.ContactAddress.dependentLocality",
+  "api.ContactAddress.organization",
+  "api.ContactAddress.phone",
+  "api.ContactAddress.postalCode",
+  "api.ContactAddress.recipient",
+  "api.ContactAddress.region",
+  "api.ContactAddress.sortingCode",
+  "api.ContactAddress.toJSON",
+  "api.ContactsManager",
+  "api.ContactsManager.getProperties",
+  "api.ContactsManager.select",
+  "api.Navigator.contacts"
+ ],
+ "description": "The navigator.contacts API allows you to ask users to share limited details about entries in their contact list with your application.",
+ "description_html": "The <code>navigator.contacts</code> API allows you to ask users to share limited details about entries in their contact list with your application.",
+ "kind": "feature",
+ "name": "Contact picker",
+ "spec": [
+  "https://w3c.github.io/contact-picker/#contacts-manager"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.ContactAddress": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "84"
+    }
+   },
+   "api.ContactAddress.addressLine": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "84"
+    }
+   },
+   "api.ContactAddress.city": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "84"
+    }
+   },
+   "api.ContactAddress.country": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "84"
+    }
+   },
+   "api.ContactAddress.dependentLocality": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "84"
+    }
+   },
+   "api.ContactAddress.organization": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "84"
+    }
+   },
+   "api.ContactAddress.phone": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "84"
+    }
+   },
+   "api.ContactAddress.postalCode": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "84"
+    }
+   },
+   "api.ContactAddress.recipient": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "84"
+    }
+   },
+   "api.ContactAddress.region": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "84"
+    }
+   },
+   "api.ContactAddress.sortingCode": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "84"
+    }
+   },
+   "api.ContactAddress.toJSON": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "84"
+    }
+   },
+   "api.ContactsManager": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "80"
+    }
+   },
+   "api.ContactsManager.getProperties": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "80"
+    }
+   },
+   "api.ContactsManager.select": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "80"
+    }
+   },
+   "api.Navigator.contacts": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "80"
+    }
+   }
+  },
+  "support": {
+   "chrome_android": "80"
+  }
+ },
+ "id": "contact-picker",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/contact-picker/#contacts-manager",
+   "seriesComposition": "full",
+   "shortname": "contact-picker",
+   "series": {
+    "shortname": "contact-picker",
+    "currentSpecification": "contact-picker",
+    "title": "Contact Picker API",
+    "shortTitle": "Contact Picker API",
+    "releaseUrl": "https://www.w3.org/TR/contact-picker/",
+    "nightlyUrl": "https://w3c.github.io/contact-picker/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Devices and Sensors Working Group",
+     "url": "https://www.w3.org/das/"
+    },
+    {
+     "name": "Web Applications Working Group",
+     "url": "https://www.w3.org/groups/wg/webapps/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/contact-picker/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/contact-picker/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/contact-picker",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Contact Picker API",
+   "source": "w3c",
+   "shortTitle": "Contact Picker API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": "contacts-manager"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Contact_Picker_API",
+   "title": "Contact Picker API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Contact_Picker_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/153",
+   "position": "defer",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:contact-picker"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/114",
+  "votes": 1
+ },
+ "bugs": {
+  "chrome": [
+   "https://bugs.chromium.org/p/chromium/issues/detail?id=1024911",
+   "https://bugs.chromium.org/p/chromium/issues/detail?id=860467"
+  ],
+  "firefox": [
+   "https://bugzil.la/1756767"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/1756767"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

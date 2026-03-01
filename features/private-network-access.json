@@ -1,0 +1,70 @@
+{
+ "compat_features": [
+  "http.mixed-content.private_network_access"
+ ],
+ "description": "The Access-Control-Request-Private-Network: true and Access-Control-Allow-Private-Network: true HTTP request and response headers establish permission for websites to make requests to internal networks, such as to routers.",
+ "description_html": "The <code>Access-Control-Request-Private-Network: true</code> and <code>Access-Control-Allow-Private-Network: true</code> HTTP request and response headers establish permission for websites to make requests to internal networks, such as to routers.",
+ "discouraged": {
+  "according_to": [
+   "https://github.com/WICG/local-network-access?tab=readme-ov-file#local-network-access",
+   "https://developer.chrome.com/blog/pna-on-hold"
+  ],
+  "alternatives": [
+   "local-network-access"
+  ],
+  "reason": "Private network access caused compatibility problems and is superseded by local network access.",
+  "reason_html": "Private network access caused compatibility problems and is superseded by local network access.",
+  "removal_date": "2025-06-26"
+ },
+ "kind": "feature",
+ "name": "Private network access",
+ "spec": [
+  "https://wicg.github.io/private-network-access/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "http.mixed-content.private_network_access": {
+    "baseline": false,
+    "support": {}
+   }
+  },
+  "support": {}
+ },
+ "id": "private-network-access",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://wicg.github.io/private-network-access/"
+  }
+ ],
+ "mdnUrls": [],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/143",
+   "position": "positive",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:private-network-access"
+ },
+ "developerSignals": null,
+ "bugs": {
+  "chrome": [
+   "https://bugs.chromium.org/p/chromium/issues/detail?id=1524350",
+   "https://crbug.com/1300021",
+   "https://crbug.com/1338439",
+   "https://crbug.com/1371454",
+   "https://crbug.com/591068",
+   "https://crbug.com/986744"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

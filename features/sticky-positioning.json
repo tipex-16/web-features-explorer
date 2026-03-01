@@ -1,0 +1,209 @@
+{
+ "caniuse": [
+  "css-sticky"
+ ],
+ "compat_features": [
+  "css.properties.position.position_sticky_table_elements",
+  "css.properties.position.sticky"
+ ],
+ "description": "The position: sticky CSS declaration positions an element in the normal flow until it crosses a specified threshold, at which points it becomes fixed (stuck) at that position.",
+ "description_html": "The <code>position: sticky</code> CSS declaration positions an element in the normal flow until it crosses a specified threshold, at which points it becomes fixed (stuck) at that position.",
+ "group": [
+  "positioning"
+ ],
+ "kind": "feature",
+ "name": "Sticky positioning",
+ "spec": [
+  "https://drafts.csswg.org/css-position-3/#stickypos-insets"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2022-03-19",
+  "baseline_low_date": "2019-09-19",
+  "by_compat_key": {
+   "css.properties.position.position_sticky_table_elements": {
+    "baseline": "high",
+    "baseline_high_date": "2020-09-13",
+    "baseline_low_date": "2018-03-13",
+    "support": {
+     "chrome": "56",
+     "chrome_android": "56",
+     "edge": "16",
+     "firefox": "59",
+     "firefox_android": "59",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "css.properties.position.sticky": {
+    "baseline": "high",
+    "baseline_high_date": "2022-03-19",
+    "baseline_low_date": "2019-09-19",
+    "support": {
+     "chrome": "56",
+     "chrome_android": "56",
+     "edge": "16",
+     "firefox": "32",
+     "firefox_android": "32",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   }
+  },
+  "support": {
+   "chrome": "56",
+   "chrome_android": "56",
+   "edge": "16",
+   "firefox": "59",
+   "firefox_android": "59",
+   "safari": "13",
+   "safari_ios": "13"
+  }
+ },
+ "id": "sticky-positioning",
+ "groups": [
+  "positioning"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-position-3/#stickypos-insets",
+   "seriesComposition": "full",
+   "shortname": "css-position-3",
+   "series": {
+    "shortname": "css-position",
+    "currentSpecification": "css-position-3",
+    "title": "CSS Positioned Layout",
+    "shortTitle": "CSS Positioned Layout",
+    "releaseUrl": "https://www.w3.org/TR/css-position/",
+    "nightlyUrl": "https://drafts.csswg.org/css-position/"
+   },
+   "seriesVersion": "3",
+   "seriesNext": "css-position-4",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-position-3/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-position-3/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-position-3/",
+     "https://w3c.github.io/csswg-drafts/css-position/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-position-3/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Positioned Layout Module Level 3",
+   "source": "w3c",
+   "shortTitle": "CSS Positioned Layout 3",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-position"
+    ]
+   },
+   "fragment": "stickypos-insets"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/position",
+   "title": "position",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/position"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#gamechanger_feature",
+   "question": "usage",
+   "subQuestion": "gamechanger_feature",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.gamechanger_feature.freeform.allEditions.0.buckets.15.groupedBuckets.0.groupedBuckets.7.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#favorite_new_features",
+   "question": "usage",
+   "subQuestion": "favorite_new_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.favorite_new_features.freeform.allEditions.0.buckets.21.groupedBuckets.1.groupedBuckets.0.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_missing_features",
+   "question": "usage",
+   "subQuestion": "css_missing_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_missing_features.freeform.allEditions.0.buckets.16.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_interoperability_features",
+   "question": "usage",
+   "subQuestion": "css_interoperability_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_interoperability_features.freeform.allEditions.0.buckets.21.groupedBuckets.0.groupedBuckets.18.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_general_pain_points",
+   "question": "usage",
+   "subQuestion": "css_general_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_general_pain_points.freeform.allEditions.0.buckets.9.groupedBuckets.0.groupedBuckets.32.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/layout/#layout_pain_points",
+   "question": "layout",
+   "subQuestion": "layout_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.layout.layout_pain_points.freeform.allEditions.0.buckets.11.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/interactions/#interactions_pain_points",
+   "question": "interactions",
+   "subQuestion": "interactions_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.interactions.interactions_pain_points.freeform.allEditions.0.buckets.11.groupedBuckets.0.groupedBuckets.1.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/usage/#css_missing_features",
+   "question": "usage",
+   "subQuestion": "css_missing_features",
+   "path": "dataAPI.surveys.state_of_css.css2024.usage.css_missing_features.freeform.currentEdition.buckets.16.entity"
+  }
+ ],
+ "chromeUseCounters": {},
+ "interop": [
+  {
+   "year": 2021,
+   "label": "interop-2021-position-sticky",
+   "url": "https://wpt.fyi/interop-2021?feature=interop-2021-position-sticky"
+  },
+  {
+   "year": 2022,
+   "label": "interop-2021-position-sticky",
+   "url": "https://wpt.fyi/interop-2022?feature=interop-2021-position-sticky"
+  }
+ ],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:sticky-positioning"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2019-09-19T00:00:00.000Z",
+ "baselineHighDateAsObject": "2022-03-19T00:00:00.000Z"
+}

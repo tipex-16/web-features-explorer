@@ -1,0 +1,205 @@
+{
+ "compat_features": [
+  "css.properties.reading-flow",
+  "css.properties.reading-flow.flex-flow",
+  "css.properties.reading-flow.flex-visual",
+  "css.properties.reading-flow.grid-columns",
+  "css.properties.reading-flow.grid-order",
+  "css.properties.reading-flow.grid-rows",
+  "css.properties.reading-flow.normal",
+  "css.properties.reading-flow.source-order",
+  "css.properties.reading-order"
+ ],
+ "description": "The reading-flow CSS property sets the order in which flex or grid elements are rendered to speech or reached via focus navigation. The reading-order property overrides this order.",
+ "description_html": "The <code>reading-flow</code> CSS property sets the order in which flex or grid elements are rendered to speech or reached via focus navigation. The <code>reading-order</code> property overrides this order.",
+ "group": [
+  "css"
+ ],
+ "kind": "feature",
+ "name": "reading-flow",
+ "spec": [
+  "https://drafts.csswg.org/css-display-4/#reading-flow"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "css.properties.reading-flow": {
+    "baseline": false,
+    "support": {
+     "chrome": "137",
+     "chrome_android": "137",
+     "edge": "137"
+    }
+   },
+   "css.properties.reading-flow.flex-flow": {
+    "baseline": false,
+    "support": {
+     "chrome": "137",
+     "chrome_android": "137",
+     "edge": "137"
+    }
+   },
+   "css.properties.reading-flow.flex-visual": {
+    "baseline": false,
+    "support": {
+     "chrome": "137",
+     "chrome_android": "137",
+     "edge": "137"
+    }
+   },
+   "css.properties.reading-flow.grid-columns": {
+    "baseline": false,
+    "support": {
+     "chrome": "137",
+     "chrome_android": "137",
+     "edge": "137"
+    }
+   },
+   "css.properties.reading-flow.grid-order": {
+    "baseline": false,
+    "support": {
+     "chrome": "137",
+     "chrome_android": "137",
+     "edge": "137"
+    }
+   },
+   "css.properties.reading-flow.grid-rows": {
+    "baseline": false,
+    "support": {
+     "chrome": "137",
+     "chrome_android": "137",
+     "edge": "137"
+    }
+   },
+   "css.properties.reading-flow.normal": {
+    "baseline": false,
+    "support": {
+     "chrome": "137",
+     "chrome_android": "137",
+     "edge": "137"
+    }
+   },
+   "css.properties.reading-flow.source-order": {
+    "baseline": false,
+    "support": {
+     "chrome": "137",
+     "chrome_android": "137",
+     "edge": "137"
+    }
+   },
+   "css.properties.reading-order": {
+    "baseline": false,
+    "support": {
+     "chrome": "137",
+     "chrome_android": "137",
+     "edge": "137"
+    }
+   }
+  },
+  "support": {
+   "chrome": "137",
+   "chrome_android": "137",
+   "edge": "137"
+  }
+ },
+ "id": "reading-flow",
+ "groups": [
+  "css"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-display-4/#reading-flow",
+   "seriesComposition": "full",
+   "shortname": "css-display-4",
+   "series": {
+    "shortname": "css-display",
+    "currentSpecification": "css-display-3",
+    "title": "CSS Display",
+    "shortTitle": "CSS Display",
+    "releaseUrl": "https://www.w3.org/TR/css-display/",
+    "nightlyUrl": "https://drafts.csswg.org/css-display/"
+   },
+   "seriesVersion": "4",
+   "seriesPrevious": "css-display-3",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-display-4/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-display-4/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-display-4/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-display-4/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Display Module Level 4",
+   "source": "w3c",
+   "shortTitle": "CSS Display 4",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-display"
+    ]
+   },
+   "fragment": "reading-flow"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/reading-flow",
+   "title": "reading-flow",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/reading-flow"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/1056",
+   "position": "",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/378",
+   "position": "",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00038558,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/313"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:reading-flow"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/290",
+  "votes": 10
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1966714"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

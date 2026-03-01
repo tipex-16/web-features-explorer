@@ -1,0 +1,125 @@
+{
+ "compat_features": [
+  "api.ClipboardItem.type_web"
+ ],
+ "description": "The web  prefix for ClipboardItem data types (also known as MIME types) allows reading and writing ununsanitized custom data from the device clipboard.",
+ "description_html": "The <code>web </code> prefix for <code>ClipboardItem</code> data types (also known as MIME types) allows reading and writing ununsanitized custom data from the device clipboard.",
+ "group": [
+  "clipboard"
+ ],
+ "kind": "feature",
+ "name": "Custom formats for clipboard items",
+ "spec": [
+  "https://w3c.github.io/clipboard-apis/#optional-data-types-x"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.ClipboardItem.type_web": {
+    "baseline": false,
+    "support": {
+     "chrome": "104",
+     "chrome_android": "104",
+     "edge": "104"
+    }
+   }
+  },
+  "support": {
+   "chrome": "104",
+   "chrome_android": "104",
+   "edge": "104"
+  }
+ },
+ "id": "clipboard-custom-format",
+ "groups": [
+  "clipboard"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/clipboard-apis/#optional-data-types-x",
+   "seriesComposition": "full",
+   "shortname": "clipboard-apis",
+   "series": {
+    "shortname": "clipboard-apis",
+    "currentSpecification": "clipboard-apis",
+    "title": "Clipboard API and events",
+    "shortTitle": "Clipboard API and events",
+    "releaseUrl": "https://www.w3.org/TR/clipboard-apis/",
+    "nightlyUrl": "https://w3c.github.io/clipboard-apis/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Editing Working Group",
+     "url": "https://www.w3.org/groups/wg/webediting/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/clipboard-apis/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/clipboard-apis/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/clipboard-apis",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Clipboard API and events",
+   "source": "w3c",
+   "shortTitle": "Clipboard API and events",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "clipboard-apis"
+    ]
+   },
+   "fragment": "optional-data-types-x"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/ClipboardItem",
+   "title": "ClipboardItem",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/ClipboardItem"
+  },
+  {
+   "slug": "Web/API/ClipboardItem/supports_static#type",
+   "title": "ClipboardItem: supports() static method",
+   "anchor": "type",
+   "url": "https://developer.mozilla.org/docs/Web/API/ClipboardItem/supports_static#type"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/43",
+   "position": "",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00003016,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/271"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:clipboard-custom-format"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/176",
+  "votes": 1
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

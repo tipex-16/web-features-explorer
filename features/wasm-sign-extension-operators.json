@@ -1,0 +1,71 @@
+{
+ "caniuse": [
+  "wasm-signext"
+ ],
+ "compat_features": [
+  "webassembly.sign-extension-operations"
+ ],
+ "description": "Sign-extension operator instructions extend the width of 8-bit, 16-bit, and 32-bit values to 32-bit and 64-bit values.",
+ "description_html": "Sign-extension operator instructions extend the width of 8-bit, 16-bit, and 32-bit values to 32-bit and 64-bit values.",
+ "group": [
+  "webassembly"
+ ],
+ "kind": "feature",
+ "name": "Sign extension operators (WebAssembly)",
+ "spec": [
+  "https://github.com/WebAssembly/spec/blob/main/proposals/sign-extension-ops/Overview.md"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2023-10-26",
+  "baseline_low_date": "2021-04-26",
+  "by_compat_key": {
+   "webassembly.sign-extension-operations": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "18",
+     "firefox": "62",
+     "firefox_android": "62",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   }
+  },
+  "support": {
+   "chrome": "69",
+   "chrome_android": "69",
+   "edge": "18",
+   "firefox": "62",
+   "firefox_android": "62",
+   "safari": "14.1",
+   "safari_ios": "14.5"
+  }
+ },
+ "id": "wasm-sign-extension-operators",
+ "groups": [
+  "webassembly"
+ ],
+ "specs": [
+  {
+   "url": "https://github.com/WebAssembly/spec/blob/main/proposals/sign-extension-ops/Overview.md"
+  }
+ ],
+ "mdnUrls": [],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.03004253,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/372"
+ },
+ "interop": [],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2021-04-26T00:00:00.000Z",
+ "baselineHighDateAsObject": "2023-10-26T00:00:00.000Z"
+}

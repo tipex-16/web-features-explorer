@@ -1,0 +1,107 @@
+{
+ "compat_features": [
+  "webassembly.garbage-collection"
+ ],
+ "description": "Garbage collection tracks references for better memory management with garbage-collected languages running in WebAssmbly.",
+ "description_html": "Garbage collection tracks references for better memory management with garbage-collected languages running in WebAssmbly.",
+ "group": [
+  "webassembly"
+ ],
+ "kind": "feature",
+ "name": "Garbage collection (WebAssembly)",
+ "spec": [
+  "https://webassembly.github.io/gc/core/bikeshed/#garbage-collection①"
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2024-12-11",
+  "by_compat_key": {
+   "webassembly.garbage-collection": {
+    "baseline": "low",
+    "baseline_low_date": "2024-12-11",
+    "support": {
+     "chrome": "119",
+     "chrome_android": "119",
+     "edge": "119",
+     "firefox": "120",
+     "firefox_android": "120",
+     "safari": "18.2",
+     "safari_ios": "18.2"
+    }
+   }
+  },
+  "support": {
+   "chrome": "119",
+   "chrome_android": "119",
+   "edge": "119",
+   "firefox": "120",
+   "firefox_android": "120",
+   "safari": "18.2",
+   "safari_ios": "18.2"
+  }
+ },
+ "id": "wasm-garbage-collection",
+ "groups": [
+  "webassembly"
+ ],
+ "specs": [
+  {
+   "url": "https://webassembly.github.io/gc/core/bikeshed/#garbage-collection①",
+   "seriesComposition": "fork",
+   "shortname": "wasm-core-2-fork-gc",
+   "series": {
+    "shortname": "wasm-core",
+    "currentSpecification": "wasm-core-2",
+    "title": "WebAssembly Core",
+    "shortTitle": "WebAssembly Core",
+    "releaseUrl": "https://www.w3.org/TR/wasm-core/",
+    "nightlyUrl": "https://webassembly.github.io/spec/core/bikeshed/"
+   },
+   "seriesVersion": "2",
+   "forkOf": "wasm-core-2",
+   "title": "WebAssembly Core: Garbage Collection",
+   "formerNames": [
+    "wasm-core-1-fork-gc"
+   ],
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "WebAssembly Community Group",
+     "url": "https://www.w3.org/community/webassembly/"
+    }
+   ],
+   "nightly": {
+    "url": "https://webassembly.github.io/gc/core/bikeshed/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/WebAssembly/gc",
+    "sourcePath": "document/core/index.bs",
+    "filename": "index.html"
+   },
+   "source": "spec",
+   "shortTitle": "WebAssembly Core: Garbage Collection",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": "garbage-collection①"
+  }
+ ],
+ "mdnUrls": [],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00445664,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/358"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:wasm-garbage-collection"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2024-12-11T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2027-06-11"
+}

@@ -1,0 +1,109 @@
+{
+ "compat_features": [
+  "api.Document.freeze_event",
+  "api.Document.resume_event",
+  "api.Document.wasDiscarded"
+ ],
+ "description": "The page lifecycle API helps you safely handle page suspensions or discards from memory. The freeze and resume events fire when the browser suspends or resumes a page from memory while the document.wasDiscarded property reports whether the page was reloaded after being dropped.",
+ "description_html": "The page lifecycle API helps you safely handle page suspensions or discards from memory. The <code>freeze</code> and <code>resume</code> events fire when the browser suspends or resumes a page from memory while the <code>document.wasDiscarded</code> property reports whether the page was reloaded after being dropped.",
+ "kind": "feature",
+ "name": "Page lifecycle",
+ "spec": [
+  "https://wicg.github.io/page-lifecycle/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Document.freeze_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "68",
+     "chrome_android": "68",
+     "edge": "79"
+    }
+   },
+   "api.Document.resume_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "68",
+     "chrome_android": "68",
+     "edge": "79"
+    }
+   },
+   "api.Document.wasDiscarded": {
+    "baseline": false,
+    "support": {
+     "chrome": "68",
+     "chrome_android": "68",
+     "edge": "79"
+    }
+   }
+  },
+  "support": {
+   "chrome": "68",
+   "chrome_android": "68",
+   "edge": "79"
+  }
+ },
+ "id": "page-lifecycle",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://wicg.github.io/page-lifecycle/",
+   "seriesComposition": "full",
+   "shortname": "page-lifecycle",
+   "series": {
+    "shortname": "page-lifecycle",
+    "currentSpecification": "page-lifecycle",
+    "title": "Page Lifecycle",
+    "shortTitle": "Page Lifecycle",
+    "nightlyUrl": "https://wicg.github.io/page-lifecycle/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://wicg.github.io/page-lifecycle/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/WICG/page-lifecycle",
+    "sourcePath": "spec.bs",
+    "filename": "index.html"
+   },
+   "title": "Page Lifecycle",
+   "source": "spec",
+   "shortTitle": "Page Lifecycle",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "page-lifecycle"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:page-lifecycle"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/89",
+  "votes": 5
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

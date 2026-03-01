@@ -1,0 +1,384 @@
+{
+ "compat_features": [
+  "api.BackgroundFetchEvent",
+  "api.BackgroundFetchEvent.BackgroundFetchEvent",
+  "api.BackgroundFetchEvent.registration",
+  "api.BackgroundFetchManager",
+  "api.BackgroundFetchManager.fetch",
+  "api.BackgroundFetchManager.get",
+  "api.BackgroundFetchManager.getIds",
+  "api.BackgroundFetchRecord",
+  "api.BackgroundFetchRecord.request",
+  "api.BackgroundFetchRecord.responseReady",
+  "api.BackgroundFetchRegistration",
+  "api.BackgroundFetchRegistration.abort",
+  "api.BackgroundFetchRegistration.downloadTotal",
+  "api.BackgroundFetchRegistration.downloaded",
+  "api.BackgroundFetchRegistration.failureReason",
+  "api.BackgroundFetchRegistration.id",
+  "api.BackgroundFetchRegistration.match",
+  "api.BackgroundFetchRegistration.matchAll",
+  "api.BackgroundFetchRegistration.progress_event",
+  "api.BackgroundFetchRegistration.recordsAvailable",
+  "api.BackgroundFetchRegistration.result",
+  "api.BackgroundFetchRegistration.uploadTotal",
+  "api.BackgroundFetchRegistration.uploaded",
+  "api.BackgroundFetchUpdateUIEvent",
+  "api.BackgroundFetchUpdateUIEvent.BackgroundFetchUpdateUIEvent",
+  "api.BackgroundFetchUpdateUIEvent.updateUI",
+  "api.ServiceWorkerGlobalScope.backgroundfetchabort_event",
+  "api.ServiceWorkerGlobalScope.backgroundfetchclick_event",
+  "api.ServiceWorkerGlobalScope.backgroundfetchfail_event",
+  "api.ServiceWorkerGlobalScope.backgroundfetchsuccess_event",
+  "api.ServiceWorkerRegistration.backgroundFetch"
+ ],
+ "description": "Background fetch downloads data in the background even when the web page is closed.",
+ "description_html": "Background fetch downloads data in the background even when the web page is closed.",
+ "kind": "feature",
+ "name": "Background fetch",
+ "spec": [
+  "https://wicg.github.io/background-fetch/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.BackgroundFetchEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.BackgroundFetchEvent.BackgroundFetchEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.BackgroundFetchEvent.registration": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.BackgroundFetchManager": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.BackgroundFetchManager.fetch": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.BackgroundFetchManager.get": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.BackgroundFetchManager.getIds": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.BackgroundFetchRecord": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.BackgroundFetchRecord.request": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.BackgroundFetchRecord.responseReady": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.BackgroundFetchRegistration": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.BackgroundFetchRegistration.abort": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.BackgroundFetchRegistration.downloadTotal": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.BackgroundFetchRegistration.downloaded": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.BackgroundFetchRegistration.failureReason": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.BackgroundFetchRegistration.id": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.BackgroundFetchRegistration.match": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.BackgroundFetchRegistration.matchAll": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.BackgroundFetchRegistration.progress_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.BackgroundFetchRegistration.recordsAvailable": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.BackgroundFetchRegistration.result": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.BackgroundFetchRegistration.uploadTotal": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.BackgroundFetchRegistration.uploaded": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.BackgroundFetchUpdateUIEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.BackgroundFetchUpdateUIEvent.BackgroundFetchUpdateUIEvent": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.BackgroundFetchUpdateUIEvent.updateUI": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.ServiceWorkerGlobalScope.backgroundfetchabort_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.ServiceWorkerGlobalScope.backgroundfetchclick_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.ServiceWorkerGlobalScope.backgroundfetchfail_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.ServiceWorkerGlobalScope.backgroundfetchsuccess_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.ServiceWorkerRegistration.backgroundFetch": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   }
+  },
+  "support": {
+   "chrome": "74",
+   "chrome_android": "74",
+   "edge": "79"
+  }
+ },
+ "id": "background-fetch",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://wicg.github.io/background-fetch/",
+   "seriesComposition": "full",
+   "shortname": "background-fetch",
+   "series": {
+    "shortname": "background-fetch",
+    "currentSpecification": "background-fetch",
+    "title": "Background Fetch",
+    "shortTitle": "Background Fetch",
+    "nightlyUrl": "https://wicg.github.io/background-fetch/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://wicg.github.io/background-fetch/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/WICG/background-fetch",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Background Fetch",
+   "source": "spec",
+   "shortTitle": "Background Fetch",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "background-fetch"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Background_Fetch_API",
+   "title": "Background Fetch API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Background_Fetch_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/30",
+   "position": "",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/149",
+   "concerns": [
+    "privacy",
+    "maintenance"
+   ],
+   "position": ""
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:background-fetch"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/97",
+  "votes": 5
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

@@ -1,0 +1,238 @@
+{
+ "caniuse": [
+  "css-counters"
+ ],
+ "compat_features": [
+  "css.properties.counter-increment",
+  "css.properties.counter-increment.list-item",
+  "css.properties.counter-increment.none",
+  "css.properties.counter-reset",
+  "css.properties.counter-reset.list-item",
+  "css.properties.counter-reset.none",
+  "css.properties.counter-reset.reset_does_not_affect_siblings",
+  "css.types.counter",
+  "css.types.counters"
+ ],
+ "description": "The counter-reset and counter-increment CSS properties and the counter() and counters() functions automatically number headings or ordered list items.",
+ "description_html": "The <code>counter-reset</code> and <code>counter-increment</code> CSS properties and the <code>counter()</code> and <code>counters()</code> functions automatically number headings or ordered list items.",
+ "group": [
+  "counters"
+ ],
+ "kind": "feature",
+ "name": "Counters (CSS)",
+ "spec": [
+  "https://drafts.csswg.org/css-lists-3/#auto-numbering"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "css.properties.counter-increment": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "25",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.counter-increment.list-item": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "28",
+     "chrome_android": "28",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "25",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.counter-increment.none": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "25",
+     "safari": "3",
+     "safari_ios": "2"
+    }
+   },
+   "css.properties.counter-reset": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "25",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.counter-reset.list-item": {
+    "baseline": false,
+    "support": {
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "25"
+    }
+   },
+   "css.properties.counter-reset.none": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "25",
+     "safari": "3",
+     "safari_ios": "2"
+    }
+   },
+   "css.properties.counter-reset.reset_does_not_affect_siblings": {
+    "baseline": false,
+    "support": {
+     "firefox": "82",
+     "firefox_android": "82"
+    }
+   },
+   "css.types.counter": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   },
+   "css.types.counters": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "4",
+     "safari": "3",
+     "safari_ios": "1"
+    }
+   }
+  },
+  "support": {
+   "chrome": "2",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "1",
+   "firefox_android": "25",
+   "safari": "3",
+   "safari_ios": "1"
+  }
+ },
+ "id": "counters",
+ "groups": [
+  "counters"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-lists-3/#auto-numbering",
+   "seriesComposition": "full",
+   "shortname": "css-lists-3",
+   "series": {
+    "shortname": "css-lists",
+    "currentSpecification": "css-lists-3",
+    "title": "CSS Lists",
+    "shortTitle": "CSS Lists",
+    "releaseUrl": "https://www.w3.org/TR/css-lists/",
+    "nightlyUrl": "https://drafts.csswg.org/css-lists/"
+   },
+   "seriesVersion": "3",
+   "shortTitle": "CSS Lists 3",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-lists-3/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-lists-3/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-lists-3/",
+     "https://w3c.github.io/csswg-drafts/css-lists/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-lists-3/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Lists and Counters Module Level 3",
+   "source": "w3c",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-lists"
+    ]
+   },
+   "fragment": "auto-numbering"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/counter-reset",
+   "title": "counter-reset",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/counter-reset"
+  },
+  {
+   "slug": "Web/CSS/Reference/Properties/counter-increment",
+   "title": "counter-increment",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/counter-increment"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:counters"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

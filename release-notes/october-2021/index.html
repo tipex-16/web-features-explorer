@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Web platform features explorer - October 2021 release notes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
+    <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
+  </head>
+  <body>
+
+    
+      <header>
+        <a href="/web-features-explorer/">Web platform features explorer</a>
+
+        <nav>
+          <ul>
+            <li><a href="/web-features-explorer/release-notes/february-2026">Release notes</a></li>
+            <li><a href="/web-features-explorer/newly-available">Explore features</a></li>
+            <li><a href="/web-features-explorer/about">About</a></li>
+          </ul>
+          <search>
+            <form>
+              <input type="search" id="search" placeholder="Search">
+            </form>
+          </search>
+        </nav>
+
+        <output for="search"></output>
+      </header>
+    
+
+    
+<main class="release-notes">
+  <h1>📃 October 2021 release notes</h1>
+
+  <div>
+    
+      <section class="baseline-low">
+        <h2>Newly available</h2>
+        <p>The following features are newly available:</p>
+        <ul>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/image-rendering/">image-rendering</a></strong>:
+              The <code>image-rendering</code> CSS property sets how images are scaled, retaining smoothness for photos, or hard edges for pixel art and QR codes.
+            </li>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/navigation-timing/">Navigation timing</a></strong>:
+              The <code>navigation</code> performance entry and the <code>PerformanceNavigationTiming</code> API measures navigation events, such as loading time or the number of redirects.
+            </li>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/wasm-bulk-memory/">Bulk memory operations (WebAssembly)</a></strong>:
+              Bulk memory operations, such as <code>copy</code> and <code>init</code>, mirror the efficiency of native <code>memcpy</code> and <code>memmove</code> operations.
+            </li>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/wasm-non-trapping-float-to-int/">Non-trapping float-to-int conversion (WebAssembly)</a></strong>:
+              Saturating floating-point to integer conversion operators return the maximum or minimum integer value on overflow instead of trapping.
+            </li>
+          
+        </ul>
+      </section>
+    
+
+    
+
+    
+      
+        <section class="baseline-false chrome">
+          <h2>New in Chrome</h2>
+          <p>The following features are now available in Chrome:</p>
+          <ul>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/urlpattern/">URLPattern</a></strong>:
+                The <code>URLPattern</code> API creates patterns that can be matched against URLs or URL components.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/wasm-exception-handling/">Exception handling (WebAssembly)</a></strong>:
+                Exceptions break the normal control flow of execution to represent exceptional behavior, such as an error. You can respond to the exception in JavaScript code.
+              </li>
+            
+          </ul>
+        </section>
+      
+    
+      
+        <section class="baseline-false chrome_android">
+          <h2>New in Chrome Android</h2>
+          <p>The following features are now available in Chrome Android:</p>
+          <ul>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/urlpattern/">URLPattern</a></strong>:
+                The <code>URLPattern</code> API creates patterns that can be matched against URLs or URL components.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/wasm-exception-handling/">Exception handling (WebAssembly)</a></strong>:
+                Exceptions break the normal control flow of execution to represent exceptional behavior, such as an error. You can respond to the exception in JavaScript code.
+              </li>
+            
+          </ul>
+        </section>
+      
+    
+      
+        <section class="baseline-false edge">
+          <h2>New in Edge</h2>
+          <p>The following features are now available in Edge:</p>
+          <ul>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/urlpattern/">URLPattern</a></strong>:
+                The <code>URLPattern</code> API creates patterns that can be matched against URLs or URL components.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/wasm-exception-handling/">Exception handling (WebAssembly)</a></strong>:
+                Exceptions break the normal control flow of execution to represent exceptional behavior, such as an error. You can respond to the exception in JavaScript code.
+              </li>
+            
+          </ul>
+        </section>
+      
+    
+      
+        <section class="baseline-false firefox">
+          <h2>New in Firefox</h2>
+          <p>The following features are now available in Firefox:</p>
+          <ul>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/smooth/">image-rendering: smooth</a></strong>:
+                The <code>image-rendering: smooth</code> CSS declaration scales images while retaining a gradual color blending that is useful for photos.
+              </li>
+            
+          </ul>
+        </section>
+      
+    
+      
+        <section class="baseline-false firefox_android">
+          <h2>New in Firefox for Android</h2>
+          <p>The following features are now available in Firefox for Android:</p>
+          <ul>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/smooth/">image-rendering: smooth</a></strong>:
+                The <code>image-rendering: smooth</code> CSS declaration scales images while retaining a gradual color blending that is useful for photos.
+              </li>
+            
+          </ul>
+        </section>
+      
+    
+      
+        <section class="baseline-false safari">
+          <h2>New in Safari</h2>
+          <p>The following features are now available in Safari:</p>
+          <ul>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/wasm-reference-types/">Reference types (WebAssembly)</a></strong>:
+                The <code>externref</code> type can be both a value type and a table element type, while <code>funcref</code> can be a value type.
+              </li>
+            
+          </ul>
+        </section>
+      
+    
+      
+        <section class="baseline-false safari_ios">
+          <h2>New in Safari on iOS</h2>
+          <p>The following features are now available in Safari on iOS:</p>
+          <ul>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/wasm-reference-types/">Reference types (WebAssembly)</a></strong>:
+                The <code>externref</code> type can be both a value type and a table element type, while <code>funcref</code> can be a value type.
+              </li>
+            
+          </ul>
+        </section>
+      
+    
+  </div>
+
+  <aside>
+    <h2>Other release notes</h2>
+    <ul>
+      
+        
+          <li class="month-entry">
+            <a href="../february-2026">February 2026</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../january-2026">January 2026</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../december-2025">December 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../november-2025">November 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../october-2025">October 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../september-2025">September 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../august-2025">August 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../july-2025">July 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../june-2025">June 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../may-2025">May 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../april-2025">April 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../march-2025">March 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../february-2025">February 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../january-2025">January 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../december-2024">December 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../november-2024">November 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../october-2024">October 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../september-2024">September 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../august-2024">August 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../july-2024">July 2024</a>
+          </li>
+        
+      
+        
+          <li><a href="../">See all</a></li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </ul>
+  </aside>
+</main>
+
+
+        
+      <script src="/web-features-explorer/assets/search.js" defer=""></script>
+    
+  </body>
+</html>

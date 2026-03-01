@@ -1,0 +1,183 @@
+{
+ "compat_features": [
+  "api.Gyroscope",
+  "api.Gyroscope.Gyroscope",
+  "api.Gyroscope.x",
+  "api.Gyroscope.y",
+  "api.Gyroscope.z",
+  "api.Permissions.permission_gyroscope",
+  "html.elements.iframe.allow.gyroscope",
+  "http.headers.Permissions-Policy.gyroscope"
+ ],
+ "description": "The Gyroscope API reads the angular velocity of a device in three dimensions.",
+ "description_html": "The <code>Gyroscope</code> API reads the angular velocity of a device in three dimensions.",
+ "group": [
+  "sensors"
+ ],
+ "kind": "feature",
+ "name": "Gyroscope",
+ "spec": [
+  "https://w3c.github.io/gyroscope/#gyroscope-interface"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Gyroscope": {
+    "baseline": false,
+    "support": {
+     "chrome": "67",
+     "chrome_android": "67",
+     "edge": "79"
+    }
+   },
+   "api.Gyroscope.Gyroscope": {
+    "baseline": false,
+    "support": {
+     "chrome": "67",
+     "chrome_android": "67",
+     "edge": "79"
+    }
+   },
+   "api.Gyroscope.x": {
+    "baseline": false,
+    "support": {
+     "chrome": "67",
+     "chrome_android": "67",
+     "edge": "79"
+    }
+   },
+   "api.Gyroscope.y": {
+    "baseline": false,
+    "support": {
+     "chrome": "67",
+     "chrome_android": "67",
+     "edge": "79"
+    }
+   },
+   "api.Gyroscope.z": {
+    "baseline": false,
+    "support": {
+     "chrome": "67",
+     "chrome_android": "67",
+     "edge": "79"
+    }
+   },
+   "api.Permissions.permission_gyroscope": {
+    "baseline": false,
+    "support": {
+     "chrome": "51",
+     "chrome_android": "51",
+     "edge": "79"
+    }
+   },
+   "html.elements.iframe.allow.gyroscope": {
+    "baseline": false,
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79"
+    }
+   },
+   "http.headers.Permissions-Policy.gyroscope": {
+    "baseline": false,
+    "support": {
+     "chrome": "88",
+     "chrome_android": "88",
+     "edge": "88"
+    }
+   }
+  },
+  "support": {
+   "chrome": "67",
+   "chrome_android": "67",
+   "edge": "79"
+  }
+ },
+ "id": "gyroscope",
+ "groups": [
+  "sensors"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/gyroscope/#gyroscope-interface",
+   "seriesComposition": "full",
+   "shortname": "gyroscope",
+   "series": {
+    "shortname": "gyroscope",
+    "currentSpecification": "gyroscope",
+    "title": "Gyroscope",
+    "shortTitle": "Gyroscope",
+    "releaseUrl": "https://www.w3.org/TR/gyroscope/",
+    "nightlyUrl": "https://w3c.github.io/gyroscope/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Devices and Sensors Working Group",
+     "url": "https://www.w3.org/das/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/gyroscope/",
+    "status": "Candidate Recommendation Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/gyroscope/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/gyroscope",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Gyroscope",
+   "source": "w3c",
+   "shortTitle": "Gyroscope",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "gyroscope"
+    ]
+   },
+   "fragment": "gyroscope-interface"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Gyroscope",
+   "title": "Gyroscope",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Gyroscope"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/347",
+   "position": "oppose",
+   "concerns": [
+    "duplication",
+    "privacy",
+    "venue",
+    "use cases",
+    "power",
+    "device independence"
+   ]
+  }
+ ],
+ "hasNegativeStandardPosition": true,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:gyroscope"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

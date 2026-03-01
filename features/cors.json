@@ -1,0 +1,275 @@
+{
+ "caniuse": [
+  "cors"
+ ],
+ "compat_features": [
+  "http.headers.Access-Control-Allow-Credentials",
+  "http.headers.Access-Control-Allow-Headers",
+  "http.headers.Access-Control-Allow-Headers.authorization_not_covered_by_wildcard",
+  "http.headers.Access-Control-Allow-Headers.wildcard",
+  "http.headers.Access-Control-Allow-Methods",
+  "http.headers.Access-Control-Allow-Methods.wildcard",
+  "http.headers.Access-Control-Allow-Origin",
+  "http.headers.Access-Control-Expose-Headers",
+  "http.headers.Access-Control-Expose-Headers.wildcard",
+  "http.headers.Access-Control-Max-Age",
+  "http.headers.Access-Control-Request-Headers",
+  "http.headers.Access-Control-Request-Method"
+ ],
+ "description": "Cross-Origin Resource Sharing is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources. Also known as CORS.",
+ "description_html": "Cross-Origin Resource Sharing is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources. Also known as CORS.",
+ "group": [
+  "security"
+ ],
+ "kind": "feature",
+ "name": "CORS",
+ "spec": [
+  "https://fetch.spec.whatwg.org/#http-cors-protocol"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "http.headers.Access-Control-Allow-Credentials": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "http.headers.Access-Control-Allow-Headers": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "http.headers.Access-Control-Allow-Headers.authorization_not_covered_by_wildcard": {
+    "baseline": false,
+    "support": {}
+   },
+   "http.headers.Access-Control-Allow-Headers.wildcard": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "63",
+     "chrome_android": "63",
+     "edge": "79",
+     "firefox": "69",
+     "firefox_android": "79",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "http.headers.Access-Control-Allow-Methods": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "http.headers.Access-Control-Allow-Methods.wildcard": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "63",
+     "chrome_android": "63",
+     "edge": "79",
+     "firefox": "69",
+     "firefox_android": "79",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "http.headers.Access-Control-Allow-Origin": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "http.headers.Access-Control-Expose-Headers": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "http.headers.Access-Control-Expose-Headers.wildcard": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "65",
+     "chrome_android": "65",
+     "edge": "79",
+     "firefox": "69",
+     "firefox_android": "79",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "http.headers.Access-Control-Max-Age": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "http.headers.Access-Control-Request-Headers": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "http.headers.Access-Control-Request-Method": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   }
+  },
+  "support": {
+   "chrome": "4",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "3.5",
+   "firefox_android": "4",
+   "safari": "4",
+   "safari_ios": "3.2"
+  }
+ },
+ "id": "cors",
+ "groups": [
+  "security"
+ ],
+ "specs": [
+  {
+   "url": "https://fetch.spec.whatwg.org/#http-cors-protocol",
+   "seriesComposition": "full",
+   "shortname": "fetch",
+   "series": {
+    "shortname": "fetch",
+    "currentSpecification": "fetch",
+    "title": "Fetch",
+    "shortTitle": "Fetch",
+    "nightlyUrl": "https://fetch.spec.whatwg.org/"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "Fetch Workstream",
+     "url": "https://fetch.spec.whatwg.org/"
+    }
+   ],
+   "nightly": {
+    "url": "https://fetch.spec.whatwg.org/",
+    "status": "Living Standard",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/fetch",
+    "sourcePath": "fetch.bs",
+    "filename": "index.html"
+   },
+   "title": "Fetch",
+   "source": "whatwg",
+   "shortTitle": "Fetch",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "cors",
+     "fetch"
+    ],
+    "excludePaths": [
+     "fetch/local-network-access",
+     "fetch/metadata"
+    ]
+   },
+   "fragment": "http-cors-protocol"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/HTTP/Guides/CORS",
+   "title": "Cross-Origin Resource Sharing (CORS)",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/HTTP/Guides/CORS"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:cors"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

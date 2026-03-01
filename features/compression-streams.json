@@ -1,0 +1,319 @@
+{
+ "compat_features": [
+  "api.CompressionStream",
+  "api.CompressionStream.CompressionStream",
+  "api.CompressionStream.CompressionStream.brotli",
+  "api.CompressionStream.CompressionStream.deflate",
+  "api.CompressionStream.CompressionStream.deflate-raw",
+  "api.CompressionStream.CompressionStream.gzip",
+  "api.CompressionStream.readable",
+  "api.CompressionStream.writable",
+  "api.DecompressionStream",
+  "api.DecompressionStream.DecompressionStream",
+  "api.DecompressionStream.DecompressionStream.brotli",
+  "api.DecompressionStream.DecompressionStream.deflate",
+  "api.DecompressionStream.DecompressionStream.deflate-raw",
+  "api.DecompressionStream.DecompressionStream.gzip",
+  "api.DecompressionStream.readable",
+  "api.DecompressionStream.writable"
+ ],
+ "description": "The CompressionStream and DecompressionStream APIs compress and decompress data using the gzip or deflate formats.",
+ "description_html": "The <code>CompressionStream</code> and <code>DecompressionStream</code> APIs compress and decompress data using the gzip or deflate formats.",
+ "kind": "feature",
+ "name": "Compression streams",
+ "spec": [
+  "https://compression.spec.whatwg.org/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2025-11-09",
+  "baseline_low_date": "2023-05-09",
+  "by_compat_key": {
+   "api.CompressionStream": {
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
+    "baseline_low_date": "2023-05-09",
+    "support": {
+     "chrome": "80",
+     "chrome_android": "80",
+     "edge": "80",
+     "firefox": "113",
+     "firefox_android": "113",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CompressionStream.CompressionStream": {
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
+    "baseline_low_date": "2023-05-09",
+    "support": {
+     "chrome": "80",
+     "chrome_android": "80",
+     "edge": "80",
+     "firefox": "113",
+     "firefox_android": "113",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CompressionStream.CompressionStream.brotli": {
+    "baseline": false,
+    "support": {
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "18.4",
+     "safari_ios": "18.4"
+    }
+   },
+   "api.CompressionStream.CompressionStream.deflate": {
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
+    "baseline_low_date": "2023-05-09",
+    "support": {
+     "chrome": "80",
+     "chrome_android": "80",
+     "edge": "80",
+     "firefox": "113",
+     "firefox_android": "113",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CompressionStream.CompressionStream.deflate-raw": {
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
+    "baseline_low_date": "2023-05-09",
+    "support": {
+     "chrome": "103",
+     "chrome_android": "103",
+     "edge": "103",
+     "firefox": "113",
+     "firefox_android": "113",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CompressionStream.CompressionStream.gzip": {
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
+    "baseline_low_date": "2023-05-09",
+    "support": {
+     "chrome": "80",
+     "chrome_android": "80",
+     "edge": "80",
+     "firefox": "113",
+     "firefox_android": "113",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CompressionStream.readable": {
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
+    "baseline_low_date": "2023-05-09",
+    "support": {
+     "chrome": "80",
+     "chrome_android": "80",
+     "edge": "80",
+     "firefox": "113",
+     "firefox_android": "113",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.CompressionStream.writable": {
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
+    "baseline_low_date": "2023-05-09",
+    "support": {
+     "chrome": "80",
+     "chrome_android": "80",
+     "edge": "80",
+     "firefox": "113",
+     "firefox_android": "113",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.DecompressionStream": {
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
+    "baseline_low_date": "2023-05-09",
+    "support": {
+     "chrome": "80",
+     "chrome_android": "80",
+     "edge": "80",
+     "firefox": "113",
+     "firefox_android": "113",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.DecompressionStream.DecompressionStream": {
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
+    "baseline_low_date": "2023-05-09",
+    "support": {
+     "chrome": "80",
+     "chrome_android": "80",
+     "edge": "80",
+     "firefox": "113",
+     "firefox_android": "113",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.DecompressionStream.DecompressionStream.brotli": {
+    "baseline": false,
+    "support": {
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "18.4",
+     "safari_ios": "18.4"
+    }
+   },
+   "api.DecompressionStream.DecompressionStream.deflate": {
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
+    "baseline_low_date": "2023-05-09",
+    "support": {
+     "chrome": "80",
+     "chrome_android": "80",
+     "edge": "80",
+     "firefox": "113",
+     "firefox_android": "113",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.DecompressionStream.DecompressionStream.deflate-raw": {
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
+    "baseline_low_date": "2023-05-09",
+    "support": {
+     "chrome": "103",
+     "chrome_android": "103",
+     "edge": "103",
+     "firefox": "113",
+     "firefox_android": "113",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.DecompressionStream.DecompressionStream.gzip": {
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
+    "baseline_low_date": "2023-05-09",
+    "support": {
+     "chrome": "80",
+     "chrome_android": "80",
+     "edge": "80",
+     "firefox": "113",
+     "firefox_android": "113",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.DecompressionStream.readable": {
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
+    "baseline_low_date": "2023-05-09",
+    "support": {
+     "chrome": "80",
+     "chrome_android": "80",
+     "edge": "80",
+     "firefox": "113",
+     "firefox_android": "113",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.DecompressionStream.writable": {
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
+    "baseline_low_date": "2023-05-09",
+    "support": {
+     "chrome": "80",
+     "chrome_android": "80",
+     "edge": "80",
+     "firefox": "113",
+     "firefox_android": "113",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   }
+  },
+  "support": {
+   "chrome": "80",
+   "chrome_android": "80",
+   "edge": "80",
+   "firefox": "113",
+   "firefox_android": "113",
+   "safari": "16.4",
+   "safari_ios": "16.4"
+  }
+ },
+ "id": "compression-streams",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://compression.spec.whatwg.org/",
+   "seriesComposition": "full",
+   "shortname": "compression",
+   "series": {
+    "shortname": "compression",
+    "currentSpecification": "compression",
+    "title": "Compression",
+    "shortTitle": "Compression",
+    "nightlyUrl": "https://compression.spec.whatwg.org/"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "Streams Workstream",
+     "url": "https://compression.spec.whatwg.org/"
+    }
+   ],
+   "nightly": {
+    "url": "https://compression.spec.whatwg.org/",
+    "status": "Living Standard",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/compression",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Compression",
+   "source": "whatwg",
+   "shortTitle": "Compression",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Compression_Streams_API",
+   "title": "Compression Streams API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Compression_Streams_API"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.23166645,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/1"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:compression-streams"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2023-05-09T00:00:00.000Z",
+ "baselineHighDateAsObject": "2025-11-09T00:00:00.000Z"
+}

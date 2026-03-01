@@ -1,0 +1,465 @@
+{
+ "caniuse": [
+  "text-decoration"
+ ],
+ "compat_features": [
+  "css.properties.text-decoration",
+  "css.properties.text-decoration-color",
+  "css.properties.text-decoration-line",
+  "css.properties.text-decoration-line.grammar-error",
+  "css.properties.text-decoration-line.line-through",
+  "css.properties.text-decoration-line.none",
+  "css.properties.text-decoration-line.overline",
+  "css.properties.text-decoration-line.spelling-error",
+  "css.properties.text-decoration-line.underline",
+  "css.properties.text-decoration-skip",
+  "css.properties.text-decoration-skip-ink",
+  "css.properties.text-decoration-skip-ink.all",
+  "css.properties.text-decoration-skip-ink.auto",
+  "css.properties.text-decoration-skip-ink.none",
+  "css.properties.text-decoration-skip.auto",
+  "css.properties.text-decoration-skip.none",
+  "css.properties.text-decoration-style",
+  "css.properties.text-decoration-style.wavy",
+  "css.properties.text-decoration-thickness",
+  "css.properties.text-decoration-thickness.auto",
+  "css.properties.text-decoration-thickness.from-font",
+  "css.properties.text-decoration-thickness.percentage",
+  "css.properties.text-decoration.includes_color-and-style",
+  "css.properties.text-decoration.includes_thickness"
+ ],
+ "description": "The text-decoration CSS property sets the style and color of decorative lines including underline, overline, line-through, or a combination of lines.",
+ "description_html": "The <code>text-decoration</code> CSS property sets the style and color of decorative lines including underline, overline, line-through, or a combination of lines.",
+ "kind": "feature",
+ "name": "text-decoration",
+ "spec": [
+  "https://drafts.csswg.org/css-text-decor-4/#line-decoration"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "css.properties.text-decoration": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.text-decoration-color": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "36",
+     "firefox_android": "36",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.text-decoration-line": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "36",
+     "firefox_android": "36",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.text-decoration-line.grammar-error": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121",
+     "firefox": "137",
+     "firefox_android": "137",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "css.properties.text-decoration-line.line-through": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "36",
+     "firefox_android": "36",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.text-decoration-line.none": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "36",
+     "firefox_android": "36",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.text-decoration-line.overline": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "36",
+     "firefox_android": "36",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.text-decoration-line.spelling-error": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121",
+     "firefox": "137",
+     "firefox_android": "137",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "css.properties.text-decoration-line.underline": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "36",
+     "firefox_android": "36",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.text-decoration-skip": {
+    "baseline": false,
+    "support": {
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.text-decoration-skip-ink": {
+    "baseline": "high",
+    "baseline_high_date": "2024-09-14",
+    "baseline_low_date": "2022-03-14",
+    "support": {
+     "chrome": "64",
+     "chrome_android": "64",
+     "edge": "79",
+     "firefox": "70",
+     "firefox_android": "79",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.properties.text-decoration-skip-ink.all": {
+    "baseline": false,
+    "support": {
+     "firefox": "75",
+     "firefox_android": "79",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.properties.text-decoration-skip-ink.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2024-09-14",
+    "baseline_low_date": "2022-03-14",
+    "support": {
+     "chrome": "64",
+     "chrome_android": "64",
+     "edge": "79",
+     "firefox": "70",
+     "firefox_android": "79",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.properties.text-decoration-skip-ink.none": {
+    "baseline": "high",
+    "baseline_high_date": "2024-09-14",
+    "baseline_low_date": "2022-03-14",
+    "support": {
+     "chrome": "64",
+     "chrome_android": "64",
+     "edge": "79",
+     "firefox": "70",
+     "firefox_android": "79",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   },
+   "css.properties.text-decoration-skip.auto": {
+    "baseline": false,
+    "support": {
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.text-decoration-skip.none": {
+    "baseline": false,
+    "support": {
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.text-decoration-style": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "36",
+     "firefox_android": "36",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.text-decoration-style.wavy": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "36",
+     "firefox_android": "36",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.text-decoration-thickness": {
+    "baseline": "high",
+    "baseline_high_date": "2023-09-04",
+    "baseline_low_date": "2021-03-04",
+    "support": {
+     "chrome": "89",
+     "chrome_android": "89",
+     "edge": "89",
+     "firefox": "70",
+     "firefox_android": "79",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.text-decoration-thickness.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2023-09-04",
+    "baseline_low_date": "2021-03-04",
+    "support": {
+     "chrome": "89",
+     "chrome_android": "89",
+     "edge": "89",
+     "firefox": "70",
+     "firefox_android": "79",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.text-decoration-thickness.from-font": {
+    "baseline": "high",
+    "baseline_high_date": "2023-09-04",
+    "baseline_low_date": "2021-03-04",
+    "support": {
+     "chrome": "89",
+     "chrome_android": "89",
+     "edge": "89",
+     "firefox": "70",
+     "firefox_android": "79",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.text-decoration-thickness.percentage": {
+    "baseline": "low",
+    "baseline_low_date": "2024-03-05",
+    "support": {
+     "chrome": "89",
+     "chrome_android": "89",
+     "edge": "89",
+     "firefox": "74",
+     "firefox_android": "79",
+     "safari": "17.4",
+     "safari_ios": "17.4"
+    }
+   },
+   "css.properties.text-decoration.includes_color-and-style": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "6",
+     "firefox_android": "6",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "css.properties.text-decoration.includes_thickness": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "70",
+     "firefox_android": "79",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   }
+  },
+  "support": {
+   "chrome": "1",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "1",
+   "firefox_android": "4",
+   "safari": "1",
+   "safari_ios": "1"
+  }
+ },
+ "id": "text-decoration",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-text-decor-4/#line-decoration",
+   "seriesComposition": "delta",
+   "shortname": "css-text-decor-4",
+   "series": {
+    "shortname": "css-text-decor",
+    "currentSpecification": "css-text-decor-3",
+    "title": "CSS Text Decoration",
+    "shortTitle": "CSS Text Decoration",
+    "releaseUrl": "https://www.w3.org/TR/css-text-decor/",
+    "nightlyUrl": "https://drafts.csswg.org/css-text-decor/"
+   },
+   "seriesVersion": "4",
+   "seriesPrevious": "css-text-decor-3",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-text-decor-4/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-text-decor-4/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-text-decor-4/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-text-decor-4/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Text Decoration Module Level 4",
+   "source": "w3c",
+   "shortTitle": "CSS Text Decoration 4",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-text-decor"
+    ]
+   },
+   "fragment": "line-decoration"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/text-decoration",
+   "title": "text-decoration",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-decoration"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [
+  {
+   "year": 2025,
+   "label": "interop-2025-textdecoration",
+   "url": "https://wpt.fyi/interop-2025?feature=interop-2025-textdecoration"
+  }
+ ],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:text-decoration"
+ },
+ "developerSignals": null,
+ "bugs": {
+  "chrome": [
+   "https://crbug.com/40675832"
+  ],
+  "chrome_android": [
+   "https://crbug.com/40675832"
+  ],
+  "edge": [
+   "https://crbug.com/40675832"
+  ],
+  "oculus": [
+   "https://crbug.com/40675832"
+  ],
+  "opera": [
+   "https://crbug.com/40675832"
+  ],
+  "opera_android": [
+   "https://crbug.com/40675832"
+  ],
+  "samsunginternet_android": [
+   "https://crbug.com/40675832"
+  ],
+  "webview_android": [
+   "https://crbug.com/40675832"
+  ]
+ },
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

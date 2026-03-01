@@ -1,0 +1,217 @@
+{
+ "compat_features": [
+  "api.Navigator.connection",
+  "api.NetworkInformation",
+  "api.NetworkInformation.change_event",
+  "api.NetworkInformation.downlink",
+  "api.NetworkInformation.downlinkMax",
+  "api.NetworkInformation.effectiveType",
+  "api.NetworkInformation.rtt",
+  "api.NetworkInformation.type",
+  "api.NetworkInformation.worker_support",
+  "api.WorkerNavigator.connection",
+  "http.headers.Downlink",
+  "http.headers.ECT",
+  "http.headers.RTT"
+ ],
+ "description": "The navigator.connection API provides information about the network connection a device is using and fires events when the connection type changes.",
+ "description_html": "The <code>navigator.connection</code> API provides information about the network connection a device is using and fires events when the connection type changes.",
+ "kind": "feature",
+ "name": "Network Information",
+ "spec": [
+  "https://wicg.github.io/netinfo/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Navigator.connection": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "38",
+     "edge": "79"
+    }
+   },
+   "api.NetworkInformation": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "38",
+     "edge": "79"
+    }
+   },
+   "api.NetworkInformation.change_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "38",
+     "edge": "79"
+    }
+   },
+   "api.NetworkInformation.downlink": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "38",
+     "edge": "79"
+    }
+   },
+   "api.NetworkInformation.downlinkMax": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "38"
+    }
+   },
+   "api.NetworkInformation.effectiveType": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "38",
+     "edge": "79"
+    }
+   },
+   "api.NetworkInformation.rtt": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "38",
+     "edge": "79"
+    }
+   },
+   "api.NetworkInformation.type": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "38"
+    }
+   },
+   "api.NetworkInformation.worker_support": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "38",
+     "edge": "79"
+    }
+   },
+   "api.WorkerNavigator.connection": {
+    "baseline": false,
+    "support": {
+     "chrome": "61",
+     "chrome_android": "38",
+     "edge": "79"
+    }
+   },
+   "http.headers.Downlink": {
+    "baseline": false,
+    "support": {
+     "chrome": "67",
+     "chrome_android": "67",
+     "edge": "79"
+    }
+   },
+   "http.headers.ECT": {
+    "baseline": false,
+    "support": {
+     "chrome": "67",
+     "chrome_android": "67",
+     "edge": "79"
+    }
+   },
+   "http.headers.RTT": {
+    "baseline": false,
+    "support": {
+     "chrome": "67",
+     "chrome_android": "67",
+     "edge": "79"
+    }
+   }
+  },
+  "support": {
+   "chrome": "67",
+   "chrome_android": "67"
+  }
+ },
+ "id": "network-information",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://wicg.github.io/netinfo/",
+   "seriesComposition": "full",
+   "shortname": "netinfo",
+   "series": {
+    "shortname": "netinfo",
+    "currentSpecification": "netinfo",
+    "title": "Network Information API",
+    "shortTitle": "Network Information API",
+    "nightlyUrl": "https://wicg.github.io/netinfo/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://wicg.github.io/netinfo/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/WICG/netinfo",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Network Information API",
+   "source": "spec",
+   "shortTitle": "Network Information API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "netinfo"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Navigator/connection",
+   "title": "Navigator: connection property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Navigator/connection"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/117",
+   "position": "negative",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": true,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:network-information"
+ },
+ "developerSignals": null,
+ "bugs": {
+  "safari": [
+   "https://webkit.org/b/185697"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/185697"
+  ],
+  "webview_ios": [
+   "https://webkit.org/b/185697"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

@@ -1,0 +1,245 @@
+{
+ "compat_features": [
+  "javascript.builtins.Intl.RelativeTimeFormat",
+  "javascript.builtins.Intl.RelativeTimeFormat.RelativeTimeFormat",
+  "javascript.builtins.Intl.RelativeTimeFormat.RelativeTimeFormat.locales_parameter",
+  "javascript.builtins.Intl.RelativeTimeFormat.RelativeTimeFormat.options_parameter.options_localeMatcher_parameter",
+  "javascript.builtins.Intl.RelativeTimeFormat.RelativeTimeFormat.options_parameter.options_numberingSystem_parameter",
+  "javascript.builtins.Intl.RelativeTimeFormat.RelativeTimeFormat.options_parameter.options_numeric_parameter",
+  "javascript.builtins.Intl.RelativeTimeFormat.format",
+  "javascript.builtins.Intl.RelativeTimeFormat.formatToParts",
+  "javascript.builtins.Intl.RelativeTimeFormat.resolvedOptions",
+  "javascript.builtins.Intl.RelativeTimeFormat.supportedLocalesOf"
+ ],
+ "description": "The Intl.RelativeTimeFormat API creates a locale-aware formatter that turns an object representing a relative time (such as '1 day ago') into a localized string.",
+ "description_html": "The <code>Intl.RelativeTimeFormat</code> API creates a locale-aware formatter that turns an object representing a relative time (such as '1 day ago') into a localized string.",
+ "group": [
+  "intl"
+ ],
+ "kind": "feature",
+ "name": "Intl.RelativeTimeFormat",
+ "spec": [
+  "https://tc39.es/ecma402/#relativetimeformat-objects"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2023-03-16",
+  "baseline_low_date": "2020-09-16",
+  "by_compat_key": {
+   "javascript.builtins.Intl.RelativeTimeFormat": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "firefox": "65",
+     "firefox_android": "65",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "javascript.builtins.Intl.RelativeTimeFormat.RelativeTimeFormat": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "firefox": "65",
+     "firefox_android": "65",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "javascript.builtins.Intl.RelativeTimeFormat.RelativeTimeFormat.locales_parameter": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "firefox": "65",
+     "firefox_android": "65",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "javascript.builtins.Intl.RelativeTimeFormat.RelativeTimeFormat.options_parameter.options_localeMatcher_parameter": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "firefox": "65",
+     "firefox_android": "65",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "javascript.builtins.Intl.RelativeTimeFormat.RelativeTimeFormat.options_parameter.options_numberingSystem_parameter": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "firefox": "76",
+     "firefox_android": "79",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "javascript.builtins.Intl.RelativeTimeFormat.RelativeTimeFormat.options_parameter.options_numeric_parameter": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "firefox": "65",
+     "firefox_android": "65",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "javascript.builtins.Intl.RelativeTimeFormat.format": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "firefox": "65",
+     "firefox_android": "65",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "javascript.builtins.Intl.RelativeTimeFormat.formatToParts": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "firefox": "70",
+     "firefox_android": "79",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "javascript.builtins.Intl.RelativeTimeFormat.resolvedOptions": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "firefox": "65",
+     "firefox_android": "65",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "javascript.builtins.Intl.RelativeTimeFormat.supportedLocalesOf": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "firefox": "65",
+     "firefox_android": "65",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   }
+  },
+  "support": {
+   "chrome": "71",
+   "chrome_android": "71",
+   "edge": "79",
+   "firefox": "76",
+   "firefox_android": "79",
+   "safari": "14",
+   "safari_ios": "14"
+  }
+ },
+ "id": "intl-relative-time-format",
+ "groups": [
+  "intl"
+ ],
+ "specs": [
+  {
+   "url": "https://tc39.es/ecma402/#relativetimeformat-objects",
+   "seriesComposition": "full",
+   "shortname": "ecma-402",
+   "series": {
+    "shortname": "ecma-402",
+    "currentSpecification": "ecma-402",
+    "title": "ECMAScript® 2026 Internationalization API Specification",
+    "shortTitle": "ECMAScript® 2026 Internationalization API",
+    "nightlyUrl": "https://tc39.es/ecma402/"
+   },
+   "tests": {
+    "repository": "https://github.com/tc39/test262",
+    "testPaths": [
+     "test/intl402"
+    ]
+   },
+   "organization": "Ecma International",
+   "groups": [
+    {
+     "name": "TC39",
+     "url": "https://tc39.es/"
+    }
+   ],
+   "nightly": {
+    "url": "https://tc39.es/ecma402/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/tc39/ecma402",
+    "sourcePath": "spec/index.html",
+    "filename": "index.html"
+   },
+   "title": "ECMAScript® 2026 Internationalization API Specification",
+   "source": "spec",
+   "shortTitle": "ECMAScript® 2026 Internationalization API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": "relativetimeformat-objects"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/JavaScript/Reference/Global_Objects/Intl/RelativeTimeFormat",
+   "title": "Intl.RelativeTimeFormat",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/RelativeTimeFormat"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2020-09-16T00:00:00.000Z",
+ "baselineHighDateAsObject": "2023-03-16T00:00:00.000Z"
+}

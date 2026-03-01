@@ -1,0 +1,143 @@
+{
+ "compat_features": [
+  "webassembly.api.Module.Module.compile_options",
+  "webassembly.api.compileStreaming_static.compile_options",
+  "webassembly.api.compile_static.compile_options",
+  "webassembly.api.instantiateStreaming_static.compile_options",
+  "webassembly.api.instantiate_static.compile_options",
+  "webassembly.api.validate_static.compile_options",
+  "webassembly.jsStringBuiltins"
+ ],
+ "description": "The WebAssembly builtin string functions mirror a subset of the JavaScript String API and adapt it to be efficiently callable without JavaScript glue code.",
+ "description_html": "The WebAssembly builtin string functions mirror a subset of the JavaScript <code>String</code> API and adapt it to be efficiently callable without JavaScript glue code.",
+ "group": [
+  "webassembly"
+ ],
+ "kind": "feature",
+ "name": "String builtins (WebAssembly)",
+ "spec": [
+  "https://github.com/WebAssembly/js-string-builtins/blob/main/proposals/js-string-builtins/Overview.md"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "webassembly.api.Module.Module.compile_options": {
+    "baseline": false,
+    "support": {
+     "chrome": "130",
+     "chrome_android": "130",
+     "edge": "130",
+     "firefox": "134",
+     "firefox_android": "134"
+    }
+   },
+   "webassembly.api.compileStreaming_static.compile_options": {
+    "baseline": false,
+    "support": {
+     "chrome": "130",
+     "chrome_android": "130",
+     "edge": "130",
+     "firefox": "134",
+     "firefox_android": "134"
+    }
+   },
+   "webassembly.api.compile_static.compile_options": {
+    "baseline": false,
+    "support": {
+     "chrome": "130",
+     "chrome_android": "130",
+     "edge": "130",
+     "firefox": "134",
+     "firefox_android": "134"
+    }
+   },
+   "webassembly.api.instantiateStreaming_static.compile_options": {
+    "baseline": false,
+    "support": {
+     "chrome": "130",
+     "chrome_android": "130",
+     "edge": "130",
+     "firefox": "134",
+     "firefox_android": "134"
+    }
+   },
+   "webassembly.api.instantiate_static.compile_options": {
+    "baseline": false,
+    "support": {
+     "chrome": "130",
+     "chrome_android": "130",
+     "edge": "130",
+     "firefox": "134",
+     "firefox_android": "134"
+    }
+   },
+   "webassembly.api.validate_static.compile_options": {
+    "baseline": false,
+    "support": {
+     "chrome": "130",
+     "chrome_android": "130",
+     "edge": "130",
+     "firefox": "134",
+     "firefox_android": "134"
+    }
+   },
+   "webassembly.jsStringBuiltins": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "130",
+     "chrome_android": "130",
+     "edge": "130",
+     "firefox": "134",
+     "firefox_android": "134",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   }
+  },
+  "support": {
+   "chrome": "130",
+   "chrome_android": "130",
+   "edge": "130",
+   "firefox": "134",
+   "firefox_android": "134"
+  }
+ },
+ "id": "wasm-string-builtins",
+ "groups": [
+  "webassembly"
+ ],
+ "specs": [
+  {
+   "url": "https://github.com/WebAssembly/js-string-builtins/blob/main/proposals/js-string-builtins/Overview.md"
+  }
+ ],
+ "mdnUrls": [],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00445079,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/364"
+ },
+ "interop": [
+  {
+   "year": 2025,
+   "label": "interop-2025-webassembly",
+   "url": "https://wpt.fyi/interop-2025?feature=interop-2025-webassembly"
+  }
+ ],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:wasm-string-builtins"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/257",
+  "votes": 2
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Safari",
+ "monthsBlocked": 14,
+ "blockedSince": "January 2025"
+}

@@ -1,0 +1,290 @@
+{
+ "compat_features": [
+  "api.Document.cookie",
+  "http.headers.Cookie",
+  "http.headers.Set-Cookie",
+  "http.headers.Set-Cookie.HttpOnly",
+  "http.headers.Set-Cookie.Max-Age",
+  "http.headers.Set-Cookie.SameSite",
+  "http.headers.Set-Cookie.SameSite.Lax",
+  "http.headers.Set-Cookie.SameSite.Lax_default",
+  "http.headers.Set-Cookie.SameSite.None",
+  "http.headers.Set-Cookie.SameSite.Strict",
+  "http.headers.Set-Cookie.SameSite.none_requires_secure",
+  "http.headers.Set-Cookie.SameSite.schemeful",
+  "http.headers.Set-Cookie.host_secure_prefixes",
+  "http.headers.Set-Cookie.http_host-http_prefixes"
+ ],
+ "description": "The Set-Cookie HTTP header stores limited amounts of data that persist across request and response, creating shared state between the browser and server.",
+ "description_html": "The <code>Set-Cookie</code> HTTP header stores limited amounts of data that persist across request and response, creating shared state between the browser and server.",
+ "group": [
+  "cookies"
+ ],
+ "kind": "feature",
+ "name": "Cookies",
+ "spec": [
+  "https://httpwg.org/specs/rfc6265.html"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "api.Document.cookie": {
+    "baseline": "high",
+    "baseline_high_date": "2022-01-09",
+    "baseline_low_date": "2019-07-09",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "68",
+     "firefox_android": "68",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "http.headers.Cookie": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "http.headers.Set-Cookie": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "http.headers.Set-Cookie.HttpOnly": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3",
+     "firefox_android": "4",
+     "safari": "5",
+     "safari_ios": "4"
+    }
+   },
+   "http.headers.Set-Cookie.Max-Age": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "http.headers.Set-Cookie.SameSite": {
+    "baseline": "high",
+    "baseline_high_date": "2022-03-19",
+    "baseline_low_date": "2019-09-19",
+    "support": {
+     "chrome": "51",
+     "chrome_android": "51",
+     "edge": "16",
+     "firefox": "60",
+     "firefox_android": "60",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "http.headers.Set-Cookie.SameSite.Lax": {
+    "baseline": "high",
+    "baseline_high_date": "2022-03-19",
+    "baseline_low_date": "2019-09-19",
+    "support": {
+     "chrome": "51",
+     "chrome_android": "51",
+     "edge": "16",
+     "firefox": "60",
+     "firefox_android": "60",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "http.headers.Set-Cookie.SameSite.Lax_default": {
+    "baseline": false,
+    "support": {
+     "chrome": "80",
+     "chrome_android": "80",
+     "edge": "86"
+    }
+   },
+   "http.headers.Set-Cookie.SameSite.None": {
+    "baseline": "high",
+    "baseline_high_date": "2022-03-19",
+    "baseline_low_date": "2019-09-19",
+    "support": {
+     "chrome": "67",
+     "chrome_android": "67",
+     "edge": "16",
+     "firefox": "60",
+     "firefox_android": "60",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "http.headers.Set-Cookie.SameSite.Strict": {
+    "baseline": "high",
+    "baseline_high_date": "2022-03-19",
+    "baseline_low_date": "2019-09-19",
+    "support": {
+     "chrome": "51",
+     "chrome_android": "51",
+     "edge": "16",
+     "firefox": "60",
+     "firefox_android": "60",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "http.headers.Set-Cookie.SameSite.none_requires_secure": {
+    "baseline": false,
+    "support": {
+     "chrome": "80",
+     "chrome_android": "80",
+     "edge": "86",
+     "firefox": "131",
+     "firefox_android": "131"
+    }
+   },
+   "http.headers.Set-Cookie.SameSite.schemeful": {
+    "baseline": false,
+    "support": {
+     "chrome": "91",
+     "chrome_android": "91",
+     "edge": "91"
+    }
+   },
+   "http.headers.Set-Cookie.host_secure_prefixes": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "49",
+     "chrome_android": "49",
+     "edge": "79",
+     "firefox": "50",
+     "firefox_android": "50",
+     "safari": "13",
+     "safari_ios": "13"
+    }
+   },
+   "http.headers.Set-Cookie.http_host-http_prefixes": {
+    "baseline": false,
+    "support": {
+     "chrome": "140",
+     "chrome_android": "140",
+     "edge": "140",
+     "firefox": "143",
+     "firefox_android": "143"
+    }
+   }
+  },
+  "support": {
+   "chrome": "1",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "1",
+   "firefox_android": "4",
+   "safari": "1",
+   "safari_ios": "1"
+  }
+ },
+ "id": "cookies",
+ "groups": [
+  "cookies"
+ ],
+ "specs": [
+  {
+   "url": "https://httpwg.org/specs/rfc6265.html",
+   "seriesComposition": "full",
+   "shortname": "rfc6265",
+   "series": {
+    "shortname": "rfc6265",
+    "currentSpecification": "rfc6265",
+    "title": "HTTP State Management Mechanism",
+    "shortTitle": "HTTP State Management Mechanism",
+    "nightlyUrl": "https://httpwg.org/specs/rfc6265.html"
+   },
+   "organization": "IETF",
+   "groups": [
+    {
+     "name": "HTTP State Management Mechanism Working Group",
+     "url": "https://datatracker.ietf.org/wg/httpstate/"
+    }
+   ],
+   "nightly": {
+    "url": "https://httpwg.org/specs/rfc6265.html",
+    "status": "Proposed Standard",
+    "alternateUrls": [
+     "https://datatracker.ietf.org/doc/html/rfc6265",
+     "https://tools.ietf.org/html/rfc6265"
+    ],
+    "repository": "https://github.com/httpwg/httpwg.github.io",
+    "sourcePath": "specs/rfc6265.xml",
+    "filename": "rfc6265.html"
+   },
+   "title": "HTTP State Management Mechanism",
+   "source": "ietf",
+   "shortTitle": "HTTP State Management Mechanism",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/HTTP/Reference/Headers/Set-Cookie",
+   "title": "Set-Cookie header",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Set-Cookie"
+  },
+  {
+   "slug": "Web/HTTP/Reference/Headers/Cookie",
+   "title": "Cookie header",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Cookie"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:cookies"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

@@ -1,0 +1,170 @@
+{
+ "caniuse": [
+  "calc"
+ ],
+ "compat_features": [
+  "css.types.calc",
+  "css.types.calc.gradient_color_stops",
+  "css.types.calc.nested",
+  "css.types.calc.number_values"
+ ],
+ "description": "The calc() CSS function computes mathematical expressions such a calc(100%/3 - 1em).",
+ "description_html": "The <code>calc()</code> CSS function computes mathematical expressions such a <code>calc(100%/3 - 1em)</code>.",
+ "group": [
+  "css"
+ ],
+ "kind": "feature",
+ "name": "calc()",
+ "spec": [
+  "https://drafts.csswg.org/css-values-3/#calc-notation"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "css.types.calc": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "28",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "css.types.calc.gradient_color_stops": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "26",
+     "chrome_android": "28",
+     "edge": "12",
+     "firefox": "19",
+     "firefox_android": "19",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "css.types.calc.nested": {
+    "baseline": "high",
+    "baseline_high_date": "2020-04-17",
+    "baseline_low_date": "2017-10-17",
+    "support": {
+     "chrome": "51",
+     "chrome_android": "51",
+     "edge": "16",
+     "firefox": "48",
+     "firefox_android": "48",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "css.types.calc.number_values": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "31",
+     "chrome_android": "31",
+     "edge": "12",
+     "firefox": "48",
+     "firefox_android": "48",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   }
+  },
+  "support": {
+   "chrome": "26",
+   "chrome_android": "28",
+   "edge": "12",
+   "firefox": "16",
+   "firefox_android": "16",
+   "safari": "7",
+   "safari_ios": "7"
+  }
+ },
+ "id": "calc",
+ "groups": [
+  "css"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-values-3/#calc-notation",
+   "seriesComposition": "full",
+   "shortname": "css-values-3",
+   "series": {
+    "shortname": "css-values",
+    "currentSpecification": "css-values-4",
+    "title": "CSS Values and Units",
+    "shortTitle": "CSS Values",
+    "releaseUrl": "https://www.w3.org/TR/css-values/",
+    "nightlyUrl": "https://drafts.csswg.org/css-values/"
+   },
+   "seriesVersion": "3",
+   "shortTitle": "CSS Values 3",
+   "seriesNext": "css-values-4",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-values-3/",
+    "status": "Candidate Recommendation Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-values-3/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-values-3/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-values-3/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Values and Units Module Level 3",
+   "source": "w3c",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-values"
+    ]
+   },
+   "fragment": "calc-notation"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Values/calc",
+   "title": "calc()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/calc"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:calc"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

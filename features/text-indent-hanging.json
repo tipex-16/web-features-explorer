@@ -1,0 +1,115 @@
+{
+ "compat_features": [
+  "css.properties.text-indent.hanging"
+ ],
+ "description": "The text-indent: hanging CSS declaration indents all lines except the first.",
+ "description_html": "The <code>text-indent: hanging</code> CSS declaration indents all lines except the first.",
+ "group": [
+  "text"
+ ],
+ "kind": "feature",
+ "name": "text-indent: hanging",
+ "spec": [
+  "https://drafts.csswg.org/css-text-4/#text-indent-property"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "css.properties.text-indent.hanging": {
+    "baseline": false,
+    "support": {
+     "firefox": "121",
+     "firefox_android": "121",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   }
+  },
+  "support": {
+   "firefox": "121",
+   "firefox_android": "121",
+   "safari": "15",
+   "safari_ios": "15"
+  }
+ },
+ "id": "text-indent-hanging",
+ "groups": [
+  "text"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-text-4/#text-indent-property",
+   "seriesComposition": "delta",
+   "shortname": "css-text-4",
+   "series": {
+    "shortname": "css-text",
+    "currentSpecification": "css-text-3",
+    "title": "CSS Text",
+    "shortTitle": "CSS Text",
+    "releaseUrl": "https://www.w3.org/TR/css-text/",
+    "nightlyUrl": "https://drafts.csswg.org/css-text/"
+   },
+   "seriesVersion": "4",
+   "seriesPrevious": "css-text-3",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-text-4/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-text-4/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-text-4/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-text-4/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Text Module Level 4",
+   "source": "w3c",
+   "shortTitle": "CSS Text 4",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-text"
+    ]
+   },
+   "fragment": "text-indent-property"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/text-indent",
+   "title": "text-indent",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-indent"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:text-indent-hanging"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/150",
+  "votes": 4
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

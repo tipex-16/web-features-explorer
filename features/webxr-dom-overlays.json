@@ -1,0 +1,135 @@
+{
+ "compat_features": [
+  "api.Element.beforexrselect_event",
+  "api.XRSession.domOverlayState",
+  "css.selectors.xr-overlay"
+ ],
+ "description": "A DOM overlay shows 2D DOM content as an interactive, transparent layer on top of a WebXR application's WebGL content and camera image.",
+ "description_html": "A DOM overlay shows 2D DOM content as an interactive, transparent layer on top of a WebXR application's WebGL content and camera image.",
+ "group": [
+  "webxr"
+ ],
+ "kind": "feature",
+ "name": "DOM overlays for WebXR",
+ "spec": [
+  "https://immersive-web.github.io/dom-overlays/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Element.beforexrselect_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83"
+    }
+   },
+   "api.XRSession.domOverlayState": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83"
+    }
+   },
+   "css.selectors.xr-overlay": {
+    "baseline": false,
+    "support": {
+     "chrome": "83",
+     "chrome_android": "83",
+     "edge": "83"
+    }
+   }
+  },
+  "support": {
+   "chrome": "83",
+   "chrome_android": "83",
+   "edge": "83"
+  }
+ },
+ "id": "webxr-dom-overlays",
+ "groups": [
+  "webxr"
+ ],
+ "specs": [
+  {
+   "url": "https://immersive-web.github.io/dom-overlays/",
+   "seriesComposition": "full",
+   "shortname": "webxr-dom-overlays-1",
+   "series": {
+    "shortname": "webxr-dom-overlays",
+    "currentSpecification": "webxr-dom-overlays-1",
+    "title": "WebXR DOM Overlays Module",
+    "shortTitle": "WebXR DOM Overlays",
+    "releaseUrl": "https://www.w3.org/TR/webxr-dom-overlays/",
+    "nightlyUrl": "https://immersive-web.github.io/dom-overlays/"
+   },
+   "seriesVersion": "1",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Immersive Web Working Group",
+     "url": "https://www.w3.org/immersive-web/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/webxr-dom-overlays-1/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://immersive-web.github.io/dom-overlays/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/immersive-web/dom-overlays",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "WebXR DOM Overlays Module",
+   "source": "w3c",
+   "shortTitle": "WebXR DOM Overlays",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "webxr/dom-overlay"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/XRSession/domOverlayState",
+   "title": "XRSession: domOverlayState property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/XRSession/domOverlayState"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 1.1e-7,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/406"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:webxr-dom-overlays"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/119",
+  "votes": 0
+ },
+ "bugs": {
+  "webview_android": [
+   "https://crbug.com/40652382"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

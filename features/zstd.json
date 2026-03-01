@@ -1,0 +1,121 @@
+{
+ "caniuse": [
+  "zstd"
+ ],
+ "compat_features": [
+  "http.headers.Accept-Encoding.zstd",
+  "http.headers.Content-Encoding.zstd"
+ ],
+ "description": "Zstandard or zstd is a fast lossless compression algorithm. When used as a content encoding, it is often faster and offers better compression than brotli.",
+ "description_html": "Zstandard or <code>zstd</code> is a fast lossless compression algorithm. When used as a content encoding, it is often faster and offers better compression than brotli.",
+ "kind": "feature",
+ "name": "Zstandard compression",
+ "spec": [
+  "https://www.rfc-editor.org/rfc/rfc8878"
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2026-02-11",
+  "by_compat_key": {
+   "http.headers.Accept-Encoding.zstd": {
+    "baseline": "low",
+    "baseline_low_date": "2026-02-11",
+    "support": {
+     "chrome": "123",
+     "chrome_android": "123",
+     "edge": "123",
+     "firefox": "126",
+     "firefox_android": "126",
+     "safari": "26.3",
+     "safari_ios": "26.3"
+    }
+   },
+   "http.headers.Content-Encoding.zstd": {
+    "baseline": "low",
+    "baseline_low_date": "2026-02-11",
+    "support": {
+     "chrome": "123",
+     "chrome_android": "123",
+     "edge": "123",
+     "firefox": "126",
+     "firefox_android": "126",
+     "safari": "26.3",
+     "safari_ios": "26.3"
+    }
+   }
+  },
+  "support": {
+   "chrome": "123",
+   "chrome_android": "123",
+   "edge": "123",
+   "firefox": "126",
+   "firefox_android": "126",
+   "safari": "26.3",
+   "safari_ios": "26.3"
+  }
+ },
+ "id": "zstd",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://www.rfc-editor.org/rfc/rfc8878",
+   "seriesComposition": "full",
+   "shortname": "rfc8878",
+   "series": {
+    "shortname": "rfc8878",
+    "currentSpecification": "rfc8878",
+    "title": "Zstandard Compression and the 'application/zstd' Media Type",
+    "shortTitle": "Zstandard Compression and the 'application/zstd' Media Type",
+    "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc8878"
+   },
+   "organization": "IETF",
+   "groups": [
+    {
+     "name": "Applications and Real-Time Area",
+     "url": "https://datatracker.ietf.org/wg/art/"
+    }
+   ],
+   "nightly": {
+    "url": "https://www.rfc-editor.org/rfc/rfc8878",
+    "status": "Informational",
+    "alternateUrls": [
+     "https://datatracker.ietf.org/doc/html/rfc8878",
+     "https://tools.ietf.org/html/rfc8878"
+    ],
+    "filename": "rfc8878.html"
+   },
+   "title": "Zstandard Compression and the 'application/zstd' Media Type",
+   "source": "ietf",
+   "shortTitle": "Zstandard Compression and the 'application/zstd' Media Type",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/HTTP/Reference/Headers/Content-Encoding",
+   "title": "Content-Encoding header",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Content-Encoding"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.36720063,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/291"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:zstd"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2026-02-11T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2028-08-11"
+}

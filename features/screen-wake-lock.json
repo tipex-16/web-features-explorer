@@ -1,0 +1,272 @@
+{
+ "caniuse": [
+  "wake-lock"
+ ],
+ "compat_features": [
+  "api.Navigator.wakeLock",
+  "api.Permissions.permission_screen-wake-lock",
+  "api.WakeLock",
+  "api.WakeLock.request",
+  "api.WakeLockSentinel",
+  "api.WakeLockSentinel.release",
+  "api.WakeLockSentinel.release_event",
+  "api.WakeLockSentinel.released",
+  "api.WakeLockSentinel.type",
+  "html.elements.iframe.allow.screen-wake-lock",
+  "http.headers.Permissions-Policy.screen-wake-lock"
+ ],
+ "description": "The navigator.wakeLock.request(\"screen\") API prevents the device's screen from dimming or being turned off.",
+ "description_html": "The <code>navigator.wakeLock.request(\"screen\")</code> API prevents the device's screen from dimming or being turned off.",
+ "kind": "feature",
+ "name": "Screen wake lock",
+ "spec": [
+  "https://w3c.github.io/screen-wake-lock/"
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2025-03-31",
+  "by_compat_key": {
+   "api.Navigator.wakeLock": {
+    "baseline": "low",
+    "baseline_low_date": "2025-03-31",
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84",
+     "firefox": "126",
+     "firefox_android": "126",
+     "safari": "16.4",
+     "safari_ios": "18.4"
+    }
+   },
+   "api.Permissions.permission_screen-wake-lock": {
+    "baseline": "low",
+    "baseline_low_date": "2024-05-14",
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84",
+     "firefox": "126",
+     "firefox_android": "126",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.WakeLock": {
+    "baseline": "low",
+    "baseline_low_date": "2025-03-31",
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84",
+     "firefox": "126",
+     "firefox_android": "126",
+     "safari": "16.4",
+     "safari_ios": "18.4"
+    }
+   },
+   "api.WakeLock.request": {
+    "baseline": "low",
+    "baseline_low_date": "2025-03-31",
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84",
+     "firefox": "126",
+     "firefox_android": "126",
+     "safari": "16.4",
+     "safari_ios": "18.4"
+    }
+   },
+   "api.WakeLockSentinel": {
+    "baseline": "low",
+    "baseline_low_date": "2025-03-31",
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84",
+     "firefox": "126",
+     "firefox_android": "126",
+     "safari": "16.4",
+     "safari_ios": "18.4"
+    }
+   },
+   "api.WakeLockSentinel.release": {
+    "baseline": "low",
+    "baseline_low_date": "2025-03-31",
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84",
+     "firefox": "126",
+     "firefox_android": "126",
+     "safari": "16.4",
+     "safari_ios": "18.4"
+    }
+   },
+   "api.WakeLockSentinel.release_event": {
+    "baseline": "low",
+    "baseline_low_date": "2025-03-31",
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84",
+     "firefox": "126",
+     "firefox_android": "126",
+     "safari": "16.4",
+     "safari_ios": "18.4"
+    }
+   },
+   "api.WakeLockSentinel.released": {
+    "baseline": "low",
+    "baseline_low_date": "2025-03-31",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "126",
+     "firefox_android": "126",
+     "safari": "16.4",
+     "safari_ios": "18.4"
+    }
+   },
+   "api.WakeLockSentinel.type": {
+    "baseline": "low",
+    "baseline_low_date": "2025-03-31",
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84",
+     "firefox": "126",
+     "firefox_android": "126",
+     "safari": "16.4",
+     "safari_ios": "18.4"
+    }
+   },
+   "html.elements.iframe.allow.screen-wake-lock": {
+    "baseline": "low",
+    "baseline_low_date": "2024-05-14",
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84",
+     "firefox": "126",
+     "firefox_android": "126",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "http.headers.Permissions-Policy.screen-wake-lock": {
+    "baseline": false,
+    "support": {
+     "chrome": "88",
+     "chrome_android": "88",
+     "edge": "88"
+    }
+   }
+  },
+  "support": {
+   "chrome": "84",
+   "chrome_android": "84",
+   "edge": "84",
+   "firefox": "126",
+   "firefox_android": "126",
+   "safari": "16.4",
+   "safari_ios": "18.4"
+  }
+ },
+ "id": "screen-wake-lock",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/screen-wake-lock/",
+   "seriesComposition": "full",
+   "shortname": "screen-wake-lock",
+   "series": {
+    "shortname": "screen-wake-lock",
+    "currentSpecification": "screen-wake-lock",
+    "title": "Screen Wake Lock API",
+    "shortTitle": "Screen Wake Lock API",
+    "releaseUrl": "https://www.w3.org/TR/screen-wake-lock/",
+    "nightlyUrl": "https://w3c.github.io/screen-wake-lock/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Devices and Sensors Working Group",
+     "url": "https://www.w3.org/das/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/screen-wake-lock/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/screen-wake-lock/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/screen-wake-lock",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Screen Wake Lock API",
+   "source": "w3c",
+   "shortTitle": "Screen Wake Lock API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "screen-wake-lock"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Screen_Wake_Lock_API",
+   "title": "Screen Wake Lock API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Screen_Wake_Lock_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/210",
+   "position": "positive",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/63",
+   "position": "support",
+   "concerns": [
+    "power"
+   ]
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.01225036,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/104"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:screen-wake-lock"
+ },
+ "developerSignals": null,
+ "bugs": {
+  "webview_android": [
+   "https://crbug.com/40740509"
+  ]
+ },
+ "baselineLowDateAsObject": "2025-03-31T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2027-10-01"
+}

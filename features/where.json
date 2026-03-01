@@ -1,0 +1,248 @@
+{
+ "compat_features": [
+  "css.selectors.where",
+  "css.selectors.where.forgiving_selector_list"
+ ],
+ "description": "The :where() CSS functional pseudo-class takes a selector list as its argument, and matches any element that can be selected by one of the selectors in that list. It is functionally equivalent to the selectors in the list, but doesn't affect the CSS rule specificity.",
+ "description_html": "The <code>:where()</code> CSS functional pseudo-class takes a selector list as its argument, and matches any element that can be selected by one of the selectors in that list. It is functionally equivalent to the selectors in the list, but doesn't affect the CSS rule specificity.",
+ "group": [
+  "selectors"
+ ],
+ "kind": "feature",
+ "name": ":where()",
+ "spec": [
+  "https://drafts.csswg.org/selectors-4/#zero-matches"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2023-07-21",
+  "baseline_low_date": "2021-01-21",
+  "by_compat_key": {
+   "css.selectors.where": {
+    "baseline": "high",
+    "baseline_high_date": "2023-07-21",
+    "baseline_low_date": "2021-01-21",
+    "support": {
+     "chrome": "88",
+     "chrome_android": "88",
+     "edge": "88",
+     "firefox": "78",
+     "firefox_android": "79",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "css.selectors.where.forgiving_selector_list": {
+    "baseline": "high",
+    "baseline_high_date": "2023-07-21",
+    "baseline_low_date": "2021-01-21",
+    "support": {
+     "chrome": "88",
+     "chrome_android": "88",
+     "edge": "88",
+     "firefox": "82",
+     "firefox_android": "82",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   }
+  },
+  "support": {
+   "chrome": "88",
+   "chrome_android": "88",
+   "edge": "88",
+   "firefox": "82",
+   "firefox_android": "82",
+   "safari": "14",
+   "safari_ios": "14"
+  }
+ },
+ "id": "where",
+ "groups": [
+  "selectors"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/selectors-4/#zero-matches",
+   "seriesComposition": "full",
+   "shortname": "selectors-4",
+   "series": {
+    "shortname": "selectors",
+    "currentSpecification": "selectors-4",
+    "title": "Selectors",
+    "shortTitle": "Selectors",
+    "releaseUrl": "https://www.w3.org/TR/selectors/",
+    "nightlyUrl": "https://drafts.csswg.org/selectors/"
+   },
+   "seriesVersion": "4",
+   "seriesPrevious": "selectors-3",
+   "seriesNext": "selectors-5",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/selectors-4/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/selectors-4/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/selectors-4/",
+     "https://w3c.github.io/csswg-drafts/selectors/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "selectors-4/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "Selectors Level 4",
+   "source": "w3c",
+   "shortTitle": "Selectors 4",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/selectors"
+    ]
+   },
+   "fragment": "zero-matches"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Selectors/:where",
+   "title": ":where()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:where"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#gamechanger_feature",
+   "question": "usage",
+   "subQuestion": "gamechanger_feature",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.gamechanger_feature.freeform.allEditions.0.buckets.9.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#favorite_new_features",
+   "question": "usage",
+   "subQuestion": "favorite_new_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.favorite_new_features.freeform.allEditions.0.buckets.8.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_missing_features",
+   "question": "usage",
+   "subQuestion": "css_missing_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_missing_features.freeform.allEditions.0.buckets.21.groupedBuckets.1.groupedBuckets.16.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_interoperability_features",
+   "question": "usage",
+   "subQuestion": "css_interoperability_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_interoperability_features.freeform.allEditions.0.buckets.21.groupedBuckets.0.groupedBuckets.7.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_general_pain_points",
+   "question": "usage",
+   "subQuestion": "css_general_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_general_pain_points.freeform.allEditions.0.buckets.9.groupedBuckets.0.groupedBuckets.44.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/typography/#typography_pain_points",
+   "question": "typography",
+   "subQuestion": "typography_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.typography.typography_pain_points.freeform.allEditions.0.buckets.7.groupedBuckets.0.groupedBuckets.12.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/shapes_graphics/#shapes_graphics_pain_points",
+   "question": "shapes_graphics",
+   "subQuestion": "shapes_graphics_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.shapes_graphics.shapes_graphics_pain_points.freeform.allEditions.0.buckets.8.groupedBuckets.0.groupedBuckets.44.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/other_features/#other_features_pain_points",
+   "question": "other_features",
+   "subQuestion": "other_features_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.other_features.other_features_pain_points.freeform.allEditions.0.buckets.3.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/math_features/#math_features_pain_points",
+   "question": "math_features",
+   "subQuestion": "math_features_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.math_features.math_features_pain_points.freeform.allEditions.0.buckets.4.groupedBuckets.0.groupedBuckets.3.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/layout/#layout_pain_points",
+   "question": "layout",
+   "subQuestion": "layout_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.layout.layout_pain_points.freeform.allEditions.0.buckets.21.groupedBuckets.0.groupedBuckets.10.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/interactions/#interactions_pain_points",
+   "question": "interactions",
+   "subQuestion": "interactions_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.interactions.interactions_pain_points.freeform.allEditions.0.buckets.11.groupedBuckets.0.groupedBuckets.13.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.49.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/colors/#colors_pain_points",
+   "question": "colors",
+   "subQuestion": "colors_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.colors.colors_pain_points.freeform.allEditions.0.buckets.21.groupedBuckets.1.groupedBuckets.34.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/usage/#favorite_new_features",
+   "question": "usage",
+   "subQuestion": "favorite_new_features",
+   "path": "dataAPI.surveys.state_of_css.css2024.usage.favorite_new_features.freeform.currentEdition.buckets.8.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2024.features.all_features.53.entity"
+  }
+ ],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.30565342,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/83"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:where"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2021-01-21T00:00:00.000Z",
+ "baselineHighDateAsObject": "2023-07-21T00:00:00.000Z"
+}

@@ -1,0 +1,662 @@
+{
+ "caniuse": [
+  "dragndrop"
+ ],
+ "compat_features": [
+  "api.DataTransfer",
+  "api.DataTransfer.DataTransfer",
+  "api.DataTransfer.clearData",
+  "api.DataTransfer.dropEffect",
+  "api.DataTransfer.effectAllowed",
+  "api.DataTransfer.files",
+  "api.DataTransfer.getData",
+  "api.DataTransfer.items",
+  "api.DataTransfer.setData",
+  "api.DataTransfer.setDragImage",
+  "api.DataTransfer.types",
+  "api.DataTransferItem",
+  "api.DataTransferItem.getAsFile",
+  "api.DataTransferItem.getAsFileSystemHandle",
+  "api.DataTransferItem.getAsString",
+  "api.DataTransferItem.kind",
+  "api.DataTransferItem.type",
+  "api.DataTransferItemList",
+  "api.DataTransferItemList.add",
+  "api.DataTransferItemList.clear",
+  "api.DataTransferItemList.length",
+  "api.DataTransferItemList.remove",
+  "api.DragEvent",
+  "api.DragEvent.DragEvent",
+  "api.DragEvent.dataTransfer",
+  "api.HTMLElement.drag_event",
+  "api.HTMLElement.dragend_event",
+  "api.HTMLElement.dragenter_event",
+  "api.HTMLElement.draggable",
+  "api.HTMLElement.dragleave_event",
+  "api.HTMLElement.dragover_event",
+  "api.HTMLElement.dragstart_event",
+  "api.HTMLElement.drop_event"
+ ],
+ "description": "The Drag and Drop API lets users drag and drop elements and external files such as images onto web pages. Developers can customize which elements can become draggable, the type of feedback the draggable elements produce, and the droppable elements.",
+ "description_html": "The Drag and Drop API lets users drag and drop elements and external files such as images onto web pages. Developers can customize which elements can become draggable, the type of feedback the draggable elements produce, and the droppable elements.",
+ "kind": "feature",
+ "name": "Drag and Drop",
+ "spec": [
+  "https://html.spec.whatwg.org/multipage/dnd.html#dnd"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "api.DataTransfer": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "3",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.DataTransfer.DataTransfer": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "59",
+     "chrome_android": "59",
+     "edge": "17",
+     "firefox": "62",
+     "firefox_android": "62",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.DataTransfer.clearData": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "3",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.DataTransfer.dropEffect": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "3",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.DataTransfer.effectAllowed": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "3",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.DataTransfer.files": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "3",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.6",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.DataTransfer.getData": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "3",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.DataTransfer.items": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-12",
+    "baseline_low_date": "2018-04-12",
+    "support": {
+     "chrome": "3",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "50",
+     "firefox_android": "52",
+     "safari": "11.1",
+     "safari_ios": "11.3"
+    }
+   },
+   "api.DataTransfer.setData": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "3",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "5",
+     "safari_ios": "5"
+    }
+   },
+   "api.DataTransfer.setDragImage": {
+    "baseline": "high",
+    "baseline_high_date": "2021-04-02",
+    "baseline_low_date": "2018-10-02",
+    "support": {
+     "chrome": "3",
+     "chrome_android": "18",
+     "edge": "18",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.DataTransfer.types": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "3",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.DataTransferItem": {
+    "baseline": "high",
+    "baseline_high_date": "2019-05-15",
+    "baseline_low_date": "2016-11-15",
+    "support": {
+     "chrome": "11",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "50",
+     "firefox_android": "50",
+     "safari": "5.1",
+     "safari_ios": "5"
+    }
+   },
+   "api.DataTransferItem.getAsFile": {
+    "baseline": "high",
+    "baseline_high_date": "2019-05-15",
+    "baseline_low_date": "2016-11-15",
+    "support": {
+     "chrome": "11",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "50",
+     "firefox_android": "50",
+     "safari": "5.1",
+     "safari_ios": "5"
+    }
+   },
+   "api.DataTransferItem.getAsFileSystemHandle": {
+    "baseline": false,
+    "support": {
+     "chrome": "86",
+     "chrome_android": "132",
+     "edge": "86"
+    }
+   },
+   "api.DataTransferItem.getAsString": {
+    "baseline": "high",
+    "baseline_high_date": "2019-05-15",
+    "baseline_low_date": "2016-11-15",
+    "support": {
+     "chrome": "11",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "50",
+     "firefox_android": "50",
+     "safari": "5.1",
+     "safari_ios": "5"
+    }
+   },
+   "api.DataTransferItem.kind": {
+    "baseline": "high",
+    "baseline_high_date": "2019-05-15",
+    "baseline_low_date": "2016-11-15",
+    "support": {
+     "chrome": "11",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "50",
+     "firefox_android": "50",
+     "safari": "5.1",
+     "safari_ios": "5"
+    }
+   },
+   "api.DataTransferItem.type": {
+    "baseline": "high",
+    "baseline_high_date": "2019-05-15",
+    "baseline_low_date": "2016-11-15",
+    "support": {
+     "chrome": "11",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "50",
+     "firefox_android": "50",
+     "safari": "5.1",
+     "safari_ios": "5"
+    }
+   },
+   "api.DataTransferItemList": {
+    "baseline": "high",
+    "baseline_high_date": "2019-05-15",
+    "baseline_low_date": "2016-11-15",
+    "support": {
+     "chrome": "13",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "50",
+     "firefox_android": "50",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.DataTransferItemList.add": {
+    "baseline": "high",
+    "baseline_high_date": "2019-05-15",
+    "baseline_low_date": "2016-11-15",
+    "support": {
+     "chrome": "13",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "50",
+     "firefox_android": "50",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.DataTransferItemList.clear": {
+    "baseline": "high",
+    "baseline_high_date": "2019-05-15",
+    "baseline_low_date": "2016-11-15",
+    "support": {
+     "chrome": "13",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "50",
+     "firefox_android": "50",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.DataTransferItemList.length": {
+    "baseline": "high",
+    "baseline_high_date": "2019-05-15",
+    "baseline_low_date": "2016-11-15",
+    "support": {
+     "chrome": "13",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "50",
+     "firefox_android": "50",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.DataTransferItemList.remove": {
+    "baseline": "high",
+    "baseline_high_date": "2019-05-15",
+    "baseline_low_date": "2016-11-15",
+    "support": {
+     "chrome": "31",
+     "chrome_android": "31",
+     "edge": "12",
+     "firefox": "50",
+     "firefox_android": "50",
+     "safari": "6",
+     "safari_ios": "6"
+    }
+   },
+   "api.DragEvent": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "46",
+     "chrome_android": "46",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "api.DragEvent.DragEvent": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "46",
+     "chrome_android": "46",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "api.DragEvent.dataTransfer": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "46",
+     "chrome_android": "46",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "api.HTMLElement.drag_event": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "9",
+     "firefox_android": "9",
+     "safari": "3.1",
+     "safari_ios": "2"
+    }
+   },
+   "api.HTMLElement.dragend_event": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "9",
+     "firefox_android": "9",
+     "safari": "3.1",
+     "safari_ios": "2"
+    }
+   },
+   "api.HTMLElement.dragenter_event": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "9",
+     "firefox_android": "9",
+     "safari": "3.1",
+     "safari_ios": "2"
+    }
+   },
+   "api.HTMLElement.draggable": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "2",
+     "firefox_android": "4",
+     "safari": "5",
+     "safari_ios": "4"
+    }
+   },
+   "api.HTMLElement.dragleave_event": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "9",
+     "firefox_android": "9",
+     "safari": "3.1",
+     "safari_ios": "2"
+    }
+   },
+   "api.HTMLElement.dragover_event": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "9",
+     "firefox_android": "9",
+     "safari": "3.1",
+     "safari_ios": "2"
+    }
+   },
+   "api.HTMLElement.dragstart_event": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "9",
+     "firefox_android": "9",
+     "safari": "3.1",
+     "safari_ios": "2"
+    }
+   },
+   "api.HTMLElement.drop_event": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "9",
+     "firefox_android": "9",
+     "safari": "3.1",
+     "safari_ios": "2"
+    }
+   }
+  },
+  "support": {
+   "chrome": "3",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "3.5",
+   "firefox_android": "4",
+   "safari": "4",
+   "safari_ios": "3.2"
+  }
+ },
+ "id": "draganddrop",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://html.spec.whatwg.org/multipage/dnd.html#dnd",
+   "seriesComposition": "full",
+   "shortname": "html",
+   "series": {
+    "shortname": "html",
+    "currentSpecification": "html",
+    "title": "HTML",
+    "shortTitle": "HTML",
+    "nightlyUrl": "https://html.spec.whatwg.org/multipage/"
+   },
+   "nightly": {
+    "url": "https://html.spec.whatwg.org/multipage/",
+    "status": "Living Standard",
+    "sourcePath": "source",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/html",
+    "pages": [
+     "https://html.spec.whatwg.org/multipage/introduction.html",
+     "https://html.spec.whatwg.org/multipage/infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/common-microsyntaxes.html",
+     "https://html.spec.whatwg.org/multipage/urls-and-fetching.html",
+     "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html",
+     "https://html.spec.whatwg.org/multipage/structured-data.html",
+     "https://html.spec.whatwg.org/multipage/dom.html",
+     "https://html.spec.whatwg.org/multipage/semantics.html",
+     "https://html.spec.whatwg.org/multipage/sections.html",
+     "https://html.spec.whatwg.org/multipage/grouping-content.html",
+     "https://html.spec.whatwg.org/multipage/text-level-semantics.html",
+     "https://html.spec.whatwg.org/multipage/links.html",
+     "https://html.spec.whatwg.org/multipage/edits.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content.html",
+     "https://html.spec.whatwg.org/multipage/images.html",
+     "https://html.spec.whatwg.org/multipage/iframe-embed-object.html",
+     "https://html.spec.whatwg.org/multipage/media.html",
+     "https://html.spec.whatwg.org/multipage/image-maps.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content-other.html",
+     "https://html.spec.whatwg.org/multipage/tables.html",
+     "https://html.spec.whatwg.org/multipage/forms.html",
+     "https://html.spec.whatwg.org/multipage/input.html",
+     "https://html.spec.whatwg.org/multipage/form-elements.html",
+     "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/interactive-elements.html",
+     "https://html.spec.whatwg.org/multipage/scripting.html",
+     "https://html.spec.whatwg.org/multipage/canvas.html",
+     "https://html.spec.whatwg.org/multipage/custom-elements.html",
+     "https://html.spec.whatwg.org/multipage/semantics-other.html",
+     "https://html.spec.whatwg.org/multipage/microdata.html",
+     "https://html.spec.whatwg.org/multipage/interaction.html",
+     "https://html.spec.whatwg.org/multipage/dnd.html",
+     "https://html.spec.whatwg.org/multipage/popover.html",
+     "https://html.spec.whatwg.org/multipage/browsers.html",
+     "https://html.spec.whatwg.org/multipage/nav-history-apis.html",
+     "https://html.spec.whatwg.org/multipage/document-sequences.html",
+     "https://html.spec.whatwg.org/multipage/browsing-the-web.html",
+     "https://html.spec.whatwg.org/multipage/document-lifecycle.html",
+     "https://html.spec.whatwg.org/multipage/speculative-loading.html",
+     "https://html.spec.whatwg.org/multipage/webappapis.html",
+     "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html",
+     "https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html",
+     "https://html.spec.whatwg.org/multipage/system-state.html",
+     "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html",
+     "https://html.spec.whatwg.org/multipage/comms.html",
+     "https://html.spec.whatwg.org/multipage/server-sent-events.html",
+     "https://html.spec.whatwg.org/multipage/web-messaging.html",
+     "https://html.spec.whatwg.org/multipage/workers.html",
+     "https://html.spec.whatwg.org/multipage/worklets.html",
+     "https://html.spec.whatwg.org/multipage/webstorage.html",
+     "https://html.spec.whatwg.org/multipage/syntax.html",
+     "https://html.spec.whatwg.org/multipage/parsing.html",
+     "https://html.spec.whatwg.org/multipage/named-characters.html",
+     "https://html.spec.whatwg.org/multipage/xhtml.html",
+     "https://html.spec.whatwg.org/multipage/rendering.html",
+     "https://html.spec.whatwg.org/multipage/obsolete.html",
+     "https://html.spec.whatwg.org/multipage/iana.html",
+     "https://html.spec.whatwg.org/multipage/indices.html",
+     "https://html.spec.whatwg.org/multipage/references.html",
+     "https://html.spec.whatwg.org/multipage/acknowledgements.html"
+    ],
+    "filename": "index.html"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "HTML Workstream",
+     "url": "https://html.spec.whatwg.org/multipage/"
+    }
+   ],
+   "title": "HTML",
+   "source": "whatwg",
+   "shortTitle": "HTML",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "close-watcher",
+     "custom-elements",
+     "eventsource",
+     "html",
+     "imagebitmap-renderingcontext",
+     "import-maps",
+     "navigation-api",
+     "webmessaging",
+     "webstorage",
+     "workers",
+     "worklets",
+     "x-frame-options"
+    ],
+    "excludePaths": [
+     "html/cross-origin-embedder-policy/credentialless",
+     "html/dom/partial-updates/tentative",
+     "html/cross-origin-embedder-policy/credentialless"
+    ]
+   },
+   "fragment": "dnd"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/HTML_Drag_and_Drop_API",
+   "title": "HTML Drag and Drop API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/HTML_Drag_and_Drop_API"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:draganddrop"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

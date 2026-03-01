@@ -1,0 +1,218 @@
+{
+ "compat_features": [
+  "api.OES_draw_buffers_indexed",
+  "api.OES_draw_buffers_indexed.blendEquationSeparateiOES",
+  "api.OES_draw_buffers_indexed.blendEquationiOES",
+  "api.OES_draw_buffers_indexed.blendFuncSeparateiOES",
+  "api.OES_draw_buffers_indexed.blendFunciOES",
+  "api.OES_draw_buffers_indexed.colorMaskiOES",
+  "api.OES_draw_buffers_indexed.disableiOES",
+  "api.OES_draw_buffers_indexed.enableiOES"
+ ],
+ "description": "The OES_draw_buffers_indexed extension for WebGL 2.0 contexts allows you to control blending on a per-color basis when writing to multiple color buffers simultaneously.",
+ "description_html": "The <code>OES_draw_buffers_indexed</code> extension for WebGL 2.0 contexts allows you to control blending on a per-color basis when writing to multiple color buffers simultaneously.",
+ "group": [
+  "webgl-extensions"
+ ],
+ "kind": "feature",
+ "name": "OES_draw_buffers_indexed WebGL extension",
+ "spec": [
+  "https://registry.khronos.org/webgl/extensions/OES_draw_buffers_indexed/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2025-06-13",
+  "baseline_low_date": "2022-12-13",
+  "by_compat_key": {
+   "api.OES_draw_buffers_indexed": {
+    "baseline": "high",
+    "baseline_high_date": "2025-06-13",
+    "baseline_low_date": "2022-12-13",
+    "support": {
+     "chrome": "100",
+     "chrome_android": "100",
+     "edge": "100",
+     "firefox": "108",
+     "firefox_android": "108",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "api.OES_draw_buffers_indexed.blendEquationSeparateiOES": {
+    "baseline": "high",
+    "baseline_high_date": "2025-06-13",
+    "baseline_low_date": "2022-12-13",
+    "support": {
+     "chrome": "100",
+     "chrome_android": "100",
+     "edge": "100",
+     "firefox": "108",
+     "firefox_android": "108",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "api.OES_draw_buffers_indexed.blendEquationiOES": {
+    "baseline": "high",
+    "baseline_high_date": "2025-06-13",
+    "baseline_low_date": "2022-12-13",
+    "support": {
+     "chrome": "100",
+     "chrome_android": "100",
+     "edge": "100",
+     "firefox": "108",
+     "firefox_android": "108",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "api.OES_draw_buffers_indexed.blendFuncSeparateiOES": {
+    "baseline": "high",
+    "baseline_high_date": "2025-06-13",
+    "baseline_low_date": "2022-12-13",
+    "support": {
+     "chrome": "100",
+     "chrome_android": "100",
+     "edge": "100",
+     "firefox": "108",
+     "firefox_android": "108",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "api.OES_draw_buffers_indexed.blendFunciOES": {
+    "baseline": "high",
+    "baseline_high_date": "2025-06-13",
+    "baseline_low_date": "2022-12-13",
+    "support": {
+     "chrome": "100",
+     "chrome_android": "100",
+     "edge": "100",
+     "firefox": "108",
+     "firefox_android": "108",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "api.OES_draw_buffers_indexed.colorMaskiOES": {
+    "baseline": "high",
+    "baseline_high_date": "2025-06-13",
+    "baseline_low_date": "2022-12-13",
+    "support": {
+     "chrome": "100",
+     "chrome_android": "100",
+     "edge": "100",
+     "firefox": "108",
+     "firefox_android": "108",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "api.OES_draw_buffers_indexed.disableiOES": {
+    "baseline": "high",
+    "baseline_high_date": "2025-06-13",
+    "baseline_low_date": "2022-12-13",
+    "support": {
+     "chrome": "100",
+     "chrome_android": "100",
+     "edge": "100",
+     "firefox": "108",
+     "firefox_android": "108",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "api.OES_draw_buffers_indexed.enableiOES": {
+    "baseline": "high",
+    "baseline_high_date": "2025-06-13",
+    "baseline_low_date": "2022-12-13",
+    "support": {
+     "chrome": "100",
+     "chrome_android": "100",
+     "edge": "100",
+     "firefox": "108",
+     "firefox_android": "108",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   }
+  },
+  "support": {
+   "chrome": "100",
+   "chrome_android": "100",
+   "edge": "100",
+   "firefox": "108",
+   "firefox_android": "108",
+   "safari": "16",
+   "safari_ios": "16"
+  }
+ },
+ "id": "webgl-oes-draw-buffers-indexed",
+ "groups": [
+  "webgl-extensions"
+ ],
+ "specs": [
+  {
+   "url": "https://registry.khronos.org/webgl/extensions/OES_draw_buffers_indexed/",
+   "seriesComposition": "full",
+   "shortname": "OES_draw_buffers_indexed",
+   "series": {
+    "shortname": "OES_draw_buffers_indexed",
+    "currentSpecification": "OES_draw_buffers_indexed",
+    "title": "WebGL OES_draw_buffers_indexed Extension Specification",
+    "shortTitle": "WebGL OES_draw_buffers_indexed Extension",
+    "nightlyUrl": "https://registry.khronos.org/webgl/extensions/OES_draw_buffers_indexed/"
+   },
+   "organization": "Khronos Group",
+   "groups": [
+    {
+     "name": "WebGL Working Group",
+     "url": "https://www.khronos.org/webgl/"
+    }
+   ],
+   "nightly": {
+    "url": "https://registry.khronos.org/webgl/extensions/OES_draw_buffers_indexed/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "sourcePath": "extensions/OES_draw_buffers_indexed/extension.xml",
+    "filename": "index.html"
+   },
+   "title": "WebGL OES_draw_buffers_indexed Extension Specification",
+   "source": "spec",
+   "shortTitle": "WebGL OES_draw_buffers_indexed Extension",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "testPaths": [
+     "conformance-suites"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/OES_draw_buffers_indexed",
+   "title": "OES_draw_buffers_indexed",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/OES_draw_buffers_indexed"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00417813,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/389"
+ },
+ "interop": [],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2022-12-13T00:00:00.000Z",
+ "baselineHighDateAsObject": "2025-06-13T00:00:00.000Z"
+}

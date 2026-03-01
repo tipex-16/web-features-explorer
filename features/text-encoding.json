@@ -1,0 +1,470 @@
+{
+ "caniuse": [
+  "textencoder"
+ ],
+ "compat_features": [
+  "api.TextDecoder",
+  "api.TextDecoder.TextDecoder",
+  "api.TextDecoder.decode",
+  "api.TextDecoder.encoding",
+  "api.TextDecoder.fatal",
+  "api.TextDecoder.ignoreBOM",
+  "api.TextDecoder.worker_support",
+  "api.TextDecoderStream",
+  "api.TextDecoderStream.TextDecoderStream",
+  "api.TextDecoderStream.encoding",
+  "api.TextDecoderStream.fatal",
+  "api.TextDecoderStream.ignoreBOM",
+  "api.TextDecoderStream.readable",
+  "api.TextDecoderStream.writable",
+  "api.TextEncoder",
+  "api.TextEncoder.TextEncoder",
+  "api.TextEncoder.encode",
+  "api.TextEncoder.encodeInto",
+  "api.TextEncoder.encoding",
+  "api.TextEncoder.worker_support",
+  "api.TextEncoderStream",
+  "api.TextEncoderStream.TextEncoderStream",
+  "api.TextEncoderStream.encoding",
+  "api.TextEncoderStream.readable",
+  "api.TextEncoderStream.writable"
+ ],
+ "description": "The TextEncoder API transforms a stream of code points into a byte stream with UTF-8 encoding, and TextDecoder does the reverse.",
+ "description_html": "The <code>TextEncoder</code> API transforms a stream of code points into a byte stream with UTF-8 encoding, and <code>TextDecoder</code> does the reverse.",
+ "kind": "feature",
+ "name": "Text encoding and decoding",
+ "spec": [
+  "https://encoding.spec.whatwg.org/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2022-07-15",
+  "baseline_low_date": "2020-01-15",
+  "by_compat_key": {
+   "api.TextDecoder": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "38",
+     "chrome_android": "38",
+     "edge": "79",
+     "firefox": "19",
+     "firefox_android": "19",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.TextDecoder.TextDecoder": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "38",
+     "chrome_android": "38",
+     "edge": "79",
+     "firefox": "19",
+     "firefox_android": "19",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.TextDecoder.decode": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "38",
+     "chrome_android": "38",
+     "edge": "79",
+     "firefox": "19",
+     "firefox_android": "19",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.TextDecoder.encoding": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "38",
+     "chrome_android": "38",
+     "edge": "79",
+     "firefox": "19",
+     "firefox_android": "19",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.TextDecoder.fatal": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "38",
+     "chrome_android": "38",
+     "edge": "79",
+     "firefox": "36",
+     "firefox_android": "36",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.TextDecoder.ignoreBOM": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "38",
+     "chrome_android": "38",
+     "edge": "79",
+     "firefox": "63",
+     "firefox_android": "63",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.TextDecoder.worker_support": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "38",
+     "chrome_android": "38",
+     "edge": "79",
+     "firefox": "20",
+     "firefox_android": "20",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.TextDecoderStream": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-20",
+    "baseline_low_date": "2022-09-20",
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "firefox": "105",
+     "firefox_android": "105",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.TextDecoderStream.TextDecoderStream": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-20",
+    "baseline_low_date": "2022-09-20",
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "firefox": "105",
+     "firefox_android": "105",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.TextDecoderStream.encoding": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-20",
+    "baseline_low_date": "2022-09-20",
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "firefox": "105",
+     "firefox_android": "105",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.TextDecoderStream.fatal": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-20",
+    "baseline_low_date": "2022-09-20",
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "firefox": "105",
+     "firefox_android": "105",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.TextDecoderStream.ignoreBOM": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-20",
+    "baseline_low_date": "2022-09-20",
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "firefox": "105",
+     "firefox_android": "105",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.TextDecoderStream.readable": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-20",
+    "baseline_low_date": "2022-09-20",
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "firefox": "105",
+     "firefox_android": "105",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.TextDecoderStream.writable": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-20",
+    "baseline_low_date": "2022-09-20",
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "firefox": "105",
+     "firefox_android": "105",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.TextEncoder": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "38",
+     "chrome_android": "38",
+     "edge": "79",
+     "firefox": "18",
+     "firefox_android": "18",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.TextEncoder.TextEncoder": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "38",
+     "chrome_android": "38",
+     "edge": "79",
+     "firefox": "18",
+     "firefox_android": "18",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.TextEncoder.encode": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "38",
+     "chrome_android": "38",
+     "edge": "79",
+     "firefox": "18",
+     "firefox_android": "18",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.TextEncoder.encodeInto": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.TextEncoder.encoding": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "38",
+     "chrome_android": "38",
+     "edge": "79",
+     "firefox": "18",
+     "firefox_android": "18",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.TextEncoder.worker_support": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "38",
+     "chrome_android": "38",
+     "edge": "79",
+     "firefox": "20",
+     "firefox_android": "20",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.TextEncoderStream": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-20",
+    "baseline_low_date": "2022-09-20",
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "firefox": "105",
+     "firefox_android": "105",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.TextEncoderStream.TextEncoderStream": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-20",
+    "baseline_low_date": "2022-09-20",
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "firefox": "105",
+     "firefox_android": "105",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.TextEncoderStream.encoding": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-20",
+    "baseline_low_date": "2022-09-20",
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "firefox": "105",
+     "firefox_android": "105",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.TextEncoderStream.readable": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-20",
+    "baseline_low_date": "2022-09-20",
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "firefox": "105",
+     "firefox_android": "105",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.TextEncoderStream.writable": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-20",
+    "baseline_low_date": "2022-09-20",
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "firefox": "105",
+     "firefox_android": "105",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   }
+  },
+  "support": {
+   "chrome": "38",
+   "chrome_android": "38",
+   "edge": "79",
+   "firefox": "19",
+   "firefox_android": "19",
+   "safari": "10.1",
+   "safari_ios": "10.3"
+  }
+ },
+ "id": "text-encoding",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://encoding.spec.whatwg.org/",
+   "seriesComposition": "full",
+   "shortname": "encoding",
+   "series": {
+    "shortname": "encoding",
+    "currentSpecification": "encoding",
+    "title": "Encoding",
+    "shortTitle": "Encoding",
+    "nightlyUrl": "https://encoding.spec.whatwg.org/"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "Encoding Workstream",
+     "url": "https://encoding.spec.whatwg.org/"
+    }
+   ],
+   "nightly": {
+    "url": "https://encoding.spec.whatwg.org/",
+    "status": "Living Standard",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/encoding",
+    "sourcePath": "encoding.bs",
+    "filename": "index.html"
+   },
+   "title": "Encoding",
+   "source": "whatwg",
+   "shortTitle": "Encoding",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "encoding"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Encoding_API",
+   "title": "Encoding API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Encoding_API"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:text-encoding"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2020-01-15T00:00:00.000Z",
+ "baselineHighDateAsObject": "2022-07-15T00:00:00.000Z"
+}

@@ -1,0 +1,124 @@
+{
+ "compat_features": [
+  "css.properties.object-view-box",
+  "css.properties.object-view-box.none"
+ ],
+ "description": "The object-view-box CSS property crops and zooms to an inset area of an image.",
+ "description_html": "The <code>object-view-box</code> CSS property crops and zooms to an inset area of an image.",
+ "group": [
+  "css"
+ ],
+ "kind": "feature",
+ "name": "object-view-box",
+ "spec": [
+  "https://drafts.csswg.org/css-images-5/#the-object-view-box"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "css.properties.object-view-box": {
+    "baseline": false,
+    "support": {
+     "chrome": "104",
+     "chrome_android": "104",
+     "edge": "104"
+    }
+   },
+   "css.properties.object-view-box.none": {
+    "baseline": false,
+    "support": {
+     "chrome": "104",
+     "chrome_android": "104",
+     "edge": "104"
+    }
+   }
+  },
+  "support": {
+   "chrome": "104",
+   "chrome_android": "104",
+   "edge": "104"
+  }
+ },
+ "id": "object-view-box",
+ "groups": [
+  "css"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-images-5/#the-object-view-box",
+   "seriesComposition": "delta",
+   "shortname": "css-images-5",
+   "series": {
+    "shortname": "css-images",
+    "currentSpecification": "css-images-3",
+    "title": "CSS Images",
+    "shortTitle": "CSS Images",
+    "releaseUrl": "https://www.w3.org/TR/css-images/",
+    "nightlyUrl": "https://drafts.csswg.org/css-images/"
+   },
+   "seriesVersion": "5",
+   "seriesPrevious": "css-images-4",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-images-5/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-images-5/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-images-5/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Images Module Level 5",
+   "source": "spec",
+   "shortTitle": "CSS Images 5",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-images"
+    ]
+   },
+   "fragment": "the-object-view-box"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/object-view-box",
+   "title": "object-view-box",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/object-view-box"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00042684,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/156"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:object-view-box"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/177",
+  "votes": 6
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1773791"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

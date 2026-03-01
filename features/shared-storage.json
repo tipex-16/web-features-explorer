@@ -1,0 +1,280 @@
+{
+ "compat_features": [
+  "api.HTMLIFrameElement.sharedStorageWritable",
+  "api.HTMLImageElement.sharedStorageWritable",
+  "api.SharedStorage",
+  "api.SharedStorage.append",
+  "api.SharedStorage.clear",
+  "api.SharedStorage.createWorklet",
+  "api.SharedStorage.delete",
+  "api.SharedStorage.get",
+  "api.SharedStorage.run",
+  "api.SharedStorage.selectURL",
+  "api.SharedStorage.set",
+  "api.SharedStorage.worklet",
+  "api.SharedStorageWorklet",
+  "api.SharedStorageWorklet.run",
+  "api.SharedStorageWorklet.selectURL",
+  "api.SharedStorageWorkletGlobalScope",
+  "api.SharedStorageWorkletGlobalScope.register",
+  "api.SharedStorageWorkletGlobalScope.sharedStorage",
+  "api.Window.sharedStorage"
+ ],
+ "description": "The sharedStorage API stores data to a shared space where the data can then be processed without the ability to track users across the different sites they visit. A common use case is measuring the reach of third-party ads without using user-tracking cookies.",
+ "description_html": "The <code>sharedStorage</code> API stores data to a shared space where the data can then be processed without the ability to track users across the different sites they visit. A common use case is measuring the reach of third-party ads without using user-tracking cookies.",
+ "discouraged": {
+  "according_to": [
+   "https://groups.google.com/a/chromium.org/g/blink-dev/c/uh5Ke6qyegc",
+   "https://chromestatus.com/feature/5076349064708096"
+  ],
+  "reason": "Following the announcement that Chrome will maintain its current approach to third-party cookies, Chrome decided to withdraw certain Privacy Sandbox features including the shared storage.",
+  "reason_html": "Following the announcement that Chrome will maintain its current approach to third-party cookies, Chrome decided to withdraw certain Privacy Sandbox features including the shared storage.",
+  "removal_date": "2026-06-01"
+ },
+ "group": [
+  "storage",
+  "worklets"
+ ],
+ "kind": "feature",
+ "name": "Shared storage",
+ "spec": [
+  "https://wicg.github.io/shared-storage/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.HTMLIFrameElement.sharedStorageWritable": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126"
+    }
+   },
+   "api.HTMLImageElement.sharedStorageWritable": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126"
+    }
+   },
+   "api.SharedStorage": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126"
+    }
+   },
+   "api.SharedStorage.append": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126"
+    }
+   },
+   "api.SharedStorage.clear": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126"
+    }
+   },
+   "api.SharedStorage.createWorklet": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126"
+    }
+   },
+   "api.SharedStorage.delete": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126"
+    }
+   },
+   "api.SharedStorage.get": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126"
+    }
+   },
+   "api.SharedStorage.run": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126"
+    }
+   },
+   "api.SharedStorage.selectURL": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126"
+    }
+   },
+   "api.SharedStorage.set": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126"
+    }
+   },
+   "api.SharedStorage.worklet": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126"
+    }
+   },
+   "api.SharedStorageWorklet": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126"
+    }
+   },
+   "api.SharedStorageWorklet.run": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126"
+    }
+   },
+   "api.SharedStorageWorklet.selectURL": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126"
+    }
+   },
+   "api.SharedStorageWorkletGlobalScope": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126"
+    }
+   },
+   "api.SharedStorageWorkletGlobalScope.register": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126"
+    }
+   },
+   "api.SharedStorageWorkletGlobalScope.sharedStorage": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126"
+    }
+   },
+   "api.Window.sharedStorage": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126"
+    }
+   }
+  },
+  "support": {
+   "chrome": "126",
+   "chrome_android": "126",
+   "edge": "126"
+  }
+ },
+ "id": "shared-storage",
+ "groups": [
+  "storage",
+  "worklets"
+ ],
+ "specs": [
+  {
+   "url": "https://wicg.github.io/shared-storage/",
+   "seriesComposition": "full",
+   "shortname": "shared-storage",
+   "series": {
+    "shortname": "shared-storage",
+    "currentSpecification": "shared-storage",
+    "title": "Shared Storage API",
+    "shortTitle": "Shared Storage API",
+    "nightlyUrl": "https://wicg.github.io/shared-storage/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://wicg.github.io/shared-storage/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/WICG/shared-storage",
+    "sourcePath": "spec.bs",
+    "filename": "index.html"
+   },
+   "title": "Shared Storage API",
+   "source": "spec",
+   "shortTitle": "Shared Storage API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Shared_Storage_API",
+   "title": "Shared Storage API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Shared_Storage_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/646",
+   "position": "negative",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/10",
+   "concerns": [],
+   "position": ""
+  }
+ ],
+ "hasNegativeStandardPosition": true,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:shared-storage"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

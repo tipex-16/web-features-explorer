@@ -1,0 +1,110 @@
+{
+ "compat_features": [
+  "api.EXT_frag_depth"
+ ],
+ "description": "The EXT_frag_depth extension for WebGL 1.0 and 2.0 contexts adds setting the depth value of a fragment from within the fragment shader.",
+ "description_html": "The <code>EXT_frag_depth</code> extension for WebGL 1.0 and 2.0 contexts adds setting the depth value of a fragment from within the fragment shader.",
+ "group": [
+  "webgl-extensions"
+ ],
+ "kind": "feature",
+ "name": "EXT_frag_depth WebGL extension",
+ "spec": [
+  "https://registry.khronos.org/webgl/extensions/EXT_frag_depth/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.EXT_frag_depth": {
+    "baseline": false,
+    "support": {
+     "chrome": "38",
+     "chrome_android": "38",
+     "edge": "93",
+     "firefox": "47",
+     "safari": "9",
+     "safari_ios": "15"
+    }
+   }
+  },
+  "support": {
+   "chrome": "38",
+   "chrome_android": "38",
+   "edge": "93",
+   "firefox": "47",
+   "safari": "9",
+   "safari_ios": "15"
+  }
+ },
+ "id": "ext-frag-depth",
+ "groups": [
+  "webgl-extensions"
+ ],
+ "specs": [
+  {
+   "url": "https://registry.khronos.org/webgl/extensions/EXT_frag_depth/",
+   "seriesComposition": "full",
+   "shortname": "EXT_frag_depth",
+   "series": {
+    "shortname": "EXT_frag_depth",
+    "currentSpecification": "EXT_frag_depth",
+    "title": "WebGL EXT_frag_depth Khronos Ratified Extension Specification",
+    "shortTitle": "WebGL EXT_frag_depth Khronos Ratified Extension",
+    "nightlyUrl": "https://registry.khronos.org/webgl/extensions/EXT_frag_depth/"
+   },
+   "organization": "Khronos Group",
+   "groups": [
+    {
+     "name": "WebGL Working Group",
+     "url": "https://www.khronos.org/webgl/"
+    }
+   ],
+   "nightly": {
+    "url": "https://registry.khronos.org/webgl/extensions/EXT_frag_depth/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "sourcePath": "extensions/EXT_frag_depth/extension.xml",
+    "filename": "index.html"
+   },
+   "title": "WebGL EXT_frag_depth Khronos Ratified Extension Specification",
+   "source": "spec",
+   "shortTitle": "WebGL EXT_frag_depth Khronos Ratified Extension",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/KhronosGroup/WebGL",
+    "testPaths": [
+     "conformance-suites"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/EXT_frag_depth",
+   "title": "EXT_frag_depth extension",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/EXT_frag_depth"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/44",
+  "votes": 0
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Firefox for Android",
+ "monthsBlocked": 54,
+ "blockedSince": "September 2021"
+}

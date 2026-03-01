@@ -1,0 +1,1139 @@
+{
+ "caniuse": [
+  "css-animation"
+ ],
+ "compat_features": [
+  "api.AnimationEvent",
+  "api.AnimationEvent.AnimationEvent",
+  "api.AnimationEvent.animationName",
+  "api.AnimationEvent.elapsedTime",
+  "api.AnimationEvent.pseudoElement",
+  "api.CSSAnimation",
+  "api.CSSAnimation.animationName",
+  "api.CSSKeyframeRule",
+  "api.CSSKeyframeRule.keyText",
+  "api.CSSKeyframeRule.style",
+  "api.CSSKeyframesRule",
+  "api.CSSKeyframesRule.appendRule",
+  "api.CSSKeyframesRule.cssRules",
+  "api.CSSKeyframesRule.deleteRule",
+  "api.CSSKeyframesRule.findRule",
+  "api.CSSKeyframesRule.length",
+  "api.CSSKeyframesRule.name",
+  "css.at-rules.keyframes",
+  "css.at-rules.keyframes.ignore_important_declarations",
+  "css.at-rules.keyframes.named_range_keyframes",
+  "css.properties.animation",
+  "css.properties.animation-delay",
+  "css.properties.animation-direction",
+  "css.properties.animation-direction.alternate",
+  "css.properties.animation-direction.alternate-reverse",
+  "css.properties.animation-direction.normal",
+  "css.properties.animation-direction.reverse",
+  "css.properties.animation-duration",
+  "css.properties.animation-duration.auto",
+  "css.properties.animation-fill-mode",
+  "css.properties.animation-fill-mode.backwards",
+  "css.properties.animation-fill-mode.both",
+  "css.properties.animation-fill-mode.forwards",
+  "css.properties.animation-fill-mode.none",
+  "css.properties.animation-iteration-count",
+  "css.properties.animation-iteration-count.infinite",
+  "css.properties.animation-name",
+  "css.properties.animation-name.none",
+  "css.properties.animation-play-state",
+  "css.properties.animation-play-state.paused",
+  "css.properties.animation-play-state.running",
+  "css.properties.animation-timing-function",
+  "css.properties.animation-timing-function.ease",
+  "css.properties.animation-timing-function.ease-in",
+  "css.properties.animation-timing-function.ease-in-out",
+  "css.properties.animation-timing-function.ease-out",
+  "css.properties.animation-timing-function.jump",
+  "css.properties.animation-timing-function.linear",
+  "css.properties.animation-timing-function.step-end",
+  "css.properties.animation-timing-function.step-start",
+  "css.properties.animation.alternate",
+  "css.properties.animation.alternate-reverse",
+  "css.properties.animation.auto",
+  "css.properties.animation.backwards",
+  "css.properties.animation.both",
+  "css.properties.animation.ease",
+  "css.properties.animation.ease-in",
+  "css.properties.animation.ease-in-out",
+  "css.properties.animation.ease-out",
+  "css.properties.animation.forwards",
+  "css.properties.animation.infinite",
+  "css.properties.animation.linear",
+  "css.properties.animation.none",
+  "css.properties.animation.normal",
+  "css.properties.animation.reverse",
+  "css.properties.animation.step-end",
+  "css.properties.animation.step-start",
+  "css.types.time"
+ ],
+ "description": "The animation CSS property animates an element's style over time, using keyframes described in @keyframes rules.",
+ "description_html": "The <code>animation</code> CSS property animates an element's style over time, using keyframes described in <code>@keyframes</code> rules.",
+ "group": [
+  "animation",
+  "css"
+ ],
+ "kind": "feature",
+ "name": "Animations (CSS)",
+ "spec": [
+  "https://drafts.csswg.org/css-animations-2/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-03-30",
+  "baseline_low_date": "2015-09-30",
+  "by_compat_key": {
+   "api.AnimationEvent": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "5",
+     "firefox_android": "5",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "api.AnimationEvent.AnimationEvent": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "14",
+     "firefox": "23",
+     "firefox_android": "23",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "api.AnimationEvent.animationName": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "5",
+     "firefox_android": "5",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "api.AnimationEvent.elapsedTime": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "5",
+     "firefox_android": "5",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "api.AnimationEvent.pseudoElement": {
+    "baseline": "high",
+    "baseline_high_date": "2022-09-24",
+    "baseline_low_date": "2020-03-24",
+    "support": {
+     "chrome": "68",
+     "chrome_android": "68",
+     "edge": "79",
+     "firefox": "23",
+     "firefox_android": "23",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.CSSAnimation": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84",
+     "firefox": "75",
+     "firefox_android": "79",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.CSSAnimation.animationName": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84",
+     "firefox": "75",
+     "firefox_android": "79",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "api.CSSKeyframeRule": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "31",
+     "chrome_android": "31",
+     "edge": "12",
+     "firefox": "48",
+     "firefox_android": "48",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "api.CSSKeyframeRule.keyText": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "31",
+     "chrome_android": "31",
+     "edge": "12",
+     "firefox": "48",
+     "firefox_android": "48",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "api.CSSKeyframeRule.style": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "31",
+     "chrome_android": "31",
+     "edge": "12",
+     "firefox": "48",
+     "firefox_android": "48",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "api.CSSKeyframesRule": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "31",
+     "chrome_android": "31",
+     "edge": "12",
+     "firefox": "48",
+     "firefox_android": "48",
+     "safari": "9.1",
+     "safari_ios": "9.3"
+    }
+   },
+   "api.CSSKeyframesRule.appendRule": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "41",
+     "chrome_android": "41",
+     "edge": "12",
+     "firefox": "48",
+     "firefox_android": "48",
+     "safari": "9.1",
+     "safari_ios": "9.3"
+    }
+   },
+   "api.CSSKeyframesRule.cssRules": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "31",
+     "chrome_android": "31",
+     "edge": "12",
+     "firefox": "48",
+     "firefox_android": "48",
+     "safari": "9.1",
+     "safari_ios": "9.3"
+    }
+   },
+   "api.CSSKeyframesRule.deleteRule": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "31",
+     "chrome_android": "31",
+     "edge": "12",
+     "firefox": "48",
+     "firefox_android": "48",
+     "safari": "9.1",
+     "safari_ios": "9.3"
+    }
+   },
+   "api.CSSKeyframesRule.findRule": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "31",
+     "chrome_android": "31",
+     "edge": "12",
+     "firefox": "48",
+     "firefox_android": "48",
+     "safari": "9.1",
+     "safari_ios": "9.3"
+    }
+   },
+   "api.CSSKeyframesRule.length": {
+    "baseline": "low",
+    "baseline_low_date": "2024-03-22",
+    "support": {
+     "chrome": "123",
+     "chrome_android": "123",
+     "edge": "123",
+     "firefox": "109",
+     "firefox_android": "109",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "api.CSSKeyframesRule.name": {
+    "baseline": "high",
+    "baseline_high_date": "2019-02-02",
+    "baseline_low_date": "2016-08-02",
+    "support": {
+     "chrome": "31",
+     "chrome_android": "31",
+     "edge": "12",
+     "firefox": "48",
+     "firefox_android": "48",
+     "safari": "9.1",
+     "safari_ios": "9.3"
+    }
+   },
+   "css.at-rules.keyframes": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.at-rules.keyframes.ignore_important_declarations": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "45",
+     "chrome_android": "45",
+     "edge": "79",
+     "firefox": "19",
+     "firefox_android": "19",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "css.at-rules.keyframes.named_range_keyframes": {
+    "baseline": false,
+    "support": {
+     "chrome": "115",
+     "chrome_android": "115",
+     "edge": "115",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.animation": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation-delay": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation-direction": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation-direction.alternate": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation-direction.alternate-reverse": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation-direction.normal": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation-direction.reverse": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation-duration": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation-duration.auto": {
+    "baseline": false,
+    "support": {
+     "chrome": "115",
+     "chrome_android": "115",
+     "edge": "115",
+     "safari": "18.4",
+     "safari_ios": "18.4"
+    }
+   },
+   "css.properties.animation-fill-mode": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation-fill-mode.backwards": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation-fill-mode.both": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation-fill-mode.forwards": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation-fill-mode.none": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation-iteration-count": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation-iteration-count.infinite": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation-name": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation-name.none": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation-play-state": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation-play-state.paused": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation-play-state.running": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation-timing-function": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation-timing-function.ease": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation-timing-function.ease-in": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation-timing-function.ease-in-out": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation-timing-function.ease-out": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation-timing-function.jump": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "77",
+     "chrome_android": "77",
+     "edge": "79",
+     "firefox": "65",
+     "firefox_android": "65",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "css.properties.animation-timing-function.linear": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation-timing-function.step-end": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation-timing-function.step-start": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation.alternate": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation.alternate-reverse": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation.backwards": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation.both": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation.ease": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation.ease-in": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation.ease-in-out": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation.ease-out": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation.forwards": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation.infinite": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation.linear": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation.none": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation.normal": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation.reverse": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation.step-end": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.animation.step-start": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-30",
+    "baseline_low_date": "2015-09-30",
+    "support": {
+     "chrome": "43",
+     "chrome_android": "43",
+     "edge": "12",
+     "firefox": "16",
+     "firefox_android": "16",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.types.time": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "3.1",
+     "safari_ios": "2"
+    }
+   }
+  },
+  "support": {
+   "chrome": "43",
+   "chrome_android": "43",
+   "edge": "12",
+   "firefox": "16",
+   "firefox_android": "16",
+   "safari": "9",
+   "safari_ios": "9"
+  }
+ },
+ "id": "animations-css",
+ "groups": [
+  "animation",
+  "css"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-animations-2/",
+   "seriesComposition": "delta",
+   "shortname": "css-animations-2",
+   "series": {
+    "shortname": "css-animations",
+    "currentSpecification": "css-animations-1",
+    "title": "CSS Animations",
+    "shortTitle": "CSS Animations",
+    "releaseUrl": "https://www.w3.org/TR/css-animations/",
+    "nightlyUrl": "https://drafts.csswg.org/css-animations/"
+   },
+   "seriesVersion": "2",
+   "seriesPrevious": "css-animations-1",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-animations-2/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-animations-2/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-animations-2/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-animations-2/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Animations Level 2",
+   "source": "w3c",
+   "shortTitle": "CSS Animations 2",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-animations"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/animation",
+   "title": "animation",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:animations-css"
+ },
+ "developerSignals": null,
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1676779"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/1676779"
+  ],
+  "safari": [
+   "https://webkit.org/b/286920"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/286920"
+  ],
+  "webview_ios": [
+   "https://webkit.org/b/286920"
+  ]
+ },
+ "baselineLowDateAsObject": "2015-09-30T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-03-30T00:00:00.000Z"
+}

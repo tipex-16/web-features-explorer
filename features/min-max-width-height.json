@@ -1,0 +1,297 @@
+{
+ "caniuse": [
+  "minmaxwh"
+ ],
+ "compat_features": [
+  "css.properties.max-height",
+  "css.properties.max-height.none",
+  "css.properties.max-width",
+  "css.properties.max-width.none",
+  "css.properties.min-height",
+  "css.properties.min-height.auto",
+  "css.properties.min-width",
+  "css.properties.min-width.auto"
+ ],
+ "description": "The min-width, min-height, max-width, and max-height CSS properties set the minimum and maximum size of an element.",
+ "description_html": "The <code>min-width</code>, <code>min-height</code>, <code>max-width</code>, and <code>max-height</code> CSS properties set the minimum and maximum size of an element.",
+ "kind": "feature",
+ "name": "Min and max width and height",
+ "spec": [
+  "https://drafts.csswg.org/css-sizing-3/#min-size-properties",
+  "https://drafts.csswg.org/css-sizing-3/#max-size-properties"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "css.properties.max-height": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1.3",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.max-height.none": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "18",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1.3",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.max-width": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.max-width.none": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.min-height": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3",
+     "firefox_android": "4",
+     "safari": "1.3",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.min-height.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "21",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "34",
+     "firefox_android": "34",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "css.properties.min-width": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.min-width.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "21",
+     "chrome_android": "25",
+     "edge": "12",
+     "firefox": "34",
+     "firefox_android": "34",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   }
+  },
+  "support": {
+   "chrome": "18",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "1",
+   "firefox_android": "4",
+   "safari": "1.3",
+   "safari_ios": "1"
+  }
+ },
+ "id": "min-max-width-height",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-sizing-3/#min-size-properties",
+   "seriesComposition": "full",
+   "shortname": "css-sizing-3",
+   "series": {
+    "shortname": "css-sizing",
+    "currentSpecification": "css-sizing-3",
+    "title": "CSS Box Sizing",
+    "shortTitle": "CSS Sizing",
+    "releaseUrl": "https://www.w3.org/TR/css-sizing/",
+    "nightlyUrl": "https://drafts.csswg.org/css-sizing/"
+   },
+   "seriesVersion": "3",
+   "shortTitle": "CSS Sizing 3",
+   "seriesNext": "css-sizing-4",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-sizing-3/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-sizing-3/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-sizing-3/",
+     "https://w3c.github.io/csswg-drafts/css-sizing/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-sizing-3/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Box Sizing Module Level 3",
+   "source": "w3c",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-sizing"
+    ]
+   },
+   "fragment": "min-size-properties"
+  },
+  {
+   "url": "https://drafts.csswg.org/css-sizing-3/#max-size-properties",
+   "seriesComposition": "full",
+   "shortname": "css-sizing-3",
+   "series": {
+    "shortname": "css-sizing",
+    "currentSpecification": "css-sizing-3",
+    "title": "CSS Box Sizing",
+    "shortTitle": "CSS Sizing",
+    "releaseUrl": "https://www.w3.org/TR/css-sizing/",
+    "nightlyUrl": "https://drafts.csswg.org/css-sizing/"
+   },
+   "seriesVersion": "3",
+   "shortTitle": "CSS Sizing 3",
+   "seriesNext": "css-sizing-4",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-sizing-3/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-sizing-3/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-sizing-3/",
+     "https://w3c.github.io/csswg-drafts/css-sizing/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-sizing-3/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Box Sizing Module Level 3",
+   "source": "w3c",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-sizing"
+    ]
+   },
+   "fragment": "max-size-properties"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/min-width",
+   "title": "min-width",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/min-width"
+  },
+  {
+   "slug": "Web/CSS/Reference/Properties/max-width",
+   "title": "max-width",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/max-width"
+  },
+  {
+   "slug": "Web/CSS/Reference/Properties/min-height",
+   "title": "min-height",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/min-height"
+  },
+  {
+   "slug": "Web/CSS/Reference/Properties/max-height",
+   "title": "max-height",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/max-height"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:min-max-width-height"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

@@ -1,0 +1,486 @@
+{
+ "compat_features": [
+  "api.Document.prerendering",
+  "api.Document.prerenderingchange_event",
+  "api.PerformanceNavigationTiming.activationStart",
+  "api.Request.destination.speculationrules",
+  "html.elements.script.type.speculationrules",
+  "html.elements.script.type.speculationrules.eagerness",
+  "html.elements.script.type.speculationrules.expects_no_vary_search",
+  "html.elements.script.type.speculationrules.prefetch",
+  "html.elements.script.type.speculationrules.prerender",
+  "html.elements.script.type.speculationrules.referrer_policy",
+  "html.elements.script.type.speculationrules.relative_to",
+  "html.elements.script.type.speculationrules.requires",
+  "html.elements.script.type.speculationrules.requires.anonymous-client-ip-when-cross-origin",
+  "html.elements.script.type.speculationrules.source_optional",
+  "html.elements.script.type.speculationrules.tag",
+  "html.elements.script.type.speculationrules.target_hint",
+  "html.elements.script.type.speculationrules.urls",
+  "html.elements.script.type.speculationrules.where",
+  "http.headers.Content-Security-Policy.script-src.inline-speculation-rules",
+  "http.headers.Sec-Purpose.speculationrules",
+  "http.headers.Sec-Speculation-Tags",
+  "http.headers.Speculation-Rules",
+  "http.headers.Supports-Loading-Mode",
+  "http.headers.Supports-Loading-Mode.credentialed-prerender",
+  "http.headers.Supports-Loading-Mode.fenced-frame"
+ ],
+ "description": "Speculation rules are hints to the browser to proactively download pages in the background so they appear instantly when the user navigates to them.",
+ "description_html": "Speculation rules are hints to the browser to proactively download pages in the background so they appear instantly when the user navigates to them.",
+ "kind": "feature",
+ "name": "Speculation rules",
+ "spec": [
+  "https://html.spec.whatwg.org/multipage/speculative-loading.html#speculation-rules",
+  "https://wicg.github.io/nav-speculation/prerendering.html"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Document.prerendering": {
+    "baseline": false,
+    "support": {
+     "chrome": "108",
+     "chrome_android": "108",
+     "edge": "108"
+    }
+   },
+   "api.Document.prerenderingchange_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "108",
+     "chrome_android": "108",
+     "edge": "108"
+    }
+   },
+   "api.PerformanceNavigationTiming.activationStart": {
+    "baseline": false,
+    "support": {
+     "chrome": "108",
+     "chrome_android": "57",
+     "edge": "108"
+    }
+   },
+   "api.Request.destination.speculationrules": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "html.elements.script.type.speculationrules": {
+    "baseline": false,
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109"
+    }
+   },
+   "html.elements.script.type.speculationrules.eagerness": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "html.elements.script.type.speculationrules.expects_no_vary_search": {
+    "baseline": false,
+    "support": {
+     "chrome": "127",
+     "chrome_android": "127",
+     "edge": "127"
+    }
+   },
+   "html.elements.script.type.speculationrules.prefetch": {
+    "baseline": false,
+    "support": {
+     "chrome": "110",
+     "chrome_android": "109",
+     "edge": "110"
+    }
+   },
+   "html.elements.script.type.speculationrules.prerender": {
+    "baseline": false,
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109"
+    }
+   },
+   "html.elements.script.type.speculationrules.referrer_policy": {
+    "baseline": false,
+    "support": {
+     "chrome": "111",
+     "chrome_android": "111",
+     "edge": "111"
+    }
+   },
+   "html.elements.script.type.speculationrules.relative_to": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "html.elements.script.type.speculationrules.requires": {
+    "baseline": false,
+    "support": {
+     "chrome": "110",
+     "chrome_android": "109",
+     "edge": "110"
+    }
+   },
+   "html.elements.script.type.speculationrules.requires.anonymous-client-ip-when-cross-origin": {
+    "baseline": false,
+    "support": {
+     "chrome": "110",
+     "chrome_android": "109"
+    }
+   },
+   "html.elements.script.type.speculationrules.source_optional": {
+    "baseline": false,
+    "support": {
+     "chrome": "122",
+     "chrome_android": "122",
+     "edge": "122"
+    }
+   },
+   "html.elements.script.type.speculationrules.tag": {
+    "baseline": false,
+    "support": {
+     "chrome": "136",
+     "chrome_android": "136",
+     "edge": "136"
+    }
+   },
+   "html.elements.script.type.speculationrules.target_hint": {
+    "baseline": false,
+    "support": {}
+   },
+   "html.elements.script.type.speculationrules.urls": {
+    "baseline": false,
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109"
+    }
+   },
+   "html.elements.script.type.speculationrules.where": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "http.headers.Content-Security-Policy.script-src.inline-speculation-rules": {
+    "baseline": false,
+    "support": {
+     "chrome": "110",
+     "chrome_android": "110",
+     "edge": "110"
+    }
+   },
+   "http.headers.Sec-Purpose.speculationrules": {
+    "baseline": false,
+    "support": {
+     "chrome": "110",
+     "chrome_android": "110",
+     "edge": "110"
+    }
+   },
+   "http.headers.Sec-Speculation-Tags": {
+    "baseline": false,
+    "support": {
+     "chrome": "136",
+     "chrome_android": "136",
+     "edge": "136"
+    }
+   },
+   "http.headers.Speculation-Rules": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121"
+    }
+   },
+   "http.headers.Supports-Loading-Mode": {
+    "baseline": false,
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109"
+    }
+   },
+   "http.headers.Supports-Loading-Mode.credentialed-prerender": {
+    "baseline": false,
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109"
+    }
+   },
+   "http.headers.Supports-Loading-Mode.fenced-frame": {
+    "baseline": false,
+    "support": {
+     "chrome": "117",
+     "chrome_android": "117",
+     "edge": "117"
+    }
+   }
+  },
+  "support": {
+   "chrome": "109",
+   "chrome_android": "109",
+   "edge": "109"
+  }
+ },
+ "id": "speculation-rules",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://html.spec.whatwg.org/multipage/speculative-loading.html#speculation-rules",
+   "seriesComposition": "full",
+   "shortname": "html",
+   "series": {
+    "shortname": "html",
+    "currentSpecification": "html",
+    "title": "HTML",
+    "shortTitle": "HTML",
+    "nightlyUrl": "https://html.spec.whatwg.org/multipage/"
+   },
+   "nightly": {
+    "url": "https://html.spec.whatwg.org/multipage/",
+    "status": "Living Standard",
+    "sourcePath": "source",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/html",
+    "pages": [
+     "https://html.spec.whatwg.org/multipage/introduction.html",
+     "https://html.spec.whatwg.org/multipage/infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/common-microsyntaxes.html",
+     "https://html.spec.whatwg.org/multipage/urls-and-fetching.html",
+     "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html",
+     "https://html.spec.whatwg.org/multipage/structured-data.html",
+     "https://html.spec.whatwg.org/multipage/dom.html",
+     "https://html.spec.whatwg.org/multipage/semantics.html",
+     "https://html.spec.whatwg.org/multipage/sections.html",
+     "https://html.spec.whatwg.org/multipage/grouping-content.html",
+     "https://html.spec.whatwg.org/multipage/text-level-semantics.html",
+     "https://html.spec.whatwg.org/multipage/links.html",
+     "https://html.spec.whatwg.org/multipage/edits.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content.html",
+     "https://html.spec.whatwg.org/multipage/images.html",
+     "https://html.spec.whatwg.org/multipage/iframe-embed-object.html",
+     "https://html.spec.whatwg.org/multipage/media.html",
+     "https://html.spec.whatwg.org/multipage/image-maps.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content-other.html",
+     "https://html.spec.whatwg.org/multipage/tables.html",
+     "https://html.spec.whatwg.org/multipage/forms.html",
+     "https://html.spec.whatwg.org/multipage/input.html",
+     "https://html.spec.whatwg.org/multipage/form-elements.html",
+     "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/interactive-elements.html",
+     "https://html.spec.whatwg.org/multipage/scripting.html",
+     "https://html.spec.whatwg.org/multipage/canvas.html",
+     "https://html.spec.whatwg.org/multipage/custom-elements.html",
+     "https://html.spec.whatwg.org/multipage/semantics-other.html",
+     "https://html.spec.whatwg.org/multipage/microdata.html",
+     "https://html.spec.whatwg.org/multipage/interaction.html",
+     "https://html.spec.whatwg.org/multipage/dnd.html",
+     "https://html.spec.whatwg.org/multipage/popover.html",
+     "https://html.spec.whatwg.org/multipage/browsers.html",
+     "https://html.spec.whatwg.org/multipage/nav-history-apis.html",
+     "https://html.spec.whatwg.org/multipage/document-sequences.html",
+     "https://html.spec.whatwg.org/multipage/browsing-the-web.html",
+     "https://html.spec.whatwg.org/multipage/document-lifecycle.html",
+     "https://html.spec.whatwg.org/multipage/speculative-loading.html",
+     "https://html.spec.whatwg.org/multipage/webappapis.html",
+     "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html",
+     "https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html",
+     "https://html.spec.whatwg.org/multipage/system-state.html",
+     "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html",
+     "https://html.spec.whatwg.org/multipage/comms.html",
+     "https://html.spec.whatwg.org/multipage/server-sent-events.html",
+     "https://html.spec.whatwg.org/multipage/web-messaging.html",
+     "https://html.spec.whatwg.org/multipage/workers.html",
+     "https://html.spec.whatwg.org/multipage/worklets.html",
+     "https://html.spec.whatwg.org/multipage/webstorage.html",
+     "https://html.spec.whatwg.org/multipage/syntax.html",
+     "https://html.spec.whatwg.org/multipage/parsing.html",
+     "https://html.spec.whatwg.org/multipage/named-characters.html",
+     "https://html.spec.whatwg.org/multipage/xhtml.html",
+     "https://html.spec.whatwg.org/multipage/rendering.html",
+     "https://html.spec.whatwg.org/multipage/obsolete.html",
+     "https://html.spec.whatwg.org/multipage/iana.html",
+     "https://html.spec.whatwg.org/multipage/indices.html",
+     "https://html.spec.whatwg.org/multipage/references.html",
+     "https://html.spec.whatwg.org/multipage/acknowledgements.html"
+    ],
+    "filename": "index.html"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "HTML Workstream",
+     "url": "https://html.spec.whatwg.org/multipage/"
+    }
+   ],
+   "title": "HTML",
+   "source": "whatwg",
+   "shortTitle": "HTML",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "close-watcher",
+     "custom-elements",
+     "eventsource",
+     "html",
+     "imagebitmap-renderingcontext",
+     "import-maps",
+     "navigation-api",
+     "webmessaging",
+     "webstorage",
+     "workers",
+     "worklets",
+     "x-frame-options"
+    ],
+    "excludePaths": [
+     "html/cross-origin-embedder-policy/credentialless",
+     "html/dom/partial-updates/tentative",
+     "html/cross-origin-embedder-policy/credentialless"
+    ]
+   },
+   "fragment": "speculation-rules"
+  },
+  {
+   "url": "https://wicg.github.io/nav-speculation/prerendering.html",
+   "seriesComposition": "full",
+   "shortname": "prerendering-revamped",
+   "series": {
+    "shortname": "prerendering-revamped",
+    "currentSpecification": "prerendering-revamped",
+    "title": "Prerendering Revamped",
+    "shortTitle": "Prerendering Revamped",
+    "nightlyUrl": "https://wicg.github.io/nav-speculation/prerendering.html"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://wicg.github.io/nav-speculation/prerendering.html",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/WICG/nav-speculation",
+    "sourcePath": "prerendering.bs",
+    "filename": "prerendering.html"
+   },
+   "title": "Prerendering Revamped",
+   "source": "spec",
+   "shortTitle": "Prerendering Revamped",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Speculation_Rules_API",
+   "title": "Speculation Rules API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Speculation_Rules_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/620",
+   "position": "neutral",
+   "concerns": [
+    "complexity"
+   ]
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/performance/#performance_pain_points_features",
+   "question": "performance",
+   "subQuestion": "performance_pain_points_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.performance.performance_pain_points_features.freeform.allEditions.0.buckets.1.nestedBuckets.0.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/performance/#performance_pain_points",
+   "question": "performance",
+   "subQuestion": "performance_pain_points",
+   "path": "dataAPI.surveys.state_of_html.html2025.performance.performance_pain_points.freeform.allEditions.0.buckets.0.nestedBuckets.1.nestedBuckets.0.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/performance/#performance_features",
+   "question": "performance",
+   "subQuestion": "performance_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.performance.performance_features.6.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.41.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+   "question": "_all_features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.41.entity"
+  }
+ ],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.11693581,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/317"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:speculation-rules"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/186",
+  "votes": 10
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1969396",
+   "https://bugzil.la/1969838"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/1969396",
+   "https://bugzil.la/1969838"
+  ],
+  "safari": [
+   "https://webkit.org/b/295193"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/295193"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

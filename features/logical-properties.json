@@ -1,0 +1,1463 @@
+{
+ "caniuse": [
+  "css-logical-props"
+ ],
+ "compat_features": [
+  "css.properties.block-size",
+  "css.properties.block-size.fit-content",
+  "css.properties.block-size.max-content",
+  "css.properties.block-size.min-content",
+  "css.properties.border-block",
+  "css.properties.border-block-color",
+  "css.properties.border-block-end",
+  "css.properties.border-block-end-color",
+  "css.properties.border-block-end-style",
+  "css.properties.border-block-end-width",
+  "css.properties.border-block-start",
+  "css.properties.border-block-start-color",
+  "css.properties.border-block-start-style",
+  "css.properties.border-block-start-width",
+  "css.properties.border-block-style",
+  "css.properties.border-block-width",
+  "css.properties.border-end-end-radius",
+  "css.properties.border-end-start-radius",
+  "css.properties.border-inline",
+  "css.properties.border-inline-color",
+  "css.properties.border-inline-end",
+  "css.properties.border-inline-end-color",
+  "css.properties.border-inline-end-style",
+  "css.properties.border-inline-end-width",
+  "css.properties.border-inline-start",
+  "css.properties.border-inline-start-color",
+  "css.properties.border-inline-start-style",
+  "css.properties.border-inline-start-width",
+  "css.properties.border-inline-style",
+  "css.properties.border-inline-width",
+  "css.properties.border-start-end-radius",
+  "css.properties.border-start-start-radius",
+  "css.properties.clear.inline-end",
+  "css.properties.clear.inline-start",
+  "css.properties.float.inline-end",
+  "css.properties.float.inline-start",
+  "css.properties.inline-size",
+  "css.properties.inline-size.fit-content",
+  "css.properties.inline-size.max-content",
+  "css.properties.inline-size.min-content",
+  "css.properties.inset",
+  "css.properties.inset-block",
+  "css.properties.inset-block-end",
+  "css.properties.inset-block-end.auto",
+  "css.properties.inset-block-start",
+  "css.properties.inset-block-start.auto",
+  "css.properties.inset-block.auto",
+  "css.properties.inset-inline",
+  "css.properties.inset-inline-end",
+  "css.properties.inset-inline-end.auto",
+  "css.properties.inset-inline-start",
+  "css.properties.inset-inline-start.auto",
+  "css.properties.inset-inline.auto",
+  "css.properties.inset.auto",
+  "css.properties.margin-block",
+  "css.properties.margin-block-end",
+  "css.properties.margin-block-start",
+  "css.properties.margin-inline",
+  "css.properties.margin-inline-end",
+  "css.properties.margin-inline-start",
+  "css.properties.max-block-size",
+  "css.properties.max-block-size.fit-content",
+  "css.properties.max-block-size.max-content",
+  "css.properties.max-block-size.min-content",
+  "css.properties.max-inline-size",
+  "css.properties.max-inline-size.fit-content",
+  "css.properties.max-inline-size.max-content",
+  "css.properties.max-inline-size.min-content",
+  "css.properties.min-block-size",
+  "css.properties.min-block-size.fit-content",
+  "css.properties.min-block-size.max-content",
+  "css.properties.min-block-size.min-content",
+  "css.properties.min-inline-size",
+  "css.properties.min-inline-size.fit-content",
+  "css.properties.min-inline-size.max-content",
+  "css.properties.min-inline-size.min-content",
+  "css.properties.overflow-block",
+  "css.properties.overflow-block.overlay",
+  "css.properties.overflow-inline",
+  "css.properties.overflow-inline.overlay",
+  "css.properties.padding-block",
+  "css.properties.padding-block-end",
+  "css.properties.padding-block-start",
+  "css.properties.padding-inline",
+  "css.properties.padding-inline-end",
+  "css.properties.padding-inline-start"
+ ],
+ "description": "CSS logical properties control borders, size, margin, and padding with directions and dimensions relative to the writing mode. For example, in a left to right, top to bottom writing mode, block-end refers to the bottom. Also known as flow relative.",
+ "description_html": "CSS logical properties control borders, size, margin, and padding with directions and dimensions relative to the writing mode. For example, in a left to right, top to bottom writing mode, <code>block-end</code> refers to the bottom. Also known as flow relative.",
+ "group": [
+  "css"
+ ],
+ "kind": "feature",
+ "name": "Logical properties",
+ "spec": [
+  "https://drafts.csswg.org/css-logical-1/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2024-03-20",
+  "baseline_low_date": "2021-09-20",
+  "by_compat_key": {
+   "css.properties.block-size": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.block-size.fit-content": {
+    "baseline": "high",
+    "baseline_high_date": "2024-05-02",
+    "baseline_low_date": "2021-11-02",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "94",
+     "firefox_android": "94",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.block-size.max-content": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.block-size.min-content": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.border-block": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.border-block-color": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.border-block-end": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.border-block-end-color": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.border-block-end-style": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.border-block-end-width": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.border-block-start": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.border-block-start-color": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.border-block-start-style": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.border-block-start-width": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.border-block-style": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.border-block-width": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.border-end-end-radius": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "89",
+     "chrome_android": "89",
+     "edge": "89",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "css.properties.border-end-start-radius": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "89",
+     "chrome_android": "89",
+     "edge": "89",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "css.properties.border-inline": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.border-inline-color": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.border-inline-end": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.border-inline-end-color": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.border-inline-end-style": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.border-inline-end-width": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.border-inline-start": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.border-inline-start-color": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.border-inline-start-style": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.border-inline-start-width": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.border-inline-style": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.border-inline-width": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.border-start-end-radius": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "89",
+     "chrome_android": "89",
+     "edge": "89",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "css.properties.border-start-start-radius": {
+    "baseline": "high",
+    "baseline_high_date": "2024-03-20",
+    "baseline_low_date": "2021-09-20",
+    "support": {
+     "chrome": "89",
+     "chrome_android": "89",
+     "edge": "89",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "css.properties.clear.inline-end": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-13",
+    "support": {
+     "chrome": "118",
+     "chrome_android": "118",
+     "edge": "118",
+     "firefox": "55",
+     "firefox_android": "55",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "css.properties.clear.inline-start": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-13",
+    "support": {
+     "chrome": "118",
+     "chrome_android": "118",
+     "edge": "118",
+     "firefox": "55",
+     "firefox_android": "55",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "css.properties.float.inline-end": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-13",
+    "support": {
+     "chrome": "118",
+     "chrome_android": "118",
+     "edge": "118",
+     "firefox": "55",
+     "firefox_android": "55",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "css.properties.float.inline-start": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-13",
+    "support": {
+     "chrome": "118",
+     "chrome_android": "118",
+     "edge": "118",
+     "firefox": "55",
+     "firefox_android": "55",
+     "safari": "15",
+     "safari_ios": "15"
+    }
+   },
+   "css.properties.inline-size": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.inline-size.fit-content": {
+    "baseline": "high",
+    "baseline_high_date": "2024-05-02",
+    "baseline_low_date": "2021-11-02",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "94",
+     "firefox_android": "94",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.inline-size.max-content": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.inline-size.min-content": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.inset": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.inset-block": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "63",
+     "firefox_android": "63",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.inset-block-end": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "63",
+     "firefox_android": "63",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.inset-block-end.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "63",
+     "firefox_android": "63",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.inset-block-start": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "63",
+     "firefox_android": "63",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.inset-block-start.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "63",
+     "firefox_android": "63",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.inset-block.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "63",
+     "firefox_android": "63",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.inset-inline": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "63",
+     "firefox_android": "63",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.inset-inline-end": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "63",
+     "firefox_android": "63",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.inset-inline-end.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "63",
+     "firefox_android": "63",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.inset-inline-start": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "63",
+     "firefox_android": "63",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.inset-inline-start.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "63",
+     "firefox_android": "63",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.inset-inline.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "63",
+     "firefox_android": "63",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.inset.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.margin-block": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.margin-block-end": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.margin-block-start": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.margin-inline": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.margin-inline-end": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.margin-inline-start": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.max-block-size": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.max-block-size.fit-content": {
+    "baseline": "high",
+    "baseline_high_date": "2024-05-02",
+    "baseline_low_date": "2021-11-02",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "94",
+     "firefox_android": "94",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.max-block-size.max-content": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.max-block-size.min-content": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.max-inline-size": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.max-inline-size.fit-content": {
+    "baseline": "high",
+    "baseline_high_date": "2024-05-02",
+    "baseline_low_date": "2021-11-02",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "94",
+     "firefox_android": "94",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.max-inline-size.max-content": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.max-inline-size.min-content": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.min-block-size": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.min-block-size.fit-content": {
+    "baseline": "high",
+    "baseline_high_date": "2024-05-02",
+    "baseline_low_date": "2021-11-02",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "94",
+     "firefox_android": "94",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.min-block-size.max-content": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.min-block-size.min-content": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.min-inline-size": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.min-inline-size.fit-content": {
+    "baseline": "high",
+    "baseline_high_date": "2024-05-02",
+    "baseline_low_date": "2021-11-02",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "94",
+     "firefox_android": "94",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.min-inline-size.max-content": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.min-inline-size.min-content": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "57",
+     "chrome_android": "57",
+     "edge": "79",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.overflow-block": {
+    "baseline": "low",
+    "baseline_low_date": "2025-09-15",
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135",
+     "firefox": "69",
+     "firefox_android": "79",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.overflow-block.overlay": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135",
+     "firefox": "112",
+     "firefox_android": "112"
+    }
+   },
+   "css.properties.overflow-inline": {
+    "baseline": "low",
+    "baseline_low_date": "2025-09-15",
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135",
+     "firefox": "69",
+     "firefox_android": "79",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "css.properties.overflow-inline.overlay": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135",
+     "firefox": "112",
+     "firefox_android": "112"
+    }
+   },
+   "css.properties.padding-block": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.padding-block-end": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.padding-block-start": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.padding-inline": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "css.properties.padding-inline-end": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.properties.padding-inline-start": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "69",
+     "chrome_android": "69",
+     "edge": "79",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   }
+  },
+  "support": {
+   "chrome": "89",
+   "chrome_android": "89",
+   "edge": "89",
+   "firefox": "66",
+   "firefox_android": "66",
+   "safari": "15",
+   "safari_ios": "15"
+  }
+ },
+ "id": "logical-properties",
+ "groups": [
+  "css"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-logical-1/",
+   "seriesComposition": "full",
+   "shortname": "css-logical-1",
+   "series": {
+    "shortname": "css-logical",
+    "currentSpecification": "css-logical-1",
+    "title": "CSS Logical Properties and Values",
+    "shortTitle": "CSS Logical Properties",
+    "releaseUrl": "https://www.w3.org/TR/css-logical/",
+    "nightlyUrl": "https://drafts.csswg.org/css-logical/"
+   },
+   "seriesVersion": "1",
+   "shortTitle": "CSS Logical Properties 1",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-logical-1/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-logical-1/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-logical-1/",
+     "https://w3c.github.io/csswg-drafts/css-logical/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-logical-1/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Logical Properties and Values Module Level 1",
+   "source": "w3c",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-logical"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Guides/Logical_properties_and_values",
+   "title": "CSS logical properties and values",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Guides/Logical_properties_and_values"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#gamechanger_feature",
+   "question": "usage",
+   "subQuestion": "gamechanger_feature",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.gamechanger_feature.freeform.allEditions.0.buckets.7.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#favorite_new_features",
+   "question": "usage",
+   "subQuestion": "favorite_new_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.favorite_new_features.freeform.allEditions.0.buckets.15.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_missing_features",
+   "question": "usage",
+   "subQuestion": "css_missing_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_missing_features.freeform.allEditions.0.buckets.21.groupedBuckets.1.groupedBuckets.112.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_interoperability_features",
+   "question": "usage",
+   "subQuestion": "css_interoperability_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_interoperability_features.freeform.allEditions.0.buckets.21.groupedBuckets.1.groupedBuckets.30.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_general_pain_points",
+   "question": "usage",
+   "subQuestion": "css_general_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_general_pain_points.freeform.allEditions.0.buckets.9.groupedBuckets.0.groupedBuckets.48.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/layout/#layout_pain_points",
+   "question": "layout",
+   "subQuestion": "layout_pain_points",
+   "path": "dataAPI.surveys.state_of_css.css2025.layout.layout_pain_points.freeform.allEditions.0.buckets.21.groupedBuckets.1.groupedBuckets.43.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.2.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/usage/#favorite_new_features",
+   "question": "usage",
+   "subQuestion": "favorite_new_features",
+   "path": "dataAPI.surveys.state_of_css.css2024.usage.favorite_new_features.freeform.currentEdition.buckets.15.entity"
+  },
+  {
+   "name": "State of CSS 2024",
+   "url": "https://2024.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2024.features.all_features.2.entity"
+  }
+ ],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.34090421,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/168"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:logical-properties"
+ },
+ "developerSignals": null,
+ "bugs": {
+  "safari": [
+   "https://webkit.org/b/185977"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/185977"
+  ],
+  "webview_ios": [
+   "https://webkit.org/b/185977"
+  ]
+ },
+ "baselineLowDateAsObject": "2021-09-20T00:00:00.000Z",
+ "baselineHighDateAsObject": "2024-03-20T00:00:00.000Z"
+}

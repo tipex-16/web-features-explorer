@@ -1,0 +1,377 @@
+{
+ "compat_features": [
+  "api.CommandEvent",
+  "api.CommandEvent.CommandEvent",
+  "api.CommandEvent.command",
+  "api.CommandEvent.source",
+  "api.HTMLButtonElement.command",
+  "api.HTMLButtonElement.commandForElement",
+  "api.HTMLElement.command_event",
+  "html.elements.button.command",
+  "html.elements.button.commandfor"
+ ],
+ "description": "The command and commandfor attributes for the <button> HTML element dispatch an action to an element when the button is invoked (by click or keystroke), as a declarative alternative to addEventListener() calls or onclick attribute handlers.",
+ "description_html": "The <code>command</code> and <code>commandfor</code> attributes for the <code>&#x3C;button></code> HTML element dispatch an action to an element when the button is invoked (by click or keystroke), as a declarative alternative to <code>addEventListener()</code> calls or <code>onclick</code> attribute handlers.",
+ "kind": "feature",
+ "name": "Invoker commands",
+ "spec": [
+  "https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command"
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2025-12-12",
+  "by_compat_key": {
+   "api.CommandEvent": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135",
+     "firefox": "144",
+     "firefox_android": "144",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.CommandEvent.CommandEvent": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135",
+     "firefox": "144",
+     "firefox_android": "144",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.CommandEvent.command": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135",
+     "firefox": "144",
+     "firefox_android": "144",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.CommandEvent.source": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135",
+     "firefox": "144",
+     "firefox_android": "144",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.HTMLButtonElement.command": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135",
+     "firefox": "144",
+     "firefox_android": "144",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.HTMLButtonElement.commandForElement": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135",
+     "firefox": "144",
+     "firefox_android": "144",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "api.HTMLElement.command_event": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135",
+     "firefox": "144",
+     "firefox_android": "144",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "html.elements.button.command": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135",
+     "firefox": "144",
+     "firefox_android": "144",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   },
+   "html.elements.button.commandfor": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135",
+     "firefox": "144",
+     "firefox_android": "144",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
+   }
+  },
+  "support": {
+   "chrome": "135",
+   "chrome_android": "135",
+   "edge": "135",
+   "firefox": "144",
+   "firefox_android": "144",
+   "safari": "26.2",
+   "safari_ios": "26.2"
+  }
+ },
+ "id": "invoker-commands",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command",
+   "seriesComposition": "full",
+   "shortname": "html",
+   "series": {
+    "shortname": "html",
+    "currentSpecification": "html",
+    "title": "HTML",
+    "shortTitle": "HTML",
+    "nightlyUrl": "https://html.spec.whatwg.org/multipage/"
+   },
+   "nightly": {
+    "url": "https://html.spec.whatwg.org/multipage/",
+    "status": "Living Standard",
+    "sourcePath": "source",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/html",
+    "pages": [
+     "https://html.spec.whatwg.org/multipage/introduction.html",
+     "https://html.spec.whatwg.org/multipage/infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/common-microsyntaxes.html",
+     "https://html.spec.whatwg.org/multipage/urls-and-fetching.html",
+     "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html",
+     "https://html.spec.whatwg.org/multipage/structured-data.html",
+     "https://html.spec.whatwg.org/multipage/dom.html",
+     "https://html.spec.whatwg.org/multipage/semantics.html",
+     "https://html.spec.whatwg.org/multipage/sections.html",
+     "https://html.spec.whatwg.org/multipage/grouping-content.html",
+     "https://html.spec.whatwg.org/multipage/text-level-semantics.html",
+     "https://html.spec.whatwg.org/multipage/links.html",
+     "https://html.spec.whatwg.org/multipage/edits.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content.html",
+     "https://html.spec.whatwg.org/multipage/images.html",
+     "https://html.spec.whatwg.org/multipage/iframe-embed-object.html",
+     "https://html.spec.whatwg.org/multipage/media.html",
+     "https://html.spec.whatwg.org/multipage/image-maps.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content-other.html",
+     "https://html.spec.whatwg.org/multipage/tables.html",
+     "https://html.spec.whatwg.org/multipage/forms.html",
+     "https://html.spec.whatwg.org/multipage/input.html",
+     "https://html.spec.whatwg.org/multipage/form-elements.html",
+     "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/interactive-elements.html",
+     "https://html.spec.whatwg.org/multipage/scripting.html",
+     "https://html.spec.whatwg.org/multipage/canvas.html",
+     "https://html.spec.whatwg.org/multipage/custom-elements.html",
+     "https://html.spec.whatwg.org/multipage/semantics-other.html",
+     "https://html.spec.whatwg.org/multipage/microdata.html",
+     "https://html.spec.whatwg.org/multipage/interaction.html",
+     "https://html.spec.whatwg.org/multipage/dnd.html",
+     "https://html.spec.whatwg.org/multipage/popover.html",
+     "https://html.spec.whatwg.org/multipage/browsers.html",
+     "https://html.spec.whatwg.org/multipage/nav-history-apis.html",
+     "https://html.spec.whatwg.org/multipage/document-sequences.html",
+     "https://html.spec.whatwg.org/multipage/browsing-the-web.html",
+     "https://html.spec.whatwg.org/multipage/document-lifecycle.html",
+     "https://html.spec.whatwg.org/multipage/speculative-loading.html",
+     "https://html.spec.whatwg.org/multipage/webappapis.html",
+     "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html",
+     "https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html",
+     "https://html.spec.whatwg.org/multipage/system-state.html",
+     "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html",
+     "https://html.spec.whatwg.org/multipage/comms.html",
+     "https://html.spec.whatwg.org/multipage/server-sent-events.html",
+     "https://html.spec.whatwg.org/multipage/web-messaging.html",
+     "https://html.spec.whatwg.org/multipage/workers.html",
+     "https://html.spec.whatwg.org/multipage/worklets.html",
+     "https://html.spec.whatwg.org/multipage/webstorage.html",
+     "https://html.spec.whatwg.org/multipage/syntax.html",
+     "https://html.spec.whatwg.org/multipage/parsing.html",
+     "https://html.spec.whatwg.org/multipage/named-characters.html",
+     "https://html.spec.whatwg.org/multipage/xhtml.html",
+     "https://html.spec.whatwg.org/multipage/rendering.html",
+     "https://html.spec.whatwg.org/multipage/obsolete.html",
+     "https://html.spec.whatwg.org/multipage/iana.html",
+     "https://html.spec.whatwg.org/multipage/indices.html",
+     "https://html.spec.whatwg.org/multipage/references.html",
+     "https://html.spec.whatwg.org/multipage/acknowledgements.html"
+    ],
+    "filename": "index.html"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "HTML Workstream",
+     "url": "https://html.spec.whatwg.org/multipage/"
+    }
+   ],
+   "title": "HTML",
+   "source": "whatwg",
+   "shortTitle": "HTML",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "close-watcher",
+     "custom-elements",
+     "eventsource",
+     "html",
+     "imagebitmap-renderingcontext",
+     "import-maps",
+     "navigation-api",
+     "webmessaging",
+     "webstorage",
+     "workers",
+     "worklets",
+     "x-frame-options"
+    ],
+    "excludePaths": [
+     "html/cross-origin-embedder-policy/credentialless",
+     "html/dom/partial-updates/tentative",
+     "html/cross-origin-embedder-policy/credentialless"
+    ]
+   },
+   "fragment": "attr-button-command"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Invoker_Commands_API",
+   "title": "Invoker Commands API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Invoker_Commands_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/902",
+   "position": "positive",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/264",
+   "position": "support",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features_features_only",
+   "question": "usage",
+   "subQuestion": "html_interoperability_features_features_only",
+   "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features_features_only.freeform.allEditions.1.buckets.8.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features",
+   "question": "usage",
+   "subQuestion": "html_interoperability_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features.freeform.allEditions.1.buckets.14.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/features/interactivity/#interactivity_pain_points_limitations_1",
+   "question": "interactivity",
+   "subQuestion": "interactivity_pain_points_limitations_1",
+   "path": "dataAPI.surveys.state_of_html.html2025.interactivity.interactivity_pain_points_limitations_1.freeform.allEditions.0.buckets.24.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/features/interactivity/#interactivity_pain_points_interop_issues_1",
+   "question": "interactivity",
+   "subQuestion": "interactivity_pain_points_interop_issues_1",
+   "path": "dataAPI.surveys.state_of_html.html2025.interactivity.interactivity_pain_points_interop_issues_1.freeform.allEditions.0.buckets.9.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/features/interactivity/#interactivity_pain_points_features",
+   "question": "interactivity",
+   "subQuestion": "interactivity_pain_points_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.interactivity.interactivity_pain_points_features.freeform.allEditions.1.buckets.5.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/features/interactivity/#interactivity_pain_points",
+   "question": "interactivity",
+   "subQuestion": "interactivity_pain_points",
+   "path": "dataAPI.surveys.state_of_html.html2025.interactivity.interactivity_pain_points.freeform.allEditions.1.buckets.23.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/features/interactivity/#interactivity_features",
+   "question": "interactivity",
+   "subQuestion": "interactivity_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.interactivity.interactivity_features.7.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.14.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+   "question": "_all_features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.14.entity"
+  }
+ ],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:invoker-commands"
+ },
+ "developerSignals": null,
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1856430"
+  ]
+ },
+ "baselineLowDateAsObject": "2025-12-12T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2028-06-12"
+}

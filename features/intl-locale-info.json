@@ -1,0 +1,177 @@
+{
+ "compat_features": [
+  "javascript.builtins.Intl.Locale.getCalendars",
+  "javascript.builtins.Intl.Locale.getCollations",
+  "javascript.builtins.Intl.Locale.getHourCycles",
+  "javascript.builtins.Intl.Locale.getNumberingSystems",
+  "javascript.builtins.Intl.Locale.getTextInfo",
+  "javascript.builtins.Intl.Locale.getTimeZones",
+  "javascript.builtins.Intl.Locale.getWeekInfo"
+ ],
+ "description": "The getter methods of the Intl.Locale API provide supplemental information about a Unicode locale, such as the locale's calendar (for example, the first day in a week or the weekend start day), writing direction, 12- or 24-hour cycles, and numbering system.",
+ "description_html": "The getter methods of the <code>Intl.Locale</code> API provide supplemental information about a Unicode locale, such as the locale's calendar (for example, the first day in a week or the weekend start day), writing direction, 12- or 24-hour cycles, and numbering system.",
+ "group": [
+  "intl"
+ ],
+ "kind": "feature",
+ "name": "Intl.Locale info",
+ "spec": [
+  "https://tc39.es/ecma402/#locale-objects"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "javascript.builtins.Intl.Locale.getCalendars": {
+    "baseline": false,
+    "support": {
+     "chrome": "130",
+     "chrome_android": "130",
+     "edge": "130",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "javascript.builtins.Intl.Locale.getCollations": {
+    "baseline": false,
+    "support": {
+     "chrome": "130",
+     "chrome_android": "130",
+     "edge": "130",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "javascript.builtins.Intl.Locale.getHourCycles": {
+    "baseline": false,
+    "support": {
+     "chrome": "130",
+     "chrome_android": "130",
+     "edge": "130",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "javascript.builtins.Intl.Locale.getNumberingSystems": {
+    "baseline": false,
+    "support": {
+     "chrome": "130",
+     "chrome_android": "130",
+     "edge": "130",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "javascript.builtins.Intl.Locale.getTextInfo": {
+    "baseline": false,
+    "support": {
+     "chrome": "130",
+     "chrome_android": "130",
+     "edge": "130",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "javascript.builtins.Intl.Locale.getTimeZones": {
+    "baseline": false,
+    "support": {
+     "chrome": "130",
+     "chrome_android": "130",
+     "edge": "130",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "javascript.builtins.Intl.Locale.getWeekInfo": {
+    "baseline": false,
+    "support": {
+     "chrome": "130",
+     "chrome_android": "130",
+     "edge": "130",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   }
+  },
+  "support": {
+   "chrome": "130",
+   "chrome_android": "130",
+   "edge": "130",
+   "safari": "17",
+   "safari_ios": "17"
+  }
+ },
+ "id": "intl-locale-info",
+ "groups": [
+  "intl"
+ ],
+ "specs": [
+  {
+   "url": "https://tc39.es/ecma402/#locale-objects",
+   "seriesComposition": "full",
+   "shortname": "ecma-402",
+   "series": {
+    "shortname": "ecma-402",
+    "currentSpecification": "ecma-402",
+    "title": "ECMAScript® 2026 Internationalization API Specification",
+    "shortTitle": "ECMAScript® 2026 Internationalization API",
+    "nightlyUrl": "https://tc39.es/ecma402/"
+   },
+   "tests": {
+    "repository": "https://github.com/tc39/test262",
+    "testPaths": [
+     "test/intl402"
+    ]
+   },
+   "organization": "Ecma International",
+   "groups": [
+    {
+     "name": "TC39",
+     "url": "https://tc39.es/"
+    }
+   ],
+   "nightly": {
+    "url": "https://tc39.es/ecma402/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/tc39/ecma402",
+    "sourcePath": "spec/index.html",
+    "filename": "index.html"
+   },
+   "title": "ECMAScript® 2026 Internationalization API Specification",
+   "source": "spec",
+   "shortTitle": "ECMAScript® 2026 Internationalization API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": "locale-objects"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/JavaScript/Reference/Global_Objects/Intl/Locale",
+   "title": "Intl.Locale",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.01697157,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/244"
+ },
+ "interop": [],
+ "wpt": null,
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/213",
+  "votes": 4
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Firefox",
+ "monthsBlocked": 17,
+ "blockedSince": "October 2024"
+}

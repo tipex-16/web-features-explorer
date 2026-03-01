@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Web platform features explorer - August 2022 release notes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
+    <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
+  </head>
+  <body>
+
+    
+      <header>
+        <a href="/web-features-explorer/">Web platform features explorer</a>
+
+        <nav>
+          <ul>
+            <li><a href="/web-features-explorer/release-notes/february-2026">Release notes</a></li>
+            <li><a href="/web-features-explorer/newly-available">Explore features</a></li>
+            <li><a href="/web-features-explorer/about">About</a></li>
+          </ul>
+          <search>
+            <form>
+              <input type="search" id="search" placeholder="Search">
+            </form>
+          </search>
+        </nav>
+
+        <output for="search"></output>
+      </header>
+    
+
+    
+<main class="release-notes">
+  <h1>📃 August 2022 release notes</h1>
+
+  <div>
+    
+      <section class="baseline-low">
+        <h2>Newly available</h2>
+        <p>The following features are newly available:</p>
+        <ul>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/array-findlast/">Array findLast() and findLastIndex()</a></strong>:
+              The <code>findLast()</code> and <code>findLastIndex()</code> methods of arrays and typed arrays search an array in reverse order for the first item that satisfies a test function.
+            </li>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/individual-transforms/">Individual transform properties</a></strong>:
+              The <code>translate</code>, <code>rotate</code>, and <code>scale</code> CSS properties apply single transformations independently, as opposed to applying multiple transformations with the <code>transform</code> CSS property.
+            </li>
+          
+        </ul>
+      </section>
+    
+
+    
+      <section class="baseline-high">
+        <h2>Widely available</h2>
+        <p>The following features are now widely available:</p>
+        <ul>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/ext-srgb/">EXT_sRGB WebGL extension</a></strong>:
+              The <code>EXT_sRGB</code> extension for WebGL 1.0 contexts adds sRGB support to textures and framebuffer objects.
+            </li>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/media-playback-quality/">Media playback quality</a></strong>:
+              The <code>getVideoPlaybackQuality()</code> method of <code>HTMLVideoElement</code> returns metrics that can be used to determine the playback quality of a video, such as how many frames were dropped.
+            </li>
+          
+        </ul>
+      </section>
+    
+
+    
+      
+        <section class="baseline-false chrome">
+          <h2>New in Chrome</h2>
+          <p>The following features are now available in Chrome:</p>
+          <ul>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/clipboard-custom-format/">Custom formats for clipboard items</a></strong>:
+                The <code>web </code> prefix for <code>ClipboardItem</code> data types (also known as MIME types) allows reading and writing ununsanitized custom data from the device clipboard.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/media-query-range-syntax/">Media query range syntax</a></strong>:
+                The range syntax of CSS media queries allows you to use mathematical comparison operators such as <code>&#x3C;</code>, <code>></code>, <code>&#x3C;=</code>, and <code>>=</code> to define a range of values for a media query. For example, <code>(400px &#x3C; width &#x3C; 1000px)</code> returns true if the viewport width is between 400px and 1000px.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/object-view-box/">object-view-box</a></strong>:
+                The <code>object-view-box</code> CSS property crops and zooms to an inset area of an image.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/region-capture/">Region capture</a></strong>:
+                When using <code>navigator.mediaDevices.getDisplayMedia()</code> to capture a browser tab as a video stream, the region capture API allows you to crop the video to the bounding box of a given element. In contrast to the element capture API, any content that overlays that element is also captured.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/webgl-color-management/">Color management for WebGL</a></strong>:
+                The <code>drawingBufferColorSpace</code> and <code>unpackColorSpace</code> properties of <code>WebGLRenderingContext</code> sets the color representation for the buffer and imported textures, such as <code>"srgb"</code> or <code>"display-p3"</code>.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/webgl2-color-management/">Color management for WebGL2</a></strong>:
+                The <code>drawingBufferColorSpace</code> and <code>unpackColorSpace</code> properties of <code>WebGL2RenderingContext</code> sets the color representation for the buffer and imported textures, such as <code>"srgb"</code> or <code>"display-p3"</code>.
+              </li>
+            
+          </ul>
+        </section>
+      
+    
+      
+        <section class="baseline-false chrome_android">
+          <h2>New in Chrome Android</h2>
+          <p>The following features are now available in Chrome Android:</p>
+          <ul>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/clipboard-custom-format/">Custom formats for clipboard items</a></strong>:
+                The <code>web </code> prefix for <code>ClipboardItem</code> data types (also known as MIME types) allows reading and writing ununsanitized custom data from the device clipboard.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/media-query-range-syntax/">Media query range syntax</a></strong>:
+                The range syntax of CSS media queries allows you to use mathematical comparison operators such as <code>&#x3C;</code>, <code>></code>, <code>&#x3C;=</code>, and <code>>=</code> to define a range of values for a media query. For example, <code>(400px &#x3C; width &#x3C; 1000px)</code> returns true if the viewport width is between 400px and 1000px.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/object-view-box/">object-view-box</a></strong>:
+                The <code>object-view-box</code> CSS property crops and zooms to an inset area of an image.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/webgl-color-management/">Color management for WebGL</a></strong>:
+                The <code>drawingBufferColorSpace</code> and <code>unpackColorSpace</code> properties of <code>WebGLRenderingContext</code> sets the color representation for the buffer and imported textures, such as <code>"srgb"</code> or <code>"display-p3"</code>.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/webgl2-color-management/">Color management for WebGL2</a></strong>:
+                The <code>drawingBufferColorSpace</code> and <code>unpackColorSpace</code> properties of <code>WebGL2RenderingContext</code> sets the color representation for the buffer and imported textures, such as <code>"srgb"</code> or <code>"display-p3"</code>.
+              </li>
+            
+          </ul>
+        </section>
+      
+    
+      
+        <section class="baseline-false edge">
+          <h2>New in Edge</h2>
+          <p>The following features are now available in Edge:</p>
+          <ul>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/clipboard-custom-format/">Custom formats for clipboard items</a></strong>:
+                The <code>web </code> prefix for <code>ClipboardItem</code> data types (also known as MIME types) allows reading and writing ununsanitized custom data from the device clipboard.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/media-query-range-syntax/">Media query range syntax</a></strong>:
+                The range syntax of CSS media queries allows you to use mathematical comparison operators such as <code>&#x3C;</code>, <code>></code>, <code>&#x3C;=</code>, and <code>>=</code> to define a range of values for a media query. For example, <code>(400px &#x3C; width &#x3C; 1000px)</code> returns true if the viewport width is between 400px and 1000px.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/object-view-box/">object-view-box</a></strong>:
+                The <code>object-view-box</code> CSS property crops and zooms to an inset area of an image.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/region-capture/">Region capture</a></strong>:
+                When using <code>navigator.mediaDevices.getDisplayMedia()</code> to capture a browser tab as a video stream, the region capture API allows you to crop the video to the bounding box of a given element. In contrast to the element capture API, any content that overlays that element is also captured.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/webgl-color-management/">Color management for WebGL</a></strong>:
+                The <code>drawingBufferColorSpace</code> and <code>unpackColorSpace</code> properties of <code>WebGLRenderingContext</code> sets the color representation for the buffer and imported textures, such as <code>"srgb"</code> or <code>"display-p3"</code>.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/webgl2-color-management/">Color management for WebGL2</a></strong>:
+                The <code>drawingBufferColorSpace</code> and <code>unpackColorSpace</code> properties of <code>WebGL2RenderingContext</code> sets the color representation for the buffer and imported textures, such as <code>"srgb"</code> or <code>"display-p3"</code>.
+              </li>
+            
+          </ul>
+        </section>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+
+  <aside>
+    <h2>Other release notes</h2>
+    <ul>
+      
+        
+          <li class="month-entry">
+            <a href="../february-2026">February 2026</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../january-2026">January 2026</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../december-2025">December 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../november-2025">November 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../october-2025">October 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../september-2025">September 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../august-2025">August 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../july-2025">July 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../june-2025">June 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../may-2025">May 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../april-2025">April 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../march-2025">March 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../february-2025">February 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../january-2025">January 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../december-2024">December 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../november-2024">November 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../october-2024">October 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../september-2024">September 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../august-2024">August 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../july-2024">July 2024</a>
+          </li>
+        
+      
+        
+          <li><a href="../">See all</a></li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </ul>
+  </aside>
+</main>
+
+
+        
+      <script src="/web-features-explorer/assets/search.js" defer=""></script>
+    
+  </body>
+</html>

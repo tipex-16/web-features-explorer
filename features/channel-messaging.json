@@ -1,0 +1,343 @@
+{
+ "caniuse": [
+  "channel-messaging"
+ ],
+ "compat_features": [
+  "api.MessageChannel",
+  "api.MessageChannel.MessageChannel",
+  "api.MessageChannel.port1",
+  "api.MessageChannel.port2",
+  "api.MessageEvent.ports",
+  "api.MessagePort",
+  "api.MessagePort.close",
+  "api.MessagePort.message_event",
+  "api.MessagePort.postMessage",
+  "api.MessagePort.start",
+  "api.MessagePort.worker_support"
+ ],
+ "description": "Channel messaging communicates one-to-one between browsing contexts on the same origin, such as between <iframe> elements or two documents using a shared worker.",
+ "description_html": "Channel messaging communicates one-to-one between browsing contexts on the same origin, such as between <code>&#x3C;iframe></code> elements or two documents using a shared worker.",
+ "group": [
+  "messaging"
+ ],
+ "kind": "feature",
+ "name": "Channel messaging",
+ "spec": [
+  "https://html.spec.whatwg.org/multipage/web-messaging.html#channel-messaging"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-03-22",
+  "baseline_low_date": "2015-09-22",
+  "by_compat_key": {
+   "api.MessageChannel": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-22",
+    "baseline_low_date": "2015-09-22",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   },
+   "api.MessageChannel.MessageChannel": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-22",
+    "baseline_low_date": "2015-09-22",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   },
+   "api.MessageChannel.port1": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-22",
+    "baseline_low_date": "2015-09-22",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   },
+   "api.MessageChannel.port2": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-22",
+    "baseline_low_date": "2015-09-22",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   },
+   "api.MessageEvent.ports": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "3.2"
+    }
+   },
+   "api.MessagePort": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-22",
+    "baseline_low_date": "2015-09-22",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   },
+   "api.MessagePort.close": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-22",
+    "baseline_low_date": "2015-09-22",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   },
+   "api.MessagePort.message_event": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-22",
+    "baseline_low_date": "2015-09-22",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   },
+   "api.MessagePort.postMessage": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-22",
+    "baseline_low_date": "2015-09-22",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   },
+   "api.MessagePort.start": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-22",
+    "baseline_low_date": "2015-09-22",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   },
+   "api.MessagePort.worker_support": {
+    "baseline": "high",
+    "baseline_high_date": "2018-03-22",
+    "baseline_low_date": "2015-09-22",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "41",
+     "firefox_android": "41",
+     "safari": "5",
+     "safari_ios": "4.2"
+    }
+   }
+  },
+  "support": {
+   "chrome": "4",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "41",
+   "firefox_android": "41",
+   "safari": "5",
+   "safari_ios": "4.2"
+  }
+ },
+ "id": "channel-messaging",
+ "groups": [
+  "messaging"
+ ],
+ "specs": [
+  {
+   "url": "https://html.spec.whatwg.org/multipage/web-messaging.html#channel-messaging",
+   "seriesComposition": "full",
+   "shortname": "html",
+   "series": {
+    "shortname": "html",
+    "currentSpecification": "html",
+    "title": "HTML",
+    "shortTitle": "HTML",
+    "nightlyUrl": "https://html.spec.whatwg.org/multipage/"
+   },
+   "nightly": {
+    "url": "https://html.spec.whatwg.org/multipage/",
+    "status": "Living Standard",
+    "sourcePath": "source",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/html",
+    "pages": [
+     "https://html.spec.whatwg.org/multipage/introduction.html",
+     "https://html.spec.whatwg.org/multipage/infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/common-microsyntaxes.html",
+     "https://html.spec.whatwg.org/multipage/urls-and-fetching.html",
+     "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html",
+     "https://html.spec.whatwg.org/multipage/structured-data.html",
+     "https://html.spec.whatwg.org/multipage/dom.html",
+     "https://html.spec.whatwg.org/multipage/semantics.html",
+     "https://html.spec.whatwg.org/multipage/sections.html",
+     "https://html.spec.whatwg.org/multipage/grouping-content.html",
+     "https://html.spec.whatwg.org/multipage/text-level-semantics.html",
+     "https://html.spec.whatwg.org/multipage/links.html",
+     "https://html.spec.whatwg.org/multipage/edits.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content.html",
+     "https://html.spec.whatwg.org/multipage/images.html",
+     "https://html.spec.whatwg.org/multipage/iframe-embed-object.html",
+     "https://html.spec.whatwg.org/multipage/media.html",
+     "https://html.spec.whatwg.org/multipage/image-maps.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content-other.html",
+     "https://html.spec.whatwg.org/multipage/tables.html",
+     "https://html.spec.whatwg.org/multipage/forms.html",
+     "https://html.spec.whatwg.org/multipage/input.html",
+     "https://html.spec.whatwg.org/multipage/form-elements.html",
+     "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/interactive-elements.html",
+     "https://html.spec.whatwg.org/multipage/scripting.html",
+     "https://html.spec.whatwg.org/multipage/canvas.html",
+     "https://html.spec.whatwg.org/multipage/custom-elements.html",
+     "https://html.spec.whatwg.org/multipage/semantics-other.html",
+     "https://html.spec.whatwg.org/multipage/microdata.html",
+     "https://html.spec.whatwg.org/multipage/interaction.html",
+     "https://html.spec.whatwg.org/multipage/dnd.html",
+     "https://html.spec.whatwg.org/multipage/popover.html",
+     "https://html.spec.whatwg.org/multipage/browsers.html",
+     "https://html.spec.whatwg.org/multipage/nav-history-apis.html",
+     "https://html.spec.whatwg.org/multipage/document-sequences.html",
+     "https://html.spec.whatwg.org/multipage/browsing-the-web.html",
+     "https://html.spec.whatwg.org/multipage/document-lifecycle.html",
+     "https://html.spec.whatwg.org/multipage/speculative-loading.html",
+     "https://html.spec.whatwg.org/multipage/webappapis.html",
+     "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html",
+     "https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html",
+     "https://html.spec.whatwg.org/multipage/system-state.html",
+     "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html",
+     "https://html.spec.whatwg.org/multipage/comms.html",
+     "https://html.spec.whatwg.org/multipage/server-sent-events.html",
+     "https://html.spec.whatwg.org/multipage/web-messaging.html",
+     "https://html.spec.whatwg.org/multipage/workers.html",
+     "https://html.spec.whatwg.org/multipage/worklets.html",
+     "https://html.spec.whatwg.org/multipage/webstorage.html",
+     "https://html.spec.whatwg.org/multipage/syntax.html",
+     "https://html.spec.whatwg.org/multipage/parsing.html",
+     "https://html.spec.whatwg.org/multipage/named-characters.html",
+     "https://html.spec.whatwg.org/multipage/xhtml.html",
+     "https://html.spec.whatwg.org/multipage/rendering.html",
+     "https://html.spec.whatwg.org/multipage/obsolete.html",
+     "https://html.spec.whatwg.org/multipage/iana.html",
+     "https://html.spec.whatwg.org/multipage/indices.html",
+     "https://html.spec.whatwg.org/multipage/references.html",
+     "https://html.spec.whatwg.org/multipage/acknowledgements.html"
+    ],
+    "filename": "index.html"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "HTML Workstream",
+     "url": "https://html.spec.whatwg.org/multipage/"
+    }
+   ],
+   "title": "HTML",
+   "source": "whatwg",
+   "shortTitle": "HTML",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "close-watcher",
+     "custom-elements",
+     "eventsource",
+     "html",
+     "imagebitmap-renderingcontext",
+     "import-maps",
+     "navigation-api",
+     "webmessaging",
+     "webstorage",
+     "workers",
+     "worklets",
+     "x-frame-options"
+    ],
+    "excludePaths": [
+     "html/cross-origin-embedder-policy/credentialless",
+     "html/dom/partial-updates/tentative",
+     "html/cross-origin-embedder-policy/credentialless"
+    ]
+   },
+   "fragment": "channel-messaging"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Channel_Messaging_API",
+   "title": "Channel Messaging API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Channel_Messaging_API"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:channel-messaging"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-09-22T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-03-22T00:00:00.000Z"
+}

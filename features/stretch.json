@@ -1,0 +1,187 @@
+{
+ "compat_features": [
+  "css.properties.height.stretch",
+  "css.properties.max-height.stretch",
+  "css.properties.max-width.stretch",
+  "css.properties.min-height.stretch",
+  "css.properties.min-width.stretch",
+  "css.properties.width.stretch"
+ ],
+ "description": "The stretch CSS keyword expands a box as needed to fit its contents until the maximum size is reached, without preserving the content's preferred aspect ratio.",
+ "description_html": "The <code>stretch</code> CSS keyword expands a box as needed to fit its contents until the maximum size is reached, without preserving the content's preferred aspect ratio.",
+ "group": [
+  "layout"
+ ],
+ "kind": "feature",
+ "name": "stretch",
+ "spec": [
+  "https://drafts.csswg.org/css-sizing-4/#stretch-fit-sizing"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "css.properties.height.stretch": {
+    "baseline": false,
+    "support": {
+     "chrome": "138",
+     "chrome_android": "138",
+     "edge": "138"
+    }
+   },
+   "css.properties.max-height.stretch": {
+    "baseline": false,
+    "support": {
+     "chrome": "138",
+     "chrome_android": "138",
+     "edge": "138"
+    }
+   },
+   "css.properties.max-width.stretch": {
+    "baseline": false,
+    "support": {
+     "chrome": "138",
+     "chrome_android": "138",
+     "edge": "138"
+    }
+   },
+   "css.properties.min-height.stretch": {
+    "baseline": false,
+    "support": {
+     "chrome": "138",
+     "chrome_android": "138",
+     "edge": "138"
+    }
+   },
+   "css.properties.min-width.stretch": {
+    "baseline": false,
+    "support": {
+     "chrome": "138",
+     "chrome_android": "138",
+     "edge": "138"
+    }
+   },
+   "css.properties.width.stretch": {
+    "baseline": false,
+    "support": {
+     "chrome": "138",
+     "chrome_android": "138",
+     "edge": "138"
+    }
+   }
+  },
+  "support": {
+   "chrome": "138",
+   "chrome_android": "138",
+   "edge": "138"
+  }
+ },
+ "id": "stretch",
+ "groups": [
+  "layout"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-sizing-4/#stretch-fit-sizing",
+   "seriesComposition": "delta",
+   "shortname": "css-sizing-4",
+   "series": {
+    "shortname": "css-sizing",
+    "currentSpecification": "css-sizing-3",
+    "title": "CSS Box Sizing",
+    "shortTitle": "CSS Sizing",
+    "releaseUrl": "https://www.w3.org/TR/css-sizing/",
+    "nightlyUrl": "https://drafts.csswg.org/css-sizing/"
+   },
+   "seriesVersion": "4",
+   "shortTitle": "CSS Sizing 4",
+   "seriesPrevious": "css-sizing-3",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-sizing-4/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-sizing-4/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-sizing-4/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-sizing-4/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Box Sizing Module Level 4",
+   "source": "w3c",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-sizing"
+    ]
+   },
+   "fragment": "stretch-fit-sizing"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/height",
+   "title": "height",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/height"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/1054",
+   "position": "positive",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/401",
+   "position": "",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:stretch"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/319",
+  "votes": 18
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1789477"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/1789477"
+  ],
+  "safari": [
+   "https://webkit.org/b/277117"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/277117"
+  ],
+  "webview_ios": [
+   "https://webkit.org/b/277117"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

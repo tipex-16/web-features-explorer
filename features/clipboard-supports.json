@@ -1,0 +1,118 @@
+{
+ "compat_features": [
+  "api.ClipboardItem.supports_static"
+ ],
+ "description": "The ClipboardItem.supports() static method checks if the browser supports writing data types such as \"image/svg+xml\" or other custom formats to the system clipboard.",
+ "description_html": "The <code>ClipboardItem.supports()</code> static method checks if the browser supports writing data types such as \"image/svg+xml\" or other custom formats to the system clipboard.",
+ "group": [
+  "clipboard"
+ ],
+ "kind": "feature",
+ "name": "ClipboardItem.supports()",
+ "spec": [
+  "https://w3c.github.io/clipboard-apis/#dom-clipboarditem-supports"
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2025-03-31",
+  "by_compat_key": {
+   "api.ClipboardItem.supports_static": {
+    "baseline": "low",
+    "baseline_low_date": "2025-03-31",
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121",
+     "firefox": "127",
+     "firefox_android": "127",
+     "safari": "18.4",
+     "safari_ios": "18.4"
+    }
+   }
+  },
+  "support": {
+   "chrome": "121",
+   "chrome_android": "121",
+   "edge": "121",
+   "firefox": "127",
+   "firefox_android": "127",
+   "safari": "18.4",
+   "safari_ios": "18.4"
+  }
+ },
+ "id": "clipboard-supports",
+ "groups": [
+  "clipboard"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/clipboard-apis/#dom-clipboarditem-supports",
+   "seriesComposition": "full",
+   "shortname": "clipboard-apis",
+   "series": {
+    "shortname": "clipboard-apis",
+    "currentSpecification": "clipboard-apis",
+    "title": "Clipboard API and events",
+    "shortTitle": "Clipboard API and events",
+    "releaseUrl": "https://www.w3.org/TR/clipboard-apis/",
+    "nightlyUrl": "https://w3c.github.io/clipboard-apis/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Editing Working Group",
+     "url": "https://www.w3.org/groups/wg/webediting/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/clipboard-apis/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/clipboard-apis/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/clipboard-apis",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Clipboard API and events",
+   "source": "w3c",
+   "shortTitle": "Clipboard API and events",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "clipboard-apis"
+    ]
+   },
+   "fragment": "dom-clipboarditem-supports"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/ClipboardItem/supports_static",
+   "title": "ClipboardItem: supports() static method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/ClipboardItem/supports_static"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00193003,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/273"
+ },
+ "interop": [],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2025-03-31T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2027-10-01"
+}

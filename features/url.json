@@ -1,0 +1,679 @@
+{
+ "caniuse": [
+  "url"
+ ],
+ "compat_features": [
+  "api.URL",
+  "api.URL.URL",
+  "api.URL.hash",
+  "api.URL.host",
+  "api.URL.hostname",
+  "api.URL.href",
+  "api.URL.origin",
+  "api.URL.parse_static",
+  "api.URL.password",
+  "api.URL.pathname",
+  "api.URL.port",
+  "api.URL.protocol",
+  "api.URL.search",
+  "api.URL.searchParams",
+  "api.URL.toJSON",
+  "api.URL.toString",
+  "api.URL.username",
+  "api.URLSearchParams",
+  "api.URLSearchParams.@@iterator",
+  "api.URLSearchParams.URLSearchParams",
+  "api.URLSearchParams.URLSearchParams.USVString",
+  "api.URLSearchParams.URLSearchParams.record",
+  "api.URLSearchParams.URLSearchParams.sequence",
+  "api.URLSearchParams.append",
+  "api.URLSearchParams.delete",
+  "api.URLSearchParams.delete.value_parameter",
+  "api.URLSearchParams.entries",
+  "api.URLSearchParams.forEach",
+  "api.URLSearchParams.get",
+  "api.URLSearchParams.getAll",
+  "api.URLSearchParams.has",
+  "api.URLSearchParams.has.value_parameter",
+  "api.URLSearchParams.keys",
+  "api.URLSearchParams.set",
+  "api.URLSearchParams.size",
+  "api.URLSearchParams.sort",
+  "api.URLSearchParams.toString",
+  "api.URLSearchParams.values"
+ ],
+ "description": "A URL object represents a web address, like https://example.com/, and parts of the address, such as the domain, path, and query string (as URLSearchParams).",
+ "description_html": "A <code>URL</code> object represents a web address, like <code>https://example.com/</code>, and parts of the address, such as the domain, path, and query string (as <code>URLSearchParams</code>).",
+ "kind": "feature",
+ "name": "URL",
+ "spec": [
+  "https://url.spec.whatwg.org/"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "api.URL": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "32",
+     "chrome_android": "32",
+     "edge": "12",
+     "firefox": "19",
+     "firefox_android": "19",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.URL.URL": {
+    "baseline": "high",
+    "baseline_high_date": "2023-10-26",
+    "baseline_low_date": "2021-04-26",
+    "support": {
+     "chrome": "32",
+     "chrome_android": "32",
+     "edge": "12",
+     "firefox": "26",
+     "firefox_android": "26",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.URL.hash": {
+    "baseline": "high",
+    "baseline_high_date": "2018-05-12",
+    "baseline_low_date": "2015-11-12",
+    "support": {
+     "chrome": "32",
+     "chrome_android": "32",
+     "edge": "13",
+     "firefox": "22",
+     "firefox_android": "22",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.URL.host": {
+    "baseline": "high",
+    "baseline_high_date": "2018-05-12",
+    "baseline_low_date": "2015-11-12",
+    "support": {
+     "chrome": "32",
+     "chrome_android": "32",
+     "edge": "13",
+     "firefox": "22",
+     "firefox_android": "22",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.URL.hostname": {
+    "baseline": "high",
+    "baseline_high_date": "2019-03-20",
+    "baseline_low_date": "2016-09-20",
+    "support": {
+     "chrome": "32",
+     "chrome_android": "32",
+     "edge": "13",
+     "firefox": "22",
+     "firefox_android": "22",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "api.URL.href": {
+    "baseline": "high",
+    "baseline_high_date": "2019-03-20",
+    "baseline_low_date": "2016-09-20",
+    "support": {
+     "chrome": "32",
+     "chrome_android": "32",
+     "edge": "13",
+     "firefox": "22",
+     "firefox_android": "22",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "api.URL.origin": {
+    "baseline": "high",
+    "baseline_high_date": "2019-03-20",
+    "baseline_low_date": "2016-09-20",
+    "support": {
+     "chrome": "32",
+     "chrome_android": "32",
+     "edge": "12",
+     "firefox": "26",
+     "firefox_android": "26",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "api.URL.parse_static": {
+    "baseline": "low",
+    "baseline_low_date": "2024-09-16",
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126",
+     "firefox": "126",
+     "firefox_android": "126",
+     "safari": "18",
+     "safari_ios": "18"
+    }
+   },
+   "api.URL.password": {
+    "baseline": "high",
+    "baseline_high_date": "2019-03-20",
+    "baseline_low_date": "2016-09-20",
+    "support": {
+     "chrome": "32",
+     "chrome_android": "32",
+     "edge": "12",
+     "firefox": "26",
+     "firefox_android": "26",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "api.URL.pathname": {
+    "baseline": "high",
+    "baseline_high_date": "2019-03-20",
+    "baseline_low_date": "2016-09-20",
+    "support": {
+     "chrome": "32",
+     "chrome_android": "32",
+     "edge": "13",
+     "firefox": "22",
+     "firefox_android": "22",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "api.URL.port": {
+    "baseline": "high",
+    "baseline_high_date": "2019-03-20",
+    "baseline_low_date": "2016-09-20",
+    "support": {
+     "chrome": "32",
+     "chrome_android": "32",
+     "edge": "13",
+     "firefox": "22",
+     "firefox_android": "22",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "api.URL.protocol": {
+    "baseline": "high",
+    "baseline_high_date": "2019-03-20",
+    "baseline_low_date": "2016-09-20",
+    "support": {
+     "chrome": "32",
+     "chrome_android": "32",
+     "edge": "13",
+     "firefox": "22",
+     "firefox_android": "22",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "api.URL.search": {
+    "baseline": "high",
+    "baseline_high_date": "2019-03-20",
+    "baseline_low_date": "2016-09-20",
+    "support": {
+     "chrome": "32",
+     "chrome_android": "32",
+     "edge": "13",
+     "firefox": "22",
+     "firefox_android": "22",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "api.URL.searchParams": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-30",
+    "baseline_low_date": "2018-04-30",
+    "support": {
+     "chrome": "51",
+     "chrome_android": "51",
+     "edge": "17",
+     "firefox": "29",
+     "firefox_android": "29",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.URL.toJSON": {
+    "baseline": "high",
+    "baseline_high_date": "2021-06-04",
+    "baseline_low_date": "2018-12-04",
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "17",
+     "firefox": "54",
+     "firefox_android": "54",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.URL.toString": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-30",
+    "baseline_low_date": "2018-04-30",
+    "support": {
+     "chrome": "32",
+     "chrome_android": "32",
+     "edge": "17",
+     "firefox": "54",
+     "firefox_android": "54",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   },
+   "api.URL.username": {
+    "baseline": "high",
+    "baseline_high_date": "2019-03-20",
+    "baseline_low_date": "2016-09-20",
+    "support": {
+     "chrome": "32",
+     "chrome_android": "32",
+     "edge": "12",
+     "firefox": "26",
+     "firefox_android": "26",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "api.URLSearchParams": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-30",
+    "baseline_low_date": "2018-04-30",
+    "support": {
+     "chrome": "49",
+     "chrome_android": "49",
+     "edge": "17",
+     "firefox": "29",
+     "firefox_android": "29",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.URLSearchParams.@@iterator": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-30",
+    "baseline_low_date": "2018-04-30",
+    "support": {
+     "chrome": "49",
+     "chrome_android": "49",
+     "edge": "17",
+     "firefox": "44",
+     "firefox_android": "44",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.URLSearchParams.URLSearchParams": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-30",
+    "baseline_low_date": "2018-04-30",
+    "support": {
+     "chrome": "49",
+     "chrome_android": "49",
+     "edge": "17",
+     "firefox": "29",
+     "firefox_android": "29",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.URLSearchParams.URLSearchParams.USVString": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-30",
+    "baseline_low_date": "2018-04-30",
+    "support": {
+     "chrome": "49",
+     "chrome_android": "49",
+     "edge": "17",
+     "firefox": "29",
+     "firefox_android": "29",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.URLSearchParams.URLSearchParams.record": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-30",
+    "baseline_low_date": "2018-04-30",
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "17",
+     "firefox": "54",
+     "firefox_android": "54",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.URLSearchParams.URLSearchParams.sequence": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-30",
+    "baseline_low_date": "2018-04-30",
+    "support": {
+     "chrome": "58",
+     "chrome_android": "58",
+     "edge": "17",
+     "firefox": "53",
+     "firefox_android": "53",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.URLSearchParams.append": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-30",
+    "baseline_low_date": "2018-04-30",
+    "support": {
+     "chrome": "49",
+     "chrome_android": "49",
+     "edge": "17",
+     "firefox": "29",
+     "firefox_android": "29",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.URLSearchParams.delete": {
+    "baseline": "high",
+    "baseline_high_date": "2023-03-16",
+    "baseline_low_date": "2020-09-16",
+    "support": {
+     "chrome": "49",
+     "chrome_android": "49",
+     "edge": "17",
+     "firefox": "29",
+     "firefox_android": "29",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   },
+   "api.URLSearchParams.delete.value_parameter": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "117",
+     "chrome_android": "117",
+     "edge": "117",
+     "firefox": "115",
+     "firefox_android": "115",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "api.URLSearchParams.entries": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-30",
+    "baseline_low_date": "2018-04-30",
+    "support": {
+     "chrome": "49",
+     "chrome_android": "49",
+     "edge": "17",
+     "firefox": "44",
+     "firefox_android": "44",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.URLSearchParams.forEach": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-30",
+    "baseline_low_date": "2018-04-30",
+    "support": {
+     "chrome": "49",
+     "chrome_android": "49",
+     "edge": "17",
+     "firefox": "44",
+     "firefox_android": "44",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.URLSearchParams.get": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-30",
+    "baseline_low_date": "2018-04-30",
+    "support": {
+     "chrome": "49",
+     "chrome_android": "49",
+     "edge": "17",
+     "firefox": "29",
+     "firefox_android": "29",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.URLSearchParams.getAll": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-30",
+    "baseline_low_date": "2018-04-30",
+    "support": {
+     "chrome": "49",
+     "chrome_android": "49",
+     "edge": "17",
+     "firefox": "29",
+     "firefox_android": "29",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.URLSearchParams.has": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-30",
+    "baseline_low_date": "2018-04-30",
+    "support": {
+     "chrome": "49",
+     "chrome_android": "49",
+     "edge": "17",
+     "firefox": "29",
+     "firefox_android": "29",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.URLSearchParams.has.value_parameter": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "117",
+     "chrome_android": "117",
+     "edge": "117",
+     "firefox": "115",
+     "firefox_android": "115",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "api.URLSearchParams.keys": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-30",
+    "baseline_low_date": "2018-04-30",
+    "support": {
+     "chrome": "49",
+     "chrome_android": "49",
+     "edge": "17",
+     "firefox": "44",
+     "firefox_android": "44",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.URLSearchParams.set": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-30",
+    "baseline_low_date": "2018-04-30",
+    "support": {
+     "chrome": "49",
+     "chrome_android": "49",
+     "edge": "17",
+     "firefox": "29",
+     "firefox_android": "29",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.URLSearchParams.size": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "113",
+     "chrome_android": "113",
+     "edge": "113",
+     "firefox": "112",
+     "firefox_android": "112",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "api.URLSearchParams.sort": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-30",
+    "baseline_low_date": "2018-04-30",
+    "support": {
+     "chrome": "61",
+     "chrome_android": "61",
+     "edge": "17",
+     "firefox": "54",
+     "firefox_android": "54",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.URLSearchParams.toString": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-30",
+    "baseline_low_date": "2018-04-30",
+    "support": {
+     "chrome": "49",
+     "chrome_android": "49",
+     "edge": "17",
+     "firefox": "29",
+     "firefox_android": "29",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   },
+   "api.URLSearchParams.values": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-30",
+    "baseline_low_date": "2018-04-30",
+    "support": {
+     "chrome": "49",
+     "chrome_android": "49",
+     "edge": "17",
+     "firefox": "44",
+     "firefox_android": "44",
+     "safari": "10.1",
+     "safari_ios": "10.3"
+    }
+   }
+  },
+  "support": {
+   "chrome": "32",
+   "chrome_android": "32",
+   "edge": "12",
+   "firefox": "19",
+   "firefox_android": "19",
+   "safari": "7",
+   "safari_ios": "7"
+  }
+ },
+ "id": "url",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://url.spec.whatwg.org/",
+   "seriesComposition": "full",
+   "shortname": "url",
+   "series": {
+    "shortname": "url",
+    "currentSpecification": "url",
+    "title": "URL",
+    "shortTitle": "URL",
+    "nightlyUrl": "https://url.spec.whatwg.org/"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "URL Workstream",
+     "url": "https://url.spec.whatwg.org/"
+    }
+   ],
+   "nightly": {
+    "url": "https://url.spec.whatwg.org/",
+    "status": "Living Standard",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/url",
+    "sourcePath": "url.bs",
+    "filename": "index.html"
+   },
+   "title": "URL",
+   "source": "whatwg",
+   "shortTitle": "URL",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "url"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/URL_API",
+   "title": "URL API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/URL_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/759",
+   "position": "positive",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [
+  {
+   "year": 2023,
+   "label": "interop-2023-url",
+   "url": "https://wpt.fyi/interop-2023?feature=interop-2023-url"
+  },
+  {
+   "year": 2024,
+   "label": "interop-2023-url",
+   "url": "https://wpt.fyi/interop-2024?feature=interop-2023-url"
+  }
+ ],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:url"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

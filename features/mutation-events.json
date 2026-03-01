@@ -1,0 +1,148 @@
+{
+ "compat_features": [
+  "api.MutationEvent",
+  "api.MutationEvent.attrChange",
+  "api.MutationEvent.attrName",
+  "api.MutationEvent.initMutationEvent",
+  "api.MutationEvent.newValue",
+  "api.MutationEvent.prevValue",
+  "api.MutationEvent.relatedNode"
+ ],
+ "description": "Mutation events like DOMSubtreeModified, DOMNodeInserted, or DOMNodeRemoved fire when DOM changes occur.",
+ "description_html": "Mutation events like <code>DOMSubtreeModified</code>, <code>DOMNodeInserted</code>, or <code>DOMNodeRemoved</code> fire when DOM changes occur.",
+ "discouraged": {
+  "according_to": [
+   "https://www.w3.org/TR/2024/WD-uievents-20240906/#legacy-mutationevent-events",
+   "https://github.com/web-platform-tests/interop/issues/784"
+  ],
+  "alternatives": [
+   "mutationobserver"
+  ],
+  "reason": "Mutation events negatively impact performance and they were selected for removal from the web as part of Interop 2025.",
+  "reason_html": "Mutation events negatively impact performance and they were selected for removal from the web as part of Interop 2025.",
+  "removal_date": "2025-09-15"
+ },
+ "group": [
+  "dom"
+ ],
+ "kind": "feature",
+ "name": "Mutation events",
+ "spec": [
+  "https://w3c.github.io/uievents/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.MutationEvent": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MutationEvent.attrChange": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MutationEvent.attrName": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MutationEvent.initMutationEvent": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MutationEvent.newValue": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MutationEvent.prevValue": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.MutationEvent.relatedNode": {
+    "baseline": false,
+    "support": {}
+   }
+  },
+  "support": {}
+ },
+ "id": "mutation-events",
+ "groups": [
+  "dom"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/uievents/",
+   "seriesComposition": "full",
+   "shortname": "uievents",
+   "series": {
+    "shortname": "uievents",
+    "currentSpecification": "uievents",
+    "title": "UI Events",
+    "shortTitle": "UI Events",
+    "releaseUrl": "https://www.w3.org/TR/uievents/",
+    "nightlyUrl": "https://w3c.github.io/uievents/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Applications Working Group",
+     "url": "https://www.w3.org/groups/wg/webapps/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/uievents/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/uievents/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/uievents",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "UI Events",
+   "source": "w3c",
+   "shortTitle": "UI Events",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "uievents"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/MutationEvent",
+   "title": "MutationEvent",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/MutationEvent"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [
+  {
+   "year": 2025,
+   "label": "interop-2025-remove-mutation-events",
+   "url": "https://wpt.fyi/interop-2025?feature=interop-2025-remove-mutation-events"
+  }
+ ],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {
+  "chrome": [
+   "https://crbug.com/40268638"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

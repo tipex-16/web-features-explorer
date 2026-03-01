@@ -1,0 +1,227 @@
+{
+ "compat_features": [
+  "api.PressureObserver",
+  "api.PressureObserver.PressureObserver",
+  "api.PressureObserver.disconnect",
+  "api.PressureObserver.knownSources_static",
+  "api.PressureObserver.observe",
+  "api.PressureObserver.takeRecords",
+  "api.PressureObserver.unobserve",
+  "api.PressureRecord",
+  "api.PressureRecord.source",
+  "api.PressureRecord.state",
+  "api.PressureRecord.time",
+  "api.PressureRecord.toJSON",
+  "html.elements.iframe.allow.compute-pressure",
+  "http.headers.Permissions-Policy.compute-pressure"
+ ],
+ "description": "The PressureObserver API monitors CPU load, allowing you to adjust workloads in response to available computing resources. Also known as the Compute Pressure API.",
+ "description_html": "The <code>PressureObserver</code> API monitors CPU load, allowing you to adjust workloads in response to available computing resources. Also known as the Compute Pressure API.",
+ "group": [
+  "compute-pressure"
+ ],
+ "kind": "feature",
+ "name": "CPU compute pressure",
+ "spec": [
+  "https://w3c.github.io/compute-pressure/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.PressureObserver": {
+    "baseline": false,
+    "support": {
+     "chrome": "125",
+     "edge": "125"
+    }
+   },
+   "api.PressureObserver.PressureObserver": {
+    "baseline": false,
+    "support": {
+     "chrome": "125",
+     "edge": "125"
+    }
+   },
+   "api.PressureObserver.disconnect": {
+    "baseline": false,
+    "support": {
+     "chrome": "125",
+     "edge": "125"
+    }
+   },
+   "api.PressureObserver.knownSources_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "125",
+     "edge": "125"
+    }
+   },
+   "api.PressureObserver.observe": {
+    "baseline": false,
+    "support": {
+     "chrome": "125",
+     "edge": "125"
+    }
+   },
+   "api.PressureObserver.takeRecords": {
+    "baseline": false,
+    "support": {
+     "chrome": "125",
+     "edge": "125"
+    }
+   },
+   "api.PressureObserver.unobserve": {
+    "baseline": false,
+    "support": {
+     "chrome": "125",
+     "edge": "125"
+    }
+   },
+   "api.PressureRecord": {
+    "baseline": false,
+    "support": {
+     "chrome": "125",
+     "edge": "125"
+    }
+   },
+   "api.PressureRecord.source": {
+    "baseline": false,
+    "support": {
+     "chrome": "125",
+     "edge": "125"
+    }
+   },
+   "api.PressureRecord.state": {
+    "baseline": false,
+    "support": {
+     "chrome": "125",
+     "edge": "125"
+    }
+   },
+   "api.PressureRecord.time": {
+    "baseline": false,
+    "support": {
+     "chrome": "125",
+     "edge": "125"
+    }
+   },
+   "api.PressureRecord.toJSON": {
+    "baseline": false,
+    "support": {
+     "chrome": "125",
+     "edge": "125"
+    }
+   },
+   "html.elements.iframe.allow.compute-pressure": {
+    "baseline": false,
+    "support": {
+     "chrome": "125",
+     "edge": "125"
+    }
+   },
+   "http.headers.Permissions-Policy.compute-pressure": {
+    "baseline": false,
+    "support": {
+     "chrome": "125",
+     "edge": "125"
+    }
+   }
+  },
+  "support": {
+   "chrome": "125",
+   "edge": "125"
+  }
+ },
+ "id": "compute-pressure",
+ "groups": [
+  "compute-pressure"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/compute-pressure/",
+   "seriesComposition": "full",
+   "shortname": "compute-pressure",
+   "series": {
+    "shortname": "compute-pressure",
+    "currentSpecification": "compute-pressure",
+    "title": "Compute Pressure",
+    "shortTitle": "Compute Pressure",
+    "releaseUrl": "https://www.w3.org/TR/compute-pressure/",
+    "nightlyUrl": "https://w3c.github.io/compute-pressure/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Devices and Sensors Working Group",
+     "url": "https://www.w3.org/das/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/compute-pressure/",
+    "status": "Candidate Recommendation Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/compute-pressure/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/compute-pressure",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Compute Pressure Level 1",
+   "source": "w3c",
+   "shortTitle": "Compute Pressure 1",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "compute-pressure"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Compute_Pressure_API",
+   "title": "Compute Pressure API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Compute_Pressure_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/521",
+   "position": "",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/255",
+   "position": "oppose",
+   "concerns": [
+    "privacy",
+    "device independence"
+   ]
+  }
+ ],
+ "hasNegativeStandardPosition": true,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00271023,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/17"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:compute-pressure"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

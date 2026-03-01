@@ -1,0 +1,614 @@
+{
+ "caniuse": [
+  "css3-cursors",
+  "css3-cursors-grab",
+  "css3-cursors-newer"
+ ],
+ "compat_features": [
+  "css.properties.cursor",
+  "css.properties.cursor.alias",
+  "css.properties.cursor.all-scroll",
+  "css.properties.cursor.auto",
+  "css.properties.cursor.cell",
+  "css.properties.cursor.col-resize",
+  "css.properties.cursor.context-menu",
+  "css.properties.cursor.copy",
+  "css.properties.cursor.crosshair",
+  "css.properties.cursor.default",
+  "css.properties.cursor.e-resize",
+  "css.properties.cursor.ew-resize",
+  "css.properties.cursor.grab",
+  "css.properties.cursor.grabbing",
+  "css.properties.cursor.help",
+  "css.properties.cursor.move",
+  "css.properties.cursor.n-resize",
+  "css.properties.cursor.ne-resize",
+  "css.properties.cursor.nesw-resize",
+  "css.properties.cursor.no-drop",
+  "css.properties.cursor.none",
+  "css.properties.cursor.not-allowed",
+  "css.properties.cursor.ns-resize",
+  "css.properties.cursor.nw-resize",
+  "css.properties.cursor.nwse-resize",
+  "css.properties.cursor.pointer",
+  "css.properties.cursor.progress",
+  "css.properties.cursor.row-resize",
+  "css.properties.cursor.s-resize",
+  "css.properties.cursor.se-resize",
+  "css.properties.cursor.sw-resize",
+  "css.properties.cursor.text",
+  "css.properties.cursor.url",
+  "css.properties.cursor.url_positioning_syntax",
+  "css.properties.cursor.vertical-text",
+  "css.properties.cursor.w-resize",
+  "css.properties.cursor.wait",
+  "css.properties.cursor.zoom-in",
+  "css.properties.cursor.zoom-out",
+  "svg.global_attributes.cursor"
+ ],
+ "description": "The cursor CSS property styles the pointer, allowing you to provide hints to the user on how to interact with the hovered element.",
+ "description_html": "The <code>cursor</code> CSS property styles the pointer, allowing you to provide hints to the user on how to interact with the hovered element.",
+ "group": [
+  "css"
+ ],
+ "kind": "feature",
+ "name": "Cursor styles",
+ "spec": [
+  "https://drafts.csswg.org/css-ui-4/#cursor"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "css.properties.cursor": {
+    "baseline": "high",
+    "baseline_high_date": "2024-06-07",
+    "baseline_low_date": "2021-12-07",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "95",
+     "safari": "1.2",
+     "safari_ios": "13.4"
+    }
+   },
+   "css.properties.cursor.alias": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "95",
+     "safari": "3"
+    }
+   },
+   "css.properties.cursor.all-scroll": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "95",
+     "safari": "3"
+    }
+   },
+   "css.properties.cursor.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2024-06-07",
+    "baseline_low_date": "2021-12-07",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "95",
+     "safari": "1.2",
+     "safari_ios": "13.4"
+    }
+   },
+   "css.properties.cursor.cell": {
+    "baseline": "high",
+    "baseline_high_date": "2024-06-07",
+    "baseline_low_date": "2021-12-07",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "95",
+     "safari": "3",
+     "safari_ios": "13.4"
+    }
+   },
+   "css.properties.cursor.col-resize": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "95",
+     "safari": "3"
+    }
+   },
+   "css.properties.cursor.context-menu": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "95",
+     "safari": "3"
+    }
+   },
+   "css.properties.cursor.copy": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "95",
+     "safari": "3"
+    }
+   },
+   "css.properties.cursor.crosshair": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "95",
+     "safari": "1.2"
+    }
+   },
+   "css.properties.cursor.default": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "95",
+     "safari": "1.2"
+    }
+   },
+   "css.properties.cursor.e-resize": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "95",
+     "safari": "1.2"
+    }
+   },
+   "css.properties.cursor.ew-resize": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "95",
+     "safari": "3"
+    }
+   },
+   "css.properties.cursor.grab": {
+    "baseline": false,
+    "support": {
+     "chrome": "68",
+     "chrome_android": "68",
+     "edge": "14",
+     "firefox": "27",
+     "firefox_android": "95",
+     "safari": "11"
+    }
+   },
+   "css.properties.cursor.grabbing": {
+    "baseline": false,
+    "support": {
+     "chrome": "68",
+     "chrome_android": "68",
+     "edge": "79",
+     "firefox": "27",
+     "firefox_android": "95",
+     "safari": "11"
+    }
+   },
+   "css.properties.cursor.help": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "95",
+     "safari": "1.2"
+    }
+   },
+   "css.properties.cursor.move": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "95",
+     "safari": "1.2"
+    }
+   },
+   "css.properties.cursor.n-resize": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "95",
+     "safari": "1.2"
+    }
+   },
+   "css.properties.cursor.ne-resize": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "95",
+     "safari": "1.2"
+    }
+   },
+   "css.properties.cursor.nesw-resize": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "95",
+     "safari": "3"
+    }
+   },
+   "css.properties.cursor.no-drop": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "95",
+     "safari": "3"
+    }
+   },
+   "css.properties.cursor.none": {
+    "baseline": false,
+    "support": {
+     "chrome": "5",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3",
+     "firefox_android": "95",
+     "safari": "5"
+    }
+   },
+   "css.properties.cursor.not-allowed": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "95",
+     "safari": "3"
+    }
+   },
+   "css.properties.cursor.ns-resize": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "95",
+     "safari": "3"
+    }
+   },
+   "css.properties.cursor.nw-resize": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "95",
+     "safari": "1.2"
+    }
+   },
+   "css.properties.cursor.nwse-resize": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "95",
+     "safari": "3"
+    }
+   },
+   "css.properties.cursor.pointer": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "95",
+     "safari": "1.2"
+    }
+   },
+   "css.properties.cursor.progress": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "95",
+     "safari": "1.2"
+    }
+   },
+   "css.properties.cursor.row-resize": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "95",
+     "safari": "3"
+    }
+   },
+   "css.properties.cursor.s-resize": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "95",
+     "safari": "1.2"
+    }
+   },
+   "css.properties.cursor.se-resize": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "95",
+     "safari": "1.2"
+    }
+   },
+   "css.properties.cursor.sw-resize": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "95",
+     "safari": "1.2"
+    }
+   },
+   "css.properties.cursor.text": {
+    "baseline": "high",
+    "baseline_high_date": "2024-06-07",
+    "baseline_low_date": "2021-12-07",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "95",
+     "safari": "1.2",
+     "safari_ios": "13.4"
+    }
+   },
+   "css.properties.cursor.url": {
+    "baseline": "high",
+    "baseline_high_date": "2024-06-07",
+    "baseline_low_date": "2021-12-07",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "95",
+     "safari": "3",
+     "safari_ios": "13.4"
+    }
+   },
+   "css.properties.cursor.url_positioning_syntax": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "79",
+     "firefox": "1.5",
+     "firefox_android": "95",
+     "safari": "3"
+    }
+   },
+   "css.properties.cursor.vertical-text": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1.5",
+     "firefox_android": "95",
+     "safari": "3"
+    }
+   },
+   "css.properties.cursor.w-resize": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "95",
+     "safari": "1.2"
+    }
+   },
+   "css.properties.cursor.wait": {
+    "baseline": false,
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "95",
+     "safari": "1.2"
+    }
+   },
+   "css.properties.cursor.zoom-in": {
+    "baseline": false,
+    "support": {
+     "chrome": "37",
+     "chrome_android": "37",
+     "edge": "12",
+     "firefox": "24",
+     "firefox_android": "95",
+     "safari": "9"
+    }
+   },
+   "css.properties.cursor.zoom-out": {
+    "baseline": false,
+    "support": {
+     "chrome": "37",
+     "chrome_android": "37",
+     "edge": "12",
+     "firefox": "24",
+     "firefox_android": "95",
+     "safari": "9"
+    }
+   },
+   "svg.global_attributes.cursor": {
+    "baseline": "high",
+    "baseline_high_date": "2024-06-07",
+    "baseline_low_date": "2021-12-07",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "95",
+     "safari": "1.2",
+     "safari_ios": "1"
+    }
+   }
+  },
+  "support": {
+   "chrome": "68",
+   "chrome_android": "68",
+   "edge": "79",
+   "firefox": "27",
+   "firefox_android": "95",
+   "safari": "11"
+  }
+ },
+ "id": "cursor",
+ "groups": [
+  "css"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-ui-4/#cursor",
+   "seriesComposition": "full",
+   "shortname": "css-ui-4",
+   "series": {
+    "shortname": "css-ui",
+    "currentSpecification": "css-ui-4",
+    "title": "CSS Basic User Interface",
+    "shortTitle": "CSS User Interface",
+    "releaseUrl": "https://www.w3.org/TR/css-ui/",
+    "nightlyUrl": "https://drafts.csswg.org/css-ui/"
+   },
+   "seriesVersion": "4",
+   "shortTitle": "CSS User Interface 4",
+   "seriesPrevious": "css-ui-3",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-ui-4/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-ui-4/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-ui-4/",
+     "https://w3c.github.io/csswg-drafts/css-ui/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-ui-4/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Basic User Interface Module Level 4",
+   "source": "w3c",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-ui"
+    ]
+   },
+   "fragment": "cursor"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/cursor",
+   "title": "cursor",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/cursor"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:cursor"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/35",
+  "votes": 2
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Safari on iOS",
+ "monthsBlocked": 51,
+ "blockedSince": "December 2021"
+}

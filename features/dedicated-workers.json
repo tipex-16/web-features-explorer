@@ -1,0 +1,812 @@
+{
+ "caniuse": [
+  "webworkers"
+ ],
+ "compat_features": [
+  "api.DedicatedWorkerGlobalScope",
+  "api.DedicatedWorkerGlobalScope.close",
+  "api.DedicatedWorkerGlobalScope.name",
+  "api.Worker",
+  "api.Worker.Worker",
+  "api.Worker.Worker.mime_checks",
+  "api.Worker.Worker.options_name_parameter",
+  "api.Worker.error_event",
+  "api.Worker.terminate",
+  "api.Worker.worker_support",
+  "api.WorkerGlobalScope",
+  "api.WorkerGlobalScope.error_event",
+  "api.WorkerGlobalScope.importScripts",
+  "api.WorkerGlobalScope.importScripts.mime_checks",
+  "api.WorkerGlobalScope.location",
+  "api.WorkerGlobalScope.navigator",
+  "api.WorkerGlobalScope.rejectionhandled_event",
+  "api.WorkerGlobalScope.self",
+  "api.WorkerGlobalScope.unhandledrejection_event",
+  "api.WorkerLocation",
+  "api.WorkerLocation.hash",
+  "api.WorkerLocation.host",
+  "api.WorkerLocation.hostname",
+  "api.WorkerLocation.href",
+  "api.WorkerLocation.origin",
+  "api.WorkerLocation.pathname",
+  "api.WorkerLocation.port",
+  "api.WorkerLocation.protocol",
+  "api.WorkerLocation.search",
+  "api.WorkerLocation.toString",
+  "api.WorkerNavigator"
+ ],
+ "description": "The Worker() constructor runs a script in its own thread, which can send and receive messages with the script that created it. Also known as web workers.",
+ "description_html": "The <code>Worker()</code> constructor runs a script in its own thread, which can send and receive messages with the script that created it. Also known as web workers.",
+ "group": [
+  "workers"
+ ],
+ "kind": "feature",
+ "name": "Dedicated workers",
+ "spec": [
+  "https://html.spec.whatwg.org/multipage/workers.html#workers"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "api.DedicatedWorkerGlobalScope": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "5"
+    }
+   },
+   "api.DedicatedWorkerGlobalScope.close": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "5"
+    }
+   },
+   "api.DedicatedWorkerGlobalScope.name": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "70",
+     "chrome_android": "70",
+     "edge": "18",
+     "firefox": "55",
+     "firefox_android": "55",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Worker": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "5"
+    }
+   },
+   "api.Worker.Worker": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "5"
+    }
+   },
+   "api.Worker.Worker.mime_checks": {
+    "baseline": false,
+    "support": {
+     "firefox": "81",
+     "firefox_android": "81",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "api.Worker.Worker.options_name_parameter": {
+    "baseline": "high",
+    "baseline_high_date": "2021-09-25",
+    "baseline_low_date": "2019-03-25",
+    "support": {
+     "chrome": "70",
+     "chrome_android": "70",
+     "edge": "18",
+     "firefox": "55",
+     "firefox_android": "55",
+     "safari": "12.1",
+     "safari_ios": "12.2"
+    }
+   },
+   "api.Worker.error_event": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "5"
+    }
+   },
+   "api.Worker.terminate": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "2",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "5"
+    }
+   },
+   "api.Worker.worker_support": {
+    "baseline": false,
+    "support": {
+     "firefox": "34",
+     "firefox_android": "34"
+    }
+   },
+   "api.WorkerGlobalScope": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "5"
+    }
+   },
+   "api.WorkerGlobalScope.error_event": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "5"
+    }
+   },
+   "api.WorkerGlobalScope.importScripts": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "4",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "5"
+    }
+   },
+   "api.WorkerGlobalScope.importScripts.mime_checks": {
+    "baseline": "high",
+    "baseline_high_date": "2025-03-12",
+    "baseline_low_date": "2022-09-12",
+    "support": {
+     "chrome": "71",
+     "chrome_android": "71",
+     "edge": "79",
+     "firefox": "67",
+     "firefox_android": "67",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "api.WorkerGlobalScope.location": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "5"
+    }
+   },
+   "api.WorkerGlobalScope.navigator": {
+    "baseline": "high",
+    "baseline_high_date": "2020-10-30",
+    "baseline_low_date": "2018-04-30",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "17",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "5"
+    }
+   },
+   "api.WorkerGlobalScope.rejectionhandled_event": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "49",
+     "chrome_android": "49",
+     "edge": "79",
+     "firefox": "69",
+     "firefox_android": "79",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.WorkerGlobalScope.self": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "34",
+     "safari": "4",
+     "safari_ios": "5"
+    }
+   },
+   "api.WorkerGlobalScope.unhandledrejection_event": {
+    "baseline": "high",
+    "baseline_high_date": "2023-01-28",
+    "baseline_low_date": "2020-07-28",
+    "support": {
+     "chrome": "49",
+     "chrome_android": "49",
+     "edge": "79",
+     "firefox": "69",
+     "firefox_android": "79",
+     "safari": "11",
+     "safari_ios": "11"
+    }
+   },
+   "api.WorkerLocation": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "5"
+    }
+   },
+   "api.WorkerLocation.hash": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "5"
+    }
+   },
+   "api.WorkerLocation.host": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "5"
+    }
+   },
+   "api.WorkerLocation.hostname": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "5"
+    }
+   },
+   "api.WorkerLocation.href": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "5"
+    }
+   },
+   "api.WorkerLocation.origin": {
+    "baseline": "high",
+    "baseline_high_date": "2019-03-20",
+    "baseline_low_date": "2016-09-20",
+    "support": {
+     "chrome": "38",
+     "chrome_android": "38",
+     "edge": "14",
+     "firefox": "29",
+     "firefox_android": "29",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "api.WorkerLocation.pathname": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "5"
+    }
+   },
+   "api.WorkerLocation.port": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "5"
+    }
+   },
+   "api.WorkerLocation.protocol": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "5"
+    }
+   },
+   "api.WorkerLocation.search": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "5"
+    }
+   },
+   "api.WorkerLocation.toString": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "5"
+    }
+   },
+   "api.WorkerNavigator": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "4",
+     "safari_ios": "5"
+    }
+   }
+  },
+  "support": {
+   "chrome": "4",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "4",
+   "firefox_android": "4",
+   "safari": "4",
+   "safari_ios": "5"
+  }
+ },
+ "id": "dedicated-workers",
+ "groups": [
+  "workers"
+ ],
+ "specs": [
+  {
+   "url": "https://html.spec.whatwg.org/multipage/workers.html#workers",
+   "seriesComposition": "full",
+   "shortname": "html",
+   "series": {
+    "shortname": "html",
+    "currentSpecification": "html",
+    "title": "HTML",
+    "shortTitle": "HTML",
+    "nightlyUrl": "https://html.spec.whatwg.org/multipage/"
+   },
+   "nightly": {
+    "url": "https://html.spec.whatwg.org/multipage/",
+    "status": "Living Standard",
+    "sourcePath": "source",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/html",
+    "pages": [
+     "https://html.spec.whatwg.org/multipage/introduction.html",
+     "https://html.spec.whatwg.org/multipage/infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/common-microsyntaxes.html",
+     "https://html.spec.whatwg.org/multipage/urls-and-fetching.html",
+     "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html",
+     "https://html.spec.whatwg.org/multipage/structured-data.html",
+     "https://html.spec.whatwg.org/multipage/dom.html",
+     "https://html.spec.whatwg.org/multipage/semantics.html",
+     "https://html.spec.whatwg.org/multipage/sections.html",
+     "https://html.spec.whatwg.org/multipage/grouping-content.html",
+     "https://html.spec.whatwg.org/multipage/text-level-semantics.html",
+     "https://html.spec.whatwg.org/multipage/links.html",
+     "https://html.spec.whatwg.org/multipage/edits.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content.html",
+     "https://html.spec.whatwg.org/multipage/images.html",
+     "https://html.spec.whatwg.org/multipage/iframe-embed-object.html",
+     "https://html.spec.whatwg.org/multipage/media.html",
+     "https://html.spec.whatwg.org/multipage/image-maps.html",
+     "https://html.spec.whatwg.org/multipage/embedded-content-other.html",
+     "https://html.spec.whatwg.org/multipage/tables.html",
+     "https://html.spec.whatwg.org/multipage/forms.html",
+     "https://html.spec.whatwg.org/multipage/input.html",
+     "https://html.spec.whatwg.org/multipage/form-elements.html",
+     "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html",
+     "https://html.spec.whatwg.org/multipage/interactive-elements.html",
+     "https://html.spec.whatwg.org/multipage/scripting.html",
+     "https://html.spec.whatwg.org/multipage/canvas.html",
+     "https://html.spec.whatwg.org/multipage/custom-elements.html",
+     "https://html.spec.whatwg.org/multipage/semantics-other.html",
+     "https://html.spec.whatwg.org/multipage/microdata.html",
+     "https://html.spec.whatwg.org/multipage/interaction.html",
+     "https://html.spec.whatwg.org/multipage/dnd.html",
+     "https://html.spec.whatwg.org/multipage/popover.html",
+     "https://html.spec.whatwg.org/multipage/browsers.html",
+     "https://html.spec.whatwg.org/multipage/nav-history-apis.html",
+     "https://html.spec.whatwg.org/multipage/document-sequences.html",
+     "https://html.spec.whatwg.org/multipage/browsing-the-web.html",
+     "https://html.spec.whatwg.org/multipage/document-lifecycle.html",
+     "https://html.spec.whatwg.org/multipage/speculative-loading.html",
+     "https://html.spec.whatwg.org/multipage/webappapis.html",
+     "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html",
+     "https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html",
+     "https://html.spec.whatwg.org/multipage/system-state.html",
+     "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html",
+     "https://html.spec.whatwg.org/multipage/comms.html",
+     "https://html.spec.whatwg.org/multipage/server-sent-events.html",
+     "https://html.spec.whatwg.org/multipage/web-messaging.html",
+     "https://html.spec.whatwg.org/multipage/workers.html",
+     "https://html.spec.whatwg.org/multipage/worklets.html",
+     "https://html.spec.whatwg.org/multipage/webstorage.html",
+     "https://html.spec.whatwg.org/multipage/syntax.html",
+     "https://html.spec.whatwg.org/multipage/parsing.html",
+     "https://html.spec.whatwg.org/multipage/named-characters.html",
+     "https://html.spec.whatwg.org/multipage/xhtml.html",
+     "https://html.spec.whatwg.org/multipage/rendering.html",
+     "https://html.spec.whatwg.org/multipage/obsolete.html",
+     "https://html.spec.whatwg.org/multipage/iana.html",
+     "https://html.spec.whatwg.org/multipage/indices.html",
+     "https://html.spec.whatwg.org/multipage/references.html",
+     "https://html.spec.whatwg.org/multipage/acknowledgements.html"
+    ],
+    "filename": "index.html"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "HTML Workstream",
+     "url": "https://html.spec.whatwg.org/multipage/"
+    }
+   ],
+   "title": "HTML",
+   "source": "whatwg",
+   "shortTitle": "HTML",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "close-watcher",
+     "custom-elements",
+     "eventsource",
+     "html",
+     "imagebitmap-renderingcontext",
+     "import-maps",
+     "navigation-api",
+     "webmessaging",
+     "webstorage",
+     "workers",
+     "worklets",
+     "x-frame-options"
+    ],
+    "excludePaths": [
+     "html/cross-origin-embedder-policy/credentialless",
+     "html/dom/partial-updates/tentative",
+     "html/cross-origin-embedder-policy/credentialless"
+    ]
+   },
+   "fragment": "workers"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/DedicatedWorkerGlobalScope",
+   "title": "DedicatedWorkerGlobalScope",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/DedicatedWorkerGlobalScope"
+  },
+  {
+   "slug": "Web/API/DedicatedWorkerGlobalScope/close",
+   "title": "DedicatedWorkerGlobalScope: close() method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/DedicatedWorkerGlobalScope/close"
+  },
+  {
+   "slug": "Web/API/DedicatedWorkerGlobalScope/name",
+   "title": "DedicatedWorkerGlobalScope: name property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/DedicatedWorkerGlobalScope/name"
+  },
+  {
+   "slug": "Web/API/Worker",
+   "title": "Worker",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Worker"
+  },
+  {
+   "slug": "Web/API/Worker/Worker",
+   "title": "Worker: Worker() constructor",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Worker/Worker"
+  },
+  {
+   "slug": "Web/API/Worker/error_event",
+   "title": "Worker: error event",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Worker/error_event"
+  },
+  {
+   "slug": "Web/API/Worker/terminate",
+   "title": "Worker: terminate() method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Worker/terminate"
+  },
+  {
+   "slug": "Web/API/WorkerGlobalScope",
+   "title": "WorkerGlobalScope",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope"
+  },
+  {
+   "slug": "Web/API/WorkerGlobalScope/error_event",
+   "title": "WorkerGlobalScope: error event",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/error_event"
+  },
+  {
+   "slug": "Web/API/WorkerGlobalScope/importScripts",
+   "title": "WorkerGlobalScope: importScripts() method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/importScripts"
+  },
+  {
+   "slug": "Web/API/WorkerGlobalScope/location",
+   "title": "WorkerGlobalScope: location property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/location"
+  },
+  {
+   "slug": "Web/API/WorkerGlobalScope/navigator",
+   "title": "WorkerGlobalScope: navigator property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/navigator"
+  },
+  {
+   "slug": "Web/API/WorkerGlobalScope/rejectionhandled_event",
+   "title": "WorkerGlobalScope: rejectionhandled event",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/rejectionhandled_event"
+  },
+  {
+   "slug": "Web/API/WorkerGlobalScope/self",
+   "title": "WorkerGlobalScope: self property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/self"
+  },
+  {
+   "slug": "Web/API/WorkerGlobalScope/unhandledrejection_event",
+   "title": "WorkerGlobalScope: unhandledrejection event",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/unhandledrejection_event"
+  },
+  {
+   "slug": "Web/API/WorkerLocation",
+   "title": "WorkerLocation",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/WorkerLocation"
+  },
+  {
+   "slug": "Web/API/WorkerLocation/hash",
+   "title": "WorkerLocation: hash property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/WorkerLocation/hash"
+  },
+  {
+   "slug": "Web/API/WorkerLocation/host",
+   "title": "WorkerLocation: host property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/WorkerLocation/host"
+  },
+  {
+   "slug": "Web/API/WorkerLocation/hostname",
+   "title": "WorkerLocation: hostname property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/WorkerLocation/hostname"
+  },
+  {
+   "slug": "Web/API/WorkerLocation/href",
+   "title": "WorkerLocation: href property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/WorkerLocation/href"
+  },
+  {
+   "slug": "Web/API/WorkerLocation/origin",
+   "title": "WorkerLocation: origin property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/WorkerLocation/origin"
+  },
+  {
+   "slug": "Web/API/WorkerLocation/pathname",
+   "title": "WorkerLocation: pathname property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/WorkerLocation/pathname"
+  },
+  {
+   "slug": "Web/API/WorkerLocation/port",
+   "title": "WorkerLocation: port property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/WorkerLocation/port"
+  },
+  {
+   "slug": "Web/API/WorkerLocation/protocol",
+   "title": "WorkerLocation: protocol property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/WorkerLocation/protocol"
+  },
+  {
+   "slug": "Web/API/WorkerLocation/search",
+   "title": "WorkerLocation: search property",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/WorkerLocation/search"
+  },
+  {
+   "slug": "Web/API/WorkerLocation/toString",
+   "title": "WorkerLocation: toString() method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/WorkerLocation/toString"
+  },
+  {
+   "slug": "Web/API/WorkerNavigator",
+   "title": "WorkerNavigator",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/WorkerNavigator"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:dedicated-workers"
+ },
+ "developerSignals": null,
+ "bugs": {
+  "chrome": [
+   "https://crbug.com/40554522"
+  ],
+  "chrome_android": [
+   "https://crbug.com/40554522"
+  ],
+  "edge": [
+   "https://crbug.com/40554522"
+  ],
+  "oculus": [
+   "https://crbug.com/40554522"
+  ],
+  "opera": [
+   "https://crbug.com/40554522"
+  ],
+  "opera_android": [
+   "https://crbug.com/40554522"
+  ],
+  "samsunginternet_android": [
+   "https://crbug.com/40554522"
+  ],
+  "webview_android": [
+   "https://crbug.com/40554522"
+  ]
+ },
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

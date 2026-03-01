@@ -1,0 +1,431 @@
+{
+ "caniuse": [
+  "webvr"
+ ],
+ "compat_features": [
+  "api.Gamepad.displayId",
+  "api.Navigator.activeVRDisplays",
+  "api.Navigator.activeVRDisplays.secure_context_required",
+  "api.Navigator.getVRDisplays",
+  "api.PositionSensorVRDevice",
+  "api.PositionSensorVRDevice.getImmediateState",
+  "api.PositionSensorVRDevice.getState",
+  "api.PositionSensorVRDevice.resetSensor",
+  "api.VRDisplay",
+  "api.VRDisplay.cancelAnimationFrame",
+  "api.VRDisplay.capabilities",
+  "api.VRDisplay.depthFar",
+  "api.VRDisplay.depthNear",
+  "api.VRDisplay.displayId",
+  "api.VRDisplay.displayName",
+  "api.VRDisplay.exitPresent",
+  "api.VRDisplay.getEyeParameters",
+  "api.VRDisplay.getFrameData",
+  "api.VRDisplay.getImmediatePose",
+  "api.VRDisplay.getLayers",
+  "api.VRDisplay.getPose",
+  "api.VRDisplay.isConnected",
+  "api.VRDisplay.isPresenting",
+  "api.VRDisplay.requestAnimationFrame",
+  "api.VRDisplay.requestPresent",
+  "api.VRDisplay.resetPose",
+  "api.VRDisplay.stageParameters",
+  "api.VRDisplay.submitFrame",
+  "api.VRDisplayCapabilities",
+  "api.VRDisplayCapabilities.canPresent",
+  "api.VRDisplayCapabilities.hasExternalDisplay",
+  "api.VRDisplayCapabilities.hasOrientation",
+  "api.VRDisplayCapabilities.hasPosition",
+  "api.VRDisplayCapabilities.maxLayers",
+  "api.VRDisplayEvent",
+  "api.VRDisplayEvent.VRDisplayEvent",
+  "api.VRDisplayEvent.display",
+  "api.VRDisplayEvent.reason",
+  "api.VREyeParameters",
+  "api.VREyeParameters.fieldOfView",
+  "api.VREyeParameters.maximumFieldOfView",
+  "api.VREyeParameters.minimumFieldOfView",
+  "api.VREyeParameters.offset",
+  "api.VREyeParameters.renderHeight",
+  "api.VREyeParameters.renderWidth",
+  "api.VRFieldOfView",
+  "api.VRFieldOfView.downDegrees",
+  "api.VRFieldOfView.leftDegrees",
+  "api.VRFieldOfView.rightDegrees",
+  "api.VRFieldOfView.upDegrees",
+  "api.VRFrameData",
+  "api.VRFrameData.VRFrameData",
+  "api.VRFrameData.leftProjectionMatrix",
+  "api.VRFrameData.leftViewMatrix",
+  "api.VRFrameData.pose",
+  "api.VRFrameData.rightProjectionMatrix",
+  "api.VRFrameData.rightViewMatrix",
+  "api.VRFrameData.timestamp",
+  "api.VRPose",
+  "api.VRPose.angularAcceleration",
+  "api.VRPose.angularVelocity",
+  "api.VRPose.linearAcceleration",
+  "api.VRPose.linearVelocity",
+  "api.VRPose.orientation",
+  "api.VRPose.position",
+  "api.VRStageParameters",
+  "api.VRStageParameters.sittingToStandingTransform",
+  "api.VRStageParameters.sizeX",
+  "api.VRStageParameters.sizeY",
+  "api.Window.vrdisplayactivate_event",
+  "api.Window.vrdisplayconnect_event",
+  "api.Window.vrdisplaydeactivate_event",
+  "api.Window.vrdisplaydisconnect_event",
+  "api.Window.vrdisplaypresentchange_event"
+ ],
+ "description": "The navigator.getVRDisplays() API represents virtual reality (VR) devices, including sensors and head-mounted displays.",
+ "description_html": "The <code>navigator.getVRDisplays()</code> API represents virtual reality (VR) devices, including sensors and head-mounted displays.",
+ "discouraged": {
+  "according_to": [
+   "https://immersive-web.github.io/webvr/spec/1.1/#abstract"
+  ],
+  "alternatives": [
+   "webxr-device"
+  ],
+  "reason": "Development of the WebVR API halted in favor of WebXR.",
+  "reason_html": "Development of the WebVR API halted in favor of WebXR."
+ },
+ "kind": "feature",
+ "name": "WebVR",
+ "spec": [
+  "https://immersive-web.github.io/webvr/spec/1.1/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Gamepad.displayId": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.Navigator.activeVRDisplays": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.Navigator.activeVRDisplays.secure_context_required": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.Navigator.getVRDisplays": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.PositionSensorVRDevice": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.PositionSensorVRDevice.getImmediateState": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.PositionSensorVRDevice.getState": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.PositionSensorVRDevice.resetSensor": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRDisplay": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRDisplay.cancelAnimationFrame": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRDisplay.capabilities": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRDisplay.depthFar": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRDisplay.depthNear": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRDisplay.displayId": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRDisplay.displayName": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRDisplay.exitPresent": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRDisplay.getEyeParameters": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRDisplay.getFrameData": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRDisplay.getImmediatePose": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRDisplay.getLayers": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRDisplay.getPose": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRDisplay.isConnected": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRDisplay.isPresenting": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRDisplay.requestAnimationFrame": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRDisplay.requestPresent": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRDisplay.resetPose": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRDisplay.stageParameters": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRDisplay.submitFrame": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRDisplayCapabilities": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRDisplayCapabilities.canPresent": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRDisplayCapabilities.hasExternalDisplay": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRDisplayCapabilities.hasOrientation": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRDisplayCapabilities.hasPosition": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRDisplayCapabilities.maxLayers": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRDisplayEvent": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRDisplayEvent.VRDisplayEvent": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRDisplayEvent.display": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRDisplayEvent.reason": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VREyeParameters": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VREyeParameters.fieldOfView": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VREyeParameters.maximumFieldOfView": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VREyeParameters.minimumFieldOfView": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VREyeParameters.offset": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VREyeParameters.renderHeight": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VREyeParameters.renderWidth": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRFieldOfView": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRFieldOfView.downDegrees": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRFieldOfView.leftDegrees": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRFieldOfView.rightDegrees": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRFieldOfView.upDegrees": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRFrameData": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRFrameData.VRFrameData": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRFrameData.leftProjectionMatrix": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRFrameData.leftViewMatrix": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRFrameData.pose": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRFrameData.rightProjectionMatrix": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRFrameData.rightViewMatrix": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRFrameData.timestamp": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRPose": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRPose.angularAcceleration": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRPose.angularVelocity": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRPose.linearAcceleration": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRPose.linearVelocity": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRPose.orientation": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRPose.position": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRStageParameters": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRStageParameters.sittingToStandingTransform": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRStageParameters.sizeX": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.VRStageParameters.sizeY": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.Window.vrdisplayactivate_event": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.Window.vrdisplayconnect_event": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.Window.vrdisplaydeactivate_event": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.Window.vrdisplaydisconnect_event": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.Window.vrdisplaypresentchange_event": {
+    "baseline": false,
+    "support": {}
+   }
+  },
+  "support": {}
+ },
+ "id": "webvr",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://immersive-web.github.io/webvr/spec/1.1/"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/WebVR_API",
+   "title": "WebVR API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/WebVR_API"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:webvr"
+ },
+ "developerSignals": null,
+ "bugs": {
+  "chrome": [
+   "https://bugs.chromium.org/p/chromium/issues/detail?id=389343"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

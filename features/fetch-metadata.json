@@ -1,0 +1,184 @@
+{
+ "compat_features": [
+  "http.headers.Sec-Fetch-Dest",
+  "http.headers.Sec-Fetch-Mode",
+  "http.headers.Sec-Fetch-Site",
+  "http.headers.Sec-Fetch-User"
+ ],
+ "description": "The Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site, and Sec-Fetch-User HTTP headers provide extra information about the way a request was made, to help servers reject certain kinds of malicious requests.",
+ "description_html": "The <code>Sec-Fetch-Dest</code>, <code>Sec-Fetch-Mode</code>, <code>Sec-Fetch-Site</code>, and <code>Sec-Fetch-User</code> HTTP headers provide extra information about the way a request was made, to help servers reject certain kinds of malicious requests.",
+ "kind": "feature",
+ "name": "Fetch metadata request headers",
+ "spec": [
+  "https://w3c.github.io/webappsec-fetch-metadata/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "http.headers.Sec-Fetch-Dest": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "80",
+     "chrome_android": "80",
+     "edge": "80",
+     "firefox": "90",
+     "firefox_android": "90",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "http.headers.Sec-Fetch-Mode": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "76",
+     "chrome_android": "76",
+     "edge": "79",
+     "firefox": "90",
+     "firefox_android": "90",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "http.headers.Sec-Fetch-Site": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-27",
+    "baseline_low_date": "2023-03-27",
+    "support": {
+     "chrome": "76",
+     "chrome_android": "76",
+     "edge": "79",
+     "firefox": "90",
+     "firefox_android": "90",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "http.headers.Sec-Fetch-User": {
+    "baseline": false,
+    "support": {
+     "chrome": "76",
+     "chrome_android": "76",
+     "edge": "79",
+     "firefox": "90",
+     "firefox_android": "90"
+    }
+   }
+  },
+  "support": {
+   "chrome": "80",
+   "chrome_android": "80",
+   "edge": "80",
+   "firefox": "90",
+   "firefox_android": "90"
+  }
+ },
+ "id": "fetch-metadata",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/webappsec-fetch-metadata/",
+   "seriesComposition": "full",
+   "shortname": "fetch-metadata",
+   "series": {
+    "shortname": "fetch-metadata",
+    "currentSpecification": "fetch-metadata",
+    "title": "Fetch Metadata Request Headers",
+    "shortTitle": "Fetch Metadata",
+    "releaseUrl": "https://www.w3.org/TR/fetch-metadata/",
+    "nightlyUrl": "https://w3c.github.io/webappsec-fetch-metadata/"
+   },
+   "shortTitle": "Fetch Metadata",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Application Security Working Group",
+     "url": "https://www.w3.org/groups/wg/webappsec/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/fetch-metadata/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/webappsec-fetch-metadata/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/webappsec-fetch-metadata",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Fetch Metadata Request Headers",
+   "source": "w3c",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "fetch/metadata"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/HTTP/Reference/Headers/Sec-Fetch-Dest",
+   "title": "Sec-Fetch-Dest header",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Dest"
+  },
+  {
+   "slug": "Web/HTTP/Reference/Headers/Sec-Fetch-Mode",
+   "title": "Sec-Fetch-Mode header",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Mode"
+  },
+  {
+   "slug": "Web/HTTP/Reference/Headers/Sec-Fetch-Site",
+   "title": "Sec-Fetch-Site header",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Site"
+  },
+  {
+   "slug": "Web/HTTP/Reference/Headers/Sec-Fetch-User",
+   "title": "Sec-Fetch-User header",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Sec-Fetch-User"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:fetch-metadata"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/406",
+  "votes": 1
+ },
+ "bugs": {
+  "safari": [
+   "https://webkit.org/b/247697"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/247697"
+  ],
+  "webview_ios": [
+   "https://webkit.org/b/247697"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Safari",
+ "monthsBlocked": 56,
+ "blockedSince": "July 2021"
+}

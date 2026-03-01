@@ -1,0 +1,149 @@
+{
+ "compat_features": [
+  "javascript.builtins.JSON.isRawJSON",
+  "javascript.builtins.JSON.parse.reviver_parameter_context_argument",
+  "javascript.builtins.JSON.rawJSON"
+ ],
+ "description": "To serialize and parse JSON in a lossless way, JSON.stringify() handles rawJSON values and JSON.parse()'s reviver callback takes a source context parameter.",
+ "description_html": "To serialize and parse JSON in a lossless way, <code>JSON.stringify()</code> handles <code>rawJSON</code> values and <code>JSON.parse()</code>'s reviver callback takes a source context parameter.",
+ "group": [
+  "json"
+ ],
+ "kind": "feature",
+ "name": "JSON source text access",
+ "spec": [
+  "https://tc39.es/proposal-json-parse-with-source/#sec-json-object"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "javascript.builtins.JSON.isRawJSON": {
+    "baseline": false,
+    "support": {
+     "chrome": "114",
+     "chrome_android": "114",
+     "edge": "114",
+     "firefox": "135",
+     "firefox_android": "135"
+    }
+   },
+   "javascript.builtins.JSON.parse.reviver_parameter_context_argument": {
+    "baseline": "low",
+    "baseline_low_date": "2025-03-31",
+    "support": {
+     "chrome": "114",
+     "chrome_android": "114",
+     "edge": "114",
+     "firefox": "135",
+     "firefox_android": "135",
+     "safari": "18.4",
+     "safari_ios": "18.4"
+    }
+   },
+   "javascript.builtins.JSON.rawJSON": {
+    "baseline": false,
+    "support": {
+     "chrome": "114",
+     "chrome_android": "114",
+     "edge": "114",
+     "firefox": "135",
+     "firefox_android": "135"
+    }
+   }
+  },
+  "support": {
+   "chrome": "114",
+   "chrome_android": "114",
+   "edge": "114",
+   "firefox": "135",
+   "firefox_android": "135"
+  }
+ },
+ "id": "json-raw",
+ "groups": [
+  "json"
+ ],
+ "specs": [
+  {
+   "url": "https://tc39.es/proposal-json-parse-with-source/#sec-json-object",
+   "seriesComposition": "full",
+   "shortname": "tc39-json-parse-with-source",
+   "series": {
+    "shortname": "tc39-json-parse-with-source",
+    "currentSpecification": "tc39-json-parse-with-source",
+    "title": "JSON.parse source text access",
+    "shortTitle": "JSON.parse source text access",
+    "nightlyUrl": "https://tc39.es/proposal-json-parse-with-source/"
+   },
+   "standing": "good",
+   "organization": "Ecma International",
+   "groups": [
+    {
+     "name": "TC39",
+     "url": "https://tc39.es/"
+    }
+   ],
+   "nightly": {
+    "url": "https://tc39.es/proposal-json-parse-with-source/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/tc39/proposal-json-parse-with-source",
+    "sourcePath": "spec.html",
+    "filename": "index.html"
+   },
+   "title": "JSON.parse source text access",
+   "source": "spec",
+   "shortTitle": "JSON.parse source text access",
+   "categories": [
+    "browser"
+   ],
+   "fragment": "sec-json-object"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/JavaScript/Reference/Global_Objects/JSON/stringify",
+   "title": "JSON.stringify()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify"
+  },
+  {
+   "slug": "Web/JavaScript/Reference/Global_Objects/JSON/parse",
+   "title": "JSON.parse()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse"
+  },
+  {
+   "slug": "Web/JavaScript/Reference/Global_Objects/JSON/isRawJSON",
+   "title": "JSON.isRawJSON()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON/isRawJSON"
+  },
+  {
+   "slug": "Web/JavaScript/Reference/Global_Objects/JSON/rawJSON",
+   "title": "JSON.rawJSON()",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON/rawJSON"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/203",
+  "votes": 1
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1658310"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Safari",
+ "monthsBlocked": 13,
+ "blockedSince": "February 2025"
+}

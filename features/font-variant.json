@@ -1,0 +1,274 @@
+{
+ "compat_features": [
+  "css.at-rules.font-face.font-variant",
+  "css.properties.font-variant",
+  "css.properties.font-variant.css_fonts_shorthand",
+  "css.properties.font-variant.greek_accented_characters",
+  "css.properties.font-variant.historical-forms",
+  "css.properties.font-variant.none",
+  "css.properties.font-variant.normal",
+  "css.properties.font-variant.sub",
+  "css.properties.font-variant.super",
+  "css.properties.font-variant.turkic_is",
+  "css.properties.font-variant.uppercase_eszett",
+  "svg.global_attributes.font-variant"
+ ],
+ "description": "The font-variant CSS property is a shorthand for font-variant-alternates, font-variant-caps, font-variant-east-asian, font-variant-emoji, font-variant-ligatures, font-variant-numeric, and font-variant-position.",
+ "description_html": "The <code>font-variant</code> CSS property is a shorthand for <code>font-variant-alternates</code>, <code>font-variant-caps</code>, <code>font-variant-east-asian</code>, <code>font-variant-emoji</code>, <code>font-variant-ligatures</code>, <code>font-variant-numeric</code>, and <code>font-variant-position</code>.",
+ "group": [
+  "font-features"
+ ],
+ "kind": "feature",
+ "name": "font-variant",
+ "spec": [
+  "https://drafts.csswg.org/css-fonts-4/#font-variant-prop"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "css.at-rules.font-face.font-variant": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "4",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3.5",
+     "firefox_android": "4",
+     "safari": "3.1",
+     "safari_ios": "2"
+    }
+   },
+   "css.properties.font-variant": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.font-variant.css_fonts_shorthand": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "52",
+     "chrome_android": "52",
+     "edge": "79",
+     "firefox": "34",
+     "firefox_android": "34",
+     "safari": "9.1",
+     "safari_ios": "9.3"
+    }
+   },
+   "css.properties.font-variant.greek_accented_characters": {
+    "baseline": false,
+    "support": {}
+   },
+   "css.properties.font-variant.historical-forms": {
+    "baseline": "high",
+    "baseline_high_date": "2025-09-13",
+    "baseline_low_date": "2023-03-13",
+    "support": {
+     "chrome": "111",
+     "chrome_android": "111",
+     "edge": "111",
+     "firefox": "34",
+     "firefox_android": "34",
+     "safari": "9.1",
+     "safari_ios": "9.3"
+    }
+   },
+   "css.properties.font-variant.none": {
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
+    "support": {
+     "chrome": "52",
+     "chrome_android": "52",
+     "edge": "79",
+     "firefox": "34",
+     "firefox_android": "34",
+     "safari": "9",
+     "safari_ios": "9"
+    }
+   },
+   "css.properties.font-variant.normal": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "css.properties.font-variant.sub": {
+    "baseline": "high",
+    "baseline_high_date": "2025-08-09",
+    "baseline_low_date": "2023-02-09",
+    "support": {
+     "chrome": "110",
+     "chrome_android": "110",
+     "edge": "110",
+     "firefox": "34",
+     "firefox_android": "34",
+     "safari": "9.1",
+     "safari_ios": "9.3"
+    }
+   },
+   "css.properties.font-variant.super": {
+    "baseline": "high",
+    "baseline_high_date": "2025-08-09",
+    "baseline_low_date": "2023-02-09",
+    "support": {
+     "chrome": "110",
+     "chrome_android": "110",
+     "edge": "110",
+     "firefox": "34",
+     "firefox_android": "34",
+     "safari": "9.1",
+     "safari_ios": "9.3"
+    }
+   },
+   "css.properties.font-variant.turkic_is": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "31",
+     "chrome_android": "31",
+     "edge": "12",
+     "firefox": "14",
+     "firefox_android": "14",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   },
+   "css.properties.font-variant.uppercase_eszett": {
+    "baseline": false,
+    "support": {}
+   },
+   "svg.global_attributes.font-variant": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   }
+  },
+  "support": {
+   "chrome": "1",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "1",
+   "firefox_android": "4",
+   "safari": "1",
+   "safari_ios": "1"
+  }
+ },
+ "id": "font-variant",
+ "groups": [
+  "font-features"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-fonts-4/#font-variant-prop",
+   "seriesComposition": "full",
+   "shortname": "css-fonts-4",
+   "series": {
+    "shortname": "css-fonts",
+    "currentSpecification": "css-fonts-4",
+    "title": "CSS Fonts",
+    "shortTitle": "CSS Fonts",
+    "releaseUrl": "https://www.w3.org/TR/css-fonts/",
+    "nightlyUrl": "https://drafts.csswg.org/css-fonts/"
+   },
+   "seriesVersion": "4",
+   "seriesNext": "css-fonts-5",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-fonts-4/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-fonts-4/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-fonts-4/",
+     "https://w3c.github.io/csswg-drafts/css-fonts/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-fonts-4/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Fonts Module Level 4",
+   "source": "w3c",
+   "shortTitle": "CSS Fonts 4",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-fonts"
+    ]
+   },
+   "fragment": "font-variant-prop"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/font-variant",
+   "title": "font-variant",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variant"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [
+  {
+   "year": 2022,
+   "label": "interop-2022-text",
+   "url": "https://wpt.fyi/interop-2022?feature=interop-2022-text"
+  }
+ ],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:font-variant"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}

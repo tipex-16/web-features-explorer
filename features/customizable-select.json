@@ -1,0 +1,233 @@
+{
+ "caniuse": [
+  "customizable-select"
+ ],
+ "compat_features": [
+  "css.properties.appearance.base-select",
+  "css.selectors.checkmark",
+  "css.selectors.picker",
+  "css.selectors.picker-icon",
+  "html.elements.selectedcontent"
+ ],
+ "description": "The <select> element's appearance, including the button, selected option, picker dropdown, and options, can be customized using CSS.",
+ "description_html": "The <code>&#x3C;select></code> element's appearance, including the button, selected option, picker dropdown, and options, can be customized using CSS.",
+ "group": [
+  "forms",
+  "html-elements"
+ ],
+ "kind": "feature",
+ "name": "Customizable <select>",
+ "spec": [
+  "https://open-ui.org/components/customizableselect/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "css.properties.appearance.base-select": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "css.selectors.checkmark": {
+    "baseline": false,
+    "support": {
+     "chrome": "133",
+     "chrome_android": "133",
+     "edge": "133"
+    }
+   },
+   "css.selectors.picker": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "css.selectors.picker-icon": {
+    "baseline": false,
+    "support": {
+     "chrome": "133",
+     "chrome_android": "133",
+     "edge": "133"
+    }
+   },
+   "html.elements.selectedcontent": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   }
+  },
+  "support": {
+   "chrome": "135",
+   "chrome_android": "135",
+   "edge": "135"
+  }
+ },
+ "id": "customizable-select",
+ "groups": [
+  "forms",
+  "html-elements"
+ ],
+ "specs": [
+  {
+   "url": "https://open-ui.org/components/customizableselect/"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Learn_web_development/Extensions/Forms/Customizable_select",
+   "title": "Customizable select elements",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Learn_web_development/Extensions/Forms/Customizable_select"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/1060",
+   "position": "positive",
+   "concerns": [
+    "compatibility"
+   ]
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/386",
+   "position": "support",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features_features_only",
+   "question": "usage",
+   "subQuestion": "html_interoperability_features_features_only",
+   "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features_features_only.freeform.allEditions.0.buckets.5.nestedBuckets.0.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/usage/#html_functionality_features_features_only",
+   "question": "usage",
+   "subQuestion": "html_functionality_features_features_only",
+   "path": "dataAPI.surveys.state_of_html.html2025.usage.html_functionality_features_features_only.freeform.allEditions.1.buckets.0.nestedBuckets.0.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/forms/#forms_pain_points_limitations_1",
+   "question": "forms",
+   "subQuestion": "forms_pain_points_limitations_1",
+   "path": "dataAPI.surveys.state_of_html.html2025.forms.forms_pain_points_limitations_1.freeform.allEditions.0.buckets.1.nestedBuckets.0.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/forms/#forms_pain_points_interop_issues_1",
+   "question": "forms",
+   "subQuestion": "forms_pain_points_interop_issues_1",
+   "path": "dataAPI.surveys.state_of_html.html2025.forms.forms_pain_points_interop_issues_1.freeform.allEditions.0.buckets.1.nestedBuckets.0.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/forms/#forms_pain_points_features",
+   "question": "forms",
+   "subQuestion": "forms_pain_points_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.forms.forms_pain_points_features.freeform.allEditions.1.buckets.0.nestedBuckets.0.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/forms/#forms_pain_points",
+   "question": "forms",
+   "subQuestion": "forms_pain_points",
+   "path": "dataAPI.surveys.state_of_html.html2025.forms.forms_pain_points.freeform.allEditions.1.buckets.2.nestedBuckets.0.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/forms/#forms_features",
+   "question": "forms",
+   "subQuestion": "forms_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.forms.forms_features.2.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.2.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+   "question": "_all_features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.2.entity"
+  },
+  {
+   "name": "State of HTML 2024",
+   "url": "https://2024.stateofhtml.com/en-US/features/#reading_list",
+   "question": "reading_list",
+   "subQuestion": "reading_list",
+   "path": "dataAPI.surveys.state_of_html.html2024.reading_list.reading_list.combined.allEditions.1.buckets.0.entity"
+  },
+  {
+   "name": "State of HTML 2024",
+   "url": "https://2024.stateofhtml.com/en-US/forms/#forms_features",
+   "question": "forms",
+   "subQuestion": "forms_features",
+   "path": "dataAPI.surveys.state_of_html.html2024.forms.forms_features.5.entity"
+  },
+  {
+   "name": "State of HTML 2024",
+   "url": "https://2024.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2024.features.all_features.5.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/usage/#css_missing_features",
+   "question": "usage",
+   "subQuestion": "css_missing_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.usage.css_missing_features.freeform.allEditions.0.buckets.21.groupedBuckets.0.groupedBuckets.12.entity"
+  }
+ ],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.00013732,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/342"
+ },
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:customizable-select"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/278",
+  "votes": 152
+ },
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1944403",
+   "https://bugzil.la/1974276"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/1974276"
+  ],
+  "safari": [
+   "https://webkit.org/b/286642"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/286642"
+  ],
+  "webview_ios": [
+   "https://webkit.org/b/286642"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

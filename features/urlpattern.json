@@ -1,0 +1,318 @@
+{
+ "compat_features": [
+  "api.URLPattern",
+  "api.URLPattern.URLPattern",
+  "api.URLPattern.URLPattern.ignoreCase_option",
+  "api.URLPattern.exec",
+  "api.URLPattern.hasRegExpGroups",
+  "api.URLPattern.hash",
+  "api.URLPattern.hostname",
+  "api.URLPattern.password",
+  "api.URLPattern.pathname",
+  "api.URLPattern.port",
+  "api.URLPattern.protocol",
+  "api.URLPattern.search",
+  "api.URLPattern.test",
+  "api.URLPattern.username"
+ ],
+ "description": "The URLPattern API creates patterns that can be matched against URLs or URL components.",
+ "description_html": "The <code>URLPattern</code> API creates patterns that can be matched against URLs or URL components.",
+ "kind": "feature",
+ "name": "URLPattern",
+ "spec": [
+  "https://urlpattern.spec.whatwg.org/"
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2025-09-15",
+  "by_compat_key": {
+   "api.URLPattern": {
+    "baseline": "low",
+    "baseline_low_date": "2025-09-15",
+    "support": {
+     "chrome": "95",
+     "chrome_android": "95",
+     "edge": "95",
+     "firefox": "142",
+     "firefox_android": "142",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.URLPattern.URLPattern": {
+    "baseline": "low",
+    "baseline_low_date": "2025-09-15",
+    "support": {
+     "chrome": "95",
+     "chrome_android": "95",
+     "edge": "95",
+     "firefox": "142",
+     "firefox_android": "142",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.URLPattern.URLPattern.ignoreCase_option": {
+    "baseline": "low",
+    "baseline_low_date": "2025-09-15",
+    "support": {
+     "chrome": "107",
+     "chrome_android": "107",
+     "edge": "107",
+     "firefox": "142",
+     "firefox_android": "142",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.URLPattern.exec": {
+    "baseline": "low",
+    "baseline_low_date": "2025-09-15",
+    "support": {
+     "chrome": "95",
+     "chrome_android": "95",
+     "edge": "95",
+     "firefox": "142",
+     "firefox_android": "142",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.URLPattern.hasRegExpGroups": {
+    "baseline": "low",
+    "baseline_low_date": "2025-09-15",
+    "support": {
+     "chrome": "122",
+     "chrome_android": "122",
+     "edge": "122",
+     "firefox": "142",
+     "firefox_android": "142",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.URLPattern.hash": {
+    "baseline": "low",
+    "baseline_low_date": "2025-09-15",
+    "support": {
+     "chrome": "95",
+     "chrome_android": "95",
+     "edge": "95",
+     "firefox": "142",
+     "firefox_android": "142",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.URLPattern.hostname": {
+    "baseline": "low",
+    "baseline_low_date": "2025-09-15",
+    "support": {
+     "chrome": "95",
+     "chrome_android": "95",
+     "edge": "95",
+     "firefox": "142",
+     "firefox_android": "142",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.URLPattern.password": {
+    "baseline": "low",
+    "baseline_low_date": "2025-09-15",
+    "support": {
+     "chrome": "95",
+     "chrome_android": "95",
+     "edge": "95",
+     "firefox": "142",
+     "firefox_android": "142",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.URLPattern.pathname": {
+    "baseline": "low",
+    "baseline_low_date": "2025-09-15",
+    "support": {
+     "chrome": "95",
+     "chrome_android": "95",
+     "edge": "95",
+     "firefox": "142",
+     "firefox_android": "142",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.URLPattern.port": {
+    "baseline": "low",
+    "baseline_low_date": "2025-09-15",
+    "support": {
+     "chrome": "95",
+     "chrome_android": "95",
+     "edge": "95",
+     "firefox": "142",
+     "firefox_android": "142",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.URLPattern.protocol": {
+    "baseline": "low",
+    "baseline_low_date": "2025-09-15",
+    "support": {
+     "chrome": "95",
+     "chrome_android": "95",
+     "edge": "95",
+     "firefox": "142",
+     "firefox_android": "142",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.URLPattern.search": {
+    "baseline": "low",
+    "baseline_low_date": "2025-09-15",
+    "support": {
+     "chrome": "95",
+     "chrome_android": "95",
+     "edge": "95",
+     "firefox": "142",
+     "firefox_android": "142",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.URLPattern.test": {
+    "baseline": "low",
+    "baseline_low_date": "2025-09-15",
+    "support": {
+     "chrome": "95",
+     "chrome_android": "95",
+     "edge": "95",
+     "firefox": "142",
+     "firefox_android": "142",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   },
+   "api.URLPattern.username": {
+    "baseline": "low",
+    "baseline_low_date": "2025-09-15",
+    "support": {
+     "chrome": "95",
+     "chrome_android": "95",
+     "edge": "95",
+     "firefox": "142",
+     "firefox_android": "142",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   }
+  },
+  "support": {
+   "chrome": "95",
+   "chrome_android": "95",
+   "edge": "95",
+   "firefox": "142",
+   "firefox_android": "142",
+   "safari": "26",
+   "safari_ios": "26"
+  }
+ },
+ "id": "urlpattern",
+ "groups": [],
+ "specs": [
+  {
+   "url": "https://urlpattern.spec.whatwg.org/",
+   "seriesComposition": "full",
+   "shortname": "urlpattern",
+   "series": {
+    "shortname": "urlpattern",
+    "currentSpecification": "urlpattern",
+    "title": "URL Pattern",
+    "shortTitle": "URL Pattern",
+    "nightlyUrl": "https://urlpattern.spec.whatwg.org/"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "URL Workstream",
+     "url": "https://urlpattern.spec.whatwg.org/"
+    }
+   ],
+   "nightly": {
+    "url": "https://urlpattern.spec.whatwg.org/",
+    "status": "Living Standard",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/urlpattern",
+    "sourcePath": "spec.bs",
+    "filename": "index.html"
+   },
+   "title": "URL Pattern",
+   "source": "whatwg",
+   "shortTitle": "URL Pattern",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "urlpattern"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/URL_Pattern_API",
+   "title": "URL Pattern API",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/URL_Pattern_API"
+  }
+ ],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/566",
+   "position": "positive",
+   "concerns": []
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/61",
+   "position": "support",
+   "concerns": []
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [
+  {
+   "name": "State of JS 2025",
+   "url": "https://2025.stateofjs.com/en-US/features/#browser_api_features",
+   "question": "features",
+   "subQuestion": "browser_api_features",
+   "path": "dataAPI.surveys.state_of_js.js2025.features.browser_api_features.combined.allEditions.1.buckets.8.entity"
+  }
+ ],
+ "chromeUseCounters": {
+  "percentageOfPageLoad": 0.02026663,
+  "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/326"
+ },
+ "interop": [
+  {
+   "year": 2025,
+   "label": "interop-2025-urlpattern",
+   "url": "https://wpt.fyi/interop-2025?feature=interop-2025-urlpattern"
+  }
+ ],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:urlpattern"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2025-09-15T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2028-03-15"
+}

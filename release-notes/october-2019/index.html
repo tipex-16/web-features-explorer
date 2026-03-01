@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Web platform features explorer - October 2019 release notes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
+    <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
+  </head>
+  <body>
+
+    
+      <header>
+        <a href="/web-features-explorer/">Web platform features explorer</a>
+
+        <nav>
+          <ul>
+            <li><a href="/web-features-explorer/release-notes/february-2026">Release notes</a></li>
+            <li><a href="/web-features-explorer/newly-available">Explore features</a></li>
+            <li><a href="/web-features-explorer/about">About</a></li>
+          </ul>
+          <search>
+            <form>
+              <input type="search" id="search" placeholder="Search">
+            </form>
+          </search>
+        </nav>
+
+        <output for="search"></output>
+      </header>
+    
+
+    
+<main class="release-notes">
+  <h1>📃 October 2019 release notes</h1>
+
+  <div>
+    
+
+    
+      <section class="baseline-high">
+        <h2>Widely available</h2>
+        <p>The following features are now widely available:</p>
+        <ul>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/async-await/">Async functions</a></strong>:
+              The <code>async</code> and <code>await</code> keywords allow you to use the asynchronous, promise-based behavior of a function without using promise chains.
+            </li>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/composition-events/">Composition events</a></strong>:
+              The <code>compositionstart</code>, <code>compositionupdate</code>, and <code>compositionend</code> events fire when an input method editor adds characters that might not be commonly available on keyboards. Examples of these characters are emoji, logograms in Asian languages, or input from speech recognition processors.
+            </li>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/custom-properties/">Custom properties</a></strong>:
+              Custom properties are CSS properties prefixed with <code>--</code> that set values you can reuse with the <code>var()</code> function. For example, you can set a <code>--key-color</code> property to reuse as <code>border-color: var(--key-color)</code>. Also known as CSS variables.
+            </li>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/display-table/">display: table</a></strong>:
+              The <code>display: table</code> CSS declaration renders an element with the box layout of a <code>&#x3C;table></code> HTML element. Child elements may use equivalents to <code>&#x3C;table></code> internal elements such as <code>display: table-row</code> for <code>&#x3C;tr></code>.
+            </li>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/font-feature-settings/">font-feature-settings</a></strong>:
+              The <code>font-feature-settings</code> CSS property sets low-level OpenType feature tags for a font. When possible, use <code>font-variant</code> instead.
+            </li>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/outlines/">Outlines</a></strong>:
+              The <code>outline-color</code>, <code>outline-style</code>, and <code>outline-width</code> and <code>outline-offset</code> CSS properties style a line around an element, outside of the border.
+            </li>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/string-pad/">String padStart() and padEnd()</a></strong>:
+              The <code>padStart()</code> and <code>padEnd()</code> methods of strings return a string lengthened to a minimum number of characters by adding characters to the start or end of the string.
+            </li>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/text-stroke-fill/">Text stroke and fill  (compatibility prefixes)</a></strong>:
+              The <code>-webkit-text-stroke-width</code> and <code>-webkit-text-stroke-color</code> CSS properties set the thickness and color of text outlines. The <code>-webkit-text-fill-color</code> sets the color within text character outlines. Both default to the text color.
+            </li>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/webgl-debug-renderer-info/">WEBGL_debug_renderer_info WebGL extension</a></strong>:
+              The <code>WEBGL_debug_renderer_info</code> extension for WebGL 1.0 and 2.0 contexts exposes information about the graphics driver for debugging purposes.
+            </li>
+          
+        </ul>
+      </section>
+    
+
+    
+      
+    
+      
+    
+      
+    
+      
+        <section class="baseline-false firefox">
+          <h2>New in Firefox</h2>
+          <p>The following features are now available in Firefox:</p>
+          <ul>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/numeric-separators/">Numeric separators</a></strong>:
+                To improve readability for numeric literals, underscores (<code>_</code>) can be used as separators. For example, <code>1_050.95</code> is equivalent to <code>1050.95</code>.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/quotes/">Quotes</a></strong>:
+                The <code>quotes</code> CSS property sets the quotation marks inserted via the <code>content</code> CSS property or <code>&#x3C;q></code> element.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/text-underline-offset/">text-underline-offset</a></strong>:
+                The <code>text-underline-offset</code> CSS property shifts underlines on text from the initial position by a given distance. The initial position is affected by the <code>text-underline-position</code> property.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/two-value-display/">Two-value display property</a></strong>:
+                The <code>display</code> CSS property accepts multiple keyword values, such as <code>inline flex</code> or <code>block flow</code>, to explicitly set an element's inner and outer layout mode. Also known as 2-value, multi-keyword, or multiple value syntax.
+              </li>
+            
+          </ul>
+        </section>
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+
+  <aside>
+    <h2>Other release notes</h2>
+    <ul>
+      
+        
+          <li class="month-entry">
+            <a href="../february-2026">February 2026</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../january-2026">January 2026</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../december-2025">December 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../november-2025">November 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../october-2025">October 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../september-2025">September 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../august-2025">August 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../july-2025">July 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../june-2025">June 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../may-2025">May 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../april-2025">April 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../march-2025">March 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../february-2025">February 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../january-2025">January 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../december-2024">December 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../november-2024">November 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../october-2024">October 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../september-2024">September 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../august-2024">August 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../july-2024">July 2024</a>
+          </li>
+        
+      
+        
+          <li><a href="../">See all</a></li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </ul>
+  </aside>
+</main>
+
+
+        
+      <script src="/web-features-explorer/assets/search.js" defer=""></script>
+    
+  </body>
+</html>

@@ -1,0 +1,131 @@
+{
+ "compat_features": [
+  "webdriver.classic.CreateVirtualSensor",
+  "webdriver.classic.DeleteVirtualSensor",
+  "webdriver.classic.GetVirtualSensorInformation",
+  "webdriver.classic.UpdateVirtualSensorReading"
+ ],
+ "description": "The CreateVirtualSensor WebDriver command creates a virtual sensor for testing applications that use sensor APIs, without the need for real device sensors.",
+ "description_html": "The <code>CreateVirtualSensor</code> WebDriver command creates a virtual sensor for testing applications that use sensor APIs, without the need for real device sensors.",
+ "group": [
+  "sensors",
+  "webdriver"
+ ],
+ "kind": "feature",
+ "name": "Virtual sensors",
+ "spec": [
+  "https://w3c.github.io/sensors/#automation"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "webdriver.classic.CreateVirtualSensor": {
+    "baseline": false,
+    "support": {
+     "chrome": "120",
+     "chrome_android": "120",
+     "edge": "120"
+    }
+   },
+   "webdriver.classic.DeleteVirtualSensor": {
+    "baseline": false,
+    "support": {
+     "chrome": "120",
+     "chrome_android": "120",
+     "edge": "120"
+    }
+   },
+   "webdriver.classic.GetVirtualSensorInformation": {
+    "baseline": false,
+    "support": {
+     "chrome": "120",
+     "chrome_android": "120",
+     "edge": "120"
+    }
+   },
+   "webdriver.classic.UpdateVirtualSensorReading": {
+    "baseline": false,
+    "support": {
+     "chrome": "120",
+     "chrome_android": "120",
+     "edge": "120"
+    }
+   }
+  },
+  "support": {
+   "chrome": "120",
+   "chrome_android": "120",
+   "edge": "120"
+  }
+ },
+ "id": "virtual-sensors",
+ "groups": [
+  "sensors",
+  "webdriver"
+ ],
+ "specs": [
+  {
+   "url": "https://w3c.github.io/sensors/#automation",
+   "seriesComposition": "full",
+   "shortname": "generic-sensor",
+   "series": {
+    "shortname": "generic-sensor",
+    "currentSpecification": "generic-sensor",
+    "title": "Generic Sensor API",
+    "shortTitle": "Generic Sensor API",
+    "releaseUrl": "https://www.w3.org/TR/generic-sensor/",
+    "nightlyUrl": "https://w3c.github.io/sensors/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Devices and Sensors Working Group",
+     "url": "https://www.w3.org/das/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/generic-sensor/",
+    "status": "Candidate Recommendation Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/sensors/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/sensors",
+    "sourcePath": "index.bs",
+    "filename": "index.html"
+   },
+   "title": "Generic Sensor API",
+   "source": "w3c",
+   "shortTitle": "Generic Sensor API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "generic-sensor"
+    ]
+   },
+   "fragment": "automation"
+  }
+ ],
+ "mdnUrls": [],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:virtual-sensors"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/224",
+  "votes": 0
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

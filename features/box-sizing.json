@@ -1,0 +1,156 @@
+{
+ "caniuse": [
+  "css3-boxsizing"
+ ],
+ "compat_features": [
+  "css.properties.box-sizing",
+  "css.properties.box-sizing.border-box",
+  "css.properties.box-sizing.content-box"
+ ],
+ "description": "The box-sizing CSS property sets whether an element's width and height are calculated based on the content-box, which does not count the size of borders or padding, or border-box, which does count them.",
+ "description_html": "The <code>box-sizing</code> CSS property sets whether an element's width and height are calculated based on the <code>content-box</code>, which does not count the size of borders or padding, or <code>border-box</code>, which does count them.",
+ "group": [
+  "layout"
+ ],
+ "kind": "feature",
+ "name": "box-sizing",
+ "spec": [
+  "https://drafts.csswg.org/css-sizing-3/#propdef-box-sizing"
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "css.properties.box-sizing": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "10",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "29",
+     "firefox_android": "29",
+     "safari": "5.1",
+     "safari_ios": "6"
+    }
+   },
+   "css.properties.box-sizing.border-box": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "10",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "29",
+     "firefox_android": "29",
+     "safari": "5.1",
+     "safari_ios": "6"
+    }
+   },
+   "css.properties.box-sizing.content-box": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "10",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "29",
+     "firefox_android": "29",
+     "safari": "5.1",
+     "safari_ios": "6"
+    }
+   }
+  },
+  "support": {
+   "chrome": "10",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "29",
+   "firefox_android": "29",
+   "safari": "5.1",
+   "safari_ios": "6"
+  }
+ },
+ "id": "box-sizing",
+ "groups": [
+  "layout"
+ ],
+ "specs": [
+  {
+   "url": "https://drafts.csswg.org/css-sizing-3/#propdef-box-sizing",
+   "seriesComposition": "full",
+   "shortname": "css-sizing-3",
+   "series": {
+    "shortname": "css-sizing",
+    "currentSpecification": "css-sizing-3",
+    "title": "CSS Box Sizing",
+    "shortTitle": "CSS Sizing",
+    "releaseUrl": "https://www.w3.org/TR/css-sizing/",
+    "nightlyUrl": "https://drafts.csswg.org/css-sizing/"
+   },
+   "seriesVersion": "3",
+   "shortTitle": "CSS Sizing 3",
+   "seriesNext": "css-sizing-4",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-sizing-3/",
+    "status": "Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-sizing-3/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-sizing-3/",
+     "https://w3c.github.io/csswg-drafts/css-sizing/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-sizing-3/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Box Sizing Module Level 3",
+   "source": "w3c",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-sizing"
+    ]
+   },
+   "fragment": "propdef-box-sizing"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/CSS/Reference/Properties/box-sizing",
+   "title": "box-sizing",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/box-sizing"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:box-sizing"
+ },
+ "developerSignals": null,
+ "bugs": {},
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z"
+}
