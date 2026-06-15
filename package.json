@@ -10,7 +10,7 @@
     "browser-specs": "^5.2.0",
     "glob": "^13.0.6",
     "pagefind": "^1.5.2",
-    "playwright": "^1.60.0",
+    "playwright": "^1.61.0",
     "web-features": "next",
     "yaml": "^2.9.0"
   },
